@@ -1,0 +1,15 @@
+{
+  "languages": [
+    {
+      "id": "en",
+      "label": "English",
+      "nativeLabel": "English",
+      "default": true
+    },
+    {
+      "id": "es",
+      "label": "Spanish",
+      "nativeLabel": "Español"
+    }
+  ]
+}

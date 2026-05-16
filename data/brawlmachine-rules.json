@@ -1,0 +1,322 @@
+{
+  "document_title": "BRAWLMACHINE MK4",
+  "generated_for": "Alvaro Isorna Baez (alvaro.isorna@gmail.com)",
+  "version": "2025-06-16",
+  "contents_page": 3,
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "WHAT IS BRAWLMACHINE?",
+      "page": 4,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Brawlmachine is a format for skirmish 50 pts games of Warmachine. It has a Field Allowance of 1, custom scenarios for the smaller game size, and a limited list of restricted models for the format called the watchlist. [cite: 12, 13]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Terrain, scoring, game tiebreakers, and scenario elements are described in the Steamroller document, and are unchanged in Brawlmachine. [cite: 14]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Warmachine is the intellectual property of Steam Forged Games and is a fast paced miniature game with a big competitive scene. Warmachine is described in detail in the Warmachine app which is recommended for anybody looking into Warmachine. [cite: 15, 16]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Brawlmachine was first made for mk3 by Line of Sight. The format quickly became a staple format for the Warmachine player community and was popular among both new players and returning players. It was used in tournaments as well as the official format of Steamroller. The crew behind reviving the format and making it fit the MK4 rules is called Circle of Blindness. [cite: 17, 18, 19, 20]"
+        }
+      ]
+    },
+    {
+      "id": "army_composition",
+      "title": "ARMY COMPOSITION",
+      "page": 4,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A Brawlmachine army may not use more than 50 points. Models in a Brawlmachine army have a Field Allowance of 1, with the exception of mk4 cohort models. These instead have FA:1 for their respective loadouts of arms/heads et cetera. [cite: 22, 23, 24]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Example: a Storm Legion heavy warjack Stryker is equipped with HEAD: Relentless charge, RIGHT ARM: Electro bombard, LEFT ARM: Galvanic Shield. If that Storm legion player wants to add another Stryker, that warjack can be equipped with any of the other choices available, i.e. for the HEAD: the Stryker may choose Arcane Precision, Overtake or Plasma Nimbus, but NOT Relentless Charge. [cite: 25, 26]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that command cards also have FA:1 for any faction that can bring any other number of the same card. [cite: 27]"
+        },
+        {
+          "type": "paragraph",
+          "text": "A Brawlmachine army may not include any 120 mm models or 80 mm models. [cite: 28]"
+        }
+      ]
+    },
+    {
+      "id": "watchlist",
+      "title": "WATCHLIST",
+      "page": 5,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "When playing Warmachine, most models are balanced for 100 pts games. At 50 points some models could make the game unbalanced. In order to support balanced competitive play, some models will be placed on the watchlist which a tournament organizer might use to ban those certain models from the event. [cite: 31, 32, 33]"
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchlist consists of three colored levels:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Red: Models that have been proved to impact the games in such a way that they provide an unfair advantage. Models on the red watchlist should never be included in a brawl list. [cite: 35, 36]",
+            "Orange: Models proved to make the game uneven, but not as oppressive as models in the red category. Models on the orange watchlist should be used with caution. Do not use these models against new players and respect those who don't want to play against them. Many tournament organizers ban both red and orange watchlist models. [cite: 37, 38, 39, 40]",
+            "Yellow: Models that seem very strong in the format, but have not been proved to impact the games as models in the red and orange categories. Feel free to include these models in your lists and make sure to give your feedback regarding them. [cite: 41, 42]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchlist includes specific models for various factions:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Crucible Guard: *Major Aline Bennet (Unit spawn or recursion feat/ability) [cite: 44, 45]",
+            "Orgoth: Orsus the Betrayed (Orgoth sea raider), *Horrusk, The Thousand Wraths (Scenario oppressive feat) [cite: 46, 47, 48]",
+            "Dark Host: *Goreshade the Bastard (Unit spawn or recursion feat/ability) [cite: 49, 50]",
+            "Necrofactorium: *Master Necrosurgeon Sepsira (Unit spawn or recursion feat/ability), Lich Lord Dekathus (Unfair output), Necrosurgeons (Recursion) [cite: 51, 52, 53]",
+            "Dusk: Vaelyss, the Hand of Mourning (Ghost of Ios), Hazaroth, Narcissar of Ruin (House Kalyss), *Morayne, the Blade of Twilight (Negating attacks), *Scyrafael, Nis-Issyr of Desolations (Scenario oppressive feat), Dreadguard Cavalry (Unfair output) [cite: 54, 55, 56, 57, 58]",
+            "Army of the Western Reaches: Supreme Archdomina Makeda [cite: 59, 60]",
+            "Soldiers of Fortune: *Drake MacBain (Negating attacks), Magnus the Warlord [cite: 62, 63]",
+            "Dark Operations: *Exulon Thexus (Scenario oppressive feat) [cite: 64, 65]",
+            "Old Umbrey: Vorony (Negating attacks) [cite: 66, 67]",
+            "Shadows of the Retribution: *Kaelyssa, the Night's Whisper (Scenario oppressive feat) [cite: 68, 69]",
+            "Khymaera: *Shyryss, the Flawless Dark (Scenario oppressive feat), Shades (Unfair output) [cite: 70, 71]",
+            "Storm of the North: *Grim Angus (Scenario oppressive feat), *Kolgrima Stonetruth, Winter Witch (Scenario oppressive feat) [cite: 72, 73, 74]",
+            "Rhul Guard: *Gorten Grundback (Scenario oppressive feat) [cite: 75, 76]",
+            "Winter Korps: *Kapitan Ekaterina Baranova (Scenario oppressive feat) [cite: 77, 78]",
+            "Secret Dominion: *Kreuger the Stormlord (Scenario oppressive feat) [cite: 79, 80]",
+            "Talion Charter: *Captain Bartolo Montador (Scenario oppressive feat) [cite: 81, 82]",
+            "Brineblood Marauders: *Braghen Ragemonger (Unfair output) [cite: 83, 84]",
+            "Storm Legion: *Major Allister Caine (Unfair output), Black 13 (Unfair output) [cite: 85, 86, 87]",
+            "Grave Diggers: Vargus, Black 13, Major Allister Caine [cite: 88, 89, 90, 91]",
+            "Other: Kreuger, Wrath of Blighterghast (MK4 Mercenary, Unfair output) [cite: 92, 93]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watchlist_reasoning",
+      "title": "REASONING BEHIND RED WATCHLIST",
+      "page": 7,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Orsus the Betrayed (Orgoth Sea Raider): The feat is the strongest recursion in the game, getting to revive solos and getting back unit members at full health (8 boxes) is ridiculous for the 50 point format. [cite: 96, 97]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaelyss, the Hand of Mourning (Ghost of Ios): Vaelyss is a support model that both can save friendly living models through threads of life and revive models like the dreadguard cavalry through grim returns. Vaelyss also has her avenging spirit form after being destroyed which is a very strong ability in the format. This combination earns her a spot on the red list. [cite: 98, 99, 100, 101]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hazaroth, Narcissar of Ruin (House Kalyss): Hazaroth has invocations of dust and access to units like the dreadguard cavalry. Getting to save warrior models 7-8 times in a row, every turn. This ability earns Hazaroth a spot on the red list. [cite: 102, 103, 104, 105]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kreuger, Wrath of Blighterghast (MK4 Mercenary): Kreuger has autoheal, 2 fully boosted spray attacks, and 18 inches innate threatrange. He can also buff, debuff and autohit. Furthermore his defensive stats are some of the best at his point cost. For 7 points, we still felt that he was too much. [cite: 106, 107, 108, 109]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Magnus the Warlord (Soldiers of Fortune): Magnus is scenario oppressive and has close to no counterplay. Getting stuck in turn 2 and losing the game without having a fighting chance is a bad player experience. This earns Magnus a spot on the red list. [cite: 111, 112, 113, 114]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Supreme Archdomina Makeda (Army of the Western reaches): Similar to Hazaroth, Makeda can make the cavalry close to immortal with her stay death ability. It takes far too many attacks in this format for the interaction to be okay. [cite: 115, 116, 117]"
+        }
+      ]
+    },
+    {
+      "id": "scenario_rules",
+      "title": "SCENARIOS",
+      "page": 8,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Brawlmachine scenarios are based on the rules in the steamroller document. If questions about scoring, measurements or something else occurs a good idea is to check the steamroller document for guidance. [cite: 120, 121]"
+        },
+        {
+          "type": "definition",
+          "term": "Objectives",
+          "definition": "50 mm objectives are scored by a cohort model or leader model within 3 inches of the objective if not contested. 40 mm objectives are scored by every remaining model in a unit or leader model within 3 inches of the objective if not contested. [cite: 125, 126]"
+        },
+        {
+          "type": "definition",
+          "term": "Caches",
+          "definition": "Caches are scored using any model's action while within 3 inches of the uncontested cache. [cite: 127]"
+        },
+        {
+          "type": "definition",
+          "term": "Flags",
+          "definition": "Flags are used to mark scenario terrain which is chosen to be any terrain feature within 5 inches of the flag. Scenario terrain is scored with a minimum of two models within the terrain feature. If the terrain feature is an obstruction or obstacle, scoring or contesting is instead within 2 inches of the scenario terrain. [cite: 128, 129, 130]"
+        },
+        {
+          "type": "definition",
+          "term": "Clock",
+          "definition": "Brawlmachine is played with 40 minutes for each player when played online and with 35 minutes for each player when played IRL. Using all time will result in a loss. [cite: 131, 132]"
+        },
+        {
+          "type": "definition",
+          "term": "Scoring",
+          "definition": "Each objective scores 1 VP when controlled. Scoring is done after each turn, starting at the second player's second turn. Securing at least 3 VP more than an opponent after an opponent's turn is considered a win. [cite: 133, 134, 135]"
+        },
+        {
+          "type": "definition",
+          "term": "Caster Kill",
+          "definition": "Destroying or removing the opponents leader is considered a win. [cite: 136]"
+        },
+        {
+          "type": "definition",
+          "term": "Turns",
+          "definition": "Each player may play up to 7 turns. If no win conditions are met at the end of the second player's 7th turn, the player with most scenario points is considered the winner. If tied, the player with the most army points within 3 inches of any objective wins. If still tied, the player with the most time left wins. [cite: 137, 138, 139]"
+        },
+        {
+          "type": "definition",
+          "term": "Kill Box",
+          "definition": "Starting on the first player's second turn, if a player ends their turn with a friendly leader model completely within 12\" of their table edge, the opponent immediately scores 2 Victory Points. [cite: 140]"
+        }
+      ]
+    },
+    {
+      "id": "scenario_list",
+      "title": "SCENARIO LIST",
+      "page": 9,
+      "content": [],
+      "sub_sections": [
+        {
+          "id": "scenario_1",
+          "title": "SCENARIO 1: CACHE ME OUTSIDE",
+          "page": 9,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Both players place 3 caches at 20 inches from the back, first one at 12 inches from the left side and then another 2 with 10 inches apart from the last. Place one 50 mm objective at 16 inches from the back and 23 from the left side. [cite: 143, 144]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scoring one cache is 2 points. Scoring all caches is 3 extra points. [cite: 145, 146]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_2",
+          "title": "SCENARIO 2: GET OVER HERE",
+          "page": 10,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "1st player places a 40 mm objective 17 inches from the left side, 18 inches from the back. Also place a 50 mm objective 17 inches from the right side, 20 inches from the back. [cite: 159, 160]"
+            },
+            {
+              "type": "paragraph",
+              "text": "2nd player places a 40 mm objective at 17 inches from the right side, 16 inches from back. Then a 50 mm objective 17 inches from the left side, 18 inches from the back. [cite: 161, 162]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scoring any number of opponent's objectives is 1 extra point. [cite: 163]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_3",
+          "title": "SCENARIO 3: CROSS SECTION",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The 2nd player chooses if they want two 40mm objectives or two 50mm objectives on their side. The 1st player gets 2 objectives of the size not chosen by the 2nd player. [cite: 177, 178]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Objectives are placed 12 inches from the sides and 16 inches from the back. The cache is placed 23 inches from the side and 20 inches from the back. [cite: 179, 180]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scoring the cache is 2 points. The first player to score the cache gains 1 extra point. [cite: 181, 182]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_4",
+          "title": "SCENARIO 4: SIX FLAGS OVER IMMOREN",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Flags are placed 18 inches from the back and 12 inches from the sides. Also place flags 23 inches from the side and 16 inches in. [cite: 191, 192]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Opponents choose terrain features for each other's flags. The 1st player chooses the first terrain objective, then players take turns picking terrain objectives. [cite: 193]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scoring any number of opponents flags is 1 extra point. This scenario uses terrain features for all objectives, having at least 2 terrain features within 5\" of every flag is recommended. [cite: 194, 195]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_5",
+          "title": "SCENARIO 5: BEHIND ENEMY LINES",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Place a flag at 14 inches from the 1st player's left side and 20 inches from the back. Place a 40 mm objective at 18 inches from the back and 23 from the right. Place a 50 mm objective at 14 inches from the right side and 16 inches from the back. [cite: 202, 203, 204]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scoring an opponent's objective with a leader model is 2 extra points. [cite: 205]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_6",
+          "title": "SCENARIO 6: U TURN",
+          "page": 14,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Place a 40 mm objective 14 inches from the right side and 14 inches from the back and another at 14 from the left side and 20 from the back. Place a flag at 21 inches from the back and 23 inches from the right side. [cite: 219, 220]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Scoring both objectives on either the left or the right side is 1 extra point. [cite: 221]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "FEEDBACK",
+      "page": 15,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "We want your feedback, please write a message if you have thoughts on the watchlist, scenarios, typing errors or anything related to Brawlmachine. [cite: 234]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Email: brawlmachinefeedback@gmail.com [cite: 235]",
+            "Discord: https://discord.gg/w8nZ8PSR [cite: 236]",
+            "Watchlist feedback: https://forms.gle/Xo8n7chSMRHhrAWy9 [cite: 238]",
+            "Watchlist additions: https://forms.gle/mxMtR8thvUdpjd1C9 [cite: 238]",
+            "Scenario feedback: https://forms.gle/eNnt1hdtBvtrxrq39 [cite: 238]"
+          ]
+        }
+      ]
+    }
+  ]
+}

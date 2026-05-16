@@ -1,0 +1,65 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-player1 { fill: #E0B0B0; } /* Light Reddish */
+    .bg-player2 { fill: #B0B0E0; } /* Light Bluish */
+    .bg-player3 { fill:rgb(176, 224, 198); } /* Light Greenish */
+    .bg-neutral { fill: #D0D0D0; } /* Light Grey for neutral zone */
+    .objective { fill: #505050; stroke: black; stroke-width: 1; }
+    .objective-text { fill: white; font-family: Arial, sans-serif; font-size: 20px; text-anchor: middle; dominant-baseline: central; }
+    .flag-cache { fill: #303030; stroke: black; stroke-width: 1; }
+    .flag-cache-text { fill: white; font-family: Arial, sans-serif; font-size: 18px; text-anchor: middle; dominant-baseline: central; }
+    .label-text { fill: black; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .measurement-text { fill: black; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    .p1 { fill: orange; }
+    .p2 { fill: lightblue; }
+    .p3 { fill: lightgreen; }
+  </style>
+
+  <!-- Backgrounds -->
+
+  <rect class="bg-neutral" x="0" y="0" width="600" height="463" />
+  <rect class="bg-player3" x="0" y="463" width="600" height="137" />
+  <circle class="bg-player1" cx="0" cy="0" r="137" />
+  <circle class="bg-player2" cx="600" cy="0" r="137" />
+
+  <!-- Deployment Zone Labels -->
+  <text class="label-text" x="120" y="30">Player 1</text>
+  <text class="label-text" x="150" y="50">Deployment Zone</text>
+
+  <text class="label-text" x="480" y="30">Player 2</text>
+  <text class="label-text" x="450" y="50">Deployment Zone</text>
+
+  <text class="label-text" x="350" y="540">Player 3</text>
+  <text class="label-text" x="380" y="560">Deployment Zone</text>
+
+  <!-- Measurements (approximate visual placement) -->
+  <text class="measurement-text" x="70" y="50">11"</text>
+  <text class="measurement-text" x="550" y="50">11"</text>
+  <text class="measurement-text" x="270" y="540">11"</text>
+
+  <text class="measurement-text" x="150" y="280">23"</text>
+  <text class="measurement-text" x="270" y="110">23"</text> <!-- Bottom center C -->
+
+  <!-- P1 Flag (Top Left) -->
+  <circle class="flag-cache" cx="108" cy="108" r="15" />
+  <text class="flag-cache-text p1" x="108" y="108">F</text>
+
+  <!-- P2 Flag (Top Right) -->
+  <circle class="flag-cache" cx="492" cy="108" r="15" />
+  <text class="flag-cache-text p2" x="492" y="108">F</text>
+
+  <!-- P3 Objective 50 (Mid) -->
+  <circle class="objective" cx="300" cy="300" r="25" />
+  <text class="objective-text p3" x="300" y="300">50</text>
+
+  <!-- P3 Flag (Bottom Center) -->
+  <circle class="flag-cache" cx="300" cy="448" r="15" />
+  <text class="flag-cache-text p3" x="300" y="448">F</text>
+
+  <!-- lines -->
+  <line x1="0" y1="0" x2="96" y2="96" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- P1 deploy -->
+  <line x1="300" y1="463" x2="300" y2="600" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- P3 deploy -->
+
+  <line x1="0" y1="300" x2="275" y2="300" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- LEFT 0 bottom 23 -->
+  <line x1="300" y1="0" x2="300" y2="275" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- left 23 TOP 23 -->
+</svg>

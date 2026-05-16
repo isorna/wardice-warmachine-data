@@ -1,0 +1,1848 @@
+{
+  "document_title": "WARMACHINE CORE BOOK",
+  "generated_for": "Alvaro Isorna Baez (alvaro.isorna@gmail.com)",
+  "version": "MK4 Abridged",
+  "contents_page": 5,
+  "sections": [
+    {
+      "id": "credits",
+      "title": "CREDITS",
+      "page": 2,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "WARMACHINE TEAM: Mat Hart (Founder and Chief Creative Officer), Sherwin Matthews (Senior Product Owner), Jamie Perkins, Steve Margetson (Product Owner), Stuart Stockdale (Editor), Elliott Smith (Art Director), Mike Kay (Graphic Designer), Carl Matthews (Project Manager)."
+        },
+        {
+          "type": "paragraph",
+          "text": "PRIVATEER PRESS: Matt Wilson (Creator of WARMACHINE and Chief Creative Officer), Erik Reiersen (Development Manager), Jason Soles (Lead Developer), Loren Lower (Developer), Matt Goetz (Story Advisor)."
+        },
+        {
+          "type": "paragraph",
+          "text": "STEAMFORGED GAMES LTD. Founders: Mat Hart (CCO), Rich Loxam (CEO)."
+        }
+      ]
+    },
+    {
+      "id": "foreword",
+      "title": "FOREWORD",
+      "page": 4,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Writing a WARMACHINE rulebook introduction feels more than a little surreal. Somebody pinch me! Somewhere around fifteen years ago, Rich Loxam and I first met while playing WARMACHINE. Now, after countless battles and years as devoted fans, we find ourselves truly blessed to be entrusted as custodians of the Iron Kingdoms."
+        },
+        {
+          "type": "paragraph",
+          "text": "It's a huge responsibility. Fortunately, we're stepping into a world meticulously crafted by Privateer Press, and so we can truly stand on the shoulders of giants. To Matt Wilson and team: our heartfelt thanks for building the Iron Kingdoms and helping us develop its future."
+        },
+        {
+          "type": "paragraph",
+          "text": "From the start, our guiding star has been the three pillars of WARMACHINE: Casual Play, Matched Play, and Hobby. This game has always been about far more than winning at all costs. It's about community and belonging; about having a reason to head down to your local game store on a Wednesday night, finding likeminded folks to chuck dice and paint with."
+        },
+        {
+          "type": "paragraph",
+          "text": "So, I invite you: Play bravely, play boldly, play beautifully, and have some bloody fun with each other! Forge your own stories on the tabletop, tell us about them on Discord and Facebook, and remember, the game is infinitely better when you play with painted miniatures."
+        },
+        {
+          "type": "paragraph",
+          "text": "- Mat Hart, Steamforged Games"
+        }
+      ]
+    },
+    {
+      "id": "chapter_1",
+      "title": "CHAPTER 1: RULES BASICS",
+      "page": 60,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Set in the steam-powered fantasy world of the Iron Kingdoms, WARMACHINE is a fast-paced 32 mm tabletop miniatures game for two or more players to pit their forces against each other in epic battles of machines and beasts. Players collect, assemble, and paint fantastically detailed models representing the various warriors, creatures, and automata that make up their armies."
+        },
+        {
+          "type": "paragraph",
+          "text": "In WARMACHINE, players take on the role of elite soldier-sorcerers known as warcasters or battle-shamans known as warlocks. Though warcasters are formidable, their strength lies in their magical ability to control warjacks - massive military automatons. No less powerful are the warlocks, whose strength lies in their parasitic synergy with savage warbeasts monstrous creatures of flesh, blood, and bone."
+        },
+        {
+          "type": "paragraph",
+          "text": "A WARMACHINE army is built around a warcaster and their battlegroup of warjacks or a warlock and their battlegroup of warbeasts. Squads of soldiers and support teams can further bolster a battlegroup's combat capability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Whenever two or more special rules are triggered at the same time, such as 'attack hit' or 'end activation,' the active player chooses the order in which special rules on their models resolve and resolves them, then the inactive player chooses the order in which special rules on their models resolve and resolves them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some effects cause certain conditions of an attack, such as whether it hit or what models it disabled or destroyed, to change during resolution. When resolving triggered effects, recheck trigger conditions as you resolve each special rule. If a condition is no longer met, the effect does not resolve."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "summary_of_play",
+          "title": "SUMMARY OF PLAY",
+          "page": 61,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Before a battle begins, players agree on an encounter level, which determines the scope of the game being played, and a scenario for play. They then create their armies based on those guidelines. Next, the players determine the turn order. Once established, the turn order will not change throughout the game."
+            },
+            {
+              "type": "paragraph",
+              "text": "Battles are conducted in a series of game rounds. During a game round, each player receives one turn to command their army. During their turn, a player activates all the models in their army in an order of their choosing. When activated, a model can move and then make one of a variety of actions such as attacking or repairing a warjack."
+            }
+          ]
+        },
+        {
+          "id": "dice_and_rounding",
+          "title": "DICE AND ROUNDING",
+          "page": 61,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "WARMACHINE uses six-sided dice, abbreviated 'd6', to determine the success of attacks and other actions. Most events, such as attacks, require rolling two dice (abbreviated 2d6). Other events typically require rolling one to four dice."
+            },
+            {
+              "type": "paragraph",
+              "text": "The term d3 is a shortcut for 'roll a d6, divide by 2, and round up.' (1-2=1, 3-4=2, 5-6=3)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Die rolls often have modifiers, expressed as + or - some quantity. For example, '2d6+MAT' means roll two dice and add the MAT stat."
+            },
+            {
+              "type": "paragraph",
+              "text": "For distance measurements, use the actual result after dividing. For everything else, always round a fractional result to the next highest whole number."
+            }
+          ]
+        },
+        {
+          "id": "additional_dice_and_boosting",
+          "title": "ADDITIONAL DICE AND BOOSTED ROLLS",
+          "page": 61,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Additional Die",
+              "definition": "A die added to the number of dice a model would ordinarily roll. For example, rolling 3d6 instead of 2d6. A die roll can include multiple additional dice as long as each comes from a different rule."
+            },
+            {
+              "type": "definition",
+              "term": "Boosted Roll",
+              "definition": "A roll that gains one extra die. You must declare boosting before rolling. Each attack or damage roll can be boosted only once."
+            },
+            {
+              "type": "paragraph",
+              "text": "Boosting a roll is different from gaining additional dice. A roll can be both boosted and gain additional dice. A model that receives an additional die can still also boost that roll."
+            }
+          ]
+        },
+        {
+          "id": "general_guidelines",
+          "title": "GENERAL GUIDELINES",
+          "page": 62,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "For brevity, 'model with the special rule' is sometimes replaced with the rule's name (e.g., 'a 'jack marshal')."
+            },
+            {
+              "type": "definition",
+              "term": "Friendly models",
+              "definition": "All models you control."
+            },
+            {
+              "type": "definition",
+              "term": "Enemy models",
+              "definition": "Models controlled by your opponent."
+            },
+            {
+              "type": "paragraph",
+              "text": "When a rule references 'you' or 'yours', it refers to the player currently controlling the model. 'This model' refers to the model carrying the rule."
+            },
+            {
+              "type": "paragraph",
+              "text": "When a rule references 'Faction', it refers to the Faction of the model carrying the rule. (e.g., on a Mercenary model, 'friendly Faction warjack' means 'friendly Mercenary warjack')."
+            }
+          ]
+        },
+        {
+          "id": "rule_priority",
+          "title": "RULE PRIORITY",
+          "page": 62,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The rules of individual models take precedence over the rules in this rulebook. Unless otherwise specified, multiple instances of the same effect (same name) are not cumulative. Different effects are cumulative even if they apply the same modifier."
+            },
+            {
+              "type": "paragraph",
+              "text": "Conflict Resolution: 1. If one rule specifically states its interaction with another, follow it. 2. Special rules stating 'cannot' override rules stating 'can' or 'must'."
+            }
+          ]
+        },
+        {
+          "id": "use_of_any_time_rules",
+          "title": "USE OF 'ANY TIME' SPECIAL RULES",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Spells, feats, and other special rules that state they can be used 'at any time during this model's activation' can be used before moving, after moving, before making an attack, or after making an attack, but not while moving, attacking, or resolving another triggered effect."
+            },
+            {
+              "type": "paragraph",
+              "text": "A model cannot interrupt movement or an attack to use one of these special rules. Additionally, a model cannot use one of these special rules after running."
+            }
+          ]
+        },
+        {
+          "id": "sportsmanship",
+          "title": "SPORTSMANSHIP AND SHARING INFORMATION",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Although WARMACHINE simulates violent battles, you should strive to be a good sport. Always represent information honestly and share your records and information without hesitation."
+            }
+          ]
+        },
+        {
+          "id": "resolving_rules_issues",
+          "title": "RESOLVING RULES ISSUES",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Try to resolve issues quickly. If players cannot agree, check the rulebook briefly. If the dispute cannot be solved quickly, roll for a resolution: Each player rolls a d6, and the person with the highest result decides the outcome. Reroll ties."
+            }
+          ]
+        },
+        {
+          "id": "measuring_distances",
+          "title": "MEASURING DISTANCES",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A player can measure any distance for any reason at any time."
+            },
+            {
+              "type": "definition",
+              "term": "Within",
+              "definition": "A model is within a given distance when the nearest edge of its base is within that distance."
+            },
+            {
+              "type": "definition",
+              "term": "Completely Within",
+              "definition": "A model is completely within a given distance when its entire base is within that distance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "title": "CHAPTER 2: MODELS",
+      "page": 12,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "There are several basic model types: warcasters, warjacks, warlocks, warbeasts, troopers, solos, structures, and battle engines. Models are considered to be living unless otherwise noted."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "independent_models",
+          "title": "INDEPENDENT MODELS",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Independent models activate individually. These include warcasters, warjacks, warlocks, warbeasts, solos, structures, and battle engines."
+            }
+          ]
+        },
+        {
+          "id": "warcasters",
+          "title": "WARCASTERS",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A warcaster is a powerful sorcerer who controls a group of warjacks telepathically (a battlegroup). They use focus points to enhance combat abilities and cast spells."
+            },
+            {
+              "type": "paragraph",
+              "text": "All warcasters are independent Leader models and are characters."
+            }
+          ]
+        },
+        {
+          "id": "warjacks",
+          "title": "WARJACKS",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A warjack is a steam-powered automaton with a magical cortex, built for war. They require a warcaster to reach full potential."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warjacks are classified by base size: Light (40mm), Heavy (50mm), Super Heavy (80mm), Colossal (120mm). They are independent Cohort models, have the Construct advantage, and are not living."
+            }
+          ]
+        },
+        {
+          "id": "warlocks",
+          "title": "WARLOCKS",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A warlock is a powerful sorcerer or shaman who controls warbeasts telepathically. They use fury points drawn from their warbeasts."
+            },
+            {
+              "type": "paragraph",
+              "text": "All warlocks are independent Leader models and are characters."
+            }
+          ]
+        },
+        {
+          "id": "warbeasts",
+          "title": "WARBEASTS",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warbeasts are powerful creatures capable of being controlled by warlocks. They generate fury which strengthens their warlock."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warbeasts are classified by base size: Lesser (30mm), Light (40mm), Heavy (50mm), Super Heavy (80mm), Gargantuan (120mm). They are independent Cohort models."
+            }
+          ]
+        },
+        {
+          "id": "units",
+          "title": "UNITS",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A unit is a group of warrior models (troopers) operating as a single force. All members activate at the same time."
+            },
+            {
+              "type": "definition",
+              "term": "Grunts",
+              "definition": "Basic troopers in a unit."
+            },
+            {
+              "type": "definition",
+              "term": "Attachments",
+              "definition": "Specialized troopers added to a unit (Command or Weapon attachments)."
+            }
+          ]
+        },
+        {
+          "id": "model_statistics",
+          "title": "MODEL STATISTICS",
+          "page": 14,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "SPD (Speed): Movement rate.",
+                "AAT (Arcane Attack): Potency in combat when casting offensive spells.",
+                "MAT (Melee Attack): Skill with melee weapons.",
+                "RAT (Ranged Attack): Accuracy with ranged weapons.",
+                "DEF (Defense): Ability to avoid being hit.",
+                "ARM (Armor): Ability to resist damage.",
+                "ARC (Arcana): Arcane power (Warcasters/Warlocks) or Essence (Infernals).",
+                "FURY: Capacity to be forced (Warbeasts).",
+                "CTRL (Control Range): Radius of control for Warcasters/Warlocks.",
+                "THR (Threshold): Resistance to frenzy (Warbeasts)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Current Stats & Modifiers: Apply modifiers in order: 1. Double, 2. Halve, 3. Add, 4. Subtract."
+            }
+          ]
+        },
+        {
+          "id": "advantages",
+          "title": "ADVANTAGES",
+          "page": 16,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Advantages are common special rules marked as icons on a model's stat bar. Examples include:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Jack Marshal: Can command warjacks.",
+                "Advance Deployment: Deploy up to 3\" beyond deployment zone.",
+                "Ambush: Can be placed at table edge after first round.",
+                "Amphibious: Treats shallow water as open terrain.",
+                "Arc Node: Can channel spells.",
+                "Assault: Can make a ranged attack as part of a charge.",
+                "Construct: Not a living model.",
+                "Eyeless Sight: Ignores cloud effects and concealment.",
+                "Flight: Can fly.",
+                "Pathfinder: Treats rough terrain as open terrain.",
+                "Stealth: Attacks from >5\" away automatically miss.",
+                "Tough: On 5 or 6, disabled model heals 1 HP and is knocked down."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "resistances",
+          "title": "RESISTANCES",
+          "page": 17,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Models with resistance to a damage type (Blast, Cold, Corrosion, Electricity, Fire) remove one die from damage rolls of that type. They are also often immune to associated continuous effects."
+            }
+          ]
+        },
+        {
+          "id": "weapon_statistics",
+          "title": "WEAPON STATISTICS",
+          "page": 17,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "RNG (Range): Max distance for attack.",
+                "ROF (Rate of Fire): Number of initial ranged attacks.",
+                "AOE (Area of Effect): Diameter of blast area.",
+                "POW (Power): Value for damage rolls."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weapon_qualities",
+          "title": "WEAPON QUALITIES",
+          "page": 18,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Blessed: Ignores spell bonuses to ARM/DEF.",
+                "Continuous Effect: Fire/Corrosion: Inflicts continuous effect on hit.",
+                "Critical Disruption: Critical hit disrupts warjack (removes focus).",
+                "Damage Type: Magical: Causes magical damage.",
+                "Shield/Buckler: Grants ARM bonus.",
+                "Weapon Master: Adds an additional die to damage rolls."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "damage_capacity",
+          "title": "DAMAGE CAPACITY, GRIDS & LIFE SPIRALS",
+          "page": 19,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warjacks have damage grids with system boxes (Cortex, Movement, Weapons). Warbeasts have life spirals with aspects (Mind, Body, Spirit). Mark damage points on these grids/spirals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "title": "CHAPTER 3: GAMEPLAY",
+      "page": 20,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Battles are fought in game rounds. Each player takes a turn."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Activation Phase is the major portion of a player's turn. All models you control must be activated once per turn."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "the_player_turn",
+          "title": "THE PLAYER TURN",
+          "page": 20,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Maintenance Phase: Remove focus/fury, resolve continuous effects.",
+                "Control Phase: Replenish focus/leech fury, warjacks power up, resolve threshold checks.",
+                "Activation Phase: Activate models/units."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "activation_phase",
+          "title": "ACTIVATION PHASE",
+          "page": 21,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Units and independent models are activated one at a time in the order you choose. A model cannot forfeit its activation unless allowed to do so by a special rule. A model must be on the table to activate."
+            }
+          ]
+        },
+        {
+          "id": "activating_models_and_units",
+          "title": "ACTIVATING MODELS & UNITS",
+          "page": 21,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When a model or unit activates, the activation is divided into its Normal Movement and its Combat Action. Normal Movement must be resolved before progressing to the Combat Action."
+            },
+            {
+              "type": "definition",
+              "term": "Activating Independent Models",
+              "definition": "Only one independent model can activate at a time. It makes its Normal Movement (if not forfeited), then resolves its Combat Action (if not forfeited), then ends its activation."
+            },
+            {
+              "type": "definition",
+              "term": "Activating Units",
+              "definition": "The entire unit activates at once. After resolving the unit's Normal Movement, each trooper makes its Combat Action. The unit must end its activation before another model/unit activates."
+            },
+            {
+              "type": "paragraph",
+              "text": "Models can voluntarily forfeit Normal Movement or Combat Action for benefits (like Aiming) but cannot forfeit if already required to forfeit."
+            }
+          ]
+        },
+        {
+          "id": "movement",
+          "title": "MOVEMENT",
+          "page": 21,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Advancing refers to intentional movement. Measure from the front of the base. A model's base cannot pass over another model's base while advancing."
+            },
+            {
+              "type": "definition",
+              "term": "Unit Movement",
+              "definition": "Choose one trooper to move. Place remaining troopers within 2\" of that model and within line of sight. Models that cannot be placed are destroyed."
+            }
+          ]
+        },
+        {
+          "id": "normal_movement",
+          "title": "NORMAL MOVEMENT",
+          "page": 22,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When resolving Normal Movement, choose one:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Forfeit Normal Movement",
+                "Aim: Normal Movement ends. Gain +2 bonus to ranged attack rolls (unless engaged).",
+                "Full Advance: Advance up to current SPD in inches.",
+                "Run: Advance up to SPD + 5\". Must forfeit Combat Action. Activation ends immediately after moving.",
+                "Charge: Rush into melee range for a powerful strike."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "charge",
+          "title": "CHARGE",
+          "page": 22,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Requires a melee weapon. Cannot charge a friendly model or while engaged."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Declare target (requires LOS).",
+                "Advance up to SPD + 3\" in a straight line.",
+                "Must end with target in melee range (Successful Charge).",
+                "First melee attack against target is a Charge Attack (damage roll automatically boosted).",
+                "If target is not reached, it is a Failed Charge (activation ends)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "movement_restrictions",
+          "title": "MOVEMENT RESTRICTIONS",
+          "page": 25,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Move Toward",
+              "definition": "Distance to target must decrease or remain the same."
+            },
+            {
+              "type": "definition",
+              "term": "Move Directly Toward",
+              "definition": "Move along the straight line connecting center points."
+            },
+            {
+              "type": "definition",
+              "term": "Entering",
+              "definition": "A model enters an area when it moves/is placed from outside to inside."
+            }
+          ]
+        },
+        {
+          "id": "unintentional_movement",
+          "title": "UNINTENTIONAL MOVEMENT",
+          "page": 26,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Unintentional movement (pushes, slams) is not advancing."
+            },
+            {
+              "type": "definition",
+              "term": "Pushed",
+              "definition": "Moves a specific distance. Stops if contacting an obstacle, obstruction, or model."
+            },
+            {
+              "type": "definition",
+              "term": "Slammed",
+              "definition": "Moved directly away from source. Becomes knocked down. Suffers damage. If it hits an equal/larger base or terrain, suffers additional die of damage. Smaller models contacted are knocked down and suffer collateral damage."
+            },
+            {
+              "type": "definition",
+              "term": "Thrown",
+              "definition": "Moved directly away. Moves through smaller bases. Becomes knocked down. Similar damage rules to Slam."
+            },
+            {
+              "type": "definition",
+              "term": "Falling",
+              "definition": "Model moving off an elevated surface (>1\") falls. Becomes knocked down and suffers damage (POW 12 + d6 for every 2\" fallen)."
+            },
+            {
+              "type": "definition",
+              "term": "Rule of Least Disturbance",
+              "definition": "If bases overlap after unintentional movement, move the model that was not moving the least distance to clarify positions."
+            },
+            {
+              "type": "definition",
+              "term": "Placed",
+              "definition": "Teleportation-like effect. Must be placed in a valid location (cannot overlap bases or impassable terrain)."
+            }
+          ]
+        },
+        {
+          "id": "combat_actions",
+          "title": "COMBAT ACTIONS",
+          "page": 28,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "After Normal Movement, choose one:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Forfeit Combat Action.",
+                "Make one initial attack with each melee weapon.",
+                "Make initial attacks with each ranged weapon equal to ROF.",
+                "Make one special action (*Action).",
+                "Make one special attack (*Attack).",
+                "Make one power attack."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Unless noted, cannot make both melee and ranged attacks in the same action."
+            }
+          ]
+        },
+        {
+          "id": "line_of_sight",
+          "title": "LINE OF SIGHT (LOS)",
+          "page": 28,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A model must have LOS to target another model. Draw a straight line from attacker's volume to target's volume."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Line must not pass through blocking terrain.",
+                "Line must not pass over intervening models with equal/larger bases.",
+                "Line must not pass over blocking effects (clouds)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Troopers in the same unit do not block each other's LOS."
+            },
+            {
+              "type": "definition",
+              "term": "Model Volume",
+              "definition": "Standard cylinders defined by base size. Small (1.75\" high), Medium (2.25\"), Large (2.75\"), Huge (5\")."
+            }
+          ]
+        },
+        {
+          "id": "point_of_origin",
+          "title": "POINT OF ORIGIN",
+          "page": 83,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The point of origin of an effect or attack is the location or model from which the attack or effect originates. Typically, this is the model causing the effect or making the attack, but not always (e.g., arc nodes)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Both line of sight and any attack roll modifiers that depend on line of sight (such as concealment) are checked from the point of origin of the attack. Range is also checked from the point of origin."
+            }
+          ]
+        },
+        {
+          "id": "measuring_range",
+          "title": "MEASURING RANGE",
+          "page": 83,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When measuring range, measure from the edge of the point of origin's base nearest the target to the maximum range of the attack or special rule. If the nearest edge of the target model's base is within the maximum range, the target is in range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "title": "CHAPTER 4: COMBAT",
+      "page": 84,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A model's Combat Action is the part of its activation dedicated to making attacks. An attack roll determines if an attack hits, and a damage roll determines the damage dealt."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are three main types of attacks: melee attacks, ranged attacks, and arcane attacks."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "making_attacks",
+          "title": "MAKING ATTACKS",
+          "page": 84,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Declare the target. Check range (if beyond range, attack automatically misses). Make an attack roll."
+            },
+            {
+              "type": "definition",
+              "term": "Attack Roll",
+              "definition": "Roll 2d6 and add the appropriate stat (MAT, RAT, or AAT). If the total equals or exceeds the target's DEF, it is a hit."
+            },
+            {
+              "type": "definition",
+              "term": "Critical Hit",
+              "definition": "A hit where any two dice show the same number."
+            },
+            {
+              "type": "paragraph",
+              "text": "A roll of all 1s is a miss. A roll of all 6s is a direct hit (unless rolling only one die)."
+            }
+          ]
+        },
+        {
+          "id": "rerolls_and_triggers",
+          "title": "REROLLS & TRIGGERED EFFECTS",
+          "page": 85,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Rerolls occur before applying effects triggered by hitting/missing. Reroll results replace original results."
+            },
+            {
+              "type": "paragraph",
+              "text": "Resolve effects that trigger on a hit before making a damage roll."
+            },
+            {
+              "type": "paragraph",
+              "text": "Simultaneous Effects: Resolve all attack and damage rolls before applying target's special rules triggered by damage/destruction."
+            }
+          ]
+        },
+        {
+          "id": "melee_attacks",
+          "title": "MELEE ATTACKS",
+          "page": 85,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A model can make a melee attack against any target in its line of sight. Melee Attack Roll = 2d6 + MAT."
+            },
+            {
+              "type": "definition",
+              "term": "Melee Range",
+              "definition": "The longest melee range of a model's weapons. Individual weapons can only attack targets within their own range."
+            }
+          ]
+        },
+        {
+          "id": "engaged_and_engaging",
+          "title": "ENGAGED & ENGAGING",
+          "page": 86,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A model is engaged if it is within an enemy's melee range and LOS. It is engaging if an enemy is in its melee range and LOS."
+            },
+            {
+              "type": "paragraph",
+              "text": "Disengaging: A model that advances out of an enemy's melee range must forfeit its Combat Action."
+            }
+          ]
+        },
+        {
+          "id": "power_attacks",
+          "title": "POWER ATTACKS",
+          "page": 86,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Special attacks for Warjacks (spend 1 focus) and Warbeasts (forced). Cannot be made if the model charges (except specific instances) or as additional attacks."
+            },
+            {
+              "type": "paragraph",
+              "text": "Power Attack Damage: Based on base size comparison. Equal/Smaller = POW 12. Larger = POW 14. Collateral damage is calculated similarly."
+            }
+          ],
+          "sub_sections": [
+            {
+              "id": "headbutt",
+              "title": "HEADBUTT",
+              "page": 87,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Melee attack. If hit, target is knocked down and suffers power attack damage."
+                }
+              ]
+            },
+            {
+              "id": "slam",
+              "title": "SLAM",
+              "page": 87,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Full advance + 3\" directly toward target. If target reached, make melee attack. If hit, target is slammed d6\" directly away, knocked down, and suffers damage. Collateral damage applies to models passed through."
+                }
+              ]
+            },
+            {
+              "id": "throw",
+              "title": "THROW",
+              "page": 88,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Melee attack. If hit, target is thrown d6\" directly away, knocked down, and suffers damage. Thrown models move through smaller bases."
+                }
+              ]
+            },
+            {
+              "id": "trample",
+              "title": "TRAMPLE",
+              "page": 89,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Advance up to SPD + 3\" in a straight line through small-based models. Make melee attack rolls against contacted small-based models."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ranged_attacks",
+          "title": "RANGED ATTACKS",
+          "page": 89,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Attacks with ranged weapons. Range check required. Ranged Attack Roll = 2d6 + RAT."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Engaged Attacker: Can only target enemies engaging it. No aim bonus.",
+                "Target in Melee: +4 DEF against ranged attacks if target is in melee.",
+                "Concealment: +2 DEF (within 1\" of intervening terrain).",
+                "Cover: +4 DEF (within 1\" of intervening terrain)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "special_ranged_attacks",
+          "title": "SPECIAL RANGED RULES",
+          "page": 91,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Assault",
+              "definition": "Make one ranged attack as part of a charge before Combat Action."
+            },
+            {
+              "type": "definition",
+              "term": "Combined Melee/Ranged Attack",
+              "definition": "Models in a unit combine attacks. Primary attacker rolls with +1 hit/damage for each participant."
+            }
+          ]
+        },
+        {
+          "id": "aoe_attacks",
+          "title": "AREA-OF-EFFECT (AOE) ATTACKS",
+          "page": 92,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Potential to hit other models. Direct hit damages target. Blast damage affects models within AOE inches of target."
+            },
+            {
+              "type": "paragraph",
+              "text": "AOE stats: POW/Blast POW (e.g., 14/8). Blast damage is usually lower."
+            }
+          ]
+        },
+        {
+          "id": "spray_attacks",
+          "title": "SPRAY ATTACKS",
+          "page": 93,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A spray attack is a ranged attack using a spray template (SP 6, SP 8, or SP 10). The template is placed with the narrow end touching the point of origin's base edge."
+            },
+            {
+              "type": "paragraph",
+              "text": "Every model with any part of its base covered by the template is a potential target. Make a separate attack roll against each model under the template. Spray attacks ignore concealment, cover, stealth, and the target-in-melee DEF bonus. They do not suffer the penalty for firing into melee."
+            }
+          ]
+        },
+        {
+          "id": "damage",
+          "title": "DAMAGE",
+          "page": 94,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Damage Roll",
+              "definition": "Determines how much damage a target suffers. Roll 2d6 + POW of the weapon. Subtract the target's ARM. The result is the damage points taken."
+            },
+            {
+              "type": "definition",
+              "term": "Boosted Damage",
+              "definition": "A damage roll can be boosted (add one die) by spending focus, forcing, or special rules. Charge attacks automatically boost the first damage roll."
+            },
+            {
+              "type": "definition",
+              "term": "Additional Dice",
+              "definition": "Weapon Masters and other effects can add additional dice to damage rolls. This is cumulative with boosting."
+            }
+          ]
+        },
+        {
+          "id": "damage_types",
+          "title": "DAMAGE TYPES",
+          "page": 95,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Some weapons inflict specific damage types (Magical, Fire, Corrosion, Cold, Electricity). Immunities or resistances may apply."
+            },
+            {
+              "type": "definition",
+              "term": "Magical Damage",
+              "definition": "Damage from spells or weapons with the Magical quality. Needed to damage Incorporeal models."
+            }
+          ]
+        },
+        {
+          "id": "recording_damage",
+          "title": "RECORDING DAMAGE",
+          "page": 96,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Mark damage on the model's damage grid (Warjacks) or life spiral (Warbeasts). Single-wound models are destroyed upon taking 1 damage."
+            },
+            {
+              "type": "definition",
+              "term": "Warjack Damage Grids",
+              "definition": "Columns 1-6. Roll a d6 to determine which column takes the first point of damage, then fill boxes downwards. If a column is full, move to the next."
+            },
+            {
+              "type": "definition",
+              "term": "System Failure",
+              "definition": "When all boxes for a specific system (e.g., Cortex, Movement, R Arm) are marked, the system is crippled. Cortex crippled: loses focus points, cannot gain focus. Movement crippled: Base DEF becomes 5, cannot run/charge. Weapon crippled: -4 to attack/damage rolls with that weapon."
+            }
+          ]
+        },
+        {
+          "id": "life_spirals",
+          "title": "WARBEAST LIFE SPIRALS",
+          "page": 97,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warbeasts have aspects (Body, Mind, Spirit). Roll d6 to determine branch (1-2 Body, 3-4 Mind, 5-6 Spirit). Mark inwards."
+            },
+            {
+              "type": "definition",
+              "term": "Crippled Aspects",
+              "definition": "Lost Aspect triggers penalties. Body: -2 damage rolls. Mind: -2 attack rolls. Spirit: Cannot be forced."
+            }
+          ]
+        },
+        {
+          "id": "damage_states",
+          "title": "DISABLED, BOXED & DESTROYED",
+          "page": 98,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When a model loses its last health box, it goes through three states in order:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Disabled: The model is disabled. Effects that trigger on 'disabled' resolve now (e.g., Tough). If healed, it is no longer disabled.",
+                "Boxed: If still disabled, it becomes boxed. Effects that trigger on 'boxed' resolve now.",
+                "Destroyed: If still boxed, it is destroyed. Remove the model from the table."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "removing_models",
+          "title": "REMOVING MODELS",
+          "page": 99,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When a model is destroyed or removed from play (RFPs), remove it from the table. 'Removed from play' prevents effects that trigger on 'destroyed'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "title": "CHAPTER 5: WARCASTERS & FOCUS",
+      "page": 100,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Warcasters are the commanders of the Iron Kingdoms. Their greatest asset is their ability to manipulate Focus."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "focus_manipulation",
+          "title": "FOCUS MANIPULATION",
+          "page": 100,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "During the Control Phase, a warcaster replenishes their focus points to their current FOCUS stat. Focus remains until spent or the next Maintenance Phase."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Replenish Focus: Return to full FOCUS stat.",
+                "Allocate Focus: Give focus to warjacks in battlegroup (must be in Control Range).",
+                "Gain Focus: Some special rules allow gaining focus beyond the cap."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "using_focus",
+          "title": "USING FOCUS",
+          "page": 101,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A warcaster can spend focus to:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Boost Attack Roll (1 focus)",
+                "Boost Damage Roll (1 focus)",
+                "Buy Additional Melee Attack (1 focus)",
+                "Shake Effects: Spend 1 focus during Control Phase to remove Knockdown, Stationary, or Blind.",
+                "Cast Spells: Spend focus equal to COST."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Heal: Spend 1 focus to heal d3 damage points (Warcaster only)."
+            }
+          ]
+        },
+        {
+          "id": "spellcasting",
+          "title": "SPELLCASTING",
+          "page": 102,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warcasters can cast spells at any time during their activation. Spend focus equal to the spell's COST."
+            },
+            {
+              "type": "definition",
+              "term": "Spell Statistics",
+              "definition": "COST (Focus needed), RNG (Range), AOE (Area of Effect), POW (Power), UP (Upkeep), OFF (Offensive)."
+            },
+            {
+              "type": "definition",
+              "term": "Channeling",
+              "definition": "A warcaster can channel spells through a warjack with the Arc Node advantage in their battlegroup. The warjack becomes the point of origin. The warjack must be in Control Range and not engaged."
+            }
+          ]
+        },
+        {
+          "id": "upkeep_spells",
+          "title": "UPKEEP SPELLS",
+          "page": 103,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Upkeep spells can remain in play for multiple rounds. A model/unit can only have one friendly upkeep spell on it at a time. If a new one is cast, the old one expires."
+            },
+            {
+              "type": "paragraph",
+              "text": "To keep the spell in play, the warcaster must spend 1 focus point during the Control Phase. If not spent, the spell expires."
+            }
+          ]
+        },
+        {
+          "id": "offensive_spells",
+          "title": "OFFENSIVE SPELLS",
+          "page": 103,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Spells cast as attacks. They require a target and an attack roll (2d6 + AAT). They can be boosted."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "title": "CHAPTER 7: WARLOCKS & FURY",
+      "page": 104,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Warlocks are powerful combatants who draw magic from the raw energy of their warbeasts, known as fury. Unlike warcasters who rely on a regenerating power source (focus), warlocks must manage the volatile fury generated by their beasts."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "fury_manipulation",
+          "title": "FURY MANIPULATION",
+          "page": 104,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "During the Control Phase, a warlock can leech fury points from warbeasts in their battlegroup that are within their Control Range. Leeching removes fury from the warbeast and adds it to the warlock, up to their current FURY stat."
+            },
+            {
+              "type": "definition",
+              "term": "Spirit Bond",
+              "definition": "If a warlock has fewer fury points than their FURY stat after leeching, they can gain up to 1 fury point for each medium-based or larger warbeast in their battlegroup that has been destroyed or removed from play."
+            }
+          ]
+        },
+        {
+          "id": "forcing_warbeasts",
+          "title": "FORCING WARBEASTS",
+          "page": 106,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warbeasts generate fury by being forced. A warbeast can be forced only while in its controller's Control Range. Each time it is forced, it gains 1 fury point."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Force to Boost Attack: Gain 1 fury.",
+                "Force to Boost Damage: Gain 1 fury.",
+                "Force to Buy Attack: Gain 1 fury.",
+                "Force to Shake Effects: Gain 1 fury (Control Phase).",
+                "Force to Run/Charge: Gain 1 fury."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "frenzy",
+          "title": "FRENZY",
+          "page": 107,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If a warbeast has fury points remaining on it during the Control Phase (after leeching), it may frenzy. Make a Threshold Check: Roll 2d6 and add the fury points on the warbeast. If the total exceeds the warbeast's THR stat, it frenzies."
+            },
+            {
+              "type": "paragraph",
+              "text": "Frenzy Effects: The warbeast immediately activates (even if it's not the activation phase). It charges the nearest model (friend or foe) without spending focus/fury. It makes one boosted melee attack with its most powerful weapon. After the attack, its activation ends, and all fury points are removed."
+            }
+          ]
+        },
+        {
+          "id": "warlock_spellcasting",
+          "title": "SPELLCASTING & ANIMI",
+          "page": 109,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warlocks cast spells by spending fury points (Cost = Fury spent). They can also cast the Animus of any warbeast in their battlegroup that is within their Control Range."
+            },
+            {
+              "type": "definition",
+              "term": "Animus",
+              "definition": "A special spell possessed by warbeasts. The warbeast can be forced to cast its own animus (gaining fury equal to the Cost). The warlock can cast it as a spell."
+            }
+          ]
+        },
+        {
+          "id": "damage_transfer",
+          "title": "TRANSFERRING DAMAGE",
+          "page": 111,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When a warlock suffers damage, they can spend 1 fury point to transfer that damage to a warbeast in their battlegroup and Control Range. The warbeast suffers the damage instead. Damage exceeding the warbeast's remaining health is suffered by the warlock. A warlock cannot transfer damage if the warbeast is full on fury."
+            }
+          ]
+        },
+        {
+          "id": "warlock_healing",
+          "title": "HEALING",
+          "page": 112,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A warlock can spend fury to heal themselves or their warbeasts. Spend 1 fury to heal d3 damage points. A warlock can also heal a warbeast within Control Range."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_10",
+      "title": "CHAPTER 10: ADDITIONAL RULES",
+      "page": 113,
+      "content": [],
+      "sub_sections": [
+        {
+          "id": "flight",
+          "title": "FLIGHT",
+          "page": 113,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Models with the Flight advantage can soar above the battlefield, adding to their maneuverability. They treat all non-impassable terrain as open terrain while advancing and can move through obstructions and other models if they can move completely past them."
+            },
+            {
+              "type": "paragraph",
+              "text": "While charging, slam power attacking, or trample power attacking, a model with Flight does not stop when it contacts an obstacle, obstruction, or another model. It ignores intervening models when declaring a charge target."
+            },
+            {
+              "type": "paragraph",
+              "text": "Models lose Flight while knocked down or stationary."
+            }
+          ]
+        },
+        {
+          "id": "incorporeal",
+          "title": "INCORPOREAL",
+          "page": 113,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Incorporeal models (spirits, wraiths, shadows) roam in spectral form. They do not count as intervening models and are immune to continuous effects and non-magical damage. They cannot be moved by a push, slam, or throw."
+            },
+            {
+              "type": "paragraph",
+              "text": "Incorporeal models treat non-impassable terrain as open terrain and can move through obstructions and other models. They do not stop when contacting obstacles/obstructions during charges or power attacks."
+            },
+            {
+              "type": "paragraph",
+              "text": "Incorporeal models lose the Incorporeal advantage for one round if they make a melee or ranged attack."
+            }
+          ]
+        },
+        {
+          "id": "monstrosities",
+          "title": "MONSTROSITIES",
+          "page": 114,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Monstrosities are living large-based (50mm) independent Cohort models, telepathically linked to a controller. They are not warjacks and lack a cortex."
+            },
+            {
+              "type": "paragraph",
+              "text": "Rage Fueled: Monstrosities do not Power Up. Instead, they gain 1 focus point each time they suffer damage from an attack or continuous effect."
+            },
+            {
+              "type": "paragraph",
+              "text": "Focus Manipulation: Can be allocated focus (max 3). Can spend focus to make additional attacks, boost rolls, run, charge, or shake effects. They can make power attacks (Headbutt, Slam, etc.)."
+            },
+            {
+              "type": "definition",
+              "term": "Crippled Brain",
+              "definition": "A monstrosity with a crippled Brain system loses focus and cannot gain/spend focus."
+            }
+          ]
+        },
+        {
+          "id": "structures",
+          "title": "STRUCTURES",
+          "page": 115,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Structures are independent, huge-based (120mm) models representing fortifications. They are not warrior models and generally have the Construct advantage."
+            },
+            {
+              "type": "paragraph",
+              "text": "Fixed Position: Structures cannot move, be placed, aim, engage, be engaged, be knocked down, or be made stationary. They are automatically hit by melee attacks and cannot gain concealment, cover, Stealth, or Incorporeal."
+            },
+            {
+              "type": "paragraph",
+              "text": "When an AOE attack hits a structure, it does not inflict blast damage on other models."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "title": "CHAPTER 11: PREPARING FOR WAR",
+      "page": 116,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Games are typically played on a 4' x 4' battlefield. To start a game, players follow a specific sequence including selecting a scenario and deploying forces."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "deployment_rules",
+          "title": "DEPLOYMENT RULES",
+          "page": 117,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Advance Deployment",
+              "definition": "Models can be deployed up to 3\" beyond the established deployment zone."
+            },
+            {
+              "type": "definition",
+              "term": "Ambush",
+              "definition": "Models are not deployed at the start. Instead, they can be placed at the end of any Control Phase after the first round, completely within 3\" of a chosen table edge (excluding the opponent's back edge). They must forfeit Normal Movement or Combat Action on the turn they enter."
+            },
+            {
+              "type": "paragraph",
+              "text": "Attachments attached to units with Advance Deployment or Ambush gain those advantages."
+            },
+            {
+              "type": "paragraph",
+              "text": "Starting Focus/Fury: Warcasters/Warlocks begin the game with focus/fury equal to their ARC stat."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "title": "CHAPTER 12: ARMY CONSTRUCTION",
+      "page": 119,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Players select a Faction and a Leader (Warcaster/Warlock) to lead their army."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "army_basics",
+          "title": "ARMY BASICS",
+          "page": 119,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Point Costs",
+              "definition": "Non-Leader models have a point cost. The Leader is free."
+            },
+            {
+              "type": "definition",
+              "term": "Field Allowance (FA)",
+              "definition": "The maximum number of models/units of a given type allowed. 'C' means Character (unique, max 1)."
+            }
+          ]
+        },
+        {
+          "id": "characters_and_battlegroups",
+          "title": "CHARACTERS & BATTLEGROUPS",
+          "page": 120,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Characters represent unique individuals (FA: C). Only one instance of a specific named character can be included."
+            },
+            {
+              "type": "paragraph",
+              "text": "Battlegroups consist of a controller (Warcaster/Warlock) and their controlled warjacks/warbeasts."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "title": "CHAPTER 13: TERRAIN",
+      "page": 122,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Players must define terrain features before the game. Models can generally occupy any surface large enough for their base."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "terrain_types",
+          "title": "TERRAIN TYPES",
+          "page": 122,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Open Terrain",
+              "definition": "Ground moved over without restriction (e.g., grassy plains, dirt roads)."
+            },
+            {
+              "type": "definition",
+              "term": "Rough Terrain",
+              "definition": "Reduces movement. If a model enters rough terrain during advancing, reduce movement by 2\" (min 1\"). Examples: forests, shallow water, rubble."
+            },
+            {
+              "type": "definition",
+              "term": "Elevated Terrain",
+              "definition": "Hills, walls, etc. Provides visibility and defensive bonuses. Elevated large or smaller models gain +2 DEF against ranged/arcane attacks from lower elevations."
+            }
+          ]
+        },
+        {
+          "id": "impassable_terrain",
+          "title": "IMPASSABLE TERRAIN",
+          "page": 123,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Terrain that models cannot enter. Models cannot move or be placed into impassable terrain. Examples include deep water, solid rock obstacles, or burning buildings."
+            }
+          ]
+        },
+        {
+          "id": "hazards",
+          "title": "HAZARDS",
+          "page": 124,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hazards are dangerous terrain features (e.g., acid pools, burning earth). A model entering or ending its activation in a hazard suffers the effect (often damage or a continuous effect)."
+            }
+          ]
+        },
+        {
+          "id": "water",
+          "title": "WATER",
+          "page": 124,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Shallow Water: Treated as rough terrain. Does not block line of sight. Provides no cover or concealment."
+            },
+            {
+              "type": "paragraph",
+              "text": "Deep Water: Usually impassable terrain. Models with Amphibious or Flight can move across it."
+            }
+          ]
+        },
+        {
+          "id": "forests",
+          "title": "FORESTS",
+          "page": 125,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Forests are rough terrain. They provide Concealment to models within them."
+            },
+            {
+              "type": "paragraph",
+              "text": "Line of Sight: A forest blocks line of sight if the line passes through more than 3 inches of the forest terrain feature. A model can see out of a forest up to 3 inches and see into a forest up to 3 inches."
+            }
+          ]
+        },
+        {
+          "id": "hills",
+          "title": "HILLS",
+          "page": 125,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hills are open terrain but are elevated. Models on hills gain the benefits of elevation (+2 DEF vs ranged/arcane from lower levels)."
+            }
+          ]
+        },
+        {
+          "id": "trenches",
+          "title": "TRENCHES",
+          "page": 126,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Trenches are rough terrain for models entering them. They are open terrain for models already inside."
+            },
+            {
+              "type": "paragraph",
+              "text": "A model completely within a trench gains Cover (+4 DEF vs ranged/arcane) unless the attacker is also within the trench or touching it. Trenches do not block line of sight."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix_a",
+      "title": "APPENDIX A: TIMING",
+      "page": 128,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This appendix details the exact sequence of events for resolving attacks."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "attack_sequence_1_5",
+          "title": "ATTACK SEQUENCE: STEPS 1-5",
+          "page": 129,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Step 1: Declare the Attack. Choose target. Check if attack can be made.",
+                "Step 2: Check Range & LOS. If out of range/LOS, attack misses (go to Step 5).",
+                "Step 3: Make Attack Roll. Roll dice + stats.",
+                "Step 4: Resolve Rerolls. Apply any abilities that allow rerolling the attack roll.",
+                "Step 5: Determine Hit/Miss. Compare total to DEF. Check for critical hit."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attack_sequence_6_9",
+          "title": "ATTACK SEQUENCE: STEPS 6-9",
+          "page": 130,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Step 6: Triggered Effects (Hit/Miss). Resolve effects triggered by 'hit' or 'miss' (e.g., Critical effects). If attack missed, sequence ends.",
+                "Step 7: Resolve Damage Roll. Roll dice + POW - ARM. Boost if applicable.",
+                "Step 8: Resolve Damage Rerolls. Apply abilities for rerolling damage.",
+                "Step 9: Determine Damage. Calculate final damage points."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attack_sequence_10_12",
+          "title": "ATTACK SEQUENCE: STEPS 10-12",
+          "page": 131,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Step 10: Apply Damage. Mark damage grids/spirals. Check for Disabled/Boxed/Destroyed states.",
+                "Step 11: Verify Disabled. Resolve 'when disabled' effects (e.g., Tough).",
+                "Step 12: Resolve Effects. Resolve 'when boxed' and 'when destroyed' effects. Remove destroyed models."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix_2",
+      "title": "APPENDIX 2: FACTION-SPECIFIC RULES",
+      "page": 130,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This appendix details special rules for specific Factions and Mercenary contracts."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "cephalyx",
+          "title": "CEPHALYX",
+          "page": 130,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cephalyx warcasters control monstrosities instead of warjacks. They cannot control warjacks."
+            },
+            {
+              "type": "paragraph",
+              "text": "Allocation: A cephalyx warcaster can allocate focus to monstrosities in its battlegroup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Healing: Cephalyx warcasters can heal monstrosities."
+            }
+          ]
+        },
+        {
+          "id": "convergence_of_cyriss",
+          "title": "CONVERGENCE OF CYRISS",
+          "page": 130,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Convergence warjacks (Vectors) do not have MAT or RAT stats. Their MAT and RAT are equal to the current MAT and RAT of their controlling warcaster."
+            },
+            {
+              "type": "paragraph",
+              "text": "No Power Up: Convergence warjacks do not power up and do not gain a focus point automatically."
+            },
+            {
+              "type": "definition",
+              "term": "Force Induction",
+              "definition": "When a warjack with an interface node spends a focus point, you can give a focus point to another warjack with an interface node in the same battlegroup within 9\"."
+            }
+          ]
+        },
+        {
+          "id": "farrow_mercenaries",
+          "title": "FARROW MERCENARIES",
+          "page": 131,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warlocks: A Mercenary Farrow warlock can have only Mercenary Farrow warbeasts in its battlegroup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warbeasts: A Mercenary Farrow warbeast can be controlled only by a Mercenary Farrow warlock."
+            }
+          ]
+        },
+        {
+          "id": "gatorman_mercenaries",
+          "title": "GATORMAN MERCENARIES",
+          "page": 131,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warlocks: A Mercenary Gatorman warlock can have only Mercenary Gatorman warbeasts in its battlegroup."
+            }
+          ]
+        },
+        {
+          "id": "grymkin",
+          "title": "GRYMKIN",
+          "page": 131,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Arcana: Instead of a feat, Grymkin players start the game with seven Command Cards instead of five and use special Arcana cards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icon_reference",
+      "title": "ICON REFERENCE",
+      "page": 132,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "This section provides a quick reference for the various icons and symbols used throughout the rulebook and on model profiles."
+        },
+        {
+          "type": "paragraph",
+          "text": "A quick reference for weapon qualities and resistances."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "advantages_icons",
+          "title": "ADVANTAGES",
+          "page": 132,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Advance Deployment: Model can deploy up to 3 inches beyond the deployment zone.",
+                "Amphibious: Treats shallow water as open terrain; can move through deep water.",
+                "Arc Node: Warcaster can channel spells through this model.",
+                "Assault: Model can make a ranged attack as part of a charge.",
+                "Cavalry: Mount attacks, impact attacks, special movement rules.",
+                "Combined Melee Attack: Model can participate in combined melee attacks.",
+                "Combined Ranged Attack: Model can participate in combined ranged attacks.",
+                "Construct: Model is not living; immune to rules affecting living models.",
+                "Eyeless Sight: Ignores cloud effects and concealment. Stealth does not cause attacks to miss.",
+                "Flight: Ignores terrain and models when moving; immune to non-magical melee attacks from non-flyers while flying (unless knocked down).",
+                "Gunfighter: Can use ranged weapons in melee.",
+                "Incorporeal: Move through terrain/models; immune to non-magical damage; cannot be pushed/slammed.",
+                "Parry: Immune to free strikes.",
+                "Pathfinder: Ignores penalties for rough terrain.",
+                "Sniping: +4 RNG to ranged weapons.",
+                "Stealth: Ranged/Magic attacks from >5 inches away automatically miss.",
+                "Tough: When disabled, roll d6. On 5+, heal 1 wound and become knocked down instead of destroyed."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weapon_qualities_icons",
+          "title": "WEAPON QUALITIES",
+          "page": 133,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Blessed: Ignores bonuses to DEF/ARM from spells.",
+                "Buckler: +1 ARM (cumulative with Shield).",
+                "Chain Weapon: Ignores Shield/Buckler bonuses.",
+                "Continuous Corrosion: Causes Corrosion continuous effect.",
+                "Continuous Fire: Causes Fire continuous effect.",
+                "Critical Corrosion: Causes Corrosion on a critical hit.",
+                "Critical Disruption: Causes Disruption on a critical hit (warjack loses focus, cannot gain focus).",
+                "Critical Fire: Causes Fire on a critical hit.",
+                "Damage Type: Cold: Causes cold damage.",
+                "Damage Type: Corrosion: Causes corrosion damage.",
+                "Damage Type: Electricity: Causes electrical damage.",
+                "Damage Type: Fire: Causes fire damage.",
+                "Damage Type: Magical: Causes magical damage (affects Incorporeal).",
+                "Disruption: Hit warjack loses focus, cannot gain focus for 1 round.",
+                "Magic Weapon: Weapon causes magical damage.",
+                "Open Fist: Can make Throw/Lock power attacks.",
+                "Reach: 2 inch melee range.",
+                "Shield: +2 ARM.",
+                "Weapon Master: +1 die to damage rolls.",
+                "Damage Type: Fire: Causes fire damage.",
+                "Damage Type: Magical: Causes magical damage.",
+                "Disruption: Warjack hit loses focus and cannot gain focus for one round.",
+                "Pistol: Ignores Target in Melee bonus if attacking model in melee.",
+                "Shield: Cumulative +2 ARM bonus.",
+                "Throw Power Attack: Can make throw power attacks.",
+                "Weapon Master: Add an additional die to damage rolls."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "immunities_and_effects",
+          "title": "IMMUNITIES & EFFECTS",
+          "page": 134,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Immunity: Cold: Immune to cold damage.",
+                "Immunity: Corrosion: Immune to corrosion damage and continuous corrosion.",
+                "Immunity: Electricity: Immune to electrical damage.",
+                "Immunity: Fire: Immune to fire damage and continuous fire."
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Continuous Effects",
+              "definition": "Effects that persist over time (Fire, Corrosion). Resolve during Maintenance Phase (roll d6: 1-2 expires, 3-6 damages)."
+            },
+            {
+              "type": "definition",
+              "term": "Knockdown",
+              "definition": "Model becomes knocked down. DEF 5. Cannot move/act. Shake to stand up."
+            },
+            {
+              "type": "definition",
+              "term": "Stationary",
+              "definition": "Model becomes stationary. DEF 5. Cannot move/act."
+            }
+          ]
+        },
+        {
+          "id": "resistances_ref",
+          "title": "RESISTANCES",
+          "page": 137,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Resistance: Blast: Remove one die from blast damage rolls.",
+                "Resistance: Cold: Remove one die from cold damage rolls.",
+                "Resistance: Corrosion: Remove one die from corrosion damage rolls. Immune to continuous corrosion.",
+                "Resistance: Electricity: Remove one die from electrical damage rolls. Lightning cannot arc from this model.",
+                "Resistance: Fire: Remove one die from fire damage rolls. Immune to continuous fire."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "factions.schema.json",
+  "title": "Factions",
+  "description": "Schema for data/factions.json. The Forge UI edits this array through /api/factions using slug as the entity id.",
+  "type": "array",
+  "items": {
+    "$ref": "#/definitions/faction"
+  },
+  "definitions": {
+    "faction": {
+      "type": "object",
+      "title": "Faction",
+      "required": ["name", "slug", "armies"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "code": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 4
+        },
+        "trait": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "accent": {
+          "type": "string",
+          "enum": ["primary", "secondary"]
+        },
+        "description": {
+          "type": "string"
+        },
+        "briefing": {
+          "type": "string"
+        },
+        "armies": {
+          "type": "array",
+          "minItems": 0,
+          "items": {
+            "$ref": "#/definitions/army"
+          }
+        }
+      }
+    },
+    "army": {
+      "type": "object",
+      "title": "Army",
+      "required": ["name", "slug"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

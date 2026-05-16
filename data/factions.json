@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Skorne",
+    "slug": "skorne",
+    "code": "SKO",
+    "trait": "Pain Empire",
+    "icon": "shield",
+    "accent": "secondary",
+    "description": "A disciplined empire from eastern Immoren, forged by conquest, mortitheurgy, ancestral veneration and a pragmatic disregard for pain.",
+    "briefing": "Skorne commanders rely on brutal discipline, pain-fueled warbeasts and immortalized ancestors preserved in sacral stones. Their armies reward direct pressure, attrition control and precise commitment windows.",
+    "armies": [
+      {
+        "name": "Exalted",
+        "slug": "exalted",
+        "description": "An ancestral host centered on immortalized champions, statues, extollers and sacral-stone doctrine."
+      },
+      {
+        "name": "Masters of War",
+        "slug": "masters-of-war",
+        "description": "A martial formation built around disciplined skorne infantry, tyrants, paingivers and heavy battlefield control."
+      },
+      {
+        "name": "Army of the Western Reaches",
+        "slug": "army-of-the-western-reaches",
+        "description": "A western-reaches skorne host combining warbeasts, tyrants, venators, praetorians and battlefield control assets."
+      }
+    ]
+  },
+  {
+    "name": "Cryx",
+    "slug": "cryx",
+    "code": "CRX",
+    "trait": "Necro-Industrial",
+    "icon": "skull",
+    "accent": "primary",
+    "description": "The Nightmare Empire of the Scharde Islands, where undead legions, necrotechs and black-iron warjacks serve Toruk the Dragonfather.",
+    "briefing": "Cryx favors speed, surprise, recursion and necromantic industry. Its forces mix thralls, Satyxis raiders, warwitches and helljacks into an army that punishes unguarded flanks.",
+    "armies": [
+      {
+        "name": "Dark Host",
+        "slug": "dark-host",
+        "description": "An undead battle line of banes, soul-driven horrors and necromantic command assets."
+      },
+      {
+        "name": "Scourge of the Broken Coast",
+        "slug": "scourge-of-the-broken-coast",
+        "description": "A raiding force of Satyxis, blackships, revenants and coastal terror tactics."
+      }
+    ]
+  },
+  {
+    "name": "Mercenaries",
+    "slug": "mercenaries",
+    "code": "MER",
+    "trait": "Swords for hire",
+    "icon": "swords",
+    "accent": "secondary",
+    "description": "Warmachine mercenaries",
+    "briefing": "TODO",
+    "armies": [
+      {
+        "name": "Dark Operations",
+        "slug": "dark-operations",
+        "description": "Cephalix"
+      }
+    ]
+  }
+]

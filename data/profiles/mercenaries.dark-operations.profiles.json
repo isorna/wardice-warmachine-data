@@ -1,0 +1,22 @@
+{
+  "exulonkythos": {
+    "name": "Exulon Kythos",
+    "faction": "mercenaries",
+    "type": "",
+    "baseSize": 40,
+    "statistics": {
+      "speed": 0,
+      "meleeAttack": 0,
+      "rangedAttack": 0,
+      "defense": 0,
+      "armour": 0,
+      "health": 0
+    },
+    "abilities": [],
+    "spells": [],
+    "notes": "",
+    "armies": [
+      "dark-operations"
+    ]
+  }
+}

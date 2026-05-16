@@ -1,0 +1,478 @@
+{
+  "acidicTouch": {
+    "name": "Acidic Touch",
+    "description": "The spellcaster gains Resistance: Corrosion and its melee weapons gain the Continuous Effect: Corrosion. Acidic Touch lasts for one round."
+  },
+  "agonies": {
+    "name": "Agonies",
+    "description": "Once at any time during its activation, this model can be forced to use one of the following effects: Gnawing Pain or Maddening or Spiritual Affliction."
+  },
+  "anatomicalPrecision": {
+    "name": "Anatomical Precision",
+    "description": "When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point. A model disabled by a melee attack made by this model cannot make a Tough roll."
+  },
+  "annihilator": {
+    "name": "Annihilator",
+    "description": "This model gains an additional die on melee attack and melee damage rolls against living models. When a living model is destroyed within 3\" of this model, it never generates a soul token."
+  },
+  "attached": {
+    "name": "Attached",
+    "description": "Before the start of the game, attach this model to a friendly Faction Leader for the rest of the game. Each Leader can have only one model/unit attached to it. The attached model is part of its Leader's battlegroup."
+  },
+  "battlePlan": {
+    "name": "Battle Plan",
+    "description": "This model can use one of the following plans at any time during its activation: Desperate Pace [Immortal], Fight to the Last, or Wings of Death."
+  },
+  "beatBack": {
+    "name": "Beat Back",
+    "description": "Immediately after a basic attack with this weapon is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it."
+  },
+  "berserk": {
+    "name": "Berserk",
+    "description": "When this model destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range, regardless of whether that model is a friendly model or an enemy model."
+  },
+  "blackArts": {
+    "name": "Black Arts",
+    "description": "A friendly Faction Leader model that has this model in its control range can upkeep one spell without spending focus or fury."
+  },
+  "bloodBoon": {
+    "name": "Blood Boon",
+    "description": "Once per activation, immediately after resolving an attack in which it destroyed an enemy model with this weapon, this model can cast a spell without spending focus or fury points."
+  },
+  "bondMordikaar": {
+    "name": "Bond [Mordikaar]",
+    "description": "If Despoiler begins the game in Mordikaar's battlegroup, it is bonded to him. Despoiler is not considered to be bonded while under your opponent's control. While Despoiler is bonded to Mordikaar and in his control range, once per turn when a living enemy warrior model is boxed while within 5\" of this model, remove the boxed model from play and replace it with a friendly Void Spirit model."
+  },
+  "bondXekaar": {
+    "name": "Bond [Xekaar]",
+    "description": "If Chiron begins the game in Xekaar's battlegroup, it is bonded to him. Chiron is not considered to be bonded while under your opponent's control. While Chiron is bonded to Xekaar and in his control range, it gains boosted ranged attack rolls."
+  },
+  "bulldoze": {
+    "name": "Bulldoze",
+    "description": "When this model is B2B with an enemy model during its Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack."
+  },
+  "carapace": {
+    "name": "Carapace",
+    "description": "This model gains +4 ARM against ranged attack damage rolls."
+  },
+  "chainAttackGrabSmash": {
+    "name": "Chain Attack: Grab & Smash",
+    "description": "If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a head-butt or throw power attack against that model even if it charged that activation."
+  },
+  "channeler": {
+    "name": "Channeler",
+    "description": "While a model with Channeler is in a friendly Faction Leader's control range, the Leader can channel spells through it."
+  },
+  "comboStrikeAttack": {
+    "name": "Combo Strike (★ Attack)",
+    "description": "This model gains +4 to the damage roll for this attack."
+  },
+  "commandAttachmentImmortals": {
+    "name": "Command Attachment [Immortals]",
+    "description": "This command attachment can be added to an Immortal unit."
+  },
+  "conditionAction": {
+    "name": "Condition (★ Action)",
+    "description": "RNG 6. Target friendly warbeast. If the warbeast is in range, you can place 1 fury point on it or remove 1 fury point from it."
+  },
+  "counterblast": {
+    "name": "Counterblast",
+    "description": "When an enemy model advances and ends its movement or is placed within 5\" of the spellcaster, the spellcaster can make one basic melee or ranged attack targeting that model, then Counterblast expires. Counterblast lasts for one round."
+  },
+  "craftTalismanAction": {
+    "name": "Craft Talisman (★ Action)",
+    "description": "RNG 5. Target a friendly Leader model. If the Leader is in range, when it casts a spell and is the point of origin, the spell gains +2 RNG. Spells with RNG SELF or CTRL are not affected. Craft Talisman lasts for one turn."
+  },
+  "criticalBrutalDamage": {
+    "name": "Critical Brutal Damage",
+    "description": "On a critical hit, gain an additional die on this weapon's damage rolls against the target directly hit."
+  },
+  "criticalGrievousWounds": {
+    "name": "Critical Grievous Wounds",
+    "description": "On a critical hit, a model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+  },
+  "criticalKnockdown": {
+    "name": "Critical Knockdown",
+    "description": "On a critical hit, the model hit becomes knocked down."
+  },
+  "criticalParalysis": {
+    "name": "Critical Paralysis",
+    "description": "On a critical hit, a living model hit has its base DEF reduced to 5 and cannot run, charge, or make slam or trample power attacks for one round."
+  },
+  "criticalPitch": {
+    "name": "Critical Pitch",
+    "description": "On a critical hit against a model with an equal or smaller base, the model hit can be thrown d6\" directly away from this model. The POW of collateral damage is equal to the POW of this attack."
+  },
+  "darkShroud": {
+    "name": "Dark Shroud",
+    "description": "While within 2\" of this model, enemy models suffer -2 ARM."
+  },
+  "defensiveStrike": {
+    "name": "Defensive Strike",
+    "description": "Once per turn, when an enemy model advances into and ends its movement or is placed in the melee range of a model with Defensive Strike, the model with Defensive Strike can immediately make one basic melee attack against it."
+  },
+  "desperatePaceImmortal": {
+    "name": "Desperate Pace [Immortal]",
+    "description": "RNG 5. Target friendly Immortal trooper model. If the model is in range, the models in its unit gain +2 SPD during their Normal Movement this turn."
+  },
+  "digInAction": {
+    "name": "Dig In (★ Action)",
+    "description": "This model gains cover, gains Resistance: Blast, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. It can begin the game dug in."
+  },
+  "directSpirits": {
+    "name": "Direct Spirits",
+    "description": "When a friendly living Faction warrior model is destroyed within 10\" of this model and generates a soul token, you choose which model with the Soul Taker ability gains the destroyed model's soul, regardless of the proximity of other models. Enemy models are not eligible to gain soul tokens from friendly models destroyed within 10\" of this model."
+  },
+  "drag": {
+    "name": "Drag",
+    "description": "If this model hits an enemy model with an equal or smaller base with a basic attack with this weapon, immediately after the attack is resolved the hit model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction."
+  },
+  "dragBelow": {
+    "name": "Drag Below",
+    "description": "During this model's activation, immediately after resolving an attack in which it boxed an enemy warrior model, this model can use Drag Below. The boxed model is removed from play and this model can immediately make a full advance and then perform a Dig In special action, then its activation ends."
+  },
+  "enrageAction": {
+    "name": "Enrage (★ Action)",
+    "description": "RNG 3. Target friendly warbeast. If the warbeast is in range, it gains +2 to its melee attack damage rolls. Enrage lasts for one turn."
+  },
+  "extendedControlRange": {
+    "name": "Extended Control Range",
+    "description": "When checking to see if this model is in its controller's control range, double the range."
+  },
+  "featArcaneReaver": {
+    "name": "FEAT - Arcane Reaver",
+    "description": "Immediately remove any number of soul tokens, fury points, essence points, and focus points from non-Leader models in Hexeris' control range. For each token or point removed, place 1 fury point on Hexeris. Hexeris cannot exceed his current ARC in fury points as a result of Arcane Reaver."
+  },
+  "featStrengthEternal": {
+    "name": "FEAT - Strength Eternal",
+    "description": "Remove d6 + 3 damage points from each friendly Faction construct model currently in Zaal's control range. While in Zaal's control range, friendly Faction construct models gain +3 ARM. Strength Eternal lasts for one round."
+  },
+  "featVoidWind": {
+    "name": "FEAT - Void Wind",
+    "description": "While in Mordikaar's control range, friendly Faction models gain +3 DEF and Poltergeist. Void Wind lasts for one round."
+  },
+  "featWhispersOfTorment": {
+    "name": "FEAT - Whispers of Torment",
+    "description": "While in Xekaar's control range, enemy models suffer -3 MAT, RAT, and THR. Additionally, affected models suffer -3 to their melee attack damage rolls. Whispers of Torment lasts for one round."
+  },
+  "fieldMarshalChanneler": {
+    "name": "Field Marshal [Channeler]",
+    "description": "Cohort models in this model's battlegroup gain Channeler."
+  },
+  "fieldMarshalPathfinder": {
+    "name": "Field Marshal [Pathfinder]",
+    "description": "Cohort models in this model's battlegroup gain Pathfinder."
+  },
+  "fightToTheLast": {
+    "name": "Fight to the Last",
+    "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Tough for one round."
+  },
+  "followUp": {
+    "name": "Follow Up",
+    "description": "When this model slams an enemy model, immediately after the slam is resolved this model can advance directly toward the slammed model, up to the distance the slammed model was moved."
+  },
+  "forceAura": {
+    "name": "Force Aura",
+    "description": "While within 3\" of the spellcaster, friendly Faction models gain +2 DEF and ARM against ranged attacks. Force Aura lasts for one round."
+  },
+  "fullBatteryFireAttack": {
+    "name": "Full Battery Fire (★ Attack)",
+    "description": "This weapon becomes POW 20 for this attack. On a direct hit, models hit are thrown d6\" directly away from the attacker. Roll distance once for all models affected. Move models farthest from the attacker first. Instead of suffering blast damage, models hit but not directly hit suffer a damage roll with POW equal to the blast damage POW of this weapon. The POW of collateral damage is equal to the blast damage POW of this weapon."
+  },
+  "gang": {
+    "name": "Gang",
+    "description": "When making a melee attack targeting an enemy model in the melee range of another model in this unit, this model gains +2 to melee attack and melee damage rolls."
+  },
+  "ghostShield": {
+    "name": "Ghost Shield",
+    "description": "This model gains +1 ARM for each soul token currently on it."
+  },
+  "ghostShot": {
+    "name": "Ghost Shot",
+    "description": "This model ignores LOS, concealment, and cover when making attacks with this weapon."
+  },
+  "gnawingPain": {
+    "name": "Gnawing Pain",
+    "description": "While within 8\" of this model, enemy models suffer -2 to their melee attack damage rolls. Gnawing Pain lasts for one round."
+  },
+  "graveMist": {
+    "name": "Grave Mist",
+    "description": "At any time during its activation, this model can spend one soul token to give models in its unit +2 DEF for one round."
+  },
+  "guidanceAction": {
+    "name": "Guidance (★ Action)",
+    "description": "RNG 6. Target friendly model. If the model is in range, it gains Eyeless Sight and its weapons gain Damage Type: Magical for one turn."
+  },
+  "harmoniousExaltationAction": {
+    "name": "Harmonious Exaltation (★ Action)",
+    "description": "RNG 5. Target this model's Leader. If it is in range, once this turn when the Leader casts a spell, reduce the COST of the spell by 1."
+  },
+  "huntingPackAradus": {
+    "name": "Hunting Pack [Aradus]",
+    "description": "This model gains a +1 cumulative bonus to melee attack and damage rolls for each other friendly Aradus warbeast with the target of this model's melee attack in its melee range. This cumulative bonus cannot exceed +3."
+  },
+  "hyperAggressive": {
+    "name": "Hyper-Aggressive",
+    "description": "When this model suffers damage from an enemy attack, after the attack is resolved it can immediately make a full advance directly toward the attacking model."
+  },
+  "immovableObject": {
+    "name": "Immovable Object",
+    "description": "This model cannot become knocked down, cannot be placed, and cannot be moved by a push, slam, or throw."
+  },
+  "indomitable": {
+    "name": "Indomitable",
+    "description": "The spellcaster gains Unyielding. Indomitable lasts for one round."
+  },
+  "inflictPain": {
+    "name": "Inflict Pain",
+    "description": "When it hits a warbeast with this weapon, this model can place 1 fury point on or remove 1 fury point from the warbeast."
+  },
+  "inhumanResolve": {
+    "name": "Inhuman Resolve",
+    "description": "When a friendly warrior model within 10\" of this model is destroyed by an enemy attack, after the attack is resolved this model can remove 1 damage point. When this model is disabled, it becomes knocked down instead of becoming boxed and its activation immediately ends. While this model is disabled, it cannot activate. If this model is disabled at the beginning of your Maintenance Phase, it is destroyed."
+  },
+  "leadershipBasilisks": {
+    "name": "Leadership [Basilisks]",
+    "description": "When another friendly Basilisk model ends its activation while within 10\" of this model, you can remove 1 fury point from that model."
+  },
+  "leadershipConstruct": {
+    "name": "Leadership [Construct]",
+    "description": "While within 10\" of this model, friendly Construct models cannot become knocked down."
+  },
+  "leadershipTitans": {
+    "name": "Leadership [Titans]",
+    "description": "When a friendly non-Bronzeback Titan ends its activation within 5\" of this model, you can remove 1 fury point from that Titan."
+  },
+  "leadershipVoidSpirits": {
+    "name": "Leadership [Void Spirits]",
+    "description": "While within 10\" of this model, friendly Void Spirits models gain Tough and Stealth and +1 to attack rolls."
+  },
+  "lifeDrinker": {
+    "name": "Life Drinker",
+    "description": "When this model boxes a living enemy model with this weapon, this model can remove d3 damage points."
+  },
+  "lightningStrike": {
+    "name": "Lightning Strike",
+    "description": "The spellcaster gains Sprint. Lightning Strike lasts for one turn."
+  },
+  "lurker": {
+    "name": "Lurker",
+    "description": "The spellcaster gains Pathfinder and Bushwhack. Lurker lasts for one turn."
+  },
+  "maddening": {
+    "name": "Maddening",
+    "description": "Enemy warbeasts currently within 6\" of this model gain 1 fury point."
+  },
+  "magicAbility": {
+    "name": "Magic Ability",
+    "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+  },
+  "maltreatment": {
+    "name": "Maltreatment",
+    "description": "Once per turn at any time during its activation, this model can remove 1 fury point from a warbeast in its battlegroup that is in its control range and add 1 fury point to its own current total. The warbeast suffers d3 damage points."
+  },
+  "medicateD3Action": {
+    "name": "Medicate [d3] (★ Action)",
+    "description": "RNG 1. Target friendly living warbeast. If the warbeast is in range, remove d3 damage points from it."
+  },
+  "multipleHeads5": {
+    "name": "Multiple Heads [5]",
+    "description": "This model can make 5 initial attacks each Combat Action, using any combination of Acid Spray and Bite attacks. This model loses one initial attack for each of its aspects that are currently crippled. This model cannot be forced to make additional Acid Spray attacks."
+  },
+  "ornery": {
+    "name": "Ornery",
+    "description": "The spellcaster gains Retaliatory Strike. Ornery lasts for one round."
+  },
+  "painMaddened": {
+    "name": "Pain Maddened",
+    "description": "When this model is damaged by an enemy attack, it gains +2 SPD for one round."
+  },
+  "painResponse": {
+    "name": "Pain Response",
+    "description": "While damaged, this model can charge and make power attacks without being forced."
+  },
+  "paralysis": {
+    "name": "Paralysis",
+    "description": "A living model hit by this weapon has its base DEF reduced to 5 and cannot run, charge, or make slam or trample power attacks. Paralysis lasts for one round."
+  },
+  "poison": {
+    "name": "Poison",
+    "description": "Gain an additional die on this weapon's damage rolls against living models."
+  },
+  "poltergeist": {
+    "name": "Poltergeist",
+    "description": "When an enemy model misses this model with an attack, immediately after the attack is resolved you can choose to push the enemy model d3\" directly away from this model."
+  },
+  "primalMagic": {
+    "name": "Primal Magic",
+    "description": "This model can be forced to cast the animus of any friendly Faction warbeast within 5\" of it as if the animus were its own."
+  },
+  "regenerationD33": {
+    "name": "Regeneration [d3 +3]",
+    "description": "This model can be forced to remove d3 +3 damage points once per activation. This model cannot use Regeneration during an activation it runs."
+  },
+  "repairD31Action": {
+    "name": "Repair [d3+1] (★ Action)",
+    "description": "RNG 1. Target friendly Faction construct model. If the model is in range, remove d3 +1 damage points from it."
+  },
+  "repulsion": {
+    "name": "Repulsion",
+    "description": "Enemy models currently within 2\" of the spellcaster are immediately pushed 3\" directly away from it in the order you choose."
+  },
+  "reposition3": {
+    "name": "Reposition [3\"]",
+    "description": "At the end of this model/unit's activation in which it did not run or fail a charge, this model can advance up to 3\", then its activation ends."
+  },
+  "righteousVengeance": {
+    "name": "Righteous Vengeance",
+    "description": "If one or more friendly Faction warrior models were destroyed or removed from play by enemy attacks while within 5\" of this model during the last round, during your Maintenance Phase this model can advance up to 3\" and make one basic attack."
+  },
+  "rush": {
+    "name": "Rush",
+    "description": "Target friendly Faction warbeast gains +2 SPD and gains Pathfinder. Rush lasts for one turn."
+  },
+  "sacrificialPawnImmortal": {
+    "name": "Sacrificial Pawn [Immortal]",
+    "description": "When this model is directly hit by an enemy ranged attack, you can have one friendly, non-incorporeal Immortal model within 3\" of it directly hit instead. That model is automatically hit and suffers all damage and effects."
+  },
+  "sandStorm": {
+    "name": "Sand Storm",
+    "description": "When a friendly model is targeted by a ranged attack while within 5\" of this model, the attack suffers -3 RNG. Sand Storm lasts for one round."
+  },
+  "scuttler": {
+    "name": "Scuttler",
+    "description": "The spellcaster gains Dig In."
+  },
+  "setDefense": {
+    "name": "Set Defense",
+    "description": "Models suffer -2 on charge and slam power attack rolls against this model."
+  },
+  "shieldGuard": {
+    "name": "Shield Guard",
+    "description": "When a friendly model is directly hit by a non-spray ranged attack while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard be directly hit instead. That model is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. Shield Guard can only be used once per attack."
+  },
+  "sideStep": {
+    "name": "Side Step",
+    "description": "When this model hits an enemy model with an initial melee attack or a melee special attack, it can advance up to 2\" after the attack is resolved."
+  },
+  "siegeWeapon": {
+    "name": "Siege Weapon",
+    "description": "This weapon gains an additional die to its damage rolls against buildings and huge-based models."
+  },
+  "silencer": {
+    "name": "Silencer",
+    "description": "A model hit by this weapon cannot cast spells for one round."
+  },
+  "slammer": {
+    "name": "Slammer",
+    "description": "This model can make slam power attacks without being forced. Models slammed by this model are moved an additional 2\"."
+  },
+  "snacking": {
+    "name": "Snacking",
+    "description": "When this model boxes a living model with a melee attack, it can choose to remove the boxed model from play. When it does, this model can remove d3 damage points."
+  },
+  "soulPowered": {
+    "name": "Soul-Powered",
+    "description": "During its Combat Action, this model can spend soul tokens to make additional melee attacks. It can make one additional attack for each token spent."
+  },
+  "soulTakerReclaim": {
+    "name": "Soul Taker: Reclaim",
+    "description": "This model can gain soul tokens. When a friendly living model is destroyed while in this model's control range, this model gains the destroyed model's soul token. After this model replenishes its focus points or leeches fury during your next Control Phase, replace each soul token with 1 focus or fury point."
+  },
+  "soulTakerRequiem": {
+    "name": "Soul Taker: Requiem",
+    "description": "This model can gain soul tokens. When a friendly living model is destroyed while within 10\" of this model, this model gains the destroyed model's soul token. This model can have up to three soul tokens at any time. This model can spend soul tokens for various abilities."
+  },
+  "soulTap": {
+    "name": "Soul Tap",
+    "description": "If this model is in its Leader's control range during your Control Phase, the Leader can spend soul tokens on this model to upkeep one spell for each token spent."
+  },
+  "soulVessel": {
+    "name": "Soul Vessel",
+    "description": "This model generates soul tokens as if it were a living model."
+  },
+  "spectralVortex": {
+    "name": "Spectral Vortex",
+    "description": "This model can immediately negate any spell that targets it or a model within 3\" of it by spending 1 soul token. The negated spell does not take effect, but its COST remains spent."
+  },
+  "spellSlaveActionOrAttack": {
+    "name": "Spell Slave (★ Action or ★ Attack)",
+    "description": "This model must be in its Leader's control range to make the Spell Slave special action. When it does, it casts one of the spells on its Leader's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave is an arcane attack."
+  },
+  "spinyGrowth": {
+    "name": "Spiny Growth",
+    "description": "The spellcaster gains +2 ARM. If a non-warrior model hits the spellcaster with a melee attack, the attacking model suffers d3 damage points immediately after the attack is resolved unless the spellcaster was destroyed or removed from play by the attack. Spiny Growth lasts for one round."
+  },
+  "spiritDriven": {
+    "name": "Spirit-Driven",
+    "description": "At the beginning of this model's activation, it can spend one soul token to gain +2 SPD that activation."
+  },
+  "spiritGuideAction": {
+    "name": "Spirit Guide (★ Action)",
+    "description": "RNG 6. Target friendly Faction model with Soul Taker: Requiem. If the model is in range, move any number of soul tokens to it from this model."
+  },
+  "spiritualAffliction": {
+    "name": "Spiritual Affliction",
+    "description": "While within 8\" of this model, living enemy models cannot cast spells. Spiritual Affliction lasts for one round."
+  },
+  "sprint": {
+    "name": "Sprint",
+    "description": "At the end of an activation in which it destroyed or removed from play one or more enemy models with melee attacks, a model with Sprint can immediately make a full advance, then its activation ends."
+  },
+  "steady": {
+    "name": "Steady",
+    "description": "This model cannot become knocked down."
+  },
+  "stonesWrathAction": {
+    "name": "Stones' Wrath (★ Action)",
+    "description": "RNG 6. Target friendly Faction construct model. If the model is in range, it gains +2 to its melee attack damage rolls this turn."
+  },
+  "strengthOfDeath": {
+    "name": "Strength of Death",
+    "description": "During its Combat Action, this model can spend soul tokens to boost one attack or damage roll for each token spent."
+  },
+  "sturdy": {
+    "name": "Sturdy",
+    "description": "This model cannot be pushed."
+  },
+  "telemetry": {
+    "name": "Telemetry",
+    "description": "Other friendly Faction models gain +2 to arcane attack rolls against enemy models within 8\" of this model."
+  },
+  "thresherAttack": {
+    "name": "Thresher (★ Attack)",
+    "description": "This model makes one melee attack with this weapon against each model in its LOS that is in this weapon's melee range, regardless of whether that model is a friendly model or an enemy model. Thresher attacks are simultaneous."
+  },
+  "vampiricHarvest": {
+    "name": "Vampiric Harvest",
+    "description": "When a living enemy model is destroyed in this model's control range, a model in this model's battlegroup that is in its control range can remove 1 damage point."
+  },
+  "vaultOfTheFaithful": {
+    "name": "Vault of the Faithful",
+    "description": "During your Maintenance Phase, you can remove up to three soul tokens from this model to return one destroyed small- or medium-based friendly Faction Grunt to play for each token removed. Grunts return with one unmarked damage box. Place the returned Grunts completely within 12\" of this model and completely within 2\" of another model in their unit. Returned Grunts must forfeit its Normal Movement and Combat Actions the turn they are returned to play."
+  },
+  "vengeance": {
+    "name": "Vengeance",
+    "description": "During your Maintenance Phase, if one or more models in this unit were damaged by enemy attacks during the last round, each model in the unit can advance 3\" and make one basic melee attack."
+  },
+  "veteranLeaderConstructWarrior": {
+    "name": "Veteran Leader [Construct Warrior]",
+    "description": "While within 10\" of this model, other friendly Construct warrior models gain +1 to attack rolls."
+  },
+  "veteranLeaderPaingiverBloodrunners": {
+    "name": "Veteran Leader [Paingiver Bloodrunners]",
+    "description": "While within 10\" of this model, other friendly Paingiver Bloodrunner models gain +1 to attack rolls."
+  },
+  "voidWalk": {
+    "name": "Void Walk",
+    "description": "Once per activation, immediately after resolving an attack in which it destroyed a living or undead enemy model with an attack during its Combat Action, you can place this model anywhere completely within 8\" of its current location."
+  },
+  "wingsOfDeath": {
+    "name": "Wings of Death",
+    "description": "RNG 5. Target friendly Construct warrior model. If the model is in range, it gains Incorporeal for one round. If the model is in range and is a trooper model, the models in its unit also gain Incorporeal for one round."
+  },
+  "witchMark": {
+    "name": "Witch Mark",
+    "description": "If this attack hits an enemy model during this model's activation, until the end of that activation this model can target and automatically hit that enemy model with spells, ignoring RNG and LOS."
+  }
+}

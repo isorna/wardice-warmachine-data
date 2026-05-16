@@ -1,0 +1,2207 @@
+{
+  "baneWitchAgathia": {
+    "name": "Bane Witch Agathia",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Scout",
+      "Warcaster"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 15
+    },
+    "abilities": [
+      "apparition",
+      "darkShroud",
+      "fieldMarshalBloodShadow",
+      "soulTakerCullSoul"
+    ],
+    "weapons": {
+      "deathKiss": {
+        "type": "melee",
+        "name": "Death Kiss",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bloodShadow"
+        ]
+      }
+    },
+    "feat": {
+      "name": "Shadowfall",
+      "rules": "Models in Agathia's battlegroup currently in her control range are affected by Ghost Walk. Additionally, you can place each friendly faction Cohort model currently in Agathia's control range anywhere completely within 3\" of its current location. Shadowfall lasts for one turn."
+    },
+    "spells": [
+      "ghostWalk",
+      "hellfire",
+      "hellwrought",
+      "parasite",
+      "vanish"
+    ]
+  },
+  "corruptor": {
+    "name": "Corruptor",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 17,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 4, "systems": { "4": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 4, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "weapons": {
+      "necrocannon": {
+        "type": "ranged",
+        "location": "L",
+        "name": "Necrocannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [["attackType", "burster", "distillation", "psychoVenom"]]
+      },
+      "necrojector": {
+        "type": "melee",
+        "location": "R",
+        "name": "Necrojector",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [["attackType", "burster", "distillation", "psychoVenom"]]
+      }
+    }
+  },
+  "deathripper": {
+    "name": "Deathripper",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Light",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 14,
+      "health": {
+        "total": 22,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
+            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
+            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
+            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
+            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
+            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead",
+      "arcNode"
+    ],
+    "weapons": {
+      "mandible": {
+        "type": "melee",
+        "name": "Mandible",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "sustainedAttack"
+        ]
+      }
+    }
+  },
+  "defiler": {
+    "name": "Defiler",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Light",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 14,
+      "health": {
+        "total": 22,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
+            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
+            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
+            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
+            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
+            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead",
+      "arcNode"
+    ],
+    "weapons": {
+      "sludgeCannon": {
+        "type": "ranged",
+        "name": "Sludge Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "bash": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 7
+        }
+      }
+    }
+  },
+  "desecrator": {
+    "name": "Desecrator",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 4, "systems": { "4": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 4, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      "accumulatorBane",
+      "steady"
+    ],
+    "weapons": {
+      "plagueBringer": {
+        "type": "ranged",
+        "location": "L",
+        "name": "Plague Bringer",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        }
+      },
+      "vivisector": {
+        "type": "melee",
+        "location": "R",
+        "name": "Vivisector",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "abilities": [
+          "criticalShred",
+          "grievousWounds"
+        ]
+      }
+    }
+  },
+  "erebus": {
+    "name": "Erebus",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 14,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "3": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 3, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      "bondScaverous",
+      "overtake",
+      "poltergeist"
+    ],
+    "weapons": {
+      "deathClaw": {
+        "type": "melee",
+        "name": "Death Claw",
+        "quantity": 2,
+        "location": "LR",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "abilities": [
+          "freeze"
+        ]
+      }
+    }
+  },
+  "inflictor": {
+    "name": "Inflictor",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 17,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "3": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 3, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      "shieldGuard"
+    ],
+    "weapons": {
+      "shieldClaw": {
+        "type": "melee",
+        "name": "Shield Claw",
+        "location": "L",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        }
+      },
+      "stinger": {
+        "type": "melee",
+        "name": "Stinger",
+        "location": "R",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [
+          "criticalPoison"
+        ]
+      }
+    }
+  },
+  "kraken": {
+    "name": "Kraken",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Colossal",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "2",
+    "points": 25,
+    "baseSize": 120,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 68,
+        "grid": {
+          "L": {
+            "columns": [
+              { "boxes": 4, "systems": { "3": "L", "4": "L" } },
+              { "boxes": 4, "systems": { "3": "L", "4": "C" } },
+              { "boxes": 4, "systems": { "2": "L", "3": "C", "4": "M" } },
+              { "boxes": 5, "systems": { "3": "L", "4": "C", "5": "M" } },
+              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
+              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } }
+            ]
+          },
+          "R": {
+            "columns": [
+              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } },
+              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
+              { "boxes": 5, "systems": { "3": "R", "4": "C", "5": "M" } },
+              { "boxes": 4, "systems": { "2": "R", "3": "C", "4": "M" } },
+              { "boxes": 4, "systems": { "3": "R", "6": "C" } },
+              { "boxes": 4, "systems": { "3": "R", "6": "R" } }
+            ]
+          }
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      [
+        "bodySnatcherHeartEater",
+        "crucibleOfDeath"
+      ],
+      "bulldoze"
+    ],
+    "weapons": {
+      "hellblaster": {
+        "type": "ranged",
+        "name": "Hellblaster",
+        "location": "S",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 16,
+          "rateOfFire": 1,
+          "areaOfEffect": 4,
+          "power": "14/7"
+        },
+        "abilities": [
+          "doomDriver"
+        ]
+      },
+      "flayer": {
+        "type": "ranged",
+        "name": "Flayer",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": "D3+1",
+          "power": 12
+        }
+      },
+      "harvester": {
+        "type": "melee",
+        "name": "Harvester",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 19
+        },
+        "abilities": [
+          "doomDriver"
+        ]
+      }
+    }
+  },
+  "nightmare": {
+    "name": "Nightmare",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 14,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "3": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 3, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      "bondDeneghra",
+      "ghostly",
+      "prey"
+    ],
+    "weapons": {
+      "wickedClaw": {
+        "type": "melee",
+        "name": "Wicked Claw",
+        "quantity": 2,
+        "location": "LR",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "chainAttackGrabSmash"
+        ]
+      },
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 12
+        }
+      }
+    }
+  },
+  "nightwretch": {
+    "name": "Nightwretch",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Light",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 14,
+      "health": {
+        "total": 22,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
+            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
+            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
+            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
+            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
+            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead",
+      "arcNode"
+    ],
+    "weapons": {
+      "doomspitter": {
+        "type": "ranged",
+        "name": "Doomspitter",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        }
+      },
+      "bash": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 7
+        }
+      }
+    }
+  },
+  "reaper": {
+    "name": "Reaper",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 11,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 17,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "3": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 3, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "weapons": {
+      "harpoon": {
+        "type": "ranged",
+        "name": "Harpoon",
+        "location": "L",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "skewer"
+        ]
+      },
+      "helldriver": {
+        "type": "melee",
+        "name": "Helldriver",
+        "location": "R",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [
+          "sustainedAttack"
+        ]
+      },
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        }
+      }
+    }
+  },
+  "ripjaw": {
+    "name": "Ripjaw",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Light",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 14,
+      "health": {
+        "total": 22,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
+            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
+            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
+            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
+            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
+            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead",
+      "arcNode"
+    ],
+    "weapons": {
+      "boneSaw": {
+        "type": "melee",
+        "name": "Bone Saw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "criticalArmorPiercing",
+          "powerfulAttack"
+        ]
+      }
+    }
+  },
+  "seether": {
+    "name": "Seether",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "3": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 3, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      "aggressive",
+      "berserk"
+    ],
+    "weapons": {
+      "talon": {
+        "type": "melee",
+        "name": "Talon",
+        "quantity": 2,
+        "location": "LR",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 17
+        }
+      },
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 12
+        }
+      }
+    }
+  },
+  "sepulcher": {
+    "name": "Sepulcher",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Colossal",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "2",
+    "points": 28,
+    "baseSize": 120,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 68,
+        "grid": {
+          "L": {
+            "columns": [
+              { "boxes": 4, "systems": { "3": "L", "4": "L" } },
+              { "boxes": 4, "systems": { "3": "L", "4": "C" } },
+              { "boxes": 4, "systems": { "2": "L", "3": "C", "4": "M" } },
+              { "boxes": 5, "systems": { "3": "L", "4": "C", "5": "M" } },
+              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
+              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } }
+            ]
+          },
+          "R": {
+            "columns": [
+              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } },
+              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
+              { "boxes": 5, "systems": { "3": "R", "4": "C", "5": "M" } },
+              { "boxes": 4, "systems": { "2": "R", "3": "C", "4": "M" } },
+              { "boxes": 4, "systems": { "3": "R", "6": "C" } },
+              { "boxes": 4, "systems": { "3": "R", "6": "R" } }
+            ]
+          }
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      [
+        "bodySnatcherGraveRobber5",
+        "deathIndustry"
+      ],
+      "bulldoze"
+    ],
+    "weapons": {
+      "desolator": {
+        "type": "ranged",
+        "name": "Desolator",
+        "location": "S",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 13,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "13/7"
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "impaler": {
+        "type": "ranged",
+        "name": "Impaler",
+        "quantity": 2,
+        "location": "LR",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": "D3",
+          "power": 13
+        },
+        "abilities": [
+          "volumeFire"
+        ]
+      },
+      "harvester": {
+        "type": "melee",
+        "name": "Harvester",
+        "quantity": 2,
+        "location": "LR",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 19
+        },
+        "abilities": [
+          "drag"
+        ]
+      }
+    }
+  },
+  "slayer": {
+    "name": "Slayer",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Heavy",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 17,
+      "health": {
+        "total": 28,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "3": "L" } },
+            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
+            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
+            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
+            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
+            { "boxes": 3, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "weapons": {
+      "deathClaw": {
+        "type": "melee",
+        "name": "Death Claw",
+        "quantity": 2,
+        "location": "LR",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "abilities": [
+          "comboStrikeAttack"
+        ]
+      },
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        }
+      }
+    }
+  },
+  "stalker": {
+    "name": "Stalker",
+    "type": "warjack",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Light",
+      "Warjack"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 13,
+      "health": {
+        "total": 22,
+        "grid": {
+          "columns": [
+            { "boxes": 3, "systems": { "3": "L" } },
+            { "boxes": 4, "systems": { "2": "L", "3": "L", "4": "M" } },
+            { "boxes": 3, "systems": { "2": "M", "3": "M" } },
+            { "boxes": 3, "systems": { "2": "C", "3": "C" } },
+            { "boxes": 4, "systems": { "2": "R", "3": "R", "4": "C" } },
+            { "boxes": 3, "systems": { "3": "R" } }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      "boundingLeap",
+      "extendedControlRange"
+    ],
+    "weapons": {
+      "eviscerator": {
+        "type": "melee",
+        "name": "Eviscerator",
+        "quantity": 2,
+        "location": "LR",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "grievousWounds"
+        ]
+      }
+    }
+  },
+  "deneghraTheSoulWeaver": {
+    "name": "Deneghra, the Soul Weaver",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Battle Engine",
+      "Warcaster",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 120,
+    "statistics": {
+      "speed": 9,
+      "arcaneAttack": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 18,
+      "controlRange": 14,
+      "health": 18
+    },
+    "abilities": [
+      "reposition5",
+      [
+        "soulMastery",
+        "darkWhispers",
+        "vengefulSpirits"
+      ],
+      "soulTakerCullSoul",
+      "soulWeaver"
+    ],
+    "weapons": {
+      "venomousBreath": {
+        "type": "ranged",
+        "name": "Venomous Breath",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "malefactor": {
+        "type": "melee",
+        "name": "Malefactor",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        }
+      }
+    },
+    "feat": {
+      "name": "Hell Gate",
+      "rules": "Deneghra immediately gains seven soul tokens."
+    },
+    "spells": [
+      "ghostWalk",
+      "graveWind",
+      "mortality",
+      "scourge"
+    ]
+  },
+  "goreshadeTheBastard": {
+    "name": "Goreshade the Bastard",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Warcaster",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 40,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 16
+    },
+    "abilities": [
+      "deathwalk"
+    ],
+    "weapons": {
+      "bloodcleaver": {
+        "type": "melee",
+        "name": "Bloodcleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        }
+      }
+    },
+    "feat": {
+      "name": "Dark Summons",
+      "rules": "Put a small-based Bane unit into play. Place each model completely within 3\" of Goreshade."
+    },
+    "spells": [
+      "shadowmancer",
+      "soulGate",
+      "bleed",
+      "hexBlast",
+      "lamentation"
+    ]
+  },
+  "deathwalker": {
+    "name": "Deathwalker",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 0,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "defense": 14,
+      "armour": 10,
+      "health": 1
+    },
+    "abilities": [
+      "breathTaker",
+      "companionGoreshadeTheBastard",
+      "darkRestoration"
+    ]
+  },
+  "lordExhumatorScaverous": {
+    "name": "Lord Exhumator Scaverous",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Warcaster",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 40,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 17
+    },
+    "abilities": [
+      "breathTaker",
+      "knowledgeOfTheDamned",
+      "soulTakerExhumator"
+    ],
+    "weapons": {
+      "avernus": {
+        "type": "melee",
+        "name": "Avernus",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "thresherAttack"
+        ]
+      }
+    },
+    "feat": {
+      "name": "Black Gate",
+      "rules": "While in Scaverous' control range, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell while in Scaverous' control range, increase the COST by 1. Black Gate lasts for one round."
+    },
+    "spells": [
+      "deathWard",
+      "excarnate",
+      "feastOfWorms",
+      "telekinesis"
+    ]
+  },
+  "wraithEngine": {
+    "name": "Wraith Engine",
+    "type": "battleEngine",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Battle Engine"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "2",
+    "points": 11,
+    "baseSize": 120,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "health": 20
+    },
+    "advantages": [
+      "construct",
+      "undead"
+    ],
+    "abilities": [
+      "cleave",
+      "darkShroud",
+      "inscrutable",
+      "soulBondage",
+      "unhallowed"
+    ],
+    "weapons": {
+      "scythingBlade": {
+        "type": "melee",
+        "name": "Scything Blade",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        }
+      }
+    }
+  },
+  "baneLordTartarus": {
+    "name": "Bane Lord Tartarus",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo",
+      "Character",
+      "Bane"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 5,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 8,
+      "defense": 12,
+      "armour": 17,
+      "health": 8
+    },
+    "abilities": [
+      "curseBane",
+      "darkShroud",
+      "ghostly",
+      "rapidStrike"
+    ],
+    "weapons": {
+      "rivener": {
+        "type": "melee",
+        "name": "Rivener",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "deathTollSmallBasedBane"
+        ]
+      }
+    }
+  },
+  "darraghWrathe": {
+    "name": "Darragh Wrathe",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Dragoon",
+      "Solo",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 7,
+    "baseSize": 50,
+    "abilities": [
+      "battleWizard",
+      [
+        "magicAbility",
+        "deathRideAction",
+        "hellfireAttack",
+        "invocationOfDarkestNightAction"
+      ],
+      "reposition3"
+    ],
+    "weapons": {
+      "necroScythe": {
+        "type": "melee",
+        "name": "Necro-Scythe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        }
+      }
+    },
+    "profiles": {
+      "mounted": {
+        "statistics": {
+          "speed": 8,
+          "arcaneAttack": 7,
+          "meleeAttack": 7,
+          "defense": 14,
+          "armour": 17,
+          "health": 5
+        }
+      },
+      "dismounted": {
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 7,
+          "meleeAttack": 7,
+          "defense": 14,
+          "armour": 15,
+          "health": 5
+        }
+      }
+    }
+  },
+  "hellslingerPhantom": {
+    "name": "Hellslinger Phantom",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Wraith",
+      "Solo",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 6,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 8,
+      "defense": 15,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "undead",
+      "incorporeal"
+    ],
+    "abilities": [
+      [
+        "soulTakerBodyCount",
+        "strengthOfDeath"
+      ],
+      "swiftHunter",
+      "soulChambered1"
+    ],
+    "weapons": {
+      "wraithstormPistol": {
+        "type": "ranged",
+        "name": "Wraithstorm Pistol",
+        "quantity": 2,
+        "statistics": {
+          "rangedAttack": 8,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          ["attackType", "criticalGrievousWounds", "incendiary", "phantomSeeker"]
+        ]
+      }
+    }
+  },
+  "machineWraith": {
+    "name": "Machine Wraith",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 12,
+      "health": 1
+    },
+    "advantages": [
+      "construct",
+      "undead",
+      "incorporeal"
+    ],
+    "weapons": {
+      "mechanoClaws": {
+        "type": "melee",
+        "name": "Mechano-Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "darkDomination"
+        ]
+      }
+    }
+  },
+  "necrotech": {
+    "name": "Necrotech",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "3",
+    "points": 1,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 13,
+      "health": 1
+    },
+    "abilities": [
+      "createScrapThrallAction",
+      "empowerAction",
+      "repairD6Action",
+      "spareParts",
+      "steady"
+    ],
+    "weapons": {
+      "viseClaw": {
+        "type": "melee",
+        "name": "Vise Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 10
+        }
+      }
+    }
+  },
+  "olGrim": {
+    "name": "Ol' Grim",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Wraith",
+      "Solo",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 6,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 8,
+      "defense": 15,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "undead",
+      "incorporeal"
+    ],
+    "abilities": [
+      "apparition",
+      "marksman",
+      "sniper",
+      [
+        "soulTakerBodyCount",
+        "darkBlessing"
+      ]
+    ],
+    "weapons": {
+      "vanarOppressor": {
+        "type": "ranged",
+        "name": "Vanar Oppressor",
+        "statistics": {
+          "rangedAttack": 8,
+          "range": 14,
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "wraithShot"
+        ]
+      }
+    }
+  },
+  "pistolWraith": {
+    "name": "Pistol Wraith",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 12,
+      "health": 1
+    },
+    "advantages": [
+      "undead",
+      "incorporeal"
+    ],
+    "abilities": [
+      [
+        "soulTakerBodyCount",
+        "strengthOfDeath"
+      ]
+    ],
+    "weapons": {
+      "wraithlockPistol": {
+        "type": "ranged",
+        "name": "Wraithlock Pistol",
+        "quantity": 2,
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "chainAttackDeathChill"
+        ]
+      }
+    }
+  },
+  "scrapThrall": {
+    "name": "Scrap Thrall",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "9",
+    "points": 1,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 11,
+      "armour": 12,
+      "health": 1
+    },
+    "abilities": [
+      "thrallBomb"
+    ],
+    "weapons": {
+      "mechanoClaw": {
+        "type": "melee",
+        "name": "Mechano-Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "deathBurstAttack"
+        ]
+      }
+    }
+  },
+  "skarlockThrall": {
+    "name": "Skarlock Thrall",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "1",
+    "points": 2,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 3,
+      "defense": 14,
+      "armour": 12,
+      "health": 1
+    },
+    "abilities": [
+      "attached",
+      [
+        "magicAbility",
+        "darkFireAttack",
+        "guidanceAction",
+        "spellSlaveActionOrAttack"
+      ],
+      [
+        "soulTakerSoulCage",
+        "strengthOfDeath"
+      ]
+    ],
+    "weapons": {
+      "claws": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 3,
+          "range": 1,
+          "power": 6
+        }
+      }
+    }
+  },
+  "soulTrapper": {
+    "name": "Soul Trapper",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Solo"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "6",
+    "points": 1,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 11,
+      "armour": 12,
+      "health": 1
+    },
+    "abilities": [
+      [
+        "soulTakerCollector",
+        "soulTransferAction"
+      ]
+    ],
+    "weapons": {
+      "mechanoClaw": {
+        "type": "melee",
+        "name": "Mechano-Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        }
+      }
+    }
+  },
+  "baneKnights": {
+    "name": "Bane Knights",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Unit",
+      "Bane"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "3",
+    "points": 7,
+    "baseSize": 30,
+    "grunts": 5,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": 1
+    },
+    "abilities": [
+      "ghostly",
+      "shieldWall"
+    ],
+    "weapons": {
+      "baneLance": {
+        "type": "melee",
+        "name": "Bane Lance",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      },
+      "shield": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        }
+      }
+    }
+  },
+  "baneKnightOfficer": {
+    "name": "Bane Knight Officer",
+    "type": "commandAttachment",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Command Attachment",
+      "Bane"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 16,
+      "health": 5
+    },
+    "abilities": [
+      "commandAttachmentBaneKnight",
+      "ghostly",
+      "grantedSetDefense",
+      "serpentsCoil",
+      "shieldWall"
+    ],
+    "weapons": {
+      "baneLance": {
+        "type": "melee",
+        "name": "Bane Lance",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      },
+      "shield": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        }
+      }
+    }
+  },
+  "baneRiders": {
+    "name": "Bane Riders",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Unit",
+      "Bane",
+      "Cavalry"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "baseSize": 50,
+    "grunts": 3,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "health": 5
+    },
+    "abilities": [
+      "cleave",
+      "ghostly",
+      "reposition3",
+      "vengeance"
+    ],
+    "weapons": {
+      "baneBlade": {
+        "type": "melee",
+        "name": "Bane Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      }
+    }
+  },
+  "baneWarriors": {
+    "name": "Bane Warriors",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Unit",
+      "Bane"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "3",
+    "points": 7,
+    "baseSize": 30,
+    "grunts": 5,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 15,
+      "health": 1
+    },
+    "abilities": [
+      "darkShroud",
+      "ghostly"
+    ],
+    "weapons": {
+      "warAxe": {
+        "type": "melee",
+        "name": "War Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      }
+    }
+  },
+  "baneWarriorOfficerStandard": {
+    "name": "Bane Warrior Officer & Standard",
+    "type": "commandAttachment",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Command Attachment",
+      "Bane"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "3",
+    "points": 4,
+    "baseSize": 30,
+    "abilities": [
+      "attachmentBaneWarrior"
+    ],
+    "profiles": {
+      "officer": {
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 7,
+          "defense": 12,
+          "armour": 15,
+          "health": 5
+        },
+        "abilities": [
+          "darkShroud",
+          "ghostly",
+          "grantedTough",
+          "voidBringer"
+        ],
+        "weapons": {
+          "warAxe": {
+            "type": "melee",
+            "name": "War Axe",
+            "quantity": 2,
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      },
+      "standardBearer": {
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 6,
+          "defense": 12,
+          "armour": 15,
+          "health": 1
+        },
+        "abilities": [
+          "grantedInspiration",
+          "grantedRise",
+          "takeUp",
+          "darkShroud",
+          "ghostly"
+        ],
+        "weapons": {
+          "warAxe": {
+            "type": "melee",
+            "name": "War Axe",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      }
+    }
+  },
+  "theWithershadowCombine": {
+    "name": "The Withershadow Combine",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Dark Host",
+      "Unit",
+      "Character"
+    ],
+    "faction": "Cryx",
+    "armies": [
+      "Dark Host"
+    ],
+    "fieldAllowance": "c",
+    "points": 6,
+    "baseSize": 30,
+    "abilities": [
+      "attached"
+    ],
+    "profiles": {
+      "tremulus": {
+        "statistics": {
+          "speed": 5,
+          "arcaneAttack": 7,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 15,
+          "health": 5
+        },
+        "abilities": [
+          [
+            "magicAbility",
+            "darkFireAttack",
+            "marionetteAttack",
+            "puppetMasterAction"
+          ],
+          [
+            "soulTakerSoulCage",
+            "strengthOfDeath"
+          ]
+        ]
+      },
+      "maelovus": {
+        "statistics": {
+          "speed": 5,
+          "arcaneAttack": 7,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 15,
+          "health": 5
+        },
+        "abilities": [
+          [
+            "magicAbility",
+            "spellSlaveActionOrAttack",
+            "darkFireAttack"
+          ],
+          [
+            "soulTakerSoulCage",
+            "strengthOfDeath"
+          ]
+        ],
+        "weapons": {
+          "lichClaws": {
+            "type": "melee",
+            "name": "Lich Claws",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 12
+            }
+          }
+        }
+      },
+      "admonia": {
+        "statistics": {
+          "speed": 5,
+          "arcaneAttack": 7,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 15,
+          "health": 5
+        },
+        "abilities": [
+          "blackArts",
+          [
+            "magicAbility",
+            "darkFireAttack",
+            "sigilOfPowerAction"
+          ],
+          [
+            "soulTakerSoulCage",
+            "strengthOfDeath"
+          ]
+        ],
+        "weapons": {
+          "lichClaws": {
+            "type": "melee",
+            "name": "Lich Claws",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 12
+            }
+          }
+        }
+      }
+    }
+  }
+}

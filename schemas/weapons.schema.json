@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "weapons.schema.json",
+  "title": "Weapons",
+  "description": "Schema for the Wardice weapons data file. Each key is a camelCase weapon ID.",
+  "type": "object",
+  "additionalProperties": {
+    "oneOf": [
+      {
+        "$ref": "#/definitions/weapon"
+      },
+      {
+        "$ref": "#/definitions/weaponGroup"
+      }
+    ]
+  },
+  "definitions": {
+    "weapon": {
+      "type": "object",
+      "title": "Weapon",
+      "description": "A single weapon entry used by one or more model profiles.",
+      "required": [
+        "type",
+        "name",
+        "statistics"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "string",
+          "description": "Whether the weapon is used in melee or at range.",
+          "enum": [
+            "melee",
+            "ranged"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "description": "Display name of the weapon (e.g. 'Death Kiss', 'Necrocannon').",
+          "minLength": 1
+        },
+        "location": {
+          "type": "string",
+          "description": "Mount location on a warjack chassis (e.g. 'L' for left arm, 'R' for right arm).",
+          "enum": [
+            "L",
+            "R",
+            "C",
+            "H"
+          ]
+        },
+        "quantity": {
+          "type": "integer",
+          "description": "Number of identical weapons of this type the model carries (e.g. 2 for dual-wielding).",
+          "minimum": 1
+        },
+        "statistics": {
+          "type": "object",
+          "description": "Numerical combat stats for this weapon.",
+          "additionalProperties": false,
+          "properties": {
+            "meleeAttack": {
+              "type": "integer",
+              "description": "Melee attack roll bonus (MAT-based weapons).",
+              "minimum": 0
+            },
+            "rangedAttack": {
+              "type": "integer",
+              "description": "Ranged attack roll bonus (RAT-based weapons).",
+              "minimum": 0
+            },
+            "range": {
+              "description": "Effective range of the weapon. Integer for standard ranges; string for special values like 'Sp 8' (spray) or 'CTRL' (control range).",
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "type": "string",
+                  "minLength": 1
+                }
+              ]
+            },
+            "rateOfFire": {
+              "type": "integer",
+              "description": "Number of shots per activation (ranged weapons only).",
+              "minimum": 1
+            },
+            "areaOfEffect": {
+              "type": "integer",
+              "description": "Blast radius in inches for AOE weapons (e.g. 3 means 3\" AOE).",
+              "minimum": 1
+            },
+            "power": {
+              "description": "Damage roll value. Integer for standard weapons; string for split-damage notation like '14/8' (direct hit / blast).",
+              "oneOf": [
+                {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                {
+                  "type": "string",
+                  "pattern": "^[0-9]+/[0-9]+$"
+                }
+              ]
+            }
+          }
+        },
+        "abilities": {
+          "description": "Special rules that apply to this weapon. Can be a flat list of ability IDs, or a list where each element is either an ability ID (string) or a mutually-exclusive ability group (array of strings — the player must choose one).",
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "string",
+                "description": "A single ability ID (camelCase).",
+                "minLength": 1
+              },
+              {
+                "type": "array",
+                "description": "A mutually-exclusive ability group — the first element is typically the group type (e.g. 'attackType') followed by the selectable options.",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 2
+              }
+            ]
+          }
+        }
+      }
+    },
+    "weaponGroup": {
+      "type": "object",
+      "description": "Named weapon section such as mounted or dismounted. Each property is a weapon id.",
+      "additionalProperties": {
+        "$ref": "#/definitions/weapon"
+      }
+    }
+  }
+}

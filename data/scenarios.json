@@ -1,0 +1,22 @@
+[
+  {
+    "id": "custom_scenario_1",
+    "name": "KING OF THE HILL (3 players)",
+    "page": 0,
+    "map_image_filename": "custom_scenario_1_king_of_the_hill_map.svg",
+    "rules": {
+      "scenario_victory": "A player wins immediately if, after scoring during their opponent's turn, their Victory Point total is at least 3 points higher than their other opponent's. A player may not win via Scenario Victory on their own turn.",
+      "ambush": "Player 1 and Player 2 deployment zones are smaller than usual, units not able to deploy there due to space will be deployed on the second turn as they had the AMBUSH rule.",
+      "scenario_elements": "Place one 50mm objective, and three flags in accordance with the diagram below.",
+      "earning_victory_points_intro": "Starting on the third player's second turn, at the end of each player's turn, a player earns Victory Points (VP) as follows:",
+      "victory_points_summary": [
+        "Objective secured = 2 VP",
+        "Own flag secured = 1 VP",
+        "Enemy flag secured = 3 VP",
+        "Enemy Leader killed = 3 VP"
+      ],
+      "vp_limit": "There is no limit to the number of VPs a player can earn.",
+      "fixed_game_length": "The game ends at the end of the third player's seventh turn."
+    }
+  }
+]

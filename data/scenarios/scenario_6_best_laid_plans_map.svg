@@ -1,0 +1,88 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-player1 { fill: #E0B0B0; }
+    .bg-player2 { fill: #B0B0E0; }
+    .bg-neutral { fill: #D0D0D0; }
+    .objective { fill: #505050; stroke: black; stroke-width: 1; }
+    .objective-text { fill: white; font-family: Arial, sans-serif; font-size: 20px; text-anchor: middle; dominant-baseline: central; }
+    .objective-40-text { fill: white; font-family: Arial, sans-serif; font-size: 18px; text-anchor: middle; dominant-baseline: central; }
+    .flag-cache { fill: #303030; stroke: black; stroke-width: 1; }
+    .flag-cache-text { fill: white; font-family: Arial, sans-serif; font-size: 18px; text-anchor: middle; dominant-baseline: central; }
+    .label-text { fill: black; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .measurement-text { fill: black; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    .p1 { fill: orange; }
+    .p2 { fill: lightblue; }
+  </style>
+
+  <!-- Backgrounds -->
+  <rect class="bg-player1" x="0" y="0" width="600" height="75" />
+  <rect class="bg-neutral" x="0" y="75" width="600" height="388" />
+  <rect class="bg-player2" x="0" y="463" width="600" height="137" />
+
+  <!-- Deployment Zone Labels -->
+  <text class="label-text" x="500" y="30">Player 1</text>
+  <text class="label-text" x="500" y="50">Deployment Zone</text>
+  <text class="label-text" x="500" y="540">Player 2</text>
+  <text class="label-text" x="500" y="560">Deployment Zone</text>
+
+  <!-- Measurements (approximate) -->
+  <text class="measurement-text" x="70" y="40">6"</text>
+  <text class="measurement-text" x="150" y="160">21"</text> <!-- P1 edge to F -->
+  <text class="measurement-text" x="540" y="160">21"</text> <!-- P1 edge to C -->
+  <text class="measurement-text" x="60" y="270">8"</text> <!-- P1 left edge to P1 40 -->
+  <text class="measurement-text" x="560" y="270">8"</text> <!-- P1 right edge to P1 50 -->
+  <text class="measurement-text" x="200" y="350">21"</text> <!-- P1/P2 edge to P2 40 -->
+  <text class="measurement-text" x="260" y="490">21"</text> <!-- P2 edge to F -->
+  <text class="measurement-text" x="350" y="520">15"</text> <!-- P2 edge to P2 50 -->
+  <text class="measurement-text" x="450" y="410">23"</text> <!-- P2 edge to P2 50 -->
+  <text class="measurement-text" x="70" y="540">11"</text>
+
+  <!-- Scenario Elements -->
+  <!-- P1 Flag (Top-Center Left) -->
+  <circle class="flag-cache" cx="297" cy="202" r="15" />
+  <text class="flag-cache-text p1" x="297" y="202">F</text>
+
+  <!-- P1 Cache (Top-Center Right) -->
+  <circle class="flag-cache" cx="515" cy="277" r="15" />
+  <text class="flag-cache-text p1" x="515" y="277">C</text>
+
+  <!-- P1 40 Obj (Mid-Left) -->
+  <circle class="objective" cx="120" cy="282" r="20" />
+  <text class="objective-40-text p1" x="120" y="282">40</text>
+
+  <!-- P1 50 Obj (Mid-Right) -->
+  <circle class="objective" cx="363" cy="287" r="25" />
+  <text class="objective-text p1" x="363" y="287">50</text>
+
+  <!-- P2 40 Obj (Mid-Left) -->
+  <circle class="objective" cx="120" cy="358" r="20" />
+  <text class="objective-40-text p2" x="120" y="358">40</text>
+
+  <!-- P2 Cache (Mid-Center Right) -->
+  <circle class="flag-cache" cx="515" cy="353" r="15" />
+  <text class="flag-cache-text p2" x="515" y="353">C</text>
+
+  <!-- P2 Flag (Bottom-Center) -->
+  <circle class="flag-cache" cx="328" cy="428" r="15" />
+  <text class="flag-cache-text p2" x="328" y="428">F</text>
+
+  <!-- P2 50 Obj (Bottom-Center) -->
+  <circle class="objective" cx="287" cy="363" r="25" />
+  <text class="objective-text p2" x="287" y="363">50</text>
+
+  <!-- lines -->
+  <line x1="50" y1="0" x2="50" y2="75" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- P1 deploy -->
+  <line x1="50" y1="463" x2="50" y2="600" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- P2 deploy -->
+
+  <line x1="0" y1="282" x2="100" y2="282" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- LEFT 8 top 21 -->
+  <line x1="120" y1="0" x2="120" y2="262" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- left 8 TOP 21 -->
+
+  <line x1="530" y1="282" x2="600" y2="282" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- RIGHT 8 top 21 -->
+  <line x1="515" y1="0" x2="515" y2="262" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- right 8 TOP 21 -->
+
+  <line x1="0" y1="363" x2="262" y2="363" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- LEFT 21 bottom 21 -->
+  <line x1="287" y1="388" x2="287" y2="600" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- left 21 BOTTOM 21 -->
+
+  <line x1="343" y1="428" x2="600" y2="428" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- RIGHT 23 bottom 15 -->
+  <line x1="328" y1="443" x2="328" y2="600" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- right 23 BOTTOM 15 -->
+</svg>

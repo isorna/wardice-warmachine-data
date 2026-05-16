@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://wardice-hud.local/schemas/army-list.schema.json",
+  "title": "Army List",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "format",
+    "pointsLimit",
+    "notes",
+    "entries",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "format": {
+      "type": "string",
+      "enum": ["prime-mk4", "prime-armies-of-legend", "legacy"]
+    },
+    "pointsLimit": {
+      "type": "integer",
+      "minimum": 30,
+      "maximum": 100
+    },
+    "notes": {
+      "type": "string"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "profileId",
+          "factionId",
+          "factionName",
+          "armyId",
+          "armyName",
+          "type",
+          "typeLabel",
+          "name",
+          "points",
+          "fieldAllowance",
+          "quantity"
+        ],
+        "properties": {
+          "profileId": { "type": "string", "minLength": 1 },
+          "factionId": { "type": "string", "minLength": 1 },
+          "factionName": { "type": "string", "minLength": 1 },
+          "armyId": { "type": "string", "minLength": 1 },
+          "armyName": { "type": "string", "minLength": 1 },
+          "type": { "type": "string", "minLength": 1 },
+          "typeLabel": { "type": "string", "minLength": 1 },
+          "name": { "type": "string", "minLength": 1 },
+          "points": { "type": "integer", "minimum": 0 },
+          "fieldAllowance": { "type": "string", "minLength": 1 },
+          "quantity": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

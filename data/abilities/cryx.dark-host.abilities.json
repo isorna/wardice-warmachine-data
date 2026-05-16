@@ -1,0 +1,450 @@
+{
+  "accumulatorBane": {
+    "name": "Accumulator [Bane]",
+    "description": "When this model begins its activation within 3\" of one or more friendly Bane warrior models, this model gains 1 focus point."
+  },
+  "aggressive": {
+    "name": "Aggressive",
+    "description": "This model can run or charge without spending a focus point."
+  },
+  "apparition": {
+    "name": "Apparition",
+    "description": "During your Control Phase, place this model anywhere completely within 2\" of its current location."
+  },
+  "arcingFire": {
+    "name": "Arcing Fire",
+    "description": "When attacking with this weapon, this model can ignore intervening models."
+  },
+  "attached": {
+    "name": "Attached",
+    "description": "Before the start of the game, attach this model to a friendly Faction Leader for the rest of the game. Each Leader can have only one model/unit attached to it. The attached model is part of its Leader's battlegroup."
+  },
+  "attachmentBaneWarrior": {
+    "name": "Attachment [Bane Warrior]",
+    "description": "This attachment can be added to a Bane Warrior unit."
+  },
+  "attackType": {
+    "name": "Attack Type",
+    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
+  },
+  "battleWizard": {
+    "name": "Battle Wizard",
+    "description": "Once per turn, when this model destroys or removes from play one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action."
+  },
+  "berserk": {
+    "name": "Berserk",
+    "description": "When this model destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range, regardless of whether that model is a friendly model or an enemy model."
+  },
+  "blackArts": {
+    "name": "Black Arts",
+    "description": "A friendly Faction Leader model that has this model in its control range can upkeep one spell without spending focus or fury."
+  },
+  "bloodShadow": {
+    "name": "Blood Shadow",
+    "description": "If this attack boxes a living or undead model, this model can gain Incorporeal for one round."
+  },
+  "bodySnatcherGraveRobber5": {
+    "name": "Body Snatcher: Grave Robber [5\"]",
+    "description": "This model can gain corpse tokens. When an enemy living or undead model is destroyed while within 5\" of this model, this model gains the destroyed model's corpse token. When a friendly living model is destroyed by a continuous effect, an enemy attack, or collateral damage from an enemy attack while within 5\" of this model, this model gains the destroyed model's corpse token. This model can have up to five corpse tokens at any time. This model can spend corpse tokens for Death Industry."
+  },
+  "bodySnatcherHeartEater": {
+    "name": "Body Snatcher: Heart Eater",
+    "description": "This model can gain corpse tokens. When this model destroys a living or undead enemy model with a melee attack, this model gains the destroyed model's corpse token. This model can have up to three corpse tokens at any time. This model can spend corpse tokens for Crucible of Death."
+  },
+  "bondDeneghra": {
+    "name": "Bond [Deneghra]",
+    "description": "If Nightmare begins the game in Deneghra's battlegroup, it is bonded to her. Nightmare is not considered to be bonded while under your opponent's control. While Nightmare is bonded to Deneghra and in her control range, it gains Stealth."
+  },
+  "bondScaverous": {
+    "name": "Bond [Scaverous]",
+    "description": "If this model begins the game in Scaverous' battlegroup, it is bonded to him. This model is not considered to be bonded while under your opponent's control. While this model is bonded to Scaverous and in his control range, he can channel spells through it."
+  },
+  "boundingLeap": {
+    "name": "Bounding Leap",
+    "description": "Once per activation, after making a full advance as its Normal Movement but before performing its Combat Action, this model can spend 1 focus point to be placed completely within 5\" of its current location."
+  },
+  "breathTaker": {
+    "name": "Breath Taker",
+    "description": "Living enemy models suffer -2 DEF and -2 to their melee attack damage rolls while within 5\" of this model."
+  },
+  "brutalCharge": {
+    "name": "Brutal Charge",
+    "description": "This model gains +2 to charge attack damage rolls with this weapon."
+  },
+  "bulldoze": {
+    "name": "Bulldoze",
+    "description": "When this model is B2B with an enemy model during its Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack."
+  },
+  "burster": {
+    "name": "Burster",
+    "description": "When this attack boxes a living or undead model, the closest three enemy models within 3\" of the boxed model suffer an unboostable POW 10 corrosion damage roll. This damage is not considered to have been caused by an attack. After this damage is resolved, remove the boxed model from play."
+  },
+  "chainAttackDeathChill": {
+    "name": "Chain Attack: Death Chill",
+    "description": "If this model hits the same model with both its initial attacks with this weapon, the model hit becomes stationary for one round."
+  },
+  "chainAttackGrabSmash": {
+    "name": "Chain Attack: Grab & Smash",
+    "description": "If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a head-butt or throw power attack against that model even if it charged that activation."
+  },
+  "cleave": {
+    "name": "Cleave",
+    "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can gain only one additional attack from Cleave each activation."
+  },
+  "comboStrikeAttack": {
+    "name": "Combo Strike (★ Attack)",
+    "description": "This model gains +4 to the damage roll for this attack."
+  },
+  "commandAttachmentBaneKnight": {
+    "name": "Command Attachment [Bane Knight]",
+    "description": "This command attachment can be added to a Bane Knight unit."
+  },
+  "companionGoreshadeTheBastard": {
+    "name": "Companion [Goreshade The Bastard]",
+    "description": "This model is included in any army that includes Goreshade The Bastard. If Goreshade is destroyed or removed from play, remove this model from play. This model is part of Goreshade's battlegroup."
+  },
+  "createScrapThrallAction": {
+    "name": "Create Scrap Thrall (★ Action)",
+    "description": "Remove one or more scrap tokens from this model, then roll a d3 for each scrap token removed. Place up to that number of Scrap Thralls into play completely within 3\" of this model. A placed Scrap Thrall must forfeit its Combat Action the turn it is put into play."
+  },
+  "criticalArmorPiercing": {
+    "name": "Critical Armor-Piercing",
+    "description": "On a critical hit, when calculating damage from this weapon, halve the base ARM stats of the model hit."
+  },
+  "criticalGrievousWounds": {
+    "name": "Critical Grievous Wounds",
+    "description": "On a critical hit, a model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+  },
+  "criticalPoison": {
+    "name": "Critical Poison",
+    "description": "On a critical hit, gain an additional die on this weapon's damage rolls against living models."
+  },
+  "criticalShred": {
+    "name": "Critical Shred",
+    "description": "On a critical hit with this weapon during this model's Combat Action, after the attack is resolved this model can make one additional attack with this weapon against the model hit."
+  },
+  "crucibleOfDeath": {
+    "name": "Crucible of Death",
+    "description": "This model can spend up to three corpse tokens at the start of its activation to gain 1 focus point for each corpse token spent."
+  },
+  "curseBane": {
+    "name": "Curse [Bane]",
+    "description": "This model can use Curse once per activation at any time. Choose an enemy model/unit within 10\" of this model. Friendly Bane models gain +2 to attack rolls against the chosen model/unit. Curse lasts for one turn."
+  },
+  "darkBlessing": {
+    "name": "Dark Blessing",
+    "description": "Once per turn at any time during its activation, this model can spend one soul token to gain +3 DEF. Dark Blessing lasts for one round."
+  },
+  "darkDomination": {
+    "name": "Dark Domination",
+    "description": "When this model hits an enemy warjack that has a non-crippled cortex with a basic melee attack made with this weapon during this model's activation, you can take control of the warjack. Immediately after the attack has been resolved, you can make a full advance with the warjack and can then make one basic attack, then Dark Domination expires. A warjack can be affected by Dark Domination only once per turn."
+  },
+  "darkFireAttack": {
+    "name": "Dark Fire (★ Attack)",
+    "description": "Dark Fire is a RNG 10, POW 12 arcane attack. When a living enemy model is destroyed by Dark Fire, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models."
+  },
+  "darkRestoration": {
+    "name": "Dark Restoration",
+    "description": "If Goreshade is disabled while within 5\" of this model, this model is destroyed and 1 damage point is removed from Goreshade."
+  },
+  "darkShroud": {
+    "name": "Dark Shroud",
+    "description": "While within 2\" of this model, enemy models suffer -2 ARM."
+  },
+  "darkWhispers": {
+    "name": "Dark Whispers",
+    "description": "This model can cast a spell with COST 3 or less without spending focus."
+  },
+  "deathBurstAttack": {
+    "name": "Death Burst (★ Attack)",
+    "description": "This weapon's POW becomes 16 when resolving this attack, and models other than the target of this attack within 2\" of this model suffer a POW 8 blast damage roll. After this attack is resolved, remove this model from play."
+  },
+  "deathIndustry": {
+    "name": "Death Industry",
+    "description": "Once per turn at any time during its activation, this model can spend up to three corpse tokens to return one destroyed small- or medium-based friendly Faction undead Grunt to play for each token removed. Grunts return with one unmarked damage box. Place the returned Grunts completely within 12\" of this model and within 2\" of another model in their unit. Returned Grunts must forfeit their Normal Movement and Combat Actions the turn they are returned to play."
+  },
+  "deathRideAction": {
+    "name": "Death Ride (★ Action)",
+    "description": "Friendly Faction undead models activating within 5\" of this model gain +1\" movement when advancing as part of their Normal Movement. Death Ride lasts for one turn."
+  },
+  "deathTollSmallBasedBane": {
+    "name": "Death Toll [small-based Bane]",
+    "description": "When this weapon boxes a living enemy warrior model, remove that model from play and return one Grunt to a friendly small-based Bane unit within 8\" of this model. Place the Grunt within 2\" of another model in that unit. The Grunt must forfeit its Normal Movement and Combat Action the turn it is put into play."
+  },
+  "deathwalk": {
+    "name": "Deathwalk",
+    "description": "When this model boxes a living enemy warrior model with an attack with this weapon and the Deathwalker is not in play, remove the boxed model from play and replace it with the Deathwalker."
+  },
+  "distillation": {
+    "name": "Distillation",
+    "description": "When an attack with this weapon destroys a living enemy model, immediately after the attack is resolved remove d3 + 3 damage points from this model's battlegroup controller."
+  },
+  "doomDriver": {
+    "name": "Doom Driver",
+    "description": "This weapon gains +1 to its damage rolls for each corpse token on this model."
+  },
+  "drag": {
+    "name": "Drag",
+    "description": "If this model hits an enemy model with an equal or smaller base with a basic attack with this weapon, immediately after the attack is resolved the hit model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction."
+  },
+  "empowerAction": {
+    "name": "Empower (★ Action)",
+    "description": "RNG 6. Target friendly Faction warjack. If the target warjack is in range and it was suffering Disruption, it is no longer disrupted. The warjack gains 1 focus point."
+  },
+  "extendedControlRange": {
+    "name": "Extended Control Range",
+    "description": "When checking to see if this model is in its controller's control range, double the range."
+  },
+  "featBlackGate": {
+    "name": "FEAT - Black Gate",
+    "description": "While in Scaverous' control range, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell while in Scaverous' control range, increase the COST by 1. Black Gate lasts for one round."
+  },
+  "featDarkSummons": {
+    "name": "FEAT - Dark Summons",
+    "description": "Put a small-based Bane unit into play. Place each model completely within 3\" of Goreshade."
+  },
+  "featHellGate": {
+    "name": "FEAT - Hell Gate",
+    "description": "Deneghra immediately gains seven soul tokens."
+  },
+  "featShadowfall": {
+    "name": "FEAT - Shadowfall",
+    "description": "Models in Agathia's battlegroup currently in her control range are affected by Ghost Walk. Additionally, you can place each friendly faction Cohort model currently in Agathia's control range anywhere completely within 3\" of its current location. Shadowfall lasts for one turn."
+  },
+  "fieldMarshalBloodShadow": {
+    "name": "Field Marshal [Blood Shadow]",
+    "description": "The melee weapons of warjacks in this model's battlegroup gain Blood Shadow."
+  },
+  "freeze": {
+    "name": "Freeze",
+    "description": "A model hit by this weapon becomes stationary for one round unless it has Resistance: Cold."
+  },
+  "ghostly": {
+    "name": "Ghostly",
+    "description": "A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions and models if it has enough movement to move completely past them."
+  },
+  "grantedInspiration": {
+    "name": "Granted: Inspiration",
+    "description": "While this model is in play, models in its unit gain +1 to attack rolls."
+  },
+  "grantedRise": {
+    "name": "Granted: Rise",
+    "description": "While this model is in play, models in its unit that are knocked down at the beginning of your Maintenance Phase stand up."
+  },
+  "grantedSetDefense": {
+    "name": "Granted: Set Defense",
+    "description": "While this model is in play, models in its unit gain Set Defense."
+  },
+  "grantedTough": {
+    "name": "Granted: Tough",
+    "description": "While this model is in play, models in its unit gain Tough."
+  },
+  "grievousWounds": {
+    "name": "Grievous Wounds",
+    "description": "On a direct hit, a model hit by this weapon loses Tough and cannot have damage removed from it for one round."
+  },
+  "guidanceAction": {
+    "name": "Guidance (★ Action)",
+    "description": "RNG 6. Target friendly model. If the model is in range, it gains Eyeless Sight and its weapons gain Damage Type: Magical for one turn."
+  },
+  "hellfireAttack": {
+    "name": "Hellfire (★ Attack)",
+    "description": "Hellfire is a RNG 10, POW 14 arcane attack. Models disabled by Hellfire cannot make a Tough roll. Models boxed by Hellfire are removed from play."
+  },
+  "incendiary": {
+    "name": "Incendiary",
+    "description": "This attack causes fire damage, and models hit suffer the Fire continuous effect."
+  },
+  "inscrutable": {
+    "name": "Inscrutable",
+    "description": "Opponents cannot take control of this model."
+  },
+  "invocationOfDarkestNightAction": {
+    "name": "Invocation of Darkest Night (★ Action)",
+    "description": "This model gains Mortal Fear. Invocation of Darkest Night lasts for one round."
+  },
+  "knowledgeOfTheDamned": {
+    "name": "Knowledge of the Damned",
+    "description": "When a model in this model's control range makes an attack or damage roll, this model can spend a soul token to cause that model to reroll the roll. Each roll can be rerolled only once due to Knowledge of the Damned."
+  },
+  "magicAbility": {
+    "name": "Magic Ability",
+    "description": "Performing a Magic Ability special action or special attack counts as casting a spell."
+  },
+  "marionetteAttack": {
+    "name": "Marionette (★ Attack)",
+    "description": "Marionette is a RNG 10 arcane attack. Target enemy model/unit. You can have one affected model reroll one attack or damage roll, then Marionette expires. Marionette lasts for one round."
+  },
+  "marksman": {
+    "name": "Marksman",
+    "description": "When damaging a warjack or warbeast with a ranged attack, choose which column or branch suffers damage."
+  },
+  "overtake": {
+    "name": "Overtake",
+    "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, after the attack is resolved it can immediately advance up to 1\"."
+  },
+  "phantomSeeker": {
+    "name": "Phantom Seeker",
+    "description": "This model ignores LOS, concealment, and cover when making attacks with this weapon."
+  },
+  "poltergeist": {
+    "name": "Poltergeist",
+    "description": "When an enemy model misses this model with an attack, immediately after the attack is resolved you can choose to push the enemy model d3\" directly away from this model."
+  },
+  "powerfulAttack": {
+    "name": "Powerful Attack",
+    "description": "When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack."
+  },
+  "prey": {
+    "name": "Prey",
+    "description": "After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey. This model gains +2 to attack and damage rolls against its prey. When the prey is destroyed or removed from play, choose another model/unit to be the prey."
+  },
+  "psychoVenom": {
+    "name": "Psycho Venom",
+    "description": "When a living or undead enemy model is boxed by this attack, you can choose to take control of it. If you do, remove 1 damage point from it, causing it to no longer be boxed. For the rest of the turn, this model's battlegroup controller can channel spells through the affected model as if it were a model in its battlegroup with the Arc Node advantage. The affected model cannot activate. At the end of this turn, the affected model is destroyed."
+  },
+  "puppetMasterAction": {
+    "name": "Puppet Master (★ Action)",
+    "description": "RNG 6. Target friendly model/unit. If the target model/unit is in range, you can have one affected model reroll one attack or damage roll, then Puppet Master expires. Puppet Master lasts for one round."
+  },
+  "rapidStrike": {
+    "name": "Rapid Strike",
+    "description": "This model can make one additional melee attack each Combat Action."
+  },
+  "repairD6Action": {
+    "name": "Repair [d6] (★ Action)",
+    "description": "RNG 1. Target friendly Faction construct model. If the model is in range, remove d6 damage points from it."
+  },
+  "reposition3": {
+    "name": "Reposition [3\"]",
+    "description": "At the end of this model/unit's activation in which it did not run or fail a charge, this model can advance up to 3\", then its activation ends."
+  },
+  "reposition5": {
+    "name": "Reposition [5\"]",
+    "description": "At the end of this model/unit's activation in which it did not run or fail a charge, this model can advance up to 5\", then its activation ends."
+  },
+  "serpentsCoil": {
+    "name": "Serpent's Coil",
+    "description": "Once per game at any time during its unit's activation, this model can use Serpent's Coil. For one round, models in this unit gain Defensive Strike."
+  },
+  "shieldGuard": {
+    "name": "Shield Guard",
+    "description": "When a friendly model is directly hit by a non-spray ranged attack while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard be directly hit instead. That model is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. Shield Guard can only be used once per attack."
+  },
+  "shieldWall": {
+    "name": "Shield Wall",
+    "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM and cannot be knocked down."
+  },
+  "sigilOfPowerAction": {
+    "name": "Sigil of Power (★ Action)",
+    "description": "RNG 6. Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Magical. Sigil of Power lasts for one turn."
+  },
+  "skewer": {
+    "name": "Skewer",
+    "description": "When this weapon damages an enemy model with an equal or smaller base, immediately after the attack is resolved the damaged model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction."
+  },
+  "sniper": {
+    "name": "Sniper",
+    "description": "Instead of making a damage roll to resolve a ranged attack, this model can inflict 1 damage point. A model disabled by a ranged attack made by this model cannot make a Tough roll."
+  },
+  "soulBondage": {
+    "name": "Soul Bondage",
+    "description": "Once per round when a living enemy warrior model is destroyed within 2\" of this model, you can replace the destroyed model with a Machine Wraith solo. The destroyed model is removed from play and does not provide a soul token."
+  },
+  "soulChambered1": {
+    "name": "Soul Chambered [1]",
+    "description": "This model can spend 1 essence point or soul token to make one additional ranged attack with this weapon during its Combat Action."
+  },
+  "soulMastery": {
+    "name": "Soul Mastery",
+    "description": "At any time during its activation, this model can spend soul tokens to use one of the following effects for each token spent: Dark Whispers or Vengeful Spirits."
+  },
+  "soulTakerBodyCount": {
+    "name": "Soul Taker: Body Count",
+    "description": "This model can gain soul tokens. When this model destroys a living enemy model with an attack, this model gains the destroyed model's soul token. This model can have up to three soul tokens at any time. This model can spend soul tokens for Strength of Death or Dark Blessing."
+  },
+  "soulTakerCollector": {
+    "name": "Soul Taker: Collector",
+    "description": "This model can gain soul tokens. When a living enemy model is destroyed while within 10\" of this model, this model gains the destroyed model's soul token. This model can have up to three soul tokens at any time. This model can spend soul tokens for Soul Transfer."
+  },
+  "soulTakerCullSoul": {
+    "name": "Soul Taker: Cull Soul",
+    "description": "This model can gain soul tokens. When a living enemy model is destroyed within 2\" of this model, this model gains the destroyed model's soul token. After this model replenishes its focus during your next Control Phase, replace each soul token with 1 focus point."
+  },
+  "soulTakerExhumator": {
+    "name": "Soul Taker: Exhumator",
+    "description": "This model can gain soul tokens. When a living enemy model is destroyed within this model's control range, this model gains the destroyed model's soul token. This model can have up to five soul tokens at any time. At the start of this model's activation, you can remove soul tokens from this model to give it 1 focus point for each token removed."
+  },
+  "soulTakerSoulCage": {
+    "name": "Soul Taker: Soul Cage",
+    "description": "This model can gain soul tokens. When a living enemy model is destroyed within 2\" of this model, this model gains the destroyed model's soul token. This model can have up to three soul tokens at any time. This model can spend soul tokens for Strength of Death."
+  },
+  "soulTransferAction": {
+    "name": "Soul Transfer (★ Action)",
+    "description": "RNG 5. Target friendly Faction model with a Soul Taker special rule. If the model is in range, remove any number of soul tokens from this model and place them on the target friendly model."
+  },
+  "soulWeaver": {
+    "name": "Soul Weaver",
+    "description": "Once per turn at any time during its activation, this model can remove soul tokens from one friendly Faction model within 10\" of it and place them on itself."
+  },
+  "spareParts": {
+    "name": "Spare Parts",
+    "description": "When a warjack is destroyed within 5\" of this model, it gains one scrap token. This model can have up to three scrap tokens at any time. Before making a repair roll, this model can spend one scrap token to add +2 to its roll."
+  },
+  "spellSlaveActionOrAttack": {
+    "name": "Spell Slave (★ Action or ★ Attack)",
+    "description": "This model must be in its Leader's control range to make the Spell Slave special action. When it does, it casts one of the spells on its Leader's card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave is an arcane attack."
+  },
+  "steady": {
+    "name": "Steady",
+    "description": "This model cannot become knocked down."
+  },
+  "strengthOfDeath": {
+    "name": "Strength of Death",
+    "description": "During its Combat Action, this model can spend soul tokens to boost one attack or damage roll for each token spent."
+  },
+  "sustainedAttack": {
+    "name": "Sustained Attack",
+    "description": "During this model's activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits."
+  },
+  "swiftHunter": {
+    "name": "Swift Hunter",
+    "description": "When this model destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\"."
+  },
+  "takeUp": {
+    "name": "Take Up",
+    "description": "If this model is destroyed by an effect other than Take Up, you can choose a grunt in this unit within 1\" of it to be destroyed instead. Remove that grunt from the table instead of this model. This model has the same number of unmarked damage boxes as the chosen grunt."
+  },
+  "thresherAttack": {
+    "name": "Thresher (★ Attack)",
+    "description": "This model makes one melee attack with this weapon against each model in its LOS that is in this weapon's melee range, regardless of whether that model is a friendly model or an enemy model. Thresher attacks are simultaneous."
+  },
+  "thrallBomb": {
+    "name": "Thrall Bomb",
+    "description": "When this model is disabled, models within 2\" of it suffer a POW 8 blast damage roll, then this model is removed from play."
+  },
+  "unhallowed": {
+    "name": "Unhallowed",
+    "description": "While within 10\", friendly Faction undead models gain +2 ARM against ranged and arcane attacks."
+  },
+  "vengeance": {
+    "name": "Vengeance",
+    "description": "During your Maintenance Phase, if one or more models in this unit were damaged by enemy attacks during the last round, each model in the unit can advance 3\" and make one basic melee attack."
+  },
+  "vengefulSpirits": {
+    "name": "Vengeful Spirits",
+    "description": "Choose a cohort model in this model's battlegroup within 10\" of it. That cohort model gains up to 3 focus points."
+  },
+  "voidBringer": {
+    "name": "Void Bringer",
+    "description": "This model can use Void Bringer once per game at any time during its unit's activation. When this model uses Void Bringer, return d3 + 1 destroyed troopers to this unit. Place the returned troopers completely within 3\" of this model. Returned troopers must forfeit their Combat Actions this activation."
+  },
+  "volumeFire": {
+    "name": "Volume Fire",
+    "description": "Gain +1 to attack and damage rolls with this weapon against medium-based models and +2 to attack and damage rolls against larger-based models."
+  },
+  "wraithShot": {
+    "name": "Wraith Shot",
+    "description": "When this model makes an attack with this weapon, it can spend a soul token to use Wraith Shot. If it does, it ignores LOS, concealment, and cover when making this attack. Attack and damage rolls resulting from the attack are boosted."
+  }
+}

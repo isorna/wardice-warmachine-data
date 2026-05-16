@@ -1,0 +1,2180 @@
+{
+  "beastMasterXekaar": {
+    "name": "Beast Master Xekaar",
+    "type": "warlock",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Paingiver",
+      "Scout",
+      "Warlock",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 30,
+    "statistics": {
+      "speed": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 15
+    },
+    "abilities": [
+      "fieldMarshalPathfinder",
+      "maltreatment",
+      "sideStep"
+    ],
+    "weapons": {
+      "barbedWhip": {
+        "type": "melee",
+        "name": "Barbed Whip",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 9
+        },
+        "abilities": [
+          "inflictPain",
+          "witchMark"
+        ]
+      }
+    },
+    "feat": {
+      "name": "Whispers of Torment",
+      "rules": "While in Xekaar's control range, enemy models suffer -3 MAT, RAT, and THR. Additionally, affected models suffer -3 to their melee attack damage rolls. Whispers of Torment lasts for one round."
+    },
+    "spells": [
+      "deadweight",
+      "mortality",
+      "psychoSurgery",
+      "pursuit",
+      "silenceOfDeath"
+    ],
+    "animus": "repulsion"
+  },
+  "agonizer": {
+    "name": "Agonizer",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Titan",
+      "Lesser",
+      "Warbeast"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 3,
+      "defense": 12,
+      "armour": 13,
+      "fury": 2,
+      "threshold": 8,
+      "health": {
+        "total": 12,
+        "grid": {
+          "columns": [
+            { "boxes": 2 },
+            { "boxes": 1 },
+            { "boxes": 3 },
+            { "boxes": 1 },
+            { "boxes": 4 },
+            { "boxes": 1 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      [
+        "agonies",
+        "gnawingPain",
+        "maddening",
+        "spiritualAffliction"
+      ]
+    ],
+    "weapons": {
+      "claws": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 3,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "animus": "repulsion"
+  },
+  "aradusScarab": {
+    "name": "Aradus Scarab",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Lesser",
+      "Warbeast",
+      "Aradus"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 11,
+      "armour": 12,
+      "fury": 2,
+      "threshold": 7,
+      "health": {
+        "total": 13,
+        "grid": {
+          "columns": [
+            { "boxes": 2 },
+            { "boxes": 1 },
+            { "boxes": 4 },
+            { "boxes": 1 },
+            { "boxes": 3 },
+            { "boxes": 1 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "carapace",
+      "huntingPackAradus",
+      "steady"
+    ],
+    "weapons": {
+      "mandibles": {
+        "type": "melee",
+        "name": "Mandibles",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "criticalParalysis"
+        ]
+      }
+    },
+    "animus": "scuttler"
+  },
+  "aradusSentinel": {
+    "name": "Aradus Sentinel",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast",
+      "Aradus"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 19,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 28,
+        "grid": {
+          "columns": [
+            { "boxes": 5 },
+            { "boxes": 2 },
+            { "boxes": 8 },
+            { "boxes": 6 },
+            { "boxes": 5 },
+            { "boxes": 3 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "carapace",
+      "snacking",
+      "steady",
+      "sturdy"
+    ],
+    "weapons": {
+      "venomBlaster": {
+        "type": "ranged",
+        "name": "Venom Blaster",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 12",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "poison"
+        ]
+      },
+      "claw": {
+        "type": "melee",
+        "name": "Claw",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      }
+    },
+    "animus": "acidicTouch"
+  },
+  "aradusSoldier": {
+    "name": "Aradus Soldier",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast",
+      "Aradus"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 28,
+        "grid": {
+          "columns": [
+            { "boxes": 5 },
+            { "boxes": 2 },
+            { "boxes": 8 },
+            { "boxes": 6 },
+            { "boxes": 5 },
+            { "boxes": 3 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "carapace",
+      "snacking",
+      "steady",
+      "sturdy"
+    ],
+    "weapons": {
+      "mandibles": {
+        "type": "melee",
+        "name": "Mandibles",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 18
+        }
+      },
+      "barbedClaw": {
+        "type": "melee",
+        "name": "Barbed Claw",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "drag"
+        ]
+      }
+    }
+  },
+  "archidon": {
+    "name": "Archidon",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 25,
+        "grid": {
+          "columns": [
+            { "boxes": 5 },
+            { "boxes": 2 },
+            { "boxes": 6 },
+            { "boxes": 4 },
+            { "boxes": 5 },
+            { "boxes": 3 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "extendedControlRange"
+    ],
+    "weapons": {
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "animus": "lightningStrike"
+  },
+  "basiliskDrake": {
+    "name": "Basilisk Drake",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Light",
+      "Warbeast",
+      "Basilisk"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "grid": {
+          "columns": [
+            { "boxes": 5 },
+            { "boxes": 2 },
+            { "boxes": 5 },
+            { "boxes": 3 },
+            { "boxes": 5 },
+            { "boxes": 2 }
+          ]
+        }
+      }
+    },
+    "weapons": {
+      "witheringGaze": {
+        "type": "ranged",
+        "name": "Withering Gaze",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 14
+        }
+      },
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "animus": "lurker"
+  },
+  "basiliskKrea": {
+    "name": "Basilisk Krea",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Light",
+      "Warbeast",
+      "Basilisk"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 12,
+      "armour": 14,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "grid": {
+          "columns": [
+            { "boxes": 5 },
+            { "boxes": 2 },
+            { "boxes": 4 },
+            { "boxes": 1 },
+            { "boxes": 6 },
+            { "boxes": 4 }
+          ]
+        }
+      }
+    },
+    "weapons": {
+      "spiritualParalysis": {
+        "type": "ranged",
+        "name": "Spiritual Paralysis",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "paralysis"
+        ]
+      },
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "animus": "forceAura"
+  },
+  "bronzebackTitan": {
+    "name": "Bronzeback Titan",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast",
+      "Titan"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 16,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 7,
+      "health": {
+        "total": 34,
+        "grid": {
+          "columns": [
+            { "boxes": 6 },
+            { "boxes": 4 },
+            { "boxes": 8 },
+            { "boxes": 6 },
+            { "boxes": 6 },
+            { "boxes": 4 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "hyperAggressive",
+      "leadershipTitans"
+    ],
+    "weapons": {
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        }
+      },
+      "warGauntlet": {
+        "type": "melee",
+        "name": "War Gauntlet",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "abilities": [
+          "beatBack",
+          "chainAttackGrabSmash"
+        ]
+      }
+    },
+    "animus": "indomitable"
+  },
+  "chiron": {
+    "name": "Chiron",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast",
+      "Basilisk",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "points": 16,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            { "boxes": 5 },
+            { "boxes": 3 },
+            { "boxes": 7 },
+            { "boxes": 5 },
+            { "boxes": 6 },
+            { "boxes": 4 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "bondXekaar",
+      "digInAction",
+      "leadershipBasilisks"
+    ],
+    "weapons": {
+      "destructiveGaze": {
+        "type": "ranged",
+        "name": "Destructive Gaze",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "abilities": [
+          "inflictPain"
+        ]
+      },
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 16
+        }
+      }
+    },
+    "animus": "counterblast"
+  },
+  "cyclopsShaman": {
+    "name": "Cyclops Shaman",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Light",
+      "Warbeast"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 21,
+        "grid": {
+          "columns": [
+            { "boxes": 4 },
+            { "boxes": 2 },
+            { "boxes": 4 },
+            { "boxes": 2 },
+            { "boxes": 6 },
+            { "boxes": 3 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "craftTalismanAction",
+      "primalMagic"
+    ],
+    "weapons": {
+      "evilEye": {
+        "type": "ranged",
+        "name": "Evil Eye",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "ghostShot"
+        ]
+      },
+      "battleSpear": {
+        "type": "melee",
+        "name": "Battle Spear",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 11
+        }
+      }
+    },
+    "animus": "spiritBlade"
+  },
+  "desertHydra": {
+    "name": "Desert Hydra",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Gargantuan",
+      "Warbeast"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "2",
+    "points": 28,
+    "baseSize": 120,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 55,
+        "grid": {
+          "columns": [
+            { "boxes": 8 },
+            { "boxes": 6 },
+            { "boxes": 12 },
+            { "boxes": 10 },
+            { "boxes": 11 },
+            { "boxes": 8 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "multipleHeads5",
+      "regenerationD33",
+      "snacking"
+    ],
+    "weapons": {
+      "acidSpray": {
+        "type": "ranged",
+        "name": "Acid Spray",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 14
+        }
+      },
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 18
+        },
+        "abilities": [
+          "criticalGrievousWounds"
+        ]
+      }
+    },
+    "animus": "sandStorm"
+  },
+  "despoiler": {
+    "name": "Despoiler",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "points": 15,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 10,
+      "health": {
+        "total": 27,
+        "grid": {
+          "columns": [
+            { "boxes": 4 },
+            { "boxes": 3 },
+            { "boxes": 6 },
+            { "boxes": 4 },
+            { "boxes": 6 },
+            { "boxes": 4 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "blackArts",
+      "bondMordikaar",
+      "darkShroud"
+    ],
+    "weapons": {
+      "tail": {
+        "type": "melee",
+        "name": "Tail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalBrutalDamage"
+        ]
+      },
+      "claw": {
+        "type": "melee",
+        "name": "Claw",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        }
+      }
+    }
+  },
+  "mammoth": {
+    "name": "Mammoth",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Gargantuan",
+      "Warbeast"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "baseSize": 120,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 8,
+      "armour": 20,
+      "fury": 5,
+      "threshold": 9,
+      "health": {
+        "total": 56,
+        "grid": {
+          "columns": [
+            { "boxes": 8 },
+            { "boxes": 5 },
+            { "boxes": 13 },
+            { "boxes": 11 },
+            { "boxes": 11 },
+            { "boxes": 8 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "painMaddened"
+    ],
+    "weapons": {
+      "siegeBattery": {
+        "type": "ranged",
+        "name": "Siege Battery",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": "D3+1",
+          "areaOfEffect": 2,
+          "power": "15/8"
+        },
+        "abilities": [
+          "fullBatteryFireAttack"
+        ]
+      },
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 20
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      },
+      "warGauntlet": {
+        "type": "melee",
+        "name": "War Gauntlet",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        }
+      }
+    },
+    "animus": "counterblast"
+  },
+  "razorWorm": {
+    "name": "Razor Worm",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Light",
+      "Warbeast"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 21,
+        "grid": {
+          "columns": [
+            { "boxes": 4 },
+            { "boxes": 1 },
+            { "boxes": 5 },
+            { "boxes": 3 },
+            { "boxes": 5 },
+            { "boxes": 3 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "digInAction",
+      "dragBelow",
+      "extendedControlRange",
+      "steady"
+    ],
+    "weapons": {
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "animus": "spinyGrowth"
+  },
+  "rhinodon": {
+    "name": "Rhinodon",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 18,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 27,
+        "grid": {
+          "columns": [
+            { "boxes": 4 },
+            { "boxes": 3 },
+            { "boxes": 6 },
+            { "boxes": 4 },
+            { "boxes": 6 },
+            { "boxes": 4 }
+          ]
+        }
+      }
+    },
+    "weapons": {
+      "tail": {
+        "type": "melee",
+        "name": "Tail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ]
+      },
+      "claw": {
+        "type": "melee",
+        "name": "Claw",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      }
+    },
+    "animus": "spinyGrowth"
+  },
+  "theTerrorizer": {
+    "name": "The Terrorizer",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Lesser",
+      "Warbeast",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "points": 4,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 14,
+      "fury": 2,
+      "threshold": 8,
+      "health": {
+        "total": 14,
+        "grid": {
+          "columns": [
+            { "boxes": 3 },
+            { "boxes": 1 },
+            { "boxes": 4 },
+            { "boxes": 1 },
+            { "boxes": 4 },
+            { "boxes": 1 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "painResponse"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "slugGun": {
+        "type": "ranged",
+        "name": "Slug Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 4,
+          "rateOfFire": 1,
+          "power": 14
+        }
+      },
+      "ripper": {
+        "type": "melee",
+        "name": "Ripper",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 6
+        },
+        "abilities": [
+          "inflictPain"
+        ]
+      },
+      "sword": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "animus": "lurker"
+  },
+  "titanGladiator": {
+    "name": "Titan Gladiator",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast",
+      "Titan"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 32,
+        "grid": {
+          "columns": [
+            { "boxes": 6 },
+            { "boxes": 4 },
+            { "boxes": 7 },
+            { "boxes": 5 },
+            { "boxes": 6 },
+            { "boxes": 4 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "bullheaded",
+      "followUp",
+      "slammer"
+    ],
+    "weapons": {
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        }
+      },
+      "warGauntlet": {
+        "type": "melee",
+        "name": "War Gauntlet",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 16
+        }
+      }
+    },
+    "animus": "rush"
+  },
+  "titanSentry": {
+    "name": "Titan Sentry",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Heavy",
+      "Warbeast",
+      "Titan"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "baseSize": 50,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 32,
+        "grid": {
+          "columns": [
+            { "boxes": 6 },
+            { "boxes": 4 },
+            { "boxes": 7 },
+            { "boxes": 5 },
+            { "boxes": 6 },
+            { "boxes": 4 }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "immovableObject",
+      "shieldGuard"
+    ],
+    "weapons": {
+      "tusks": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        }
+      },
+      "shield": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      },
+      "halberd": {
+        "type": "melee",
+        "name": "Halberd",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 16
+        }
+      }
+    },
+    "animus": "ornery"
+  },
+  "lordArbiterHexeris": {
+    "name": "Lord Arbiter Hexeris",
+    "type": "warlock",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Scout",
+      "Warlock",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 16
+    },
+    "abilities": [
+      "fieldMarshalChanneler",
+      "vampiricHarvest"
+    ],
+    "weapons": {
+      "gulgata": {
+        "type": "melee",
+        "name": "Gulgata",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "thresherAttack"
+        ]
+      }
+    },
+    "feat": {
+      "name": "Arcane Reaver",
+      "rules": "Immediately remove any number of soul tokens, fury points, essence points, and focus points from non-Leader models in Hexeris' control range. For each token or point removed, place 1 fury point on Hexeris. Hexeris cannot exceed his current ARC in fury points as a result of Arcane Reaver."
+    },
+    "spells": [
+      "banishingWard",
+      "blackSpot",
+      "cloakOfAsh",
+      "eruption",
+      "stranglehold"
+    ]
+  },
+  "voidSeerMordikaar": {
+    "name": "Void Seer Mordikaar",
+    "type": "warlock",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Warlock",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "arcana": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 15
+    },
+    "abilities": [
+      "leadershipVoidSpirits",
+      "poltergeist",
+      "voidWalk"
+    ],
+    "weapons": {
+      "spectralWrath": {
+        "type": "ranged",
+        "name": "Spectral Wrath",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodBoon"
+        ]
+      },
+      "eidolus": {
+        "type": "melee",
+        "name": "Eidolus",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "lifeDrinker"
+        ]
+      }
+    },
+    "feat": {
+      "name": "Void Wind",
+      "rules": "While in Mordikaar's control range, friendly Faction models gain +3 DEF and Poltergeist. Void Wind lasts for one round."
+    },
+    "spells": [
+      "disintegration",
+      "hollow",
+      "hostOfShadows",
+      "lamentation",
+      "revive"
+    ]
+  },
+  "zaalTheAncestralAdvocate": {
+    "name": "Zaal, The Ancestral Advocate",
+    "type": "warlock",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Warlock",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "baseSize": 40,
+    "statistics": {
+      "speed": 5,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 18,
+      "controlRange": 14,
+      "health": 18
+    },
+    "abilities": [
+      "directSpirits",
+      "righteousVengeance",
+      "soulTakerReclaim",
+      "soulVessel",
+      "steady"
+    ],
+    "weapons": {
+      "obsidianStaff": {
+        "type": "melee",
+        "name": "Obsidian Staff",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "silencer"
+        ]
+      }
+    },
+    "feat": {
+      "name": "Strength Eternal",
+      "rules": "Remove d6 + 3 damage points from each friendly Faction construct model currently in Zaal's control range. While in Zaal's control range, friendly Faction construct models gain +3 ARM. Strength Eternal lasts for one round."
+    },
+    "spells": [
+      "annihilation",
+      "arcaneMight",
+      "mageSight",
+      "sunderSpirit",
+      "vision"
+    ]
+  },
+  "supremeGuardian": {
+    "name": "Supreme Guardian",
+    "type": "battleEngine",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Battle Engine",
+      "Construct"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "2",
+    "points": 16,
+    "baseSize": 120,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 8,
+      "armour": 19,
+      "health": 22
+    },
+    "abilities": [
+      "defensiveStrike",
+      "directSpirits",
+      [
+        "soulTakerRequiem",
+        "soulPowered",
+        "spectralVortex",
+        "strengthOfDeath"
+      ],
+      "vaultOfTheFaithful",
+      "soulVessel"
+    ],
+    "weapons": {
+      "firesOfRage": {
+        "type": "ranged",
+        "name": "Fires of Rage",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        }
+      },
+      "obsidianBlade": {
+        "type": "melee",
+        "name": "Obsidian Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 18
+        },
+        "abilities": [
+          "siegeWeapon",
+          "thresherAttack"
+        ]
+      }
+    }
+  },
+  "abidanTheKeeper": {
+    "name": "Abidan the Keeper",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo",
+      "Character",
+      "Construct",
+      "Warrior"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "points": 4,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 17,
+      "health": 5
+    },
+    "abilities": [
+      [
+        "battlePlan",
+        "desperatePaceImmortal",
+        "fightToTheLast",
+        "wingsOfDeath"
+      ],
+      "inhumanResolve"
+    ],
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        }
+      }
+    }
+  },
+  "ancestralGuardian": {
+    "name": "Ancestral Guardian",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo",
+      "Construct"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "3",
+    "points": 4,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 8,
+      "defense": 10,
+      "armour": 18,
+      "health": 8
+    },
+    "abilities": [
+      "defensiveStrike",
+      "shieldGuard",
+      [
+        "soulTakerRequiem",
+        "soulPowered",
+        "spiritDriven",
+        "strengthOfDeath"
+      ],
+      "soulVessel",
+      "steady"
+    ],
+    "weapons": {
+      "halberd": {
+        "type": "melee",
+        "name": "Halberd",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 14
+        }
+      }
+    }
+  },
+  "aptimusMarketh": {
+    "name": "Aptimus Marketh",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Extoller",
+      "Solo",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "points": 4,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "ghostShield",
+      [
+        "magicAbility",
+        "guidanceAction",
+        "harmoniousExaltationAction",
+        "spellSlaveActionOrAttack"
+      ],
+      [
+        "soulTakerRequiem",
+        "strengthOfDeath"
+      ],
+      "soulTap"
+    ],
+    "weapons": {
+      "spiritEye": {
+        "type": "ranged",
+        "name": "Spirit Eye",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "ghostShot"
+        ]
+      },
+      "gravitas": {
+        "type": "melee",
+        "name": "Gravitas",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        }
+      }
+    }
+  },
+  "extollerNovitiate": {
+    "name": "Extoller Novitiate",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo",
+      "Extoller"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 12,
+      "health": 1
+    },
+    "abilities": [
+      "leadershipConstruct",
+      [
+        "magicAbility",
+        "repairD31Action",
+        "stonesWrathAction"
+      ]
+    ],
+    "weapons": {
+      "mallet": {
+        "type": "melee",
+        "name": "Mallet",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        }
+      }
+    }
+  },
+  "extollerSoulward": {
+    "name": "Extoller Soulward",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo",
+      "Extoller"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 12,
+      "health": 1
+    },
+    "abilities": [
+      "ghostShield",
+      [
+        "magicAbility",
+        "guidanceAction",
+        "spiritGuideAction"
+      ],
+      [
+        "soulTakerRequiem",
+        "strengthOfDeath"
+      ]
+    ],
+    "weapons": {
+      "spiritEye": {
+        "type": "ranged",
+        "name": "Spirit Eye",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "ghostShot"
+        ]
+      }
+    }
+  },
+  "hakaarTheDestroyer": {
+    "name": "Hakaar the Destroyer",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo",
+      "Character",
+      "Construct"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "c",
+    "points": 5,
+    "baseSize": 40,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 9,
+      "defense": 10,
+      "armour": 18,
+      "health": 8
+    },
+    "abilities": [
+      "ghostShield",
+      "righteousVengeance",
+      [
+        "soulTakerRequiem",
+        "soulPowered",
+        "spiritDriven",
+        "strengthOfDeath"
+      ],
+      "soulVessel",
+      "steady",
+      "veteranLeaderConstructWarrior"
+    ],
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "quantity": 2,
+        "statistics": {
+          "meleeAttack": 9,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "comboStrikeAttack"
+        ]
+      }
+    }
+  },
+  "immortalVessel": {
+    "name": "Immortal Vessel",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo",
+      "Construct"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 11,
+      "armour": 17,
+      "health": 1
+    },
+    "abilities": [
+      "channeler",
+      "setDefense",
+      "soulVessel",
+      "telemetry"
+    ],
+    "weapons": {
+      "spiritEye": {
+        "type": "ranged",
+        "name": "Spirit Eye",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "ghostShot"
+        ]
+      },
+      "polearm": {
+        "type": "melee",
+        "name": "Polearm",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        }
+      }
+    }
+  },
+  "paingiverBloodrunnerMasterTormentor": {
+    "name": "Paingiver Bloodrunner Master Tormentor",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo",
+      "Paingiver",
+      "Character"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 8,
+      "defense": 14,
+      "armour": 13,
+      "health": 5
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "sprint",
+      "veteranLeaderPaingiverBloodrunners"
+    ],
+    "weapons": {
+      "barbedWhip": {
+        "type": "melee",
+        "name": "Barbed Whip",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 8
+        },
+        "abilities": [
+          "thresherAttack"
+        ]
+      }
+    }
+  },
+  "voidSpirit": {
+    "name": "Void Spirit",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Solo"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 12,
+      "health": 1
+    },
+    "abilities": [
+      "annihilator",
+      "poltergeist",
+      "voidWalk"
+    ],
+    "weapons": {
+      "rend": {
+        "type": "melee",
+        "name": "Rend",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    }
+  },
+  "immortals": {
+    "name": "Immortals",
+    "type": "unit",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Unit",
+      "Construct"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "6",
+    "points": 6,
+    "baseSize": 30,
+    "grunts": 5,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 17,
+      "health": 1
+    },
+    "abilities": [
+      "soulVessel",
+      "vengeance"
+    ],
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        }
+      }
+    }
+  },
+  "extollerAdvocate": {
+    "name": "Extoller Advocate",
+    "type": "commandAttachment",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Command Attachment",
+      "Extoller"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "6",
+    "points": 1,
+    "baseSize": 30,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 1
+    },
+    "abilities": [
+      "commandAttachmentImmortals",
+      "sacrificialPawnImmortal",
+      [
+        "soulTakerRequiem",
+        "graveMist",
+        "spectralVortex",
+        "strengthOfDeath"
+      ],
+      "vengeance"
+    ],
+    "weapons": {
+      "spiritEye": {
+        "type": "ranged",
+        "name": "Spirit Eye",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "ghostShot"
+        ]
+      }
+    }
+  },
+  "nihilators": {
+    "name": "Nihilators",
+    "type": "unit",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Unit"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "baseSize": 30,
+    "grunts": 5,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 13,
+      "health": 1
+    },
+    "abilities": [
+      "berserk"
+    ],
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        }
+      }
+    }
+  },
+  "paingiverBeastHandlers": {
+    "name": "Paingiver Beast Handlers",
+    "type": "unit",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Unit",
+      "Paingiver"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "baseSize": 30,
+    "grunts": 3,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 11,
+      "health": 1
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "conditionAction",
+      "enrageAction",
+      "medicateD3Action"
+    ],
+    "weapons": {
+      "barbedWhip": {
+        "type": "melee",
+        "name": "Barbed Whip",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 8
+        },
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    }
+  },
+  "paingiverBloodrunners": {
+    "name": "Paingiver Bloodrunners",
+    "type": "unit",
+    "keywords": [
+      "Skorne",
+      "Exalted",
+      "Unit",
+      "Paingiver"
+    ],
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "baseSize": 30,
+    "grunts": 3,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 11,
+      "health": 1
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "gang",
+      "reposition3"
+    ],
+    "weapons": {
+      "assassinsBlade": {
+        "type": "melee",
+        "name": "Assassin's Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 8
+        }
+      }
+    }
+  }
+}

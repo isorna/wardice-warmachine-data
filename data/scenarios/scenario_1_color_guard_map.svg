@@ -1,0 +1,74 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg-player1 { fill: #E0B0B0; } /* Light Reddish */
+    .bg-player2 { fill: #B0B0E0; } /* Light Bluish */
+    .bg-neutral { fill: #D0D0D0; } /* Light Grey for neutral zone */
+    .objective { fill: #505050; stroke: black; stroke-width: 1; }
+    .objective-text { fill: white; font-family: Arial, sans-serif; font-size: 20px; text-anchor: middle; dominant-baseline: central; }
+    .flag-cache { fill: #303030; stroke: black; stroke-width: 1; }
+    .flag-cache-text { fill: white; font-family: Arial, sans-serif; font-size: 18px; text-anchor: middle; dominant-baseline: central; }
+    .label-text { fill: black; font-family: Arial, sans-serif; font-size: 14px; text-anchor: middle; }
+    .measurement-text { fill: black; font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; }
+    .p1 { fill: orange; }
+    .p2 { fill: lightblue; }
+  </style>
+
+  <!-- Backgrounds -->
+  <rect class="bg-player1" x="0" y="0" width="600" height="75" />
+  <rect class="bg-neutral" x="0" y="75" width="600" height="388" />
+  <rect class="bg-player2" x="0" y="463" width="600" height="137" />
+
+  <!-- Deployment Zone Labels -->
+  <text class="label-text" x="500" y="30">Player 1</text>
+  <text class="label-text" x="500" y="50">Deployment Zone</text>
+  <text class="label-text" x="500" y="540">Player 2</text>
+  <text class="label-text" x="500" y="560">Deployment Zone</text>
+
+  <!-- Measurements (approximate visual placement) -->
+  <text class="measurement-text" x="70" y="40">6"</text>
+  <text class="measurement-text" x="120" y="200">18"</text>
+  <text class="measurement-text" x="260" y="120">16"</text> <!-- Top center F -->
+  <text class="measurement-text" x="460" y="120">16"</text> <!-- Top right C -->
+  <text class="measurement-text" x="520" y="200">12"</text> <!-- Top right C -->
+  <text class="measurement-text" x="120" y="300">16"</text> <!-- Center left 50 -->
+  <text class="measurement-text" x="250" y="440">23"</text> <!-- Bottom center C -->
+  <text class="measurement-text" x="70" y="540">11"</text>
+
+  <!-- Scenario Elements (coordinates are illustrative and need adjustment for precision) -->
+  <!-- Flag (Top Leftish) -->
+  <circle class="flag-cache" cx="240" cy="215" r="15" />
+  <text class="flag-cache-text p1" x="240" y="215">F</text>
+
+  <!-- Cache (Top Rightish) -->
+  <circle class="flag-cache" cx="435" cy="215" r="15" />
+  <text class="flag-cache-text p1" x="435" y="215">C</text>
+
+  <!-- Objective 50 (Mid Left) -->
+  <circle class="objective" cx="225" cy="312" r="25" />
+  <text class="objective-text p2" x="225" y="312">50</text>
+
+  <!-- Objective 50 (Mid Right) -->
+  <circle class="objective" cx="400" cy="287" r="25" />
+  <text class="objective-text p1" x="400" y="287">50</text>
+
+  <!-- Cache (Bottom Leftish) -->
+  <circle class="flag-cache" cx="150" cy="370" r="15" />
+  <text class="flag-cache-text p2" x="150" y="370">C</text>
+
+  <!-- Flag (Bottom Rightish) -->
+  <circle class="flag-cache" cx="345" cy="370" r="15" />
+  <text class="flag-cache-text p2" x="345" y="370">F</text>
+
+  <!-- lines -->
+  <line x1="50" y1="0" x2="50" y2="75" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- P1 deploy -->
+  <line x1="50" y1="463" x2="50" y2="600" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- P2 deploy -->
+
+  <line x1="0" y1="215" x2="225" y2="215" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- LEFT 18 top 16 -->
+  <line x1="240" y1="0" x2="240" y2="200" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- left 18 TOP 16 -->
+
+  <line x1="450" y1="215" x2="600" y2="215" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- RIGHT 12 top 16 -->
+  <line x1="435" y1="0" x2="435" y2="200" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- right 12 TOP 16 -->
+
+  <line x1="0" y1="312" x2="200" y2="312" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- LEFT 16 bottom 23 -->
+  <line x1="225" y1="337" x2="225" y2="720" stroke="white" stroke-width="4"  style="stroke-dasharray: 10 5;" /><!-- left 16 BOTTOM 23 -->
+</svg>

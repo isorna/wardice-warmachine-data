@@ -1,0 +1,741 @@
+{
+  "document_title": "WARMACHINE STEAMROLLER 2025",
+  "generated_for": "Generado para #SFU85391. Alvaro Isorna Baez (alvaro.isorna@gmail.com)",
+  "contents_page": 1,
+  "sections": [
+    {
+      "title": "RESPONSABILIDADES DEL JUGADOR",
+      "page": 2,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los jugadores que participan en un evento Steamroller 2025 (SR2025) son responsables de traer sus propias miniaturas, objetivos, la aplicación Warmachine, dados, dispositivos de medición, plantillas y fichas. Se recomienda encarecidamente el uso de elementos como marcadores y peanas proxy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los objetivos se describen con mayor detalle en la hoja de referencia del escenario, pero consisten en peanas redondas de 50mm, 40mm y 30mm. Estos objetivos deben ser claramente identificables como tales y no deben confundirse fácilmente con otras miniaturas. Cualquier objetivo no utilizado por el escenario debe mantenerse alejado de la mesa o almacenarse para evitar posibles confusiones."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las fichas y plantillas representan efectos en el juego como foco, furia, hechizos, etc., y deben colocarse junto a la(s) miniatura(s) afectada(s) o en el área apropiada del tablero. Los jugadores son responsables de marcar claramente sus efectos en juego. Si un jugador no marca un efecto, entonces el efecto no se considera en juego. Los jugadores solo pueden tener fichas o plantillas en la mesa que representen un efecto en el juego que esté actualmente activo. Todas las demás fichas y plantillas deben retirarse de la mesa o almacenarse en un área que no interfiera con el juego."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una peana proxy representa una miniatura que no puede caber físicamente en un espacio de la mesa debido a elementos del terreno u otras miniaturas. Una peana proxy debe estar etiquetada o marcada para indicar qué miniatura representa. Un jugador debe reemplazar una peana proxy con la miniatura apropiada tan pronto como sea posible hacerlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un marcador de mesa es un elemento utilizado por un jugador para marcar un lugar específico en el tablero que no representa un efecto en el juego o la ubicación actual de una miniatura. Por ejemplo, un jugador podría usar un marcador de mesa para indicar el rango de amenaza de un warjack enemigo o para determinar si una miniatura amiga cabrá en un espacio específico después de cargar a un enemigo. Los jugadores solo pueden usar los siguientes elementos como marcadores de mesa: marcadores de 30mm, 40mm, 50mm, 80mm y 120mm; plantillas de nube de 3\"; plantillas de muro; y pequeñas cuentas o monedas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un jugador no puede tener más de dos marcadores de mesa en la mesa en ningún momento. Si colocas un tercer marcador de mesa en la mesa, debes retirar inmediatamente al menos uno de tus otros marcadores de mesa. Este límite no se aplica durante el despliegue. Los jugadores pueden usar cualquier cantidad de marcadores de mesa para marcar el borde de sus zonas de despliegue y despliegue avanzado, pero deben retirar esos marcadores antes de que comience el primer turno."
+        }
+      ]
+    },
+    {
+      "title": "LISTAS DE EJÉRCITO",
+      "page": 2,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los eventos Steamroller requieren que un jugador traiga una lista de ejército, con una segunda lista de ejército opcional."
+        },
+        {
+          "type": "paragraph",
+          "text": "A menos que el Organizador del Torneo (OT) proporcione hojas de registro a los jugadores en el evento, los jugadores deben traer su propia copia de su(s) lista(s) de ejército en la aplicación Warmachine. El total de puntos de una lista de ejército no puede exceder el tamaño de puntos elegido para el evento y no puede ser más de 4 puntos por debajo del tamaño de puntos elegido. Las listas deben incluir las cinco cartas de mando requeridas. Los jugadores deben seleccionar un ejército de la Prime Arena al construir una fuerza para usar en eventos SR2025."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un jugador trae más de una lista de ejército, cada lista debe estar liderada por una miniatura de Líder diferente del mismo ejército. Diferentes versiones del mismo Líder con nombre (por ejemplo, Magnus 1 y Magnus 2) cuentan como Líderes diferentes al crear múltiples listas de ejército. Las relaciones de miniaturas determinadas por el jugador (adjunto, cliente, marshall, asignación de grupo de batalla, etc.) deben especificarse en la lista y no pueden cambiar entre rondas."
+        }
+      ]
+    },
+    {
+      "title": "PREPARACIÓN Y DESPLIEGUE",
+      "page": 3,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Consulta el diagrama en cada escenario para preparar una partida. El borde de la mesa de cada jugador, la zona de despliegue y los elementos del escenario (como banderas y objetivos) se resaltan en el color correspondiente de ese jugador (J1=rojo, J2=azul). Los jugadores colocan sus objetivos, banderas y alijos en la mesa de acuerdo con el escenario antes del inicio de la ronda pero después de que se determine el orden del turno. Al colocar los objetivos, banderas y alijos, asegúrate de medir desde el borde de la mesa hasta el borde de la peana."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Determinar el escenario, ya sea elegido por el OT, elegido al azar o acordado por ambos jugadores.",
+            "Elegir una lista de tu par y revelarla simultáneamente con tu oponente.",
+            "Elegir tus hechizos de Rack, si tu Líder tiene ranuras de rack disponibles, y luego revelarlos simultáneamente con tu oponente.",
+            "Cada jugador tira 1d6 hasta que un jugador obtenga un número mayor. Ese jugador elige ser primero o segundo.",
+            "El segundo jugador determina en qué lado de la mesa desplegará, y el primer jugador toma el lado opuesto.",
+            "Colocar los elementos del escenario según el escenario.",
+            "Si el escenario lo incluye, elegir terreno de escenario y colocar banderas en orden del primer jugador y luego del segundo jugador.",
+            "Si uno o más jugadores usan la carta de mando Defensas, comenzando con el segundo jugador, alternar la colocación de defensas.",
+            "El primer jugador inicia el reloj, desplegando miniaturas dentro de su zona de despliegue y luego inicia el reloj del segundo jugador.",
+            "El segundo jugador despliega miniaturas dentro de su zona de despliegue y luego inicia el reloj del primer jugador.",
+            "El primer jugador coloca miniaturas de Despliegue Avanzado y luego inicia el reloj del segundo jugador.",
+            "El segundo jugador coloca miniaturas de Despliegue Avanzado y luego inicia el reloj del primer jugador.",
+            "Resolver cualquier otro efecto previo a la partida en orden del primer jugador y luego del segundo jugador.",
+            "El primer jugador comienza su primer turno."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ELEMENTOS DEL ESCENARIO",
+      "page": 3,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los elementos del escenario incluyen objetivos, terreno de escenario, banderas y alijos. Los elementos del escenario no son miniaturas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los elementos del escenario están representados en el mapa por círculos negros. Los objetivos tienen el tamaño de la peana indicado en ellos. 40 para peanas de 40mm, y 50 para peanas de 50mm. Los elementos marcados con una C o F son alijos y banderas respectivamente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un elemento del escenario se mueve inadvertidamente durante el juego, pausa el reloj y restablece la posición del elemento. Si la puntuación del escenario ocurrió mientras un elemento del escenario estaba en una posición incorrecta, los Puntos de Victoria se mantienen, incluso si el error se nota después del hecho."
+        },
+        {
+          "type": "map_key",
+          "items": [
+            {"symbol": ["50","50"], "description": "Objetivo de 50mm"},
+            {"symbol": ["40","40"], "description": "Objetivo de 40mm"},
+            {"symbol": ["F","F"], "description": "Banderas"},
+            {"symbol": ["C","C"], "description": "Alijos"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "OBJETIVOS",
+      "page": 3,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los objetivos están representados en el tablero por peanas de 40mm y 50mm. Los objetivos no son miniaturas y no bloquean la línea de visión. Las miniaturas pueden avanzar a través de un objetivo o ser empujadas, lanzadas o embestidas a través de un objetivo, si tienen suficiente movimiento para pasar completamente por él; de lo contrario, deben detenerse justo antes del objetivo. Una miniatura embestida o lanzada no sufre un dado de daño adicional por contactar con el objetivo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un escenario requiere que el objetivo se mueva, el objetivo ignora miniaturas, obstáculos, obstrucciones y terreno durante este movimiento si tiene suficiente movimiento para pasar completamente por esas miniaturas, obstáculos u obstrucciones; de lo contrario, debe detenerse justo antes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los warjacks inertes, las warbeasts salvajes, las monstruosidades autónomas y las miniaturas incapacitadas no pueden asegurar objetivos."
+        },
+        {
+          "type": "definition",
+          "term": "Un jugador asegura un objetivo de 50mm (50 50)",
+          "definition": "si posee una o más miniaturas de Líder, miniaturas de Cohorte o máquinas de guerra a 3\" del objetivo, y ningún oponente lo contesta (ver más abajo)."
+        },
+        {
+          "type": "definition",
+          "term": "Un jugador asegura un objetivo de 40mm (40 40)",
+          "definition": "si posee una o más miniaturas de Líder o unidades a 3\" de él, y ningún oponente lo contesta. Para que una unidad asegure un objetivo, todas las miniaturas de la unidad aún en juego deben estar a 3\" del mismo objetivo."
+        },
+        {
+          "type": "definition",
+          "term": "Un objetivo está contestado",
+          "definition": "si alguna de las miniaturas de tu oponente está a 3\" del objetivo. Las miniaturas de Líder, warjacks inertes, warbeasts salvajes, monstruosidades autónomas y miniaturas incapacitadas no pueden contestar."
+        }
+      ],
+      "sub_sections": [
+        {
+          "title": "Banderas y Terreno de Escenario",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Parte del terreno en el tablero también puede asumir un papel similar a los objetivos en algunos escenarios. Las banderas se utilizan en estos escenarios para denotar terreno de escenario. Si un escenario contiene una bandera, antes del despliegue y comenzando con el primer jugador, los jugadores se turnan para elegir una pieza de terreno a 5\" de su propia bandera de 30mm. Coloca la bandera sobre, dentro o junto a esa pieza de terreno para representar que ahora es una pieza de terreno de escenario. Si no existe una pieza de terreno válida, deja la bandera en la ubicación especificada en el escenario. La bandera misma se convierte en una pieza de terreno de escenario de obstrucción."
+            },
+            {
+              "type": "paragraph",
+              "text": "Si una pieza de terreno objetivo es destruida, expira o se retira de la mesa, antes de retirar la pieza de terreno, el jugador que causó su eliminación coloca su bandera en cualquier lugar tocando su borde. Después de colocar la bandera, retira el terreno de la mesa. La bandera se convierte entonces en una pieza de terreno de escenario de obstrucción."
+            },
+            {
+              "type": "definition",
+              "term": "Un jugador asegura una pieza de terreno de escenario (F F)",
+              "definition": "teniendo dos o más miniaturas dentro del área del terreno o, si estar dentro de la pieza de terreno de escenario es imposible, a 3\" de la pieza de terreno misma, y ningún oponente la contesta."
+            },
+            {
+              "type": "paragraph",
+              "text": "Una pieza de terreno de escenario está contestada si una de las miniaturas de tu oponente está dentro del área del terreno o, si estar dentro del terreno es imposible, a 3\" de la pieza de terreno. Las miniaturas de Líder, warjacks inertes, warbeasts salvajes, monstruosidades autónomas y miniaturas incapacitadas no pueden contestar."
+            }
+          ]
+        },
+        {
+          "title": "Alijos",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los alijos están representados por una peana de 30mm. Los alijos no son miniaturas y no bloquean la línea de visión. Las miniaturas pueden avanzar a través de un alijo o ser empujadas, lanzadas o embestidas a través de un alijo, si tienen suficiente movimiento para pasar completamente por él; de lo contrario, deben detenerse justo antes del alijo. Una miniatura embestida o lanzada no sufre daño colateral por contactar con alijos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los jugadores solo pueden puntuar de un alijo del oponente. Para puntuar un alijo (C C), un jugador debe tener una miniatura amiga que renuncie a su Acción de Combate mientras está a 3\" del alijo del oponente y ninguna miniatura enemiga lo contesta. Cuando se puntúa un alijo, retíralo inmediatamente del juego."
+            },
+            {
+              "type": "paragraph",
+              "text": "Un alijo está contestado si alguna de las miniaturas de tu oponente está a 3\" del alijo. Las miniaturas de Líder, warjacks inertes, warbeasts salvajes, monstruosidades autónomas y miniaturas incapacitadas no pueden contestar."
+            }
+          ]
+        },
+        {
+          "title": "Kill Box (Zona de Exclusión)",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Kill Box: Comenzando en el segundo turno del primer jugador, si un jugador termina su turno con una miniatura de Líder amiga completamente a 12\" de su borde de la mesa, el oponente inmediatamente anota 2 Puntos de Victoria."
+            }
+          ]
+        },
+        {
+          "title": "Victoria por Asesinato",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cuando un jugador tiene la única miniatura de Líder que queda en juego, ese jugador gana inmediatamente la partida. Aunque la partida haya terminado, los jugadores anotan un último turno de Puntos de Victoria basado en el estado final de la partida. Esta puntuación no cambia los resultados de la partida (es decir, no puede llevar a una victoria por escenario incluso si un jugador termina con 3 Puntos de Victoria más que su oponente después de la victoria por asesinato del oponente), pero sí afecta la puntuación de la partida. Si todas las miniaturas de Líder son destruidas simultáneamente, la partida termina y la victoria se determina mediante desempates. Adicionalmente, cuenta e informa los puntos de ejército destruidos de acuerdo con el segundo desempate."
+            }
+          ]
+        },
+        {
+          "title": "Victoria por Escenario",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cuando un jugador ha cumplido las condiciones de victoria descritas en el escenario, ese jugador gana inmediatamente la partida. Adicionalmente, cuenta e informa el total de puntos de todas las miniaturas destruidas por cada jugador de acuerdo con el segundo desempate."
+            }
+          ]
+        },
+        {
+          "title": "1er Desempate: Puntos de Victoria",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "El jugador que tiene más Puntos de Victoria gana la partida. Si ambos jugadores tienen el mismo número de Puntos de Victoria, usa el segundo desempate para determinar el ganador."
+            }
+          ]
+        },
+        {
+          "title": "2do Desempate: Presencia en el Escenario",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Suma el coste en puntos de las miniaturas y unidades restantes propiedad de cada jugador dentro del rango de contestación de objetivos, alijos o terreno de escenario que podrían controlar potencialmente el elemento del escenario, independientemente de si está actualmente contestado o no. Ignora las miniaturas sin coste en puntos, warjacks inertes y warbeasts salvajes. El jugador con el total más alto gana la partida."
+            },
+            {
+              "type": "paragraph",
+              "text": "Al calcular el valor de la miniatura, usa el coste en puntos impreso en la tarjeta de la miniatura/unidad, incluso si esa miniatura/unidad fue creada durante la partida o recibió un descuento durante la construcción del ejército."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Las miniaturas de Líder valen 10 puntos de ejército cada una. Los Líderes que consisten en múltiples miniaturas con la regla de Líder valen solo 10 puntos independientemente del número de miniaturas restantes.",
+                "Las miniaturas de Cohorte valen su coste en puntos.",
+                "Las unidades y los attachments de unidad valen el coste en puntos de la unidad. Las miniaturas con la regla especial de Attachment añaden su coste en puntos al valor de la unidad.",
+                "Los Solos valen el coste en puntos de la miniatura. Para solos de múltiples miniaturas (por ejemplo, solos que incluyen múltiples miniaturas por un solo coste en puntos), todas las miniaturas restantes deben estar dentro del rango del mismo objetivo."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ESCENARIOS",
+      "scenarios": [
+        {
+          "id": "scenario_1",
+          "name": "GUARDIA DE COLOR",
+          "page": 5,
+          "map_image_filename": "scenario_1_color_guard_map.svg",
+          "rules": {
+            "scenario_victory": "Un jugador gana inmediatamente si, después de puntuar durante el turno de su oponente, su total de Puntos de Victoria es al menos 3 puntos más alto que el de su oponente. Un jugador no puede ganar mediante Victoria por Escenario en su propio turno.",
+            "scenario_elements": "Coloca dos objetivos de 50mm, dos alijos y dos banderas de acuerdo con el diagrama de abajo.",
+            "earning_victory_points_intro": "Comenzando en el segundo turno del segundo jugador, al final del turno de cada jugador, un jugador gana Puntos de Victoria (PV) de la siguiente manera:",
+            "victory_points_summary": [
+              "Objetivo asegurado = 1 PV",
+              "Alijo puntuado = 2 PV",
+              "Terreno de escenario asegurado = 2 PV"
+            ],
+            "flag_movement_rule": "Al final de cada ronda de puntuación después de que se hayan anotado los puntos, comenzando con el primer jugador, cada jugador coloca la bandera de su oponente en una pieza de terreno a 5\" de la última pieza de terreno de escenario no utilizada ya como terreno de escenario por ninguno de los jugadores. Si no hay una pieza de terreno válida para colocar una bandera, no muevas la bandera. La bandera permanece en esa ubicación hasta el final de la partida.",
+            "vp_limit": "No hay límite para el número de PV que un jugador puede ganar.",
+            "fixed_game_length": "La partida termina al final del séptimo turno del segundo jugador."
+          }
+        },
+        {
+          "id": "scenario_2",
+          "name": "GUERRA DE TRINCHERAS",
+          "page": 6,
+          "map_image_filename": "scenario_2_trench_warfare_map.svg",
+          "rules": {
+            "scenario_victory": "Un jugador gana inmediatamente si, después de puntuar durante el turno de su oponente, su total de Puntos de Victoria es al menos 3 puntos más alto que el de su oponente. Un jugador no puede ganar mediante Victoria por Escenario en su propio turno.",
+            "earthworks": "Cuando están a 3\" de los objetivos de 40mm o 50mm propios de un jugador, las miniaturas guerreras de peana mediana y pequeña ganan cobertura y Resistencia: Explosión.",
+            "scenario_elements": "Coloca dos objetivos de 50mm, dos objetivos de 40mm, dos banderas y dos alijos de acuerdo con el diagrama de abajo.",
+            "earning_victory_points_intro": "Comenzando en el segundo turno del segundo jugador, al final del turno de cada jugador, un jugador gana puntos de victoria (PV) de la siguiente manera:",
+            "victory_points_summary": [
+              "Objetivo asegurado = 1 PV",
+              "Terreno de escenario del oponente puntuado = 2 PV",
+              "Terreno de escenario propio del jugador puntuado = 0 PV",
+              "Puntuar un alijo = 2 PV"
+            ],
+            "vp_limit": "No hay límite para el número de PV que un jugador puede ganar.",
+            "fixed_game_length": "La partida termina al final del séptimo turno del segundo jugador."
+          }
+        },
+        {
+          "id": "scenario_3",
+          "name": "LOBOS EN NUESTROS TALONES",
+          "page": 7,
+          "map_image_filename": "scenario_3_wolves_at_our_heels_map.svg",
+          "rules": {
+            "the_wolves_advance": "Comenzando en el tercer turno del primer jugador, extiende la Kill Box (Zona de Exclusión) en 2\" al comienzo de cada uno de los turnos del primer jugador.",
+            "scenario_victory": "Un jugador gana inmediatamente si, después de puntuar durante el turno de su oponente, su total de Puntos de Victoria es al menos 3 puntos más alto que el de su oponente. Un jugador no puede ganar mediante Victoria por Escenario en su propio turno.",
+            "scenario_elements": "Coloca dos objetivos de 50mm, dos objetivos de 40mm y dos banderas de acuerdo con el diagrama de abajo.",
+            "earning_victory_points_intro": "Comenzando en el segundo turno del segundo jugador, al final del turno de cada jugador, un jugador gana Puntos de Victoria (PV) como se describe a continuación.",
+            "victory_points_summary": [
+              "Objetivo asegurado = 1 PV",
+              "Terreno de escenario asegurado = 1 PV"
+            ],
+            "objective_movement_rule": "Al final de cada turno de puntuación después de que se hayan anotado los puntos, los jugadores pueden mover cada objetivo de 40mm que controlen hasta 3\" hacia el borde de la mesa de su oponente.",
+            "centerline_crossing_vp": "Después de mover objetivos, un jugador cuyo objetivo de 40mm haya cruzado completamente la línea central de 24\" del mapa gana 3 PV. Si ambos objetivos cruzaron esta línea en el mismo turno, no se ganan puntos de esta manera. La puntuación para este objetivo se verifica solo una vez por partida.",
+            "vp_limit": "No hay límite para el número de PV que un jugador puede ganar.",
+            "fixed_game_length": "La partida termina al final del séptimo turno del segundo jugador."
+          }
+        },
+        {
+          "id": "scenario_4",
+          "name": "CARGA ÚTIL",
+          "page": 8,
+          "map_image_filename": "scenario_4_payload_map.svg",
+          "rules": {
+            "scenario_victory": "Un jugador gana inmediatamente si, después de puntuar durante el turno de su oponente, su total de Puntos de Victoria es al menos 3 puntos más alto que el de su oponente. Un jugador no puede ganar mediante Victoria por Escenario en su propio turno.",
+            "made_to_haul": "Después de mover su objetivo de 50mm al final de su turno, ese jugador puede mover una miniatura de Cohorte amiga 5\" directamente hacia su objetivo de 50mm.",
+            "scenario_elements": "Coloca dos objetivos de 50mm, dos objetivos de 40mm y dos banderas de acuerdo con el diagrama de abajo.",
+            "earning_victory_points_intro": "Comenzando en el segundo turno del segundo jugador, al final del turno de cada jugador, un jugador gana Puntos de Victoria (PV) como se describe a continuación.",
+            "victory_points_summary": [
+              "Objetivo asegurado = 1 PV",
+              "Si el objetivo de 50mm de un jugador termina su movimiento dentro del área del terreno de escenario o, si estar dentro de la pieza de terreno de escenario es imposible, a 3\" de la pieza de terreno misma, ese jugador gana inmediatamente 3 puntos. Retira ese objetivo de 50mm del juego."
+            ],
+            "objective_movement_rule": "Al final de cada turno de puntuación después de que se hayan anotado los puntos, un jugador que asegure un objetivo de 50mm puede mover ese objetivo hasta 3\" hacia el Terreno de Escenario de su oponente, +1\" por cada otro objetivo de 40mm o 50mm asegurado por ese jugador.",
+            "vp_limit": "No hay límite para el número de PV que un jugador puede anotar.",
+            "fixed_game_length": "La partida termina al final del séptimo turno del segundo jugador."
+          }
+        },
+        {
+          "id": "scenario_5",
+          "name": "DOS FRENTES",
+          "page": 9,
+          "map_image_filename": "scenario_5_two_fronts_map.svg",
+          "rules": {
+            "scenario_victory": "Un jugador gana inmediatamente si, después de puntuar durante el turno de su oponente, su total de Puntos de Victoria es al menos 3 puntos más alto que el de su oponente. Un jugador no puede ganar mediante Victoria por Escenario en su propio turno.",
+            "scenario_elements": "Coloca dos objetivos de 50mm, dos objetivos de 40mm y una bandera de acuerdo con el diagrama de abajo.",
+            "earning_victory_points_intro": "Comenzando en el segundo turno del segundo jugador, al final del turno de cada jugador, un jugador gana Puntos de Victoria (PV) como se describe a continuación.",
+            "victory_points_summary": [
+              "Objetivo asegurado = 1 PV",
+              "Terreno de escenario asegurado = 1 PV",
+              "Un jugador ha puntuado ambos objetivos de 40mm o ambos de 50mm = 2 PV"
+            ],
+            "vp_limit": "No hay límite para el número de PV que un jugador puede anotar.",
+            "fixed_game_length": "La partida termina al final del séptimo turno del segundo jugador."
+          }
+        },
+        {
+          "id": "scenario_6",
+          "name": "LOS MEJORES PLANES",
+          "page": 10,
+          "map_image_filename": "scenario_6_best_laid_plans_map.svg",
+          "rules": {
+            "scenario_victory": "Un jugador gana inmediatamente si, después de puntuar durante el turno de su oponente, su total de Puntos de Victoria es al menos 3 puntos más alto que el de su oponente. Un jugador no puede ganar mediante Victoria por Escenario en su propio turno.",
+            "scenario_elements": "Coloca dos objetivos de 50mm, dos objetivos de 40mm, dos alijos y dos banderas de acuerdo con el diagrama de abajo.",
+            "earning_victory_points_intro": "Comenzando en el segundo turno del segundo jugador, al final del turno de cada jugador, un jugador gana puntos de victoria (PV) como se describe a continuación.",
+            "victory_points_summary": [
+              "Objetivo asegurado = 1 PV",
+              "Terreno de escenario asegurado = 1 PV",
+              "Puntuar un alijo = 2 PV"
+            ],
+            "special_rule_p2_turn1_end": "Al final del primer turno del segundo jugador, el segundo jugador tira 1d3:\n1-Retirar ambos alijos del juego.\n2-Retirar ambos objetivos de 40mm del juego.\n3-Retirar ambos objetivos de 50mm del juego.",
+            "vp_limit": "No hay límite para el número de PV que un jugador puede anotar.",
+            "fixed_game_length": "La partida termina al final del séptimo turno del segundo jugador."
+          }
+        }
+      ]
+    },
+    {
+      "title": "MODELISMO, PINTURA Y CONVERSIONES",
+      "page": 11,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Steamforged Games anima a los jugadores a tener una fuerza completamente pintada sobre la mesa. Las partidas con ejércitos pintados son más interesantes de ver y generalmente mejoran la experiencia para todos. Aunque los ejércitos pintados no son obligatorios, se anima a pintar para mostrar todos los aspectos del hobby."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los eventos especiales organizados por Steamforged Games y cualquier evento oficialmente apoyado o sancionado, como Iron Gauntlet, pueden requerir miniaturas pintadas con un mínimo de tres colores. Esto significa que se deben usar al menos tres colores distintos en cada miniatura y que deben aplicarse de tal manera que no simplemente eludan la regla. Además de pintar la miniatura, también se requiere el basado, ya sea con flock, pasta de basing u otra decoración ingeniosa. Los Organizadores del Torneo siempre tienen la última palabra sobre lo que cumple con estos requisitos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Todas las miniaturas utilizadas en eventos de Juego Organizado de Steamforged Games deben ser miniaturas de Steamforged Games de la línea WARMACHINE. Cada miniatura debe estar completamente ensamblada y montada en una peana redonda con borde del tamaño especificado en su tarjeta de estadísticas dentro de la App WARMACHINE. No se permite el uso de miniaturas que no sean de Steamforged Games, miniaturas sin ensamblar, puntos duros incorrectos o miniaturas con un basado inapropiado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las miniaturas que aún no se hayan lanzado al público en general en el momento del evento no están permitidas en eventos de Juego Organizado a menos que esas miniaturas estén fácilmente disponibles en el lugar del evento (por ejemplo, una miniatura de lanzamiento en convención en un torneo celebrado en esa convención)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las siguientes reglas se aplican al uso de miniaturas convertidas en eventos de Juego Organizado de Steamforged Games. Estas reglas tienen la única intención de asegurar que las miniaturas en la mesa estén representadas legal e inequívocamente, no de limitar indebidamente las opciones de modelismo de un jugador. Un Organizador del Torneo (OT) puede hacer excepciones a estas reglas para aprobar cualquier conversión razonable."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Las miniaturas no pueden convertirse de tal manera que alguna parte de la miniatura represente la propiedad intelectual de cualquier parte excepto Steamforged Games, incluyendo logotipos con derechos de autor, símbolos, elementos icónicos u otra iconografía.",
+            "La mayoría del volumen de una miniatura convertida debe estar compuesta por partes de miniaturas de Steamforged Games. Para evitar confusiones, la conversión debe incluir elementos icónicos de la miniatura que pretende representar.",
+            "Un arma en una miniatura puede convertirse siempre que la conversión represente un arma de la misma longitud y tipo. (Por ejemplo, un jugador puede reemplazar el hacha de una sola cabeza RNG 1 de una miniatura con un hacha de doble cabeza de tamaño similar, pero no podría reemplazar un hacha corta con una alabarda grande o un arma de fuego).",
+            "Un arma no puede eliminarse a menos que sea reemplazada por otra arma; a la inversa, un arma no puede añadirse a menos que reemplace un arma que fue eliminada.",
+            "Si una conversión utiliza un kit de mejora de Steamforged Games para la miniatura que pretende representar, todas las partes del kit de mejora deben ser claramente visibles en la miniatura.",
+            "Las miniaturas deben montarse en peanas redondas con borde del tamaño apropiado. Los detalles escénicos añadidos pueden sobresalir del borde de la peana pero no deben oscurecer el borde de manera que dificulte o imposibilite la medición precisa durante una partida.",
+            "Un jugador no puede usar una miniatura como proxy (sustituto) de otra miniatura.",
+            "Cualquier conversión debe señalarse claramente al oponente antes de la partida, y el resultado final de cualquier conversión debe ser claramente identificable como la miniatura prevista. La regla de oro para convertir miniaturas para juego de torneo es simplemente esta: Si el OT no puede determinar independientemente, fácilmente y con precisión qué miniatura representa tu conversión, la miniatura no es legal para el torneo."
+          ]
+        },
+        {
+          "type": "sub_heading",
+          "text": "Ejemplos de conversiones legales e ilegales:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Un jugador crea un warjack Extreme Dire Wolf combinando partes de los kits de miniaturas Extreme Juggernaut y Dire Wolf, junto con partes icónicas de la miniatura Dire Wolf como su bombardero y su cabeza. Esta miniatura es una conversión legal.",
+            "Un jugador crea un Extreme Dire Wolf construyendo desde cero toda la miniatura con masilla de esculpir excepto la cabeza del Dire Wolf. Debido a que la mayoría del volumen de esta miniatura no está compuesta por partes de miniaturas de Steamforged Games, esta miniatura es una conversión ilegal.",
+            "Una jugadora pinta todo su ejército para que coincida con los colores de su equipo deportivo favorito pero no incluye ningún logotipo del equipo. Este ejército es legal.",
+            "Un jugador convierte todo su ejército para que se parezca a sus superhéroes favoritos, incluyendo sus logotipos de marca registrada. Este ejército es ilegal.",
+            "Un jugador reposiciona su miniatura de Magnus the Traitor, con la intención de jugarla como Magnus the Unstoppable. Esta es una conversión ilegal porque rompe la regla de oro de las conversiones: será difícil para los OTs y los jugadores saber qué personaje pretende representar la miniatura sin la ayuda del jugador que la convirtió.",
+            "Un jugador inserta un hacha en el puño cerrado de su Mastodon. Debido a que el arma ahora parece tener un alcance mayor y esto podría causar confusión, esta es una conversión ilegal."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "CONVERSIONES",
+      "page": 11,
+      "note": "Esta sección está cubierta bajo 'MODELISMO, PINTURA Y CONVERSIONES' en la página 11."
+    },
+    {
+      "title": "DEPORTIVIDAD",
+      "page": 12,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Se requiere un ambiente de juego justo y honesto para que todos se diviertan. Los jugadores deben ejecutar con precisión las reglas del juego y cooperar plenamente con los oponentes para responder honestamente cualquier pregunta que surja antes y durante la partida. Los jugadores también son responsables de exigir a sus oponentes los mismos estándares."
+        },
+        {
+          "type": "paragraph",
+          "text": "El OT no podrá observar todas las partidas. Un jugador que se sienta incómodo por algo que un oponente está haciendo —ya sea demorarse, torcer las reglas o hacer trampa descaradamente— debe expresar cortésmente sus preocupaciones a su oponente y explicar qué puede hacer el oponente para mantener un ambiente de juego justo, honesto y divertido. Si el comportamiento continúa o surge una disputa, los jugadores deben llamar al OT y explicar la situación. El OT siempre tiene la última palabra sobre cuestiones de reglas o debates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los jugadores deben presentar una conducta madura y cortés hacia sus oponentes y el OT. No hacerlo resultará en la descalificación inmediata. Un OT también puede descalificar a un jugador por cualquier incidente que se considere antideportivo, incluyendo conducta ofensiva o abusiva, intimidación, trampa, argumentos constantes sobre reglas, juego inapropiado, demoras y otras acciones inapropiadas. Los jugadores descalificados no son elegibles para ningún premio o recompensa y se les prohíbe participar más en el evento y en cualquier evento relacionado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Intentar intencionalmente eludir o explotar las reglas es claramente antideportivo y llevará a una advertencia, pérdida de la partida o descalificación inmediata, a discreción del OT. Ejemplos de este tipo de comportamiento antideportivo incluyen la manipulación incorrecta del Deathclock (Reloj de Muerte), dispositivos de medición explotadores y conversiones de miniaturas engañosas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aunque no se recomienda conceder una partida, ya que casi siempre hay una posibilidad de victoria, ocasionalmente las circunstancias impulsarán a un jugador a conceder una partida durante un torneo. En caso de una concesión, al jugador ganador se le otorga una victoria, 5 Puntos de Victoria (a menos que ya hayan anotado más antes de la concesión), y puntos de ejército destruidos equivalentes a la mitad del valor total del ejército inicial del oponente, redondeado hacia arriba (nuevamente, a menos que ya hayan anotado más antes de la concesión). El jugador que concedió recibe una derrota y ningún punto en ninguna categoría. Un OT puede descalificar a un jugador de un torneo si una concesión se considera antideportiva."
+        }
+      ]
+    },
+    {
+      "title": "RESPONSABILIDADES DEL ORGANIZADOR DEL TORNEO",
+      "page": 12,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "El OT puede, y de hecho se le anima a ello, modificar cualquier directriz o regla que se encuentre en este documento para acomodar las necesidades específicas de los jugadores en un evento."
+        }
+      ],
+      "sub_sections": [
+        {
+          "title": "Número de Rondas",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Durante el evento, un jugador gana 1 punto de torneo por una victoria y 0 puntos por una derrota o empate en cada ronda. El evento continúa hasta que un jugador tenga más puntos de torneo que cualquier otro jugador al final de una ronda. Una vez que se cumple esta condición, el evento termina sin partidas adicionales."
+            },
+            {
+              "type": "paragraph",
+              "text": "El número de jugadores en el torneo determina el número máximo de rondas generalmente requeridas para determinar un ganador, como se muestra en la siguiente tabla."
+            },
+            {
+              "type": "table",
+              "headers": ["JUGADORES", "RONDAS"],
+              "rows": [
+                {"JUGADORES": "8 o menos", "RONDAS": "Evento de 3 rondas"},
+                {"JUGADORES": "9 a 16", "RONDAS": "Evento de 4 rondas"},
+                {"JUGADORES": "17 a 32", "RONDAS": "Evento de 5 rondas"},
+                {"JUGADORES": "33 a 64", "RONDAS": "Evento de 6 rondas"},
+                {"JUGADORES": "65 a 128", "RONDAS": "Evento de 7 rondas"}
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Para eventos que duren seis rondas o más, recomendamos usar la variante \"Corte al Top [X]\" que se encuentra a continuación."
+            },
+            {
+              "type": "definition",
+              "term": "Corte al Top [X]",
+              "definition": "Este torneo reduce el número total de rondas en las que participan todos los jugadores cortando a los jugadores mejor clasificados después de un umbral específico. Al final de cada ronda del torneo, si el número total de jugadores invictos es X o menos, las rondas restantes del torneo solo las juegan los X mejores jugadores. Usa las reglas de Clasificación Final para determinar los X mejores jugadores y para determinar la clasificación de todos los demás jugadores. A medida que se juegan las rondas restantes, solo la clasificación de los X mejores jugadores puede cambiar y debe determinarse normalmente usando los resultados de sus rondas de torneo posteriores y las reglas de Clasificación Final. El OT debe cortar al top [X] solo una vez por evento."
+            }
+          ]
+        },
+        {
+          "title": "Emparejamientos de Primera Ronda",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Baraja todas las hojas de registro de los jugadores o usa otro método para determinar al azar todos los emparejamientos de jugadores para la primera ronda. Si hay un número impar de jugadores, consulta \"Descansos y Número Impar de Jugadores\" a continuación. Una vez completados los emparejamientos, los jugadores deben escribir el nombre de su oponente en su hoja de registro de jugador en la sección indicada. Cuando termine la ronda, registra los puntos de torneo (1 por victoria, 0 por derrota o empate), los puntos de control y los puntos de ejército destruidos para cada jugador."
+            }
+          ]
+        },
+        {
+          "title": "Emparejamientos Subsecuentes",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los jugadores no deben enfrentarse a un oponente contra el que ya hayan jugado anteriormente en el evento. Después de la primera ronda, todos los emparejamientos se basan en los totales actuales de puntos de torneo y los emparejamientos de rondas anteriores. Una vez que todas las partidas de la ronda anterior se hayan completado, ordena las hojas de registro de los jugadores en montones según el número de puntos de torneo. Los jugadores deben ser emparejados contra oponentes que tengan el mismo número actual de puntos de torneo que ellos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Si un montón tiene un número impar de jugadores, empareja al último jugador del montón con el mayor número de puntos de torneo contra alguien del montón con el siguiente mayor número de puntos de torneo; esto se llama \"emparejamiento hacia abajo\". Un jugador no debe ser emparejado hacia abajo más de una vez por evento. Como antes, una vez que se determinan todos los emparejamientos, los jugadores deben escribir el nombre de su oponente en su hoja de registro de jugador y registrar la información apropiada cuando termine la ronda."
+            }
+          ]
+        },
+        {
+          "title": "Descansos y Número Impar de Jugadores",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "En caso de un número impar de jugadores, un jugador recibe un descanso (bye) en cada ronda. Un jugador que recibe un descanso no juega en la ronda actual. En su lugar, recibe 1 punto de torneo, tres puntos de control y la mitad del nivel de puntos de ejército del evento (redondeado hacia arriba)."
+            },
+            {
+              "type": "paragraph",
+              "text": "En la primera ronda, el OT determina al azar qué jugador recibe el descanso. En rondas posteriores, el OT selecciona al azar un jugador de aquellos con los totales de puntos de torneo más bajos. Un jugador no debe recibir un descanso más de una vez por evento."
+            }
+          ]
+        },
+        {
+          "title": "Tiempo del Torneo: El Deathclock (Reloj de Muerte)",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "En los torneos Steamroller, cada jugador usa un reloj de ajedrez para rastrear su tiempo total en cada ronda. En otras palabras, se usa un reloj con el tiempo total de un jugador (reloj del jugador, como se muestra en la siguiente tabla) en lugar de duraciones de turno individuales, y la suma de ambos relojes de jugador determina el tiempo de finalización esperado para cada ronda. La escala de puntos de una ronda dada determina cuánto tiempo se le permite a cada jugador en el reloj."
+            },
+            {
+              "type": "table",
+              "headers": ["TAMAÑO DE PUNTOS DE RONDA", "RELOJ DEL JUGADOR (MINUTOS)"],
+              "rows": [
+                {"TAMAÑO DE PUNTOS DE RONDA": 30, "RELOJ DEL JUGADOR (MINUTOS)": 20},
+                {"TAMAÑO DE PUNTOS DE RONDA": 50, "RELOJ DEL JUGADOR (MINUTOS)": 30},
+                {"TAMAÑO DE PUNTOS DE RONDA": 75, "RELOJ DEL JUGADOR (MINUTOS)": 50},
+                {"TAMAÑO DE PUNTOS DE RONDA": 100, "RELOJ DEL JUGADOR (MINUTOS)": 60}
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Una vez que se determinan las listas de ejército y el orden de despliegue de ambos jugadores y se configura el escenario, ambos jugadores pueden colocar sus ejércitos seleccionados en la mesa fuera de sus respectivas zonas de despliegue. Tras la notificación del OT, el primer jugador inicia su reloj y comienza el despliegue normal. Cuando el despliegue normal del primer jugador está completo, pulsa el reloj para el segundo jugador, quien luego completa su despliegue normal. Este proceso se repite luego para el despliegue avanzado. Después de que el despliegue avanzado del segundo jugador esté completo, pulsan el reloj y comienza el primer turno del primer jugador. Cuando un jugador completa un turno, pulsa el reloj para el oponente, quien comienza su siguiente turno."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cuando los jugadores comienzan el despliegue por primera vez, el OT registra el tiempo de finalización esperado para la ronda, basado en la suma de ambos relojes de jugador. Para mantener el horario del evento, los jugadores no pueden pausar el reloj de ajedrez en ningún momento. Si se requiere la intervención de un OT para resolver una disputa de reglas, el OT, a su propia discreción, puede pausar el reloj de ajedrez al llegar a la mesa. Si el OT pausa el reloj, lo reinicia cuando su intervención está completa. El jugador activo puede cambiar el reloj al tiempo del jugador inactivo cuando el jugador inactivo tira uno o más dados, mide rangos para habilidades, marca daño en una tarjeta, mueve cualquier miniatura o toma tiempo para tomar cualquier decisión que interrumpa el turno del jugador activo. De lo contrario, el reloj no puede cambiarse ni detenerse por ningún motivo que no sea el final del turno de un jugador. Si el jugador activo cambia el reloj, debe anunciar que lo ha hecho. Es entonces responsabilidad de ambos jugadores asegurarse de que el reloj se cambie de nuevo al jugador activo después."
+            },
+            {
+              "type": "paragraph",
+              "text": "Un jugador cuyo reloj se agota durante su turno pierde inmediatamente, y se realiza una verificación para determinar los resultados de la partida. Si el reloj de un jugador se agota durante su turno, ese jugador pierde inmediatamente. Cuando el reloj de un jugador se agota durante su turno, su oponente puede verificar inmediatamente si puntúa algún elemento del escenario. Si ese oponente ahora tiene más PV que el jugador cuyo reloj se agotó, ese oponente gana por victoria de escenario. Si puntuar el escenario no resultara en una victoria de escenario de esta manera, el jugador cuyo reloj se agotó tiene su miniatura de Líder inmediatamente destruida, y la derrota se anota como una victoria por asesinato para el oponente usando las condiciones actuales de la mesa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Si el reloj de un jugador se agota durante el turno de su oponente, ese oponente puede terminar su turno normalmente pero puede verificar inmediatamente la victoria por escenario al final del turno actual. Si no se logra la victoria por escenario de esta manera, el jugador cuyo reloj se agotó tiene su miniatura de Líder inmediatamente destruida, y la derrota se anota como una victoria por asesinato para el oponente usando las condiciones actuales de la mesa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cuando llega el tiempo de finalización esperado para la ronda, el OT verifica todas las partidas activas restantes. Las partidas con menos de 5 minutos combinados en ambos relojes de jugador se juegan hasta su finalización. Las partidas con más de 5 minutos combinados en ambos relojes de jugador se declaran empate (a menos que el OT haya pausado sus relojes durante la ronda); esto solo puede ocurrir si los jugadores pausaron el reloj sin informar al OT."
+            }
+          ]
+        },
+        {
+          "title": "Selección de Escenario",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Steamroller 2025 incluye seis escenarios. El OT puede elegir los escenarios y el orden en que se juegan o usar la siguiente tabla de selección aleatoria de escenarios. Un escenario no debe repetirse. Todos los jugadores juegan el mismo escenario en cada ronda, y el OT no debe anunciar el escenario hasta el inicio de la ronda."
+            },
+            {
+              "type": "table",
+              "headers": ["TIRADA D6", "ESCENARIO"],
+              "rows": [
+                {"TIRADA D6": 1, "ESCENARIO": "Guardia de Color"},
+                {"TIRADA D6": 2, "ESCENARIO": "Guerra de Trincheras"},
+                {"TIRADA D6": 3, "ESCENARIO": "Lobos en Nuestros Talones"},
+                {"TIRADA D6": 4, "ESCENARIO": "Carga Útil"},
+                {"TIRADA D6": 5, "ESCENARIO": "Dos Frentes"},
+                {"TIRADA D6": 6, "ESCENARIO": "Los Mejores Planes"}
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Terreno",
+          "page": 14,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los campos de batalla de Immoren se extienden por tierras extrañas y variadas. Desde un desembarco en la costa fuera de Port Vladovar hasta una marcha a través de los riscos oxidados de las Marcas de Piedrasangre, cada campo de batalla cobrará vida a su manera. Al igual que Immoren, no es probable que dos tiendas o eventos tengan el mismo terreno, ¡y eso está bien! Esta sección ofrece directrices para ayudar a los OTs a construir mesas equilibradas que al mismo tiempo proporcionen experiencias tácticas atractivas utilizando cualquier terreno que tengan disponible. Sin embargo, de ninguna manera este documento debe restringir a un OT la creación de las mesas que quieren ver en su evento."
+            },
+            {
+              "type": "paragraph",
+              "text": "Generalmente, una mesa promedio debería tener entre diez y catorce piezas de terreno. Este terreno debe colocarse para reducir grandes áreas abiertas e interrumpir la línea de visión a través del tablero sin restringir indebidamente el movimiento."
+            },
+            {
+              "type": "paragraph",
+              "text": "Las piezas de terreno —excepto el terreno disperso— deben tener aproximadamente de 3\" a 6\" de ancho y largo. Los ejemplos incluyen bosques, parches de arenas movedizas, campos de hierba alta, charcos de agua, etc. Las características del terreno no deben ser más pequeñas de 3\" en ninguna dimensión ni más grandes de 6\" en ninguna dimensión. Sin embargo, si tu terreno es más grande o más pequeño, considera ajustar la cantidad de terreno según sea necesario. Por ejemplo, una sola pieza de terreno que consista en una obstrucción sobre una colina, construida junto a un hermoso estanque, con una huella de aproximadamente 15\" de diámetro debe tratarse como tres piezas de terreno. No temas usar terreno extraño y variado; después de todo, ¡el mundo está hecho de más que colinas, bosques y muros!"
+            },
+            {
+              "type": "paragraph",
+              "text": "Algunas piezas de terreno son demasiado pequeñas para contarlas razonablemente hacia este límite. Estas piezas de terreno especialmente pequeñas se llaman terreno disperso. Ejemplos de terreno disperso incluyen pequeñas rocas, cajas individuales, postes de luz, carretas destrozadas, etc. Tres piezas de terreno disperso cuentan como una pieza de terreno normal. Como regla general: si tres pequeñas piezas de terreno caben en la misma área que una sola pieza de terreno normal, esas piezas son terreno disperso. El terreno disperso se retira de la mesa cuando es contactado por una miniatura con peana de 80mm o 120mm. Los jugadores deben intentar reemplazar todo el terreno disperso retirado lo mejor que puedan una vez que termine la partida."
+            },
+            {
+              "type": "paragraph",
+              "text": "La colocación del terreno debe presentar una elección significativa para el jugador que gana la tirada inicial. De ninguna manera cada lado de un campo de batalla debe ser una imagen especular del otro, pero cada mitad de una mesa debe contener aproximadamente el mismo número de piezas de terreno."
+            },
+            {
+              "type": "paragraph",
+              "text": "El número exacto, tipo y colocación de las piezas de terreno dependen del OT, pero los OTs deben tener en cuenta las siguientes directrices al configurar las mesas:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "No coloques terreno a 3\" de un borde del tablero.",
+                "Cada mesa debe contener un mínimo de cuatro piezas de terreno que bloqueen la línea de visión (por ejemplo, bosques, niebla densa, obstrucciones). No cuentes el terreno disperso para este número.",
+                "No coloques obstrucciones a 6\" de otra obstrucción. Asegúrate de que ninguna combinación de terreno restrinja indebidamente el movimiento de ningún tamaño de peana.",
+                "Cada mesa debe tener al menos un peligro (por ejemplo, tierra ardiente, baños de ácido, arenas movedizas).",
+                "El terreno disperso (por ejemplo, tumbas abiertas, pilas de cajas, etc.) se toma en grupos de tres, aunque pueden tomarse en cualquier combinación (por ejemplo, 3 tumbas abiertas o 2 tumbas abiertas y 1 pila de cajas). Solo cuentan como una pieza de terreno para el número de piezas de terreno colocadas.",
+                "Las características de terreno peligroso pueden usarse como piezas independientes o combinadas con otra característica, como un bosque de tierra ardiente. Tal combinación cuenta como una sola pieza de terreno para los propósitos de los requisitos de cantidad de terreno.",
+                "Los jugadores no tiran para determinar si las características del terreno como tierra ardiente o niebla densa desaparecen. Estas características del terreno permanecen en juego durante toda la partida.",
+                "Las colinas tienen uniformemente la altura del punto más alto de la colina. En caso de que tu OT use colinas planas 2D, tienen 1\" de altura a menos que se indique lo contrario.",
+                "Las obstrucciones son uniformemente tan altas como el punto más alto de la pieza de terreno. En caso de que tu OT use terreno plano 2D, todas las obstrucciones tienen 10\" de altura a menos que se indique lo contrario.",
+                "Cada mesa debe limitarse a 6 piezas de terreno disperso."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Los escenarios pueden requerir que los elementos del escenario se coloquen en ubicaciones que entren en conflicto con el terreno existente. Al colocar elementos del escenario, mueve cualquier obstrucción que se superponga con el elemento. Hazlo de manera que cause la menor perturbación posible entre otras piezas de terreno. El terreno de área como bosques, terreno difícil, baños de ácido o colinas no presenta tal conflicto para la configuración, y los elementos del escenario pueden colocarse libremente dentro de dicho terreno."
+            },
+            {
+              "type": "paragraph",
+              "text": "Si el OT permite a los jugadores configurar sus propios elementos de escenario y objetivos, ambos jugadores deben estar de acuerdo en cualquier cambio de terreno. Si no se puede acordar el movimiento del terreno, los jugadores deben llamar al OT para resolver cualquier disputa."
+            },
+            {
+              "type": "paragraph",
+              "text": "Durante el evento, el terreno a menudo se moverá debido a la presencia de elementos del escenario o se moverá inadvertidamente por los jugadores. El OT no necesita restablecer completamente el terreno en cada ronda para que coincida con la configuración inicial, pero siempre debe revisar el terreno al comienzo de cada ronda para asegurar un entorno de terreno equilibrado, para restablecer el terreno disperso, y así sucesivamente."
+            }
+          ]
+        },
+        {
+          "title": "Métodos de Configuración de Terreno",
+          "page": 15,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A continuación se muestra un ejemplo de un método de configuración de terreno que el OT puede usar al configurar el terreno para un evento. Esta no es la única forma de configurar el terreno; de hecho, recomendamos probar diferentes métodos para encontrar el que funcione para cada OT, evento o grupo. Continúa usando las directrices anteriores siempre que sea posible. Recuerda, una pieza de terreno está \"dentro\" de una distancia dada si alguna porción del terreno está dentro de esa distancia. Sin embargo, si una regla establece \"completamente dentro\", toda la pieza de terreno debe estar dentro de esa distancia."
+            },
+            {
+              "type": "definition",
+              "term": "Método de Cuadrantes (número recomendado de piezas de terreno: 12)",
+              "definition_list": [
+                "Divide la mesa en cuatro cuadrantes de 24\" x 24\".",
+                "Coloca una pieza de terreno completamente dentro de cada cuadrante y a 6\" del centro de la mesa.",
+                "Coloca una pieza de terreno completamente dentro de cada cuadrante y a 6\" del centro del cuadrante.",
+                "Elige un lado de la mesa. Añade una obstrucción a 6\" del centro entre los dos cuadrantes de ese lado de la mesa.",
+                "Añade una pieza adicional de terreno a 6\" de esa.",
+                "Añade un peligro a uno de los otros dos cuadrantes.",
+                "Elige un cuadrante al azar y añade una pieza final de terreno."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "REGISTRO DE LA PARTIDA",
+      "page": 15,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Antes de comenzar una partida, los jugadores deben compartir su Lista de fuerza elegida entre sí a través de la aplicación Warmachine. Las listas se comparten sin revelar qué fuerza se ha elegido para la partida. Las listas no pueden alterarse ni cambiarse por listas diferentes después de haber sido compartidas. Después de elegir las listas, los jugadores eligen los hechizos para sus Spell Racks."
+        }
+      ],
+      "sub_sections": [
+        {
+          "title": "Registro de Resultados de la Partida",
+          "page": 15,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Al final de una partida, cada jugador debe informar la siguiente información al OT, ya sea mediante la hoja de registro del jugador o mediante otro método elegido por el OT: el nombre del oponente, la lista jugada, el resultado de la partida (Victoria/Derrota/Empate), el número de puntos de victoria anotados y el número de puntos de ejército del oponente destruidos."
+            }
+          ]
+        },
+        {
+          "title": "Clasificación Final",
+          "page": 15,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los Puntos de Victoria (PV) determinan la clasificación actual de un jugador en un torneo. En el caso de dos jugadores con el mismo número de puntos de torneo, determina cuál de ellos ocupa un puesto más alto calculando la fuerza del calendario. Para hacer esto, cuenta los puntos de torneo anotados por cada oponente de los jugadores empatados. El jugador cuyos oponentes tengan la puntuación total más alta tiene la mejor puntuación de fuerza de calendario y obtiene el puesto más alto. Si la fuerza del calendario es la misma para ambos jugadores, el jugador que acumuló más puntos de control a lo largo del torneo obtiene el puesto más alto. Si los puntos de control también son los mismos para ambos jugadores, el jugador que acumuló más puntos de ejército enemigo destruidos a lo largo del torneo obtiene el puesto más alto."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "PREMIOS",
+      "page": 15,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hay disponibles kits de premios oficiales para eventos Steamroller que incluyen los siguientes premios: Primer Puesto, Segundo Puesto, Tercer Puesto, Mejor Pintado y Mejor Deportividad. Los ganadores de los premios de Primer Puesto a Tercer Puesto se basan en la clasificación final del torneo y deben ser anunciados por el OT al final de cada evento, incluso si los premios para esos galardones no están disponibles en ese evento. Mejor Pintado y Mejor Deportividad son premios opcionales pero ambos son altamente recomendados."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si el OT tiene la intención de anunciar un premio al Mejor Pintado, debe determinar una categoría para la cual se elegirá el premio y comunicar claramente esta información con suficiente antelación al evento. Las recomendaciones para las categorías de Mejor Pintado incluyen: Mejor Miniatura Individual, Mejor Grupo de Batalla, Mejor Unidad y Mejor Ejército."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay dos formas de determinar el ganador del premio al Mejor Pintado. O el OT elige al ganador o todos los participantes en el evento realizan una votación secreta. Al usar una votación secreta, el OT debe mostrar todas las entradas presentadas a los participantes. Los participantes escriben su elección en un trozo de papel, manteniéndolo en secreto para los demás, y entregan ese papel al OT. Un jugador puede votar por su propia presentación. El OT cuenta los votos y anuncia al(los) ganador(es). En caso de empate, el OT debe romper el empate ya sea eligiendo al ganador o realizando una segunda votación secreta solo entre las entradas empatadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "El premio a la Mejor Deportividad recompensa al jugador que demuestra una excelente deportividad durante el evento. Jugar a Warmachine se trata en última instancia de divertirse con amigos (y enemigos) mientras destruyes los ejércitos cuidadosamente elaborados de los demás. La buena deportividad crea un ambiente de respeto mutuo y compañerismo que asegura que ambos jugadores pasen un gran rato durante su batalla. Este premio debe determinarse utilizando cualquiera de los dos métodos descritos anteriormente para el premio al Mejor Pintado."
+        }
+      ]
+    }
+  ],
+  "footer_page_number": 1
+}

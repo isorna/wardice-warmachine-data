@@ -1,0 +1,322 @@
+{
+  "document_title": "BRAWLMACHINE MK4",
+  "generated_for": "Alvaro Isorna Baez (alvaro.isorna@gmail.com)",
+  "version": "2025-06-16",
+  "contents_page": 3,
+  "sections": [
+    {
+      "id": "introduction",
+      "title": "¿QUÉ ES BRAWLMACHINE?",
+      "page": 4,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Brawlmachine es un formato para partidas de escaramuza de 50 pts de Warmachine. Tiene una asignación de campo (FA) de 1, escenarios personalizados para el tamaño de juego más pequeño y una lista limitada de modelos restringidos para el formato llamada lista de vigilancia. [cite: 12, 13]"
+        },
+        {
+          "type": "paragraph",
+          "text": "El terreno, la puntuación, los desempates del juego y los elementos del escenario se describen en el documento Steamroller y no cambian en Brawlmachine. [cite: 14]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Warmachine es propiedad intelectual de Steam Forged Games y es un juego de miniaturas de ritmo rápido con una gran escena competitiva. Warmachine se describe en detalle en la aplicación Warmachine, que se recomienda para cualquiera que esté investigando Warmachine. [cite: 15, 16]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Brawlmachine se creó por primera vez para mk3 por Line of Sight. El formato se convirtió rápidamente en un formato básico para la comunidad de jugadores de Warmachine y fue popular tanto entre los jugadores nuevos como entre los que regresaban. Se utilizó en torneos, así como el formato oficial de Steamroller. El equipo detrás de revivir el formato y hacer que se ajuste a las reglas de MK4 se llama Circle of Blindness. [cite: 17, 18, 19, 20]"
+        }
+      ]
+    },
+    {
+      "id": "army_composition",
+      "title": "COMPOSICIÓN DEL EJÉRCITO",
+      "page": 4,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un ejército de Brawlmachine no puede usar más de 50 puntos. Los modelos en un ejército de Brawlmachine tienen una asignación de campo de 1, con la excepción de los modelos de cohorte mk4. Estos, en cambio, tienen FA:1 para sus respectivas cargas de armas/cabezas, etcétera. [cite: 22, 23, 24]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ejemplo: un warjack pesado Stryker de la Storm Legion está equipado con CABEZA: Carga implacable, BRAZO DERECHO: Bombardeo eléctrico, BRAZO IZQUIERDO: Escudo galvánico. Si ese jugador de la Storm Legion quiere agregar otro Stryker, ese warjack puede equiparse con cualquiera de las otras opciones disponibles, es decir, para la CABEZA: el Stryker puede elegir Precisión arcana, Overtake o Plasma Nimbus, pero NO Carga implacable. [cite: 25, 26]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tenga en cuenta que las cartas de comando también tienen FA:1 para cualquier facción que pueda traer cualquier otro número de la misma carta. [cite: 27]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un ejército de Brawlmachine no puede incluir ningún modelo de 120 mm u 80 mm. [cite: 28]"
+        }
+      ]
+    },
+    {
+      "id": "watchlist",
+      "title": "LISTA DE VIGILANCIA",
+      "page": 5,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Al jugar Warmachine, la mayoría de los modelos están equilibrados para juegos de 100 pts. Con 50 puntos, algunos modelos podrían desequilibrar el juego. Para apoyar el juego competitivo equilibrado, algunos modelos se colocarán en la lista de vigilancia que un organizador de torneos podría usar para prohibir esos ciertos modelos del evento. [cite: 31, 32, 33]"
+        },
+        {
+          "type": "paragraph",
+          "text": "La lista de vigilancia consta de tres niveles de colores:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Rojo: Modelos que se ha demostrado que impactan los juegos de tal manera que proporcionan una ventaja injusta. Los modelos en la lista de vigilancia roja nunca deben incluirse en una lista de pelea. [cite: 35, 36]",
+            "Naranja: Modelos que han demostrado hacer que el juego sea desigual, pero no tan opresivos como los modelos en la categoría roja. Los modelos en la lista de vigilancia naranja deben usarse con precaución. No use estos modelos contra nuevos jugadores y respete a aquellos que no quieran jugar contra ellos. Muchos organizadores de torneos prohíben los modelos de la lista de vigilancia roja y naranja. [cite: 37, 38, 39, 40]",
+            "Amarillo: Modelos que parecen muy fuertes en el formato, pero no se ha demostrado que impacten los juegos como los modelos en las categorías roja y naranja. Siéntase libre de incluir estos modelos en sus listas y asegúrese de dar sus comentarios al respecto. [cite: 41, 42]"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La lista de vigilancia incluye modelos específicos para varias facciones:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Crucible Guard: *Major Aline Bennet (Dote/habilidad de generación de unidades o recursión) [cite: 44, 45]",
+            "Orgoth: Orsus the Betrayed (Orgoth sea raider), *Horrusk, The Thousand Wraths (Dote opresiva de escenario) [cite: 46, 47, 48]",
+            "Dark Host: *Goreshade the Bastard (Dote/habilidad de generación de unidades o recursión) [cite: 49, 50]",
+            "Necrofactorium: *Master Necrosurgeon Sepsira (Dote/habilidad de generación de unidades o recursión), Lich Lord Dekathus (Salida injusta), Necrosurgeons (Recursión) [cite: 51, 52, 53]",
+            "Dusk: Vaelyss, the Hand of Mourning (Ghost of Ios), Hazaroth, Narcissar of Ruin (House Kalyss), *Morayne, the Blade of Twilight (Negación de ataques), *Scyrafael, Nis-Issyr of Desolations (Dote opresiva de escenario), Dreadguard Cavalry (Salida injusta) [cite: 54, 55, 56, 57, 58]",
+            "Army of the Western Reaches: Supreme Archdomina Makeda [cite: 59, 60]",
+            "Soldiers of Fortune: *Drake MacBain (Negación de ataques), Magnus the Warlord [cite: 62, 63]",
+            "Dark Operations: *Exulon Thexus (Dote opresiva de escenario) [cite: 64, 65]",
+            "Old Umbrey: Vorony (Negación de ataques) [cite: 66, 67]",
+            "Shadows of the Retribution: *Kaelyssa, the Night's Whisper (Dote opresiva de escenario) [cite: 68, 69]",
+            "Khymaera: *Shyryss, the Flawless Dark (Dote opresiva de escenario), Shades (Salida injusta) [cite: 70, 71]",
+            "Storm of the North: *Grim Angus (Dote opresiva de escenario), *Kolgrima Stonetruth, Winter Witch (Dote opresiva de escenario) [cite: 72, 73, 74]",
+            "Rhul Guard: *Gorten Grundback (Dote opresiva de escenario) [cite: 75, 76]",
+            "Winter Korps: *Kapitan Ekaterina Baranova (Dote opresiva de escenario) [cite: 77, 78]",
+            "Secret Dominion: *Kreuger the Stormlord (Dote opresiva de escenario) [cite: 79, 80]",
+            "Talion Charter: *Captain Bartolo Montador (Dote opresiva de escenario) [cite: 81, 82]",
+            "Brineblood Marauders: *Braghen Ragemonger (Salida injusta) [cite: 83, 84]",
+            "Storm Legion: *Major Allister Caine (Salida injusta), Black 13 (Salida injusta) [cite: 85, 86, 87]",
+            "Grave Diggers: Vargus, Black 13, Major Allister Caine [cite: 88, 89, 90, 91]",
+            "Other: Kreuger, Wrath of Blighterghast (Mercenario MK4, Salida injusta) [cite: 92, 93]"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watchlist_reasoning",
+      "title": "RAZONAMIENTO DETRÁS DE LA LISTA ROJA",
+      "page": 7,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Orsus the Betrayed (Orgoth Sea Raider): La dote es la recursión más fuerte del juego, poder revivir solos y recuperar miembros de la unidad con salud completa (8 casillas) es ridículo para el formato de 50 puntos. [cite: 96, 97]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vaelyss, the Hand of Mourning (Ghost of Ios): Vaelyss es un modelo de apoyo que puede salvar modelos vivos amigos a través de hilos de vida y revivir modelos como la caballería de la guardia del terror a través de retornos sombríos. Vaelyss también tiene su forma de espíritu vengador después de ser destruida, lo cual es una habilidad muy fuerte en el formato. Esta combinación le gana un lugar en la lista roja. [cite: 98, 99, 100, 101]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hazaroth, Narcissar of Ruin (House Kalyss): Hazaroth tiene invocaciones de polvo y acceso a unidades como la caballería de la guardia del terror. Poder salvar modelos guerreros 7-8 veces seguidas, cada turno. Esta habilidad le gana a Hazaroth un lugar en la lista roja. [cite: 102, 103, 104, 105]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Kreuger, Wrath of Blighterghast (Mercenario MK4): Kreuger tiene autocuración, 2 ataques de spray completamente potenciados y 18 pulgadas de rango de amenaza innato. También puede potenciar, debilitar y golpear automáticamente. Además, sus estadísticas defensivas son algunas de las mejores a su costo de puntos. Por 7 puntos, todavía sentimos que era demasiado. [cite: 106, 107, 108, 109]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Magnus the Warlord (Soldiers of Fortune): Magnus es opresivo en el escenario y casi no tiene contrajuego. Quedarse atascado en el turno 2 y perder el juego sin tener una oportunidad de luchar es una mala experiencia para el jugador. Esto le gana a Magnus un lugar en la lista roja. [cite: 111, 112, 113, 114]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Supreme Archdomina Makeda (Army of the Western reaches): Similar a Hazaroth, Makeda puede hacer que la caballería sea casi inmortal con su habilidad de quedarse con la muerte. Se necesitan demasiados ataques en este formato para que la interacción esté bien. [cite: 115, 116, 117]"
+        }
+      ]
+    },
+    {
+      "id": "scenario_rules",
+      "title": "ESCENARIOS",
+      "page": 8,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los escenarios de Brawlmachine se basan en las reglas del documento steamroller. Si surgen preguntas sobre puntuación, medidas u otra cosa, una buena idea es consultar el documento steamroller para obtener orientación. [cite: 120, 121]"
+        },
+        {
+          "type": "definition",
+          "term": "Objetivos",
+          "definition": "Los objetivos de 50 mm son puntuados por un modelo de cohorte o modelo líder dentro de 3 pulgadas del objetivo si no está disputado. Los objetivos de 40 mm son puntuados por cada modelo restante en una unidad o modelo líder dentro de 3 pulgadas del objetivo si no está disputado. [cite: 125, 126]"
+        },
+        {
+          "type": "definition",
+          "term": "Cachés",
+          "definition": "Los cachés se puntúan utilizando la acción de cualquier modelo mientras esté dentro de 3 pulgadas del caché no disputado. [cite: 127]"
+        },
+        {
+          "type": "definition",
+          "term": "Banderas",
+          "definition": "Las banderas se utilizan para marcar el terreno del escenario que se elige para ser cualquier característica del terreno dentro de 5 pulgadas de la bandera. El terreno del escenario se puntúa con un mínimo de dos modelos dentro de la característica del terreno. Si la característica del terreno es una obstrucción u obstáculo, la puntuación o disputa es en cambio dentro de 2 pulgadas del terreno del escenario. [cite: 128, 129, 130]"
+        },
+        {
+          "type": "definition",
+          "term": "Reloj",
+          "definition": "Brawlmachine se juega con 40 minutos para cada jugador cuando se juega en línea y con 35 minutos para cada jugador cuando se juega en la vida real. Usar todo el tiempo resultará en una pérdida. [cite: 131, 132]"
+        },
+        {
+          "type": "definition",
+          "term": "Puntuación",
+          "definition": "Cada objetivo puntúa 1 VP cuando se controla. La puntuación se realiza después de cada turno, comenzando en el segundo turno del segundo jugador. Asegurar al menos 3 VP más que un oponente después del turno de un oponente se considera una victoria. [cite: 133, 134, 135]"
+        },
+        {
+          "type": "definition",
+          "term": "Muerte del Caster",
+          "definition": "Destruir o eliminar al líder del oponente se considera una victoria. [cite: 136]"
+        },
+        {
+          "type": "definition",
+          "term": "Turnos",
+          "definition": "Cada jugador puede jugar hasta 7 turnos. Si no se cumplen las condiciones de victoria al final del séptimo turno del segundo jugador, el jugador con más puntos de escenario se considera el ganador. Si hay empate, el jugador con más puntos de ejército dentro de 3 pulgadas de cualquier objetivo gana. Si sigue habiendo empate, el jugador con más tiempo restante gana. [cite: 137, 138, 139]"
+        },
+        {
+          "type": "definition",
+          "term": "Kill Box",
+          "definition": "A partir del segundo turno del primer jugador, si un jugador termina su turno con un modelo líder amigo completamente dentro de 12\" de su borde de mesa, el oponente puntúa inmediatamente 2 Puntos de Victoria. [cite: 140]"
+        }
+      ]
+    },
+    {
+      "id": "scenario_list",
+      "title": "LISTA DE ESCENARIOS",
+      "page": 9,
+      "content": [],
+      "sub_sections": [
+        {
+          "id": "scenario_1",
+          "title": "ESCENARIO 1: CACHE ME OUTSIDE",
+          "page": 9,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Ambos jugadores colocan 3 cachés a 20 pulgadas desde atrás, el primero a 12 pulgadas desde el lado izquierdo y luego otros 2 con 10 pulgadas de separación del último. Coloque un objetivo de 50 mm a 16 pulgadas desde atrás y 23 desde el lado izquierdo. [cite: 143, 144]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Puntuar un caché son 2 puntos. Puntuar todos los cachés son 3 puntos extra. [cite: 145, 146]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_2",
+          "title": "ESCENARIO 2: GET OVER HERE",
+          "page": 10,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "El primer jugador coloca un objetivo de 40 mm a 17 pulgadas del lado izquierdo, 18 pulgadas desde atrás. También coloque un objetivo de 50 mm a 17 pulgadas del lado derecho, 20 pulgadas desde atrás. [cite: 159, 160]"
+            },
+            {
+              "type": "paragraph",
+              "text": "El segundo jugador coloca un objetivo de 40 mm a 17 pulgadas del lado derecho, 16 pulgadas desde atrás. Luego un objetivo de 50 mm a 17 pulgadas del lado izquierdo, 18 pulgadas desde atrás. [cite: 161, 162]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Puntuar cualquier número de objetivos del oponente es 1 punto extra. [cite: 163]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_3",
+          "title": "ESCENARIO 3: CROSS SECTION",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "El segundo jugador elige si quiere dos objetivos de 40 mm o dos objetivos de 50 mm en su lado. El primer jugador obtiene 2 objetivos del tamaño no elegido por el segundo jugador. [cite: 177, 178]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Los objetivos se colocan a 12 pulgadas de los lados y 16 pulgadas desde atrás. El caché se coloca a 23 pulgadas del lado y 20 pulgadas desde atrás. [cite: 179, 180]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Puntuar el caché son 2 puntos. El primer jugador en puntuar el caché gana 1 punto extra. [cite: 181, 182]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_4",
+          "title": "ESCENARIO 4: SIX FLAGS OVER IMMOREN",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las banderas se colocan a 18 pulgadas desde atrás y 12 pulgadas de los lados. También coloque banderas a 23 pulgadas del lado y 16 pulgadas hacia adentro. [cite: 191, 192]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Los oponentes eligen características del terreno para las banderas del otro. El primer jugador elige el primer objetivo de terreno, luego los jugadores se turnan para elegir objetivos de terreno. [cite: 193]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Puntuar cualquier número de banderas de oponentes es 1 punto extra. Este escenario utiliza características del terreno para todos los objetivos, se recomienda tener al menos 2 características del terreno dentro de 5\" de cada bandera. [cite: 194, 195]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_5",
+          "title": "ESCENARIO 5: BEHIND ENEMY LINES",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Coloque una bandera a 14 pulgadas del lado izquierdo del primer jugador y 20 pulgadas desde atrás. Coloque un objetivo de 40 mm a 18 pulgadas desde atrás y 23 desde la derecha. Coloque un objetivo de 50 mm a 14 pulgadas del lado derecho y 16 pulgadas desde atrás. [cite: 202, 203, 204]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Puntuar un objetivo de un oponente con un modelo líder son 2 puntos extra. [cite: 205]"
+            }
+          ]
+        },
+        {
+          "id": "scenario_6",
+          "title": "ESCENARIO 6: U TURN",
+          "page": 14,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Coloque un objetivo de 40 mm a 14 pulgadas del lado derecho y 14 pulgadas desde atrás y otro a 14 del lado izquierdo y 20 desde atrás. Coloque una bandera a 21 pulgadas desde atrás y 23 pulgadas del lado derecho. [cite: 219, 220]"
+            },
+            {
+              "type": "paragraph",
+              "text": "Puntuar ambos objetivos en el lado izquierdo o derecho es 1 punto extra. [cite: 221]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "title": "COMENTARIOS",
+      "page": 15,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Queremos sus comentarios, por favor escriba un mensaje si tiene pensamientos sobre la lista de vigilancia, escenarios, errores de mecanografía o cualquier cosa relacionada con Brawlmachine. [cite: 234]"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Correo electrónico: brawlmachinefeedback@gmail.com [cite: 235]",
+            "Discord: https://discord.gg/w8nZ8PSR [cite: 236]",
+            "Comentarios sobre la lista de vigilancia: https://forms.gle/Xo8n7chSMRHhrAWy9 [cite: 238]",
+            "Adiciones a la lista de vigilancia: https://forms.gle/mxMtR8thvUdpjd1C9 [cite: 238]",
+            "Comentarios sobre escenarios: https://forms.gle/eNnt1hdtBvtrxrq39 [cite: 238]"
+          ]
+        }
+      ]
+    }
+  ]
+}

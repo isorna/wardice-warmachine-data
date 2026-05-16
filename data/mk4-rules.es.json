@@ -1,0 +1,1848 @@
+{
+  "document_title": "LIBRO BÁSICO DE WARMACHINE",
+  "generated_for": "Alvaro Isorna Baez (alvaro.isorna@gmail.com)",
+  "version": "MK4 Abridged",
+  "contents_page": 5,
+  "sections": [
+    {
+      "id": "credits",
+      "title": "CRÉDITOS",
+      "page": 2,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "EQUIPO DE WARMACHINE: Mat Hart (Fundador y Director Creativo), Sherwin Matthews (Propietario Senior de Producto), Jamie Perkins, Steve Margetson (Propietario de Producto), Stuart Stockdale (Editor), Elliott Smith (Director de Arte), Mike Kay (Diseñador Gráfico), Carl Matthews (Gerente de Proyecto)."
+        },
+        {
+          "type": "paragraph",
+          "text": "PRIVATEER PRESS: Matt Wilson (Creador de WARMACHINE y Director Creativo), Erik Reiersen (Gerente de Desarrollo), Jason Soles (Desarrollador Principal), Loren Lower (Desarrollador), Matt Goetz (Asesor de Historia)."
+        },
+        {
+          "type": "paragraph",
+          "text": "STEAMFORGED GAMES LTD. Fundadores: Mat Hart (CCO), Rich Loxam (CEO)."
+        }
+      ]
+    },
+    {
+      "id": "foreword",
+      "title": "PRÓLOGO",
+      "page": 4,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Escribir una introducción para el reglamento de WARMACHINE se siente más que un poco surrealista. ¡Que alguien me pellizque! Hace unos quince años, Rich Loxam y yo nos conocimos mientras jugábamos WARMACHINE. Ahora, después de incontables batallas y años como fanáticos devotos, nos sentimos verdaderamente bendecidos de que se nos confíe ser los custodios de los Reinos de Hierro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es una gran responsabilidad. Afortunadamente, estamos entrando en un mundo meticulosamente elaborado por Privateer Press, por lo que realmente podemos pararnos sobre los hombros de gigantes. A Matt Wilson y su equipo: nuestro más sincero agradecimiento por construir los Reinos de Hierro y ayudarnos a desarrollar su futuro."
+        },
+        {
+          "type": "paragraph",
+          "text": "Desde el principio, nuestra estrella guía han sido los tres pilares de WARMACHINE: Juego Casual, Juego Emparejado y Hobby. Este juego siempre ha sido mucho más que ganar a toda costa. Se trata de comunidad y pertenencia; de tener una razón para ir a tu tienda de juegos local un miércoles por la noche, encontrando personas con ideas afines para tirar dados y pintar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Así que, los invito: ¡Jueguen con valentía, jueguen con audacia, jueguen bellamente y diviértanse mucho entre ustedes! Forjen sus propias historias en la mesa, cuéntennos sobre ellas en Discord y Facebook, y recuerden, el juego es infinitamente mejor cuando juegan con miniaturas pintadas."
+        },
+        {
+          "type": "paragraph",
+          "text": "- Mat Hart, Steamforged Games"
+        }
+      ]
+    },
+    {
+      "id": "chapter_1",
+      "title": "CAPÍTULO 1: CONCEPTOS BÁSICOS DE LAS REGLAS",
+      "page": 60,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ambientado en el mundo de fantasía impulsado por vapor de los Reinos de Hierro, WARMACHINE es un juego de miniaturas de mesa de 32 mm de ritmo rápido para que dos o más jugadores enfrenten sus fuerzas entre sí en batallas épicas de máquinas y bestias. Los jugadores coleccionan, ensamblan y pintan modelos fantásticamente detallados que representan a los diversos guerreros, criaturas y autómatas que componen sus ejércitos."
+        },
+        {
+          "type": "paragraph",
+          "text": "En WARMACHINE, los jugadores asumen el papel de soldados-hechiceros de élite conocidos como warcasters o chamanes de batalla conocidos como warlocks. Aunque los warcasters son formidables, su fuerza radica en su habilidad mágica para controlar warjacks: autómatas militares masivos. No menos poderosos son los warlocks, cuya fuerza radica en su sinergia parasitaria con salvajes warbeasts, criaturas monstruosas de carne, sangre y hueso."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un ejército de WARMACHINE se construye alrededor de un warcaster y su grupo de batalla de warjacks o un warlock y su grupo de batalla de warbeasts. Los escuadrones de soldados y equipos de apoyo pueden reforzar aún más la capacidad de combate de un grupo de batalla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Siempre que dos o más reglas especiales se activen al mismo tiempo, como 'ataque golpea' o 'fin de activación', el jugador activo elige el orden en el que se resuelven las reglas especiales en sus modelos y las resuelve, luego el jugador inactivo elige el orden en el que se resuelven las reglas especiales en sus modelos y las resuelve."
+        },
+        {
+          "type": "paragraph",
+          "text": "Algunos efectos hacen que ciertas condiciones de un ataque, como si golpeó o qué modelos deshabilitó o destruyó, cambien durante la resolución. Al resolver efectos activados, verifique nuevamente las condiciones de activación a medida que resuelve cada regla especial. Si una condición ya no se cumple, el efecto no se resuelve."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "summary_of_play",
+          "title": "RESUMEN DEL JUEGO",
+          "page": 61,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Antes de que comience una batalla, los jugadores acuerdan un nivel de encuentro, que determina el alcance del juego que se está jugando, y un escenario para el juego. Luego crean sus ejércitos basándose en esas pautas. A continuación, los jugadores determinan el orden de turno. Una vez establecido, el orden de turno no cambiará durante todo el juego."
+            },
+            {
+              "type": "paragraph",
+              "text": "Las batallas se llevan a cabo en una serie de rondas de juego. Durante una ronda de juego, cada jugador recibe un turno para comandar su ejército. Durante su turno, un jugador activa todos los modelos de su ejército en el orden que elija. Cuando se activa, un modelo puede moverse y luego realizar una de una variedad de acciones, como atacar o reparar un warjack."
+            }
+          ]
+        },
+        {
+          "id": "dice_and_rounding",
+          "title": "DADOS Y REDONDEO",
+          "page": 61,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "WARMACHINE utiliza dados de seis caras, abreviados 'd6', para determinar el éxito de los ataques y otras acciones. La mayoría de los eventos, como los ataques, requieren tirar dos dados (abreviado 2d6). Otros eventos suelen requerir tirar de uno a cuatro dados."
+            },
+            {
+              "type": "paragraph",
+              "text": "El término d3 es un atajo para 'tirar un d6, dividir por 2 y redondear hacia arriba'. (1-2=1, 3-4=2, 5-6=3)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Las tiradas de dados a menudo tienen modificadores, expresados como + o - alguna cantidad. Por ejemplo, '2d6+MAT' significa tirar dos dados y sumar la estadística MAT."
+            },
+            {
+              "type": "paragraph",
+              "text": "Para las medidas de distancia, utilice el resultado real después de dividir. Para todo lo demás, siempre redondee un resultado fraccionario al siguiente número entero más alto."
+            }
+          ]
+        },
+        {
+          "id": "additional_dice_and_boosting",
+          "title": "DADOS ADICIONALES Y TIRADAS POTENCIADAS",
+          "page": 61,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Dado Adicional",
+              "definition": "Un dado añadido al número de dados que un modelo tiraría normalmente. Por ejemplo, tirar 3d6 en lugar de 2d6. Una tirada de dados puede incluir múltiples dados adicionales siempre que cada uno provenga de una regla diferente."
+            },
+            {
+              "type": "definition",
+              "term": "Tirada Potenciada",
+              "definition": "Una tirada que gana un dado extra. Debes declarar la potenciación antes de tirar. Cada tirada de ataque o daño puede potenciarse solo una vez."
+            },
+            {
+              "type": "paragraph",
+              "text": "Potenciar una tirada es diferente de ganar dados adicionales. Una tirada puede ser tanto potenciada como ganar dados adicionales. Un modelo que recibe un dado adicional aún puede potenciar esa tirada."
+            }
+          ]
+        },
+        {
+          "id": "general_guidelines",
+          "title": "PAUTAS GENERALES",
+          "page": 62,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Para abreviar, 'modelo con la regla especial' a veces se reemplaza con el nombre de la regla (por ejemplo, 'un 'jack marshal')."
+            },
+            {
+              "type": "definition",
+              "term": "Modelos amigos",
+              "definition": "Todos los modelos que controlas."
+            },
+            {
+              "type": "definition",
+              "term": "Modelos enemigos",
+              "definition": "Modelos controlados por tu oponente."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cuando una regla hace referencia a 'tú' o 'tu', se refiere al jugador que controla actualmente el modelo. 'Este modelo' se refiere al modelo que lleva la regla."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cuando una regla hace referencia a 'Facción', se refiere a la Facción del modelo que lleva la regla. (por ejemplo, en un modelo Mercenario, 'warjack de Facción amiga' significa 'warjack Mercenario amigo')."
+            }
+          ]
+        },
+        {
+          "id": "rule_priority",
+          "title": "PRIORIDAD DE REGLAS",
+          "page": 62,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las reglas de los modelos individuales tienen prioridad sobre las reglas de este reglamento. A menos que se especifique lo contrario, múltiples instancias del mismo efecto (mismo nombre) no son acumulativas. Diferentes efectos son acumulativos incluso si aplican el mismo modificador."
+            },
+            {
+              "type": "paragraph",
+              "text": "Resolución de Conflictos: 1. Si una regla establece específicamente su interacción con otra, síguela. 2. Las reglas especiales que indican 'no puede' anulan las reglas que indican 'puede' o 'debe'."
+            }
+          ]
+        },
+        {
+          "id": "use_of_any_time_rules",
+          "title": "USO DE REGLAS ESPECIALES 'EN CUALQUIER MOMENTO'",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los hechizos, dotes y otras reglas especiales que indican que pueden usarse 'en cualquier momento durante la activación de este modelo' pueden usarse antes de moverse, después de moverse, antes de realizar un ataque o después de realizar un ataque, pero no mientras se mueve, ataca o resuelve otro efecto activado."
+            },
+            {
+              "type": "paragraph",
+              "text": "Un modelo no puede interrumpir el movimiento o un ataque para usar una de estas reglas especiales. Además, un modelo no puede usar una de estas reglas especiales después de correr."
+            }
+          ]
+        },
+        {
+          "id": "sportsmanship",
+          "title": "DEPORTIVIDAD Y COMPARTIR INFORMACIÓN",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Aunque WARMACHINE simula batallas violentas, debes esforzarte por ser un buen deportista. Representa siempre la información honestamente y comparte tus registros e información sin dudarlo."
+            }
+          ]
+        },
+        {
+          "id": "resolving_rules_issues",
+          "title": "RESOLUCIÓN DE PROBLEMAS DE REGLAS",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Intenta resolver los problemas rápidamente. Si los jugadores no pueden ponerse de acuerdo, consulta el reglamento brevemente. Si la disputa no se puede resolver rápidamente, tiren para una resolución: cada jugador tira un d6 y la persona con el resultado más alto decide el resultado. Vuelva a tirar en caso de empate."
+            }
+          ]
+        },
+        {
+          "id": "measuring_distances",
+          "title": "MEDICIÓN DE DISTANCIAS",
+          "page": 11,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un jugador puede medir cualquier distancia por cualquier motivo en cualquier momento."
+            },
+            {
+              "type": "definition",
+              "term": "Dentro de",
+              "definition": "Un modelo está dentro de una distancia dada cuando el borde más cercano de su base está dentro de esa distancia."
+            },
+            {
+              "type": "definition",
+              "term": "Completamente Dentro de",
+              "definition": "Un modelo está completamente dentro de una distancia dada cuando toda su base está dentro de esa distancia."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_2",
+      "title": "CAPÍTULO 2: MODELOS",
+      "page": 12,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Hay varios tipos básicos de modelos: warcasters, warjacks, warlocks, warbeasts, tropas, solos, estructuras y máquinas de guerra. Los modelos se consideran vivos a menos que se indique lo contrario."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "independent_models",
+          "title": "MODELOS INDEPENDIENTES",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los modelos independientes se activan individualmente. Estos incluyen warcasters, warjacks, warlocks, warbeasts, solos, estructuras y máquinas de guerra."
+            }
+          ]
+        },
+        {
+          "id": "warcasters",
+          "title": "WARCASTERS",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un warcaster es un hechicero poderoso que controla un grupo de warjacks telepáticamente (un grupo de batalla). Usan puntos de foco para mejorar las habilidades de combate y lanzar hechizos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Todos los warcasters son modelos Líder independientes y son personajes."
+            }
+          ]
+        },
+        {
+          "id": "warjacks",
+          "title": "WARJACKS",
+          "page": 12,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un warjack es un autómata impulsado por vapor con una corteza mágica, construido para la guerra. Requieren un warcaster para alcanzar su máximo potencial."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los warjacks se clasifican por tamaño de base: Ligero (40mm), Pesado (50mm), Superpesado (80mm), Colosal (120mm). Son modelos de Cohorte independientes, tienen la ventaja Constructo y no están vivos."
+            }
+          ]
+        },
+        {
+          "id": "warlocks",
+          "title": "WARLOCKS",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un warlock es un hechicero o chamán poderoso que controla warbeasts telepáticamente. Usan puntos de furia extraídos de sus warbeasts."
+            },
+            {
+              "type": "paragraph",
+              "text": "Todos los warlocks son modelos Líder independientes y son personajes."
+            }
+          ]
+        },
+        {
+          "id": "warbeasts",
+          "title": "WARBEASTS",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las warbeasts son criaturas poderosas capaces de ser controladas por warlocks. Generan furia que fortalece a su warlock."
+            },
+            {
+              "type": "paragraph",
+              "text": "Las warbeasts se clasifican por tamaño de base: Menor (30mm), Ligera (40mm), Pesada (50mm), Superpesada (80mm), Gargantuesca (120mm). Son modelos de Cohorte independientes."
+            }
+          ]
+        },
+        {
+          "id": "units",
+          "title": "UNIDADES",
+          "page": 13,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Una unidad es un grupo de modelos guerreros (tropas) que operan como una sola fuerza. Todos los miembros se activan al mismo tiempo."
+            },
+            {
+              "type": "definition",
+              "term": "Grunts",
+              "definition": "Tropas básicas en una unidad."
+            },
+            {
+              "type": "definition",
+              "term": "Adjuntos",
+              "definition": "Tropas especializadas añadidas a una unidad (Adjuntos de Mando o de Arma)."
+            }
+          ]
+        },
+        {
+          "id": "model_statistics",
+          "title": "ESTADÍSTICAS DEL MODELO",
+          "page": 14,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "SPD (Velocidad): Tasa de movimiento.",
+                "AAT (Ataque Arcano): Potencia en combate al lanzar hechizos ofensivos.",
+                "MAT (Ataque Cuerpo a Cuerpo): Habilidad con armas cuerpo a cuerpo.",
+                "RAT (Ataque a Distancia): Precisión con armas a distancia.",
+                "DEF (Defensa): Capacidad para evitar ser golpeado.",
+                "ARM (Armadura): Capacidad para resistir daño.",
+                "ARC (Arcana): Poder arcano (Warcasters/Warlocks) o Esencia (Infernales).",
+                "FURY: Capacidad para ser forzado (Warbeasts).",
+                "CTRL (Rango de Control): Radio de control para Warcasters/Warlocks.",
+                "THR (Umbral): Resistencia al frenesí (Warbeasts)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Estadísticas Actuales y Modificadores: Aplique los modificadores en orden: 1. Duplicar, 2. Dividir a la mitad, 3. Sumar, 4. Restar."
+            }
+          ]
+        },
+        {
+          "id": "advantages",
+          "title": "VENTAJAS",
+          "page": 16,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las ventajas son reglas especiales comunes marcadas como iconos en la barra de estadísticas de un modelo. Los ejemplos incluyen:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Jack Marshal: Puede comandar warjacks.",
+                "Despliegue Avanzado: Desplegar hasta 3\" más allá de la zona de despliegue.",
+                "Emboscada: Se puede colocar en el borde de la mesa después de la primera ronda.",
+                "Anfibio: Trata el agua poco profunda como terreno abierto.",
+                "Nodo de Arco: Puede canalizar hechizos.",
+                "Asalto: Puede hacer un ataque a distancia como parte de una carga.",
+                "Constructo: No es un modelo vivo.",
+                "Visión sin Ojos: Ignora efectos de nube y ocultamiento.",
+                "Vuelo: Puede volar.",
+                "Explorador: Trata el terreno difícil como terreno abierto.",
+                "Sigilo: Los ataques desde >5\" de distancia fallan automáticamente.",
+                "Duro: Con 5 o 6, el modelo deshabilitado cura 1 PV y es derribado."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "resistances",
+          "title": "RESISTENCIAS",
+          "page": 17,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los modelos con resistencia a un tipo de daño (Explosión, Frío, Corrosión, Electricidad, Fuego) eliminan un dado de las tiradas de daño de ese tipo. A menudo también son inmunes a los efectos continuos asociados."
+            }
+          ]
+        },
+        {
+          "id": "weapon_statistics",
+          "title": "ESTADÍSTICAS DE ARMA",
+          "page": 17,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "RNG (Rango): Distancia máxima para el ataque.",
+                "ROF (Cadencia de Fuego): Número de ataques a distancia iniciales.",
+                "AOE (Área de Efecto): Diámetro del área de explosión.",
+                "POW (Poder): Valor para las tiradas de daño."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weapon_qualities",
+          "title": "CUALIDADES DEL ARMA",
+          "page": 18,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Bendita: Ignora las bonificaciones de hechizos a ARM/DEF.",
+                "Efecto Continuo: Fuego/Corrosión: Inflige efecto continuo al golpear.",
+                "Disrupción Crítica: El golpe crítico disrumpe al warjack (elimina el foco).",
+                "Tipo de Daño: Mágico: Causa daño mágico.",
+                "Escudo/Rodela: Otorga bonificación de ARM.",
+                "Maestro de Armas: Añade un dado adicional a las tiradas de daño."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "damage_capacity",
+          "title": "CAPACIDAD DE DAÑO, REJILLAS Y ESPIRALES DE VIDA",
+          "page": 19,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los warjacks tienen rejillas de daño con cajas de sistema (Corteza, Movimiento, Armas). Las warbeasts tienen espirales de vida con aspectos (Mente, Cuerpo, Espíritu). Marque los puntos de daño en estas rejillas/espirales."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_3",
+      "title": "CAPÍTULO 3: JUGABILIDAD",
+      "page": 20,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Las batallas se luchan en rondas de juego. Cada jugador toma un turno."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Fase de Activación es la parte principal del turno de un jugador. Todos los modelos que controlas deben activarse una vez por turno."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "the_player_turn",
+          "title": "EL TURNO DEL JUGADOR",
+          "page": 20,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Fase de Mantenimiento: Eliminar foco/furia, resolver efectos continuos.",
+                "Fase de Control: Reponer foco/absorber furia, los warjacks se encienden, resolver comprobaciones de umbral.",
+                "Fase de Activación: Activar modelos/unidades."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "activation_phase",
+          "title": "FASE DE ACTIVACIÓN",
+          "page": 21,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las unidades y los modelos independientes se activan uno a la vez en el orden que elija. Un modelo no puede renunciar a su activación a menos que lo permita una regla especial. Un modelo debe estar en la mesa para activarse."
+            }
+          ]
+        },
+        {
+          "id": "activating_models_and_units",
+          "title": "ACTIVANDO MODELOS Y UNIDADES",
+          "page": 21,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cuando un modelo o unidad se activa, la activación se divide en su Movimiento Normal y su Acción de Combate. El Movimiento Normal debe resolverse antes de pasar a la Acción de Combate."
+            },
+            {
+              "type": "definition",
+              "term": "Activando Modelos Independientes",
+              "definition": "Solo un modelo independiente puede activarse a la vez. Realiza su Movimiento Normal (si no se renuncia), luego resuelve su Acción de Combate (si no se renuncia), luego termina su activación."
+            },
+            {
+              "type": "definition",
+              "term": "Activando Unidades",
+              "definition": "Toda la unidad se activa a la vez. Después de resolver el Movimiento Normal de la unidad, cada tropa realiza su Acción de Combate. La unidad debe terminar su activación antes de que otro modelo/unidad se active."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los modelos pueden renunciar voluntariamente al Movimiento Normal o a la Acción de Combate por beneficios (como Apuntar) pero no pueden renunciar si ya están obligados a renunciar."
+            }
+          ]
+        },
+        {
+          "id": "movement",
+          "title": "MOVIMIENTO",
+          "page": 21,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Avanzar se refiere al movimiento intencional. Mida desde el frente de la base. La base de un modelo no puede pasar sobre la base de otro modelo mientras avanza."
+            },
+            {
+              "type": "definition",
+              "term": "Movimiento de Unidad",
+              "definition": "Elija una tropa para moverse. Coloque las tropas restantes dentro de 2\" de ese modelo y dentro de la línea de visión. Los modelos que no se pueden colocar se destruyen."
+            }
+          ]
+        },
+        {
+          "id": "normal_movement",
+          "title": "MOVIMIENTO NORMAL",
+          "page": 22,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Al resolver el Movimiento Normal, elija uno:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Renunciar al Movimiento Normal",
+                "Apuntar: El Movimiento Normal termina. Gana un bono de +2 a las tiradas de ataque a distancia (a menos que esté trabado).",
+                "Avance Completo: Avanza hasta la SPD actual en pulgadas.",
+                "Correr: Avanza hasta SPD + 5\". Debe renunciar a la Acción de Combate. La activación termina inmediatamente después de moverse.",
+                "Cargar: Precipitarse al rango cuerpo a cuerpo para un golpe poderoso."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "charge",
+          "title": "CARGAR",
+          "page": 22,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Requiere un arma cuerpo a cuerpo. No se puede cargar a un modelo amigo o mientras se está trabado."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Declarar objetivo (requiere LOS).",
+                "Avanzar hasta SPD + 3\" en línea recta.",
+                "Debe terminar con el objetivo en rango cuerpo a cuerpo (Carga Exitosa).",
+                "El primer ataque cuerpo a cuerpo contra el objetivo es un Ataque de Carga (la tirada de daño se potencia automáticamente).",
+                "Si no se alcanza el objetivo, es una Carga Fallida (la activación termina)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "movement_restrictions",
+          "title": "RESTRICCIONES DE MOVIMIENTO",
+          "page": 25,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Mover Hacia",
+              "definition": "La distancia al objetivo debe disminuir o permanecer igual."
+            },
+            {
+              "type": "definition",
+              "term": "Mover Directamente Hacia",
+              "definition": "Moverse a lo largo de la línea recta que conecta los puntos centrales."
+            },
+            {
+              "type": "definition",
+              "term": "Entrar",
+              "definition": "Un modelo entra en un área cuando se mueve/se coloca desde afuera hacia adentro."
+            }
+          ]
+        },
+        {
+          "id": "unintentional_movement",
+          "title": "MOVIMIENTO NO INTENCIONAL",
+          "page": 26,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "El movimiento no intencional (empujones, embestidas) no es avanzar."
+            },
+            {
+              "type": "definition",
+              "term": "Empujado",
+              "definition": "Se mueve una distancia específica. Se detiene si entra en contacto con un obstáculo, obstrucción o modelo."
+            },
+            {
+              "type": "definition",
+              "term": "Embestido",
+              "definition": "Movido directamente lejos de la fuente. Es derribado. Sufre daño. Si golpea una base igual/más grande o terreno, sufre un dado adicional de daño. Los modelos más pequeños contactados son derribados y sufren daño colateral."
+            },
+            {
+              "type": "definition",
+              "term": "Lanzado",
+              "definition": "Movido directamente lejos. Se mueve a través de bases más pequeñas. Es derribado. Reglas de daño similares a Embestida."
+            },
+            {
+              "type": "definition",
+              "term": "Caída",
+              "definition": "Un modelo que se mueve fuera de una superficie elevada (>1\") cae. Es derribado y sufre daño (POW 12 + d6 por cada 2\" caídos)."
+            },
+            {
+              "type": "definition",
+              "term": "Regla de Menor Perturbación",
+              "definition": "Si las bases se superponen después de un movimiento no intencional, mueva el modelo que no se estaba moviendo la menor distancia para aclarar las posiciones."
+            },
+            {
+              "type": "definition",
+              "term": "Colocado",
+              "definition": "Efecto similar a la teletransportación. Debe colocarse en una ubicación válida (no puede superponerse a bases o terreno impasable)."
+            }
+          ]
+        },
+        {
+          "id": "combat_actions",
+          "title": "ACCIONES DE COMBATE",
+          "page": 28,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Después del Movimiento Normal, elija uno:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Renunciar a la Acción de Combate.",
+                "Hacer un ataque inicial con cada arma cuerpo a cuerpo.",
+                "Hacer ataques iniciales con cada arma a distancia igual a ROF.",
+                "Hacer una acción especial (*Acción).",
+                "Hacer un ataque especial (*Ataque).",
+                "Hacer un ataque de poder."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A menos que se indique, no se pueden hacer ataques cuerpo a cuerpo y a distancia en la misma acción."
+            }
+          ]
+        },
+        {
+          "id": "line_of_sight",
+          "title": "LÍNEA DE VISIÓN (LOS)",
+          "page": 28,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un modelo debe tener LOS para apuntar a otro modelo. Dibuja una línea recta desde el volumen del atacante hasta el volumen del objetivo."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "La línea no debe pasar a través de terreno bloqueante.",
+                "La línea no debe pasar sobre modelos intervinientes con bases iguales/más grandes.",
+                "La línea no debe pasar sobre efectos bloqueantes (nubes)."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Las tropas en la misma unidad no bloquean la LOS entre sí."
+            },
+            {
+              "type": "definition",
+              "term": "Volumen del Modelo",
+              "definition": "Cilindros estándar definidos por el tamaño de la base. Pequeño (1.75\" alto), Mediano (2.25\"), Grande (2.75\"), Enorme (5\")."
+            }
+          ]
+        },
+        {
+          "id": "point_of_origin",
+          "title": "PUNTO DE ORIGEN",
+          "page": 83,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "El punto de origen de un efecto o ataque es la ubicación o modelo desde el cual se origina el ataque o efecto. Típicamente, este es el modelo que causa el efecto o realiza el ataque, pero no siempre (por ejemplo, nodos de arco)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Tanto la línea de visión como cualquier modificador de tirada de ataque que dependa de la línea de visión (como el ocultamiento) se verifican desde el punto de origen del ataque. El rango también se verifica desde el punto de origen."
+            }
+          ]
+        },
+        {
+          "id": "measuring_range",
+          "title": "MEDICIÓN DE RANGO",
+          "page": 83,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Al medir el rango, mida desde el borde de la base del punto de origen más cercano al objetivo hasta el rango máximo del ataque o regla especial. Si el borde más cercano de la base del modelo objetivo está dentro del rango máximo, el objetivo está en rango."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_4",
+      "title": "CAPÍTULO 4: COMBATE",
+      "page": 84,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Acción de Combate de un modelo es la parte de su activación dedicada a realizar ataques. Una tirada de ataque determina si un ataque golpea, y una tirada de daño determina el daño infligido."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay tres tipos principales de ataques: ataques cuerpo a cuerpo, ataques a distancia y ataques arcanos."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "making_attacks",
+          "title": "REALIZANDO ATAQUES",
+          "page": 84,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Declare el objetivo. Verifique el rango (si está más allá del rango, el ataque falla automáticamente). Haga una tirada de ataque."
+            },
+            {
+              "type": "definition",
+              "term": "Tirada de Ataque",
+              "definition": "Tire 2d6 y sume la estadística apropiada (MAT, RAT o AAT). Si el total es igual o superior a la DEF del objetivo, es un golpe."
+            },
+            {
+              "type": "definition",
+              "term": "Golpe Crítico",
+              "definition": "Un golpe donde dos dados cualesquiera muestran el mismo número."
+            },
+            {
+              "type": "paragraph",
+              "text": "Una tirada de todos 1 es un fallo. Una tirada de todos 6 es un golpe directo (a menos que se tire un solo dado)."
+            }
+          ]
+        },
+        {
+          "id": "rerolls_and_triggers",
+          "title": "RETIRADAS Y EFECTOS ACTIVADOS",
+          "page": 85,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las retiradas ocurren antes de aplicar los efectos activados por golpear/fallar. Los resultados de las retiradas reemplazan los resultados originales."
+            },
+            {
+              "type": "paragraph",
+              "text": "Resuelva los efectos que se activan al golpear antes de hacer una tirada de daño."
+            },
+            {
+              "type": "paragraph",
+              "text": "Efectos Simultáneos: Resuelva todas las tiradas de ataque y daño antes de aplicar las reglas especiales del objetivo activadas por daño/destrucción."
+            }
+          ]
+        },
+        {
+          "id": "melee_attacks",
+          "title": "ATAQUES CUERPO A CUERPO",
+          "page": 85,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un modelo puede realizar un ataque cuerpo a cuerpo contra cualquier objetivo en su línea de visión. Tirada de Ataque Cuerpo a Cuerpo = 2d6 + MAT."
+            },
+            {
+              "type": "definition",
+              "term": "Rango Cuerpo a Cuerpo",
+              "definition": "El rango cuerpo a cuerpo más largo de las armas de un modelo. Las armas individuales solo pueden atacar objetivos dentro de su propio rango."
+            }
+          ]
+        },
+        {
+          "id": "engaged_and_engaging",
+          "title": "TRABADO Y TRABANDO",
+          "page": 86,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un modelo está trabado si está dentro del rango cuerpo a cuerpo de un enemigo y LOS. Está trabando si un enemigo está en su rango cuerpo a cuerpo y LOS."
+            },
+            {
+              "type": "paragraph",
+              "text": "Destrabarse: Un modelo que avanza fuera del rango cuerpo a cuerpo de un enemigo debe renunciar a su Acción de Combate."
+            }
+          ]
+        },
+        {
+          "id": "power_attacks",
+          "title": "ATAQUES DE PODER",
+          "page": 86,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Ataques especiales para Warjacks (gastar 1 foco) y Warbeasts (forzado). No se pueden realizar si el modelo carga (excepto casos específicos) o como ataques adicionales."
+            },
+            {
+              "type": "paragraph",
+              "text": "Daño de Ataque de Poder: Basado en la comparación del tamaño de la base. Igual/Más Pequeño = POW 12. Más Grande = POW 14. El daño colateral se calcula de manera similar."
+            }
+          ],
+          "sub_sections": [
+            {
+              "id": "headbutt",
+              "title": "CABEZAZO",
+              "page": 87,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Ataque cuerpo a cuerpo. Si golpea, el objetivo es derribado y sufre daño de ataque de poder."
+                }
+              ]
+            },
+            {
+              "id": "slam",
+              "title": "EMBESTIDA",
+              "page": 87,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Avance completo + 3\" directamente hacia el objetivo. Si se alcanza el objetivo, haga un ataque cuerpo a cuerpo. Si golpea, el objetivo es embestido d6\" directamente lejos, derribado y sufre daño. El daño colateral se aplica a los modelos atravesados."
+                }
+              ]
+            },
+            {
+              "id": "throw",
+              "title": "LANZAMIENTO",
+              "page": 88,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Ataque cuerpo a cuerpo. Si golpea, el objetivo es lanzado d6\" directamente lejos, derribado y sufre daño. Los modelos lanzados se mueven a través de bases más pequeñas."
+                }
+              ]
+            },
+            {
+              "id": "trample",
+              "title": "PISOTEO",
+              "page": 89,
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Avanza hasta SPD + 3\" en línea recta a través de modelos de base pequeña. Haga tiradas de ataque cuerpo a cuerpo contra los modelos de base pequeña contactados."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ranged_attacks",
+          "title": "ATAQUES A DISTANCIA",
+          "page": 89,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Ataques con armas a distancia. Se requiere verificación de rango. Tirada de Ataque a Distancia = 2d6 + RAT."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Atacante Trabado: Solo puede apuntar a enemigos que lo traban. Sin bono de apuntar.",
+                "Objetivo en Cuerpo a Cuerpo: +4 DEF contra ataques a distancia si el objetivo está en cuerpo a cuerpo.",
+                "Ocultamiento: +2 DEF (dentro de 1\" de terreno interviniente).",
+                "Cobertura: +4 DEF (dentro de 1\" de terreno interviniente)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "special_ranged_attacks",
+          "title": "REGLAS ESPECIALES A DISTANCIA",
+          "page": 91,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Asalto",
+              "definition": "Hacer un ataque a distancia como parte de una carga antes de la Acción de Combate."
+            },
+            {
+              "type": "definition",
+              "term": "Ataque Combinado Cuerpo a Cuerpo/A Distancia",
+              "definition": "Los modelos en una unidad combinan ataques. El atacante principal tira con +1 golpe/daño por cada participante."
+            }
+          ]
+        },
+        {
+          "id": "aoe_attacks",
+          "title": "ATAQUES DE ÁREA DE EFECTO (AOE)",
+          "page": 92,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Potencial para golpear otros modelos. El golpe directo daña al objetivo. El daño de explosión afecta a los modelos dentro de las pulgadas AOE del objetivo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Estadísticas AOE: POW/POW de Explosión (por ejemplo, 14/8). El daño de explosión suele ser menor."
+            }
+          ]
+        },
+        {
+          "id": "spray_attacks",
+          "title": "ATAQUES DE SPRAY",
+          "page": 93,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un ataque de spray es un ataque a distancia usando una plantilla de spray (SP 6, SP 8 o SP 10). La plantilla se coloca con el extremo estrecho tocando el borde de la base del punto de origen."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cada modelo con cualquier parte de su base cubierta por la plantilla es un objetivo potencial. Haga una tirada de ataque separada contra cada modelo bajo la plantilla. Los ataques de spray ignoran el ocultamiento, la cobertura, el sigilo y la bonificación de DEF por objetivo en cuerpo a cuerpo. No sufren la penalización por disparar al cuerpo a cuerpo."
+            }
+          ]
+        },
+        {
+          "id": "damage",
+          "title": "DAÑO",
+          "page": 94,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Tirada de Daño",
+              "definition": "Determina cuánto daño sufre un objetivo. Tire 2d6 + POW del arma. Reste la ARM del objetivo. El resultado son los puntos de daño recibidos."
+            },
+            {
+              "type": "definition",
+              "term": "Daño Potenciado",
+              "definition": "Una tirada de daño se puede potenciar (añadir un dado) gastando foco, forzando o reglas especiales. Los ataques de carga potencian automáticamente la primera tirada de daño."
+            },
+            {
+              "type": "definition",
+              "term": "Dados Adicionales",
+              "definition": "Los Maestros de Armas y otros efectos pueden añadir dados adicionales a las tiradas de daño. Esto es acumulativo con la potenciación."
+            }
+          ]
+        },
+        {
+          "id": "damage_types",
+          "title": "TIPOS DE DAÑO",
+          "page": 95,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Algunas armas infligen tipos de daño específicos (Mágico, Fuego, Corrosión, Frío, Electricidad). Pueden aplicarse inmunidades o resistencias."
+            },
+            {
+              "type": "definition",
+              "term": "Daño Mágico",
+              "definition": "Daño de hechizos o armas con la cualidad Mágica. Necesario para dañar modelos Incorpóreos."
+            }
+          ]
+        },
+        {
+          "id": "recording_damage",
+          "title": "REGISTRANDO DAÑO",
+          "page": 96,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Marque el daño en la rejilla de daño del modelo (Warjacks) o en la espiral de vida (Warbeasts). Los modelos de una sola herida se destruyen al recibir 1 daño."
+            },
+            {
+              "type": "definition",
+              "term": "Rejillas de Daño de Warjack",
+              "definition": "Columnas 1-6. Tire un d6 para determinar qué columna recibe el primer punto de daño, luego llene las cajas hacia abajo. Si una columna está llena, pase a la siguiente."
+            },
+            {
+              "type": "definition",
+              "term": "Fallo del Sistema",
+              "definition": "Cuando todas las cajas para un sistema específico (por ejemplo, Corteza, Movimiento, Brazo D) están marcadas, el sistema está lisiado. Corteza lisiada: pierde puntos de foco, no puede ganar foco. Movimiento lisiado: La DEF base se convierte en 5, no puede correr/cargar. Arma lisiada: -4 a las tiradas de ataque/daño con esa arma."
+            }
+          ]
+        },
+        {
+          "id": "life_spirals",
+          "title": "ESPIRALES DE VIDA DE WARBEAST",
+          "page": 97,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las warbeasts tienen aspectos (Cuerpo, Mente, Espíritu). Tire d6 para determinar la rama (1-2 Cuerpo, 3-4 Mente, 5-6 Espíritu). Marque hacia adentro."
+            },
+            {
+              "type": "definition",
+              "term": "Aspectos Lisiados",
+              "definition": "El Aspecto Perdido activa penalizaciones. Cuerpo: -2 tiradas de daño. Mente: -2 tiradas de ataque. Espíritu: No puede ser forzado."
+            }
+          ]
+        },
+        {
+          "id": "damage_states",
+          "title": "DESHABILITADO, ENCAJONADO Y DESTRUIDO",
+          "page": 98,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cuando un modelo pierde su última caja de salud, pasa por tres estados en orden:"
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Deshabilitado: El modelo está deshabilitado. Los efectos que se activan en 'deshabilitado' se resuelven ahora (por ejemplo, Duro). Si se cura, ya no está deshabilitado.",
+                "Encajonado: Si todavía está deshabilitado, se encajona. Los efectos que se activan en 'encajonado' se resuelven ahora.",
+                "Destruido: Si todavía está encajonado, se destruye. Retire el modelo de la mesa."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "removing_models",
+          "title": "ELIMINANDO MODELOS",
+          "page": 99,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cuando un modelo es destruido o eliminado del juego (RFP), retírelo de la mesa. 'Eliminado del juego' previene los efectos que se activan en 'destruido'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_5",
+      "title": "CAPÍTULO 5: WARCASTERS Y FOCO",
+      "page": 100,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los warcasters son los comandantes de los Reinos de Hierro. Su mayor activo es su capacidad para manipular el Foco."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "focus_manipulation",
+          "title": "MANIPULACIÓN DE FOCO",
+          "page": 100,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Durante la Fase de Control, un warcaster repone sus puntos de foco a su estadística actual de FOCUS. El foco permanece hasta que se gasta o la siguiente Fase de Mantenimiento."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Reponer Foco: Volver a la estadística completa de FOCUS.",
+                "Asignar Foco: Dar foco a los warjacks en el grupo de batalla (debe estar en Rango de Control).",
+                "Ganar Foco: Algunas reglas especiales permiten ganar foco más allá del límite."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "using_focus",
+          "title": "USANDO FOCO",
+          "page": 101,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un warcaster puede gastar foco para:"
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Potenciar Tirada de Ataque (1 foco)",
+                "Potenciar Tirada de Daño (1 foco)",
+                "Comprar Ataque Cuerpo a Cuerpo Adicional (1 foco)",
+                "Sacudir Efectos: Gastar 1 foco durante la Fase de Control para eliminar Derribo, Estacionario o Ceguera.",
+                "Lanzar Hechizos: Gastar foco igual al COSTO."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Curar: Gastar 1 foco para curar d3 puntos de daño (solo Warcaster)."
+            }
+          ]
+        },
+        {
+          "id": "spellcasting",
+          "title": "LANZAMIENTO DE HECHIZOS",
+          "page": 102,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los warcasters pueden lanzar hechizos en cualquier momento durante su activación. Gastan foco igual al COSTO del hechizo."
+            },
+            {
+              "type": "definition",
+              "term": "Estadísticas del Hechizo",
+              "definition": "COSTO (Foco necesario), RNG (Rango), AOE (Área de Efecto), POW (Poder), UP (Mantenimiento), OFF (Ofensivo)."
+            },
+            {
+              "type": "definition",
+              "term": "Canalización",
+              "definition": "Un warcaster puede canalizar hechizos a través de un warjack con la ventaja Nodo de Arco en su grupo de batalla. El warjack se convierte en el punto de origen. El warjack debe estar en Rango de Control y no trabado."
+            }
+          ]
+        },
+        {
+          "id": "upkeep_spells",
+          "title": "HECHIZOS DE MANTENIMIENTO",
+          "page": 103,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los hechizos de mantenimiento pueden permanecer en juego durante múltiples rondas. Un modelo/unidad solo puede tener un hechizo de mantenimiento amigo sobre él a la vez. Si se lanza uno nuevo, el anterior expira."
+            },
+            {
+              "type": "paragraph",
+              "text": "Para mantener el hechizo en juego, el warcaster debe gastar 1 punto de foco durante la Fase de Control. Si no se gasta, el hechizo expira."
+            }
+          ]
+        },
+        {
+          "id": "offensive_spells",
+          "title": "HECHIZOS OFENSIVOS",
+          "page": 103,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Hechizos lanzados como ataques. Requieren un objetivo y una tirada de ataque (2d6 + AAT). Pueden ser potenciados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_7",
+      "title": "CAPÍTULO 7: WARLOCKS Y FURIA",
+      "page": 104,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los warlocks son combatientes poderosos que extraen magia de la energía cruda de sus warbeasts, conocida como furia. A diferencia de los warcasters que dependen de una fuente de energía regenerativa (foco), los warlocks deben gestionar la furia volátil generada por sus bestias."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "fury_manipulation",
+          "title": "MANIPULACIÓN DE FURIA",
+          "page": 104,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Durante la Fase de Control, un warlock puede absorber puntos de furia de las warbeasts en su grupo de batalla que estén dentro de su Rango de Control. La absorción elimina la furia de la warbeast y la agrega al warlock, hasta su estadística actual de FURY."
+            },
+            {
+              "type": "definition",
+              "term": "Vínculo Espiritual",
+              "definition": "Si un warlock tiene menos puntos de furia que su estadística FURY después de absorber, puede ganar hasta 1 punto de furia por cada warbeast de base mediana o más grande en su grupo de batalla que haya sido destruida o eliminada del juego."
+            }
+          ]
+        },
+        {
+          "id": "forcing_warbeasts",
+          "title": "FORZANDO WARBEASTS",
+          "page": 106,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las warbeasts generan furia al ser forzadas. Una warbeast solo puede ser forzada mientras esté en el Rango de Control de su controlador. Cada vez que es forzada, gana 1 punto de furia."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Forzar para Potenciar Ataque: Gana 1 furia.",
+                "Forzar para Potenciar Daño: Gana 1 furia.",
+                "Forzar para Comprar Ataque: Gana 1 furia.",
+                "Forzar para Sacudir Efectos: Gana 1 furia (Fase de Control).",
+                "Forzar para Correr/Cargar: Gana 1 furia."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "frenzy",
+          "title": "FRENESÍ",
+          "page": 107,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Si a una warbeast le quedan puntos de furia durante la Fase de Control (después de absorber), puede entrar en frenesí. Realice una Comprobación de Umbral: Tire 2d6 y sume los puntos de furia en la warbeast. Si el total excede la estadística THR de la warbeast, entra en frenesí."
+            },
+            {
+              "type": "paragraph",
+              "text": "Efectos de Frenesí: La warbeast se activa inmediatamente (incluso si no es la fase de activación). Carga al modelo más cercano (amigo o enemigo) sin gastar foco/furia. Realiza un ataque cuerpo a cuerpo potenciado con su arma más poderosa. Después del ataque, su activación termina y se eliminan todos los puntos de furia."
+            }
+          ]
+        },
+        {
+          "id": "warlock_spellcasting",
+          "title": "LANZAMIENTO DE HECHIZOS Y ANIMI",
+          "page": 109,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los warlocks lanzan hechizos gastando puntos de furia (Costo = Furia gastada). También pueden lanzar el Animus de cualquier warbeast en su grupo de batalla que esté dentro de su Rango de Control."
+            },
+            {
+              "type": "definition",
+              "term": "Animus",
+              "definition": "Un hechizo especial que poseen las warbeasts. La warbeast puede ser forzada a lanzar su propio animus (ganando furia igual al Costo). El warlock puede lanzarlo como un hechizo."
+            }
+          ]
+        },
+        {
+          "id": "damage_transfer",
+          "title": "TRANSFIRIENDO DAÑO",
+          "page": 111,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Cuando un warlock sufre daño, puede gastar 1 punto de furia para transferir ese daño a una warbeast en su grupo de batalla y Rango de Control. La warbeast sufre el daño en su lugar. El daño que excede la salud restante de la warbeast lo sufre el warlock. Un warlock no puede transferir daño si la warbeast está llena de furia."
+            }
+          ]
+        },
+        {
+          "id": "warlock_healing",
+          "title": "CURACIÓN",
+          "page": 112,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Un warlock puede gastar furia para curarse a sí mismo o a sus warbeasts. Gasta 1 furia para curar d3 puntos de daño. Un warlock también puede curar a una warbeast dentro del Rango de Control."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_10",
+      "title": "CAPÍTULO 10: REGLAS ADICIONALES",
+      "page": 113,
+      "content": [],
+      "sub_sections": [
+        {
+          "id": "flight",
+          "title": "VUELO",
+          "page": 113,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los modelos con la ventaja Vuelo pueden elevarse por encima del campo de batalla, aumentando su maniobrabilidad. Tratan todo el terreno no impasable como terreno abierto mientras avanzan y pueden moverse a través de obstrucciones y otros modelos si pueden moverse completamente más allá de ellos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Mientras carga, realiza un ataque de poder de embestida o un ataque de poder de pisoteo, un modelo con Vuelo no se detiene cuando entra en contacto con un obstáculo, obstrucción u otro modelo. Ignora los modelos intervinientes al declarar un objetivo de carga."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los modelos pierden Vuelo mientras están derribados o estacionarios."
+            }
+          ]
+        },
+        {
+          "id": "incorporeal",
+          "title": "INCORPÓREO",
+          "page": 113,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los modelos incorpóreos (espíritus, espectros, sombras) vagan en forma espectral. No cuentan como modelos intervinientes y son inmunes a efectos continuos y daño no mágico. No pueden ser movidos por un empujón, embestida o lanzamiento."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los modelos incorpóreos tratan el terreno no impasable como terreno abierto y pueden moverse a través de obstrucciones y otros modelos. No se detienen cuando entran en contacto con obstáculos/obstrucciones durante cargas o ataques de poder."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los modelos incorpóreos pierden la ventaja Incorpóreo durante una ronda si realizan un ataque cuerpo a cuerpo o a distancia."
+            }
+          ]
+        },
+        {
+          "id": "monstrosities",
+          "title": "MONSTRUOSIDADES",
+          "page": 114,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las monstruosidades son modelos de Cohorte independientes de base grande (50mm), vinculados telepáticamente a un controlador. No son warjacks y carecen de corteza."
+            },
+            {
+              "type": "paragraph",
+              "text": "Alimentado por la Ira: Las monstruosidades no se Encienden. En cambio, ganan 1 punto de foco cada vez que sufren daño de un ataque o efecto continuo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Manipulación de Foco: Se les puede asignar foco (máx 3). Pueden gastar foco para realizar ataques adicionales, potenciar tiradas, correr, cargar o sacudir efectos. Pueden realizar ataques de poder (Cabezazo, Embestida, etc.)."
+            },
+            {
+              "type": "definition",
+              "term": "Cerebro Lisiado",
+              "definition": "Una monstruosidad con un sistema Cerebral lisiado pierde foco y no puede ganar/gastar foco."
+            }
+          ]
+        },
+        {
+          "id": "structures",
+          "title": "ESTRUCTURAS",
+          "page": 115,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las estructuras son modelos independientes de base enorme (120mm) que representan fortificaciones. No son modelos guerreros y generalmente tienen la ventaja Constructo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Posición Fija: Las estructuras no pueden moverse, colocarse, apuntar, trabar, ser trabadas, ser derribadas o quedar estacionarias. Son golpeadas automáticamente por ataques cuerpo a cuerpo y no pueden ganar ocultamiento, cobertura, Sigilo o Incorpóreo."
+            },
+            {
+              "type": "paragraph",
+              "text": "Cuando un ataque AOE golpea una estructura, no inflige daño de explosión en otros modelos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_11",
+      "title": "CAPÍTULO 11: PREPARÁNDOSE PARA LA GUERRA",
+      "page": 116,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los juegos se juegan típicamente en un campo de batalla de 4' x 4'. Para comenzar un juego, los jugadores siguen una secuencia específica que incluye seleccionar un escenario y desplegar fuerzas."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "deployment_rules",
+          "title": "REGLAS DE DESPLIEGUE",
+          "page": 117,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Despliegue Avanzado",
+              "definition": "Los modelos pueden desplegarse hasta 3\" más allá de la zona de despliegue establecida."
+            },
+            {
+              "type": "definition",
+              "term": "Emboscada",
+              "definition": "Los modelos no se despliegan al principio. En cambio, se pueden colocar al final de cualquier Fase de Control después de la primera ronda, completamente dentro de 3\" de un borde de mesa elegido (excluyendo el borde trasero del oponente). Deben renunciar al Movimiento Normal o Acción de Combate en el turno en que entran."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los adjuntos unidos a unidades con Despliegue Avanzado o Emboscada ganan esas ventajas."
+            },
+            {
+              "type": "paragraph",
+              "text": "Foco/Furia Inicial: Los Warcasters/Warlocks comienzan el juego con foco/furia igual a su estadística ARC."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_12",
+      "title": "CAPÍTULO 12: CONSTRUCCIÓN DEL EJÉRCITO",
+      "page": 119,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los jugadores seleccionan una Facción y un Líder (Warcaster/Warlock) para liderar su ejército."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "army_basics",
+          "title": "CONCEPTOS BÁSICOS DEL EJÉRCITO",
+          "page": 119,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Costos de Puntos",
+              "definition": "Los modelos que no son Líder tienen un costo en puntos. El Líder es gratis."
+            },
+            {
+              "type": "definition",
+              "term": "Asignación de Campo (FA)",
+              "definition": "El número máximo de modelos/unidades de un tipo dado permitido. 'C' significa Personaje (único, máx 1)."
+            }
+          ]
+        },
+        {
+          "id": "characters_and_battlegroups",
+          "title": "PERSONAJES Y GRUPOS DE BATALLA",
+          "page": 120,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los personajes representan individuos únicos (FA: C). Solo se puede incluir una instancia de un personaje con nombre específico."
+            },
+            {
+              "type": "paragraph",
+              "text": "Los grupos de batalla consisten en un controlador (Warcaster/Warlock) y sus warjacks/warbeasts controlados."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter_13",
+      "title": "CAPÍTULO 13: TERRENO",
+      "page": 122,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Los jugadores deben definir las características del terreno antes del juego. Los modelos generalmente pueden ocupar cualquier superficie lo suficientemente grande para su base."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "terrain_types",
+          "title": "TIPOS DE TERRENO",
+          "page": 122,
+          "content": [
+            {
+              "type": "definition",
+              "term": "Terreno Abierto",
+              "definition": "Suelo sobre el que se mueve sin restricciones (por ejemplo, llanuras cubiertas de hierba, caminos de tierra)."
+            },
+            {
+              "type": "definition",
+              "term": "Terreno Difícil",
+              "definition": "Reduce el movimiento. Si un modelo entra en terreno difícil durante el avance, reduce el movimiento en 2\" (mín 1\"). Ejemplos: bosques, agua poco profunda, escombros."
+            },
+            {
+              "type": "definition",
+              "term": "Terreno Elevado",
+              "definition": "Colinas, muros, etc. Proporciona visibilidad y bonificaciones defensivas. Los modelos grandes o más pequeños elevados ganan +2 DEF contra ataques a distancia/arcanos desde elevaciones más bajas."
+            }
+          ]
+        },
+        {
+          "id": "impassable_terrain",
+          "title": "TERRENO IMPASABLE",
+          "page": 123,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Terreno en el que los modelos no pueden entrar. Los modelos no pueden moverse ni colocarse en terreno impasable. Ejemplos incluyen aguas profundas, obstáculos de roca sólida o edificios en llamas."
+            }
+          ]
+        },
+        {
+          "id": "hazards",
+          "title": "PELIGROS",
+          "page": 124,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los peligros son características peligrosas del terreno (por ejemplo, piscinas de ácido, tierra en llamas). Un modelo que entra o termina su activación en un peligro sufre el efecto (a menudo daño o un efecto continuo)."
+            }
+          ]
+        },
+        {
+          "id": "water",
+          "title": "AGUA",
+          "page": 124,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Agua Poco Profunda: Tratada como terreno difícil. No bloquea la línea de visión. No proporciona cobertura ni ocultamiento."
+            },
+            {
+              "type": "paragraph",
+              "text": "Agua Profunda: Generalmente terreno impasable. Los modelos con Anfibio o Vuelo pueden moverse a través de ella."
+            }
+          ]
+        },
+        {
+          "id": "forests",
+          "title": "BOSQUES",
+          "page": 125,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los bosques son terreno difícil. Proporcionan Ocultamiento a los modelos dentro de ellos."
+            },
+            {
+              "type": "paragraph",
+              "text": "Línea de Visión: Un bosque bloquea la línea de visión si la línea pasa a través de más de 3 pulgadas de la característica del terreno del bosque. Un modelo puede ver fuera de un bosque hasta 3 pulgadas y ver dentro de un bosque hasta 3 pulgadas."
+            }
+          ]
+        },
+        {
+          "id": "hills",
+          "title": "COLINAS",
+          "page": 125,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las colinas son terreno abierto pero están elevadas. Los modelos en colinas ganan los beneficios de la elevación (+2 DEF vs a distancia/arcano desde niveles más bajos)."
+            }
+          ]
+        },
+        {
+          "id": "trenches",
+          "title": "TRINCHERAS",
+          "page": 126,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Las trincheras son terreno difícil para los modelos que entran en ellas. Son terreno abierto para los modelos que ya están dentro."
+            },
+            {
+              "type": "paragraph",
+              "text": "Un modelo completamente dentro de una trinchera gana Cobertura (+4 DEF vs a distancia/arcano) a menos que el atacante también esté dentro de la trinchera o tocándola. Las trincheras no bloquean la línea de visión."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix_a",
+      "title": "APÉNDICE A: TIEMPOS",
+      "page": 128,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este apéndice detalla la secuencia exacta de eventos para resolver ataques."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "attack_sequence_1_5",
+          "title": "SECUENCIA DE ATAQUE: PASOS 1-5",
+          "page": 129,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Paso 1: Declarar el Ataque. Elija el objetivo. Compruebe si se puede realizar el ataque.",
+                "Paso 2: Comprobar Rango y LOS. Si está fuera de rango/LOS, el ataque falla (vaya al Paso 5).",
+                "Paso 3: Realizar Tirada de Ataque. Tire dados + estadísticas.",
+                "Paso 4: Resolver Retiradas. Aplique cualquier habilidad que permita volver a tirar la tirada de ataque.",
+                "Paso 5: Determinar Golpe/Fallo. Compare el total con la DEF. Compruebe si hay golpe crítico."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attack_sequence_6_9",
+          "title": "SECUENCIA DE ATAQUE: PASOS 6-9",
+          "page": 130,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Paso 6: Efectos Activados (Golpe/Fallo). Resuelva los efectos activados por 'golpe' o 'fallo' (por ejemplo, efectos Críticos). Si el ataque falló, la secuencia termina.",
+                "Paso 7: Resolver Tirada de Daño. Tire dados + POW - ARM. Potencie si aplica.",
+                "Paso 8: Resolver Retiradas de Daño. Aplique habilidades para volver a tirar el daño.",
+                "Paso 9: Determinar Daño. Calcule los puntos de daño finales."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "attack_sequence_10_12",
+          "title": "SECUENCIA DE ATAQUE: PASOS 10-12",
+          "page": 131,
+          "content": [
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Paso 10: Aplicar Daño. Marque las rejillas de daño/espirales. Compruebe los estados Deshabilitado/Encajonado/Destruido.",
+                "Paso 11: Verificar Deshabilitado. Resuelva los efectos 'cuando está deshabilitado' (por ejemplo, Duro).",
+                "Paso 12: Resolver Efectos. Resuelva los efectos 'cuando está encajonado' y 'cuando está destruido'. Elimine los modelos destruidos."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "appendix_2",
+      "title": "APÉNDICE 2: REGLAS ESPECÍFICAS DE FACCIÓN",
+      "page": 130,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Este apéndice detalla reglas especiales para Facciones específicas y contratos de Mercenarios."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "cephalyx",
+          "title": "CEPHALYX",
+          "page": 130,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los warcasters Cephalyx controlan monstruosidades en lugar de warjacks. No pueden controlar warjacks."
+            },
+            {
+              "type": "paragraph",
+              "text": "Asignación: Un warcaster cephalyx puede asignar foco a monstruosidades en su grupo de batalla."
+            },
+            {
+              "type": "paragraph",
+              "text": "Curación: Los warcasters Cephalyx pueden curar monstruosidades."
+            }
+          ]
+        },
+        {
+          "id": "convergence_of_cyriss",
+          "title": "CONVERGENCIA DE CYRISS",
+          "page": 130,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Los warjacks de Convergencia (Vectores) no tienen estadísticas MAT o RAT. Su MAT y RAT son iguales al MAT y RAT actual de su warcaster controlador."
+            },
+            {
+              "type": "paragraph",
+              "text": "Sin Encendido: Los warjacks de Convergencia no se encienden y no ganan un punto de foco automáticamente."
+            },
+            {
+              "type": "definition",
+              "term": "Inducción de Fuerza",
+              "definition": "Cuando un warjack con un nodo de interfaz gasta un punto de foco, puede dar un punto de foco a otro warjack con un nodo de interfaz en el mismo grupo de batalla dentro de 9\"."
+            }
+          ]
+        },
+        {
+          "id": "farrow_mercenaries",
+          "title": "MERCENARIOS FARROW",
+          "page": 131,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warlocks: Un warlock Mercenario Farrow solo puede tener warbeasts Mercenarias Farrow en su grupo de batalla."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warbeasts: Una warbeast Mercenaria Farrow solo puede ser controlada por un warlock Mercenario Farrow."
+            }
+          ]
+        },
+        {
+          "id": "gatorman_mercenaries",
+          "title": "MERCENARIOS GATORMAN",
+          "page": 131,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warlocks: Un warlock Mercenario Gatorman solo puede tener warbeasts Mercenarias Gatorman en su grupo de batalla."
+            }
+          ]
+        },
+        {
+          "id": "grymkin",
+          "title": "GRYMKIN",
+          "page": 131,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Arcana: En lugar de una dote, los jugadores Grymkin comienzan el juego con siete Cartas de Mando en lugar de cinco y usan cartas especiales de Arcana."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "icon_reference",
+      "title": "REFERENCIA DE ICONOS",
+      "page": 132,
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Esta sección proporciona una referencia rápida para los diversos iconos y símbolos utilizados en todo el reglamento y en los perfiles de los modelos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una referencia rápida para cualidades de armas y resistencias."
+        }
+      ],
+      "sub_sections": [
+        {
+          "id": "advantages_icons",
+          "title": "VENTAJAS",
+          "page": 132,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Despliegue Avanzado: El modelo puede desplegarse hasta 3 pulgadas más allá de la zona de despliegue.",
+                "Anfibio: Trata el agua poco profunda como terreno abierto; puede moverse a través de aguas profundas.",
+                "Nodo de Arco: El warcaster puede canalizar hechizos a través de este modelo.",
+                "Asalto: El modelo puede realizar un ataque a distancia como parte de una carga.",
+                "Caballería: Ataques de montura, ataques de impacto, reglas especiales de movimiento.",
+                "Ataque Combinado Cuerpo a Cuerpo: El modelo puede participar en ataques combinados cuerpo a cuerpo.",
+                "Ataque Combinado a Distancia: El modelo puede participar en ataques combinados a distancia.",
+                "Constructo: El modelo no está vivo; inmune a las reglas que afectan a modelos vivos.",
+                "Visión sin Ojos: Ignora efectos de nube y ocultamiento. El sigilo no hace que los ataques fallen.",
+                "Vuelo: Ignora el terreno y los modelos al moverse; inmune a ataques cuerpo a cuerpo no mágicos de no voladores mientras vuela (a menos que esté derribado).",
+                "Pistolero: Puede usar armas a distancia en cuerpo a cuerpo.",
+                "Incorpóreo: Moverse a través de terreno/modelos; inmune al daño no mágico; no puede ser empujado/embestido.",
+                "Parada: Inmune a ataques libres.",
+                "Explorador: Ignora penalizaciones por terreno difícil.",
+                "Francotirador: +4 RNG a armas a distancia.",
+                "Sigilo: Los ataques a Distancia/Mágicos desde >5 pulgadas de distancia fallan automáticamente.",
+                "Duro: Cuando esté deshabilitado, tire d6. Con 5+, cure 1 herida y sea derribado en lugar de destruido."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "weapon_qualities_icons",
+          "title": "CUALIDADES DEL ARMA",
+          "page": 133,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Bendita: Ignora bonificaciones a DEF/ARM de hechizos.",
+                "Rodela: +1 ARM (acumulativo con Escudo).",
+                "Arma de Cadena: Ignora bonificaciones de Escudo/Rodela.",
+                "Corrosión Continua: Causa efecto continuo de Corrosión.",
+                "Fuego Continuo: Causa efecto continuo de Fuego.",
+                "Corrosión Crítica: Causa Corrosión en un golpe crítico.",
+                "Disrupción Crítica: Causa Disrupción en un golpe crítico (el warjack pierde foco, no puede ganar foco).",
+                "Fuego Crítico: Causa Fuego en un golpe crítico.",
+                "Tipo de Daño: Frío: Causa daño de frío.",
+                "Tipo de Daño: Corrosión: Causa daño de corrosión.",
+                "Tipo de Daño: Electricidad: Causa daño eléctrico.",
+                "Tipo de Daño: Fuego: Causa daño de fuego.",
+                "Tipo de Daño: Mágico: Causa daño mágico (afecta a Incorpóreo).",
+                "Disrupción: El warjack golpeado pierde foco, no puede ganar foco durante 1 ronda.",
+                "Arma Mágica: El arma causa daño mágico.",
+                "Puño Abierto: Puede hacer ataques de poder de Lanzamiento/Bloqueo.",
+                "Alcance: Rango cuerpo a cuerpo de 2 pulgadas.",
+                "Escudo: +2 ARM.",
+                "Maestro de Armas: +1 dado a las tiradas de daño.",
+                "Tipo de Daño: Fuego: Causa daño de fuego.",
+                "Tipo de Daño: Mágico: Causa daño mágico.",
+                "Disrupción: El warjack golpeado pierde foco y no puede ganar foco durante una ronda.",
+                "Pistola: Ignora la bonificación de Objetivo en Cuerpo a Cuerpo si ataca a un modelo en cuerpo a cuerpo.",
+                "Escudo: Bonificación acumulativa de +2 ARM.",
+                "Ataque de Poder de Lanzamiento: Puede hacer ataques de poder de lanzamiento.",
+                "Maestro de Armas: Añade un dado adicional a las tiradas de daño."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "immunities_and_effects",
+          "title": "INMUNIDADES Y EFECTOS",
+          "page": 134,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Inmunidad: Frío: Inmune al daño de frío.",
+                "Inmunidad: Corrosión: Inmune al daño de corrosión y corrosión continua.",
+                "Inmunidad: Electricidad: Inmune al daño eléctrico.",
+                "Inmunidad: Fuego: Inmune al daño de fuego y fuego continuo."
+              ]
+            },
+            {
+              "type": "definition",
+              "term": "Efectos Continuos",
+              "definition": "Efectos que persisten en el tiempo (Fuego, Corrosión). Resuelva durante la Fase de Mantenimiento (tire d6: 1-2 expira, 3-6 daña)."
+            },
+            {
+              "type": "definition",
+              "term": "Derribo",
+              "definition": "El modelo es derribado. DEF 5. No puede moverse/actuar. Sacudir para levantarse."
+            },
+            {
+              "type": "definition",
+              "term": "Estacionario",
+              "definition": "El modelo queda estacionario. DEF 5. No puede moverse/actuar."
+            }
+          ]
+        },
+        {
+          "id": "resistances_ref",
+          "title": "RESISTENCIAS",
+          "page": 137,
+          "content": [
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "Resistencia: Explosión: Elimine un dado de las tiradas de daño por explosión.",
+                "Resistencia: Frío: Elimine un dado de las tiradas de daño por frío.",
+                "Resistencia: Corrosión: Elimine un dado de las tiradas de daño por corrosión. Inmune a la corrosión continua.",
+                "Resistencia: Electricidad: Elimine un dado de las tiradas de daño eléctrico. Los rayos no pueden arquearse desde este modelo.",
+                "Resistencia: Fuego: Elimine un dado de las tiradas de daño por fuego. Inmune al fuego continuo."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

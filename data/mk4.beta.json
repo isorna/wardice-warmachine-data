@@ -1,0 +1,1015 @@
+{
+  "document_title": "WARMACHINE: MKIV Beta Rules",
+  "version_info": "This document is a beta preview of the forthcoming WARMACHINE: MKIV tabletop miniatures game rules. It is a work-in-progress and all contents are subject to change.",
+  "table_of_contents": [
+    {
+      "title": "RULES BASICS",
+      "page": 1,
+      "sub_items": [
+        { "title": "Summary of Play", "page": 1 },
+        { "title": "Dice and Rounding", "page": 2 },
+        { "title": "General Guidelines", "page": 2 }
+      ]
+    },
+    {
+      "title": "MODELS",
+      "page": 5,
+      "sub_items": [
+        { "title": "Model Profiles", "page": 6 }
+      ]
+    },
+    {
+      "title": "GAMEPLAY",
+      "page": 11,
+      "sub_items": [
+        { "title": "The Game Round", "page": 11 },
+        { "title": "The Player Turn", "page": 11 },
+        { "title": "Activating Models", "page": 11 },
+        { "title": "Movement", "page": 12 },
+        { "title": "Combat Actions", "page": 17 },
+        { "title": "Line of Sight & Targeting", "page": 18 },
+        { "title": "Point of Origin", "page": 21 },
+        { "title": "Measuring Range", "page": 21 }
+      ]
+    },
+    {
+      "title": "COMBAT",
+      "page": 22,
+      "sub_items": [
+        { "title": "Making Attacks", "page": 22 },
+        { "title": "Attack Roll", "page": 22 },
+        { "title": "Melee Attacks", "page": 23 },
+        { "title": "Ranged Attacks", "page": 27 },
+        { "title": "Arcane Attacks", "page": 30 },
+        { "title": "Damage", "page": 30 },
+        { "title": "Special Combat Situations", "page": 33 }
+      ]
+    },
+    {
+      "title": "WARCASTERS & FOCUS",
+      "page": 35,
+      "sub_items": [
+        { "title": "Warcaster Special Rules", "page": 35 }
+      ]
+    },
+    {
+      "title": "WARJACKS",
+      "page": 37,
+      "sub_items": [
+        { "title": "Warjack Special Rules", "page": 37 },
+        { "title": "Colossals", "page": 37 },
+        { "title": "Customization", "page": 38 },
+        { "title": "Autonomous Warjacks", "page": 38 }
+      ]
+    },
+    {
+      "title": "WARLOCKS & FURY",
+      "page": 39,
+      "sub_items": [
+        { "title": "Warlock Special Rules", "page": 39 }
+      ]
+    },
+    {
+      "title": "WARBEASTS",
+      "page": 41,
+      "sub_items": [
+        { "title": "Warbeast Special Rules", "page": 41 },
+        { "title": "Gargantuans", "page": 42 },
+        { "title": "Customization", "page": 42 }
+      ]
+    },
+    {
+      "title": "SPELLS, SPELLCASTING & ANIMI",
+      "page": 43,
+      "sub_items": [
+        { "title": "Spell Targeting", "page": 43 },
+        { "title": "Measuring the Range of a Spell", "page": 43 },
+        { "title": "Casting a Spell with Magic Ability", "page": 43 },
+        { "title": "Casting a Spell with Focus or Fury", "page": 43 },
+        { "title": "Animi", "page": 43 },
+        { "title": "Spell & Animus Statistics", "page": 44 },
+        { "title": "Upkeep Spells", "page": 44 },
+        { "title": "Channeling", "page": 44 }
+      ]
+    },
+    {
+      "title": "ADDITIONAL RULES",
+      "page": 46,
+      "sub_items": [
+        { "title": "'Jack Marshals", "page": 46 },
+        { "title": "Battle Engines", "page": 46 },
+        { "title": "Cavalry", "page": 46 },
+        { "title": "Flight", "page": 46 },
+        { "title": "Incorporeal", "page": 46 },
+        { "title": "Structures", "page": 47 }
+      ]
+    },
+    {
+      "title": "PREPARING FOR WAR",
+      "page": 48,
+      "sub_items": [
+        { "title": "Assassination vs. Execution Modes", "page": 48 },
+        { "title": "Deployment", "page": 49 },
+        { "title": "Starting Focus & Fury", "page": 49 }
+      ]
+    },
+    {
+      "title": "ARMY CONSTRUCTION",
+      "page": 50,
+      "sub_items": [
+        { "title": "Building Your Army", "page": 50 },
+        { "title": "Command Cards", "page": 52 }
+      ]
+    },
+    {
+      "title": "TERRAIN",
+      "page": 53,
+      "sub_items": [
+        { "title": "Terrain Types", "page": 53 }
+      ]
+    },
+    {
+      "title": "SCENARIOS",
+      "page": 57,
+      "sub_items": [
+        { "title": "Scenario Rules", "page": 57 },
+        { "title": "Flags", "page": 57 },
+        { "title": "Scenarios", "page": 58 }
+      ]
+    },
+    {
+      "title": "APPENDIX 1: TIMING",
+      "page": 60
+    },
+    {
+      "title": "APPENDIX 2: TEMPLATES",
+      "page": 62
+    }
+  ],
+  "sections": [
+    {
+      "title": "RULES BASICS",
+      "page": 3,
+      "sub_sections": [
+        {
+          "title": "GENERAL KNOWLEDGE FOR COMBAT",
+          "page": 3,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Set in the steam-powered fantasy world of the Iron Kingdoms, WARMACHINE is a fast-paced 32 mm tabletop miniatures game for two or more players to pit their forces against each other in epic battles of machines and beasts. Players collect, assemble, and paint fantastically detailed models representing the various warriors, creatures, and automata that make up their armies."
+            },
+            {
+              "type": "paragraph",
+              "text": "In WARMACHINE, players take on the role of elite soldier-sorcerers known as warcasters or battle-shamans known as warlocks. Though warcasters are formidable, their strength lies in their magical ability to control warjacks—massive military automatons. No less powerful are the warlocks, whose strength lies in their parasitic synergy with savage warbeasts—monstrous creatures of flesh, blood, and bone. A WARMACHINE army is built around a warcaster and their battlegroup of warjacks or a warlock and their battlegroup of warbeasts. Squads of soldiers and support teams can further bolster a battlegroup's combat capability."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warjacks are powered by steam technology and arcane science controlled by a warcaster. Also called 'jacks, these mighty creations are outfitted with a plethora of weaponry and equipment. A warcaster maintains telepathic contact with the 'jacks in their battlegroup and continually draws on a magical energy called focus. A warcaster's focus points can be used to boost their own combat abilities, boost those of their warjacks, or cast powerful spells. If a warcaster falls, their 'jacks become little more than hulking iron shells. A crucial component of strategy is the warcaster's management of focus to boost their warjacks' abilities. Properly allocated, focus points can enhance a 'jack's impressive combat power significantly!"
+            },
+            {
+              "type": "paragraph",
+              "text": "Warbeasts are mighty creatures drawn from the wilds and trained for combat. They are bred or chosen for their ability to fight and heed their warlock's commands. Most rely on claw and fang, but some wield massive weapons or boast supernatural powers. A warlock maintains mental contact with the warbeasts in their battlegroup and can force them to attack with greater accuracy and strength or evoke latent arcane abilities, increasing the beasts' fury. The warlock can leech this fury from their warbeasts and use it to boost their combat abilities, heal their battlegroup, stave off injury, or cast formidable spells. If a warlock falls, their warbeasts lose interest in the fight and soon fall to their enemies on the field. A crucial component of strategy is the warlock's management of warbeasts' fury to enhance their attacks and fuel their own powers. Too much fury can backfire, however, causing warbeasts to frenzy uncontrollably and attack whatever is nearest—whether friend or foe."
+            }
+          ]
+        },
+        {
+          "title": "Summary of Play",
+          "page": 3,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Before a battle begins, players agree on an encounter level, which determines the scope of the game being played, and a scenario for play. They then create their armies based on those guidelines. Next, the players determine the turn order. Once established, the turn order will not change throughout the game. Players then deploy their forces and prepare for battle to begin."
+            },
+            {
+              "type": "paragraph",
+              "text": "Battles are conducted in a series of game rounds. During a game round, each player receives one turn to command their army. During their turn, a player activates all the models in their army in an order of their choosing. When activated, a model can move and then make one of a variety of actions such as attacking or repairing a warjack. Once both players have taken their turns, the current game round ends and a new one begins, starting again with the first player. Game rounds continue until one player wins by destroying the opposing warcaster or warlock, meeting the scenario objectives, or accepting the surrender of their opponent."
+            }
+          ]
+        },
+        {
+          "title": "WHAT YOU NEED",
+          "page": 3,
+          "content": [
+            {
+              "type": "callout",
+              "title": "WHAT YOU NEED",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "In addition to this book and your army, you will also need a few basic items to play:"
+                },
+                {
+                  "type": "list",
+                  "ordered": false,
+                  "items": [
+                    "A table or playing surface where you can conduct your battles (typically 4' x 4').",
+                    "A tape measure or ruler marked in inches and fractions thereof to measure movement and attack distances.",
+                    "A few six-sided dice. Six will be plenty.",
+                    "A handful of tokens, like the official token sets offered by Privateer Press, to indicate focus points, spell effects, etc.",
+                    "Templates for various effects for use during play. You can find an printable templates at the end of this document."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dice and Rounding",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "WARMACHINE uses six-sided dice, abbreviated d6, to determine the success of attacks and other actions. Most events, such as attacks, require rolling two dice (abbreviated 2d6). Other events typically require rolling one to four dice. Die rolls often have modifiers, which are expressed as + or – some quantity after the die roll notation. For example, melee attack rolls are described as \"2d6 + MAT.\" This means \"roll two six-sided dice and add the attacking model's MAT stat to the result.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "Some events call for rolling a d3. To do so, roll a d6, divide the result by 2, and round up."
+            },
+            {
+              "type": "paragraph",
+              "text": "Some instances call for a model's stat or a die roll to be divided in half. For distance measurements, use the actual result after dividing the number in question. For everything else, always round a fractional result to the next highest whole number."
+            },
+            {
+              "type": "callout",
+              "title": "DICE SHORTHAND",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "A six-sided die is referred to as a d6. When you need two or more of these, a numeral before the \"d\" indicates the number of dice to roll. Two six-sided dice are abbreviated as 2d6, three dice as 3d6, and so on."
+                },
+                {
+                  "type": "paragraph",
+                  "text": "The term d3 is a shortcut for \"roll a d6, divide by 2, and round up.\" Here's how to quickly read the results of a d3 roll:"
+                },
+                {
+                  "type": "table",
+                  "headers": [
+                    "d6 Roll",
+                    "d3 Result"
+                  ],
+                  "rows": [
+                    { "d6 Roll": "1 or 2", "d3 Result": "1" },
+                    { "d6 Roll": "3 or 4", "d3 Result": "2" },
+                    { "d6 Roll": "5 or 6", "d3 Result": "3" }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "sub_heading",
+              "text": "Additional Dice and Boosted Rolls",
+              "level": 4
+            },
+            {
+              "type": "paragraph",
+              "text": "Sometimes a special rule or circumstance will allow a model to roll an additional die. An additional die is a die added to the number of dice a model would ordinarily roll. For example, when a model makes a ranged attack roll, it generally rolls 2d6 and adds its RAT stat. If the model gains an additional die on this attack, it would roll 3d6 and add its RAT stat."
+            },
+            {
+              "type": "paragraph",
+              "text": "A die roll can include multiple additional dice as long as each additional die comes from a different rule."
+            },
+            {
+              "type": "paragraph",
+              "text": "Some effects grant models boosted attack or damage rolls. Boosting a roll allows you to roll one extra die. If a model has a rule that gives it the option to boost a roll, you must declare it is boosting before rolling any dice for the roll. Each attack or damage roll can be boosted only once, but a model can boost multiple rolls during its activation. When an attack affects several models, the attack and damage rolls against each individual model must be boosted separately."
+            },
+            {
+              "type": "paragraph",
+              "text": "Even though they affect die rolls similarly, boosting a roll is different than gaining additional dice. A roll can be boosted and gain additional dice."
+            },
+            {
+              "type": "example",
+              "text": "The damage roll for a charge attack that hits is boosted, meaning it adds an extra die to its damage roll. Because this roll is already boosted, the model cannot spend focus to boost the damage roll again in order to receive a total of two extra dice on the roll. A model that receives an additional die on an attack or damage roll can still also boost that roll, however."
+            }
+          ]
+        },
+        {
+          "title": "General Guidelines",
+          "page": 4,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "This section covers how WARMACHINE handles game terms, the relationship between standard and special rules, sportsmanship between players, and the procedures for resolving rules disputes."
+            },
+            {
+              "type": "sub_heading",
+              "text": "Game Terms",
+              "level": 4
+            },
+            {
+              "type": "paragraph",
+              "text": "When these rules define a game term, it appears in **bold**."
+            },
+            {
+              "type": "paragraph",
+              "text": "For the sake of brevity, the phrase “model with the special rule\" is sometimes replaced with the rule's name. For example, a model with the 'Jack Marshal advantage is a 'jack marshal, and a model with the Spellcaster rule is a spellcaster. Similarly, the phrases \"attack with ___ weapon\" and \"attack granted by the ___ special rule\" can be replaced by the expression \"___ attack.\" For instance, the Orgoth Tyrant warjack's Flail weapon allows it to potentially make several attacks with its Thresher special attack. These attacks are referred to as \"Thresher attacks\" in the text of the special attack. In the same way, the attacks a trampling warjack makes against models it moved over are called \"trample attacks.\""
+            },
+            {
+              "type": "paragraph",
+              "text": "All models you control are friendly models. Models controlled by your opponent are enemy models."
+            },
+            {
+              "type": "paragraph",
+              "text": "The rules of models are written as if speaking to the current controller of the model. When a model's rule references \"you\" or \"yours,\" it refers to the player currently controlling the model."
+            },
+            {
+              "type": "paragraph",
+              "text": "In a model's rules, \"this model\" always refers to the model carrying the rule."
+            },
+            {
+              "type": "paragraph",
+              "text": "The various nations and forces within the Iron Kingdoms are represented by the different Factions. Armies are made up of models from a single Faction and can also include Mercenaries that will work for that Faction. When a rule references \"Faction,\" it refers to the Faction of the model carrying the rule. On a Mercenary model, for instance, \"friendly Faction warjack\" means \"friendly Mercenary warjack,\" while the same text on a Dusk model means \"friendly Dusk warjack.”"
+            },
+            {
+              "type": "paragraph",
+              "text": "The names of the models and units in WARMACHINE appear on two lines that describe what the model is called and what type of model it is. Each model also has a name that appears on its stat profile. Rules in WARMACHINE can refer to a model by any of these identifiers. Additionally, a model can be identified by its own rules; for this to apply to a unit, however, all models in the unit must have the identifying rule."
+            },
+            {
+              "type": "example",
+              "text": "The Reaver Skirmisher unit has the name \"Reaver Skirmisher\" (listed on the first line) and is an \"Orgoth Sea Raider Unit\" (listed on the second line). This unit could be referenced specifically as Reaver Skirmisher, as an Orgoth unit, as a Sea Raider unit, as Sea Raiders, as a unit, Raiders, or as Reavers."
+            },
+            {
+              "type": "example",
+              "text": "The Soulless Guardian unit has the Soulless advantage. This unit could be referenced as a soulless unit."
+            }
+          ]
+        },
+        {
+          "title": "Rule Priority",
+          "page": 5,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Unless specified otherwise, when a model's rules reference another model by name, the model referenced is assumed to be a friendly model."
+            },
+            {
+              "type": "paragraph",
+              "text": "WARMACHINE is a complex game that provides a multitude of play options, but its rules are intuitive and easy to learn. The standard rules lay the foundation for the game and provide all the typical mechanics used in play. Additional rules apply to specific models and modify the standard rules in certain circumstances. When they apply, the rules of individual models take precedence over the rules in this rulebook."
+            },
+            {
+              "type": "paragraph",
+              "text": "Unless otherwise specified, multiple instances of the same effect (that is, effects with the same name) affecting a model are not cumulative. If a model is affected by more than one instance of an effect, the effect does not expire until all instances of the effect expire."
+            },
+            {
+              "type": "paragraph",
+              "text": "Different effects are cumulative with each other, however, even if they apply the same modifier to a model. For example, a model within 2\" of an enemy model with the Dark Shroud special rule suffers –2 ARM. Kiss of Lyliss also reduces models' ARM by 2 but has a different name, so a model affected by both would suffer –4 to its ARM."
+            },
+            {
+              "type": "paragraph",
+              "text": "Occasionally, two special rules conflict. Use the following guidelines, in order, to resolve special rules interactions."
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "items": [
+                "If one rule specifically states its interaction with another rule, follow it.",
+                "Special rules stating that something \"cannot\" happen override rules stating that the same thing \"can\" or \"must\" occur. (Treat rules directing or describing actions or circumstances as if they use “must.” Examples include “Gain an additional die,\" \"Knocked down models stand up,\" and \"This model gains cover.\")"
+              ]
+            },
+            {
+              "type": "example",
+              "text": "A model has a rule stating it cannot be knocked down, and it is affected by something that states it becomes knocked down. Because the rules make no specific mention of each other, follow the second guideline to resolve the interaction: the model is not knocked down."
+            }
+          ]
+        },
+        {
+          "title": "Active or Inactive Player",
+          "page": 5,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "If a model is making an attack, its controller is the active player. If no model is making an attack, the active player is the player whose turn it is. In both cases, the other player is the inactive player. When resolving effects that occur \"after the attack is resolved,\" the active and inactive players remain the same as during the attack until all effects triggered by the attack (see below) are resolved."
+            }
+          ]
+        },
+        {
+          "title": "Triggers",
+          "page": 5,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Some rules will describe conditional effects, also referred to as \"triggered\" effects. These rules will typically describe the trigger condition, the timing of the trigger, the resulting effect, and the timing of the resolution of this effect. If no specific timing is described, the effect is resolved upon the trigger condition being met."
+            },
+            {
+              "type": "paragraph",
+              "text": "If a triggered effect contains an optional part, indicating the player \"can\" do something, the player can choose not to resolve that part of the effect but the trigger will still count as having resolved."
+            },
+            {
+              "type": "paragraph",
+              "text": "Whenever two or more special rules are triggered at the same time, such as \"attack hit” or “end activation,” the active player chooses the order in which special rules on their models resolve and resolves them, then the inactive player chooses the order in which special rules on their models resolve and resolves them."
+            },
+            {
+              "type": "paragraph",
+              "text": "Some effects cause certain conditions of an attack, such as whether it hit or what models it disabled or destroyed, to change during resolution. When resolving triggered effects, recheck trigger conditions as you resolve each special rule. If a condition is no longer met, the effect does not resolve. Similarly, if an effect on one model causes a condition to change on another model, effects triggered by that condition will resolve for each of those models."
+            }
+          ]
+        },
+        {
+          "title": "Use of \"Any Time” Special Rules",
+          "page": 5,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Spells, feats, and other special rules that state they can be used \"at any time during this model's activation\" can be used before moving, after moving, before making an attack, or after an attack but not while moving, attacking, or resolving another triggered effect. A model cannot interrupt movement or an attack to use one of these special rules. Additionally, a model cannot use one of these special rules after running."
+            },
+            {
+              "type": "example",
+              "text": "Warlocks and warcasters can cast spells \"at any time during their activation.\" This means Tyrus, Nis-Arsyr of Spiders can cast a spell before and after moving, before and after an attack, and before and after using his feat. He cannot, however, cast a spell while he is moving, making an attack, or while resolving his feat."
+            }
+          ]
+        },
+        {
+          "title": "Sportsmanship and Sharing Information",
+          "page": 5,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Although WARMACHINE simulates violent battles between rival forces, you should still strive to be a good sport in all aspects of the game. Remember, this is a game meant to provide entertainment and friendly competition. Whether winning or losing, you should still be having lots of fun."
+            },
+            {
+              "type": "paragraph",
+              "text": "From time to time, your opponent may wish to see your records to verify a model's stats or see how much damage a particular warjack has taken. Always represent this information honestly and share your records and information without hesitation."
+            }
+          ]
+        },
+        {
+          "title": "Resolving Rules Issues",
+          "page": 5,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These rules have been carefully designed to provide as much guidance as possible in all aspects of play. That said, you still might encounter situations in which the proper course of action is not immediately obvious. For instance, players might disagree on whether a model has line of sight to its intended target."
+            },
+            {
+              "type": "paragraph",
+              "text": "During a game, try to resolve any such issue quickly in the interest of keeping the game flowing. There will be plenty of time after the game to determine the best answer, which you can then incorporate into future games."
+            },
+            {
+              "type": "paragraph",
+              "text": "If all players cannot agree on a solution, briefly discuss the matter and check this rulebook for an answer, but do not spend so much time doing so that you slow the game. In striving to resolve an issue, common sense and the precedents set by related rules should be your guides."
+            },
+            {
+              "type": "paragraph",
+              "text": "If you cannot solve the dispute quickly, roll for a resolution. Each player rolls a d6, and the person with the highest result decides the outcome. Reroll any ties. In the interest of fairness, once a ruling has been made for a specific issue, it applies for all similar circumstances for the rest of the game. After the game ends, you can take the time to reference the rules and thoroughly discuss the issue to decide how best to handle that same situation in the future."
+            }
+          ]
+        },
+        {
+          "title": "Measuring Distances",
+          "page": 6,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A player can measure any distance for any reason at any time."
+            },
+            {
+              "type": "paragraph",
+              "text": "A model is **within** a given distance when the nearest edge of its base is within that distance. If two models are exactly a certain distance apart, they are considered to be within that distance of each other."
+            },
+            {
+              "type": "paragraph",
+              "text": "A model is **completely within** a given distance when its entire base is within that distance."
+            },
+            {
+              "type": "paragraph",
+              "text": "If models' bases overlap, they are within 0\" of each other."
+            },
+            {
+              "type": "paragraph",
+              "text": "When determining the effects of a rule that affects models within a specified distance of another model, the effect is a circular area that extends out from the edge of the specified model's base and includes the area under the model's base. Unless the rule says otherwise, that model is considered to be completely within the area described."
+            },
+            {
+              "type": "image_with_caption",
+              "image_filename": "within_vs_completely_within_diagram.svg",
+              "caption": {
+                "title": "WITHIN VS. COMPLETELY WITHIN",
+                "text": "Ulkor Barrager A is not within the shaded area. Ulkor Barrager B is within the shaded area. Ulkor Barrager C is completely within the shaded area."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "MODELS",
+      "page": 7,
+      "sub_sections": [
+        {
+          "title": "MODEL TYPES, STATS & DAMAGE CAPACITY",
+          "page": 7,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Each WARMACHINE combatant is represented on the tabletop by a highly detailed and dramatically posed miniature figurine referred to as a model. There are several basic model types: warcasters, warjacks, warlocks, warbeasts, troopers, solos, structures, and battle engines. Troopers, solos, and non-battle engine warcasters and warlocks are warriors."
+            },
+            {
+              "type": "paragraph",
+              "text": "Models are considered to be living unless otherwise noted."
+            }
+          ]
+        },
+        {
+          "title": "Independent Models",
+          "page": 7,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Independent models are those that activate individually. Warcasters, warjacks, warlocks, warbeasts, solos, structures, and battle engines are independent models."
+            }
+          ]
+        },
+        {
+          "title": "Warcasters",
+          "page": 7,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A warcaster is a tremendously powerful sorcerer, warpriest, or battle mage with the ability to control a group of warjacks telepathically. A warcaster is a deadly opponent, highly skilled in both physical combat and spellcasting. A battlegroup led by a warcaster includes the warcaster and the warjacks it controls."
+            },
+            {
+              "type": "paragraph",
+              "text": "During battle, a warcaster commands its battlegroup of warjacks in an effort to complete its objectives. A warcaster can use their focus points to enhance its combat abilities and cast spells, or it can assign them to individual warjacks to increase their fighting abilities. A warcaster can also channel spells through 'jacks equipped with arc nodes, effectively extending the range of its magical powers."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warcasters are independent Commander models. A model with the model type \"Warcaster\" has many rules that are common to all warcasters and are not listed on the model's stat card (see \"Warcaster Special Rules,\" p. 35). All warcasters are characters."
+            },
+            {
+              "type": "callout",
+              "title": "COMMANDERS",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "The various Factions warring across the Iron Kingdoms are led by a variety of heroes and champions, whether they are warcasters, warlocks, or even infernal masters. Each is considered to be a Commander model. A rule affecting a \"Commander\" or \"Commander model\" affects any model with the Commander rule."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Warjacks",
+          "page": 7,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A steamjack is a mechanical construct given the ability to reason by a magical brain, known as a cortex, housed within its hull. A steamjack does not possess high cognitive powers, but it can execute simple commands and make logical decisions to complete its assigned tasks. Throughout the Iron Kingdoms, steamjacks perform a variety of heavy or dangerous tasks that would be impossible for a human."
+            },
+            {
+              "type": "paragraph",
+              "text": "A warjack is a steamjack built expressly to wage war. Armed with fearsome ranged and close-combat weaponry, a warjack is more than a match for a dozen soldiers. Though able to think and operate independently, a warjack reaches its full destructive potential only when controlled by a warcaster. The warcaster forms a telepathic link to each of the warjacks in their battlegroup. This link lets the warcaster give their warjacks commands and use focus to boost their abilities with just a thought. Through focus, a warcaster can make their warjacks' attacks more accurate and powerful. A well-controlled warjack can even make amazing power attacks, such as slamming its opponents into buildings, head-butting them into the ground, or even throwing them."
+            },
+            {
+              "type": "paragraph",
+              "text": "The telepathic connection linking a warcaster to their warjacks is fragile. A warjack whose cortex is crippled cannot have focus points. Even worse, should a warcaster become incapacitated, their telepathic link to their 'jacks is severed. The accompanying feedback of uncontrolled magical energies overloads their warjacks' cortexes and causes the machines to become inert."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warjacks are classified according to base size: a light warjack has a medium base (40 mm), a heavy warjack has a large base (50 mm), a super heavy warjack has an extra large base (80 mm), and a colossal has a huge base (120 mm). Each warjack is an independent model even though it is assigned to a specific battlegroup. All warjacks have the Construct advantage and are not living models."
+            },
+            {
+              "type": "paragraph",
+              "text": "Models with the model type \"Warjack” have many rules that are common to all warjacks and are not listed on their stat cards. These rules are detailed on p. 37."
+            }
+          ]
+        },
+        {
+          "title": "Warlocks",
+          "page": 7,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A warlock and is a commander of raging beasts and feral troops. A warlock is a tremendously powerful sorcerer, shaman, or druid with the ability to control a group of warbeasts telepathically. Deadly opponents, warlocks are highly skilled in both physical combat and spellcasting. A battlegroup led by a warlock includes the warlock and the warbeasts it controls."
+            },
+            {
+              "type": "paragraph",
+              "text": "A warlock can use fury points drawn from the warbeasts in its battlegroup to enhance its own combat abilities and cast spells. Throughout a battle, the warlock forces warbeasts to bolster their effectiveness in combat."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warlocks are independent Commander models. A model with the model type \"Warlock\" has many rules that are common to all warlocks and are not listed on the model's stat card (see \"Warlock Special Rules,” p. 39). All warlocks are characters."
+            }
+          ]
+        },
+        {
+          "title": "Warbeasts",
+          "page": 7,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Warbeasts are creatures noted for formidable battle prowess and a capacity to be controlled by warlocks. Warbeasts come in a variety of shapes and sizes and are drawn from diverse geographies and ecologies. They are generally smarter than animals but more primitive and savage than the races fighting across the face of Immoren. Each Faction brings distinct types of warbeasts to their battles and employs specialized techniques in recruiting and controlling them. Once warbeasts are brought to fight, the fury of their attacks strengthens their warlocks, and together they form an almost unstoppable synergy."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warbeasts would be considered terrible monsters by civilized nations, for each is capable of ripping even armed foes limb from limb. Many have had their considerable natural abilities enhanced with heavy armor and the best-made weapons available. Most have been subjected to considerable training to capitalize on their abilities and fight ably alongside warriors and warlocks. Though warbeasts are capable of acting on their own, a warlock's dominating will overrides their individuality except in cases of frenzy (p. 41)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Warbeasts are classified according to base size: each lesser warbeast has a small base (30 mm), a light warbeast has a medium base (40 mm), a heavy warbeast has a large base (50 mm), a super heavy warbeast has an extra large base (80 mm), and a gargantuan has a huge base (120 mm). Each warbeast is an independent model even though it is assigned to a specific battlegroup."
+            },
+            {
+              "type": "paragraph",
+              "text": "Models with the model type \"Warbeast\" have many rules that are common to all warbeasts and are not listed on their stat cards. These rules are detailed on p. 41."
+            }
+          ]
+        },
+        {
+          "title": "Solos",
+          "page": 8,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Solos are individuals who operate alone, such as assassins and snipers. Solos are independent warrior models."
+            }
+          ]
+        },
+        {
+          "title": "Units",
+          "page": 8,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A unit is a group of similarly trained and equipped warrior models—such as swordsmen, riflemen, and mechaniks—who operate together as a single force. All models in a unit are troopers. Models in units do not activate individually; instead, all members of the unit activate at the same time and progress through the steps of an activation together (see Activating Unit, p. 12, Unit Movement, p. 12, and Units, Spells & Special Effects, p. 8)."
+            },
+            {
+              "type": "callout",
+              "title": "GRUNTS",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Grunts are the basic troopers in a unit. The number of Grunts in a unit is noted on the unit's card."
+                }
+              ]
+            },
+            {
+              "type": "callout",
+              "title": "ATTACHMENTS",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "text": "Attachments are troopers that can be added to some units. They include command attachments and weapon attachments. A unit can have only one command attachment and up to three weapon attachments. Weapon attachment models added to a unit replace Grunt models in the unit."
+                },
+                {
+                  "type": "example",
+                  "text": "If you add three weapon attachments to a unit you must also remove three Grunt models from the unit. If you add a command attachment to the unit, however, the attachment is added without removing a Grunt model."
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Attachments are easily identified by their \"Attachment\" rule, which specifies the unit or units to which they can be attached."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Battle Engines",
+          "page": 8,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Battle engines are powerful weapons of war. Battle engines are independent models with huge bases (120 mm). Battle engines are not warrior models. Battle engines have a number of special rules, which can be found on p. 8. Most battle engines have the Construct advantage and are not living models."
+            }
+          ]
+        },
+        {
+          "title": "Structures",
+          "page": 8,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Structures represent unmoving fortifications on the battlefield. Structures are independent models. Structures are considered to be huge-base models (120 mm) even if they are not on a base. Structures have a number of special rules, which can be found on p. 47. Most structures have the Construct advantage and are not living models."
+            }
+          ]
+        },
+        {
+          "title": "Model Profiles",
+          "page": 8,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Every model and unit has a unique profile called a model entry that translates its combat abilities into game terms. WARMACHINE uses a set of stats to quantify and scale the attributes fundamental to gameplay. In addition, a model can have special rules that further define its performance."
+            },
+            {
+              "type": "paragraph",
+              "text": "A model or unit's stat card provides a quick in-game reference of its profile and special rules. The card's front lists the model's name and model type, field allowance, and point cost; its model and weapon stats; and a graphic for tracking damage if the model can suffer more than 1 damage point. The text for special rules appears on the card's back. Warcasters and warlocks have an additional stat card that explains their spells and feats."
+            }
+          ]
+        },
+        {
+          "title": "Model Statistics",
+          "page": 8,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Model statistics, or stats, are a numerical representation of the model's basic combat qualities: the higher the number, the better the stat. These stats are used for various die rolls throughout the game. A stat bar presents model statistics in an easy-to-reference format. The abbreviation for each stat shows how it is referenced in the rules."
+            },
+            {
+              "type": "image_with_caption",
+              "image_filename": "stat_bar_example.svg",
+              "caption": { "text": "An example stat bar for Major Anson Wolfe." }
+            },
+            {
+              "type": "definition_list",
+              "items": [
+                {
+                  "term": "SPD, Speed",
+                  "definition": "A model's movement rate. A model moves up to its SPD in inches when making a full advance."
+                },
+                {
+                  "term": "AAT, Arcane Attack",
+                  "definition": "A measure of a model's potency in combat when casting offensive spells. A model uses its AAT when making arcane attack rolls."
+                },
+                {
+                  "term": "MAT, Melee Attack",
+                  "definition": "A model's skill with melee weapons such as swords and hammers or with natural weapons like fists and teeth. A model uses its MAT when making melee attack rolls."
+                },
+                {
+                  "term": "RAT, Ranged Attack",
+                  "definition": "A model's accuracy with ranged weapons such as guns and crossbows or thrown weapons like spears and knives. A model uses its RAT when making ranged attack rolls."
+                },
+                {
+                  "term": "DEF, Defense",
+                  "definition": "A model's ability to avoid being hit by an attack. A model's size, quickness, skill, and even magical protection all contribute to its DEF. An attack roll must be equal to or greater than the target model's DEF to score a hit against it."
+                },
+                {
+                  "term": "ARM, Armor",
+                  "definition": "A model's ability to resist being damaged. This resistance can come from natural resilience, worn armor, or even magical benefits. A model takes 1 damage point for every point by which a damage roll exceeds its ARM."
+                },
+                {
+                  "term": "ARC, Arcana",
+                  "definition": "A measure of a model's arcane power. Only models that cast spells using focus or fury points, such as warcasters and warlocks, have an ARC stat. Arc determines a model's beginning focus or fury points."
+                },
+                {
+                  "term": "FURY, Fury",
+                  "definition": "FURY indicates how much a warbeast can be forced. When warbeasts are forced to perform certain actions, they generate fury points, the arcane resource used by warbeasts and warlocks (see Fury & Forcing, p. 41). Models with the Fury Manipulation ability (p. 39), such as warlocks, draw on that fury to enhance their own abilities."
+                },
+                {
+                  "term": "CTRL, Control Range",
+                  "definition": "This determines a warcaster or warlock's control range (p. 35 and 39)."
+                },
+                {
+                  "term": "THR, Threshold",
+                  "definition": "A measure of a warbeast's ability to resist frenzy (p. 41)."
+                },
+                {
+                  "term": "Hardpoints",
+                  "definition": "A customizable warjack or warbeast's Hardpoints determine where its weapons and equipment can be added to the model. See Warjack Customization, p. 51, and Warbeast Customization, p. 52, for more details."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Base Stats, Current Stats & Modifiers",
+          "page": 9,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Rules in WARMACHINE can refer to a model's base stats or to its current stats. A model's base stats are typically those printed in its stat bar. Some special rules can change the base stat of a model to a specific value, however. Apply this change before applying any other modifiers to the stat. If a model is affected by multiple rules that change a base stat, the base stat becomes the lowest value."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the base stats of a model are modified, they are then referred to as the model's current stats. Unless a rule specifies otherwise, always use a model's current stats."
+            },
+            {
+              "type": "paragraph",
+              "text": "To determine a model's current stat, start with the base stat and then apply modifiers in the following order."
+            },
+            {
+              "type": "list",
+              "ordered": true,
+              "items": [
+                "Apply modifiers that double the model's stat.",
+                "Apply modifiers that halve the stat.",
+                "Apply bonuses that add to the stat.",
+                "Apply penalties that reduce the stat."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The result is the model's current stat. A model's base and current stats can never be reduced to less than 0."
+            },
+            {
+              "type": "example",
+              "text": "Stationary models have a base DEF of 5, and cover grants +4 DEF. Therefore, a stationary model gaining cover from a wall terrain feature has a current DEF of 9 (base DEF 5 + 4 DEF for cover). A stationary model (base DEF 5) affected by Hellyth, Scyir of Nightfall's feat Blessings of the Void (–2 DEF) would have a current DEF of 3."
+            }
+          ]
+        },
+        {
+          "title": "Model Special Rules",
+          "page": 9,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Most WARMACHINE combatants are highly specialized and trained to fill unique roles on the battlefield. To represent this, models have special rules that take precedence over the standard rules. Special rules include advantages, feats, resistances, special actions, special attacks, spells, weapon qualities, and other rules that appear on a model's card and in its model entry."
+            },
+            {
+              "type": "paragraph",
+              "text": "In addition, some model types have additional rules that appear in the text of a book. For example, warjacks and warcasters have additional rules that appear in the “Warjacks” (p. 37) and \"Warcasters & Focus\" (p. 35) sections of this rulebook, which detail many special rules common to all warcasters and warjacks that do not appear on their stat cards or model entries. Likewise, warlocks and warbeasts have additional rules that appear in the \"Warbeasts\" (p.41) and \"Warlocks & Fury\" (p. 39) sections of this rulebook."
+            },
+            {
+              "type": "paragraph",
+              "text": "Some special rules have a range (RNG). A rule's range is the maximum distance in inches it can be used to affect another model or unit (see \"Measuring Range,\" p. 43). A model with a special rule that has a RNG is the point of origin of the rule's effect (see \"Point of Origin & Origin of Damage,\" p. 21)."
+            },
+            {
+              "type": "paragraph",
+              "text": "If the target model is within range, it is affected by the special rule. If the target model is outside the range, it is not affected but the special rule has still been used. Spells and attacks have their own rules for measuring range and determining the effects of making an action if the target is out of range."
+            },
+            {
+              "type": "paragraph",
+              "text": "If a model can be a valid target for its own special rule, then it is always within range of its special rule."
+            },
+            {
+              "type": "example",
+              "text": "Kommander Valerii Savaryn has Battle Plan special rules with RNG 5 that can target warrior models. Because Savaryn is a warrior model, he can target himself with his Battle Plans and is always within range."
+            }
+          ]
+        },
+        {
+          "title": "Advantages",
+          "page": 9,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Advantages are common special rules that many models have. A model's advantages are marked as icons on its stat bar, along with its base size. The rules for advantages are listed below. Advantages are always in effect."
+            },
+            {
+              "type": "image_with_caption",
+              "image_filename": "advantages_icons_example.svg",
+              "caption": { "text": "These icons show that Therion Vhanek has the Pathfinder, Stealth, and Unstoppable advantages." }
+            },
+            {
+              "type": "definition_list",
+              "items": [
+                {
+                  "term": "'Jack Marshal",
+                  "definition": "This model is a 'jack marshal and can command warjacks (p. 46)."
+                },
+                {
+                  "term": "Advance Deployment",
+                  "definition": "In most scenarios, this model can be deployed after normal deployment, up to 3\" beyond the established deployment zone (p. 49)."
+                },
+                {
+                  "term": "Ambush",
+                  "definition": "In most scenarios, this model does not have to be deployed at the start of the game. Instead, it can be placed at the end of any of your Control Phases after the first turn (p. 49)."
+                },
+                {
+                  "term": "Amphibious",
+                  "definition": "This model treats shallow water as open terrain (p. 53) while advancing (p. 12). While completely in shallow water, this model gains concealment (p. 27) and does not block line of sight."
+                },
+                {
+                  "term": "Arc Node",
+                  "definition": "This warjack is a channeler equipped with an arc node and can act as a conduit for spells cast by its warcaster (p. 44)."
+                },
+                {
+                  "term": "Assault",
+                  "definition": "This model can make an Assault ranged attack (p. 27)."
+                },
+                {
+                  "term": "Cavalry",
+                  "definition": "This model is a cavalry model (p. 46)."
+                },
+                {
+                  "term": "Combined Melee Attack",
+                  "definition": "This model can participate in combined melee attacks with other models in its unit (p. 28)."
+                },
+                {
+                  "term": "Combined Ranged Attack",
+                  "definition": "This model can participate in combined ranged attacks with other models in its unit (p. 28)."
+                },
+                {
+                  "term": "Construct",
+                  "definition": "This model is a construct and is not a living model."
+                },
+                {
+                  "term": "Dual Attack",
+                  "definition": "This model can make melee and ranged attacks in the same activation. When this model makes its initial melee attacks or a power attack (p. 24), it can also make its initial ranged attacks."
+                },
+                {
+                  "term": "Eyeless Sight",
+                  "definition": "This model ignores cloud effects (p. 33) when determining line of sight. This model ignores concealment (p. 27) and Stealth (p. see below) and never suffers Blind."
+                },
+                {
+                  "term": "Flight",
+                  "definition": "This model can fly (p. 46)."
+                },
+                {
+                  "term": "Gladiator",
+                  "definition": "This model gains +2 on power attack damage rolls and on power attack collateral damage rolls."
+                },
+                {
+                  "term": "Gunfighter",
+                  "definition": "When this model makes a ranged attack while engaged, it does not have to target the model engaging it with the attack (see \"Engaged Attacker,\" p. 27)."
+                },
+                {
+                  "term": "Headbutt Power Attack",
+                  "definition": "This model can make Headbutt power attacks (p. 24)."
+                },
+                {
+                  "term": "Incorporeal",
+                  "definition": "This model roams the battlefield in spectral form (p. 46)."
+                },
+                {
+                  "term": "Pathfinder",
+                  "definition": "This model treats rough terrain as open terrain (p. 53) while advancing. While charging, slam power attacking, or trample power attacking, this model does not stop its movement when it contacts an obstacle."
+                },
+                {
+                  "term": "Slam Power Attack",
+                  "definition": "This model can make Slam power attacks (p. 16)."
+                },
+                {
+                  "term": "Soulless",
+                  "definition": "This living model does not generate a soul token (p. 33) when it is destroyed."
+                },
+                {
+                  "term": "Stealth",
+                  "definition": "Ranged and arcane attacks targeting this model from a point of origin (p. 10) greater than 5\" away automatically miss. This model is not an intervening model (Line of Sight & Targetting, p. 18) when determining line of sight from a model more than 5\" away."
+                },
+                {
+                  "term": "Tough",
+                  "definition": "When this model is disabled (p. 32), roll a d6. On a 5 or 6, remove 1 damage point from this model; it is no longer disabled and becomes knocked down (p. 34). While knocked down, this model loses Tough."
+                },
+                {
+                  "term": "Trample Power Attack",
+                  "definition": "This model can make Trample power attacks (p. 25)."
+                },
+                {
+                  "term": "Undead",
+                  "definition": "This model is an undead model and not a living model."
+                },
+                {
+                  "term": "Unstoppable",
+                  "definition": "This model does not have to forfeit its Combat Action when it advances or is placed out of one or more enemy models' melee ranges during its Normal Movement (see \"Disengaging,\" p. 47)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Resistances",
+          "page": 10,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Resistances are advantages that protect models from some types of damage and effects. When a model suffers damage of a type to which it is resistant, remove one die from the damage roll. If the damage has multiple damage types and a model is resistant to any of them, drop only one die from the damage roll."
+            },
+            {
+              "type": "definition_list",
+              "items": [
+                {
+                  "term": "Resistance: Blast",
+                  "definition": "When this model suffers a blast damage roll, remove one die from the damage roll (p. 30)."
+                },
+                {
+                  "term": "Resistance: Cold",
+                  "definition": "When this model suffers a cold damage roll, remove one die from the damage roll (p. 30)."
+                },
+                {
+                  "term": "Resistance: Corrosion",
+                  "definition": "When this model suffers a corrosion damage (Damage Types, p. 31) roll, remove one die from the damage roll. Additionally, this model is immune to the Corrosion continuous effect (see below and p. 34)."
+                },
+                {
+                  "term": "Resistance: Electricity",
+                  "definition": "When this model suffers an electrical damage (Damage Types, p. 31) roll, remove one die from the damage roll. Additionally, when lightning arcs as a result of a special rule, ignore models with Resistance: Electricity when determining which model the lightning arcs to. Lightning cannot arc from a model with Resistance: Electricity."
+                },
+                {
+                  "term": "Resistance: Fire",
+                  "definition": "When this model suffers a fire damage (Damage Types, p. 31) roll, remove one die from the damage roll. Additionally, this model is immune to the Fire continuous effect (see below and p. 34)."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Immunity to Continuous Effects",
+          "page": 10,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Some immunities and special rules also grant immunities to some or all continuous effects (p. 34). A model that is immune to a continuous effect never suffers the effect; the continuous effect is never applied to that model. If a model gains immunity to a continuous effect while suffering that effect, the continuous effect immediately expires."
+            }
+          ]
+        },
+        {
+          "title": "Feats",
+          "page": 10,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Each warcaster and warlock has a unique and powerful special rule called a feat that can be used only once per game (pp. 36, 39)."
+            }
+          ]
+        },
+        {
+          "title": "Special Actions (★Actions) and Special Attacks (★Attacks)",
+          "page": 10,
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A model can make a special action or a special attack during its Combat Action if it meets the requirements for the special action's or special attack's use (see \"Combat Actions,\" p. 17)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

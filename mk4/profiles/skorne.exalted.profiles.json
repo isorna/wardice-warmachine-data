@@ -43,13 +43,13 @@
         "abilities": [
           "inflictPain",
           "witchMark"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Whispers of Torment",
-      "rules": "While in Xekaar's control range, enemy models suffer -3 MAT, RAT, and THR. Additionally, affected models suffer -3 to their melee attack damage rolls. Whispers of Torment lasts for one round."
-    },
+    "feat": [
+      "beastMasterXekaarFeat"
+    ],
     "spells": [
       "deadweight",
       "mortality",
@@ -57,7 +57,11 @@
       "pursuit",
       "silenceOfDeath"
     ],
-    "animus": "repulsion"
+    "animus": [
+      "repulsion"
+    ],
+    "advantages": [],
+    "options": []
   },
   "agonizer": {
     "name": "Agonizer",
@@ -87,12 +91,24 @@
         "total": 12,
         "grid": {
           "columns": [
-            { "boxes": 2 },
-            { "boxes": 1 },
-            { "boxes": 3 },
-            { "boxes": 1 },
-            { "boxes": 4 },
-            { "boxes": 1 }
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            }
           ]
         }
       }
@@ -113,10 +129,15 @@
           "meleeAttack": 3,
           "range": 1,
           "power": 8
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "repulsion"
+    "animus": [
+      "repulsion"
+    ],
+    "advantages": [],
+    "options": []
   },
   "aradusScarab": {
     "name": "Aradus Scarab",
@@ -146,12 +167,24 @@
         "total": 13,
         "grid": {
           "columns": [
-            { "boxes": 2 },
-            { "boxes": 1 },
-            { "boxes": 4 },
-            { "boxes": 1 },
-            { "boxes": 3 },
-            { "boxes": 1 }
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            }
           ]
         }
       }
@@ -172,10 +205,15 @@
         },
         "abilities": [
           "criticalParalysis"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "animus": "scuttler"
+    "animus": [
+      "scuttler"
+    ],
+    "advantages": [],
+    "options": []
   },
   "aradusSentinel": {
     "name": "Aradus Sentinel",
@@ -206,12 +244,24 @@
         "total": 28,
         "grid": {
           "columns": [
-            { "boxes": 5 },
-            { "boxes": 2 },
-            { "boxes": 8 },
-            { "boxes": 6 },
-            { "boxes": 5 },
-            { "boxes": 3 }
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
           ]
         }
       }
@@ -234,7 +284,8 @@
         },
         "abilities": [
           "poison"
-        ]
+        ],
+        "qualities": []
       },
       "claw": {
         "type": "melee",
@@ -244,10 +295,15 @@
           "meleeAttack": 6,
           "range": 1,
           "power": 14
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "acidicTouch"
+    "animus": [
+      "acidicTouch"
+    ],
+    "advantages": [],
+    "options": []
   },
   "aradusSoldier": {
     "name": "Aradus Soldier",
@@ -277,12 +333,24 @@
         "total": 28,
         "grid": {
           "columns": [
-            { "boxes": 5 },
-            { "boxes": 2 },
-            { "boxes": 8 },
-            { "boxes": 6 },
-            { "boxes": 5 },
-            { "boxes": 3 }
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
           ]
         }
       }
@@ -301,7 +369,8 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 18
-        }
+        },
+        "qualities": []
       },
       "barbedClaw": {
         "type": "melee",
@@ -314,9 +383,12 @@
         },
         "abilities": [
           "drag"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "archidon": {
     "name": "Archidon",
@@ -345,12 +417,24 @@
         "total": 25,
         "grid": {
           "columns": [
-            { "boxes": 5 },
-            { "boxes": 2 },
-            { "boxes": 6 },
-            { "boxes": 4 },
-            { "boxes": 5 },
-            { "boxes": 3 }
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
           ]
         }
       }
@@ -369,10 +453,15 @@
         },
         "abilities": [
           "criticalPitch"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "animus": "lightningStrike"
+    "animus": [
+      "lightningStrike"
+    ],
+    "advantages": [],
+    "options": []
   },
   "basiliskDrake": {
     "name": "Basilisk Drake",
@@ -403,12 +492,24 @@
         "total": 22,
         "grid": {
           "columns": [
-            { "boxes": 5 },
-            { "boxes": 2 },
-            { "boxes": 5 },
-            { "boxes": 3 },
-            { "boxes": 5 },
-            { "boxes": 2 }
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
           ]
         }
       }
@@ -422,7 +523,8 @@
           "range": "Sp 8",
           "rateOfFire": 1,
           "power": 14
-        }
+        },
+        "qualities": []
       },
       "bite": {
         "type": "melee",
@@ -431,10 +533,15 @@
           "meleeAttack": 5,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "lurker"
+    "animus": [
+      "lurker"
+    ],
+    "advantages": [],
+    "options": []
   },
   "basiliskKrea": {
     "name": "Basilisk Krea",
@@ -465,12 +572,24 @@
         "total": 22,
         "grid": {
           "columns": [
-            { "boxes": 5 },
-            { "boxes": 2 },
-            { "boxes": 4 },
-            { "boxes": 1 },
-            { "boxes": 6 },
-            { "boxes": 4 }
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
           ]
         }
       }
@@ -486,7 +605,8 @@
         },
         "abilities": [
           "paralysis"
-        ]
+        ],
+        "qualities": []
       },
       "bite": {
         "type": "melee",
@@ -495,10 +615,15 @@
           "meleeAttack": 4,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "forceAura"
+    "animus": [
+      "forceAura"
+    ],
+    "advantages": [],
+    "options": []
   },
   "bronzebackTitan": {
     "name": "Bronzeback Titan",
@@ -528,12 +653,24 @@
         "total": 34,
         "grid": {
           "columns": [
-            { "boxes": 6 },
-            { "boxes": 4 },
-            { "boxes": 8 },
-            { "boxes": 6 },
-            { "boxes": 6 },
-            { "boxes": 4 }
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
           ]
         }
       }
@@ -550,7 +687,8 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 16
-        }
+        },
+        "qualities": []
       },
       "warGauntlet": {
         "type": "melee",
@@ -564,10 +702,15 @@
         "abilities": [
           "beatBack",
           "chainAttackGrabSmash"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "animus": "indomitable"
+    "animus": [
+      "indomitable"
+    ],
+    "advantages": [],
+    "options": []
   },
   "chiron": {
     "name": "Chiron",
@@ -599,12 +742,24 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 5 },
-            { "boxes": 3 },
-            { "boxes": 7 },
-            { "boxes": 5 },
-            { "boxes": 6 },
-            { "boxes": 4 }
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
           ]
         }
       }
@@ -626,7 +781,8 @@
         },
         "abilities": [
           "inflictPain"
-        ]
+        ],
+        "qualities": []
       },
       "bite": {
         "type": "melee",
@@ -635,10 +791,15 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 16
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "counterblast"
+    "animus": [
+      "counterblast"
+    ],
+    "advantages": [],
+    "options": []
   },
   "cyclopsShaman": {
     "name": "Cyclops Shaman",
@@ -668,12 +829,24 @@
         "total": 21,
         "grid": {
           "columns": [
-            { "boxes": 4 },
-            { "boxes": 2 },
-            { "boxes": 4 },
-            { "boxes": 2 },
-            { "boxes": 6 },
-            { "boxes": 3 }
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
           ]
         }
       }
@@ -694,7 +867,8 @@
         },
         "abilities": [
           "ghostShot"
-        ]
+        ],
+        "qualities": []
       },
       "battleSpear": {
         "type": "melee",
@@ -703,10 +877,15 @@
           "meleeAttack": 5,
           "range": 2,
           "power": 11
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "spiritBlade"
+    "animus": [
+      "spiritBlade"
+    ],
+    "advantages": [],
+    "options": []
   },
   "desertHydra": {
     "name": "Desert Hydra",
@@ -736,12 +915,24 @@
         "total": 55,
         "grid": {
           "columns": [
-            { "boxes": 8 },
-            { "boxes": 6 },
-            { "boxes": 12 },
-            { "boxes": 10 },
-            { "boxes": 11 },
-            { "boxes": 8 }
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 12
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 8
+            }
           ]
         }
       }
@@ -761,7 +952,8 @@
           "range": "Sp 8",
           "rateOfFire": 1,
           "power": 14
-        }
+        },
+        "qualities": []
       },
       "bite": {
         "type": "melee",
@@ -773,10 +965,15 @@
         },
         "abilities": [
           "criticalGrievousWounds"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "animus": "sandStorm"
+    "animus": [
+      "sandStorm"
+    ],
+    "advantages": [],
+    "options": []
   },
   "despoiler": {
     "name": "Despoiler",
@@ -806,12 +1003,24 @@
         "total": 27,
         "grid": {
           "columns": [
-            { "boxes": 4 },
-            { "boxes": 3 },
-            { "boxes": 6 },
-            { "boxes": 4 },
-            { "boxes": 6 },
-            { "boxes": 4 }
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
           ]
         }
       }
@@ -832,7 +1041,8 @@
         },
         "abilities": [
           "criticalBrutalDamage"
-        ]
+        ],
+        "qualities": []
       },
       "claw": {
         "type": "melee",
@@ -842,9 +1052,12 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 13
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "mammoth": {
     "name": "Mammoth",
@@ -874,12 +1087,24 @@
         "total": 56,
         "grid": {
           "columns": [
-            { "boxes": 8 },
-            { "boxes": 5 },
-            { "boxes": 13 },
-            { "boxes": 11 },
-            { "boxes": 11 },
-            { "boxes": 8 }
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 13
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 8
+            }
           ]
         }
       }
@@ -901,7 +1126,8 @@
         },
         "abilities": [
           "fullBatteryFireAttack"
-        ]
+        ],
+        "qualities": []
       },
       "tusks": {
         "type": "melee",
@@ -913,7 +1139,8 @@
         },
         "abilities": [
           "criticalPitch"
-        ]
+        ],
+        "qualities": []
       },
       "warGauntlet": {
         "type": "melee",
@@ -923,10 +1150,15 @@
           "meleeAttack": 6,
           "range": 2,
           "power": 19
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "counterblast"
+    "animus": [
+      "counterblast"
+    ],
+    "advantages": [],
+    "options": []
   },
   "razorWorm": {
     "name": "Razor Worm",
@@ -955,12 +1187,24 @@
         "total": 21,
         "grid": {
           "columns": [
-            { "boxes": 4 },
-            { "boxes": 1 },
-            { "boxes": 5 },
-            { "boxes": 3 },
-            { "boxes": 5 },
-            { "boxes": 3 }
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
           ]
         }
       }
@@ -979,10 +1223,15 @@
           "meleeAttack": 6,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "spinyGrowth"
+    "animus": [
+      "spinyGrowth"
+    ],
+    "advantages": [],
+    "options": []
   },
   "rhinodon": {
     "name": "Rhinodon",
@@ -1011,12 +1260,24 @@
         "total": 27,
         "grid": {
           "columns": [
-            { "boxes": 4 },
-            { "boxes": 3 },
-            { "boxes": 6 },
-            { "boxes": 4 },
-            { "boxes": 6 },
-            { "boxes": 4 }
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
           ]
         }
       }
@@ -1033,7 +1294,8 @@
         "abilities": [
           "criticalKnockdown",
           "thresherAttack"
-        ]
+        ],
+        "qualities": []
       },
       "claw": {
         "type": "melee",
@@ -1043,10 +1305,15 @@
           "meleeAttack": 6,
           "range": 1,
           "power": 14
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "spinyGrowth"
+    "animus": [
+      "spinyGrowth"
+    ],
+    "advantages": [],
+    "options": []
   },
   "theTerrorizer": {
     "name": "The Terrorizer",
@@ -1077,12 +1344,24 @@
         "total": 14,
         "grid": {
           "columns": [
-            { "boxes": 3 },
-            { "boxes": 1 },
-            { "boxes": 4 },
-            { "boxes": 1 },
-            { "boxes": 4 },
-            { "boxes": 1 }
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            }
           ]
         }
       }
@@ -1099,7 +1378,8 @@
           "range": "Sp 8",
           "rateOfFire": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       },
       "slugGun": {
         "type": "ranged",
@@ -1109,7 +1389,8 @@
           "range": 4,
           "rateOfFire": 1,
           "power": 14
-        }
+        },
+        "qualities": []
       },
       "ripper": {
         "type": "melee",
@@ -1121,7 +1402,8 @@
         },
         "abilities": [
           "inflictPain"
-        ]
+        ],
+        "qualities": []
       },
       "sword": {
         "type": "melee",
@@ -1130,10 +1412,15 @@
           "meleeAttack": 5,
           "range": 1,
           "power": 9
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "lurker"
+    "animus": [
+      "lurker"
+    ],
+    "advantages": [],
+    "options": []
   },
   "titanGladiator": {
     "name": "Titan Gladiator",
@@ -1163,12 +1450,24 @@
         "total": 32,
         "grid": {
           "columns": [
-            { "boxes": 6 },
-            { "boxes": 4 },
-            { "boxes": 7 },
-            { "boxes": 5 },
-            { "boxes": 6 },
-            { "boxes": 4 }
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
           ]
         }
       }
@@ -1186,7 +1485,8 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 15
-        }
+        },
+        "qualities": []
       },
       "warGauntlet": {
         "type": "melee",
@@ -1196,10 +1496,15 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 16
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "rush"
+    "animus": [
+      "rush"
+    ],
+    "advantages": [],
+    "options": []
   },
   "titanSentry": {
     "name": "Titan Sentry",
@@ -1229,12 +1534,24 @@
         "total": 32,
         "grid": {
           "columns": [
-            { "boxes": 6 },
-            { "boxes": 4 },
-            { "boxes": 7 },
-            { "boxes": 5 },
-            { "boxes": 6 },
-            { "boxes": 4 }
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
           ]
         }
       }
@@ -1251,7 +1568,8 @@
           "meleeAttack": 6,
           "range": 2,
           "power": 15
-        }
+        },
+        "qualities": []
       },
       "shield": {
         "type": "melee",
@@ -1260,7 +1578,8 @@
           "meleeAttack": 6,
           "range": 1,
           "power": 14
-        }
+        },
+        "qualities": []
       },
       "halberd": {
         "type": "melee",
@@ -1269,10 +1588,15 @@
           "meleeAttack": 6,
           "range": 2,
           "power": 16
-        }
+        },
+        "qualities": []
       }
     },
-    "animus": "ornery"
+    "animus": [
+      "ornery"
+    ],
+    "advantages": [],
+    "options": []
   },
   "lordArbiterHexeris": {
     "name": "Lord Arbiter Hexeris",
@@ -1314,20 +1638,22 @@
         },
         "abilities": [
           "thresherAttack"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Arcane Reaver",
-      "rules": "Immediately remove any number of soul tokens, fury points, essence points, and focus points from non-Leader models in Hexeris' control range. For each token or point removed, place 1 fury point on Hexeris. Hexeris cannot exceed his current ARC in fury points as a result of Arcane Reaver."
-    },
+    "feat": [
+      "lordArbiterHexerisFeat"
+    ],
     "spells": [
       "banishingWard",
       "blackSpot",
       "cloakOfAsh",
       "eruption",
       "stranglehold"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "voidSeerMordikaar": {
     "name": "Void Seer Mordikaar",
@@ -1371,7 +1697,8 @@
         },
         "abilities": [
           "bloodBoon"
-        ]
+        ],
+        "qualities": []
       },
       "eidolus": {
         "type": "melee",
@@ -1383,20 +1710,22 @@
         },
         "abilities": [
           "lifeDrinker"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Void Wind",
-      "rules": "While in Mordikaar's control range, friendly Faction models gain +3 DEF and Poltergeist. Void Wind lasts for one round."
-    },
+    "feat": [
+      "voidSeerMordikaarFeat"
+    ],
     "spells": [
       "disintegration",
       "hollow",
       "hostOfShadows",
       "lamentation",
       "revive"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "zaalTheAncestralAdvocate": {
     "name": "Zaal, The Ancestral Advocate",
@@ -1440,20 +1769,22 @@
         },
         "abilities": [
           "silencer"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Strength Eternal",
-      "rules": "Remove d6 + 3 damage points from each friendly Faction construct model currently in Zaal's control range. While in Zaal's control range, friendly Faction construct models gain +3 ARM. Strength Eternal lasts for one round."
-    },
+    "feat": [
+      "zaalTheAncestralAdvocateFeat"
+    ],
     "spells": [
       "annihilation",
       "arcaneMight",
       "mageSight",
       "sunderSpirit",
       "vision"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "supremeGuardian": {
     "name": "Supreme Guardian",
@@ -1501,7 +1832,8 @@
           "rateOfFire": 1,
           "areaOfEffect": 3,
           "power": "14/8"
-        }
+        },
+        "qualities": []
       },
       "obsidianBlade": {
         "type": "melee",
@@ -1514,9 +1846,12 @@
         "abilities": [
           "siegeWeapon",
           "thresherAttack"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "abidanTheKeeper": {
     "name": "Abidan the Keeper",
@@ -1560,9 +1895,12 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 13
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "ancestralGuardian": {
     "name": "Ancestral Guardian",
@@ -1607,9 +1945,12 @@
           "meleeAttack": 8,
           "range": 2,
           "power": 14
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "aptimusMarketh": {
     "name": "Aptimus Marketh",
@@ -1664,7 +2005,8 @@
         },
         "abilities": [
           "ghostShot"
-        ]
+        ],
+        "qualities": []
       },
       "gravitas": {
         "type": "melee",
@@ -1673,9 +2015,12 @@
           "meleeAttack": 6,
           "range": 2,
           "power": 11
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "extollerNovitiate": {
     "name": "Extoller Novitiate",
@@ -1716,9 +2061,12 @@
           "meleeAttack": 5,
           "range": 1,
           "power": 8
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "extollerSoulward": {
     "name": "Extoller Soulward",
@@ -1767,9 +2115,12 @@
         },
         "abilities": [
           "ghostShot"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "hakaarTheDestroyer": {
     "name": "Hakaar the Destroyer",
@@ -1820,9 +2171,12 @@
         },
         "abilities": [
           "comboStrikeAttack"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "immortalVessel": {
     "name": "Immortal Vessel",
@@ -1866,7 +2220,8 @@
         },
         "abilities": [
           "ghostShot"
-        ]
+        ],
+        "qualities": []
       },
       "polearm": {
         "type": "melee",
@@ -1875,9 +2230,12 @@
           "meleeAttack": 6,
           "range": 2,
           "power": 12
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "paingiverBloodrunnerMasterTormentor": {
     "name": "Paingiver Bloodrunner Master Tormentor",
@@ -1919,9 +2277,12 @@
         },
         "abilities": [
           "thresherAttack"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "voidSpirit": {
     "name": "Void Spirit",
@@ -1958,9 +2319,12 @@
           "meleeAttack": 6,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "immortals": {
     "name": "Immortals",
@@ -1998,9 +2362,12 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 13
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "extollerAdvocate": {
     "name": "Extoller Advocate",
@@ -2049,9 +2416,12 @@
         },
         "abilities": [
           "ghostShot"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "nihilators": {
     "name": "Nihilators",
@@ -2087,9 +2457,12 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 12
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "paingiverBeastHandlers": {
     "name": "Paingiver Beast Handlers",
@@ -2132,9 +2505,12 @@
         },
         "abilities": [
           "inflictPain"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "paingiverBloodrunners": {
     "name": "Paingiver Bloodrunners",
@@ -2173,8 +2549,11 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 8
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   }
 }

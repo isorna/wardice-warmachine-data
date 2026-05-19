@@ -40,20 +40,22 @@
         },
         "abilities": [
           "bloodShadow"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Shadowfall",
-      "rules": "Models in Agathia's battlegroup currently in her control range are affected by Ghost Walk. Additionally, you can place each friendly faction Cohort model currently in Agathia's control range anywhere completely within 3\" of its current location. Shadowfall lasts for one turn."
-    },
+    "feat": [
+      "baneWitchAgathiaFeat"
+    ],
     "spells": [
       "ghostWalk",
       "hellfire",
       "hellwrought",
       "parasite",
       "vanish"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "corruptor": {
     "name": "Corruptor",
@@ -81,12 +83,48 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 4, "systems": { "4": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 4, "systems": { "3": "R" } }
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -106,7 +144,15 @@
           "rateOfFire": 1,
           "power": 14
         },
-        "abilities": [["attackType", "burster", "distillation", "psychoVenom"]]
+        "abilities": [
+          [
+            "attackType",
+            "burster",
+            "distillation",
+            "psychoVenom"
+          ]
+        ],
+        "qualities": []
       },
       "necrojector": {
         "type": "melee",
@@ -117,9 +163,18 @@
           "range": 2,
           "power": 16
         },
-        "abilities": [["attackType", "burster", "distillation", "psychoVenom"]]
+        "abilities": [
+          [
+            "attackType",
+            "burster",
+            "distillation",
+            "psychoVenom"
+          ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "deathripper": {
     "name": "Deathripper",
@@ -146,12 +201,48 @@
         "total": 22,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
-            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
-            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
-            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
-            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
-            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "F"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "A",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "A",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "M",
+                "3": "M"
+              }
+            }
           ]
         }
       }
@@ -172,9 +263,11 @@
         },
         "abilities": [
           "sustainedAttack"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "defiler": {
     "name": "Defiler",
@@ -202,12 +295,48 @@
         "total": 22,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
-            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
-            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
-            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
-            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
-            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "F"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "A",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "A",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "M",
+                "3": "M"
+              }
+            }
           ]
         }
       }
@@ -226,7 +355,8 @@
           "range": "Sp 8",
           "rateOfFire": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       },
       "bash": {
         "type": "melee",
@@ -235,9 +365,11 @@
           "meleeAttack": 5,
           "range": 1,
           "power": 7
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "desecrator": {
     "name": "Desecrator",
@@ -265,12 +397,48 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 4, "systems": { "4": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 4, "systems": { "3": "R" } }
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -294,7 +462,8 @@
           "rateOfFire": 1,
           "areaOfEffect": 3,
           "power": "14/8"
-        }
+        },
+        "qualities": []
       },
       "vivisector": {
         "type": "melee",
@@ -308,9 +477,11 @@
         "abilities": [
           "criticalShred",
           "grievousWounds"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "erebus": {
     "name": "Erebus",
@@ -338,12 +509,48 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "3": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 3, "systems": { "3": "R" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -370,9 +577,11 @@
         },
         "abilities": [
           "freeze"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "inflictor": {
     "name": "Inflictor",
@@ -399,12 +608,48 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "3": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 3, "systems": { "3": "R" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -425,7 +670,8 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 13
-        }
+        },
+        "qualities": []
       },
       "stinger": {
         "type": "melee",
@@ -438,9 +684,11 @@
         },
         "abilities": [
           "criticalPoison"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "kraken": {
     "name": "Kraken",
@@ -469,22 +717,106 @@
         "grid": {
           "L": {
             "columns": [
-              { "boxes": 4, "systems": { "3": "L", "4": "L" } },
-              { "boxes": 4, "systems": { "3": "L", "4": "C" } },
-              { "boxes": 4, "systems": { "2": "L", "3": "C", "4": "M" } },
-              { "boxes": 5, "systems": { "3": "L", "4": "C", "5": "M" } },
-              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
-              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } }
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "L",
+                  "4": "L"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "L",
+                  "4": "C"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "2": "L",
+                  "3": "C",
+                  "4": "M"
+                }
+              },
+              {
+                "boxes": 5,
+                "systems": {
+                  "3": "L",
+                  "4": "C",
+                  "5": "M"
+                }
+              },
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "S",
+                  "5": "C",
+                  "6": "M"
+                }
+              },
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "C",
+                  "5": "C",
+                  "6": "M"
+                }
+              }
             ]
           },
           "R": {
             "columns": [
-              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } },
-              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
-              { "boxes": 5, "systems": { "3": "R", "4": "C", "5": "M" } },
-              { "boxes": 4, "systems": { "2": "R", "3": "C", "4": "M" } },
-              { "boxes": 4, "systems": { "3": "R", "6": "C" } },
-              { "boxes": 4, "systems": { "3": "R", "6": "R" } }
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "C",
+                  "5": "C",
+                  "6": "M"
+                }
+              },
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "S",
+                  "5": "C",
+                  "6": "M"
+                }
+              },
+              {
+                "boxes": 5,
+                "systems": {
+                  "3": "R",
+                  "4": "C",
+                  "5": "M"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "2": "R",
+                  "3": "C",
+                  "4": "M"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "R",
+                  "6": "C"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "R",
+                  "6": "R"
+                }
+              }
             ]
           }
         }
@@ -515,7 +847,8 @@
         },
         "abilities": [
           "doomDriver"
-        ]
+        ],
+        "qualities": []
       },
       "flayer": {
         "type": "ranged",
@@ -525,7 +858,8 @@
           "range": 12,
           "rateOfFire": "D3+1",
           "power": 12
-        }
+        },
+        "qualities": []
       },
       "harvester": {
         "type": "melee",
@@ -538,9 +872,11 @@
         },
         "abilities": [
           "doomDriver"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "nightmare": {
     "name": "Nightmare",
@@ -568,12 +904,48 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "3": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 3, "systems": { "3": "R" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -600,7 +972,8 @@
         },
         "abilities": [
           "chainAttackGrabSmash"
-        ]
+        ],
+        "qualities": []
       },
       "tusks": {
         "type": "melee",
@@ -609,9 +982,11 @@
           "meleeAttack": 8,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "nightwretch": {
     "name": "Nightwretch",
@@ -639,12 +1014,48 @@
         "total": 22,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
-            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
-            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
-            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
-            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
-            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "F"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "A",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "A",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "M",
+                "3": "M"
+              }
+            }
           ]
         }
       }
@@ -664,7 +1075,8 @@
           "rateOfFire": 1,
           "areaOfEffect": 2,
           "power": "14/8"
-        }
+        },
+        "qualities": []
       },
       "bash": {
         "type": "melee",
@@ -673,9 +1085,11 @@
           "meleeAttack": 5,
           "range": 1,
           "power": 7
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "reaper": {
     "name": "Reaper",
@@ -703,12 +1117,48 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "3": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 3, "systems": { "3": "R" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -730,7 +1180,8 @@
         },
         "abilities": [
           "skewer"
-        ]
+        ],
+        "qualities": []
       },
       "helldriver": {
         "type": "melee",
@@ -743,7 +1194,8 @@
         },
         "abilities": [
           "sustainedAttack"
-        ]
+        ],
+        "qualities": []
       },
       "tusks": {
         "type": "melee",
@@ -752,9 +1204,11 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "ripjaw": {
     "name": "Ripjaw",
@@ -781,12 +1235,48 @@
         "total": 22,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "2": "F", "3": "F" } },
-            { "boxes": 3, "systems": { "2": "F", "3": "C" } },
-            { "boxes": 4, "systems": { "3": "C", "4": "C" } },
-            { "boxes": 4, "systems": { "3": "A", "4": "M" } },
-            { "boxes": 3, "systems": { "2": "A", "3": "M" } },
-            { "boxes": 3, "systems": { "2": "M", "3": "M" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "F"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "A",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "A",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "M",
+                "3": "M"
+              }
+            }
           ]
         }
       }
@@ -808,9 +1298,11 @@
         "abilities": [
           "criticalArmorPiercing",
           "powerfulAttack"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "seether": {
     "name": "Seether",
@@ -837,12 +1329,48 @@
         "total": 30,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "3": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 3, "systems": { "3": "R" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -865,7 +1393,8 @@
           "meleeAttack": 8,
           "range": 1,
           "power": 17
-        }
+        },
+        "qualities": []
       },
       "tusks": {
         "type": "melee",
@@ -874,9 +1403,11 @@
           "meleeAttack": 8,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "sepulcher": {
     "name": "Sepulcher",
@@ -905,22 +1436,106 @@
         "grid": {
           "L": {
             "columns": [
-              { "boxes": 4, "systems": { "3": "L", "4": "L" } },
-              { "boxes": 4, "systems": { "3": "L", "4": "C" } },
-              { "boxes": 4, "systems": { "2": "L", "3": "C", "4": "M" } },
-              { "boxes": 5, "systems": { "3": "L", "4": "C", "5": "M" } },
-              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
-              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } }
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "L",
+                  "4": "L"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "L",
+                  "4": "C"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "2": "L",
+                  "3": "C",
+                  "4": "M"
+                }
+              },
+              {
+                "boxes": 5,
+                "systems": {
+                  "3": "L",
+                  "4": "C",
+                  "5": "M"
+                }
+              },
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "S",
+                  "5": "C",
+                  "6": "M"
+                }
+              },
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "C",
+                  "5": "C",
+                  "6": "M"
+                }
+              }
             ]
           },
           "R": {
             "columns": [
-              { "boxes": 6, "systems": { "3": "S", "4": "C", "5": "C", "6": "M" } },
-              { "boxes": 6, "systems": { "3": "S", "4": "S", "5": "C", "6": "M" } },
-              { "boxes": 5, "systems": { "3": "R", "4": "C", "5": "M" } },
-              { "boxes": 4, "systems": { "2": "R", "3": "C", "4": "M" } },
-              { "boxes": 4, "systems": { "3": "R", "6": "C" } },
-              { "boxes": 4, "systems": { "3": "R", "6": "R" } }
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "C",
+                  "5": "C",
+                  "6": "M"
+                }
+              },
+              {
+                "boxes": 6,
+                "systems": {
+                  "3": "S",
+                  "4": "S",
+                  "5": "C",
+                  "6": "M"
+                }
+              },
+              {
+                "boxes": 5,
+                "systems": {
+                  "3": "R",
+                  "4": "C",
+                  "5": "M"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "2": "R",
+                  "3": "C",
+                  "4": "M"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "R",
+                  "6": "C"
+                }
+              },
+              {
+                "boxes": 4,
+                "systems": {
+                  "3": "R",
+                  "6": "R"
+                }
+              }
             ]
           }
         }
@@ -951,7 +1566,8 @@
         },
         "abilities": [
           "arcingFire"
-        ]
+        ],
+        "qualities": []
       },
       "impaler": {
         "type": "ranged",
@@ -966,7 +1582,8 @@
         },
         "abilities": [
           "volumeFire"
-        ]
+        ],
+        "qualities": []
       },
       "harvester": {
         "type": "melee",
@@ -980,9 +1597,11 @@
         },
         "abilities": [
           "drag"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "slayer": {
     "name": "Slayer",
@@ -1009,12 +1628,48 @@
         "total": 28,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "3": "L" } },
-            { "boxes": 5, "systems": { "3": "L", "4": "L", "5": "M" } },
-            { "boxes": 6, "systems": { "5": "M", "6": "M" } },
-            { "boxes": 6, "systems": { "5": "C", "6": "C" } },
-            { "boxes": 5, "systems": { "3": "R", "4": "R", "5": "C" } },
-            { "boxes": 3, "systems": { "3": "R" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -1036,7 +1691,8 @@
         },
         "abilities": [
           "comboStrikeAttack"
-        ]
+        ],
+        "qualities": []
       },
       "tusks": {
         "type": "melee",
@@ -1045,9 +1701,11 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "stalker": {
     "name": "Stalker",
@@ -1074,12 +1732,48 @@
         "total": 22,
         "grid": {
           "columns": [
-            { "boxes": 3, "systems": { "3": "L" } },
-            { "boxes": 4, "systems": { "2": "L", "3": "L", "4": "M" } },
-            { "boxes": 3, "systems": { "2": "M", "3": "M" } },
-            { "boxes": 3, "systems": { "2": "C", "3": "C" } },
-            { "boxes": 4, "systems": { "2": "R", "3": "R", "4": "C" } },
-            { "boxes": 3, "systems": { "3": "R" } }
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "M",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "C",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
           ]
         }
       }
@@ -1105,9 +1799,11 @@
         },
         "abilities": [
           "grievousWounds"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "deneghraTheSoulWeaver": {
     "name": "Deneghra, the Soul Weaver",
@@ -1154,7 +1850,8 @@
           "range": "Sp 8",
           "rateOfFire": 1,
           "power": 12
-        }
+        },
+        "qualities": []
       },
       "malefactor": {
         "type": "melee",
@@ -1163,19 +1860,21 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 13
-        }
+        },
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Hell Gate",
-      "rules": "Deneghra immediately gains seven soul tokens."
-    },
+    "feat": [
+      "deneghraTheSoulWeaverFeat"
+    ],
     "spells": [
       "ghostWalk",
       "graveWind",
       "mortality",
       "scourge"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "goreshadeTheBastard": {
     "name": "Goreshade the Bastard",
@@ -1212,20 +1911,22 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 14
-        }
+        },
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Dark Summons",
-      "rules": "Put a small-based Bane unit into play. Place each model completely within 3\" of Goreshade."
-    },
+    "feat": [
+      "goreshadeTheBastardFeat"
+    ],
     "spells": [
       "shadowmancer",
       "soulGate",
       "bleed",
       "hexBlast",
       "lamentation"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "deathwalker": {
     "name": "Deathwalker",
@@ -1253,7 +1954,9 @@
       "breathTaker",
       "companionGoreshadeTheBastard",
       "darkRestoration"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "lordExhumatorScaverous": {
     "name": "Lord Exhumator Scaverous",
@@ -1295,19 +1998,21 @@
         },
         "abilities": [
           "thresherAttack"
-        ]
+        ],
+        "qualities": []
       }
     },
-    "feat": {
-      "name": "Black Gate",
-      "rules": "While in Scaverous' control range, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell while in Scaverous' control range, increase the COST by 1. Black Gate lasts for one round."
-    },
+    "feat": [
+      "lordExhumatorScaverousFeat"
+    ],
     "spells": [
       "deathWard",
       "excarnate",
       "feastOfWorms",
       "telekinesis"
-    ]
+    ],
+    "advantages": [],
+    "options": []
   },
   "wraithEngine": {
     "name": "Wraith Engine",
@@ -1351,9 +2056,11 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 15
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "baneLordTartarus": {
     "name": "Bane Lord Tartarus",
@@ -1396,9 +2103,12 @@
         },
         "abilities": [
           "deathTollSmallBasedBane"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "darraghWrathe": {
     "name": "Darragh Wrathe",
@@ -1435,7 +2145,8 @@
           "meleeAttack": 7,
           "range": 2,
           "power": 14
-        }
+        },
+        "qualities": []
       }
     },
     "profiles": {
@@ -1459,7 +2170,9 @@
           "health": 5
         }
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "hellslingerPhantom": {
     "name": "Hellslinger Phantom",
@@ -1509,10 +2222,17 @@
           "power": 12
         },
         "abilities": [
-          ["attackType", "criticalGrievousWounds", "incendiary", "phantomSeeker"]
-        ]
+          [
+            "attackType",
+            "criticalGrievousWounds",
+            "incendiary",
+            "phantomSeeker"
+          ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "machineWraith": {
     "name": "Machine Wraith",
@@ -1552,9 +2272,11 @@
         },
         "abilities": [
           "darkDomination"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "necrotech": {
     "name": "Necrotech",
@@ -1593,9 +2315,12 @@
           "meleeAttack": 6,
           "range": 2,
           "power": 10
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "olGrim": {
     "name": "Ol' Grim",
@@ -1646,9 +2371,11 @@
         },
         "abilities": [
           "wraithShot"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "pistolWraith": {
     "name": "Pistol Wraith",
@@ -1695,9 +2422,11 @@
         },
         "abilities": [
           "chainAttackDeathChill"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "options": []
   },
   "scrapThrall": {
     "name": "Scrap Thrall",
@@ -1735,9 +2464,12 @@
         },
         "abilities": [
           "deathBurstAttack"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "skarlockThrall": {
     "name": "Skarlock Thrall",
@@ -1783,9 +2515,12 @@
           "meleeAttack": 3,
           "range": 1,
           "power": 6
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "soulTrapper": {
     "name": "Soul Trapper",
@@ -1823,9 +2558,12 @@
           "meleeAttack": 5,
           "range": 1,
           "power": 8
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "baneKnights": {
     "name": "Bane Knights",
@@ -1866,7 +2604,8 @@
         },
         "abilities": [
           "brutalCharge"
-        ]
+        ],
+        "qualities": []
       },
       "shield": {
         "type": "melee",
@@ -1875,9 +2614,12 @@
           "meleeAttack": 6,
           "range": 1,
           "power": 10
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "baneKnightOfficer": {
     "name": "Bane Knight Officer",
@@ -1920,7 +2662,8 @@
         },
         "abilities": [
           "brutalCharge"
-        ]
+        ],
+        "qualities": []
       },
       "shield": {
         "type": "melee",
@@ -1929,9 +2672,12 @@
           "meleeAttack": 7,
           "range": 1,
           "power": 10
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "baneRiders": {
     "name": "Bane Riders",
@@ -1975,9 +2721,12 @@
         },
         "abilities": [
           "brutalCharge"
-        ]
+        ],
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "baneWarriors": {
     "name": "Bane Warriors",
@@ -2015,9 +2764,12 @@
           "meleeAttack": 6,
           "range": 1,
           "power": 11
-        }
+        },
+        "qualities": []
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "baneWarriorOfficerStandard": {
     "name": "Bane Warrior Officer & Standard",
@@ -2093,7 +2845,9 @@
           }
         }
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   },
   "theWithershadowCombine": {
     "name": "The Withershadow Combine",
@@ -2202,6 +2956,8 @@
           }
         }
       }
-    }
+    },
+    "advantages": [],
+    "options": []
   }
 }

@@ -56,7 +56,7 @@
     "army": {
       "type": "object",
       "title": "Army",
-      "required": ["name", "slug"],
+      "required": ["name", "slug", "format"],
       "additionalProperties": false,
       "properties": {
         "name": {
@@ -67,6 +67,10 @@
           "type": "string",
           "minLength": 1,
           "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "format": {
+          "type": "string",
+          "enum": ["prime-mk4", "prime-armies-of-legend", "legacy"]
         },
         "description": {
           "type": "string"

@@ -1,19 +1,54 @@
 {
-  "$id": "https://spec-kit.local/schemas/ability.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "abilities.schema.json",
+  "title": "Abilities",
+  "description": "Schema for mk4/abilities/*.json maps. Each key is an ability id.",
   "type": "object",
-  "required": ["id", "name", "description"],
-  "additionalProperties": false,
-  "properties": {
-    "id": { "type": "string", "pattern": "^[a-zA-Z0-9-]+$" },
-    "name": { "type": "string", "minLength": 1 },
-    "description": { "type": "string" },
-    "icon": { "type": "string" },
-    "faction": { "type": "string" },
-    "cost": { "type": "number" },
-    "range": { "type": "string" },
-    "aoe": { "type": "string" },
-    "duration": { "type": "string" },
-    "effect": { "type": "string" },
-    "notes": { "type": "string" }
+  "additionalProperties": {
+    "$ref": "#/definitions/ability"
+  },
+  "definitions": {
+    "ability": {
+      "type": "object",
+      "required": ["name", "description", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["feat", "ability", "command"]
+        },
+        "icon": {
+          "type": "string"
+        },
+        "faction": {
+          "type": "string"
+        },
+        "cost": {
+          "type": "number"
+        },
+        "range": {
+          "type": "string"
+        },
+        "aoe": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "string"
+        },
+        "effect": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
   }
 }

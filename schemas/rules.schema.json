@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "rules.schema.json",
+  "title": "Rules",
+  "description": "Schema for mk4/rules/rules.json map entries.",
+  "type": "object",
+  "additionalProperties": {
+    "$ref": "#/definitions/rule"
+  },
+  "definitions": {
+    "rule": {
+      "type": "object",
+      "required": ["name", "rules"],
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rules": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

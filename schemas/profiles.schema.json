@@ -10,228 +10,149 @@
   "definitions": {
     "profile": {
       "type": "object",
-      "required": [
-        "name"
-      ],
+      "required": ["name"],
       "additionalProperties": true,
       "properties": {
-        "name": {
-          "type": "string",
-          "minLength": 1
-        },
-        "faction": {
-          "type": "string"
-        },
-        "type": {
-          "type": "string"
-        },
-        "points": {
-          "type": "number"
-        },
+        "name": { "type": "string", "minLength": 1 },
+        "faction": { "type": "string" },
+        "type": { "type": "string" },
+        "points": { "type": "number" },
         "keywords": {
           "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "items": { "type": "string" }
         },
         "armies": {
           "type": "array",
-          "items": {
-            "type": "string"
-          }
+          "items": { "type": "string" }
         },
-        "fieldAllowance": {
-          "type": "string"
-        },
+        "fieldAllowance": { "type": "string" },
         "baseSize": {
           "type": "number",
-          "enum": [
-            30,
-            40,
-            50,
-            80,
-            120
-          ]
+          "enum": [30, 40, 50, 80, 120]
         },
         "statistics": {
           "type": "object",
           "additionalProperties": {
-            "oneOf": [
-              {
-                "type": "number"
-              },
-              {
-                "$ref": "#/definitions/healthGrid"
-              },
-              {
-                "type": "object"
-              }
-            ]
+            "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/healthGrid" }, { "type": "object" }]
           },
           "properties": {
-            "speed": {
-              "type": "number"
-            },
-            "arcaneAttack": {
-              "type": "number"
-            },
-            "arcana": {
-              "type": "number"
-            },
-            "meleeAttack": {
-              "type": "number"
-            },
-            "rangedAttack": {
-              "type": "number"
-            },
-            "defense": {
-              "type": "number"
-            },
-            "armour": {
-              "type": "number"
-            },
-            "controlRange": {
-              "type": "number"
-            },
-            "fury": {
-              "type": "number"
-            },
-            "threshold": {
-              "type": "number"
-            },
+            "speed": { "type": "number" },
+            "arcaneAttack": { "type": "number" },
+            "arcana": { "type": "number" },
+            "meleeAttack": { "type": "number" },
+            "rangedAttack": { "type": "number" },
+            "defense": { "type": "number" },
+            "armour": { "type": "number" },
+            "controlRange": { "type": "number" },
+            "fury": { "type": "number" },
+            "threshold": { "type": "number" },
             "health": {
-              "oneOf": [
-                {
-                  "type": "number"
-                },
-                {
-                  "$ref": "#/definitions/healthGrid"
-                }
-              ]
+              "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/healthGrid" }]
             }
           }
         },
-        "advantages": {
-          "type": "array",
-          "items": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                },
-                "minItems": 2
-              }
-            ]
-          }
-        },
-        "abilities": {
-          "type": "array",
-          "items": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                },
-                "minItems": 2
-              }
-            ]
-          }
-        },
-        "spells": {
-          "type": "array",
-          "items": {
-            "oneOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                },
-                "minItems": 2
-              }
-            ]
-          }
-        },
+        "advantages": { "$ref": "#/definitions/ruleIdList" },
+        "abilities": { "$ref": "#/definitions/ruleIdList" },
+        "spells": { "$ref": "#/definitions/ruleIdList" },
         "feat": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "name": {
-              "type": "string"
-            },
-            "rules": {
-              "type": "string"
-            }
-          }
+          "type": "array",
+          "items": { "type": "string" }
         },
         "animus": {
-          "type": "string"
+          "type": "array",
+          "items": { "type": "string" }
         },
         "weapons": {
           "type": "object",
-          "additionalProperties": true
+          "additionalProperties": { "$ref": "#/definitions/weapon" }
+        },
+        "options": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/option" }
         },
         "grunts": {
-          "oneOf": [
-            {
-              "type": "number"
-            },
-            {
-              "type": "object",
-              "additionalProperties": true
-            }
-          ]
+          "oneOf": [{ "type": "number" }, { "type": "object", "additionalProperties": true }]
         },
         "models": {
-          "oneOf": [
-            {
-              "type": "number"
-            },
-            {
-              "type": "object",
-              "additionalProperties": true
-            }
-          ]
+          "oneOf": [{ "type": "number" }, { "type": "object", "additionalProperties": true }]
         },
         "profiles": {
           "type": "object",
           "additionalProperties": true
         },
-        "notes": {
-          "type": "string"
+        "notes": { "type": "string" }
+      }
+    },
+    "ruleIdList": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          { "type": "string" },
+          {
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 2
+          }
+        ]
+      }
+    },
+    "weapon": {
+      "type": "object",
+      "required": ["type", "name", "statistics"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["melee", "ranged"]
+        },
+        "name": { "type": "string" },
+        "location": {
+          "type": "string",
+          "enum": ["L", "R", "C", "H"]
+        },
+        "quantity": { "type": "integer", "minimum": 1 },
+        "statistics": { "type": "object" },
+        "abilities": { "$ref": "#/definitions/ruleIdList" },
+        "qualities": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": true
+    },
+    "option": {
+      "type": "object",
+      "required": ["slot", "name", "cost"],
+      "additionalProperties": false,
+      "properties": {
+        "slot": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "cost": { "type": "number" },
+        "weapons": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/weapon" }
+        },
+        "abilities": { "$ref": "#/definitions/ruleIdList" },
+        "spells": { "$ref": "#/definitions/ruleIdList" },
+        "feats": { "$ref": "#/definitions/ruleIdList" },
+        "animus": {
+          "type": "array",
+          "items": { "type": "string" }
         }
       }
     },
     "healthGrid": {
       "type": "object",
-      "required": [
-        "total",
-        "grid"
-      ],
+      "required": ["total", "grid"],
       "additionalProperties": true,
       "properties": {
-        "total": {
-          "type": "number"
-        },
+        "total": { "type": "number" },
         "grid": {
           "type": "object",
           "additionalProperties": true,
           "properties": {
             "columns": {
               "type": "array",
-              "items": {
-                "$ref": "#/definitions/damageColumn"
-              }
+              "items": { "$ref": "#/definitions/damageColumn" }
             }
           }
         }
@@ -239,19 +160,13 @@
     },
     "damageColumn": {
       "type": "object",
-      "required": [
-        "boxes"
-      ],
+      "required": ["boxes"],
       "additionalProperties": false,
       "properties": {
-        "boxes": {
-          "type": "number"
-        },
+        "boxes": { "type": "number" },
         "systems": {
           "type": "object",
-          "additionalProperties": {
-            "type": "string"
-          }
+          "additionalProperties": { "type": "string" }
         }
       }
     }

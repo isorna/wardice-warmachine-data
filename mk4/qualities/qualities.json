@@ -1,0 +1,92 @@
+{
+  "blessed": {
+    "name": "Blessed",
+    "rules": "Attacks with this weapon ignore bonuses from spells, including animi, that add to a model's ARM or DEF.",
+    "icon": ""
+  },
+  "buckler": {
+    "name": "Buckler",
+    "rules": "This weapon has an integral buckler that gives the model +1 ARM bonus. For example, a model with two of them gains a bonus of +2 arm. A model does not gain this bonus while the weapon system with the buckler is crippled.",
+    "icon": ""
+  },
+  "chainWeapon": {
+    "name": "Chain Weapon",
+    "rules": "Attacks with this weapon ignore the {buckler} and {shield} weapon qualities and {shieldWall} ARM bonus.",
+    "icon": ""
+  },
+  "continuousEffectCorrosion": {
+    "name": "Continuous Effect: Corrosion",
+    "rules": "A model hit by this attack suffers the Corrosion continuous effect.",
+    "icon": ""
+  },
+  "continuousEffectFire": {
+    "name": "Continuous Effect: Fire",
+    "rules": "A model hit by this attack suffers the Fire continuous effect.",
+    "icon": ""
+  },
+  "criticalCorrosion": {
+    "name": "Critical Corrosion",
+    "rules": "On a {criticalHit}, the model hit by this attack suffers the Corrosion continuous effect.",
+    "icon": ""
+  },
+  "criticalDisruption": {
+    "name": "Critical Disruption",
+    "rules": "On a {criticalHit} on a warjack, the warjack suffers {disruption}.",
+    "icon": ""
+  },
+  "criticalFire": {
+    "name": "Critical Fire",
+    "rules": "On a {criticalHit}, the model hit by this attack suffers the Fire continuous effect.",
+    "icon": ""
+  },
+  "damageTypeCold": {
+    "name": "Damage Type: Cold",
+    "rules": "This weapon causes cold damage.",
+    "icon": ""
+  },
+  "damageTypeCorrosion": {
+    "name": "Damage Type: Corrosion",
+    "rules": "This weapon causes corrosion damage.",
+    "icon": ""
+  },
+  "damageTypeElectricity": {
+    "name": "Damage Type: Electricity",
+    "rules": "This weapon causes electrical damage.",
+    "icon": ""
+  },
+  "damageTypeFire": {
+    "name": "Damage Type: Fire",
+    "rules": "This weapon causes fire damage.",
+    "icon": ""
+  },
+  "damageTypeMagical": {
+    "name": "Damage Type: Magical",
+    "rules": "This weapon causes magical damage.",
+    "icon": ""
+  },
+  "disruption": {
+    "name": "Disruption",
+    "rules": "A warjack suffering Disruption loses its focus points and cannot channel spells or gain focus by any means, including by being allocated focus, for one round.",
+    "icon": ""
+  },
+  "pistol": {
+    "name": "Pistol",
+    "rules": "A model making an attack with this weapon targeting model it is in melee with ignores the {targetInMelee} bonus when resolving this attack.",
+    "icon": ""
+  },
+  "shield": {
+    "name": "Shield",
+    "rules": "This weapon is a shield that gives the model a cumulative +2 ARM bonus. For example, a model with two Shield weapons gains a bonus of +4 ARM. A model does not gain this bonus while the weapon system with the shield is crippled.",
+    "icon": ""
+  },
+  "throwPowerAttack": {
+    "name": "Throw Power Attack",
+    "rules": "This weapon can be used to make throw power attacks.",
+    "icon": ""
+  },
+  "weaponMaster": {
+    "name": "Weapon Master",
+    "rules": "When resolving an attack with this weapon, add an additional die to damage rolls.",
+    "icon": ""
+  }
+}

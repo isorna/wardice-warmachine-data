@@ -5,7 +5,7 @@
     "code": "SKO",
     "trait": "Pain Empire",
     "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png",
-    "accent": "secondary",
+    "accent": "faction-accent--skorne",
     "description": "A disciplined empire from eastern Immoren, forged by conquest, mortitheurgy, ancestral veneration and a pragmatic disregard for pain.",
     "briefing": "Skorne commanders rely on brutal discipline, pain-fueled warbeasts and immortalized ancestors preserved in sacral stones. Their armies reward direct pressure, attrition control and precise commitment windows.",
     "armies": [
@@ -38,7 +38,7 @@
     "code": "CRX",
     "trait": "Necro-Industrial",
     "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx color.png",
-    "accent": "primary",
+    "accent": "faction-accent--cryx",
     "description": "The Nightmare Empire of the Scharde Islands, where undead legions, necrotechs and black-iron warjacks serve Toruk the Dragonfather.",
     "briefing": "Cryx favors speed, surprise, recursion and necromantic industry. Its forces mix thralls, Satyxis raiders, warwitches and helljacks into an army that punishes unguarded flanks.",
     "armies": [
@@ -64,7 +64,7 @@
     "code": "MER",
     "trait": "Swords for hire",
     "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction mercenaries color.png",
-    "accent": "secondary",
+    "accent": "faction-accent--mercenaries",
     "description": "Warmachine mercenaries",
     "briefing": "TODO",
     "armies": [

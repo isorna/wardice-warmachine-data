@@ -12,6 +12,24 @@
       "type": "object",
       "required": ["name"],
       "additionalProperties": true,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "not": {
+                  "enum": ["warlock", "warcaster", "infernalMaster"]
+                }
+              }
+            }
+          },
+          "then": {
+            "not": {
+              "required": ["feat"]
+            }
+          }
+        }
+      ],
       "properties": {
         "name": { "type": "string", "minLength": 1 },
         "faction": { "type": "string" },

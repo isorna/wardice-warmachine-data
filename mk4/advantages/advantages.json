@@ -2,131 +2,157 @@
   "jackMarshal": {
     "name": "'Jack Marshal",
     "rules": "This model is a 'jack marshal and can command warjacks.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv jack marshal.png",
+    "type": "model"
   },
   "advanceDeployment": {
     "name": "Advance Deployment",
     "rules": "In most scenarios, this model can be deployed after normal deployment, up to 3\" beyond the established deployment zone.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv advance deployment.png",
+    "type": "model"
   },
   "ambush": {
     "name": "Ambush",
     "rules": "In most scenarios, this model does not have to be deployed at the start of the game. Instead, it can be placed at the end of any of your Control Phases after the first round.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv ambush.png",
+    "type": "model"
   },
   "amphibious": {
     "name": "Amphibious",
     "rules": "This model treats shallow water as open terrain while advancing. While completely in shallow water, this model gains concealment and does not block line of sight.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv amphibious.png",
+    "type": "model"
   },
   "arcNode": {
     "name": "Arc Node",
     "rules": "This warjack is a channeler equipped with an arc node and can act as a conduit for spells cast by its warcaster.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv arc node.png",
+    "type": "model"
   },
   "assault": {
     "name": "Assault",
     "rules": "This model can make an assault ranged attack.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv assault.png",
+    "type": "model"
   },
   "cavalry": {
     "name": "Cavalry",
     "rules": "This model is a cavalry model.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv cavalry.png",
+    "type": "model"
   },
   "combinedMeleeAttack": {
     "name": "Combined Melee Attack",
     "rules": "This model can participate in combined melee attacks with other models in its unit.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv combined melee attack.png",
+    "type": "model"
   },
   "combinedRangedAttack": {
     "name": "Combined Ranged Attack",
     "rules": "This model can participate in combined ranged attacks with other models in its unit.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv combined ranged attack.png",
+    "type": "model"
   },
   "construct": {
     "name": "Construct",
     "rules": "This model is a construct and is not a living model.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv construct.png",
+    "type": "model"
   },
   "dualAttack": {
     "name": "Dual Attack",
     "rules": "This model can make melee and ranged attacks in the same activation. This model cannot make ranged attacks after making a power attack.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv dual attack.png",
+    "type": "model"
   },
   "eyelessSight": {
     "name": "Eyeless Sight",
     "rules": "This model ignores {rule:cloudEffect} when determining line of sight. This model ignores concealment and {advantage:stealth} and never suffers Blind.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv eyeless sight.png",
+    "type": "model"
   },
   "flight": {
     "name": "Flight",
     "rules": "This model can fly.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv flight.png",
+    "type": "model"
   },
   "gladiator": {
     "name": "Gladiator",
     "rules": "This model gains +2 on power attack damage rolls and on power attack collateral damage rolls.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv gladiator.png",
+    "type": "model"
   },
   "gunfighter": {
     "name": "Gunfighter",
     "rules": "When this model makes a ranged attack while engaged, it does not have to target the model engaging it with the attack.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv gunfighter.png",
+    "type": "model"
   },
   "headbuttPowerAttack": {
     "name": "Headbutt Power Attack",
     "rules": "This model can make Headbutt power attacks.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv headbutt power attack.png",
+    "type": "model"
   },
   "incorporeal": {
     "name": "Incorporeal",
     "rules": "This model roams the battlefield in spectral form.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv incorporeal.png",
+    "type": "model"
   },
   "pathfinder": {
     "name": "Pathfinder",
     "rules": "This model treats rough terrain as open terrain while advancing. While charging, slam power attacking, or trample power attacking, this model does not stop its movement when it contacts an obstacle.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv pathfinder.png",
+    "type": "model"
   },
   "resistanceCorrosion": {
     "name": "Resistance: Corrosion",
     "rules": "When this model suffers a corrosion damage roll, remove one die from the damage roll. Additionally, this models is immune to the Corrosion continuous effect and \"{quality:continuousEffectCorrosion}\".",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model res corrosion.png",
+    "type": "model"
   },
   "resistanceElectricity": {
     "name": "Resistance: Electricity",
     "rules": "When this model suffers an electrical damage roll, remove one die from the damage roll. Additionally, when lightning arcs as a result of a special rule, ignore models with Resistance: Electricity when determining which model the lightning arcs to. Lightning cannot arc from a model with Resistance: Electricity.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model res electricity.png",
+    "type": "model"
   },
   "slamPowerAttack": {
     "name": "Slam Power Attack",
     "rules": "This model can make Slam power attacks.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv slam power attack.png",
+    "type": "model"
   },
   "soulless": {
     "name": "Soulless",
     "rules": "This living model does not generate a soul token when it is destroyed.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv soulless.png",
+    "type": "model"
   },
   "stealth": {
     "name": "Stealth",
     "rules": "Ranged and arcane attacks targeting this model from a point of origin greater than 5\" away automatically miss. This model is not an intervening model when determining line of sight from a model more than 5\" away.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv stealth.png",
+    "type": "model"
   },
   "tough": {
     "name": "Tough",
     "rules": "When this model is disabled, roll a d6. On a 5 or 6, remove 1 damage point from this model; it is no longer disabled and becomes knocked down. While knocked down, this model loses Tough.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv tough.png",
+    "type": "model"
   },
   "undead": {
     "name": "Undead",
     "rules": "This model is an undead model and not a living model.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv undead.png",
+    "type": "model"
   },
   "unstoppable": {
     "name": "Unstoppable",
     "rules": "This model does not have to forfeit its Combat Action when it advances or is placed out of one or more enemy models' melee ranged during its Normal Movement (see Disengaging).",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv unstoppable.png",
+    "type": "model"
   }
 }

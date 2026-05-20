@@ -154,5 +154,11 @@
     "rules": "This model does not have to forfeit its Combat Action when it advances or is placed out of one or more enemy models' melee ranged during its Normal Movement (see Disengaging).",
     "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv unstoppable.png",
     "type": "model"
+  },
+  "blessed": {
+    "name": "Blessed",
+    "type": "weapon",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon qual blessed.png",
+    "rules": "Ignore opponent spell bonuses to DEF and ARM."
   }
 }

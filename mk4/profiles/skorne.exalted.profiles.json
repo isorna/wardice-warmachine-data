@@ -1,6 +1,10 @@
 {
   "beastMasterXekaar": {
     "name": "Beast Master Xekaar",
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
     "type": "warlock",
     "keywords": [
       "Skorne",
@@ -10,45 +14,30 @@
       "Warlock",
       "Character"
     ],
-    "faction": "Skorne",
-    "armies": [
-      "Exalted"
-    ],
     "fieldAllowance": "c",
     "baseSize": 30,
+    "points": 0,
     "statistics": {
       "speed": 7,
-      "arcana": 7,
+      "arcaneAttack": 0,
       "meleeAttack": 7,
+      "rangedAttack": 0,
       "defense": 15,
       "armour": 15,
       "controlRange": 12,
-      "health": 15
+      "fury": 0,
+      "threshold": 0,
+      "health": 15,
+      "arcana": 7
     },
+    "advantages": [
+      "pathfinder",
+      "unstoppable"
+    ],
     "abilities": [
       "fieldMarshalPathfinder",
       "maltreatment",
       "sideStep"
-    ],
-    "weapons": {
-      "barbedWhip": {
-        "type": "melee",
-        "name": "Barbed Whip",
-        "quantity": 2,
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 9
-        },
-        "abilities": [
-          "inflictPain",
-          "witchMark"
-        ],
-        "qualities": []
-      }
-    },
-    "feat": [
-      "beastMasterXekaarFeat"
     ],
     "spells": [
       "deadweight",
@@ -60,8 +49,25 @@
     "animus": [
       "repulsion"
     ],
-    "advantages": [],
-    "options": []
+    "weapons": {
+      "barbedWhip": {
+        "type": "melee",
+        "name": "Barbed Whip",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 9
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain",
+          "witchMark"
+        ]
+      }
+    },
+    "feat": [
+      "beastMasterXekaarFeat"
+    ]
   },
   "agonizer": {
     "name": "Agonizer",
@@ -1600,6 +1606,10 @@
   },
   "lordArbiterHexeris": {
     "name": "Lord Arbiter Hexeris",
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
     "type": "warlock",
     "keywords": [
       "Skorne",
@@ -1608,24 +1618,31 @@
       "Warlock",
       "Character"
     ],
-    "faction": "Skorne",
-    "armies": [
-      "Exalted"
-    ],
     "fieldAllowance": "c",
     "baseSize": 30,
+    "points": 0,
     "statistics": {
       "speed": 6,
-      "arcana": 7,
+      "arcaneAttack": 0,
       "meleeAttack": 7,
+      "rangedAttack": 0,
       "defense": 15,
       "armour": 16,
       "controlRange": 14,
-      "health": 16
+      "fury": 0,
+      "threshold": 0,
+      "health": 16,
+      "arcana": 7
     },
     "abilities": [
-      "fieldMarshalChanneler",
-      "vampiricHarvest"
+      "fieldMarshalChanneler"
+    ],
+    "spells": [
+      "banishingWard",
+      "blackSpot",
+      "cloakOfAsh",
+      "eruption",
+      "stranglehold"
     ],
     "weapons": {
       "gulgata": {
@@ -1638,22 +1655,12 @@
         },
         "abilities": [
           "thresherAttack"
-        ],
-        "qualities": []
+        ]
       }
     },
     "feat": [
       "lordArbiterHexerisFeat"
-    ],
-    "spells": [
-      "banishingWard",
-      "blackSpot",
-      "cloakOfAsh",
-      "eruption",
-      "stranglehold"
-    ],
-    "advantages": [],
-    "options": []
+    ]
   },
   "voidSeerMordikaar": {
     "name": "Void Seer Mordikaar",
@@ -1729,6 +1736,10 @@
   },
   "zaalTheAncestralAdvocate": {
     "name": "Zaal, The Ancestral Advocate",
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
     "type": "warlock",
     "keywords": [
       "Skorne",
@@ -1736,27 +1747,38 @@
       "Warlock",
       "Character"
     ],
-    "faction": "Skorne",
-    "armies": [
-      "Exalted"
-    ],
     "fieldAllowance": "c",
     "baseSize": 40,
+    "points": 0,
     "statistics": {
       "speed": 5,
-      "arcana": 7,
+      "arcaneAttack": 0,
       "meleeAttack": 6,
+      "rangedAttack": 0,
       "defense": 10,
       "armour": 18,
       "controlRange": 14,
-      "health": 18
+      "fury": 0,
+      "threshold": 0,
+      "health": 18,
+      "arcana": 7
     },
+    "advantages": [
+      "construct"
+    ],
     "abilities": [
       "directSpirits",
       "righteousVengeance",
       "soulTakerReclaim",
       "soulVessel",
       "steady"
+    ],
+    "spells": [
+      "annihilation",
+      "arcaneMight",
+      "mageSight",
+      "sunderSpirit",
+      "vision"
     ],
     "weapons": {
       "obsidianStaff": {
@@ -1769,25 +1791,19 @@
         },
         "abilities": [
           "silencer"
-        ],
-        "qualities": []
+        ]
       }
     },
     "feat": [
       "zaalTheAncestralAdvocateFeat"
-    ],
-    "spells": [
-      "annihilation",
-      "arcaneMight",
-      "mageSight",
-      "sunderSpirit",
-      "vision"
-    ],
-    "advantages": [],
-    "options": []
+    ]
   },
   "supremeGuardian": {
     "name": "Supreme Guardian",
+    "faction": "Skorne",
+    "armies": [
+      "Exalted"
+    ],
     "type": "battleEngine",
     "keywords": [
       "Skorne",
@@ -1795,21 +1811,25 @@
       "Battle Engine",
       "Construct"
     ],
-    "faction": "Skorne",
-    "armies": [
-      "Exalted"
-    ],
     "fieldAllowance": "2",
-    "points": 16,
     "baseSize": 120,
+    "points": 16,
     "statistics": {
       "speed": 5,
+      "arcaneAttack": 0,
       "meleeAttack": 7,
       "rangedAttack": 6,
       "defense": 8,
       "armour": 19,
+      "controlRange": 0,
+      "fury": 0,
+      "threshold": 0,
       "health": 22
     },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
     "abilities": [
       "defensiveStrike",
       "directSpirits",
@@ -1832,8 +1852,7 @@
           "rateOfFire": 1,
           "areaOfEffect": 3,
           "power": "14/8"
-        },
-        "qualities": []
+        }
       },
       "obsidianBlade": {
         "type": "melee",
@@ -1846,12 +1865,9 @@
         "abilities": [
           "siegeWeapon",
           "thresherAttack"
-        ],
-        "qualities": []
+        ]
       }
-    },
-    "advantages": [],
-    "options": []
+    }
   },
   "abidanTheKeeper": {
     "name": "Abidan the Keeper",

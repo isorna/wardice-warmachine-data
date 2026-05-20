@@ -13,19 +13,22 @@
         "name": "Exalted",
         "slug": "exalted",
         "description": "An ancestral host centered on immortalized champions, statues, extollers and sacral-stone doctrine.",
-        "format": "prime-armies-of-legend"
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
       },
       {
         "name": "Masters of War",
         "slug": "masters-of-war",
         "description": "A martial formation built around disciplined skorne infantry, tyrants, paingivers and heavy battlefield control.",
-        "format": "prime-armies-of-legend"
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
       },
       {
         "name": "Army of the Western Reaches",
         "slug": "army-of-the-western-reaches",
         "description": "A western-reaches skorne host combining warbeasts, tyrants, venators, praetorians and battlefield control assets.",
-        "format": "prime-armies-of-legend"
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
       }
     ]
   },
@@ -43,13 +46,15 @@
         "name": "Dark Host",
         "slug": "dark-host",
         "description": "An undead battle line of banes, soul-driven horrors and necromantic command assets.",
-        "format": "prime-armies-of-legend"
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx color.png"
       },
       {
         "name": "Scourge of the Broken Coast",
         "slug": "scourge-of-the-broken-coast",
         "description": "A raiding force of Satyxis, blackships, revenants and coastal terror tactics.",
-        "format": "prime-armies-of-legend"
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx color.png"
       }
     ]
   },
@@ -67,7 +72,8 @@
         "name": "Dark Operations",
         "slug": "dark-operations",
         "description": "Cephalix",
-        "format": "prime-armies-of-legend"
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction mercenaries color.png"
       }
     ]
   }

@@ -1,142 +1,177 @@
 {
   "annihilation": {
     "name": "Annihilation",
-    "description": "Models destroyed by Annihilation are removed from play and do not generate corpse tokens. When a living enemy model is destroyed by Annihilation, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models."
+    "description": "Models destroyed by Annihilation are removed from play and do not generate corpse tokens. When a living enemy model is destroyed by Annihilation, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models.",
+    "type": "spell"
   },
   "arcaneMight": {
     "name": "Arcane Might",
-    "description": "While in the spellcaster's control range, friendly Faction non-Leader warrior models can spend 1 focus or fury point on the spellcaster to boost a melee attack or melee damage roll during their activations."
+    "description": "While in the spellcaster's control range, friendly Faction non-Leader warrior models can spend 1 focus or fury point on the spellcaster to boost a melee attack or melee damage roll during their activations.",
+    "type": "spell"
   },
   "banishingWard": {
     "name": "Banishing Ward",
-    "description": "Enemy upkeep spells and animi on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi."
+    "description": "Enemy upkeep spells and animi on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.",
+    "type": "spell"
   },
   "blackSpot": {
     "name": "Black Spot",
-    "description": "Target enemy warrior model/unit suffers -2 DEF. When a friendly Faction model destroys one or more affected models with a basic melee or ranged attack during its Combat Action, immediately after the attack is resolved it can make one additional melee or ranged attack. Attacks gained from Black Spot cannot generate additional attacks from Black Spot."
+    "description": "Target enemy warrior model/unit suffers -2 DEF. When a friendly Faction model destroys one or more affected models with a basic melee or ranged attack during its Combat Action, immediately after the attack is resolved it can make one additional melee or ranged attack. Attacks gained from Black Spot cannot generate additional attacks from Black Spot.",
+    "type": "spell"
   },
   "bleed": {
     "name": "Bleed",
-    "description": "When Bleed damages a living enemy model, this model can remove d3 damage points."
+    "description": "When Bleed damages a living enemy model, this model can remove d3 damage points.",
+    "type": "spell"
   },
   "cloakOfAsh": {
     "name": "Cloak of Ash",
-    "description": "Target friendly Faction model/unit gains Ashen Veil. (A model with Ashen Veil has concealment. Living enemy models without Resistance: Fire suffer -2 to attack rolls while within 2\" of a model with Ashen Veil.)"
+    "description": "Target friendly Faction model/unit gains Ashen Veil. (A model with Ashen Veil has concealment. Living enemy models without Resistance: Fire suffer -2 to attack rolls while within 2\" of a model with Ashen Veil.)",
+    "type": "spell"
   },
   "deadweight": {
     "name": "Deadweight",
-    "description": "When Deadweight destroys an enemy living or undead model, choose an enemy model within 2\" of it. The chosen model must forfeit either its Normal Movement or its Combat Action during its next activation, as its controller chooses."
+    "description": "When Deadweight destroys an enemy living or undead model, choose an enemy model within 2\" of it. The chosen model must forfeit either its Normal Movement or its Combat Action during its next activation, as its controller chooses.",
+    "type": "spell"
   },
   "deathWard": {
     "name": "Death Ward",
-    "description": "Target friendly Faction model/unit gains +2 ARM. If an affected warjack is damaged, choose which column suffers the damage."
+    "description": "Target friendly Faction model/unit gains +2 ARM. If an affected warjack is damaged, choose which column suffers the damage.",
+    "type": "spell"
   },
   "disintegration": {
     "name": "Disintegration",
-    "description": "The model hit suffers -2 ARM for one round. A model boxed by Disintegration is removed from play."
+    "description": "The model hit suffers -2 ARM for one round. A model boxed by Disintegration is removed from play.",
+    "type": "spell"
   },
   "eruption": {
     "name": "Eruption",
-    "description": "This attack causes fire damage. On a hit, center a cloud effect on the model targeted. The template is a hazard that remains in play for one round. A model without Resistance: Fire entering or ending its activation in the AOE suffer the Fire continuous effect."
+    "description": "This attack causes fire damage. On a hit, center a cloud effect on the model targeted. The template is a hazard that remains in play for one round. A model without Resistance: Fire entering or ending its activation in the AOE suffer the Fire continuous effect.",
+    "type": "spell"
   },
   "excarnate": {
     "name": "Excarnate",
-    "description": "When a living enemy warrior model is boxed by Excarnate, remove it from play. You can then add one Grunt to a friendly Faction small-based undead unit in the spellcaster's control range. Place the Grunt within 1\" of another model in the unit. The Grunt must forfeit its Normal Movement and Combat Action the turn it is put into play."
+    "description": "When a living enemy warrior model is boxed by Excarnate, remove it from play. You can then add one Grunt to a friendly Faction small-based undead unit in the spellcaster's control range. Place the Grunt within 1\" of another model in the unit. The Grunt must forfeit its Normal Movement and Combat Action the turn it is put into play.",
+    "type": "spell"
   },
   "feastOfWorms": {
     "name": "Feast of Worms",
-    "description": "Center a cloud template on the model directly hit. The template is a hazard and remains in play as long as upkeep is paid. While in the template, enemy models suffer -2 ARM. When a living enemy model is destroyed in the template, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models."
+    "description": "Center a cloud template on the model directly hit. The template is a hazard and remains in play as long as upkeep is paid. While in the template, enemy models suffer -2 ARM. When a living enemy model is destroyed in the template, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models.",
+    "type": "spell"
   },
   "ghostWalk": {
     "name": "Ghost Walk",
-    "description": "Target friendly Faction model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions and models if it has enough movement to move completely past them.)"
+    "description": "Target friendly Faction model/unit gains Ghostly for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions and models if it has enough movement to move completely past them.)",
+    "type": "spell"
   },
   "graveWind": {
     "name": "Grave Wind",
-    "description": "Target friendly Faction model gains +2 DEF and Poltergeist. (When an enemy model misses a model with Poltergeist with an attack, immediately after the attack is resolved you can choose to push the enemy model d3\" directly away from the model with Poltergeist.)"
+    "description": "Target friendly Faction model gains +2 DEF and Poltergeist. (When an enemy model misses a model with Poltergeist with an attack, immediately after the attack is resolved you can choose to push the enemy model d3\" directly away from the model with Poltergeist.)",
+    "type": "spell"
   },
   "hellfire": {
     "name": "Hellfire",
-    "description": "Models disabled by Hellfire cannot make a Tough roll. Models boxed by Hellfire are removed from play."
+    "description": "Models disabled by Hellfire cannot make a Tough roll. Models boxed by Hellfire are removed from play.",
+    "type": "spell"
   },
   "hellwrought": {
     "name": "Hellwrought",
-    "description": "Target Cohort model in the spellcaster's battlegroup gains +2 ARM and Retaliation. (If a model with Retaliation was damaged by an enemy attack during the last round, during your Maintenance Phase it can advance up to 3\" and make one basic melee attack.)"
+    "description": "Target Cohort model in the spellcaster's battlegroup gains +2 ARM and Retaliation. (If a model with Retaliation was damaged by an enemy attack during the last round, during your Maintenance Phase it can advance up to 3\" and make one basic melee attack.)",
+    "type": "spell"
   },
   "hexBlast": {
     "name": "Hex Blast",
-    "description": "Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire."
+    "description": "Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.",
+    "type": "spell"
   },
   "hollow": {
     "name": "Hollow",
-    "description": "Target friendly Faction unit gains +2 ARM. Once per turn, when an affected model is disabled by an enemy attack, replace it with a friendly Void Spirit model. A model replaced by Hollow is destroyed."
+    "description": "Target friendly Faction unit gains +2 ARM. Once per turn, when an affected model is disabled by an enemy attack, replace it with a friendly Void Spirit model. A model replaced by Hollow is destroyed.",
+    "type": "spell"
   },
   "hostOfShadows": {
     "name": "Host of Shadows",
-    "description": "While in the spellcaster's control range, models in its battlegroup gain Ghostly. Host of Shadows lasts for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions and models if it has enough movement to move completely past them.)"
+    "description": "While in the spellcaster's control range, models in its battlegroup gain Ghostly. Host of Shadows lasts for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions and models if it has enough movement to move completely past them.)",
+    "type": "spell"
   },
   "lamentation": {
     "name": "Lamentation",
-    "description": "When an enemy model casts a spell while in the spellcaster's control range, double the COST of the spell. Additionally, enemy models must pay double to upkeep spells on models/units in the spellcaster's control range."
+    "description": "When an enemy model casts a spell while in the spellcaster's control range, double the COST of the spell. Additionally, enemy models must pay double to upkeep spells on models/units in the spellcaster's control range.",
+    "type": "spell"
   },
   "mageSight": {
     "name": "Mage Sight",
-    "description": "While in the spellcaster's control range, models in its battlegroup gain Eyeless Sight."
+    "description": "While in the spellcaster's control range, models in its battlegroup gain Eyeless Sight.",
+    "type": "spell"
   },
   "mortality": {
     "name": "Mortality",
-    "description": "Target model/unit suffers -2 DEF and ARM, loses Tough, and cannot have damage removed from it. Mortality lasts for one round."
+    "description": "Target model/unit suffers -2 DEF and ARM, loses Tough, and cannot have damage removed from it. Mortality lasts for one round.",
+    "type": "spell"
   },
   "parasite": {
     "name": "Parasite",
-    "description": "Target model/unit suffers -3 ARM and the spellcaster gains +1 ARM."
+    "description": "Target model/unit suffers -3 ARM and the spellcaster gains +1 ARM.",
+    "type": "spell"
   },
   "psychoSurgery": {
     "name": "Psycho Surgery",
-    "description": "Each model in the spellcaster's battlegroup currently in its control range can immediately remove d3 + 1 damage points. This spell can be cast only once per activation."
+    "description": "Each model in the spellcaster's battlegroup currently in its control range can immediately remove d3 + 1 damage points. This spell can be cast only once per activation.",
+    "type": "spell"
   },
   "pursuit": {
     "name": "Pursuit",
-    "description": "If target enemy model/unit advances during its activation, one model in the spellcaster's battlegroup that is in its control range can immediately make a full advance."
+    "description": "If target enemy model/unit advances during its activation, one model in the spellcaster's battlegroup that is in its control range can immediately make a full advance.",
+    "type": "spell"
   },
   "revive": {
     "name": "Revive",
-    "description": "Target one friendly trooper model. Return one destroyed Grunt model to the target model's unit. The Grunt is returned with one unmarked damage box. Place the returned Grunt within 2\" of the target model. The Grunt model must forfeit its Normal Movement and Combat Action the turn it is returned to play."
+    "description": "Target one friendly trooper model. Return one destroyed Grunt model to the target model's unit. The Grunt is returned with one unmarked damage box. Place the returned Grunt within 2\" of the target model. The Grunt model must forfeit its Normal Movement and Combat Action the turn it is returned to play.",
+    "type": "spell"
   },
   "scourge": {
     "name": "Scourge",
-    "description": "On a direct hit, models hit by this attack become knocked down."
+    "description": "On a direct hit, models hit by this attack become knocked down.",
+    "type": "spell"
   },
   "shadowmancer": {
     "name": "Shadowmancer",
-    "description": "While in spellcaster's control range, models in its battlegroup gain Stealth and Dark Shroud. Shadowmancer lasts for one round. (While within 2\" of a model with Dark Shroud, enemy models suffer -2 ARM.)"
+    "description": "While in spellcaster's control range, models in its battlegroup gain Stealth and Dark Shroud. Shadowmancer lasts for one round. (While within 2\" of a model with Dark Shroud, enemy models suffer -2 ARM.)",
+    "type": "spell"
   },
   "silenceOfDeath": {
     "name": "Silence of Death",
-    "description": "Target friendly Faction model/unit gains +2 to its melee attack damage rolls and Take Down. Models disabled by a melee attack made by a model with Take Down cannot make a Tough roll. Models boxed by a melee attack made by a model with Take Down are removed from play."
+    "description": "Target friendly Faction model/unit gains +2 to its melee attack damage rolls and Take Down. Models disabled by a melee attack made by a model with Take Down cannot make a Tough roll. Models boxed by a melee attack made by a model with Take Down are removed from play.",
+    "type": "spell"
   },
   "soulGate": {
     "name": "Soul Gate",
-    "description": "Remove a friendly trooper model in the spellcaster's control range from play and replace it with target warjack in the spellcaster's battlegroup that is in its control range. The warjack cannot activate this turn after being placed by Soul Gate."
+    "description": "Remove a friendly trooper model in the spellcaster's control range from play and replace it with target warjack in the spellcaster's battlegroup that is in its control range. The warjack cannot activate this turn after being placed by Soul Gate.",
+    "type": "spell"
   },
   "stranglehold": {
     "name": "Stranglehold",
-    "description": "A model damaged by Stranglehold forfeits either its Normal Movement or its Combat Action during its next activation, as its controller chooses."
+    "description": "A model damaged by Stranglehold forfeits either its Normal Movement or its Combat Action during its next activation, as its controller chooses.",
+    "type": "spell"
   },
   "sunderSpirit": {
     "name": "Sunder Spirit",
-    "description": "An enemy warbeast damaged by Sunder Spirit loses its animus for one round."
+    "description": "An enemy warbeast damaged by Sunder Spirit loses its animus for one round.",
+    "type": "spell"
   },
   "telekinesis": {
     "name": "Telekinesis",
-    "description": "Place target friendly model completely within 2\" of its current location. A model can be placed by Telekinesis only once per turn."
+    "description": "Place target friendly model completely within 2\" of its current location. A model can be placed by Telekinesis only once per turn.",
+    "type": "spell"
   },
   "vanish": {
     "name": "Vanish",
-    "description": "Place the spellcaster anywhere completely within 3\" of its current location. Vanish can be cast only once per activation."
+    "description": "Place the spellcaster anywhere completely within 3\" of its current location. Vanish can be cast only once per activation.",
+    "type": "spell"
   },
   "vision": {
     "name": "Vision",
-    "description": "When target friendly Faction model is directly hit by an attack, you can choose to have it suffer no damage roll from the attack, then Vision expires."
+    "description": "When target friendly Faction model is directly hit by an attack, you can choose to have it suffer no damage roll from the attack, then Vision expires.",
+    "type": "spell"
   }
 }

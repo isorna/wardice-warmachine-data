@@ -1425,6 +1425,11 @@
     "description": "This model makes one melee attack with this weapon against each model in its LOS that is in this weapon's melee range, regardless of whether that model is a friendly model or an enemy model. Thresher attacks are simultaneous.",
     "type": "ability"
   },
+  "thunderbolt": {
+    "name": "Thunderbolt",
+    "description": "Enemy models hit are pushed d3\" directly away from the attacking model. On a critical hit, the enemy model is pushed is knocked down after beign pushed.",
+    "type": "ability"
+  },
   "trueMercenary": {
     "id": "trueMercenary",
     "name": "True Mercenary",

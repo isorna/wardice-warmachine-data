@@ -472,12 +472,32 @@
       "longShadows"
     ],
     "spells": [
-      "psychicAperture"
+      "psychicAperture",
+      "deadweight",
+      "occultWhispers",
+      "psychicAssault",
+      "psychoSurgery",
+      "revive",
+      "scythingTouch"
     ],
     "feat": [
       "massDelusion"
     ],
     "weapons": {
+      "psychicAperture": {
+        "type": "ranged",
+        "name": "Psychic Aperture",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "reload1",
+          "thunderbolt"
+        ]
+      },
       "scythingBlade": {
         "type": "melee",
         "name": "Scything Blade",

@@ -296,15 +296,6 @@
     "description": "Target model/unit suffers -3 ARM and the spellcaster gains +1 ARM.",
     "type": "spell"
   },
-  "psychicAperture": {
-    "id": "psychicAperture",
-    "name": "Psychic Aperture",
-    "description": "Reload [1] - This model can spend 1 focus or fury point to make one additional ranged attack with this weapon during its Combat Action. Thunderbolt - Enemy models hit are pushed d3\" directly away from the attacking model. On a critical hit, the enemy model becomes knocked down after being pushed.",
-    "type": "spell",
-    "cost": 0,
-    "range": "10",
-    "pow": "12"
-  },
   "psychicAssault": {
     "id": "psychicAssault",
     "name": "Psychic Assault",

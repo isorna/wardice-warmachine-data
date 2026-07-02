@@ -9,10 +9,21 @@
     "description": "The spellcaster gains Resistance: Corrosion and its melee weapons gain the Continuous Effect: Corrosion. Acidic Touch lasts for one round.",
     "type": "ability"
   },
+  "adrenalineRush": {
+    "id": "adrenalineRush",
+    "name": "Adrenaline Rush",
+    "description": "Monstrosities in Cyphon’s battlegroup currently in his control range gain +3 SPD and ARM and +3 to their melee attack damage rolls for one round.",
+    "type": "feat"
+  },
+  "adrenalSurge": {
+    "id": "adrenalSurge",
+    "name": "Adrenal Surge",
+    "description": "This model gains +2 to its melee attack damage rolls and Relentless Charge. (While advancing as part of a charge, models with Relentless Charge gains Pathfinder.)"
+  },
   "aggressive": {
+    "id": "aggressive",
     "name": "Aggressive",
-    "description": "This model can run or charge without spending a focus point.",
-    "type": "ability"
+    "description": "This model can run or charge without spending a focus point."
   },
   "agonies": {
     "name": "Agonies",
@@ -20,9 +31,15 @@
     "type": "ability"
   },
   "anatomicalPrecision": {
+    "id": "anatomicalPrecision",
     "name": "Anatomical Precision",
-    "description": "When this model's melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point. A model disabled by a melee attack made by this model cannot make a Tough roll.",
-    "type": "ability"
+    "description": "When this model’s melee damage roll fails to exceed the ARM of the living model hit, that model suffers 1 damage point. A model disabled by a melee attack made by this model cannot make a Tough roll.",
+    "notes": ""
+  },
+  "anesthesia": {
+    "id": "anesthesia",
+    "name": "Anesthesia",
+    "description": "A living model damaged by an attack with this weapon becomes stationary for one round."
   },
   "annihilator": {
     "name": "Annihilator",
@@ -34,20 +51,35 @@
     "description": "During your Control Phase, place this model anywhere completely within 2\" of its current location.",
     "type": "ability"
   },
+  "arcaneAssist": {
+    "id": "arcaneAssist",
+    "name": "Arcane Assist",
+    "description": "If its Leader is within 5\" of this model during your Control Phase, the Leader can upkeep one spell without spending a focus or fury point."
+  },
   "arcaneSuppression": {
     "name": "Arcane Suppression",
     "description": "While within 10\" of the spellcaster, when an enemy model casts a spell, increase the COST of the spell by 1. Additionally, while within 10\" of the spellcaster, enemy models must pay double to upkeep spells. Arcane Suppression lasts for one round.",
     "type": "ability"
   },
   "arcingFire": {
+    "id": "arcingFire",
     "name": "Arcing Fire",
-    "description": "When attacking with this weapon, this model can ignore intervening models.",
-    "type": "ability"
+    "description": "When attacking with this weapon, this model can ignore intervening models."
+  },
+  "armorPiercing": {
+    "id": "armorPiercing",
+    "name": "Armor-Piercing",
+    "description": "When calculating damage from this weapon, halve the base ARM stats of models hit."
+  },
+  "artificeOfDomination": {
+    "id": "artificeOfDomination",
+    "name": "Artifice of Domination",
+    "description": "When this model hits an enemy model with an attack, it gains a mind token. This model can have up to 5 mind tokens on it at any time. This model can spend mind tokens for the following:"
   },
   "attached": {
+    "id": "attached",
     "name": "Attached",
-    "description": "Before the start of the game, attach this model to a friendly Faction Leader for the rest of the game. Each Leader can have only one model/unit attached to it. The attached model is part of its Leader's battlegroup.",
-    "type": "ability"
+    "description": "Before the start of the game, attach this model to a friendly Faction Leader for the rest of the game. Each Leader can have only one model/unit attached to it. The attached model is part of its Leader’s battlegroup."
   },
   "attachmentBaneWarrior": {
     "name": "Attachment [Bane Warrior]",
@@ -55,9 +87,19 @@
     "type": "ability"
   },
   "attackType": {
+    "id": "attackType",
     "name": "Attack Type",
-    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:",
-    "type": "ability"
+    "description": "Each time this weapon is used to make an attack, choose one of the following special rules:"
+  },
+  "baneWitchAgathiaFeat": {
+    "name": "Shadowfall",
+    "description": "Models in Agathia's battlegroup currently in her control range are affected by Ghost Walk. Additionally, you can place each friendly faction Cohort model currently in Agathia's control range anywhere completely within 3\" of its current location. Shadowfall lasts for one turn.",
+    "type": "feat"
+  },
+  "battleDriven": {
+    "id": "battleDriven",
+    "name": "Battle-Driven",
+    "description": "When one or more models in this unit are damaged by an enemy attack, after the attack is resolved models in this unit gains +2 ARM, +2 to their melee attack damage rolls, and Pathfinder for one round."
   },
   "battlePlan": {
     "name": "Battle Plan",
@@ -69,15 +111,26 @@
     "description": "Once per turn, when this model destroys or removes from play one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.",
     "type": "ability"
   },
+  "beastMasterXekaarFeat": {
+    "name": "Whispers of Torment",
+    "description": "While in Xekaar's control range, enemy models suffer -3 MAT, RAT, and THR. Additionally, affected models suffer -3 to their melee attack damage rolls. Whispers of Torment lasts for one round.",
+    "type": "feat"
+  },
   "beatBack": {
+    "id": "beatBack",
     "name": "Beat Back",
-    "description": "Immediately after a basic attack with this weapon is resolved during this model's Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it.",
-    "type": "ability"
+    "description": "Immediately after a basic attack with this weapon is resolved during this model’s Combat Action, the enemy model hit can be pushed 1\" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1\" directly toward it.",
+    "notes": ""
   },
   "berserk": {
     "name": "Berserk",
     "description": "When this model destroys one or more models with a melee attack during its Combat Action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range, regardless of whether that model is a friendly model or an enemy model.",
     "type": "ability"
+  },
+  "bewitch": {
+    "id": "bewitch",
+    "name": "Bewitch",
+    "description": "After this attack has been resolved, take control of target living enemy non-Leader warrior model hit by this attack. You can immediately make a full advance with the enemy model followed by a basic attack, then Bewitch expires. A model can be affected by Bewitch only once per turn."
   },
   "blackArts": {
     "name": "Black Arts",
@@ -85,9 +138,9 @@
     "type": "ability"
   },
   "bloodBoon": {
+    "id": "bloodBoon",
     "name": "Blood Boon",
-    "description": "Once per activation, immediately after resolving an attack in which it destroyed an enemy model with this weapon, this model can cast a spell without spending focus or fury points.",
-    "type": "ability"
+    "description": "Once per activation, immediately after resolving an attack in which it destroyed an enemy model with this weapon, this model can cast a spell without spending focus or fury points."
   },
   "bloodShadow": {
     "name": "Blood Shadow",
@@ -124,10 +177,20 @@
     "description": "If Chiron begins the game in Xekaar's battlegroup, it is bonded to him. Chiron is not considered to be bonded while under your opponent's control. While Chiron is bonded to Xekaar and in his control range, it gains boosted ranged attack rolls.",
     "type": "ability"
   },
+  "bothBarrels": {
+    "id": "bothBarrels",
+    "name": "Both Barrels",
+    "description": "This model gains +4 to the damage roll for this attack. This model cannot make additional ranged attacks with this weapon during an activation in which it makes a Both Barrels attack."
+  },
   "boundingLeap": {
     "name": "Bounding Leap",
     "description": "Once per activation, after making a full advance as its Normal Movement but before performing its Combat Action, this model can spend 1 focus point to be placed completely within 5\" of its current location.",
     "type": "ability"
+  },
+  "brainDamage": {
+    "id": "brainDamage",
+    "name": "Brain Damage",
+    "description": "A model damaged by an attack with this weapon cannot cast spells for one round."
   },
   "breathTaker": {
     "name": "Breath Taker",
@@ -139,10 +202,16 @@
     "description": "This model gains +2 to charge attack damage rolls with this weapon.",
     "type": "ability"
   },
+  "brutalDamage": {
+    "id": "brutalDamage",
+    "name": "Brutal Damage",
+    "description": "On a direct hit, gain an additional die on this weapon’s damage rolls against the target directly hit."
+  },
   "bulldoze": {
+    "id": "bulldoze",
     "name": "Bulldoze",
     "description": "When this model is B2B with an enemy model during its Normal Movement, it can push that model up to 2\" directly away from it. A model can be pushed by Bulldoze only once per turn. Bulldoze has no effect when this model makes a trample power attack.",
-    "type": "ability"
+    "notes": ""
   },
   "burster": {
     "name": "Burster",
@@ -158,6 +227,11 @@
     "name": "Carapace",
     "description": "This model gains +4 ARM against ranged attack damage rolls.",
     "type": "ability"
+  },
+  "cerebralChanneling": {
+    "id": "cerebralChanneling",
+    "name": "Cerebral Channeling",
+    "description": "While this model is in a friendly Faction Leader’s control range, the Leader can channel spells through it. After a spell has been channeled through this model it becomes disabled."
   },
   "chainAttackDeathChill": {
     "name": "Chain Attack: Death Chill",
@@ -179,6 +253,16 @@
     "description": "When this model destroys one or more enemy models with a basic melee attack during its Combat Action, immediately after the attack is resolved this model can make one additional melee attack. This model can gain only one additional attack from Cleave each activation.",
     "type": "ability"
   },
+  "combatDrugs": {
+    "id": "combatDrugs",
+    "name": "Combat Drugs",
+    "description": "RNG 5. Target Cohort in this model’s battlegroup gains Aggressive for one turn. (A model with Aggressive can run or charge without spending a focus point or being forced.)"
+  },
+  "comboStrike": {
+    "id": "comboStrike",
+    "name": "Combo Strike",
+    "description": "This model gains +4 to the damage roll for this attack."
+  },
   "comboStrikeAttack": {
     "name": "Combo Strike (★ Attack)",
     "description": "This model gains +4 to the damage roll for this attack.",
@@ -194,10 +278,31 @@
     "description": "This command attachment can be added to an Immortal unit.",
     "type": "ability"
   },
+  "commandAttachmentSmallBasedDrudge": {
+    "id": "commandAttachmentSmallBasedDrudge",
+    "name": "Command Attachment [Small-based Drudge]",
+    "description": "This command attachment can be added to a small based Drudge unit.",
+    "notes": ""
+  },
+  "companionCarverUltimus": {
+    "id": "companionCarverUltimus",
+    "name": "Companion [Carver Ultimus]",
+    "description": "This model is included in any army that includes Carver Ultimus. If Carver is destroyed or removed from play, remove this model from play. This model is part of Carver’s battlegroup."
+  },
+  "companionExulonNostilla": {
+    "id": "companionExulonNostilla",
+    "name": "Companion [Exulon Nostilla]",
+    "description": "This model is included in any army that includes Exulon Nostilla. If Nostilla is destroyed or removed from play, remove this model from play. This model is part of Nostilla’s battlegroup."
+  },
   "companionGoreshadeTheBastard": {
     "name": "Companion [Goreshade The Bastard]",
     "description": "This model is included in any army that includes Goreshade The Bastard. If Goreshade is destroyed or removed from play, remove this model from play. This model is part of Goreshade's battlegroup.",
     "type": "ability"
+  },
+  "companionMagnusTheUnstoppable": {
+    "id": "companionMagnusTheUnstoppable",
+    "name": "Companion [Magnus, the Unstoppable]",
+    "description": "This model is included in any army that includes Magnus, the Unstoppable. If Magnus is destroyed or removed from play, remove this model from play. This model is part of Magnus’ battlegroup."
   },
   "conditionAction": {
     "name": "Condition (★ Action)",
@@ -229,25 +334,30 @@
     "description": "On a critical hit, gain an additional die on this weapon's damage rolls against the target directly hit.",
     "type": "ability"
   },
+  "criticalDecapitation": {
+    "id": "criticalDecapitation",
+    "name": "Critical Decapitation",
+    "description": "On a critical hit, double the damage exceeding the ARM of the model hit. A model disabled by this attack cannot make a Tough roll."
+  },
   "criticalGrievousWounds": {
+    "id": "criticalGrievousWounds",
     "name": "Critical Grievous Wounds",
-    "description": "On a critical hit, a model hit by this weapon loses Tough and cannot have damage removed from it for one round.",
-    "type": "ability"
+    "description": "On a critical hit, a model hit by this weapon loses Tough and cannot have damage removed from it for one round."
   },
   "criticalKnockdown": {
+    "id": "criticalKnockdown",
     "name": "Critical Knockdown",
-    "description": "On a critical hit, the model hit becomes knocked down.",
-    "type": "ability"
+    "description": "On a critical hit, models hit become knocked down."
   },
   "criticalParalysis": {
+    "id": "criticalParalysis",
     "name": "Critical Paralysis",
-    "description": "On a critical hit, a living model hit has its base DEF reduced to 5 and cannot run, charge, or make slam or trample power attacks for one round.",
-    "type": "ability"
+    "description": "On a critical hit, a living model hit has its base DEF reduced to 5 and cannot run, charge, or make slam or trample power attacks for one round."
   },
   "criticalPitch": {
+    "id": "criticalPitch",
     "name": "Critical Pitch",
-    "description": "On a critical hit against a model with an equal or smaller base, the model hit can be thrown d6\" directly away from this model. The POW of collateral damage is equal to the POW of this attack.",
-    "type": "ability"
+    "description": "On a critical hit against a model with an equal or smaller base, the model hit can be thrown d6\" directly away from this model. The POW of collateral damage is equal to the POW of this attack."
   },
   "criticalPoison": {
     "name": "Critical Poison",
@@ -255,14 +365,19 @@
     "type": "ability"
   },
   "criticalShred": {
+    "id": "criticalShred",
     "name": "Critical Shred",
-    "description": "On a critical hit with this weapon during this model's Combat Action, after the attack is resolved this model can make one additional attack with this weapon against the model hit.",
-    "type": "ability"
+    "description": "On a critical hit with this weapon during this model’s Combat Action, after the attack is resolved this model can make one additional attack with this weapon against the model hit."
   },
   "crucibleOfDeath": {
     "name": "Crucible of Death",
     "description": "This model can spend up to three corpse tokens at the start of its activation to gain 1 focus point for each corpse token spent.",
     "type": "ability"
+  },
+  "cumbersome": {
+    "id": "cumbersome",
+    "name": "Cumbersome",
+    "description": "This model cannot attack with this weapon and with another weapon during the same activation."
   },
   "curseBane": {
     "name": "Curse [Bane]",
@@ -324,10 +439,20 @@
     "description": "When this model boxes a living enemy warrior model with an attack with this weapon and the Deathwalker is not in play, remove the boxed model from play and replace it with the Deathwalker.",
     "type": "ability"
   },
+  "defenseFormation": {
+    "id": "defenseFormation",
+    "name": "Defense Formation",
+    "description": "While in this model’s control range and B2B with one or more models in its battlegroup, models in this model's battlegroup with an extra-large base or smaller gain +2 ARM and cannot become knocked down."
+  },
   "defensiveStrike": {
     "name": "Defensive Strike",
     "description": "Once per turn, when an enemy model advances into and ends its movement or is placed in the melee range of a model with Defensive Strike, the model with Defensive Strike can immediately make one basic melee attack against it.",
     "type": "ability"
+  },
+  "deneghraTheSoulWeaverFeat": {
+    "name": "Hell Gate",
+    "description": "Deneghra immediately gains seven soul tokens.",
+    "type": "feat"
   },
   "desperatePaceImmortal": {
     "name": "Desperate Pace [Immortal]",
@@ -359,25 +484,46 @@
     "description": "This weapon gains +1 to its damage rolls for each corpse token on this model.",
     "type": "ability"
   },
+  "dopamineBoost": {
+    "id": "dopamineBoost",
+    "name": "Dopamine Boost",
+    "description": "This model gains Overtake, and Swift Hunter. (When a model with Overtake destroys one or more enemy models with a basic melee attack during its Combat Action, after the attack is resolved it can immediately advance up to 1\".) (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)"
+  },
   "drag": {
+    "id": "drag",
     "name": "Drag",
     "description": "If this model hits an enemy model with an equal or smaller base with a basic attack with this weapon, immediately after the attack is resolved the hit model can be pushed directly toward this model until it contacts a model, an obstacle, or an obstruction.",
-    "type": "ability"
+    "notes": ""
   },
   "dragBelow": {
     "name": "Drag Below",
     "description": "During this model's activation, immediately after resolving an attack in which it boxed an enemy warrior model, this model can use Drag Below. The boxed model is removed from play and this model can immediately make a full advance and then perform a Dig In special action, then its activation ends.",
     "type": "ability"
   },
+  "electroLeap": {
+    "id": "electroLeap",
+    "name": "Electro Leap",
+    "description": "When a model is directly hit with a basic attack made with this weapon, you can have lightning arc to the nearest model within 3\" of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll. Lightning arc damage rolls are not considered to have been caused by an attack. Resolve lightning arc damage rolls simultaneously with the damage resulting from the attack that caused the leap."
+  },
   "empowerAction": {
     "name": "Empower (★ Action)",
     "description": "RNG 6. Target friendly Faction warjack. If the target warjack is in range and it was suffering Disruption, it is no longer disrupted. The warjack gains 1 focus point.",
     "type": "ability"
   },
+  "endorphinDump": {
+    "id": "endorphinDump",
+    "name": "Endorphin Dump",
+    "description": "This model gains +2 to its attack rolls."
+  },
   "enrageAction": {
     "name": "Enrage (★ Action)",
     "description": "RNG 3. Target friendly warbeast. If the warbeast is in range, it gains +2 to its melee attack damage rolls. Enrage lasts for one turn.",
     "type": "ability"
+  },
+  "exhaustFumes": {
+    "id": "exhaustFumes",
+    "name": "Exhaust Fumes",
+    "description": "When this model advances during its Normal Movement, for one round other friendly models gain concealment while within 3\" of this model."
   },
   "extendedControlRange": {
     "name": "Extended Control Range",
@@ -424,6 +570,11 @@
     "description": "While in Xekaar's control range, enemy models suffer -3 MAT, RAT, and THR. Additionally, affected models suffer -3 to their melee attack damage rolls. Whispers of Torment lasts for one round.",
     "type": "ability"
   },
+  "feignDeath": {
+    "id": "feignDeath",
+    "name": "Feign Death",
+    "description": "This model cannot be targeted by ranged or arcane attacks while knocked down."
+  },
   "fieldMarshalBloodShadow": {
     "name": "Field Marshal [Blood Shadow]",
     "description": "The melee weapons of warjacks in this model's battlegroup gain Blood Shadow.",
@@ -439,10 +590,20 @@
     "description": "Cohort models in this model's battlegroup gain Pathfinder.",
     "type": "ability"
   },
+  "fieldMarshalReposition3": {
+    "id": "fieldMarshalReposition3",
+    "name": "Field Marshal [Reposition 3\"]",
+    "description": "Cohort models in this model’s battlegroup gain Reposition [3\"]. (At the end of an activation in which it did not run or fail a charge, a model with Reposition [3\"] can advance up to 3\", then its activation ends.)"
+  },
   "fightToTheLast": {
     "name": "Fight to the Last",
     "description": "RNG 5. Target friendly Faction warrior model/unit. If the model/unit is in range, it gains Tough for one round.",
     "type": "ability"
+  },
+  "flamethrower": {
+    "id": "flamethrower",
+    "name": "Flamethrower",
+    "description": "This weapon becomes Sp 8, POW 12, and gains Continuous Effect: Fire and Damage Type: Fire for this attack."
   },
   "followUp": {
     "name": "Follow Up",
@@ -454,15 +615,35 @@
     "description": "While within 3\" of the spellcaster, friendly Faction models gain +2 DEF and ARM against ranged attacks. Force Aura lasts for one round.",
     "type": "ability"
   },
+  "forceBarrier": {
+    "id": "forceBarrier",
+    "name": "Force Barrier",
+    "description": "This model gains +2 DEF against ranged attack rolls and gains Resistance: Blast."
+  },
+  "forcedReload1": {
+    "id": "forcedReload1",
+    "name": "Forced Reload [1]",
+    "description": "This model can be forced once during its activation to make one additional ranged attack with this weapon during its Combat Action."
+  },
   "freeze": {
     "name": "Freeze",
     "description": "A model hit by this weapon becomes stationary for one round unless it has Resistance: Cold.",
     "type": "ability"
   },
+  "fullAuto": {
+    "id": "fullAuto",
+    "name": "Full Auto",
+    "description": "Instead of making one attack with this weapon, this model can make d3 attacks. Do not choose an attack type when resolving these attacks."
+  },
   "fullBatteryFireAttack": {
     "name": "Full Battery Fire (★ Attack)",
     "description": "This weapon becomes POW 20 for this attack. On a direct hit, models hit are thrown d6\" directly away from the attacker. Roll distance once for all models affected. Move models farthest from the attacker first. Instead of suffering blast damage, models hit but not directly hit suffer a damage roll with POW equal to the blast damage POW of this weapon. The POW of collateral damage is equal to the blast damage POW of this weapon.",
     "type": "ability"
+  },
+  "fullBoar": {
+    "id": "fullBoar",
+    "name": "Full Boar",
+    "description": "This model can use Full Boar at the start of its activation. This model gains +2 SPD that activation. At the end of that activation, this model suffers d3 damage points. Full Boar can be used only once per activation."
   },
   "gang": {
     "name": "Gang",
@@ -489,10 +670,41 @@
     "description": "While within 8\" of this model, enemy models suffer -2 to their melee attack damage rolls. Gnawing Pain lasts for one round.",
     "type": "ability"
   },
+  "goreshadeTheBastardFeat": {
+    "name": "Dark Summons",
+    "description": "Put a small-based Bane unit into play. Place each model completely within 3\" of Goreshade.",
+    "type": "feat"
+  },
+  "grandSlam": {
+    "id": "grandSlam",
+    "name": "Grand Slam",
+    "description": "This model can make slam power attacks without spending a focus point. Models slammed by this model are moved an additional 2\"."
+  },
+  "grantedAmbush": {
+    "id": "grantedAmbush",
+    "name": "Granted: Ambush",
+    "description": "This unit gains Ambush."
+  },
+  "grantedBloodBound": {
+    "id": "grantedBloodBound",
+    "name": "Granted: Blood-Bound",
+    "description": "While this model is in play, models in its unit gain Blood-Bound. (When a model with Blood-Bound destroys a living enemy model with an attack, after the attack is resolved you can return one destroyed model in its unit to play. Place the returned model completely within 3\" of the attacking model. The returned model cannot activate the turn it returns to play. The destroyed enemy model is removed from play and does not provide a soul or corpse token.)"
+  },
+  "grantedGang": {
+    "id": "grantedGang",
+    "name": "Granted: Gang",
+    "description": "While this model is in play, models in its unit gain Gang. (When making a melee attack targeting an enemy model in the melee range of another model in this unit, a model with Gang gains +2 to melee attack and melee damage rolls.)"
+  },
   "grantedInspiration": {
+    "id": "grantedInspiration",
     "name": "Granted: Inspiration",
     "description": "While this model is in play, models in its unit gain +1 to attack rolls.",
-    "type": "ability"
+    "notes": ""
+  },
+  "grantedRelentlessCharge": {
+    "id": "grantedRelentlessCharge",
+    "name": "Granted: Relentless Charge",
+    "description": "While this model is in play, models in its unit gain Relentless Charge. (While advancing as part of a charge, a model with Relentless Charge gains Pathfinder.)"
   },
   "grantedRise": {
     "name": "Granted: Rise",
@@ -504,10 +716,16 @@
     "description": "While this model is in play, models in its unit gain Set Defense.",
     "type": "ability"
   },
+  "grantedShieldGuard": {
+    "id": "grantedShieldGuard",
+    "name": "Granted: Shield Guard",
+    "description": "While this model is in play, models in its unit gain Shield Guard. (When a friendly model is directly hit by a non-spray ranged attack while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard be directly hit instead. That model is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. Shield Guard can only be used once per attack.)"
+  },
   "grantedTough": {
+    "id": "grantedTough",
     "name": "Granted: Tough",
     "description": "While this model is in play, models in its unit gain Tough.",
-    "type": "ability"
+    "notes": ""
   },
   "graveMist": {
     "name": "Grave Mist",
@@ -515,9 +733,10 @@
     "type": "ability"
   },
   "grievousWounds": {
+    "id": "grievousWounds",
     "name": "Grievous Wounds",
     "description": "On a direct hit, a model hit by this weapon loses Tough and cannot have damage removed from it for one round.",
-    "type": "ability"
+    "notes": ""
   },
   "guidanceAction": {
     "name": "Guidance (★ Action)",
@@ -534,20 +753,32 @@
     "description": "Hellfire is a RNG 10, POW 14 arcane attack. Models disabled by Hellfire cannot make a Tough roll. Models boxed by Hellfire are removed from play.",
     "type": "ability"
   },
+  "hormoneManipulation": {
+    "id": "hormoneManipulation",
+    "name": "Hormone Manipulation",
+    "description": "When this model begins its activation in Nostilla's control range, choose one of the following effects. Hormone Manipulation effects last for one round."
+  },
   "huntingPackAradus": {
     "name": "Hunting Pack [Aradus]",
     "description": "This model gains a +1 cumulative bonus to melee attack and damage rolls for each other friendly Aradus warbeast with the target of this model's melee attack in its melee range. This cumulative bonus cannot exceed +3.",
     "type": "ability"
   },
   "hyperAggressive": {
+    "id": "hyperAggressive",
     "name": "Hyper-Aggressive",
     "description": "When this model suffers damage from an enemy attack, after the attack is resolved it can immediately make a full advance directly toward the attacking model.",
-    "type": "ability"
+    "notes": ""
   },
   "immovableObject": {
     "name": "Immovable Object",
     "description": "This model cannot become knocked down, cannot be placed, and cannot be moved by a push, slam, or throw.",
     "type": "ability"
+  },
+  "imperviousFlesh": {
+    "id": "imperviousFlesh",
+    "name": "Impervious Flesh",
+    "description": "When this model suffers a damage roll, roll one fewer die.",
+    "notes": ""
   },
   "incendiary": {
     "name": "Incendiary",
@@ -560,9 +791,10 @@
     "type": "ability"
   },
   "inflictPain": {
+    "id": "inflictPain",
     "name": "Inflict Pain",
     "description": "When it hits a warbeast with this weapon, this model can place 1 fury point on or remove 1 fury point from the warbeast.",
-    "type": "ability"
+    "notes": ""
   },
   "inhumanResolve": {
     "name": "Inhuman Resolve",
@@ -579,10 +811,31 @@
     "description": "This model gains Mortal Fear. Invocation of Darkest Night lasts for one round.",
     "type": "ability"
   },
+  "journeymanCephalyxWarcaster": {
+    "id": "journeymanCephalyxWarcaster",
+    "name": "Journeyman Cephalyx Warcaster",
+    "description": "This model is not a warcaster or Leader, but has the following warcaster special rules: Battlegroup Controller, Focus Manipulation, Healing, Power Field, and Spellcaster. This model may allocate focus point to monstrosities in it's battlegroup as if they were a warjack. This model must have at least one cohort in its battlegroup at the start of the game."
+  },
+  "journeymanWarcaster": {
+    "id": "journeymanWarcaster",
+    "name": "Journeyman Warcaster",
+    "description": "This model is not a warcaster or Leader, but has the following warcaster special rules: Battlegroup Controller, Focus Manipulation, Power Field, and Spellcaster. This model must have at least one cohort in its battlegroup at the start of the game."
+  },
+  "knockdown": {
+    "id": "knockdown",
+    "name": "Knockdown",
+    "description": "When a model is hit by an attack with this weapon, it becomes knocked down.",
+    "notes": ""
+  },
   "knowledgeOfTheDamned": {
     "name": "Knowledge of the Damned",
     "description": "When a model in this model's control range makes an attack or damage roll, this model can spend a soul token to cause that model to reroll the roll. Each roll can be rerolled only once due to Knowledge of the Damned.",
     "type": "ability"
+  },
+  "lastWord": {
+    "id": "lastWord",
+    "name": "Last Word",
+    "description": "When this model is disabled by an enemy attack, it can immediately advance up to 3\" and can make one basic melee attack."
   },
   "leadershipBasilisks": {
     "name": "Leadership [Basilisks]",
@@ -604,6 +857,11 @@
     "description": "While within 10\" of this model, friendly Void Spirits models gain Tough and Stealth and +1 to attack rolls.",
     "type": "ability"
   },
+  "lesserWarlock": {
+    "id": "lesserWarlock",
+    "name": "Lesser Warlock",
+    "description": "This model is not a warlock or Leader, but has the following warlock special rules: Battlegroup Controller, Fury Manipulation, Healing, Spellcaster, and Transferring Damage. This model must have at least one warbeast in its battlegroup at the start of the game."
+  },
   "lifeDrinker": {
     "name": "Life Drinker",
     "description": "When this model boxes a living enemy model with this weapon, this model can remove d3 damage points.",
@@ -613,6 +871,46 @@
     "name": "Lightning Strike",
     "description": "The spellcaster gains Sprint. Lightning Strike lasts for one turn.",
     "type": "ability"
+  },
+  "limitedBattlegroupAberration": {
+    "id": "limitedBattlegroupAberration",
+    "name": "Limited Battlegroup [Aberration]",
+    "description": "The only cohort that can be in this model’s battlegroup is Aberration."
+  },
+  "limitedBattlegroupInvictus": {
+    "id": "limitedBattlegroupInvictus",
+    "name": "Limited Battlegroup [Invictus]",
+    "description": "The only warjack that can be in this model’s battlegroup is Invictus."
+  },
+  "limitedBattlegroupWarBoarMmd47": {
+    "id": "limitedBattlegroupWarBoarMmd47",
+    "name": "Limited Battlegroup [War Boar MMD47]",
+    "description": "The only warbeast that can be in this model’s battlegroup is War Boar MMD47."
+  },
+  "loneGunman": {
+    "id": "loneGunman",
+    "name": "Lone Gunman",
+    "description": "When attacking with this weapon, this model cannot participate in combined ranged attacks."
+  },
+  "longShadows": {
+    "id": "longShadows",
+    "name": "Long Shadows",
+    "description": "When one or more living enemy models are destroyed by an arcane attack while in this model’s control range, this model gains one focus or fury point."
+  },
+  "lordArbiterHexerisFeat": {
+    "name": "Arcane Reaver",
+    "description": "Immediately remove any number of soul tokens, fury points, essence points, and focus points from non-Leader models in Hexeris' control range. For each token or point removed, place 1 fury point on Hexeris. Hexeris cannot exceed his current ARC in fury points as a result of Arcane Reaver.",
+    "type": "feat"
+  },
+  "lordExhumatorScaverousFeat": {
+    "name": "Black Gate",
+    "description": "While in Scaverous' control range, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell while in Scaverous' control range, increase the COST by 1. Black Gate lasts for one round.",
+    "type": "feat"
+  },
+  "lordTyrantZaadeshFeat": {
+    "name": "Scorpion's Sting",
+    "description": "While in Zaadesh's control range, friendly Faction models gain +2 MAT and +2 to their melee attack damage rolls and Defensive Strike. Scorpion's Sting lasts for one round. (Once per turn, when an enemy model advances into and ends its movement, or is placed in the melee range of a model with Defensive Strike, the model with Defensive Strike can immediately make one basic melee attack against it.)",
+    "type": "feat"
   },
   "lurker": {
     "name": "Lurker",
@@ -624,15 +922,31 @@
     "description": "Enemy warbeasts currently within 6\" of this model gain 1 fury point.",
     "type": "ability"
   },
+  "mageStatic": {
+    "id": "mageStatic",
+    "name": "Mage Static",
+    "description": "Spells cast by enemy models within 10\" of this model suffer +1 COST and -3 RNG."
+  },
   "magicAbility": {
+    "id": "magicAbility",
     "name": "Magic Ability",
     "description": "Performing a Magic Ability special action or special attack counts as casting a spell.",
-    "type": "ability"
+    "notes": ""
   },
   "maltreatment": {
     "name": "Maltreatment",
     "description": "Once per turn at any time during its activation, this model can remove 1 fury point from a warbeast in its battlegroup that is in its control range and add 1 fury point to its own current total. The warbeast suffers d3 damage points.",
     "type": "ability"
+  },
+  "manCatcher": {
+    "id": "manCatcher",
+    "name": "Man Catcher",
+    "description": "A warrior model hit by this attack suffers -2 DEF and cannot advance while within this model’s melee range for one round."
+  },
+  "manifestControl": {
+    "id": "manifestControl",
+    "name": "Manifest Control",
+    "description": "After this model casts a spell, it can spend a mind token to cast a spell it has not already cast this turn."
   },
   "marionetteAttack": {
     "name": "Marionette (★ Attack)",
@@ -644,10 +958,31 @@
     "description": "When damaging a warjack or warbeast with a ranged attack, choose which column or branch suffers damage.",
     "type": "ability"
   },
+  "massDelusion": {
+    "id": "massDelusion",
+    "name": "Mass Delusion",
+    "description": "While in Kythos's control range, enemy models suffer -2 to their attack rolls against friendly Faction non-Incorporeal models. Additionally, friendly Faction non-Incorporeal models in Kythos’s control range gain Dodge. Mass Delusion lasts for one round. (A model with Dodge can advance up to 2\" immediately after an enemy attack that missed it is resolved.)",
+    "type": "feat"
+  },
   "medicateD3Action": {
     "name": "Medicate [d3] (★ Action)",
     "description": "RNG 1. Target friendly living warbeast. If the warbeast is in range, remove d3 damage points from it.",
     "type": "ability"
+  },
+  "mentalReservoir": {
+    "id": "mentalReservoir",
+    "name": "Mental Reservoir",
+    "description": "During its Combat Action, this model can spend mind tokens to boost one attack or damage roll for each token spent."
+  },
+  "mercenaryNecrofactoriumSeaRaidersReaperCovenantAndDarkOperations": {
+    "id": "mercenaryNecrofactoriumSeaRaidersReaperCovenantAndDarkOperations",
+    "name": "Mercenary [ Necrofactorium, Sea Raiders, Reaper Covenant, and Dark Operations]",
+    "description": "This model will work for Necrofactorium, Sea Raiders, Reaper Covenant, and Dark Operations."
+  },
+  "mindBurst": {
+    "id": "mindBurst",
+    "name": "Mind Burst",
+    "description": "Once per turn at any time during this model's activation, you can choose one grunt in this unit. Enemy models within 2\" of the chosen grunt suffer an unboostable POW 12 magic blast damage roll, then the chosen grunt is removed from play."
   },
   "mortalFear": {
     "name": "Mortal Fear",
@@ -694,15 +1029,20 @@
     "description": "Gain an additional die on this weapon's damage rolls against living models.",
     "type": "ability"
   },
+  "polarityField": {
+    "id": "polarityField",
+    "name": "Polarity Field",
+    "description": "This model cannot be targeted by a charge or slam power attack made by a construct model."
+  },
   "poltergeist": {
     "name": "Poltergeist",
     "description": "When an enemy model misses this model with an attack, immediately after the attack is resolved you can choose to push the enemy model d3\" directly away from this model.",
     "type": "ability"
   },
   "powerfulAttack": {
+    "id": "powerfulAttack",
     "name": "Powerful Attack",
-    "description": "When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack.",
-    "type": "ability"
+    "description": "When attacking with this weapon, this model can spend 1 focus point or be forced to boost all attack and damage rolls for the attack."
   },
   "prey": {
     "name": "Prey",
@@ -714,6 +1054,16 @@
     "description": "This model can be forced to cast the animus of any friendly Faction warbeast within 5\" of it as if the animus were its own.",
     "type": "ability"
   },
+  "primusJalaamFeat": {
+    "name": "Hide in Sight",
+    "description": "When an enemy model makes an attack roll against a friendly Faction model in Jalaam's control range, the enemy model rolls one less die. Hide in Sight lasts for one round.",
+    "type": "feat"
+  },
+  "psychicOverload": {
+    "id": "psychicOverload",
+    "name": "Psychic Overload",
+    "description": "Psychic Overload is a RNG 8, POW 13 arcane attack. When this attack boxes a living or undead enemy model, you can take control of it and make a 3\" advance. Then, enemy models within 2\" of it suffer a POW 10 unboostable magical blast damage roll. These damage rolls are not from an attack. The boxed model is then removed from play."
+  },
   "psychoVenom": {
     "name": "Psycho Venom",
     "description": "When a living or undead enemy model is boxed by this attack, you can choose to take control of it. If you do, remove 1 damage point from it, causing it to no longer be boxed. For the rest of the turn, this model's battlegroup controller can channel spells through the affected model as if it were a model in its battlegroup with the Arc Node advantage. The affected model cannot activate. At the end of this turn, the affected model is destroyed.",
@@ -723,6 +1073,11 @@
     "name": "Puppet Master (★ Action)",
     "description": "RNG 6. Target friendly model/unit. If the target model/unit is in range, you can have one affected model reroll one attack or damage roll, then Puppet Master expires. Puppet Master lasts for one round.",
     "type": "ability"
+  },
+  "rapidHealing": {
+    "id": "rapidHealing",
+    "name": "Rapid Healing",
+    "description": "When this model is damaged by an attack, immediately after the attack is resolved remove d3 damage points from it."
   },
   "rapidStrike": {
     "name": "Rapid Strike",
@@ -734,6 +1089,11 @@
     "description": "This model can be forced to remove d3 +3 damage points once per activation. This model cannot use Regeneration during an activation it runs.",
     "type": "ability"
   },
+  "reload1": {
+    "id": "reload1",
+    "name": "Reload [1]",
+    "description": "This model can spend 1 focus or fury point to make one additional ranged attack with this weapon during its Combat Action."
+  },
   "repairD31Action": {
     "name": "Repair [d3+1] (★ Action)",
     "description": "RNG 1. Target friendly Faction construct model. If the model is in range, remove d3 +1 damage points from it.",
@@ -742,11 +1102,6 @@
   "repairD6Action": {
     "name": "Repair [d6] (★ Action)",
     "description": "RNG 1. Target friendly Faction construct model. If the model is in range, remove d6 damage points from it.",
-    "type": "ability"
-  },
-  "repulsion": {
-    "name": "Repulsion",
-    "description": "Enemy models currently within 2\" of the spellcaster are immediately pushed 3\" directly away from it in the order you choose.",
     "type": "ability"
   },
   "reposition3": {
@@ -759,15 +1114,20 @@
     "description": "At the end of this model/unit's activation in which it did not run or fail a charge, this model can advance up to 5\", then its activation ends.",
     "type": "ability"
   },
+  "repulsion": {
+    "name": "Repulsion",
+    "description": "Enemy models currently within 2\" of the spellcaster are immediately pushed 3\" directly away from it in the order you choose.",
+    "type": "ability"
+  },
   "retaliation": {
     "name": "Retaliation",
     "description": "If a model with Retaliation was damaged by an enemy attack during the last round, during your Maintenance Phase it can advance up to 3\" and make one basic melee attack.",
     "type": "ability"
   },
   "retaliatoryStrike": {
+    "id": "retaliatoryStrike",
     "name": "Retaliatory Strike",
-    "description": "If a model with Retaliatory Strike is hit by an enemy melee attack during your opponent's turn, after that attack is resolved the model with Retaliatory Strike can immediately make one basic melee attack against the attacking model. A model with Retaliatory Strike can make only one Retaliatory Strike per turn.",
-    "type": "ability"
+    "description": "If this model is hit by an enemy melee attack during your opponent’s turn, after that attack is resolved this model can immediately make one basic melee attack against the attacking model. This model can make only one Retaliatory Strike per turn."
   },
   "righteousVengeance": {
     "name": "Righteous Vengeance",
@@ -783,6 +1143,12 @@
     "name": "Sacrificial Pawn [Immortal]",
     "description": "When this model is directly hit by an enemy ranged attack, you can have one friendly, non-incorporeal Immortal model within 3\" of it directly hit instead. That model is automatically hit and suffers all damage and effects.",
     "type": "ability"
+  },
+  "sacrificialPawnMonstrosity": {
+    "id": "sacrificialPawnMonstrosity",
+    "name": "Sacrificial Pawn [Monstrosity]",
+    "description": "When this model is directly hit by an enemy ranged attack, you can have one friendly, non-incorporeal Monstrosity within 3\" of it directly hit instead. That model is automatically hit and suffers all damage and effects.",
+    "notes": ""
   },
   "sandStorm": {
     "name": "Sand Storm",
@@ -804,15 +1170,21 @@
     "description": "Models suffer -2 on charge and slam power attack rolls against this model.",
     "type": "ability"
   },
+  "shadowBind": {
+    "id": "shadowBind",
+    "name": "Shadow Bind",
+    "description": "A model hit by this weapon suffers Shadow Bind for one round. (A model suffering Shadow Bind suffers -3 DEF and cannot advance for one round. Shadow Bind can be shaken.)"
+  },
   "shieldGuard": {
+    "id": "shieldGuard",
     "name": "Shield Guard",
-    "description": "When a friendly model is directly hit by a non-spray ranged attack while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard be directly hit instead. That model is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. Shield Guard can only be used once per attack.",
-    "type": "ability"
+    "description": "When a friendly model is directly hit by a non-spray ranged attack while within 3\" of a model with Shield Guard, you can choose to have the model with Shield Guard be directly hit instead. That model is automatically hit and suffers all damage and effects. A model can use Shield Guard only once per round and cannot use Shield Guard if it is incorporeal, knocked down, or stationary. Shield Guard can only be used once per attack."
   },
   "shieldWall": {
+    "id": "shieldWall",
     "name": "Shield Wall",
     "description": "While this model is B2B with one or more models in its unit, it gains +2 ARM and cannot be knocked down.",
-    "type": "ability"
+    "notes": ""
   },
   "sideStep": {
     "name": "Side Step",
@@ -843,6 +1215,11 @@
     "name": "Slammer",
     "description": "This model can make slam power attacks without being forced. Models slammed by this model are moved an additional 2\".",
     "type": "ability"
+  },
+  "sleepwalker": {
+    "id": "sleepwalker",
+    "name": "Sleepwalker",
+    "description": "This attack causes no damage. Instead, a living warrior model hit by this attack becomes stationary for one round. On a critical hit on a non-Leader living enemy warrior model, before it becomes stationary you take control of the model hit. You can immediately make a full advance with the enemy model followed by a basic attack, then the enemy model reverts to your opponent’s control and becomes stationary for one round."
   },
   "snacking": {
     "name": "Snacking",
@@ -970,9 +1347,9 @@
     "type": "ability"
   },
   "steady": {
+    "id": "steady",
     "name": "Steady",
-    "description": "This model cannot become knocked down.",
-    "type": "ability"
+    "description": "This model cannot become knocked down."
   },
   "stonesWrathAction": {
     "name": "Stones' Wrath (★ Action)",
@@ -989,6 +1366,17 @@
     "description": "This model cannot be pushed.",
     "type": "ability"
   },
+  "sucker": {
+    "id": "sucker",
+    "name": "Sucker!",
+    "description": "If this model is directly hit by an enemy ranged attack, choose a friendly non-incorporeal warrior model within 3\" of it to be directly hit instead. That model is automatically hit and suffers all damage and effects.",
+    "notes": ""
+  },
+  "supremeArchdominaMakedaFeat": {
+    "name": "Instruments of War",
+    "description": "While in Makeda's control range, friendly Faction models gain boosted melee attack rolls and cannot become knocked down. Instruments of War lasts for one round.",
+    "type": "feat"
+  },
   "sustainedAttack": {
     "name": "Sustained Attack",
     "description": "During this model's activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.",
@@ -1000,24 +1388,48 @@
     "type": "ability"
   },
   "takeUp": {
+    "id": "takeUp",
     "name": "Take Up",
     "description": "If this model is destroyed by an effect other than Take Up, you can choose a grunt in this unit within 1\" of it to be destroyed instead. Remove that grunt from the table instead of this model. This model has the same number of unmarked damage boxes as the chosen grunt.",
-    "type": "ability"
+    "notes": ""
+  },
+  "telekineticShift": {
+    "id": "telekineticShift",
+    "name": "Telekinetic Shift",
+    "description": "Place the spellcaster completely within 5\" of its current location."
+  },
+  "telekineticTide": {
+    "id": "telekineticTide",
+    "name": "Telekinetic Tide",
+    "description": "Push each enemy non-Leader model currently in Thexus’ control range 2\" in any direction.",
+    "type": "feat"
   },
   "telemetry": {
+    "id": "telemetry",
     "name": "Telemetry",
-    "description": "Other friendly Faction models gain +2 to arcane attack rolls against enemy models within 8\" of this model.",
+    "description": "Other friendly Faction models gain +2 to arcane attack rolls against enemy models within 8\" of this model."
+  },
+  "thrallBomb": {
+    "name": "Thrall Bomb",
+    "description": "When this model is disabled, models within 2\" of it suffer a POW 8 blast damage roll, then this model is removed from play.",
     "type": "ability"
+  },
+  "thresher": {
+    "id": "thresher",
+    "name": "Thresher",
+    "description": "(★ Attack) This model makes one melee attack with this weapon against each model in its LOS that is in this weapon’s melee range, regardless of whether that model is a friendly model or an enemy model. Thresher attacks are simultaneous.",
+    "notes": ""
   },
   "thresherAttack": {
     "name": "Thresher (★ Attack)",
     "description": "This model makes one melee attack with this weapon against each model in its LOS that is in this weapon's melee range, regardless of whether that model is a friendly model or an enemy model. Thresher attacks are simultaneous.",
     "type": "ability"
   },
-  "thrallBomb": {
-    "name": "Thrall Bomb",
-    "description": "When this model is disabled, models within 2\" of it suffer a POW 8 blast damage roll, then this model is removed from play.",
-    "type": "ability"
+  "trueMercenary": {
+    "id": "trueMercenary",
+    "name": "True Mercenary",
+    "description": "This model will work for any army. You may only include one model with True Mercenary in your list during list construction.",
+    "notes": ""
   },
   "unhallowed": {
     "name": "Unhallowed",
@@ -1059,10 +1471,25 @@
     "description": "While within 10\" of this model, other friendly Paingiver Bloodrunner models gain +1 to attack rolls.",
     "type": "ability"
   },
+  "vitalizer": {
+    "id": "vitalizer",
+    "name": "Vitalizer",
+    "description": "RNG 6. Target friendly monstrosity. If the target monstrosity is in range, it gains 1 focus point."
+  },
+  "voidBlast": {
+    "id": "voidBlast",
+    "name": "Void Blast",
+    "description": "This weapon becomes AOE 2, POW 14/8 for this attack. Models destroyed by this attack are removed from play."
+  },
   "voidBringer": {
     "name": "Void Bringer",
     "description": "This model can use Void Bringer once per game at any time during its unit's activation. When this model uses Void Bringer, return d3 + 1 destroyed troopers to this unit. Place the returned troopers completely within 3\" of this model. Returned troopers must forfeit their Combat Actions this activation.",
     "type": "ability"
+  },
+  "voidSeerMordikaarFeat": {
+    "name": "Void Wind",
+    "description": "While in Mordikaar's control range, friendly Faction models gain +3 DEF and Poltergeist. Void Wind lasts for one round.",
+    "type": "feat"
   },
   "voidWalk": {
     "name": "Void Walk",
@@ -1070,9 +1497,10 @@
     "type": "ability"
   },
   "volumeFire": {
+    "id": "volumeFire",
     "name": "Volume Fire",
     "description": "Gain +1 to attack and damage rolls with this weapon against medium-based models and +2 to attack and damage rolls against larger-based models.",
-    "type": "ability"
+    "notes": ""
   },
   "wingsOfDeath": {
     "name": "Wings of Death",
@@ -1089,59 +1517,9 @@
     "description": "When this model makes an attack with this weapon, it can spend a soul token to use Wraith Shot. If it does, it ignores LOS, concealment, and cover when making this attack. Attack and damage rolls resulting from the attack are boosted.",
     "type": "ability"
   },
-  "baneWitchAgathiaFeat": {
-    "name": "Shadowfall",
-    "description": "Models in Agathia's battlegroup currently in her control range are affected by Ghost Walk. Additionally, you can place each friendly faction Cohort model currently in Agathia's control range anywhere completely within 3\" of its current location. Shadowfall lasts for one turn.",
-    "type": "feat"
-  },
-  "deneghraTheSoulWeaverFeat": {
-    "name": "Hell Gate",
-    "description": "Deneghra immediately gains seven soul tokens.",
-    "type": "feat"
-  },
-  "goreshadeTheBastardFeat": {
-    "name": "Dark Summons",
-    "description": "Put a small-based Bane unit into play. Place each model completely within 3\" of Goreshade.",
-    "type": "feat"
-  },
-  "lordExhumatorScaverousFeat": {
-    "name": "Black Gate",
-    "description": "While in Scaverous' control range, friendly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell while in Scaverous' control range, increase the COST by 1. Black Gate lasts for one round.",
-    "type": "feat"
-  },
-  "lordTyrantZaadeshFeat": {
-    "name": "Scorpion's Sting",
-    "description": "While in Zaadesh's control range, friendly Faction models gain +2 MAT and +2 to their melee attack damage rolls and Defensive Strike. Scorpion's Sting lasts for one round. (Once per turn, when an enemy model advances into and ends its movement, or is placed in the melee range of a model with Defensive Strike, the model with Defensive Strike can immediately make one basic melee attack against it.)",
-    "type": "feat"
-  },
-  "primusJalaamFeat": {
-    "name": "Hide in Sight",
-    "description": "When an enemy model makes an attack roll against a friendly Faction model in Jalaam's control range, the enemy model rolls one less die. Hide in Sight lasts for one round.",
-    "type": "feat"
-  },
-  "supremeArchdominaMakedaFeat": {
-    "name": "Instruments of War",
-    "description": "While in Makeda's control range, friendly Faction models gain boosted melee attack rolls and cannot become knocked down. Instruments of War lasts for one round.",
-    "type": "feat"
-  },
   "xerxisFuryOfHalaakFeat": {
     "name": "Hand of the Ancients",
     "description": "All models are considered to be in Xerxis' control range. Friendly Faction models gain an additional die on attack and damage rolls. For each of those rolls, discard one die of your choice. Hand of the Ancients lasts for one turn.",
-    "type": "feat"
-  },
-  "beastMasterXekaarFeat": {
-    "name": "Whispers of Torment",
-    "description": "While in Xekaar's control range, enemy models suffer -3 MAT, RAT, and THR. Additionally, affected models suffer -3 to their melee attack damage rolls. Whispers of Torment lasts for one round.",
-    "type": "feat"
-  },
-  "lordArbiterHexerisFeat": {
-    "name": "Arcane Reaver",
-    "description": "Immediately remove any number of soul tokens, fury points, essence points, and focus points from non-Leader models in Hexeris' control range. For each token or point removed, place 1 fury point on Hexeris. Hexeris cannot exceed his current ARC in fury points as a result of Arcane Reaver.",
-    "type": "feat"
-  },
-  "voidSeerMordikaarFeat": {
-    "name": "Void Wind",
-    "description": "While in Mordikaar's control range, friendly Faction models gain +3 DEF and Poltergeist. Void Wind lasts for one round.",
     "type": "feat"
   },
   "zaalTheAncestralAdvocateFeat": {

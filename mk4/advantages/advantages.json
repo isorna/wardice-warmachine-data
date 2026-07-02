@@ -1,10 +1,4 @@
 {
-  "jackMarshal": {
-    "name": "'Jack Marshal",
-    "rules": "This model is a 'jack marshal and can command warjacks.",
-    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv jack marshal.png",
-    "type": "model"
-  },
   "advanceDeployment": {
     "name": "Advance Deployment",
     "rules": "In most scenarios, this model can be deployed after normal deployment, up to 3\" beyond the established deployment zone.",
@@ -34,6 +28,12 @@
     "rules": "This model can make an assault ranged attack.",
     "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv assault.png",
     "type": "model"
+  },
+  "blessed": {
+    "name": "Blessed",
+    "type": "weapon",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon qual blessed.png",
+    "rules": "Ignore opponent spell bonuses to DEF and ARM."
   },
   "cavalry": {
     "name": "Cavalry",
@@ -101,6 +101,12 @@
     "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv incorporeal.png",
     "type": "model"
   },
+  "jackMarshal": {
+    "name": "'Jack Marshal",
+    "rules": "This model is a 'jack marshal and can command warjacks.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv jack marshal.png",
+    "type": "model"
+  },
   "pathfinder": {
     "name": "Pathfinder",
     "rules": "This model treats rough terrain as open terrain while advancing. While charging, slam power attacking, or trample power attacking, this model does not stop its movement when it contacts an obstacle.",
@@ -154,11 +160,5 @@
     "rules": "This model does not have to forfeit its Combat Action when it advances or is placed out of one or more enemy models' melee ranged during its Normal Movement (see Disengaging).",
     "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/model adv unstoppable.png",
     "type": "model"
-  },
-  "blessed": {
-    "name": "Blessed",
-    "type": "weapon",
-    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon qual blessed.png",
-    "rules": "Ignore opponent spell bonuses to DEF and ARM."
   }
 }

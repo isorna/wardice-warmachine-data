@@ -1,24 +1,1882 @@
 {
-  "exulonkythos": {
-    "name": "Exulon Kythos",
+  "cognifexCyphon": {
+    "name": "Cognifex Cyphon",
     "faction": "mercenaries",
-    "type": "",
-    "baseSize": 40,
-    "statistics": {
-      "speed": 0,
-      "meleeAttack": 0,
-      "rangedAttack": 0,
-      "defense": 0,
-      "armour": 0,
-      "health": 0
-    },
-    "abilities": [],
-    "spells": [],
-    "notes": "",
+    "type": "warcaster",
+    "points": 0,
+    "keywords": [],
     "armies": [
       "dark-operations"
     ],
-    "advantages": [],
-    "options": []
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "abilities": [
+      "bloodBoon",
+      "defenseFormation",
+      "fieldMarshalReposition3"
+    ],
+    "spells": [
+      "abattoir",
+      "castigate",
+      "gallows",
+      "onslaught",
+      "psychoSurgery"
+    ],
+    "feat": [
+      "adrenalineRush"
+    ],
+    "weapons": {
+      "mindWipe": {
+        "type": "ranged",
+        "name": "Mind Wipe",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "sleepwalker"
+        ]
+      },
+      "rippers": {
+        "type": "melee",
+        "name": "Rippers",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        }
+      }
+    }
+  },
+  "malfessor": {
+    "name": "Malfessor",
+    "faction": "mercenaries",
+    "type": "monstrosity",
+    "points": 15,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "hyperAggressive",
+      "mageStatic",
+      "shieldGuard",
+      "telemetry"
+    ],
+    "weapons": {
+      "psychicTrembler": {
+        "type": "ranged",
+        "name": "Psychic Trembler",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "criticalParalysis"
+        ]
+      },
+      "netLauncher": {
+        "type": "ranged",
+        "name": "Net Launcher",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "drag",
+          "knockdown"
+        ]
+      },
+      "bladedFlail": {
+        "type": "melee",
+        "name": "Bladed Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack",
+          "thresher"
+        ]
+      }
+    }
+  },
+  "subduer": {
+    "name": "Subduer",
+    "faction": "mercenaries",
+    "type": "monstrosity",
+    "points": 10,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/4",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "R"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "hyperAggressive"
+    ],
+    "weapons": {
+      "netLauncher": {
+        "type": "ranged",
+        "name": "Net Launcher",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "drag",
+          "knockdown"
+        ]
+      },
+      "heavyBlade": {
+        "type": "melee",
+        "name": "Heavy Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R"
+      }
+    }
+  },
+  "warden": {
+    "name": "Warden",
+    "faction": "mercenaries",
+    "type": "monstrosity",
+    "points": 9,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/4",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "R"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "grandSlam",
+      "hyperAggressive"
+    ],
+    "weapons": {
+      "headPlate": {
+        "type": "melee",
+        "name": "Head Plate",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      },
+      "mechaFist": {
+        "type": "melee",
+        "name": "Mecha Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "location": "L",
+        "quantity": 2
+      }
+    }
+  },
+  "wrecker": {
+    "name": "Wrecker",
+    "faction": "mercenaries",
+    "type": "monstrosity",
+    "points": 12,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/4",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "R"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "hyperAggressive"
+    ],
+    "weapons": {
+      "bladedFlail": {
+        "type": "melee",
+        "name": "Bladed Flail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "quantity": 2,
+        "abilities": [
+          "beatBack",
+          "thresher"
+        ]
+      }
+    }
+  },
+  "exulonKythos": {
+    "name": "Exulon Kythos",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "points": 0,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 16
+    },
+    "abilities": [
+      "forceBarrier",
+      "longShadows"
+    ],
+    "spells": [
+      "psychicAperture"
+    ],
+    "feat": [
+      "massDelusion"
+    ],
+    "weapons": {
+      "scythingBlade": {
+        "type": "melee",
+        "name": "Scything Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "grievousWounds"
+        ]
+      }
+    }
+  },
+  "exulonThexus": {
+    "name": "Exulon Thexus",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "points": 0,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 8,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 16,
+      "health": 10
+    },
+    "abilities": [
+      "sacrificialPawnMonstrosity"
+    ],
+    "spells": [
+      "deadweight",
+      "occultWhispers",
+      "psychicAssault",
+      "psychoSurgery",
+      "revive",
+      "scythingTouch",
+      "cripplingGrasp",
+      "dash",
+      "deceleration",
+      "hexBlast",
+      "influence",
+      "revive"
+    ],
+    "feat": [
+      "telekineticTide"
+    ],
+    "weapons": {
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "bewitch",
+          "inflictPain"
+        ]
+      }
+    }
+  },
+  "agitator": {
+    "name": "Agitator",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 3,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/3",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 5
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "magicAbility",
+      "sacrificialPawnMonstrosity"
+    ],
+    "spells": [
+      "influence",
+      "instigate",
+      "psychicAssault"
+    ],
+    "weapons": {
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    }
+  },
+  "akulonStygius": {
+    "name": "Akulon Stygius",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 2,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 5
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "magicAbility"
+    ],
+    "spells": [
+      "enliven",
+      "healD33",
+      "psychicAssault"
+    ],
+    "weapons": {
+      "prostheticManipulator": {
+        "type": "melee",
+        "name": "Prosthetic Manipulator",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        },
+        "quantity": 2,
+        "abilities": [
+          "anesthesia"
+        ]
+      }
+    }
+  },
+  "akulonThaemestra": {
+    "name": "Akulon Thaemestra",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 3,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 7
+    },
+    "abilities": [
+      "attached",
+      "anatomicalPrecision",
+      "arcaneAssist",
+      "magicAbility"
+    ],
+    "spells": [
+      "psychicAssault",
+      "spellSlave",
+      "tuneUp",
+      "reposition3"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 20,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 11
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMmd47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrels"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        }
+      }
+    }
+  },
+  "warBoarMmd47": {
+    "name": "War Boar MMD47",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "points": 0,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 30,
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {}
+            },
+            {
+              "boxes": 5,
+              "systems": {}
+            },
+            {
+              "boxes": 5,
+              "systems": {}
+            },
+            {
+              "boxes": 5,
+              "systems": {}
+            },
+            {
+              "boxes": 5,
+              "systems": {}
+            },
+            {
+              "boxes": 5,
+              "systems": {}
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "forcedReload1",
+          "volumeFire"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    }
+  },
+  "cephalyxMindThief": {
+    "name": "Cephalyx Mind Thief",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 5,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 6
+    },
+    "abilities": [
+      "mercenaryNecrofactoriumSeaRaidersReaperCovenantAndDarkOperations",
+      "anatomicalPrecision",
+      "sucker",
+      "artificeOfDomination",
+      "mentalReservoir",
+      "manifestControl",
+      "magicAbility"
+    ],
+    "spells": [
+      "expendableAsset",
+      "psychicAssault"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 20,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugs",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizer"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "psychicOverload",
+          "telekineticShift"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "brainDamage",
+          "inflictPain"
+        ]
+      },
+      "prostheticSurgicalTool": {
+        "type": "melee",
+        "name": "Prosthetic Surgical Tool",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    }
+  },
+  "aberration": {
+    "name": "Aberration",
+    "faction": "mercenaries",
+    "type": "monstrosity",
+    "points": 0,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {}
+            },
+            {
+              "boxes": 6,
+              "systems": {}
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "reload1",
+          "shadowBind"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ]
+      }
+    }
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 20,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ],
+    "weapons": {
+      "rocketLauncher": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercing",
+          "powerfulAttack"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    }
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "points": 0,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ],
+    "weapons": {
+      "obliterator": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown"
+        ]
+      },
+      "flamethrower": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        }
+      }
+    }
+  },
+  "silexusXiphus": {
+    "name": "Silexus Xiphus",
+    "faction": "mercenaries",
+    "type": "solo",
+    "points": 3,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/C",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 6
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "magicAbility"
+    ],
+    "spells": [
+      "befuddle",
+      "healD31",
+      "psychicAssault"
+    ],
+    "weapons": {
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    }
+  },
+  "criterions": {
+    "name": "Criterions",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 9,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/2",
+    "statistics": {
+      "health": 21
+    },
+    "models": {
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 6,
+          "defense": 11,
+          "armour": 17
+        },
+        "abilities": [
+          "battleDriven",
+          "rapidHealing"
+        ],
+        "weapons": {
+          "drudgeWeapons": {
+            "type": "melee",
+            "name": "Drudge Weapons",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "quantity": 2,
+            "abilities": [
+              "criticalGrievousWounds"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "dominatedStormbladeLegionnaires": {
+    "name": "Dominated Stormblade Legionnaires",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 7,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/1",
+    "statistics": {
+      "health": 5
+    },
+    "models": {
+      "dominator": {
+        "name": "Dominator",
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 6,
+          "meleeAttack": 5,
+          "defense": 14,
+          "armour": 13
+        },
+        "abilities": [
+          "anatomicalPrecision",
+          "grantedInspiration",
+          "grantedTough",
+          "magicAbility"
+        ],
+        "spells": [
+          "influence"
+        ],
+        "weapons": {
+          "prostheticBlades": {
+            "type": "melee",
+            "name": "Prosthetic Blades",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 5,
+          "defense": 13,
+          "armour": 16
+        },
+        "abilities": [
+          "polarityField",
+          "shieldWall"
+        ],
+        "weapons": {
+          "voltaicSword": {
+            "type": "melee",
+            "name": "Voltaic Sword",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 2,
+              "power": 12
+            },
+            "abilities": [
+              "electroLeap"
+            ]
+          },
+          "galvanicShield": {
+            "type": "melee",
+            "name": "Galvanic Shield",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "dominatedStrikeReavers": {
+    "name": "Dominated Strike Reavers",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 8,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/1",
+    "statistics": {
+      "health": 5
+    },
+    "models": {
+      "dominator": {
+        "name": "Dominator",
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 6,
+          "meleeAttack": 5,
+          "defense": 14,
+          "armour": 13
+        },
+        "abilities": [
+          "anatomicalPrecision",
+          "grantedInspiration",
+          "grantedTough",
+          "magicAbility"
+        ],
+        "spells": [
+          "influence"
+        ],
+        "weapons": {
+          "prostheticBlades": {
+            "type": "melee",
+            "name": "Prosthetic Blades",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 5,
+          "rangedAttack": 5,
+          "defense": 13,
+          "armour": 16
+        },
+        "abilities": [
+          "lastWord",
+          "shieldWall"
+        ]
+      }
+    }
+  },
+  "dominatedWinterKorpsInfantry": {
+    "name": "Dominated Winter Korps Infantry",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 7,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/1",
+    "statistics": {
+      "health": 5
+    },
+    "models": {
+      "dominator": {
+        "name": "Dominator",
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 6,
+          "meleeAttack": 5,
+          "defense": 14,
+          "armour": 13
+        },
+        "abilities": [
+          "anatomicalPrecision",
+          "grantedInspiration",
+          "grantedTough",
+          "magicAbility"
+        ],
+        "spells": [
+          "influence"
+        ],
+        "weapons": {
+          "prostheticBlades": {
+            "type": "melee",
+            "name": "Prosthetic Blades",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 4,
+          "rangedAttack": 4,
+          "defense": 13,
+          "armour": 13
+        },
+        "weapons": {
+          "militaryRifle": {
+            "type": "ranged",
+            "name": "Military Rifle",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 11
+            }
+          },
+          "handWeapon": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 9
+            }
+          }
+        }
+      },
+      "gunner": {
+        "name": "Gunner",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 4,
+          "rangedAttack": 4,
+          "defense": 13,
+          "armour": 13
+        },
+        "abilities": [
+          "takeUp"
+        ],
+        "weapons": {
+          "autoCannon": {
+            "type": "ranged",
+            "name": "Auto Cannon",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": "D3",
+              "power": 11
+            },
+            "abilities": [
+              "volumeFire",
+              "loneGunman"
+            ]
+          },
+          "handWeapon": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 9
+            }
+          }
+        }
+      },
+      "rocketeer": {
+        "name": "Rocketeer",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 4,
+          "rangedAttack": 4,
+          "defense": 13,
+          "armour": 13
+        },
+        "abilities": [
+          "takeUp"
+        ],
+        "weapons": {
+          "rocketLauncher": {
+            "type": "ranged",
+            "name": "Rocket Launcher",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "brutalDamage"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "drudgeConduits": {
+    "name": "Drudge Conduits",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 4,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/3",
+    "models": {
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 4,
+          "defense": 11,
+          "armour": 15
+        },
+        "abilities": [
+          "cerebralChanneling"
+        ],
+        "weapons": {
+          "drudgeFists": {
+            "type": "melee",
+            "name": "Drudge Fists",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 12
+            }
+          }
+        }
+      }
+    }
+  },
+  "mindBender": {
+    "name": "Mind Bender",
+    "faction": "mercenaries",
+    "type": "attachment",
+    "points": 2,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/3",
+    "statistics": {
+      "health": 5
+    },
+    "abilities": [
+      "commandAttachmentSmallBasedDrudge"
+    ],
+    "models": {
+      "mindBender": {
+        "name": "Mind Bender",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 5,
+          "defense": 14,
+          "armour": 13
+        },
+        "abilities": [
+          "anatomicalPrecision",
+          "grantedShieldGuard",
+          "mindBurst"
+        ],
+        "weapons": {
+          "prostheticBlades": {
+            "type": "melee",
+            "name": "Prosthetic Blades",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      }
+    }
+  },
+  "drudgeSlayers": {
+    "name": "Drudge Slayers",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 4,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/3",
+    "models": {
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 4,
+          "defense": 11,
+          "armour": 15
+        },
+        "weapons": {
+          "drudgeWeapons": {
+            "type": "melee",
+            "name": "Drudge Weapons",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 10
+            },
+            "quantity": 2,
+            "abilities": [
+              "comboStrike"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "mindSlaver": {
+    "name": "Mind Slaver",
+    "faction": "mercenaries",
+    "type": "attachment",
+    "points": 2,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/3",
+    "statistics": {
+      "health": 5
+    },
+    "abilities": [
+      "commandAttachmentSmallBasedDrudge"
+    ],
+    "models": {
+      "mindSlaver": {
+        "name": "Mind Slaver",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 5,
+          "defense": 14,
+          "armour": 13
+        },
+        "abilities": [
+          "anatomicalPrecision",
+          "grantedAmbush",
+          "grantedBloodBound",
+          "grantedGang",
+          "grantedRelentlessCharge"
+        ],
+        "weapons": {
+          "prostheticBlades": {
+            "type": "melee",
+            "name": "Prosthetic Blades",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      }
+    }
+  },
+  "iconoclastDrudges": {
+    "name": "Iconoclast Drudges",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 9,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/2",
+    "statistics": {
+      "health": 24
+    },
+    "models": {
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 4,
+          "meleeAttack": 6,
+          "rangedAttack": 5,
+          "defense": 10,
+          "armour": 15
+        },
+        "abilities": [
+          "bulldoze",
+          "imperviousFlesh",
+          "steady"
+        ],
+        "weapons": {
+          "mutableDrudgeCannon": {
+            "type": "ranged",
+            "name": "Mutable Drudge Cannon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 13
+            },
+            "abilities": [
+              "attackType",
+              "flamethrower",
+              "voidBlast",
+              "fullAuto"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "overlords": {
+    "name": "Overlords",
+    "faction": "mercenaries",
+    "type": "unit",
+    "points": 5,
+    "keywords": [],
+    "armies": [
+      "dark-operations"
+    ],
+    "fieldAllowance": "1/3",
+    "statistics": {
+      "health": 15
+    },
+    "models": {
+      "cephalyxOverlords": {
+        "name": "Cephalyx Overlords",
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 6,
+          "meleeAttack": 5,
+          "defense": 14,
+          "armour": 13
+        },
+        "abilities": [
+          "anatomicalPrecision",
+          "magicAbility"
+        ],
+        "spells": [
+          "psychicAssault",
+          "sigilOfPower",
+          "vitalizer"
+        ],
+        "weapons": {
+          "prostheticBlades": {
+            "type": "melee",
+            "name": "Prosthetic Blades",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      }
+    }
   }
 }

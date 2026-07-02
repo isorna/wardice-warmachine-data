@@ -1,4 +1,13 @@
 {
+  "abattoir": {
+    "id": "abattoir",
+    "name": "Abattoir",
+    "description": "Models in the spellcaster’s battlegroup currently in its control range can immediately make one basic melee attack. Abattoir can be cast only once per turn.",
+    "type": "spell",
+    "cost": 2,
+    "range": "Self",
+    "pow": "Ctrl"
+  },
   "annihilation": {
     "name": "Annihilation",
     "description": "Models destroyed by Annihilation are removed from play and do not generate corpse tokens. When a living enemy model is destroyed by Annihilation, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models.",
@@ -14,6 +23,24 @@
     "description": "Enemy upkeep spells and animi on target friendly model/unit expire. Affected models cannot be targeted by enemy spells or animi.",
     "type": "spell"
   },
+  "battenDownTheHatches": {
+    "id": "battenDownTheHatches",
+    "name": "Batten Down the Hatches",
+    "description": "While in the spellcaster’s control range, models in its battlegroup cannot become knocked down and gain +3 ARM but suffer -2 DEF. Batten Down the Hatches lasts for one round.",
+    "type": "spell",
+    "cost": 3,
+    "range": "Self",
+    "aoe": "Ctrl",
+    "duration": "Rnd"
+  },
+  "befuddle": {
+    "id": "befuddle",
+    "name": "Befuddle",
+    "description": "Befuddle is a RNG 10 arcane attack. On a hit, you can immediately take control and advance target enemy non-Leader model up to 3\" then Befuddle expires. A model can move only once per turn as a result of Befuddle.",
+    "type": "spell",
+    "cost": 0,
+    "range": "10"
+  },
   "blackSpot": {
     "name": "Black Spot",
     "description": "Target enemy warrior model/unit suffers -2 DEF. When a friendly Faction model destroys one or more affected models with a basic melee or ranged attack during its Combat Action, immediately after the attack is resolved it can make one additional melee or ranged attack. Attacks gained from Black Spot cannot generate additional attacks from Black Spot.",
@@ -24,25 +51,101 @@
     "description": "When Bleed damages a living enemy model, this model can remove d3 damage points.",
     "type": "spell"
   },
+  "castigate": {
+    "id": "castigate",
+    "name": "Castigate",
+    "description": "Enemy models cannot be used to channel spells or be forced to cast an animus while in the spellcaster’s control range. Castigate lasts for one round.",
+    "type": "spell",
+    "cost": 2,
+    "range": "Self",
+    "pow": "Ctrl",
+    "duration": "Rnd"
+  },
   "cloakOfAsh": {
     "name": "Cloak of Ash",
     "description": "Target friendly Faction model/unit gains Ashen Veil. (A model with Ashen Veil has concealment. Living enemy models without Resistance: Fire suffer -2 to attack rolls while within 2\" of a model with Ashen Veil.)",
     "type": "spell"
   },
+  "convection": {
+    "id": "convection",
+    "name": "Convection",
+    "description": "When Convection destroys a living enemy model, you can give 1 focus point to a warjack in the spellcaster’s battlegroup that is in its control range.",
+    "type": "spell",
+    "cost": 2,
+    "range": "10",
+    "pow": "12"
+  },
+  "cripplingGrasp": {
+    "id": "cripplingGrasp",
+    "name": "Crippling Grasp",
+    "description": "Target model/unit suffers -2 SPD, DEF, and ARM. Additionally, an affected model suffers -2 to its melee attack damage rolls.",
+    "type": "spell",
+    "cost": 3,
+    "range": "8",
+    "duration": "Up"
+  },
+  "darkSeduction": {
+    "id": "darkSeduction",
+    "name": "Dark Seduction",
+    "description": "Take control of target enemy non-Leader warrior model. You can immediately make a full advance with that enemy model followed by a basic attack, then Dark Seduction expires. Dark Seduction can be cast only once per activation. A model can be affected by Dark Seduction only once per turn.",
+    "type": "spell",
+    "cost": 3,
+    "range": "8"
+  },
+  "dash": {
+    "id": "dash",
+    "name": "Dash",
+    "description": "The spellcaster and friendly Faction warrior models activating in its control range gain +1 SPD. Dash lasts for one turn.",
+    "type": "spell",
+    "cost": 2,
+    "range": "Self",
+    "duration": "Turn"
+  },
   "deadweight": {
+    "id": "deadweight",
     "name": "Deadweight",
     "description": "When Deadweight destroys an enemy living or undead model, choose an enemy model within 2\" of it. The chosen model must forfeit either its Normal Movement or its Combat Action during its next activation, as its controller chooses.",
-    "type": "spell"
+    "type": "spell",
+    "cost": 2,
+    "range": "8",
+    "pow": "12",
+    "duration": "*"
   },
   "deathWard": {
     "name": "Death Ward",
     "description": "Target friendly Faction model/unit gains +2 ARM. If an affected warjack is damaged, choose which column suffers the damage.",
     "type": "spell"
   },
+  "deceleration": {
+    "id": "deceleration",
+    "name": "Deceleration",
+    "description": "While in the spellcaster’s control range, friendly Faction models gain +2 ARM against ranged and arcane attack damage rolls. Deceleration lasts for one round.",
+    "type": "spell",
+    "cost": 3,
+    "range": "Self",
+    "pow": "Ctrl",
+    "duration": "Rnd"
+  },
   "disintegration": {
     "name": "Disintegration",
     "description": "The model hit suffers -2 ARM for one round. A model boxed by Disintegration is removed from play.",
     "type": "spell"
+  },
+  "energizer": {
+    "id": "energizer",
+    "name": "Energizer",
+    "description": "Each model in the spellcaster’s battlegroup that is currently in its control range can immediately advance up to 2\". Energizer can be cast only once per activation.",
+    "type": "spell",
+    "cost": 2,
+    "range": "Self"
+  },
+  "enliven": {
+    "id": "enliven",
+    "name": "Enliven",
+    "description": "(★ Action) RNG 3. Target friendly Faction Cohort model. If the target is in range, the next time it suffers damage from an enemy attack, immediately after the attack is resolved the target can make a full advance, then Enliven expires. Enliven lasts for one round.",
+    "type": "spell",
+    "cost": 0,
+    "range": "3"
   },
   "eruption": {
     "name": "Eruption",
@@ -54,10 +157,27 @@
     "description": "When a living enemy warrior model is boxed by Excarnate, remove it from play. You can then add one Grunt to a friendly Faction small-based undead unit in the spellcaster's control range. Place the Grunt within 1\" of another model in the unit. The Grunt must forfeit its Normal Movement and Combat Action the turn it is put into play.",
     "type": "spell"
   },
+  "expendableAsset": {
+    "id": "expendableAsset",
+    "name": "Expendable Asset",
+    "description": "Remove target friendly model from play. This model gains a mind token.",
+    "type": "spell",
+    "cost": 0,
+    "range": "3"
+  },
   "feastOfWorms": {
     "name": "Feast of Worms",
     "description": "Center a cloud template on the model directly hit. The template is a hazard and remains in play as long as upkeep is paid. While in the template, enemy models suffer -2 ARM. When a living enemy model is destroyed in the template, the spellcaster gains the destroyed model's soul token regardless of the proximity of other models.",
     "type": "spell"
+  },
+  "gallows": {
+    "id": "gallows",
+    "name": "Gallows",
+    "description": "When an enemy model is hit by this attack, it can be pushed d6\" directly toward Gallows’ point of origin.",
+    "type": "spell",
+    "cost": 3,
+    "range": "10",
+    "pow": "13"
   },
   "ghostWalk": {
     "name": "Ghost Walk",
@@ -69,20 +189,45 @@
     "description": "Target friendly Faction model gains +2 DEF and Poltergeist. (When an enemy model misses a model with Poltergeist with an attack, immediately after the attack is resolved you can choose to push the enemy model d3\" directly away from the model with Poltergeist.)",
     "type": "spell"
   },
+  "healD31": {
+    "id": "healD31",
+    "name": "Heal [d3+1]",
+    "description": "Target friendly living Faction model. If the model is in range, remove d3+1 damage points from it.",
+    "type": "spell",
+    "cost": 0,
+    "range": "1"
+  },
+  "healD33": {
+    "id": "healD33",
+    "name": "Heal [d3+3]",
+    "description": "(★ Action) RNG 1. Target friendly living Faction model. If the model is in range, remove d3+3 damage points from it.",
+    "type": "spell",
+    "cost": 0,
+    "range": "1"
+  },
   "hellfire": {
     "name": "Hellfire",
     "description": "Models disabled by Hellfire cannot make a Tough roll. Models boxed by Hellfire are removed from play.",
     "type": "spell"
   },
   "hellwrought": {
+    "id": "hellwrought",
     "name": "Hellwrought",
-    "description": "Target Cohort model in the spellcaster's battlegroup gains +2 ARM and Retaliation. (If a model with Retaliation was damaged by an enemy attack during the last round, during your Maintenance Phase it can advance up to 3\" and make one basic melee attack.)",
-    "type": "spell"
+    "description": "Target Cohort model in the spellcaster’s battlegroup gains +2 ARM and Retaliation. (If a model with Retaliation was damaged by an enemy attack during the last round, during your Maintenance Phase it can make a Vengeance Move. A model making a Vengeance Move can advance 3\" and make one basic melee attack. A model can only make one Vengeance Move each turn.)",
+    "type": "spell",
+    "cost": 2,
+    "range": "6",
+    "duration": "Up"
   },
   "hexBlast": {
+    "id": "hexBlast",
     "name": "Hex Blast",
     "description": "Enemy upkeep spells and animi on the model/unit directly hit by Hex Blast immediately expire.",
-    "type": "spell"
+    "type": "spell",
+    "cost": 3,
+    "range": "10",
+    "pow": "13/8",
+    "aoe": "2"
   },
   "hollow": {
     "name": "Hollow",
@@ -93,6 +238,23 @@
     "name": "Host of Shadows",
     "description": "While in the spellcaster's control range, models in its battlegroup gain Ghostly. Host of Shadows lasts for one turn. (A model with Ghostly can advance through terrain and obstacles without penalty and can advance through obstructions and models if it has enough movement to move completely past them.)",
     "type": "spell"
+  },
+  "influence": {
+    "id": "influence",
+    "name": "Influence",
+    "description": "(★ Attack) Influence is a RNG 10 arcane attack. Take control of target enemy non-Leader warrior model hit. The model immediately makes one basic attack, then Influence expires. A model can be affected by Influence only once per turn.",
+    "type": "spell",
+    "cost": 0,
+    "range": "10",
+    "notes": ""
+  },
+  "instigate": {
+    "id": "instigate",
+    "name": "Instigate",
+    "description": "(★ Action) While within 5\" of this model, friendly large-based and smaller monstrosities gain +2 on attack and damage rolls. Instigate lasts for one turn.",
+    "type": "spell",
+    "cost": 0,
+    "range": "5"
   },
   "lamentation": {
     "name": "Lamentation",
@@ -109,35 +271,125 @@
     "description": "Target model/unit suffers -2 DEF and ARM, loses Tough, and cannot have damage removed from it. Mortality lasts for one round.",
     "type": "spell"
   },
+  "occultWhispers": {
+    "id": "occultWhispers",
+    "name": "Occult Whispers",
+    "description": "While in the spellcaster’s control range, friendly Faction models gain an additional die on their Arcane Attack rolls. Occult Whispers lasts for one turn.",
+    "type": "spell",
+    "cost": 3,
+    "range": "Self",
+    "pow": "Ctrl",
+    "duration": "Turn"
+  },
+  "onslaught": {
+    "id": "onslaught",
+    "name": "Onslaught",
+    "description": "The spellcaster and friendly Faction models beginning their activations in its control range gain Relentless Charge for one turn. (While advancing as part of a charge, a model with Relentless Charge gains Pathfinder.)",
+    "type": "spell",
+    "cost": 2,
+    "range": "Self",
+    "pow": "Ctrl",
+    "duration": "Turn"
+  },
   "parasite": {
     "name": "Parasite",
     "description": "Target model/unit suffers -3 ARM and the spellcaster gains +1 ARM.",
     "type": "spell"
   },
+  "psychicAperture": {
+    "id": "psychicAperture",
+    "name": "Psychic Aperture",
+    "description": "Reload [1] - This model can spend 1 focus or fury point to make one additional ranged attack with this weapon during its Combat Action. Thunderbolt - Enemy models hit are pushed d3\" directly away from the attacking model. On a critical hit, the enemy model becomes knocked down after being pushed.",
+    "type": "spell",
+    "cost": 0,
+    "range": "10",
+    "pow": "12"
+  },
+  "psychicAssault": {
+    "id": "psychicAssault",
+    "name": "Psychic Assault",
+    "description": "(★ Attack) Psychic Assault is a RNG SP 8, POW 12 arcane attack. This attack ignores LOS.",
+    "type": "spell",
+    "cost": 0,
+    "range": "SP 8",
+    "pow": "12",
+    "notes": ""
+  },
   "psychoSurgery": {
+    "id": "psychoSurgery",
     "name": "Psycho Surgery",
-    "description": "Each model in the spellcaster's battlegroup currently in its control range can immediately remove d3 + 1 damage points. This spell can be cast only once per activation.",
-    "type": "spell"
+    "description": "Each model in the spellcaster’s battlegroup currently in its control range can immediately remove d3 + 1 damage points. This spell can be cast only once per activation.",
+    "type": "spell",
+    "cost": 2,
+    "range": "Self",
+    "pow": "Ctrl",
+    "notes": ""
   },
   "pursuit": {
     "name": "Pursuit",
     "description": "If target enemy model/unit advances during its activation, one model in the spellcaster's battlegroup that is in its control range can immediately make a full advance.",
     "type": "spell"
   },
+  "quagmire": {
+    "id": "quagmire",
+    "name": "Quagmire",
+    "description": "While B2B with target friendly Faction model/unit, enemy models suffer -2 DEF and cannot advance.",
+    "type": "spell",
+    "cost": 2,
+    "range": "6",
+    "duration": "Up"
+  },
+  "recoil": {
+    "id": "recoil",
+    "name": "Recoil",
+    "description": "The spellcaster gains Swift Hunter. Recoil lasts for one turn. (When a model with Swift Hunter destroys one or more enemy models with a basic ranged attack, immediately after the attack is resolved it can advance up to 2\".)",
+    "type": "spell",
+    "cost": 1,
+    "range": "Self",
+    "duration": "Turn"
+  },
+  "reposition3": {
+    "id": "reposition3",
+    "name": "Reposition [3\"]",
+    "description": "At the end of this model/unit’s activation in which it did not run or fail a charge, this model can advance up to 3\", then its activation ends.",
+    "type": "spell",
+    "cost": 0
+  },
   "revive": {
+    "id": "revive",
     "name": "Revive",
-    "description": "Target one friendly trooper model. Return one destroyed Grunt model to the target model's unit. The Grunt is returned with one unmarked damage box. Place the returned Grunt within 2\" of the target model. The Grunt model must forfeit its Normal Movement and Combat Action the turn it is returned to play.",
-    "type": "spell"
+    "description": "Target one friendly trooper model. Return one destroyed Grunt model to the target model’s unit. The Grunt is returned with one unmarked damage box. Place the returned Grunt within 2\" of the target model. The Grunt model must forfeit its Normal Movement and Combat Action the turn it is returned to play.",
+    "type": "spell",
+    "cost": 2,
+    "range": "8",
+    "notes": ""
   },
   "scourge": {
     "name": "Scourge",
     "description": "On a direct hit, models hit by this attack become knocked down.",
     "type": "spell"
   },
+  "scythingTouch": {
+    "id": "scythingTouch",
+    "name": "Scything Touch",
+    "description": "Target friendly Faction model gains Dark Shroud. (While within 2\" of a model with Dark Shroud, enemy models suffer -2 ARM.)",
+    "type": "spell",
+    "cost": 2,
+    "range": "6",
+    "duration": "Up"
+  },
   "shadowmancer": {
     "name": "Shadowmancer",
     "description": "While in spellcaster's control range, models in its battlegroup gain Stealth and Dark Shroud. Shadowmancer lasts for one round. (While within 2\" of a model with Dark Shroud, enemy models suffer -2 ARM.)",
     "type": "spell"
+  },
+  "sigilOfPower": {
+    "id": "sigilOfPower",
+    "name": "Sigil of Power",
+    "description": "Target friendly model/unit. If the model/unit is in range, its weapons gain Damage Type: Magical. Sigil of Power lasts for one turn.",
+    "type": "spell",
+    "cost": 0,
+    "range": "6"
   },
   "silenceOfDeath": {
     "name": "Silence of Death",
@@ -148,6 +400,13 @@
     "name": "Soul Gate",
     "description": "Remove a friendly trooper model in the spellcaster's control range from play and replace it with target warjack in the spellcaster's battlegroup that is in its control range. The warjack cannot activate this turn after being placed by Soul Gate.",
     "type": "spell"
+  },
+  "spellSlave": {
+    "id": "spellSlave",
+    "name": "Spell Slave",
+    "description": "(★ Action or ★ Attack) This model must be in its Leader’s control range to make the Spell Slave special action. When it does, it casts one of the spells on its Leader’s card with a COST of 3 or less. This model cannot cast upkeep spells or spells with a RNG of SELF or CTRL. When casting an offensive spell, Spell Slave is an arcane attack.",
+    "type": "spell",
+    "cost": 0
   },
   "stranglehold": {
     "name": "Stranglehold",
@@ -164,14 +423,44 @@
     "description": "Place target friendly model completely within 2\" of its current location. A model can be placed by Telekinesis only once per turn.",
     "type": "spell"
   },
+  "torment": {
+    "id": "torment",
+    "name": "Torment",
+    "description": "When a model is damaged by Torment, for one round it loses Tough, cannot remove damage, and cannot transfer damage.",
+    "type": "spell",
+    "cost": 2,
+    "range": "10",
+    "pow": "12",
+    "duration": "Rnd"
+  },
+  "tuneUp": {
+    "id": "tuneUp",
+    "name": "Tune Up",
+    "description": "(★ Action) RNG 1. Target friendly Faction cohort. If the cohort is in range, it immediately stands up and is no longer stationary, continuous effects on the cohort expire, and the cohort gains Pathfinder for one turn.",
+    "type": "spell",
+    "cost": 0,
+    "range": "1"
+  },
   "vanish": {
     "name": "Vanish",
     "description": "Place the spellcaster anywhere completely within 3\" of its current location. Vanish can be cast only once per activation.",
     "type": "spell"
   },
   "vision": {
+    "id": "vision",
     "name": "Vision",
     "description": "When target friendly Faction model is directly hit by an attack, you can choose to have it suffer no damage roll from the attack, then Vision expires.",
-    "type": "spell"
+    "type": "spell",
+    "cost": 2,
+    "range": "6",
+    "duration": "Up"
+  },
+  "vitalizer": {
+    "id": "vitalizer",
+    "name": "Vitalizer",
+    "description": "Target friendly monstrosity. If the target monstrosity is in range, it gains 1 focus point.",
+    "type": "spell",
+    "cost": 0,
+    "range": "6"
   }
 }

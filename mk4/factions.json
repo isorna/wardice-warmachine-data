@@ -55,6 +55,13 @@
         "description": "A raiding force of Satyxis, blackships, revenants and coastal terror tactics.",
         "format": "prime-armies-of-legend",
         "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx color.png"
+      },
+      {
+        "name": "Necrofactorium",
+        "slug": "necrofactorium",
+        "description": "A necrotech-heavy host of warjacks, warcasters and industrialized undead.",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction necrofactorium cryx color.png"
       }
     ]
   },

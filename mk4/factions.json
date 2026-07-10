@@ -1,38 +1,5 @@
 [
   {
-    "name": "Skorne",
-    "slug": "skorne",
-    "code": "SKO",
-    "trait": "Pain Empire",
-    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png",
-    "accent": "faction-accent--skorne",
-    "description": "A disciplined empire from eastern Immoren, forged by conquest, mortitheurgy, ancestral veneration and a pragmatic disregard for pain.",
-    "briefing": "Skorne commanders rely on brutal discipline, pain-fueled warbeasts and immortalized ancestors preserved in sacral stones. Their armies reward direct pressure, attrition control and precise commitment windows.",
-    "armies": [
-      {
-        "name": "Exalted",
-        "slug": "exalted",
-        "description": "An ancestral host centered on immortalized champions, statues, extollers and sacral-stone doctrine.",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
-      },
-      {
-        "name": "Masters of War",
-        "slug": "masters-of-war",
-        "description": "A martial formation built around disciplined skorne infantry, tyrants, paingivers and heavy battlefield control.",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
-      },
-      {
-        "name": "Army of the Western Reaches",
-        "slug": "army-of-the-western-reaches",
-        "description": "A western-reaches skorne host combining warbeasts, tyrants, venators, praetorians and battlefield control assets.",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
-      }
-    ]
-  },
-  {
     "name": "Cryx",
     "slug": "cryx",
     "code": "CRX",
@@ -81,6 +48,96 @@
         "description": "Cephalix masters",
         "format": "prime-armies-of-legend",
         "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction mercenaries color.png"
+      }
+    ]
+  },
+  {
+    "name": "Menoth",
+    "slug": "menoth",
+    "code": "MEN",
+    "trait": "Divine Order",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction protectorate color.png",
+    "accent": "faction-accent--menoth",
+    "description": "The Menoth",
+    "briefing": "TODO",
+    "armies": [
+      {
+        "name": "The Chosen of Menoth",
+        "slug": "the-chosen-of-menoth",
+        "description": "A host of divine warriors, warjacks and warcasters dedicated to the god Menoth.",
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction protectorate color.png"
+      }
+    ]
+  },
+  {
+    "name": "Orgoth",
+    "slug": "orgoth",
+    "code": "ORG",
+    "trait": "Cursed Dominion",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction orgoth color.png",
+    "accent": "faction-accent--orgoth",
+    "description": "The Orgoth",
+    "briefing": "TODO",
+    "armies": [
+      {
+        "name": "Sea Riders",
+        "slug": "sea-riders",
+        "description": "A host of cursed warriors, warjacks and warcasters dedicated to the god Orgoth.",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction orgoth color.png"
+      }
+    ]
+  },
+  {
+    "name": "Retribution of Scyrah",
+    "slug": "retribution-of-scyrah",
+    "code": "RET",
+    "trait": "Elven Dominion",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction retribution color.png",
+    "accent": "faction-accent--retribution",
+    "description": "The Retribution of Scyrah",
+    "briefing": "TODO",
+    "armies": [
+      {
+        "name": "The Scyrah's Chosen",
+        "slug": "the-scyrahs-chosen",
+        "description": "A host of elven warriors, warjacks and warcasters dedicated to the goddess Scyrah.",
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction retribution color.png"
+      }
+    ]
+  },
+  {
+    "name": "Skorne",
+    "slug": "skorne",
+    "code": "SKO",
+    "trait": "Pain Empire",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png",
+    "accent": "faction-accent--skorne",
+    "description": "A disciplined empire from eastern Immoren, forged by conquest, mortitheurgy, ancestral veneration and a pragmatic disregard for pain.",
+    "briefing": "Skorne commanders rely on brutal discipline, pain-fueled warbeasts and immortalized ancestors preserved in sacral stones. Their armies reward direct pressure, attrition control and precise commitment windows.",
+    "armies": [
+      {
+        "name": "Exalted",
+        "slug": "exalted",
+        "description": "An ancestral host centered on immortalized champions, statues, extollers and sacral-stone doctrine.",
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
+      },
+      {
+        "name": "Masters of War",
+        "slug": "masters-of-war",
+        "description": "A martial formation built around disciplined skorne infantry, tyrants, paingivers and heavy battlefield control.",
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
+      },
+      {
+        "name": "Army of the Western Reaches",
+        "slug": "army-of-the-western-reaches",
+        "description": "A western-reaches skorne host combining warbeasts, tyrants, venators, praetorians and battlefield control assets.",
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
       }
     ]
   }

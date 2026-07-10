@@ -35,6 +35,7 @@
         "faction": { "type": "string" },
         "type": { "type": "string" },
         "points": { "type": "number" },
+        "portrait": { "type": "string" },
         "keywords": {
           "type": "array",
           "items": { "type": "string" }
@@ -155,15 +156,32 @@
         "animus": {
           "type": "array",
           "items": { "type": "string" }
+        },
+        "models": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/profile" }
+        },
+        "statAdjustments": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
         }
       }
     },
     "healthGrid": {
       "type": "object",
-      "required": ["total", "grid"],
+      "required": ["total"],
       "additionalProperties": true,
+      "oneOf": [
+        { "required": ["grid"] },
+        { "required": ["rings"] }
+      ],
       "properties": {
         "total": { "type": "number" },
+        "layout": { "type": "string", "enum": ["grid", "spiral", "web"] },
+        "rings": {
+          "type": "array",
+          "items": { "type": "number", "minimum": 1 }
+        },
         "grid": {
           "type": "object",
           "additionalProperties": true,

@@ -1,0 +1,5715 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "dusk",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "alexiaQueenOfTheDamned": {
+    "name": "Alexia, Queen of the Damned",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20alexia%20queen%20of%20the%20damned.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "health": 8
+    },
+    "weapons": {
+      "witchfire": {
+        "type": "melee",
+        "name": "Witchfire",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "deathTollSmallOrMediumBased",
+          "devourEssence",
+          "lifeDrinker"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryGravediggersKithguardHouseKallyssOldUmbreyStormLegionAndWinterKorps",
+      "battleWizard__41cb4e8f",
+      "magicAbility",
+      "dominateUndeadAttack",
+      "grimReturnsAction",
+      "hellfireAttack",
+      "sucker",
+      "wagesOfDeath"
+    ]
+  },
+  "benkei": {
+    "name": "Benkei",
+    "faction": "dusk",
+    "type": "warbeast",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Heavy Warbeast",
+      "Final Hunt"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Dusk_Cat1.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 25,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "advanceDeployment",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "resistanceCold"
+    ],
+    "weapons": {
+      "bite__42702a09": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "criticalKnockdown"
+        ]
+      },
+      "claws": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "companionLanyssaRyssylAransorOfSorrows",
+      "digInAction",
+      "dragBelow",
+      "flankSasha",
+      "springBlades"
+    ],
+    "spells": [
+      "winterCoat"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "cylenaRaefyll": {
+    "name": "Cylena Raefyll",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "Final Hunt",
+      "Solo",
+      "House Kallyss"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/FaneOfNyrro_Dusk_Cylena-Raefyll.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "resistanceCold",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "nyssBow__83f18e68": {
+        "type": "ranged",
+        "name": "Nyss Bow",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 2,
+          "power": 10
+        },
+        "abilities": [
+          "arcingFire"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "greatSword__104e0627": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "cleave",
+      "hunter",
+      "prey",
+      "prowl",
+      "swiftHunter"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "dusk",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "dreadguardArchers": {
+    "name": "Dreadguard Archers",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Unit",
+      "Eldritch"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20dreadguard%20archers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 13,
+      "armour": 16
+    },
+    "advantages": [
+      "undead",
+      "tough"
+    ],
+    "weapons": {
+      "fellBow": {
+        "type": "ranged",
+        "name": "Fell Bow",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "attackType",
+          "deathlyDomination",
+          "empoweredAttack",
+          "voidBlast"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "bowBlade__17f9a5bb": {
+        "type": "melee",
+        "name": "Bow Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "vampiric"
+    ]
+  },
+  "dreadguardCavalry": {
+    "name": "Dreadguard Cavalry",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Dusk",
+      "House Kallyss",
+      "Eldritch"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20dreadguard%20cavalry.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 17
+    },
+    "advantages": [
+      "cavalry",
+      "tough",
+      "undead",
+      "unstopable"
+    ],
+    "weapons": {
+      "greatSword__5e419ae1": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 16
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "tailStrike__8dacd8af": {
+        "type": "melee",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "poison"
+        ]
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "springBlades",
+      "vampiric"
+    ]
+  },
+  "dreadguardScyir": {
+    "name": "Dreadguard Scyir",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Eldritch",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Dusk_Dreadguard-Scyir.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "tough",
+      "undead",
+      "dualAttack"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "greatAxe__9dacfcfc": {
+        "type": "melee",
+        "name": "Great Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "awakenTheVoid",
+      "desperatePaceSoulless",
+      "stirTheBlood",
+      "cleave",
+      "vampiric"
+    ]
+  },
+  "dreadguardSlayers": {
+    "name": "Dreadguard Slayers",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Eldritch",
+      "Unit"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Dusk_Dreadguard-Slayers2.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16
+    },
+    "advantages": [
+      "undead",
+      "tough"
+    ],
+    "weapons": {
+      "executionersAxe": {
+        "type": "melee",
+        "name": "Executioner’s Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalDecapitation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "unyielding",
+      "vampiric",
+      "vengeance"
+    ]
+  },
+  "dyssissTheEyeOfDarkness": {
+    "name": "Dyssiss, the Eye of Darkness",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20dyssiss%20the%20eye%20of%20darkness.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "defense": 14,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "incorporeal",
+      "undead"
+    ],
+    "abilities": [
+      "attached",
+      "magicAbility",
+      "gripOfShadowsAction",
+      "kissOfLylissAttack",
+      "spellSlaveActionOrAttack"
+    ]
+  },
+  "eidolon": {
+    "name": "Eidolon",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "4",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20eidolon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "abilities": [
+      "forceBarrier"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "True Sight",
+        "cost": 2,
+        "abilities": [
+          "trueSight"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Arcane Stasis",
+        "cost": 1,
+        "abilities": [
+          "arcaneStasis"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Flight",
+        "cost": 2
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Null Blade",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Null Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 16
+            },
+            "location": "R",
+            "qualities": [
+              "damageTypeMagical",
+              "throwPowerAttack",
+              "blessed"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Force Fist",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Force Blast",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "criticalSmite"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Force Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "criticalSmite"
+            ],
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Dawn Blade",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Dawn Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 19
+            },
+            "location": "R",
+            "qualities": [
+              "continuousEffectFire",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Light Null Blade",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Light Null Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "location": "L",
+            "qualities": [
+              "damageTypeMagical",
+              "throwPowerAttack",
+              "blessed"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Dusk Blade",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Dusk Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 16
+            },
+            "location": "L",
+            "abilities": [
+              "energySiphon"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Force Shield",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Force Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 13
+            },
+            "location": "L",
+            "abilities": [
+              "repel"
+            ],
+            "qualities": [
+              "shield"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Back",
+        "name": "Force Cannon",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Force Cannon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "momentum"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Back",
+        "name": "Vortex Cannon",
+        "cost": 2,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Vortex Cannon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "10/10"
+            },
+            "abilities": [
+              "vortexBlast"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "eiryssShadowOfRetribution": {
+    "name": "Eiryss, Shadow of Retribution",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eiryss%20shadow%20of%20retribution.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 9,
+      "defense": 16,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "dualAttack",
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "crossbow": {
+        "type": "ranged",
+        "name": "Crossbow",
+        "statistics": {
+          "rangedAttack": 9,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "attackType",
+          "deadlyShot",
+          "disruptorBolt",
+          "phantomSeeker"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "crossbowBlade": {
+        "type": "melee",
+        "name": "Crossbow Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 8
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      },
+      "voass": {
+        "type": "melee",
+        "name": "Voass",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "freeze"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryGravediggersHouseKallyssAndStormLegion",
+      "reposition3"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "dusk",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "ghast": {
+    "name": "Ghast",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Light Warjack"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "4",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20ghast.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "H",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "H",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "abilities": [
+      "accumulatorUndead"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Arc Node",
+        "cost": 1
+      },
+      {
+        "slot": "Head",
+        "name": "Mark Target",
+        "cost": 2,
+        "abilities": [
+          "markTarget"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Fleet",
+        "cost": 3,
+        "abilities": [
+          "fleet",
+          "aggressive"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Stealth",
+        "cost": 3,
+        "abilities": [
+          "blackMantle"
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Heavy Blade Fist",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Heavy Blade Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "powerfulAttack"
+            ],
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Blaster Fist",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Blaster",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 2,
+              "power": 10
+            },
+            "location": "R",
+            "abilities": [
+              "banish__939fb49f"
+            ],
+            "qualities": [
+              "pistol"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Blaster Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "R",
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Chain Blade",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Chain Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 11
+            },
+            "location": "R",
+            "abilities": [
+              "decapitation"
+            ],
+            "qualities": [
+              "blessed",
+              "chainWeapon",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Halberd",
+        "cost": 4,
+        "abilities": [
+          "setDefense"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Halberd",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 13
+            },
+            "location": "R",
+            "abilities": [
+              "powerfulCharge"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Battle Shield",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Battle Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "L",
+            "qualities": [
+              "shield"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Force Lash",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Force Lash",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "location": "L",
+            "abilities": [
+              "drag",
+              "criticalShadowBind"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Spear Fist",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Rune Spear",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 11
+            },
+            "location": "L",
+            "abilities": [
+              "energySiphon"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Spear Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 10
+            },
+            "location": "L",
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Light Blade Fist",
+        "cost": 2,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Light Blade Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 11
+            },
+            "location": "L",
+            "abilities": [
+              "powerfulAttack"
+            ],
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gormanDiWulfeRevolutionaryAgent": {
+    "name": "Gorman di Wulfe, Revolutionary Agent",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Crucible Guard",
+      "Mercenary",
+      "Llaelese"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "resistanceCorrosion",
+      "resistanceFire",
+      "stealth"
+    ],
+    "weapons": {
+      "experimentalBombLauncher": {
+        "type": "ranged",
+        "name": "Experimental Bomb Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/8"
+        },
+        "abilities": [
+          "attackType",
+          "experimentalWarhead",
+          "spontaneousCombustion__bbf0f24e",
+          "blackHumor"
+        ]
+      },
+      "stiletto__9c1febce": {
+        "type": "melee",
+        "name": "Stiletto",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "alchemicalMask",
+      "smokeBombsAction"
+    ]
+  },
+  "hazarothNarcissarOfRuin": {
+    "name": "Hazaroth, Narcissar of Ruin",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "Dusk",
+      "Eldritch",
+      "Warcaster",
+      "House Kallyss"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20hazaroth%20narcissar%20of%20ruin.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 8,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 18
+    },
+    "advantages": [
+      "undead"
+    ],
+    "weapons": {
+      "hellrazor": {
+        "type": "melee",
+        "name": "Hellrazor",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "apparition",
+      "invocationsOfDust",
+      "overtake",
+      "vampiric"
+    ],
+    "spells": [
+      "escort",
+      "ghostWalk",
+      "shadowmancer",
+      "callOfTheGrave"
+    ],
+    "feat": [
+      "restorationsOfShadow"
+    ]
+  },
+  "hellslingerPhantom": {
+    "name": "Hellslinger Phantom",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 8,
+      "defense": 15,
+      "armour": 12,
+      "health": 8
+    },
+    "advantages": [
+      "undead",
+      "incorporeal",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "magelockPistol__4f1c5a7e": {
+        "type": "ranged",
+        "name": "Magelock Pistol",
+        "statistics": {
+          "rangedAttack": 8,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType",
+          "banish",
+          "phantomSeeker",
+          "spiritDrain"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyssNecrofactoriumAndReaperCovenant",
+      "reciprocate",
+      "quickDraw",
+      "spiritSiphon"
+    ]
+  },
+  "hellythScyirOfNightfall": {
+    "name": "Hellyth, Scyir of Nightfall",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "House Kallyss",
+      "Dusk",
+      "Scout",
+      "Warcaster",
+      "Eldritch",
+      "Gun Mage"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20hellyth%20scyir%20of%20nightfall.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 15
+    },
+    "advantages": [
+      "dualAttack",
+      "gunfighter",
+      "undead"
+    ],
+    "weapons": {
+      "magelockPistol": {
+        "type": "ranged",
+        "name": "Magelock Pistol",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType",
+          "dispel__796e9342",
+          "grievousWounds__cf046ece",
+          "phantomSeeker",
+          "lifeTrader"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "blade__ce304801": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalTrueSight",
+      "trueSight",
+      "vampiric"
+    ],
+    "spells": [
+      "admonition",
+      "magicBullet",
+      "veilOfDarkness",
+      "forceWall"
+    ],
+    "feat": [
+      "blessingsOfTheVoid"
+    ]
+  },
+  "imperatusAshenPhoenix": {
+    "name": "Imperatus, Ashen Phoenix",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "House Kallyss"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 24,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM-AppImages-ImperatusAshenPhoenix.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 20,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "M",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct",
+      "dualAttack"
+    ],
+    "weapons": {
+      "halationObliterator": {
+        "type": "ranged",
+        "name": "Halation Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeFire",
+          "damageTypeMagical",
+          "criticalFire"
+        ]
+      },
+      "phoenixProjector": {
+        "type": "ranged",
+        "name": "Phoenix Projector",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1
+        },
+        "quantity": 2,
+        "abilities": [
+          "phoenixProjection",
+          "wildfire",
+          "retribution",
+          "voidwalker"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "thermalBlade__18a4345c": {
+        "type": "melee",
+        "name": "Thermal Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 20
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical",
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "phoenixProtocols",
+      "wildfireProtocol",
+      "retributionProtocol",
+      "voidwalkerProtocol",
+      "rekindled"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "israfyl": {
+    "name": "Israfyl",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "House Kallyss",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 18,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20Israfyl.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "dualAttack"
+    ],
+    "abilities": [
+      "arcaneStasis",
+      "generator"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Israfyl",
+        "cost": 0,
+        "abilities": [
+          "entropicForce__d5706932"
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Serpentine Blade",
+        "cost": 0,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Serpentine Blade",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 3,
+              "power": 17
+            },
+            "location": "L",
+            "abilities": [
+              "criticalKnockdown__870725a5",
+              "drag"
+            ],
+            "qualities": [
+              "blessed",
+              "chainWeapon",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Serpentine Blade",
+        "cost": 0,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Serpentine Blade",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 3,
+              "power": 17
+            },
+            "location": "R",
+            "abilities": [
+              "criticalKnockdown__870725a5",
+              "drag"
+            ],
+            "qualities": [
+              "blessed",
+              "chainWeapon",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Back",
+        "name": "Death Whisper",
+        "cost": 0,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Death Whisper",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": "SP 8",
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "grimHarvest"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "israfylCampaign": {
+    "name": "Israfyl (Campaign)",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Heavy Warjack",
+      "Campaign",
+      "Resurrection League"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20Israfyl.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Arcane Stasis",
+        "cost": 1,
+        "abilities": [
+          "arcaneStasis"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Israfyl (League)",
+        "cost": 2,
+        "abilities": [
+          "entropicForce__d5706932"
+        ],
+        "statAdjustments": {
+          "meleeAttack": 1,
+          "rangedAttack": 1
+        }
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Light Null Blade",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Light Null Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "location": "L",
+            "qualities": [
+              "damageTypeMagical",
+              "throwPowerAttack",
+              "blessed"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Serpentine Blade (League)",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Serpentine Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 17
+            },
+            "location": "L",
+            "abilities": [
+              "criticalKnockdown__870725a5",
+              "drag"
+            ],
+            "qualities": [
+              "blessed",
+              "chainWeapon",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Null Blade",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Null Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 16
+            },
+            "location": "R",
+            "qualities": [
+              "damageTypeMagical",
+              "throwPowerAttack",
+              "blessed"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Serpentine Blade",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Serpentine Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 17
+            },
+            "location": "R",
+            "abilities": [
+              "criticalKnockdown__870725a5",
+              "drag"
+            ],
+            "qualities": [
+              "blessed",
+              "chainWeapon",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Back",
+        "name": "Death Whisper (League)",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Death Whisper",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": "SP 8",
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "grimHarvest"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Bond",
+        "name": "No Bond",
+        "cost": 0
+      },
+      {
+        "slot": "Bond",
+        "name": "Bond (Channeler)",
+        "cost": 0,
+        "abilities": [
+          "bondChanneler"
+        ]
+      },
+      {
+        "slot": "Bond",
+        "name": "Bond (Reposition [3\"])",
+        "cost": 0,
+        "abilities": [
+          "bondReposition3"
+        ]
+      },
+      {
+        "slot": "Bond",
+        "name": "Bond (Unyielding)",
+        "cost": 0,
+        "abilities": [
+          "bondUnyielding"
+        ]
+      }
+    ]
+  },
+  "kruegerWrathOfBlighterghast": {
+    "name": "Krueger, Wrath of Blighterghast",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20krueger%20wrath%20of%20blighterghast.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "health": 10
+    },
+    "advantages": [
+      "advanceDeployment",
+      "eyelessSight",
+      "pathfinder",
+      "resistanceFire",
+      "gunfighter"
+    ],
+    "weapons": {
+      "dragonSFury": {
+        "type": "ranged",
+        "name": "Dragon's Fury",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "attackType",
+          "eruptionOfAsh__58ae190f",
+          "incinerate"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical",
+          "pistol",
+          "damageTypeFire"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryBrinebloodMaraudersKithguardHouseKallyssStormLegionAndWinterKorps",
+      "destructivePower",
+      "hyperRegeneration",
+      "itBurns",
+      "pathOfFlames__d7880d6d"
+    ]
+  },
+  "lanyssaRyssylAransorOfSorrows": {
+    "name": "Lanyssa Ryssyl, Aransor of Sorrows",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 18,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Dusk_Lanyssa-Ryssyl.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 4,
+      "meleeAttack": 6,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "resistanceCold"
+    ],
+    "weapons": {
+      "sorrow__047fd501": {
+        "type": "melee",
+        "name": "Sorrow",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "bloodBoon",
+          "criticalFreeze"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalChiller",
+      "lesserWarlock",
+      "limitedBattlegroupBenkeiAndSasha",
+      "prowl",
+      "reposition3",
+      "soothingCallAction"
+    ],
+    "spells": [
+      "heartOfIce",
+      "snowsquall",
+      "wintersWrath"
+    ]
+  },
+  "mageHunterAssassins": {
+    "name": "Mage Hunter Assassins",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "Ghosts of Ios",
+      "Unit"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "3",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20mage%20hunter%20assassin.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 13
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder"
+    ],
+    "weapons": {
+      "chainBlade__26444455": {
+        "type": "melee",
+        "name": "Chain Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 8
+        },
+        "abilities": [
+          "decapitation",
+          "bloodShadow"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "chainWeapon",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "prowl"
+    ]
+  },
+  "mageHunterCommander": {
+    "name": "Mage Hunter Commander",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "Ghosts of Ios",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20mage%20hunter%20commander.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "advanceDeployment",
+      "pathfinder"
+    ],
+    "weapons": {
+      "spearCannon": {
+        "type": "ranged",
+        "name": "Spear Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": "d3",
+          "power": 10
+        },
+        "abilities": [
+          "volumeFire"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol",
+          "blessed"
+        ]
+      },
+      "saber__37c89d5b": {
+        "type": "melee",
+        "name": "Saber",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "atAllCosts",
+      "fightToTheLast",
+      "specialOrders",
+      "prowl",
+      "spyglassAction__9ac35610"
+    ]
+  },
+  "mageHunterRangers": {
+    "name": "Mage Hunter Rangers",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "Ghosts of Ios",
+      "Unit"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "3",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20mage%20hunter%20ranger.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 13
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder"
+    ],
+    "weapons": {
+      "spearRifle": {
+        "type": "ranged",
+        "name": "Spear Rifle",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "snapFire"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "blade__2add2c5c": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "prowl",
+      "sniper"
+    ]
+  },
+  "mageHunterSniperTeam": {
+    "name": "Mage Hunter Sniper Team",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "Ghosts of Ios",
+      "Weapon Crew",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20mage%20hunter%20sniper%20team.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder"
+    ],
+    "weapons": {
+      "sniperCannon__541be305": {
+        "type": "ranged",
+        "name": "Sniper Cannon",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "attackType",
+          "phantomSeeker",
+          "brutalDamage",
+          "dispel__97960018"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "blessed"
+        ]
+      }
+    },
+    "abilities": [
+      "marksman",
+      "prowl"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "maulgrethTheCharnelPlague": {
+    "name": "Maulgreth, The Charnel Plague",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20maulgreth%20the%20charnel%20plague.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "undead"
+    ],
+    "weapons": {
+      "reaper": {
+        "type": "melee",
+        "name": "Reaper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "lifeDrinker"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyssNecrofactoriumAndSeaRaiders",
+      "cleave",
+      "defensiveStrike__78f41ebc",
+      "entropicForce__d5706932",
+      "hellMarked",
+      "spellWard__692ef090"
+    ]
+  },
+  "morayneTheBladeOfTwilight": {
+    "name": "Morayne, The Blade of Twilight",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "Dusk",
+      "Ghosts of Ios",
+      "Warcaster",
+      "Mage Hunter"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20morayne%20the%20blade%20of%20twilight.png",
+    "statistics": {
+      "speed": 9,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 18
+    },
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "unstopable",
+      "tough"
+    ],
+    "weapons": {
+      "handCannon__9745f003": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol",
+          "damageTypeMagical"
+        ]
+      },
+      "talonScythe": {
+        "type": "melee",
+        "name": "Talon-Scythe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalGrievousWounds__f150fac5"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "antlers": {
+        "type": "melee",
+        "name": "Antlers",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "funeralRites",
+      "prowl",
+      "reposition3",
+      "resourceful"
+    ],
+    "spells": [
+      "fogOfWar",
+      "mirage",
+      "mortality",
+      "pursuit",
+      "revive",
+      "spiritDoor"
+    ],
+    "feat": [
+      "shadowInitiative"
+    ]
+  },
+  "phantasm": {
+    "name": "Phantasm",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Colossal"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Dusk_Phantasm-Colossal.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 58,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "M",
+                "6": "H"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "H",
+                "6": "H"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "H",
+                "6": "H"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "M",
+                "6": "H"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "flight",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "teleforceArray": {
+        "type": "ranged",
+        "name": "Teleforce Array",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "abilities": [
+          "attackType",
+          "thunderbolt__b7a6e5a2",
+          "kineticGrip__3d2c6052",
+          "radiantBlast"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "phantasmalField"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Focus Vault",
+        "cost": 3,
+        "abilities": [
+          "focusBattery",
+          "kineticCapacitor"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Death Aura",
+        "cost": 5,
+        "abilities": [
+          "tasteOfDeath"
+        ]
+      },
+      {
+        "slot": "Chest",
+        "name": "Desolator",
+        "cost": 8,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Desolator",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 14,
+              "rateOfFire": 1,
+              "areaOfEffect": 3,
+              "power": "15/8"
+            },
+            "abilities": [
+              "vortexBlast"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Chest",
+        "name": "Chronophage Canon",
+        "cost": 7,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Chronophage Canon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": "Sp 8",
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "criticalBanish"
+            ],
+            "qualities": [
+              "pistol",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Hex Blade",
+        "name": "Force Generator (Right)",
+        "cost": 8,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Hex Blade (Force Generator)",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 21
+            },
+            "location": "R",
+            "abilities": [
+              "criticalDecapitation"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Hex Blade",
+        "name": "Revivifier (Right)",
+        "cost": 10,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Revivifier",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "deathlyDomination__b0bc277d"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Hex Blade (Revivifier)",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 21
+            },
+            "location": "R",
+            "abilities": [
+              "criticalDecapitation"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Hex Blade",
+        "name": "Force Generator (Left)",
+        "cost": 8,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Hex Blade (Force Generator)",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 21
+            },
+            "location": "L",
+            "abilities": [
+              "criticalDecapitation"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Hex Blade",
+        "name": "Revivifier (Left)",
+        "cost": 10,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Revivifier",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "L",
+            "abilities": [
+              "deathlyDomination__b0bc277d"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Hex Blade (Revivifier)",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 21
+            },
+            "location": "L",
+            "abilities": [
+              "criticalDecapitation"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "prisoner102822": {
+    "name": "Prisoner 102822",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20prisoner%20102822.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 14,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "tough"
+    ],
+    "weapons": {
+      "fellblade": {
+        "type": "melee",
+        "name": "Fellblade",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyssAndWinterKorps",
+      "bloodQuenched__a9d0dab2",
+      "hyperAggressive__b7659c11",
+      "killingSpree",
+      "spellWard__692ef090"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "sasha": {
+    "name": "Sasha",
+    "faction": "dusk",
+    "type": "warbeast",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Heavy Warbeast",
+      "Final Hunt"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Dusk_Cat2.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 25,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "advanceDeployment",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "resistanceCold",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "bite__42702a09": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "criticalKnockdown"
+        ]
+      },
+      "claws": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "companionLanyssaRyssylAransorOfSorrows",
+      "digInAction",
+      "dragBelow",
+      "flankBenkei",
+      "springBlades"
+    ],
+    "spells": [
+      "snowWreathed"
+    ]
+  },
+  "scyrafaelNisIssyrOfDesolations": {
+    "name": "Scyrafael, Nis-Issyr of Desolations",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "Dusk",
+      "Eldritch",
+      "House Kallyss",
+      "Warcaster"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20scyrafael.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "flight",
+      "undead"
+    ],
+    "weapons": {
+      "stormOfBlades": {
+        "type": "ranged",
+        "name": "Storm of Blades",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalDecapitation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "greatSword__6d0910e3": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack",
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bladeShield",
+      "fieldMarshalSanguineFate",
+      "girded",
+      "steady",
+      "vampiric",
+      "sanguineFate"
+    ],
+    "spells": [
+      "arcanePropulsion",
+      "forceBlast",
+      "forceHammer",
+      "graveWind",
+      "polarityShield",
+      "rhythmOfWar"
+    ],
+    "feat": [
+      "ironStorm"
+    ]
+  },
+  "seekerAdepts": {
+    "name": "Seeker Adepts",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Unit"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20seeker%20adept.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 13
+    },
+    "weapons": {
+      "battleBlade__bc4cb7d8": {
+        "type": "melee",
+        "name": "Battle Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard",
+      "bladeShield",
+      "magicAbility",
+      "empowerAction__e131c030",
+      "exorcismAction",
+      "restorationD31Action"
+    ]
+  },
+  "seekerWarden": {
+    "name": "Seeker Warden",
+    "faction": "dusk",
+    "type": "commandAttachment",
+    "keywords": [
+      "Command Attachment",
+      "Dusk",
+      "House Kallyss"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "6",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20seeker%20warden.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
+    },
+    "weapons": {
+      "blade__2add2c5c": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentSoulless",
+      "battleWizard",
+      "magicAbility",
+      "ayislasVeilAction",
+      "fellCurseAction",
+      "sacredWard"
+    ]
+  },
+  "skyBomber": {
+    "name": "Sky Bomber",
+    "faction": "dusk",
+    "type": "battleEngine",
+    "keywords": [
+      "Mercenary",
+      "Battle Engine"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20sky%20bomber.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 18,
+      "health": 28
+    },
+    "advantages": [
+      "construct",
+      "flight",
+      "gunfighter",
+      "unstopable",
+      "dualAttack"
+    ],
+    "weapons": {
+      "heavyFireBreather": {
+        "type": "ranged",
+        "name": "Heavy Fire Breather",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 10",
+          "rateOfFire": 2,
+          "power": 14
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "highExplosive": {
+        "type": "ranged",
+        "name": "High Explosive",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 4,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "abilities": [
+          "crater__76b94cc1",
+          "criticalDevastation",
+          "skyDropped",
+          "siegeWeapon"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "rammingSpeed": {
+        "type": "melee",
+        "name": "Ramming Speed",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyss",
+      "autoRepair",
+      "flyingHigh",
+      "poltergeist",
+      "propelled",
+      "reposition5",
+      "shootingGallery"
+    ]
+  },
+  "skyRaider": {
+    "name": "Sky Raider",
+    "faction": "dusk",
+    "type": "battleEngine",
+    "keywords": [
+      "Battle Engine",
+      "Mercenary"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20sky%20raider.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 18,
+      "health": 28
+    },
+    "advantages": [
+      "construct",
+      "flight",
+      "gunfighter",
+      "unstopable",
+      "dualAttack"
+    ],
+    "weapons": {
+      "heavyGun": {
+        "type": "ranged",
+        "name": "Heavy Gun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "15/8"
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "gravityBomb__a12512ad": {
+        "type": "ranged",
+        "name": "Gravity Bomb",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 4,
+          "rateOfFire": 3,
+          "areaOfEffect": 2,
+          "power": "12/6"
+        },
+        "abilities": [
+          "skyDropped",
+          "brutalDamage__7a6f89ac"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "rammingSpeed": {
+        "type": "melee",
+        "name": "Ramming Speed",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyss",
+      "autoRepair",
+      "flyingHigh",
+      "poltergeist",
+      "propelled",
+      "reposition5",
+      "shootingGallery"
+    ]
+  },
+  "soullessBlademasters": {
+    "name": "Soulless Blademasters",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Dusk",
+      "House Kallyss"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20blademaster.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder",
+      "soulless"
+    ],
+    "weapons": {
+      "greatSword__1f23d62d": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 11
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "deathVoid",
+      "sacredWard",
+      "flankWarjack"
+    ]
+  },
+  "soullessGuardians": {
+    "name": "Soulless Guardians",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Unit"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20soulless%20guardian.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "soulless"
+    ],
+    "weapons": {
+      "spear__00ea8e8f": {
+        "type": "melee",
+        "name": "Spear",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        }
+      },
+      "shield": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "setDefense",
+      "shieldGuard",
+      "shieldWall"
+    ]
+  },
+  "soullessHunters": {
+    "name": "Soulless Hunters",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Unit"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20soulless%20hunter.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "soulless",
+      "combinedRangedAttack"
+    ],
+    "weapons": {
+      "rifle__fec9d12e": {
+        "type": "ranged",
+        "name": "Rifle",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "blade__47e6afea": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "arcanePrecision"
+    ]
+  },
+  "specter": {
+    "name": "Specter",
+    "faction": "dusk",
+    "type": "warjack",
+    "keywords": [
+      "Dusk",
+      "Ghosts of Ios",
+      "Warjack"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20spector.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 17,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "stealth",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shriekerCannon": {
+        "type": "ranged",
+        "name": "Shrieker Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalBrainDamage"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "glaive__1481eff8": {
+        "type": "melee",
+        "name": "Glaive",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "criticalBrutalDamage"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "forceShield": {
+        "type": "melee",
+        "name": "Force Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "location": "L",
+        "abilities": [
+          "beatBack"
+        ],
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "apparition",
+      "duelist",
+      "generator"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "theLastWatch": {
+    "name": "The Last Watch",
+    "faction": "dusk",
+    "type": "unit",
+    "keywords": [
+      "Dusk",
+      "Final Hunt",
+      "Unit",
+      "House Kallyss"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/FaneOfNyrro_Dusk_Last-Watch1.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16
+    },
+    "advantages": [
+      "resistanceCold",
+      "pathfinder"
+    ],
+    "weapons": {
+      "greatSword__104e0627": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "defensiveLine",
+      "retaliatoryStrike",
+      "righteousFury"
+    ],
+    "models": {
+      "vyr2Mordryth1": {
+        "name": "Vyr 2, Mordryth 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 16
+        },
+        "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/FaneOfNyrro_Dusk_Last-Watch3.png",
+        "advantages": [
+          "resistanceCold",
+          "pathfinder"
+        ],
+        "abilities": [
+          "defensiveLine",
+          "retaliatoryStrike",
+          "righteousFury"
+        ],
+        "weapons": {
+          "greatSword__104e0627": {
+            "type": "melee",
+            "name": "Great Sword",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 10
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          }
+        }
+      },
+      "ryva1": {
+        "name": "Ryva 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 16
+        },
+        "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/FaneOfNyrro_Dusk_Last-Watch2.png",
+        "advantages": [
+          "resistanceCold",
+          "pathfinder"
+        ],
+        "abilities": [
+          "defensiveLine",
+          "retaliatoryStrike",
+          "righteousFury"
+        ],
+        "weapons": {
+          "greatSword__00460891": {
+            "type": "melee",
+            "name": "Great Sword",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 10
+            },
+            "quantity": 2,
+            "qualities": [
+              "weaponMaster"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tyrusNisArsyrOfSpiders": {
+    "name": "Tyrus, Nis-Arsyr of Spiders",
+    "faction": "dusk",
+    "type": "warcaster",
+    "keywords": [
+      "Dusk",
+      "Warcaster",
+      "House Kallyss",
+      "Eldritch"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20tyrus%20nis%20arsyr%20of%20spiders.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 8,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "undead"
+    ],
+    "weapons": {
+      "nekromanteion": {
+        "type": "melee",
+        "name": "Nekromanteion",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "deathBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "arcaneVortex",
+      "vampiric"
+    ],
+    "spells": [
+      "abyssalGate",
+      "feedbackLoop",
+      "inviolableResolve",
+      "kissOfLyliss",
+      "stranglehold"
+    ],
+    "feat": [
+      "invocationOfShadow"
+    ]
+  },
+  "vaelyssTheHandOfMourning": {
+    "name": "Vaelyss, The Hand of Mourning",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "Ghosts of Ios",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20vaelyss%20the%20hand%20of%20mourning.png",
+    "statistics": {
+      "speed": 6,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "abilities": [
+      "magicAbility",
+      "cradleSongAction",
+      "restorationD31Action",
+      "grimReturnsAction",
+      "spiritVessel",
+      "threadsOfLife"
+    ],
+    "models": {
+      "vaelyss1LivingVaelyss": {
+        "name": "Vaelyss 1 (Living Vaelyss)",
+        "statistics": {
+          "speed": 6,
+          "defense": 14,
+          "armour": 12
+        },
+        "advantages": [
+          "pathfinder"
+        ],
+        "abilities": [
+          "magicAbility",
+          "cradleSongAction",
+          "restorationD31Action",
+          "grimReturnsAction",
+          "spiritVessel",
+          "threadsOfLife"
+        ]
+      },
+      "vaelyss1AvengingSpirit": {
+        "name": "Vaelyss 1 (Avenging Spirit)",
+        "statistics": {
+          "speed": 7,
+          "meleeAttack": 6,
+          "defense": 14,
+          "armour": 12
+        },
+        "advantages": [
+          "incorporeal",
+          "undead"
+        ],
+        "abilities": [
+          "apparition",
+          "finisher",
+          "poltergeist",
+          "voidWalk"
+        ],
+        "weapons": {
+          "touchOfTheGrave": {
+            "type": "melee",
+            "name": "Touch of the Grave",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 12
+            },
+            "quantity": 2,
+            "qualities": [
+              "damageTypeMagical",
+              "continuousEffectCorrosion"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "voidEngine": {
+    "name": "Void Engine",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20void%20engine.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": 16
+    },
+    "advantages": [
+      "construct",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "voidAperture": {
+        "type": "ranged",
+        "name": "Void Aperture",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "criticalConsume",
+          "powerLoader1"
+        ]
+      }
+    },
+    "abilities": [
+      "arcantrikCapacitor",
+      "powerChargedKineticField",
+      "voidInduction"
+    ]
+  },
+  "voidShaper": {
+    "name": "Void Shaper",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Solo",
+      "Eldritch"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20void%20shaper.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "tough",
+      "undead"
+    ],
+    "weapons": {
+      "shadowMatrix": {
+        "type": "ranged",
+        "name": "Shadow Matrix",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "criticalConsume"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility__0cffaca0",
+      "ancillaryAttackAction",
+      "recalibrationAction",
+      "tuneUpAction",
+      "repairD6Action__c26272a1",
+      "vampiric"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "dusk",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "wight": {
+    "name": "Wight",
+    "faction": "dusk",
+    "type": "solo",
+    "keywords": [
+      "Dusk",
+      "House Kallyss",
+      "Solo"
+    ],
+    "armies": [
+      "house-kallyss"
+    ],
+    "fieldAllowance": "",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20dusk%20wight.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 12
+    },
+    "advantages": [
+      "incorporeal",
+      "undead"
+    ],
+    "weapons": {
+      "voidStrike": {
+        "type": "melee",
+        "name": "Void Strike",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "annihilator",
+      "cleave",
+      "created",
+      "inconsequential"
+    ]
+  }
+}

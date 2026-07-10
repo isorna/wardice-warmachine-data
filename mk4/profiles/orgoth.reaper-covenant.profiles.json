@@ -1,0 +1,2178 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "orgoth",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "anathiaTheImperishableDesolation": {
+    "name": "Anathia, The Imperishable Desolation",
+    "faction": "orgoth",
+    "type": "warlock",
+    "keywords": [
+      "Orgoth",
+      "Warlock",
+      "Reaper Covenant",
+      "Deathless Cadre"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Anathia.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 8,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 18,
+      "controlRange": 14,
+      "health": 18
+    },
+    "advantages": [
+      "undead",
+      "unstopable"
+    ],
+    "weapons": {
+      "bloodTongue": {
+        "type": "melee",
+        "name": "Blood Tongue",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 13
+        },
+        "abilities": [
+          "inflictPain",
+          "manCatcher"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "giftsOfAnnihilation",
+      "darkRituals",
+      "fateBinder",
+      "nightReaper",
+      "hellMarked"
+    ],
+    "spells": [
+      "affliction",
+      "disintegration",
+      "gallows",
+      "hellwrought",
+      "impendingDoom"
+    ],
+    "feat": [
+      "timeOfSlaughter"
+    ]
+  },
+  "barrowGhoul": {
+    "name": "Barrow Ghoul",
+    "faction": "orgoth",
+    "type": "warbeast",
+    "keywords": [
+      "Orgoth",
+      "Heavy Warbeast",
+      "Reaper Covenant"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "1",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Barrow-Ghoul.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 4,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "undead",
+      "construct"
+    ],
+    "weapons": {
+      "boneMace": {
+        "type": "melee",
+        "name": "Bone Mace",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "abilities": [
+          "beatBack",
+          "criticalDispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironGrip": {
+        "type": "melee",
+        "name": "Iron Grip",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil",
+      "cursed",
+      "tasteOfDeath"
+    ],
+    "spells": [
+      "wellOfSecrets"
+    ]
+  },
+  "bellighulMasterOfPain": {
+    "name": "Bellighul, Master of Pain",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary",
+      "Skorne"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20bellighul%20master%20of%20pain.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "stealth",
+      "pathfinder"
+    ],
+    "weapons": {
+      "barbedWhip__bf7f6523": {
+        "type": "melee",
+        "name": "Barbed Whip",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 8
+        },
+        "abilities": [
+          "inflictPain"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryShadowflameShardReaperCovenant",
+      "anatomicalPrecision",
+      "conditionAction",
+      "enrageAction",
+      "medicateD31Action",
+      "reposition3"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "cephalyxMindThief": {
+    "name": "Cephalyx Mind Thief",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 8
+    },
+    "advantages": [
+      "stealth",
+      "pathfinder"
+    ],
+    "weapons": {
+      "prostheticSurgicalTool": {
+        "type": "melee",
+        "name": "Prosthetic Surgical Tool",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryNecrofactoriumSeaRaidersReaperCovenantAndDarkOperations",
+      "anatomicalPrecision",
+      "sucker",
+      "artificeOfDomination",
+      "mentalReservoir",
+      "manifestControl",
+      "expendableAssetAction",
+      "magicAbility",
+      "psychicAssaultAttack",
+      "psychicOverloadAttack",
+      "telekineticShiftAction"
+    ]
+  },
+  "charnelHound": {
+    "name": "Charnel Hound",
+    "faction": "orgoth",
+    "type": "warbeast",
+    "keywords": [
+      "Orgoth",
+      "Light Warbeast",
+      "Reaper Covenant",
+      "Deathless Cadre"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "1",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Charnel-Hound.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 21,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "undead"
+    ],
+    "weapons": {
+      "bite__7a9d7ed4": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "mageStatic"
+    ],
+    "spells": [
+      "lightningStrike"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "orgoth",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "orgoth",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "hellslingerPhantom": {
+    "name": "Hellslinger Phantom",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 8,
+      "defense": 15,
+      "armour": 12,
+      "health": 8
+    },
+    "advantages": [
+      "undead",
+      "incorporeal",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "magelockPistol__4f1c5a7e": {
+        "type": "ranged",
+        "name": "Magelock Pistol",
+        "statistics": {
+          "rangedAttack": 8,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType",
+          "banish",
+          "phantomSeeker",
+          "spiritDrain"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyssNecrofactoriumAndReaperCovenant",
+      "reciprocate",
+      "quickDraw",
+      "spiritSiphon"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "revenantChampion": {
+    "name": "Revenant Champion",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Graveborn",
+      "Solo",
+      "Deathless Cadre"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "1",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Revenant-Champion.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "undead",
+      "unstopable"
+    ],
+    "weapons": {
+      "warAxe__5ab086e8": {
+        "type": "melee",
+        "name": "War Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shatteredBlade": {
+        "type": "melee",
+        "name": "Shattered Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalDispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "guardDog",
+      "imperviousFlesh",
+      "inhumanResolve",
+      "shieldGuard"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "theExecrators": {
+    "name": "The Execrators",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Graveborn",
+      "Unit"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Execrators3.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough",
+      "undead"
+    ],
+    "weapons": {
+      "accursedSpear": {
+        "type": "ranged",
+        "name": "Accursed Spear",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "snapFire",
+          "thunderbolt"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "ironBlade": {
+        "type": "melee",
+        "name": "Iron Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalGrievousWounds__f150fac5"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "blessed"
+        ]
+      },
+      "greatShield": {
+        "type": "melee",
+        "name": "Great Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "blessed"
+        ]
+      }
+    },
+    "abilities": [
+      "accursedArmor",
+      "shieldWall",
+      "vengeance"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "orgoth",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "reaper-covenant"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  }
+}

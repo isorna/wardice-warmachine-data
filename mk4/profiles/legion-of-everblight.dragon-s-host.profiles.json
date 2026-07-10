@@ -1,14 +1,14 @@
 {
   "aberration": {
     "name": "Aberration",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "monstrosity",
     "keywords": [
       "Mercenary",
       "Super Heavy Monstrosity"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -169,537 +169,214 @@
       "imperviousFlesh"
     ]
   },
-  "abidanTheKeeper": {
-    "name": "Abidan the Keeper",
-    "faction": "skorne",
-    "type": "solo",
+  "absyloniaDaughterOfEverblight": {
+    "name": "Absylonia, Daughter of Everblight",
+    "faction": "legion-of-everblight",
+    "type": "warlock",
     "keywords": [
-      "Solo",
-      "Skorne",
-      "Exalted"
+      "Legion",
+      "Blighted",
+      "Warlock",
+      "Scout",
+      "Dragon's Host",
+      "Nyss"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
-    "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20abidan%20the%20keeper.png",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20absylonia%20daughter%20of%20everblight.png",
     "statistics": {
-      "speed": 5,
+      "speed": 7,
+      "arcaneAttack": 6,
+      "arcana": 6,
       "meleeAttack": 7,
-      "defense": 11,
-      "armour": 17,
-      "health": 8
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 18
     },
     "advantages": [
-      "construct"
+      "flight",
+      "resistanceCold"
     ],
     "weapons": {
-      "greatSword__dabd6e26": {
+      "claw__a5bf4107": {
         "type": "melee",
-        "name": "Great Sword",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 13
-        },
-        "qualities": [
-          "damageTypeMagical",
-          "weaponMaster"
-        ]
-      }
-    },
-    "abilities": [
-      "battlePlan",
-      "desperatePaceImmortal",
-      "fightToTheLast",
-      "wingsOfDeath",
-      "inhumanResolve",
-      "soulVessel"
-    ]
-  },
-  "agonizer": {
-    "name": "Agonizer",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Exalted",
-      "Skorne",
-      "Lesser Warbeast",
-      "Titan"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20agonizer.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 3,
-      "defense": 12,
-      "armour": 13,
-      "fury": 2,
-      "threshold": 8,
-      "health": {
-        "total": 13,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 3
-            },
-            {
-              "boxes": 1
-            },
-            {
-              "boxes": 3
-            },
-            {
-              "boxes": 1
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 1
-            }
-          ]
-        }
-      }
-    },
-    "weapons": {
-      "claws__720cee8f": {
-        "type": "melee",
-        "name": "Claws",
-        "statistics": {
-          "meleeAttack": 3,
-          "range": 1,
-          "power": 8
-        }
-      }
-    },
-    "abilities": [
-      "agonies",
-      "gnawingPain",
-      "maddening",
-      "spiritualAffliction"
-    ],
-    "spells": [
-      "repulsion"
-    ]
-  },
-  "ancestralGuardian": {
-    "name": "Ancestral Guardian",
-    "faction": "skorne",
-    "type": "solo",
-    "keywords": [
-      "Exalted",
-      "Solo",
-      "Skorne"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "3",
-    "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20ancestral%20guardian.png",
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 7,
-      "defense": 10,
-      "armour": 18,
-      "health": 10
-    },
-    "advantages": [
-      "construct"
-    ],
-    "weapons": {
-      "halberd__20777236": {
-        "type": "melee",
-        "name": "Halberd",
+        "name": "Claw",
         "statistics": {
           "meleeAttack": 7,
           "range": 2,
           "power": 14
         },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "stinger__7945694e": {
+        "type": "melee",
+        "name": "Stinger",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "energySiphon"
+        ],
         "qualities": [
           "damageTypeMagical"
         ]
       }
     },
     "abilities": [
-      "defensiveStrike",
-      "shieldGuard",
-      "soulTakerRequiem",
-      "soulPowered",
-      "spiritDriven",
-      "strengthOfDeath",
-      "soulVessel",
-      "steady"
+      "alphaHunter",
+      "reposition5"
+    ],
+    "spells": [
+      "bleed",
+      "fortify",
+      "psychoSurgery",
+      "returnFire"
+    ],
+    "feat": [
+      "metamorphose"
     ]
   },
-  "aptimusMarketh": {
-    "name": "Aptimus Marketh",
-    "faction": "skorne",
+  "ammokTheTruthbearer": {
+    "name": "Ammok the Truthbearer",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
-      "Army of the Western Reaches",
-      "Extoller",
-      "Skorne",
-      "Solo",
-      "Exalted"
+      "Blighted Ogrun",
+      "Legion",
+      "Dragon's Host",
+      "Solo"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20aptimus%20marketh.png",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20ammok%20the%20truthbearer.png",
     "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
-      "defense": 13,
-      "armour": 13,
-      "health": 5
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 16,
+      "health": 8
     },
     "advantages": [
-      "dualAttack"
+      "tough"
     ],
     "weapons": {
-      "spiritEye": {
-        "type": "ranged",
-        "name": "Spirit Eye",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 8,
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "abilities": [
-          "ghostShot"
-        ],
-        "qualities": [
-          "damageTypeMagical",
-          "pistol"
-        ]
-      },
-      "gravitas": {
+      "club": {
         "type": "melee",
-        "name": "Gravitas",
+        "name": "Club",
         "statistics": {
-          "meleeAttack": 5,
-          "range": 2,
-          "power": 11
-        },
-        "qualities": [
-          "damageTypeMagical"
-        ]
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
       }
     },
     "abilities": [
       "attached",
-      "ghostShield",
-      "magicAbility",
-      "guidanceAction",
-      "harmoniousExaltationAction",
-      "spellSlaveActionOrAttack",
-      "soulTakerRequiem",
-      "strengthOfDeath",
-      "soulTap"
+      "exorcist",
+      "leadershipBlightedOgrun",
+      "rise",
+      "spiritualConduit",
+      "unbindingAction__d4813fb8"
     ]
   },
-  "aradusScarab": {
-    "name": "Aradus Scarab",
-    "faction": "skorne",
-    "type": "warbeast",
+  "anamagTheDoomFeaster": {
+    "name": "Anamag the Doom Feaster",
+    "faction": "legion-of-everblight",
+    "type": "warlock",
     "keywords": [
-      "Skorne",
-      "Exalted",
-      "Lesser Warbeast"
+      "Dragon's Host",
+      "Warlock",
+      "Legion",
+      "Blighted Ogrun"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
-    "fieldAllowance": "4",
-    "points": 3,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20scarab%20pack.png",
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20anamag%20the%20doom%20feaster.png",
     "statistics": {
       "speed": 5,
-      "meleeAttack": 5,
-      "defense": 11,
-      "armour": 12,
-      "fury": 2,
-      "threshold": 7,
-      "health": {
-        "total": 13,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 3
-            },
-            {
-              "boxes": 1
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 1
-            },
-            {
-              "boxes": 3
-            },
-            {
-              "boxes": 1
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "advanceDeployment"
-    ],
-    "weapons": {
-      "mandibles": {
-        "type": "melee",
-        "name": "Mandibles",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 10
-        },
-        "abilities": [
-          "criticalParalysis"
-        ]
-      }
-    },
-    "abilities": [
-      "carapace",
-      "huntingPackAradus",
-      "steady"
-    ],
-    "spells": [
-      "scuttler"
-    ]
-  },
-  "aradusSentinel": {
-    "name": "Aradus Sentinel",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Heavy Warbeast",
-      "Exalted",
-      "Skorne"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 11,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20aradus%20sentinel.png",
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
-      "defense": 11,
-      "armour": 19,
-      "fury": 3,
-      "threshold": 9,
-      "health": {
-        "total": 29,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 2
-            },
-            {
-              "boxes": 8
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 3
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "advanceDeployment",
-      "dualAttack",
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
-    ],
-    "weapons": {
-      "venomBlaster__c2270440": {
-        "type": "ranged",
-        "name": "Venom Blaster",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": "SP 10",
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "abilities": [
-          "poison"
-        ],
-        "qualities": [
-          "damageTypeCorrosion",
-          "pistol"
-        ]
-      },
-      "claw__2b512e19": {
-        "type": "melee",
-        "name": "Claw",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 14
-        },
-        "quantity": 2,
-        "qualities": [
-          "throwPowerAttack"
-        ]
-      }
-    },
-    "abilities": [
-      "carapace",
-      "snacking",
-      "steady",
-      "sturdy"
-    ],
-    "spells": [
-      "acidicTouch"
-    ]
-  },
-  "aradusSoldier": {
-    "name": "Aradus Soldier",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Heavy Warbeast",
-      "Skorne",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 12,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20aradus%20soldier.png",
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 6,
-      "defense": 11,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 9,
-      "health": {
-        "total": 29,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 2
-            },
-            {
-              "boxes": 8
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 3
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "advanceDeployment",
-      "pathfinder",
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
-    ],
-    "weapons": {
-      "mandibles__da3f168f": {
-        "type": "melee",
-        "name": "Mandibles",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 18
-        }
-      },
-      "barbedClaw": {
-        "type": "melee",
-        "name": "Barbed Claw",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        },
-        "quantity": 2,
-        "abilities": [
-          "drag"
-        ],
-        "qualities": [
-          "chainWeapon"
-        ]
-      }
-    },
-    "abilities": [
-      "carapace",
-      "snacking",
-      "steady",
-      "sturdy"
-    ],
-    "spells": [
-      "swarm"
-    ]
-  },
-  "archidon": {
-    "name": "Archidon",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Army of the Western Reaches",
-      "Skorne",
-      "Heavy Warbeast",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 9,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20archidon.png",
-    "statistics": {
-      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 7,
       "meleeAttack": 6,
       "defense": 14,
       "armour": 16,
-      "fury": 3,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "fangedStaff": {
+        "type": "melee",
+        "name": "Fanged Staff",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "ritualSlaughter",
+      "snacking"
+    ],
+    "spells": [
+      "bondOfGristleBone",
+      "carnage",
+      "furysStrength",
+      "gallows",
+      "hexBlast"
+    ],
+    "feat": [
+      "fieldOfBones"
+    ]
+  },
+  "angelius": {
+    "name": "Angelius",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Heavy Warbeast",
+      "Ravens of War"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20angelius.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 17,
+      "fury": 4,
       "threshold": 9,
       "health": {
         "total": 25,
@@ -710,96 +387,19 @@
               "boxes": 5
             },
             {
-              "boxes": 2
+              "boxes": 3
             },
             {
               "boxes": 6
             },
             {
-              "boxes": 4
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 3
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "flight",
-      "headbuttPowerAttack",
-      "resistanceElectricity",
-      "slamPowerAttack"
-    ],
-    "weapons": {
-      "bite__b906c375": {
-        "type": "melee",
-        "name": "Bite",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 15
-        },
-        "abilities": [
-          "criticalPitch"
-        ]
-      }
-    },
-    "abilities": [
-      "extendedControlRange"
-    ],
-    "spells": [
-      "lightningStrike"
-    ]
-  },
-  "basiliskDrake": {
-    "name": "Basilisk Drake",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Light Warbeast"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 7,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20basilisk%20drake.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
-      "defense": 13,
-      "armour": 14,
-      "fury": 3,
-      "threshold": 9,
-      "health": {
-        "total": 22,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 2
-            },
-            {
-              "boxes": 5
-            },
-            {
               "boxes": 3
             },
             {
               "boxes": 5
             },
             {
-              "boxes": 2
+              "boxes": 3
             }
           ]
         }
@@ -807,64 +407,481 @@
     },
     "advantages": [
       "dualAttack",
+      "eyelessSight",
+      "flight",
       "headbuttPowerAttack",
-      "slamPowerAttack"
+      "soulless"
     ],
     "weapons": {
-      "witheringGaze": {
+      "flameJet__85c61ce8": {
         "type": "ranged",
-        "name": "Withering Gaze",
+        "name": "Flame Jet",
         "statistics": {
           "rangedAttack": 5,
-          "range": "Sp 8",
+          "range": 12,
           "rateOfFire": 1,
-          "power": 14
+          "power": 12
         },
         "qualities": [
-          "damageTypeMagical",
+          "criticalFire",
+          "damageTypeFire",
           "pistol"
+        ]
+      },
+      "tailStrike__b3f32f39": {
+        "type": "melee",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 7
+        },
+        "abilities": [
+          "armorPiercing"
         ]
       },
       "bite__3c226e76": {
         "type": "melee",
         "name": "Bite",
         "statistics": {
-          "meleeAttack": 5,
+          "meleeAttack": 6,
           "range": 1,
           "power": 12
         }
       }
     },
+    "abilities": [
+      "overtake",
+      "steady__ee8b6350"
+    ],
     "spells": [
-      "lurker"
+      "repulsion"
     ]
   },
-  "basiliskKrea": {
-    "name": "Basilisk Krea",
-    "faction": "skorne",
+  "archangel": {
+    "name": "Archangel",
+    "faction": "legion-of-everblight",
     "type": "warbeast",
     "keywords": [
-      "Army of the Western Reaches",
-      "Skorne",
-      "Light Warbeast",
-      "Exalted"
+      "Dragon's Host",
+      "Ravens of War",
+      "Dragonspawn",
+      "Gargantuan"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
-    "fieldAllowance": "4",
-    "points": 6,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20basilisk%20krea.png",
+    "fieldAllowance": "2",
+    "points": 28,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20archangel.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 50,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 9
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "flight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "soulless",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "dragonSBreath": {
+        "type": "ranged",
+        "name": "Dragon's Breath",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": "d3+1",
+          "areaOfEffect": 2,
+          "power": "14/7"
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "bite__49909316": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "abilities": [
+          "consume"
+        ]
+      },
+      "claw__149ad133": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "flyingHigh"
+    ],
+    "spells": [
+      "draconicAura"
+    ]
+  },
+  "blightbringer": {
+    "name": "Blightbringer",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Dragon's Host",
+      "Gargantuan"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 25,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20blightbringer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 7,
+      "health": {
+        "total": 54,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 9
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 13
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "soulless",
+      "tramplePowerAttack",
+      "unstopable",
+      "pathfinder"
+    ],
+    "weapons": {
+      "blightFire__6af83934": {
+        "type": "ranged",
+        "name": "Blight Fire",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 4,
+          "power": "15/8"
+        },
+        "abilities": [
+          "blightAsh"
+        ],
+        "qualities": [
+          "damageTypeFire"
+        ]
+      },
+      "tail__595c942c": {
+        "type": "melee",
+        "name": "Tail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "abilities": [
+          "criticalPoison"
+        ]
+      },
+      "impalingSpike": {
+        "type": "melee",
+        "name": "Impaling Spike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "blightedBreath",
+      "dragonSBreath",
+      "spiritualCorruption",
+      "witheringAsh",
+      "bulldoze"
+    ],
+    "spells": [
+      "boilingBlood"
+    ]
+  },
+  "blightedNyssShepherd": {
+    "name": "Blighted Nyss Shepherd",
+    "faction": "legion-of-everblight",
+    "type": "solo",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Solo",
+      "Ravens of War"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "3",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20blighted%20nyss%20shepherd.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 4,
-      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "resistanceCold"
+    ],
+    "weapons": {
+      "crookedStaff": {
+        "type": "melee",
+        "name": "Crooked Staff",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 2,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "conditionAction",
+      "medicateD3Action"
+    ]
+  },
+  "blightedOgrunWarmongers": {
+    "name": "Blighted Ogrun Warmongers",
+    "faction": "legion-of-everblight",
+    "type": "unit",
+    "keywords": [
+      "Legion",
+      "Unit",
+      "Dragon's Host"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "3",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20blighted%20ogrun%20warmongers.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
       "defense": 12,
-      "armour": 14,
-      "fury": 3,
-      "threshold": 8,
+      "armour": 16
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "warCleaver": {
+        "type": "melee",
+        "name": "War Cleaver",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "powerfulCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "berserk__98095277",
+      "unyielding"
+    ]
+  },
+  "blightedOgrunWarspears": {
+    "name": "Blighted Ogrun Warspears",
+    "faction": "legion-of-everblight",
+    "type": "unit",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Unit"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "3",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20blighted%20ogrun%20warspears.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough",
+      "assault"
+    ],
+    "weapons": {
+      "thrownSpear": {
+        "type": "ranged",
+        "name": "Thrown Spear",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        }
+      },
+      "warSpear": {
+        "type": "melee",
+        "name": "War Spear",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "setDefense"
+    ]
+  },
+  "blightedRotwings": {
+    "name": "Blighted Rotwings",
+    "faction": "legion-of-everblight",
+    "type": "unit",
+    "keywords": [
+      "Dragon's Host",
+      "Legion",
+      "Unit"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20blighted%20rotwings.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "beak__f2d5f85c": {
+        "type": "melee",
+        "name": "Beak",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "finisher",
+      "reposition3",
+      "sittingVulture"
+    ]
+  },
+  "carnivean": {
+    "name": "Carnivean",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20carnivean.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 9,
       "health": {
-        "total": 22,
+        "total": 30,
         "layout": "spiral",
         "grid": {
           "columns": [
@@ -872,13 +889,13 @@
               "boxes": 5
             },
             {
-              "boxes": 2
+              "boxes": 3
             },
             {
-              "boxes": 4
+              "boxes": 7
             },
             {
-              "boxes": 1
+              "boxes": 5
             },
             {
               "boxes": 6
@@ -894,200 +911,57 @@
       "dualAttack",
       "eyelessSight",
       "headbuttPowerAttack",
-      "slamPowerAttack"
-    ],
-    "weapons": {
-      "spiritualParalysis": {
-        "type": "ranged",
-        "name": "Spiritual Paralysis",
-        "statistics": {
-          "rangedAttack": 4,
-          "range": "Sp 8",
-          "rateOfFire": 1
-        },
-        "abilities": [
-          "paralysis"
-        ],
-        "qualities": [
-          "pistol"
-        ]
-      },
-      "bite__3c226e76": {
-        "type": "melee",
-        "name": "Bite",
-        "statistics": {
-          "meleeAttack": 4,
-          "range": 1,
-          "power": 12
-        }
-      }
-    },
-    "spells": [
-      "forceAura"
-    ]
-  },
-  "beastMasterXekaar": {
-    "name": "Beast Master Xekaar",
-    "faction": "skorne",
-    "type": "warlock",
-    "keywords": [
-      "Skorne",
-      "Paingiver",
-      "Warlock",
-      "Scout",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "C",
-    "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20beast%20master%20xekaar.png",
-    "statistics": {
-      "speed": 7,
-      "arcaneAttack": 7,
-      "arcana": 6,
-      "meleeAttack": 7,
-      "defense": 15,
-      "armour": 15,
-      "controlRange": 12,
-      "health": 16
-    },
-    "advantages": [
-      "pathfinder"
-    ],
-    "weapons": {
-      "barbedWhip__15efcebb": {
-        "type": "melee",
-        "name": "Barbed Whip",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 9
-        },
-        "quantity": 2,
-        "abilities": [
-          "inflictPain",
-          "witchMark"
-        ],
-        "qualities": [
-          "damageTypeMagical",
-          "weaponMaster",
-          "chainWeapon"
-        ]
-      }
-    },
-    "abilities": [
-      "fieldMarshalPathfinder",
-      "maltreatment",
-      "sideStep"
-    ],
-    "spells": [
-      "deadweight",
-      "mortality",
-      "psychoSurgery",
-      "pursuit",
-      "silenceOfDeath"
-    ],
-    "feat": [
-      "whispersOfTorment"
-    ]
-  },
-  "bronzebackTitan": {
-    "name": "Bronzeback Titan",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Army of the Western Reaches",
-      "Skorne",
-      "Heavy Warbeast",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 16,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20bronzeback%20titan.png",
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 7,
-      "defense": 11,
-      "armour": 19,
-      "fury": 5,
-      "threshold": 7,
-      "health": {
-        "total": 34,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 8
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "gladiator",
-      "headbuttPowerAttack",
+      "pathfinder",
       "slamPowerAttack",
+      "soulless",
       "tramplePowerAttack"
     ],
     "weapons": {
-      "tusks__a5e067f0": {
-        "type": "melee",
-        "name": "Tusks",
+      "dragonBreath": {
+        "type": "ranged",
+        "name": "Dragon Breath",
         "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 16
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "bite__2dfec88c": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
         }
       },
-      "warGauntlet": {
+      "talon": {
         "type": "melee",
-        "name": "War Gauntlet",
+        "name": "Talon",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 1,
-          "power": 17
+          "power": 16
         },
         "quantity": 2,
-        "abilities": [
-          "beatBack",
-          "chainAttackGrabSmash"
-        ],
         "qualities": [
           "throwPowerAttack"
         ]
       }
     },
-    "abilities": [
-      "hyperAggressive",
-      "leadershipTitans"
-    ],
     "spells": [
-      "indomitable"
+      "spinyGrowth"
     ]
   },
   "carverUltimus": {
     "name": "Carver Ultimus",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
       "Mercenary",
@@ -1095,7 +969,7 @@
       "Solo"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -1170,115 +1044,68 @@
       "torment"
     ]
   },
-  "chiron": {
-    "name": "Chiron",
-    "faction": "skorne",
-    "type": "warbeast",
+  "chosenOfEverblight": {
+    "name": "Chosen of Everblight",
+    "faction": "legion-of-everblight",
+    "type": "unit",
     "keywords": [
-      "Skorne",
-      "Basilisk",
-      "Heavy Warbeast",
-      "Exalted"
+      "Blighted Ogrun",
+      "Legion",
+      "Unit",
+      "Dragon's Host"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
-    "fieldAllowance": "C",
-    "points": 15,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20chiron.png",
+    "fieldAllowance": "2",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20chosen%20of%20everblight.png",
     "statistics": {
-      "speed": 6,
-      "meleeAttack": 7,
-      "rangedAttack": 5,
+      "speed": 7,
+      "meleeAttack": 6,
       "defense": 12,
-      "armour": 18,
-      "fury": 4,
-      "threshold": 9,
-      "health": {
-        "total": 30,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 3
-            },
-            {
-              "boxes": 7
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            }
-          ]
-        }
-      }
+      "armour": 17
     },
     "advantages": [
-      "dualAttack",
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
+      "cavalry",
+      "pathfinder",
+      "tough",
+      "unstopable"
     ],
     "weapons": {
-      "destructiveGaze": {
-        "type": "ranged",
-        "name": "Destructive Gaze",
+      "poleCleaver": {
+        "type": "melee",
+        "name": "Pole Cleaver",
         "statistics": {
-          "rangedAttack": 5,
-          "range": "SP 8",
-          "rateOfFire": 1,
-          "power": 15
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
         },
         "abilities": [
-          "inflictPain"
-        ],
-        "qualities": [
-          "damageTypeMagical"
+          "brutalCharge"
         ]
       },
-      "bite__49cd1624": {
+      "claws__999bcc5d": {
         "type": "melee",
-        "name": "Bite",
+        "name": "Claws",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 1,
-          "power": 16
-        }
-      },
-      "claw__2b512e19": {
-        "type": "melee",
-        "name": "Claw",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 14
+          "power": 13
         },
-        "quantity": 2,
-        "qualities": [
-          "throwPowerAttack"
+        "abilities": [
+          "criticalKnockdown"
         ]
       }
     },
     "abilities": [
-      "bondXekaar",
-      "digInAction",
-      "leadershipBasilisks"
-    ],
-    "spells": [
-      "counterblast"
+      "rapidHealing",
+      "reposition3"
     ]
   },
   "constanceBlaizeKnightOfTheProphet": {
     "name": "Constance Blaize, Knight of the Prophet",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warcaster",
     "keywords": [
       "Mercenary",
@@ -1286,7 +1113,7 @@
       "Warcaster"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -1349,7 +1176,7 @@
   },
   "constanceBlaizeRadianceOfMorrow": {
     "name": "Constance Blaize, Radiance Of Morrow",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
       "Mercenary",
@@ -1357,7 +1184,7 @@
       "Morrowan"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -1415,104 +1242,13 @@
       "morrowsBlessing"
     ]
   },
-  "cyclopsShaman": {
-    "name": "Cyclops Shaman",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Light Warbeast",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 8,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20cyclops%20shaman.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
-      "defense": 13,
-      "armour": 15,
-      "fury": 3,
-      "threshold": 9,
-      "health": {
-        "total": 22,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 2
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 2
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 3
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "dualAttack",
-      "headbuttPowerAttack",
-      "slamPowerAttack"
-    ],
-    "weapons": {
-      "evilEye": {
-        "type": "ranged",
-        "name": "Evil Eye",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 10,
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "abilities": [
-          "ghostShot"
-        ],
-        "qualities": [
-          "damageTypeMagical",
-          "pistol"
-        ]
-      },
-      "battleSpear__47c62daf": {
-        "type": "melee",
-        "name": "Battle Spear",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 2,
-          "power": 11
-        }
-      }
-    },
-    "abilities": [
-      "craftTalismanAction",
-      "primalMagic"
-    ],
-    "spells": [
-      "spiritBlade"
-    ]
-  },
   "defenses": {
     "name": "Defenses",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "defense",
     "keywords": [],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "1",
     "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
@@ -1744,198 +1480,9 @@
       }
     ]
   },
-  "desertHydra": {
-    "name": "Desert Hydra",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Gargantuan",
-      "Army of the Western Reaches",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "2",
-    "points": 27,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20desert%20hydra.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 6,
-      "rangedAttack": 5,
-      "defense": 10,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 8,
-      "health": {
-        "total": 55,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 8
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 12
-            },
-            {
-              "boxes": 10
-            },
-            {
-              "boxes": 11
-            },
-            {
-              "boxes": 8
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "dualAttack",
-      "headbuttPowerAttack",
-      "pathfinder",
-      "slamPowerAttack",
-      "tramplePowerAttack",
-      "unstopable"
-    ],
-    "weapons": {
-      "acidSpray__c63feabd": {
-        "type": "ranged",
-        "name": "Acid Spray",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "qualities": [
-          "continuousEffectCorrosion",
-          "damageTypeCorrosion",
-          "pistol"
-        ]
-      },
-      "bite__092501f0": {
-        "type": "melee",
-        "name": "Bite",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 3,
-          "power": 18
-        },
-        "abilities": [
-          "criticalGrievousWounds__f150fac5"
-        ]
-      }
-    },
-    "abilities": [
-      "bulldoze",
-      "multipleHeads5",
-      "regenerationD33",
-      "snacking"
-    ],
-    "spells": [
-      "sandStorm"
-    ]
-  },
-  "despoiler": {
-    "name": "Despoiler",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Exalted",
-      "Skorne",
-      "Heavy Warbeast"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "C",
-    "points": 15,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20despoiler.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 7,
-      "defense": 11,
-      "armour": 18,
-      "fury": 4,
-      "threshold": 10,
-      "health": {
-        "total": 28,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 3
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "eyelessSight",
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
-    ],
-    "weapons": {
-      "tail__23df55b3": {
-        "type": "melee",
-        "name": "Tail",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 15
-        },
-        "abilities": [
-          "criticalBrutalDamage"
-        ]
-      },
-      "claw__301d1f1d": {
-        "type": "melee",
-        "name": "Claw",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 13
-        },
-        "quantity": 2,
-        "qualities": [
-          "throwPowerAttack"
-        ]
-      }
-    },
-    "abilities": [
-      "blackArts",
-      "bondMordikaar",
-      "darkShroud"
-    ],
-    "spells": [
-      "arcaneSuppression"
-    ]
-  },
   "emperorCarverUltimusBMMDEsqIII": {
     "name": "Emperor Carver Ultimus, BMMD, Esq. III",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warlock",
     "keywords": [
       "Farrow",
@@ -1944,7 +1491,7 @@
       "Mercenary"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -2023,176 +1570,16 @@
       "hogHeaven"
     ]
   },
-  "extollerAdvocate": {
-    "name": "Extoller Advocate",
-    "faction": "skorne",
-    "type": "commandAttachment",
-    "keywords": [
-      "Exalted",
-      "Command Attachment",
-      "Skorne"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "6",
-    "points": 1,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20extoller%20advocate.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 4,
-      "rangedAttack": 4,
-      "defense": 14,
-      "armour": 13,
-      "health": 5
-    },
-    "advantages": [
-      "dualAttack"
-    ],
-    "weapons": {
-      "spiritEye": {
-        "type": "ranged",
-        "name": "Spirit Eye",
-        "statistics": {
-          "rangedAttack": 4,
-          "range": 8,
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "abilities": [
-          "ghostShot"
-        ],
-        "qualities": [
-          "damageTypeMagical",
-          "pistol"
-        ]
-      },
-      "staffOfAncients": {
-        "type": "melee",
-        "name": "Staff of Ancients",
-        "statistics": {
-          "meleeAttack": 4,
-          "range": 2,
-          "power": 9
-        },
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      }
-    },
-    "abilities": [
-      "commandAttachmentImmortals",
-      "sacrificialPawnImmortal",
-      "soulTakerRequiem",
-      "graveMist",
-      "spectralVortex",
-      "strengthOfDeath",
-      "vengeance"
-    ]
-  },
-  "extollerNovitiate": {
-    "name": "Extoller Novitiate",
-    "faction": "skorne",
-    "type": "solo",
-    "keywords": [
-      "Solo",
-      "Exalted",
-      "Skorne"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "3",
-    "points": 2,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20extoller%20novitiate.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "defense": 13,
-      "armour": 12,
-      "health": 5
-    },
-    "weapons": {
-      "mallet": {
-        "type": "melee",
-        "name": "Mallet",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 8
-        },
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      }
-    },
-    "abilities": [
-      "leadershipConstruct",
-      "magicAbility__0cffaca0",
-      "repairD31Action__f08d8031",
-      "stonesWrathAction"
-    ]
-  },
-  "extollerSoulward": {
-    "name": "Extoller Soulward",
-    "faction": "skorne",
-    "type": "solo",
-    "keywords": [
-      "Solo",
-      "Exalted",
-      "Skorne"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "2",
-    "points": 2,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20extoller%20soulward.png",
-    "statistics": {
-      "speed": 6,
-      "rangedAttack": 5,
-      "defense": 14,
-      "armour": 12,
-      "health": 5
-    },
-    "weapons": {
-      "spiritEye": {
-        "type": "ranged",
-        "name": "Spirit Eye",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 8,
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "abilities": [
-          "ghostShot"
-        ],
-        "qualities": [
-          "damageTypeMagical",
-          "pistol"
-        ]
-      }
-    },
-    "abilities": [
-      "ghostShield",
-      "magicAbility",
-      "guidanceAction",
-      "spiritGuideAction",
-      "soulTakerRequiem",
-      "strengthOfDeath"
-    ]
-  },
   "exulonNostilla": {
     "name": "Exulon Nostilla",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
       "Solo",
       "Cephalyx"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -2260,9 +1647,49 @@
       "vision"
     ]
   },
+  "forsaken": {
+    "name": "Forsaken",
+    "faction": "legion-of-everblight",
+    "type": "solo",
+    "keywords": [
+      "Legion",
+      "Solo",
+      "Dragon's Host"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20the%20forsaken.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "weapons": {
+      "claws": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "ferocious",
+      "magicAbility",
+      "blightShroudAction",
+      "consumeFuryAction"
+    ]
+  },
   "gallant__5164dcc0": {
     "name": "Gallant",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warjack",
     "keywords": [
       "Mercenary",
@@ -2270,7 +1697,7 @@
       "Super Heavy Warjack"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "statistics": {
@@ -2380,7 +1807,7 @@
   },
   "gallant__f61abbf3": {
     "name": "Gallant",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warjack",
     "keywords": [
       "Mercenary",
@@ -2388,7 +1815,7 @@
       "Heavy Warjack"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 13,
@@ -2494,178 +1921,490 @@
       "sacredWard"
     ]
   },
-  "hakaarTheDestroyer": {
-    "name": "Hakaar the Destroyer",
-    "faction": "skorne",
-    "type": "solo",
+  "golab": {
+    "name": "Golab",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
     "keywords": [
-      "Exalted",
-      "Skorne",
-      "Solo"
+      "Legion",
+      "Dragon's Host",
+      "Heavy Warbeast"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
-    "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20hakaar%20the%20destroyer.png",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20golab.png",
     "statistics": {
-      "speed": 4,
-      "meleeAttack": 9,
-      "defense": 10,
-      "armour": 18,
-      "health": 10
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 17,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
     },
     "advantages": [
-      "construct"
+      "flight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
     ],
     "weapons": {
-      "greatSword__68f2d165": {
+      "beak": {
         "type": "melee",
-        "name": "Great Sword",
+        "name": "Beak",
         "statistics": {
-          "meleeAttack": 9,
-          "range": 2,
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        }
+      },
+      "talon__34fc83d2": {
+        "type": "melee",
+        "name": "Talon",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
           "power": 13
         },
         "quantity": 2,
-        "abilities": [
-          "comboStrikeAttack"
-        ],
         "qualities": [
-          "damageTypeMagical"
+          "throwPowerAttack"
         ]
       }
     },
     "abilities": [
-      "ghostShield",
-      "righteousVengeance",
-      "soulTakerRequiem",
-      "soulPowered",
-      "spiritDriven",
-      "strengthOfDeath",
-      "soulVessel",
-      "steady"
+      "bondAnamag",
+      "carrionFeast",
+      "entropicForce__d5706932",
+      "finisher",
+      "veteranLeaderBlightedRotwing"
+    ],
+    "spells": [
+      "lightningStrike"
     ]
   },
-  "immortalVessel": {
-    "name": "Immortal Vessel",
-    "faction": "skorne",
+  "goragRotteneye": {
+    "name": "Gorag Rotteneye",
+    "faction": "legion-of-everblight",
+    "type": "commandAttachment",
+    "keywords": [
+      "Blighted Ogrun",
+      "Command Attachment",
+      "Legion",
+      "Dragon's Host"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20gorag%20rotteneye.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 16,
+      "health": 10
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "greatMace": {
+        "type": "melee",
+        "name": "Great Mace",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "powerfulCharge"
+        ]
+      },
+      "horns__e039d620": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalKnockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentBlightedOgrunWarmongers",
+      "berserk__98095277",
+      "noQuarter",
+      "unyielding"
+    ]
+  },
+  "grotesqueAssassin": {
+    "name": "Grotesque Assassin",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
-      "Exalted",
-      "Skorne",
+      "Legion",
+      "Dragon's Host",
       "Solo"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
-    "fieldAllowance": "3",
-    "points": 3,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20immortal%20vessel.png",
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20grotesque%20assassin.png",
     "statistics": {
-      "speed": 5,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
-      "defense": 11,
-      "armour": 17,
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 13,
       "health": 5
     },
     "advantages": [
-      "construct",
-      "dualAttack"
+      "flight",
+      "stealth",
+      "advanceDeployment"
     ],
     "weapons": {
-      "spiritEye": {
+      "assassinsBlade": {
+        "type": "melee",
+        "name": "Assassin’s Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465",
+          "grievousWounds"
+        ]
+      }
+    },
+    "abilities": [
+      "leadershipGrotesques",
+      "sprint"
+    ]
+  },
+  "grotesqueBanshees": {
+    "name": "Grotesque Banshees",
+    "faction": "legion-of-everblight",
+    "type": "unit",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Unit"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20grotesque%20banshees.png",
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 13
+    },
+    "advantages": [
+      "flight",
+      "resistanceBlast",
+      "advanceDeployment",
+      "ambush"
+    ],
+    "weapons": {
+      "piercingScreech": {
         "type": "ranged",
-        "name": "Spirit Eye",
+        "name": "Piercing Screech",
         "statistics": {
           "rangedAttack": 5,
-          "range": 8,
+          "range": "SP 8",
           "rateOfFire": 1,
           "power": 12
         },
         "abilities": [
-          "ghostShot"
+          "brainDamage__624fe246"
         ],
         "qualities": [
-          "damageTypeMagical",
           "pistol"
-        ]
-      },
-      "polearm": {
-        "type": "melee",
-        "name": "Polearm",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 2,
-          "power": 12
-        },
-        "qualities": [
-          "damageTypeMagical"
         ]
       }
     },
     "abilities": [
-      "channeler",
-      "setDefense",
-      "soulVessel",
-      "telemetry"
+      "annoyance"
     ]
   },
-  "immortals": {
-    "name": "Immortals",
-    "faction": "skorne",
+  "grotesqueRaiders": {
+    "name": "Grotesque Raiders",
+    "faction": "legion-of-everblight",
     "type": "unit",
     "keywords": [
-      "Skorne",
-      "Exalted",
+      "Legion",
+      "Dragon's Host",
       "Unit"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
-    "fieldAllowance": "6",
-    "points": 6,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20immortals.png",
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20grotesque%20raiders.png",
     "statistics": {
-      "speed": 5,
-      "meleeAttack": 7,
-      "defense": 11,
-      "armour": 17
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 13
     },
     "advantages": [
-      "construct"
+      "flight",
+      "advanceDeployment",
+      "ambush"
     ],
     "weapons": {
-      "greatSword__aeb7a14f": {
+      "claws__f51c5d20": {
         "type": "melee",
-        "name": "Great Sword",
+        "name": "Claws",
         "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
+          "meleeAttack": 6,
+          "range": 1,
           "power": 13
         },
-        "qualities": [
-          "damageTypeMagical"
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "annoyance"
+    ]
+  },
+  "harrier": {
+    "name": "Harrier",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Lesser Warbeast",
+      "Dragonspawn",
+      "Ravens of War"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20harrier.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 13,
+      "fury": 2,
+      "threshold": 7,
+      "health": {
+        "total": 13,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "eyelessSight",
+      "flight",
+      "soulless"
+    ],
+    "weapons": {
+      "talons": {
+        "type": "melee",
+        "name": "Talons",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "annoyance",
+      "shieldGuard__819aa308"
+    ],
+    "spells": [
+      "elusive"
+    ]
+  },
+  "hellmouth": {
+    "name": "Hellmouth",
+    "faction": "legion-of-everblight",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Legion",
+      "Dragon's Host"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20hellmouth.png",
+    "statistics": {
+      "speed": 3,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 18
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder",
+      "soulless"
+    ],
+    "weapons": {
+      "maw": {
+        "type": "melee",
+        "name": "Maw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "consume__fd984c9f"
         ]
       }
     },
     "abilities": [
-      "soulVessel",
-      "vengeance"
-    ]
+      "imperviousFlesh",
+      "tendrils"
+    ],
+    "models": {
+      "hellmouth": {
+        "name": "Hellmouth",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 6,
+          "defense": 10,
+          "armour": 18
+        },
+        "advantages": [
+          "advanceDeployment",
+          "pathfinder",
+          "soulless"
+        ],
+        "abilities": [
+          "imperviousFlesh",
+          "tendrils"
+        ],
+        "weapons": {
+          "maw": {
+            "type": "melee",
+            "name": "Maw",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 15
+            },
+            "abilities": [
+              "consume__fd984c9f"
+            ]
+          }
+        }
+      },
+      "tentacle": {
+        "name": "Tentacle",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 6,
+          "defense": 10,
+          "armour": 15
+        },
+        "advantages": [
+          "advanceDeployment",
+          "pathfinder",
+          "soulless"
+        ],
+        "abilities": [
+          "imperviousFlesh",
+          "inscrutable"
+        ],
+        "weapons": {
+          "tentacleStrike": {
+            "type": "melee",
+            "name": "Tentacle Strike",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 10
+            },
+            "abilities": [
+              "grip"
+            ]
+          }
+        }
+      }
+    }
   },
   "invictus": {
     "name": "Invictus",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warjack",
     "keywords": [
       "Mercenary",
       "Super Heavy Warjack"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -2808,74 +2547,92 @@
       "retaliatoryStrike"
     ]
   },
-  "lordArbiterHexeris": {
-    "name": "Lord Arbiter Hexeris",
-    "faction": "skorne",
+  "kallusDevastationOfEverblight": {
+    "name": "Kallus, Devastation of Everblight",
+    "faction": "legion-of-everblight",
     "type": "warlock",
     "keywords": [
-      "Warlock",
-      "Skorne",
-      "Exalted",
-      "Scout"
+      "Dragon's Host",
+      "Legion",
+      "Scout",
+      "Warlock"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20lord%20arbiter%20hexeris.png",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20kallus%20devastation%20of%20everblight.png",
     "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "arcana": 7,
+      "speed": 7,
+      "arcaneAttack": 6,
+      "arcana": 6,
       "meleeAttack": 7,
-      "defense": 15,
-      "armour": 16,
-      "controlRange": 14,
-      "health": 17
+      "defense": 13,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 20
     },
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "soulless",
+      "unstopable"
+    ],
     "weapons": {
-      "gulgata__7b41a2bd": {
+      "hellbrand": {
         "type": "melee",
-        "name": "Gulgata",
+        "name": "Hellbrand",
         "statistics": {
           "meleeAttack": 7,
           "range": 2,
-          "power": 14
+          "power": 15
         },
         "abilities": [
-          "thresherAttack"
+          "flameBurst"
         ],
         "qualities": [
           "damageTypeMagical"
         ]
+      },
+      "claws__73e609bf": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "criticalKnockdown"
+        ]
       }
     },
     "abilities": [
-      "fieldMarshalChanneler",
-      "vampiricHarvest"
+      "blazingPath",
+      "fieldMarshalHandOfTheDragon",
+      "hyperRegeneration",
+      "reposition3"
     ],
     "spells": [
-      "banishingWard",
-      "blackSpot",
-      "cloakOfAsh",
-      "eruption",
-      "stranglehold"
+      "brandOfFire",
+      "inviolableResolve",
+      "warpath"
     ],
     "feat": [
-      "arcaneReaver"
+      "dragonSBreath__19d37ae8"
     ]
   },
   "magnusTheTraitor": {
     "name": "Magnus the Traitor",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warcaster",
     "keywords": [
       "Mercenary",
       "Warcaster"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -2957,14 +2714,14 @@
   },
   "magnusTheUnstoppable": {
     "name": "Magnus the Unstoppable",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
       "Mercenary",
       "Solo"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -3055,7 +2812,7 @@
   },
   "magnusTheWarlord": {
     "name": "Magnus the Warlord",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warcaster",
     "keywords": [
       "Mercenary",
@@ -3064,7 +2821,7 @@
       "Warcaster"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -3142,323 +2899,41 @@
       "killBox"
     ]
   },
-  "mammoth": {
-    "name": "Mammoth",
-    "faction": "skorne",
+  "nagaNightlurker": {
+    "name": "Naga Nightlurker",
+    "faction": "legion-of-everblight",
     "type": "warbeast",
     "keywords": [
-      "Skorne",
-      "Gargantuan",
-      "Army of the Western Reaches",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "2",
-    "points": 28,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20mammoth.png",
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 6,
-      "rangedAttack": 5,
-      "defense": 8,
-      "armour": 20,
-      "fury": 5,
-      "threshold": 9,
-      "health": {
-        "total": 56,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 8
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 13
-            },
-            {
-              "boxes": 11
-            },
-            {
-              "boxes": 11
-            },
-            {
-              "boxes": 8
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "dualAttack",
-      "gladiator",
-      "headbuttPowerAttack",
-      "pathfinder",
-      "slamPowerAttack",
-      "tramplePowerAttack",
-      "unstopable"
-    ],
-    "weapons": {
-      "siegeBattery": {
-        "type": "ranged",
-        "name": "Siege Battery",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 14,
-          "rateOfFire": "d3 +1",
-          "areaOfEffect": 2,
-          "power": "15/8"
-        },
-        "abilities": [
-          "fullBatteryFireAttack"
-        ]
-      },
-      "tusks__bc51a974": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 3,
-          "power": 20
-        },
-        "abilities": [
-          "criticalPitch"
-        ]
-      },
-      "warGauntlet__84a49c80": {
-        "type": "melee",
-        "name": "War Gauntlet",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 19
-        },
-        "quantity": 2,
-        "qualities": [
-          "throwPowerAttack"
-        ]
-      }
-    },
-    "abilities": [
-      "bulldoze",
-      "painMaddened"
-    ],
-    "spells": [
-      "counterblast"
-    ]
-  },
-  "nihilators": {
-    "name": "Nihilators",
-    "faction": "skorne",
-    "type": "unit",
-    "keywords": [
-      "Skorne",
-      "Unit",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "2",
-    "points": 5,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20nihilators.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 6,
-      "defense": 13,
-      "armour": 13
-    },
-    "advantages": [
-      "tough"
-    ],
-    "weapons": {
-      "greatSword__02ab2370": {
-        "type": "melee",
-        "name": "Great Sword",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 12
-        }
-      }
-    },
-    "abilities": [
-      "berserk__98095277"
-    ]
-  },
-  "paingiverBeastHandlers": {
-    "name": "Paingiver Beast Handlers",
-    "faction": "skorne",
-    "type": "unit",
-    "keywords": [
-      "Army of the Western Reaches",
-      "Unit",
-      "Skorne",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "3",
-    "points": 3,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20paingiver%20beast%20handlers.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 4,
-      "defense": 13,
-      "armour": 11
-    },
-    "weapons": {
-      "barbedWhip": {
-        "type": "melee",
-        "name": "Barbed Whip",
-        "statistics": {
-          "meleeAttack": 4,
-          "range": 2,
-          "power": 8
-        },
-        "abilities": [
-          "inflictPain"
-        ],
-        "qualities": [
-          "chainWeapon"
-        ]
-      }
-    },
-    "abilities": [
-      "anatomicalPrecision",
-      "conditionAction",
-      "enrageAction",
-      "medicateD3Action"
-    ]
-  },
-  "paingiverBloodrunnerMasterTormentor": {
-    "name": "Paingiver Bloodrunner Master Tormentor",
-    "faction": "skorne",
-    "type": "solo",
-    "keywords": [
-      "Solo",
-      "Exalted",
-      "Skorne"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "2",
-    "points": 3,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20paingiver%20bloodrunner%20master%20tormentor.png",
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 7,
-      "defense": 14,
-      "armour": 13,
-      "health": 5
-    },
-    "advantages": [
-      "advanceDeployment",
-      "ambush",
-      "pathfinder",
-      "stealth"
-    ],
-    "weapons": {
-      "barbedWhip__4cafaad1": {
-        "type": "melee",
-        "name": "Barbed Whip",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 8
-        },
-        "abilities": [
-          "thresherAttack"
-        ],
-        "qualities": [
-          "chainWeapon",
-          "weaponMaster"
-        ]
-      }
-    },
-    "abilities": [
-      "anatomicalPrecision",
-      "sprint",
-      "veteranLeaderPaingiverBloodrunners"
-    ]
-  },
-  "paingiverBloodrunners": {
-    "name": "Paingiver Bloodrunners",
-    "faction": "skorne",
-    "type": "unit",
-    "keywords": [
-      "Unit",
-      "Exalted",
-      "Skorne"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20paingiver%20bloodrunners.png",
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 7,
-      "defense": 14,
-      "armour": 11
-    },
-    "advantages": [
-      "advanceDeployment",
-      "ambush",
-      "pathfinder",
-      "stealth"
-    ],
-    "weapons": {
-      "assassinsBlade__c30ba725": {
-        "type": "melee",
-        "name": "Assassin’s Blade",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 10
-        }
-      }
-    },
-    "abilities": [
-      "anatomicalPrecision",
-      "reposition3"
-    ]
-  },
-  "razorWorm": {
-    "name": "Razor Worm",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Army of the Western Reaches",
+      "Legion",
       "Light Warbeast",
-      "Exalted"
+      "Dragon's Host",
+      "Dragonspawn"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "4",
-    "points": 6,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20razor%20worm.png",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20naga%20nightlurker.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 5,
+      "rangedAttack": 6,
       "defense": 13,
       "armour": 15,
       "fury": 3,
       "threshold": 8,
       "health": {
-        "total": 21,
+        "total": 19,
         "layout": "spiral",
         "grid": {
           "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
             {
               "boxes": 4
             },
@@ -3469,10 +2944,101 @@
               "boxes": 5
             },
             {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "soulless"
+    ],
+    "weapons": {
+      "nightSVenom": {
+        "type": "ranged",
+        "name": "Night's Venom",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalShadowBind"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "bite__fdc0b5c2": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalShadowBind"
+        ]
+      }
+    },
+    "abilities": [
+      "prowl",
+      "steady__ee8b6350"
+    ],
+    "spells": [
+      "wraithbane"
+    ]
+  },
+  "neraph": {
+    "name": "Neraph",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Dragon's Host",
+      "Dragonspawn",
+      "Legion",
+      "Heavy Warbeast",
+      "Ravens of War"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20neraph.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 27,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
               "boxes": 3
             },
             {
-              "boxes": 5
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
             },
             {
               "boxes": 3
@@ -3482,35 +3048,338 @@
       }
     },
     "advantages": [
-      "advanceDeployment",
+      "eyelessSight",
+      "flight",
+      "headbuttPowerAttack",
+      "soulless"
+    ],
+    "weapons": {
+      "graspingTail": {
+        "type": "melee",
+        "name": "Grasping Tail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "coil"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "hammerhead": {
+        "type": "melee",
+        "name": "Hammerhead",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "sprint",
+      "steady__ee8b6350"
+    ],
+    "spells": [
+      "attractor"
+    ]
+  },
+  "proteus": {
+    "name": "Proteus",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Heavy Warbeast",
+      "Dragon's Host"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20proteus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
       "eyelessSight",
       "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "soulless"
+    ],
+    "weapons": {
+      "tentacles__3efca2bf": {
+        "type": "melee",
+        "name": "Tentacles",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 14
+        },
+        "abilities": [
+          "drag"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      },
+      "talon": {
+        "type": "melee",
+        "name": "Talon",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bondAbsylonia",
+      "snacking",
+      "unyielding"
+    ],
+    "spells": [
+      "crawlingChaos"
+    ]
+  },
+  "raek": {
+    "name": "Raek",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20raek.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 14,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 20,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "soulless",
+      "stealth",
       "pathfinder"
     ],
     "weapons": {
-      "bite__3c226e76": {
+      "bite__11abf685": {
         "type": "melee",
         "name": "Bite",
         "statistics": {
-          "meleeAttack": 5,
+          "meleeAttack": 6,
           "range": 1,
+          "power": 11
+        }
+      },
+      "tailStrike": {
+        "type": "melee",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
           "power": 12
         }
       }
     },
     "abilities": [
-      "digInAction",
-      "dragBelow",
       "extendedControlRange",
-      "steady"
+      "vault"
     ],
     "spells": [
-      "spinyGrowth"
+      "ornery"
+    ]
+  },
+  "ravagore": {
+    "name": "Ravagore",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20ravagore.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "soulless",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "blightBlast__84df7250": {
+        "type": "ranged",
+        "name": "Blight Blast",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "15/8"
+        },
+        "abilities": [
+          "arcingFire"
+        ],
+        "qualities": [
+          "damageTypeFire"
+        ]
+      },
+      "bite__3ccdd592": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 15
+        }
+      },
+      "talon": {
+        "type": "melee",
+        "name": "Talon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "spells": [
+      "counterblast"
     ]
   },
   "reinholdtGobberSpeculator": {
     "name": "Reinholdt, Gobber Speculator",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
       "Mercenary",
@@ -3518,7 +3387,7 @@
       "Solo"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 3,
@@ -3539,31 +3408,122 @@
       "spyglassAction"
     ]
   },
-  "rhinodon": {
-    "name": "Rhinodon",
-    "faction": "skorne",
+  "scythean": {
+    "name": "Scythean",
+    "faction": "legion-of-everblight",
     "type": "warbeast",
     "keywords": [
-      "Army of the Western Reaches",
-      "Skorne",
-      "Heavy Warbeast",
-      "Exalted"
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Heavy Warbeast"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "4",
-    "points": 12,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20rhinodon.png",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20scythean.png",
     "statistics": {
-      "speed": 5,
+      "speed": 6,
       "meleeAttack": 6,
       "defense": 11,
       "armour": 18,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "soulless",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "scythingClaw": {
+        "type": "melee",
+        "name": "Scything Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "quantity": 2,
+        "abilities": [
+          "thresherAttack"
+        ]
+      },
+      "bite__3ccdd592": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "murderous"
+    ],
+    "spells": [
+      "slaughterhouse"
+    ]
+  },
+  "seraph": {
+    "name": "Seraph",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Heavy Warbeast",
+      "Ravens of War"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20seraph.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 16,
       "fury": 3,
       "threshold": 9,
       "health": {
-        "total": 28,
+        "total": 27,
         "layout": "spiral",
         "grid": {
           "columns": [
@@ -3583,125 +3543,225 @@
               "boxes": 6
             },
             {
-              "boxes": 4
+              "boxes": 3
             }
           ]
         }
       }
     },
     "advantages": [
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
-    ],
-    "weapons": {
-      "tail__bf2ba606": {
-        "type": "melee",
-        "name": "Tail",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        },
-        "abilities": [
-          "criticalKnockdown",
-          "thresherAttack"
-        ]
-      },
-      "claw__2b512e19": {
-        "type": "melee",
-        "name": "Claw",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 14
-        },
-        "quantity": 2,
-        "qualities": [
-          "throwPowerAttack"
-        ]
-      }
-    },
-    "spells": [
-      "spinyGrowth"
-    ]
-  },
-  "supremeGuardian": {
-    "name": "Supreme Guardian",
-    "faction": "skorne",
-    "type": "battleEngine",
-    "keywords": [
-      "Exalted",
-      "Battle Engine"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "2",
-    "points": 16,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20supreme%20guardian.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "rangedAttack": 5,
-      "defense": 8,
-      "armour": 19,
-      "health": 33
-    },
-    "advantages": [
-      "construct",
       "dualAttack",
-      "pathfinder",
-      "unstopable"
+      "eyelessSight",
+      "flight",
+      "headbuttPowerAttack",
+      "soulless"
     ],
     "weapons": {
-      "firesOfRage": {
+      "blightStrike": {
         "type": "ranged",
-        "name": "Fires of Rage",
+        "name": "Blight Strike",
         "statistics": {
           "rangedAttack": 5,
           "range": 10,
-          "rateOfFire": 1,
-          "areaOfEffect": 3,
-          "power": "14/8"
-        },
-        "qualities": [
-          "continuousEffectFire",
-          "damageTypeFire",
-          "damageTypeMagical"
-        ]
-      },
-      "obsidianBlade": {
-        "type": "melee",
-        "name": "Obsidian Blade",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 3,
-          "power": 18
+          "rateOfFire": "d3",
+          "power": 12
         },
         "abilities": [
-          "siegeWeapon",
-          "thresherAttack"
+          "flare"
         ],
         "qualities": [
-          "damageTypeMagical"
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "stinger": {
+        "type": "melee",
+        "name": "Stinger",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPoison"
         ]
       }
     },
     "abilities": [
-      "defensiveStrike",
-      "directSpirits",
-      "soulTakerRequiem",
-      "soulPowered",
-      "spectralVortex",
-      "strengthOfDeath",
-      "vaultOfTheFaithful",
-      "soulVessel"
+      "steady__ee8b6350"
+    ],
+    "spells": [
+      "slipstream"
+    ]
+  },
+  "shredder": {
+    "name": "Shredder",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Lesser Warbeast",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Legion",
+      "Ravens of War"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20shredder.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 13,
+      "fury": 2,
+      "threshold": 7,
+      "health": {
+        "total": 13,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "eyelessSight",
+      "soulless"
+    ],
+    "weapons": {
+      "bite__3709a0d2": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "flankFriendlyFactionWarbeast"
+    ],
+    "spells": [
+      "massacre"
+    ]
+  },
+  "stinger": {
+    "name": "Stinger",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Legion",
+      "Lesser Warbeast",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Ravens of War"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20stinger.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 13,
+      "fury": 2,
+      "threshold": 7,
+      "health": {
+        "total": 13,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "soulless"
+    ],
+    "weapons": {
+      "flameSpitter": {
+        "type": "ranged",
+        "name": "Flame Spitter",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "barbedStinger": {
+        "type": "melee",
+        "name": "Barbed Stinger",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "criticalPoison"
+        ]
+      }
+    },
+    "abilities": [
+      "markTarget"
+    ],
+    "spells": [
+      "counterblast"
     ]
   },
   "targ": {
     "name": "Targ",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "solo",
     "keywords": [
       "Thornfall Alliance",
@@ -3709,7 +3769,7 @@
       "Solo"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 2,
@@ -3743,430 +3803,407 @@
       "ancillaryAttackAction__69fabdc4"
     ]
   },
-  "theTerrorizer": {
-    "name": "The Terrorizer",
-    "faction": "skorne",
+  "teraph": {
+    "name": "Teraph",
+    "faction": "legion-of-everblight",
     "type": "warbeast",
     "keywords": [
-      "Lesser Warbeast",
-      "Exalted",
-      "Skorne"
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn",
+      "Light Warbeast"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20teraph.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 20,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "advanceDeployment",
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "soulless"
+    ],
+    "weapons": {
+      "blightBlast": {
+        "type": "ranged",
+        "name": "Blight Blast",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "13/7"
+        },
+        "qualities": [
+          "criticalFire",
+          "damageTypeFire"
+        ]
+      },
+      "tailStrike__ab79dabb": {
+        "type": "melee",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "criticalPoison"
+        ]
+      },
+      "bite__11abf685": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "digInAction"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "thagroshHellborne": {
+    "name": "Thagrosh Hellborne",
+    "faction": "legion-of-everblight",
+    "type": "solo",
+    "keywords": [
+      "Legion",
+      "Blighted Ogrun",
+      "Solo",
+      "Dragon's Host"
+    ],
+    "armies": [
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20terrorizer.png",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20thagrosh%20hellborne.png",
     "statistics": {
       "speed": 5,
-      "meleeAttack": 4,
-      "rangedAttack": 4,
-      "defense": 12,
-      "armour": 14,
-      "fury": 2,
-      "threshold": 8,
-      "health": {
-        "total": 14,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 3
-            },
-            {
-              "boxes": 1
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 1
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 1
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "dualAttack"
-    ],
-    "weapons": {
-      "scattergun__333deff4": {
-        "type": "ranged",
-        "name": "Scattergun",
-        "statistics": {
-          "rangedAttack": 4,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "qualities": [
-          "pistol"
-        ]
-      },
-      "slugGun": {
-        "type": "ranged",
-        "name": "Slug Gun",
-        "statistics": {
-          "rangedAttack": 4,
-          "range": 4,
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "qualities": [
-          "pistol"
-        ]
-      },
-      "ripper__834ba088": {
-        "type": "melee",
-        "name": "Ripper",
-        "statistics": {
-          "meleeAttack": 4,
-          "range": 1,
-          "power": 6
-        },
-        "abilities": [
-          "inflictPain"
-        ],
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      },
-      "sword": {
-        "type": "melee",
-        "name": "Sword",
-        "statistics": {
-          "meleeAttack": 4,
-          "range": 1,
-          "power": 9
-        }
-      }
-    },
-    "abilities": [
-      "painResponse"
-    ],
-    "spells": [
-      "lurker"
-    ]
-  },
-  "titanGladiator": {
-    "name": "Titan Gladiator",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Army of the Western Reaches",
-      "Skorne",
-      "Heavy Warbeast",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 13,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20titan%20gladiator.png",
-    "statistics": {
-      "speed": 4,
+      "arcaneAttack": 5,
+      "arcana": 5,
       "meleeAttack": 6,
-      "defense": 11,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 9,
-      "health": {
-        "total": 32,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 7
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            }
-          ]
-        }
-      }
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 10,
+      "health": 8
     },
     "advantages": [
-      "gladiator",
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
+      "tough"
     ],
     "weapons": {
-      "tusks__65ba1363": {
+      "skinningKnife__22368892": {
         "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        }
-      },
-      "warGauntlet__9cdd4c91": {
-        "type": "melee",
-        "name": "War Gauntlet",
+        "name": "Skinning Knife",
         "statistics": {
           "meleeAttack": 6,
           "range": 1,
-          "power": 16
-        },
-        "quantity": 2,
-        "qualities": [
-          "throwPowerAttack"
-        ]
-      }
-    },
-    "abilities": [
-      "bullheaded",
-      "followUp",
-      "slammer"
-    ],
-    "spells": [
-      "rush"
-    ]
-  },
-  "titanSentry": {
-    "name": "Titan Sentry",
-    "faction": "skorne",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Army of the Western Reaches",
-      "Heavy Warbeast",
-      "Exalted"
-    ],
-    "armies": [
-      "exalted"
-    ],
-    "fieldAllowance": "4",
-    "points": 14,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20titan%20sentry.png",
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 6,
-      "defense": 10,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 9,
-      "health": {
-        "total": 32,
-        "layout": "spiral",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            },
-            {
-              "boxes": 7
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 6
-            },
-            {
-              "boxes": 4
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
-    ],
-    "weapons": {
-      "tusks__65ba1363": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        }
-      },
-      "shield__51eae935": {
-        "type": "melee",
-        "name": "Shield",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 14
-        },
-        "qualities": [
-          "shield"
-        ]
-      },
-      "halberd__a3817cd9": {
-        "type": "melee",
-        "name": "Halberd",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 16
+          "power": 13
         }
       }
     },
     "abilities": [
-      "immovableObject",
-      "shieldGuard__819aa308"
+      "athanc",
+      "lesserWarlock",
+      "spontaneousMutation",
+      "ashenVeil__0da80bef",
+      "protectivePlates",
+      "warpStrength"
     ],
     "spells": [
-      "ornery"
+      "bloodRain",
+      "mutagenesis"
     ]
   },
-  "voidSeerMordikaar": {
-    "name": "Void Seer Mordikaar",
-    "faction": "skorne",
+  "thagroshTheMessiah": {
+    "name": "Thagrosh, the Messiah",
+    "faction": "legion-of-everblight",
     "type": "warlock",
     "keywords": [
-      "Skorne",
-      "Exalted",
-      "Warlock"
+      "Legion",
+      "Blighted Ogrun",
+      "Warlock",
+      "Dragon's Host"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20void%20seer%20mordikaar.png",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20thagrosh%20the%20messiah.png",
     "statistics": {
       "speed": 6,
       "arcaneAttack": 7,
       "arcana": 7,
-      "meleeAttack": 5,
-      "rangedAttack": 7,
-      "defense": 15,
-      "armour": 15,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 18,
       "controlRange": 14,
-      "health": 16
+      "health": 20
     },
     "advantages": [
-      "dualAttack"
+      "dualAttack",
+      "flight",
+      "tough"
     ],
     "weapons": {
-      "spectralWrath": {
+      "blightFire": {
         "type": "ranged",
-        "name": "Spectral Wrath",
+        "name": "Blight Fire",
         "statistics": {
-          "rangedAttack": 7,
-          "range": "Sp 8",
+          "rangedAttack": 5,
+          "range": "SP 8",
           "rateOfFire": 1,
-          "power": 13
+          "power": 12
         },
         "abilities": [
-          "bloodBoon"
+          "criticalFreeze"
         ],
         "qualities": [
+          "continuousEffectFire",
           "damageTypeMagical",
           "pistol"
         ]
       },
-      "eidolus": {
+      "rapture": {
         "type": "melee",
-        "name": "Eidolus",
+        "name": "Rapture",
         "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 11
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
         },
         "abilities": [
-          "lifeDrinker"
+          "eruptionOfAsh"
         ],
         "qualities": [
           "damageTypeMagical"
         ]
+      },
+      "claws__144cb5f1": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        }
       }
     },
     "abilities": [
-      "leadershipVoidSpirits",
-      "poltergeist",
-      "voidWalk"
+      "athanc",
+      "bloodSpawn",
+      "sacrificialPawnLesserWarbeast"
     ],
     "spells": [
-      "disintegration",
-      "hollow",
-      "hostOfShadows",
-      "lamentation",
-      "revive"
+      "aggravator",
+      "deceleration",
+      "dragonsBlood",
+      "manifestDestiny",
+      "scourge"
     ],
     "feat": [
-      "voidWind"
+      "dragonStorm"
     ]
   },
-  "voidSpirit": {
-    "name": "Void Spirit",
-    "faction": "skorne",
-    "type": "solo",
+  "throneOfEverblight": {
+    "name": "Throne of Everblight",
+    "faction": "legion-of-everblight",
+    "type": "battleEngine",
     "keywords": [
-      "Solo",
-      "Skorne",
-      "Exalted"
+      "Dragon's Host",
+      "Battle Engine"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "2",
-    "points": 3,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20void%20spirit.png",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20throne%20of%20everblight.png",
     "statistics": {
-      "speed": 6,
+      "speed": 5,
+      "arcaneAttack": 6,
       "meleeAttack": 6,
-      "defense": 14,
-      "armour": 12,
-      "health": 5
+      "defense": 10,
+      "armour": 20,
+      "health": 36
     },
     "advantages": [
-      "incorporeal",
-      "undead"
+      "flight",
+      "unstopable"
     ],
     "weapons": {
-      "rend": {
+      "tentacle__050dce71": {
         "type": "melee",
-        "name": "Rend",
+        "name": "Tentacle",
         "statistics": {
           "meleeAttack": 6,
-          "range": 1,
-          "power": 12
+          "range": 3,
+          "power": 16
         },
+        "quantity": 4,
+        "abilities": [
+          "drag"
+        ],
         "qualities": [
-          "damageTypeMagical"
+          "chainWeapon"
         ]
       }
     },
     "abilities": [
-      "annihilator",
-      "poltergeist",
-      "voidWalk"
+      "battleWizard",
+      "magicAbility",
+      "frostbiteAttack",
+      "iceCageAttack",
+      "spineBurstAttack",
+      "snacking"
+    ]
+  },
+  "typhon": {
+    "name": "Typhon",
+    "faction": "legion-of-everblight",
+    "type": "warbeast",
+    "keywords": [
+      "Heavy Warbeast",
+      "Legion",
+      "Dragon's Host",
+      "Dragonspawn"
+    ],
+    "armies": [
+      "dragon-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 18,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20typhon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "soulless",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "blightBreath": {
+        "type": "ranged",
+        "name": "Blight Breath",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 3,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "bite__c79b6b6e": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "quantity": 3,
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "bondThagrosh",
+      "regenerationD3"
+    ],
+    "spells": [
+      "excessiveHealing"
     ]
   },
   "warBoarMMD47": {
     "name": "War Boar MMD47",
-    "faction": "skorne",
+    "faction": "legion-of-everblight",
     "type": "warbeast",
     "keywords": [
       "Mercenary",
@@ -4174,7 +4211,7 @@
       "Super Heavy Warbeast"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -4265,67 +4302,107 @@
       "recoil"
     ]
   },
-  "zaalTheAncestralAdvocate": {
-    "name": "Zaal, The Ancestral Advocate",
-    "faction": "skorne",
-    "type": "warlock",
+  "warmongerWarChief": {
+    "name": "Warmonger War Chief",
+    "faction": "legion-of-everblight",
+    "type": "solo",
     "keywords": [
-      "Exalted",
-      "Skorne",
-      "Warlock"
+      "Blighted Ogrun",
+      "Legion",
+      "Dragon's Host",
+      "Solo"
     ],
     "armies": [
-      "exalted"
+      "dragon-s-host"
     ],
-    "fieldAllowance": "C",
-    "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20zaal%20the%20ancestral%20advocate.png",
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20warmonger%20war%20chief.png",
     "statistics": {
       "speed": 5,
-      "arcaneAttack": 7,
-      "arcana": 7,
-      "meleeAttack": 6,
-      "defense": 10,
-      "armour": 18,
-      "controlRange": 14,
-      "health": 18
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 17,
+      "health": 10
     },
     "advantages": [
-      "construct"
+      "tough"
     ],
     "weapons": {
-      "obsidianStaff": {
+      "warCleaver": {
         "type": "melee",
-        "name": "Obsidian Staff",
+        "name": "War Cleaver",
         "statistics": {
-          "meleeAttack": 6,
+          "meleeAttack": 7,
           "range": 2,
           "power": 14
         },
         "abilities": [
-          "silencer"
-        ],
-        "qualities": [
-          "damageTypeMagical"
+          "powerfulCharge"
         ]
       }
     },
     "abilities": [
-      "directSpirits",
-      "righteousVengeance",
-      "soulTakerReclaim",
-      "soulVessel",
-      "steady"
+      "berserk__98095277",
+      "bloodDrinker",
+      "leadershipBlightedOgruns",
+      "unyielding"
+    ]
+  },
+  "warspearChieftain": {
+    "name": "Warspear Chieftain",
+    "faction": "legion-of-everblight",
+    "type": "commandAttachment",
+    "keywords": [
+      "Command Attachment",
+      "Legion",
+      "Blighted Ogrun",
+      "Dragon's Host"
     ],
-    "spells": [
-      "annihilation",
-      "arcaneMight",
-      "mageSight",
-      "sunderSpirit",
-      "vision"
+    "armies": [
+      "dragon-s-host"
     ],
-    "feat": [
-      "strengthEternal"
+    "fieldAllowance": "3",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20legion%20warspear%20chieftain.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "tough",
+      "assault"
+    ],
+    "weapons": {
+      "thrownSpear": {
+        "type": "ranged",
+        "name": "Thrown Spear",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        }
+      },
+      "warSpear": {
+        "type": "melee",
+        "name": "War Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentBlightedOgrunWarspears",
+      "grantedPrey",
+      "grantedRelentlessCharge",
+      "setDefense"
     ]
   }
 }

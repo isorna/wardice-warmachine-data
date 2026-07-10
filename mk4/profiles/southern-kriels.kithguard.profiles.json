@@ -1,0 +1,5072 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "southern-kriels",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "alexiaQueenOfTheDamned": {
+    "name": "Alexia, Queen of the Damned",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20alexia%20queen%20of%20the%20damned.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "health": 8
+    },
+    "weapons": {
+      "witchfire": {
+        "type": "melee",
+        "name": "Witchfire",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "deathTollSmallOrMediumBased",
+          "devourEssence",
+          "lifeDrinker"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryGravediggersKithguardHouseKallyssOldUmbreyStormLegionAndWinterKorps",
+      "battleWizard__41cb4e8f",
+      "magicAbility",
+      "dominateUndeadAttack",
+      "grimReturnsAction",
+      "hellfireAttack",
+      "sucker",
+      "wagesOfDeath"
+    ]
+  },
+  "captainLoganGrindstone": {
+    "name": "Captain Logan Grindstone",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Trollkin",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Captain%20Logan%20Grindstone.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "annieLater": {
+        "type": "ranged",
+        "name": "Annie & Later",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 8,
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "combatKnife__626a5060": {
+        "type": "melee",
+        "name": "Combat Knife",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "atAllCosts",
+      "pressTheAdvantage",
+      "combatCoordination",
+      "swiftHunter"
+    ]
+  },
+  "captainTarjaGrimtusk": {
+    "name": "Captain Tarja Grimtusk",
+    "faction": "southern-kriels",
+    "type": "warlock",
+    "keywords": [
+      "Southern Kriels",
+      "Trollkin",
+      "Kithguard",
+      "Warlock"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Captain%20Tarja%20Grimtusk%201.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 16,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "pathfinder",
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "runeBlade__41db2bea": {
+        "type": "melee",
+        "name": "Rune Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "bloodBoon",
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "earthworks",
+      "fieldMarshalAmbushAndTunnelAmbush",
+      "bruteForce",
+      "killingSpree",
+      "treewalker"
+    ],
+    "spells": [
+      "carnivore",
+      "crimsonBallet",
+      "rage",
+      "shadowPack",
+      "soothingSong"
+    ],
+    "feat": [
+      "victoryMarch"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "chomper": {
+    "name": "Chomper",
+    "faction": "southern-kriels",
+    "type": "warbeast",
+    "keywords": [
+      "Southern Kriels",
+      "Dire Troll",
+      "Kithguard",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 17,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Chomper.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 7,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "ambush"
+    ],
+    "weapons": {
+      "shieldCannon__16ee380b": {
+        "type": "ranged",
+        "name": "Shield Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "shield__51eae935": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "shield"
+        ]
+      },
+      "chainFist": {
+        "type": "melee",
+        "name": "Chain Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "abilities": [
+          "criticalShred"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "homicidalManiac",
+      "regenerationD3",
+      "snacking",
+      "tunnelAmbush"
+    ],
+    "spells": [
+      "lurker"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "southern-kriels",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "corporalRhudFelleye": {
+    "name": "Corporal Rhud Felleye",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Trollkin",
+      "Kithguard",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-Felleye.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "health": 10
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "felleyeSRifle": {
+        "type": "ranged",
+        "name": "Felleye's Rifle",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "huntingKnife__12130ad5": {
+        "type": "melee",
+        "name": "Hunting Knife",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "leadershipFactionWarriorModels",
+      "prowl",
+      "trueSight",
+      "hideOnBush"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "southern-kriels",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "eilishGarrityTheDarkSeeker": {
+    "name": "Eilish Garrity, the Dark Seeker",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Infernals",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "magicAbility",
+      "hexBlastAttack",
+      "marionetteAttack",
+      "puppetMasterAction",
+      "markedSoul"
+    ]
+  },
+  "eilishGarrityTheDarkTraitor": {
+    "name": "Eilish Garrity, the Dark Traitor",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20dark%20traitor.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryGravediggersKithguardSeaRaidersAndStormLegion",
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "hellMarked",
+      "magicAbility",
+      "deathRattleAttack",
+      "marionetteAttack",
+      "puppetMasterAction"
+    ]
+  },
+  "eilishGarrityTheOccultist": {
+    "name": "Eilish Garrity, the Occultist",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20occultist.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "arcaneVoid",
+      "gateWalker",
+      "magicAbility__0cffaca0",
+      "bleedAttack",
+      "puppetMasterAction",
+      "unbindingAction",
+      "markedSoul",
+      "mentalForce"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "southern-kriels",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "fellCaptainMailisWroughtmourn": {
+    "name": "Fell Captain Mailis Wroughtmourn",
+    "faction": "southern-kriels",
+    "type": "warlock",
+    "keywords": [
+      "Southern Kriels",
+      "Trollkin",
+      "Kithguard",
+      "Warlock"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-Wroughtmourn.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 8,
+      "arcana": 8,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun__760a79f6": {
+        "type": "ranged",
+        "name": "Double Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "sacralBlade__7c84782f": {
+        "type": "melee",
+        "name": "Sacral Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "arcaneSinkhole",
+      "earthenConduit",
+      "earthworks"
+    ],
+    "spells": [
+      "admonition",
+      "descendingGloom",
+      "eyeOfDhunia",
+      "handOfDestruction",
+      "huntersMark",
+      "veilOfMists"
+    ],
+    "feat": [
+      "rollingMist"
+    ]
+  },
+  "fireGuardian": {
+    "name": "Fire Guardian",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Fire Tongue Cadre",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "6",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20southern%20kriels%20fire%20guardian.png",
+    "statistics": {
+      "defense": 5,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "construct",
+      "resistanceFire"
+    ],
+    "abilities": [
+      "channeler",
+      "cursed",
+      "distantDeployment12",
+      "immobile",
+      "inconsequential",
+      "leadershipFriendlyFaction"
+    ]
+  },
+  "fireSpitters": {
+    "name": "Fire Spitters",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Southern Kriels",
+      "Fire Tongue Cadre",
+      "Bullcroak",
+      "Unit"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20southern%20kriels%20fire%20spitter.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "advanceDeployment",
+      "amphibious",
+      "pathfinder",
+      "resistanceCorrosion",
+      "ambush"
+    ],
+    "weapons": {
+      "flameShot": {
+        "type": "ranged",
+        "name": "Flame Shot",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeFire",
+          "continuousEffectFire"
+        ]
+      },
+      "flameClub": {
+        "type": "melee",
+        "name": "Flame Club",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "criticalFire"
+        ]
+      },
+      "shield": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "prowl",
+      "shieldWall"
+    ]
+  },
+  "fugueWalker": {
+    "name": "Fugue Walker",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Fire Tongue Cadre",
+      "Bullcroak",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "3",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20southern%20kriels%20fugue%20walker.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 17,
+      "health": 10
+    },
+    "advantages": [
+      "advanceDeployment",
+      "amphibious",
+      "pathfinder",
+      "resistanceCorrosion",
+      "tough"
+    ],
+    "weapons": {
+      "warClub__a326b435": {
+        "type": "melee",
+        "name": "War Club",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "quantity": 2,
+        "qualities": [
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "jump",
+      "toadLicker",
+      "bloodSweats",
+      "deathCrazed",
+      "psychonaut"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "southern-kriels",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "southern-kriels",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "generalGunnbjorn": {
+    "name": "General Gunnbjorn",
+    "faction": "southern-kriels",
+    "type": "warlock",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Trollkin",
+      "Warlock"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 26
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "resistanceBlast",
+      "tramplePowerAttack",
+      "unstopable",
+      "cavalry",
+      "gunfighter",
+      "tough"
+    ],
+    "weapons": {
+      "battleCannon__dcd7e856": {
+        "type": "ranged",
+        "name": "Battle Cannon",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "8/4"
+        },
+        "abilities": [
+          "armorPiercing"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "bazooka": {
+        "type": "ranged",
+        "name": "Bazooka",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "criticalBrutalDamage"
+        ]
+      },
+      "sideGun": {
+        "type": "ranged",
+        "name": "Side Gun",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "abilities": [
+          "thunderbolt"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "ram__6ac4b178": {
+        "type": "melee",
+        "name": "Ram",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "earthworks",
+      "foundations",
+      "tactician"
+    ],
+    "spells": [
+      "rockWall",
+      "watcher",
+      "runeMark",
+      "resolute"
+    ],
+    "feat": [
+      "stronghold"
+    ]
+  },
+  "greygoreBoomhowler": {
+    "name": "Greygore Boomhowler",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Trollkin",
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20greygore%20boomhowler.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 7,
+      "defense": 12,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "gunfighter",
+      "tough"
+    ],
+    "weapons": {
+      "fellBlast": {
+        "type": "ranged",
+        "name": "Fell Blast",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "attackType",
+          "snipe",
+          "empoweredAttack",
+          "brainDamage",
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "battleAxe__951c85d0": {
+        "type": "melee",
+        "name": "Battle Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      },
+      "dagger__8e05de45": {
+        "type": "melee",
+        "name": "Dagger",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "criticalGrievousWounds__f150fac5"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryBrinebloodMaraudersKithguardAndGravediggers",
+      "forceBarrier",
+      "inhumanResolve",
+      "shoutItOutAction"
+    ]
+  },
+  "guardPost": {
+    "name": "Guard Post",
+    "faction": "southern-kriels",
+    "type": "structure",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Structure"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/AppPortraits-Guard%20Post.png",
+    "statistics": {
+      "rangedAttack": 6,
+      "defense": 5,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "construct"
+    ],
+    "weapons": {
+      "machineGun": {
+        "type": "ranged",
+        "name": "Machine Gun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": "d3+1",
+          "power": 12
+        },
+        "abilities": [
+          "suppressingFire",
+          "coveringFireAction"
+        ]
+      }
+    },
+    "abilities": [
+      "distantDeployment12",
+      "securedPerimeter6",
+      "spyglassAction__9ac35610"
+    ]
+  },
+  "hailer": {
+    "name": "Hailer",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Kithguard",
+      "Southern Kriels",
+      "Solo",
+      "Pyg",
+      "Weapon Crew"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/AppPortrait-Hailers.png",
+    "statistics": {
+      "speed": 5,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "resistanceBlast"
+    ],
+    "weapons": {
+      "hailer": {
+        "type": "ranged",
+        "name": "Hailer",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": "d3 +1",
+          "power": 12
+        },
+        "abilities": [
+          "volleyFire"
+        ]
+      }
+    },
+    "abilities": [
+      "reinforced"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "southern-kriels",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "jungleTroll": {
+    "name": "Jungle Troll",
+    "faction": "southern-kriels",
+    "type": "warbeast",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-JungleTroll.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack"
+    ],
+    "abilities": [
+      "treewalker"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Tanker",
+        "cost": 3,
+        "spells": [
+          "recoil"
+        ],
+        "statAdjustments": {
+          "rangedAttack": 1
+        }
+      },
+      {
+        "slot": "Head",
+        "name": "Alchemical Mask",
+        "cost": 3,
+        "abilities": [
+          "alchemicalMask"
+        ],
+        "spells": [
+          "feint"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Headband",
+        "cost": 2,
+        "abilities": [
+          "sideStep",
+          "extendedControlRange"
+        ],
+        "spells": [
+          "slaughterhouse"
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Machete",
+        "cost": 3,
+        "abilities": [
+          "compostAction"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Machete",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 13
+            },
+            "abilities": [
+              "brutalCharge"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Thumper",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Thumper",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "momentum",
+              "siegeWeapon",
+              "fireInTheHoleAction"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Heavy Slugger",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Heavy Slugger",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": "d3",
+              "power": 12
+            },
+            "abilities": [
+              "volumeFire"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Flamethrower",
+        "cost": 2,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Flamethrower",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": "Sp 6",
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "abilities": [
+              "fireBombAction"
+            ],
+            "qualities": [
+              "continuousEffectFire",
+              "damageTypeFire",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Assault Shield",
+        "cost": 3,
+        "abilities": [
+          "shieldGuard"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Assault Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 11
+            },
+            "qualities": [
+              "shield"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Combat Knife",
+        "cost": 1,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Combat Knife",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "kithguardInfantry": {
+    "name": "Kithguard Infantry",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Southern Kriels",
+      "Trollkin",
+      "Unit",
+      "Kithguard"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Infantry17.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "tough",
+      "combinedRangedAttack",
+      "combinedMeleeAttack"
+    ],
+    "weapons": {
+      "heavyRifle__901cf15d": {
+        "type": "ranged",
+        "name": "Heavy Rifle",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "bayonet__fe9a3f55": {
+        "type": "melee",
+        "name": "Bayonet",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "brutalCharge",
+          "lunge"
+        ]
+      }
+    },
+    "abilities": [
+      "supportWeaponsKithguardInfantry"
+    ],
+    "options": [
+      {
+        "slot": "Weapon Support Troopers",
+        "name": "Slugger",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Slugger",
+            "statistics": {
+              "speed": 6,
+              "meleeAttack": 6,
+              "rangedAttack": 6,
+              "defense": 12,
+              "armour": 15
+            },
+            "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Infantry5.png",
+            "advantages": [
+              "tough",
+              "combinedRangedAttack",
+              "combinedMeleeAttack"
+            ],
+            "abilities": [
+              "takeUp"
+            ],
+            "weapons": {
+              "slugger__ab5be6cb": {
+                "type": "ranged",
+                "name": "Slugger",
+                "statistics": {
+                  "rangedAttack": 6,
+                  "range": 10,
+                  "rateOfFire": "d3",
+                  "power": 12
+                }
+              },
+              "fist__40e1f7fe": {
+                "type": "melee",
+                "name": "Fist",
+                "statistics": {
+                  "meleeAttack": 6,
+                  "range": 1,
+                  "power": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Weapon Support Troopers",
+        "name": "Mortar",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Mortar",
+            "statistics": {
+              "speed": 6,
+              "meleeAttack": 6,
+              "rangedAttack": 6,
+              "defense": 12,
+              "armour": 15
+            },
+            "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Infantry1.png",
+            "advantages": [
+              "tough",
+              "combinedMeleeAttack"
+            ],
+            "abilities": [
+              "takeUp"
+            ],
+            "weapons": {
+              "lightMortar": {
+                "type": "ranged",
+                "name": "Light Mortar",
+                "statistics": {
+                  "rangedAttack": 6,
+                  "range": 14,
+                  "rateOfFire": 1,
+                  "areaOfEffect": 2,
+                  "power": "12/8"
+                },
+                "abilities": [
+                  "arcingFire"
+                ]
+              },
+              "fist__40e1f7fe": {
+                "type": "melee",
+                "name": "Fist",
+                "statistics": {
+                  "meleeAttack": 6,
+                  "range": 1,
+                  "power": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Weapon Support Troopers",
+        "name": "Flamethrower",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Flamethrower",
+            "statistics": {
+              "speed": 6,
+              "meleeAttack": 6,
+              "rangedAttack": 6,
+              "defense": 12,
+              "armour": 15
+            },
+            "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Infantry13.png",
+            "advantages": [
+              "tough",
+              "combinedMeleeAttack"
+            ],
+            "abilities": [
+              "takeUp"
+            ],
+            "weapons": {
+              "flamethrower__5e171ee1": {
+                "type": "ranged",
+                "name": "Flamethrower",
+                "statistics": {
+                  "rangedAttack": 6,
+                  "range": "Sp 8",
+                  "rateOfFire": 1,
+                  "power": 12
+                },
+                "qualities": [
+                  "continuousEffectFire",
+                  "damageTypeFire",
+                  "pistol"
+                ]
+              },
+              "trenchKnife__5d779e64": {
+                "type": "melee",
+                "name": "Trench Knife",
+                "statistics": {
+                  "meleeAttack": 6,
+                  "range": 1,
+                  "power": 12
+                },
+                "abilities": [
+                  "brutalCharge"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Weapon Support Troopers",
+        "name": "Flamethrower",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Flamethrower",
+            "statistics": {
+              "speed": 6,
+              "meleeAttack": 6,
+              "rangedAttack": 6,
+              "defense": 12,
+              "armour": 15
+            },
+            "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Infantry13.png",
+            "advantages": [
+              "tough",
+              "combinedMeleeAttack"
+            ],
+            "abilities": [
+              "takeUp"
+            ],
+            "weapons": {
+              "flamethrower__5e171ee1": {
+                "type": "ranged",
+                "name": "Flamethrower",
+                "statistics": {
+                  "rangedAttack": 6,
+                  "range": "Sp 8",
+                  "rateOfFire": 1,
+                  "power": 12
+                },
+                "qualities": [
+                  "continuousEffectFire",
+                  "damageTypeFire",
+                  "pistol"
+                ]
+              },
+              "trenchKnife__5d779e64": {
+                "type": "melee",
+                "name": "Trench Knife",
+                "statistics": {
+                  "meleeAttack": 6,
+                  "range": 1,
+                  "power": 12
+                },
+                "abilities": [
+                  "brutalCharge"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Weapon Support Troopers",
+        "name": "Mortar",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Mortar",
+            "statistics": {
+              "speed": 6,
+              "meleeAttack": 6,
+              "rangedAttack": 6,
+              "defense": 12,
+              "armour": 15
+            },
+            "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Infantry1.png",
+            "advantages": [
+              "tough",
+              "combinedMeleeAttack"
+            ],
+            "abilities": [
+              "takeUp"
+            ],
+            "weapons": {
+              "lightMortar": {
+                "type": "ranged",
+                "name": "Light Mortar",
+                "statistics": {
+                  "rangedAttack": 6,
+                  "range": 14,
+                  "rateOfFire": 1,
+                  "areaOfEffect": 2,
+                  "power": "12/8"
+                },
+                "abilities": [
+                  "arcingFire"
+                ]
+              },
+              "fist__40e1f7fe": {
+                "type": "melee",
+                "name": "Fist",
+                "statistics": {
+                  "meleeAttack": 6,
+                  "range": 1,
+                  "power": 9
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Weapon Support Troopers",
+        "name": "Slugger",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Slugger",
+            "statistics": {
+              "speed": 6,
+              "meleeAttack": 6,
+              "rangedAttack": 6,
+              "defense": 12,
+              "armour": 15
+            },
+            "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Infantry5.png",
+            "advantages": [
+              "tough",
+              "combinedRangedAttack",
+              "combinedMeleeAttack"
+            ],
+            "abilities": [
+              "takeUp"
+            ],
+            "weapons": {
+              "slugger__ab5be6cb": {
+                "type": "ranged",
+                "name": "Slugger",
+                "statistics": {
+                  "rangedAttack": 6,
+                  "range": 10,
+                  "rateOfFire": "d3",
+                  "power": 12
+                }
+              },
+              "fist__40e1f7fe": {
+                "type": "melee",
+                "name": "Fist",
+                "statistics": {
+                  "meleeAttack": 6,
+                  "range": 1,
+                  "power": 9
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "kithguardJourneyman": {
+    "name": "Kithguard Journeyman",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Solo",
+      "Trollkin"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "2",
+    "points": 18,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 4,
+      "arcana": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 17,
+      "controlRange": 8,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "handcannon": {
+        "type": "ranged",
+        "name": "Handcannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "mechanikaGreatSword": {
+        "type": "melee",
+        "name": "Mechanika Great Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "closeControl",
+      "journeymanWarcaster",
+      "unyielding"
+    ],
+    "spells": [
+      "openFire",
+      "redline"
+    ]
+  },
+  "kithguardSergeant": {
+    "name": "Kithguard Sergeant",
+    "faction": "southern-kriels",
+    "type": "commandAttachment",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Trollkin",
+      "Command Attachment"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Sergeant1.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 15,
+      "health": 5
+    },
+    "advantages": [
+      "tough",
+      "combinedMeleeAttack"
+    ],
+    "weapons": {
+      "rocketLauncher__058dd6bc": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "13/7"
+        },
+        "abilities": [
+          "brutalDamage__7a6f89ac"
+        ]
+      },
+      "machete__61f27ec4": {
+        "type": "melee",
+        "name": "Machete",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentKithguardInfantry",
+      "grantedDualShot",
+      "beenHereBefore"
+    ]
+  },
+  "klangor": {
+    "name": "Klangor",
+    "faction": "southern-kriels",
+    "type": "warbeast",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Heavy Warbeast",
+      "Dire Troll"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-Klangor.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 20,
+      "fury": 4,
+      "threshold": 6,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "thrownShell": {
+        "type": "ranged",
+        "name": "Thrown Shell",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "abilities": [
+          "arcingFire",
+          "forcedReload1"
+        ]
+      },
+      "machete": {
+        "type": "melee",
+        "name": "Machete",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      },
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "cleave",
+      "regenerationD3",
+      "relentlessCharge",
+      "snacking"
+    ],
+    "spells": [
+      "spinyGrowth"
+    ]
+  },
+  "kruegerWrathOfBlighterghast": {
+    "name": "Krueger, Wrath of Blighterghast",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20krueger%20wrath%20of%20blighterghast.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "health": 10
+    },
+    "advantages": [
+      "advanceDeployment",
+      "eyelessSight",
+      "pathfinder",
+      "resistanceFire",
+      "gunfighter"
+    ],
+    "weapons": {
+      "dragonSFury": {
+        "type": "ranged",
+        "name": "Dragon's Fury",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "attackType",
+          "eruptionOfAsh__58ae190f",
+          "incinerate"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical",
+          "pistol",
+          "damageTypeFire"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryBrinebloodMaraudersKithguardHouseKallyssStormLegionAndWinterKorps",
+      "destructivePower",
+      "hyperRegeneration",
+      "itBurns",
+      "pathOfFlames__d7880d6d"
+    ]
+  },
+  "lieutenantFragThornbane": {
+    "name": "Lieutenant Frag Thornbane",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Kithguard",
+      "Trollkin",
+      "Southern Kriels",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/AppPortraits-Frag%20Thornbane.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 11,
+      "armour": 18,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "unstopable",
+      "tough"
+    ],
+    "weapons": {
+      "thronbaneSArsenal": {
+        "type": "ranged",
+        "name": "Thronbane's Arsenal",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 6,
+          "rateOfFire": 2,
+          "power": 14
+        },
+        "abilities": [
+          "attackType",
+          "skewer__a5b8cb15",
+          "volumeFire__f87497c6",
+          "blackPenny__c75111c7"
+        ]
+      },
+      "trenchBlade__e586407d": {
+        "type": "melee",
+        "name": "Trench Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "carapace",
+      "veteranLeaderSteelback"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "southern-kriels",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "southern-kriels",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "majorAbrahamStormcraw": {
+    "name": "Major Abraham Stormcraw",
+    "faction": "southern-kriels",
+    "type": "warlock",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Trollkin",
+      "Warlock"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/AppPortraits-Abraham%20Stormcraw.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 8,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 19
+    },
+    "advantages": [
+      "dualAttack",
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "grenadeLauncher__3c201a02": {
+        "type": "ranged",
+        "name": "Grenade Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "13/8"
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "decider": {
+        "type": "melee",
+        "name": "Decider",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 16
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "butcherSBill",
+      "earthworks",
+      "eliteCadreGuardPost",
+      "unyielding"
+    ],
+    "spells": [
+      "deceleration",
+      "positiveCharge",
+      "spiritFang",
+      "moraleBoost"
+    ],
+    "feat": [
+      "doubleTimeIt"
+    ]
+  },
+  "mawgaBawza": {
+    "name": "Mawga'Bawza",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Bullcroak",
+      "Southern Kriels",
+      "Fire Tongue Cadre",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20southern%20kriels%20mawga%20bawza.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "resistanceCorrosion",
+      "pathfinder",
+      "cavalry",
+      "tough",
+      "advanceDeployment"
+    ],
+    "weapons": {
+      "fetishStaff": {
+        "type": "melee",
+        "name": "Fetish Staff",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "admonisher"
+        ],
+        "qualities": [
+          "blessed",
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "imperviousFlesh",
+      "magicAbility__0cffaca0",
+      "ancillaryAttackAction",
+      "cleansingFireAttack",
+      "enlivenAction",
+      "reposition2",
+      "soulWard"
+    ]
+  },
+  "medics": {
+    "name": "Medics",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Kithguard",
+      "Southern Kriels",
+      "Pyg",
+      "Unit"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_Medic%20D.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 12
+    },
+    "weapons": {
+      "surgicalImplements__f0669351": {
+        "type": "melee",
+        "name": "Surgical Implements",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1
+        },
+        "abilities": [
+          "needle",
+          "anesthesia"
+        ]
+      }
+    },
+    "abilities": [
+      "healD3Action__1f9a1716",
+      "conditionAction"
+    ]
+  },
+  "mistbornDireTroll": {
+    "name": "Mistborn Dire Troll",
+    "faction": "southern-kriels",
+    "type": "warbeast",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-MistbornDireTroll.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 7,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "abilities": [
+      "regenerationD3",
+      "snacking"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Lasher",
+        "cost": 3,
+        "spells": [
+          "chameleon"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Lashing Tongue",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 3,
+              "power": 12
+            },
+            "abilities": [
+              "drag"
+            ],
+            "qualities": [
+              "chainWeapon"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Fog Howler",
+        "cost": 2,
+        "spells": [
+          "fogWall"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Strong Bite",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Hard Head",
+        "cost": 3,
+        "spells": [
+          "rageFuel"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Bite",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            }
+          }
+        ],
+        "statAdjustments": {
+          "armour": 1
+        }
+      },
+      {
+        "slot": "Back",
+        "name": "Back Cannon",
+        "cost": 0,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Back Cannon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 13
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Back",
+        "name": "Mounted Bombard",
+        "cost": 1,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Mounted Bombard",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "areaOfEffect": 3,
+              "power": "12/8"
+            },
+            "abilities": [
+              "arcingFire"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Back",
+        "name": "Chain Storms",
+        "cost": 2,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Chain Storms",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 8,
+              "rateOfFire": "d3+1",
+              "power": 12
+            },
+            "abilities": [
+              "volumeFire"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Punching Blade",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Punching Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 16
+            },
+            "abilities": [
+              "criticalSustainedAttack"
+            ],
+            "qualities": [
+              "buckler",
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Ice Cleaver",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Ice Cleaver",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 19
+            },
+            "abilities": [
+              "criticalFreeze"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Quake Hammer",
+        "cost": 5,
+        "abilities": [
+          "steady"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Quake Hammer",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 19
+            },
+            "abilities": [
+              "criticalKnockdown",
+              "tremorAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Bucklered Fist",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Bucklered Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 15
+            },
+            "qualities": [
+              "buckler",
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Shock Hammer",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Shock Hammer",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 16
+            },
+            "abilities": [
+              "criticalCortexDamage"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Blazing Star",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Blazing Star",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 15
+            },
+            "abilities": [
+              "thresherAttack"
+            ],
+            "qualities": [
+              "chainWeapon"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "mortarTeam": {
+    "name": "Mortar Team",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Pyg",
+      "Solo",
+      "Weapon Crew"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_MortarTeam1.png",
+    "statistics": {
+      "speed": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 13,
+      "health": 5
+    },
+    "weapons": {
+      "incendiaryMortar": {
+        "type": "ranged",
+        "name": "Incendiary Mortar",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/6"
+        },
+        "abilities": [
+          "arcingFire",
+          "fireBombAction"
+        ],
+        "qualities": [
+          "damageTypeFire",
+          "continuousEffectFire"
+        ]
+      }
+    }
+  },
+  "nissakTotemHuntressChampion": {
+    "name": "Nissak, Totem Huntress Champion",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20nissak%20totem%20huntress.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 15,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "stealth",
+      "unstopable",
+      "advanceDeployment",
+      "ambush"
+    ],
+    "weapons": {
+      "throwingGlaive": {
+        "type": "ranged",
+        "name": "Throwing Glaive",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 8,
+          "rateOfFire": 2,
+          "power": 12
+        }
+      },
+      "warClaw": {
+        "type": "melee",
+        "name": "War Claw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "buckler"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryBrinebloodMaraudersKithguardAndShadowflameShard",
+      "jump",
+      "prey",
+      "swiftHunter",
+      "treewalker"
+    ]
+  },
+  "pvtRattles": {
+    "name": "Pvt. Rattles",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Pyg",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-PvtRattles.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder"
+    ],
+    "weapons": {
+      "pickAxe__baab6b38": {
+        "type": "melee",
+        "name": "Pick Axe",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "collapseTunnelAction",
+      "digInAction",
+      "makeAHoleAction",
+      "redirectAction"
+    ]
+  },
+  "ramhead": {
+    "name": "Ramhead",
+    "faction": "southern-kriels",
+    "type": "warjack",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "2",
+    "points": 0,
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 8,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "S",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "S",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct",
+      "resistanceCold",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "mainGuns": {
+        "type": "ranged",
+        "name": "Main Guns",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/10"
+        }
+      },
+      "metalStorm__c2274754": {
+        "type": "ranged",
+        "name": "Metal Storm",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": "d3",
+          "power": 12
+        },
+        "location": "L",
+        "abilities": [
+          "volumeFire"
+        ]
+      },
+      "electrifiedBlade": {
+        "type": "melee",
+        "name": "Electrified Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "electroLeap"
+        ]
+      },
+      "iceAxe__4418549f": {
+        "type": "melee",
+        "name": "Ice Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "L",
+        "abilities": [
+          "criticalFreeze"
+        ]
+      }
+    },
+    "abilities": [
+      "companionKithguardJourneyman",
+      "bulldoze"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "scrappers": {
+    "name": "Scrappers",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Trollkin",
+      "Unit"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-Scrapper2.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder",
+      "tough",
+      "assault"
+    ],
+    "weapons": {
+      "concussiveCharge": {
+        "type": "ranged",
+        "name": "Concussive Charge",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "quake"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "pickAxe__bd22e351": {
+        "type": "melee",
+        "name": "Pick Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "trash"
+        ]
+      }
+    },
+    "abilities": [
+      "extendedAmbush",
+      "sneakAttack",
+      "swiftHunter",
+      "tunnelAmbush__fd6400a5"
+    ],
+    "models": {
+      "dyhllan1": {
+        "name": "Dyhllan 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 6,
+          "rangedAttack": 6,
+          "defense": 12,
+          "armour": 16
+        },
+        "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-Scrapper2.png",
+        "advantages": [
+          "advanceDeployment",
+          "ambush",
+          "pathfinder",
+          "tough",
+          "assault"
+        ],
+        "abilities": [
+          "extendedAmbush",
+          "sneakAttack",
+          "swiftHunter",
+          "tunnelAmbush__fd6400a5"
+        ],
+        "weapons": {
+          "concussiveCharge": {
+            "type": "ranged",
+            "name": "Concussive Charge",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 6,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "quake"
+            ],
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "pickAxe__bd22e351": {
+            "type": "melee",
+            "name": "Pick Axe",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 13
+            },
+            "quantity": 2,
+            "abilities": [
+              "trash"
+            ]
+          }
+        }
+      },
+      "annar1Dutch1": {
+        "name": "Annar 1 & Dutch 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 6,
+          "rangedAttack": 6,
+          "defense": 12,
+          "armour": 16
+        },
+        "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-Scrapper3.png",
+        "advantages": [
+          "advanceDeployment",
+          "ambush",
+          "tough",
+          "pathfinder",
+          "assault"
+        ],
+        "abilities": [
+          "cleave",
+          "extendedAmbush",
+          "sneakAttack",
+          "swiftHunter",
+          "tunnelAmbush__fd6400a5"
+        ],
+        "weapons": {
+          "concussiveCharge": {
+            "type": "ranged",
+            "name": "Concussive Charge",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 6,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "quake"
+            ],
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "pickAxe__93b09854": {
+            "type": "melee",
+            "name": "Pick Axe",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 13
+            },
+            "abilities": [
+              "trash"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "sergeantHulderCraghorn": {
+    "name": "Sergeant Hulder Craghorn",
+    "faction": "southern-kriels",
+    "type": "warlock",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Trollkin",
+      "Warlock"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK-Craghorn.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 18
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "daisy": {
+        "type": "ranged",
+        "name": "Daisy",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": "d3+1",
+          "power": 12
+        },
+        "abilities": [
+          "volumeFire"
+        ],
+        "qualities": [
+          "pistol",
+          "damageTypeMagical"
+        ]
+      },
+      "vulcan": {
+        "type": "melee",
+        "name": "Vulcan",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 15
+        },
+        "qualities": [
+          "criticalFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "attunedSpirit",
+      "earthworks",
+      "tunnelNetwork",
+      "notMyFirstRodeo"
+    ],
+    "spells": [
+      "boundlessCharge",
+      "carnage",
+      "countermeasure",
+      "tacticalSupremacy"
+    ],
+    "feat": [
+      "breakOut"
+    ]
+  },
+  "sidewinder": {
+    "name": "Sidewinder",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Trollkin",
+      "Weapon Crew",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/AppPortraits-Sidewinder.png",
+    "statistics": {
+      "speed": 5,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "tough",
+      "resistanceBlast",
+      "unstopable"
+    ],
+    "weapons": {
+      "sidewinder": {
+        "type": "ranged",
+        "name": "Sidewinder",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": "d3+1",
+          "power": 13
+        },
+        "abilities": [
+          "flakFire",
+          "clippedWings",
+          "criticalBrutalDamage"
+        ]
+      }
+    },
+    "abilities": [
+      "reinforced"
+    ]
+  },
+  "spiritShamans": {
+    "name": "Spirit Shamans",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Southern Kriels",
+      "Fire Tongue Cadre",
+      "Unit",
+      "Bullcroak"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20southern%20kriels%20bullcroak%20shaman.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "amphibious",
+      "pathfinder",
+      "resistanceCorrosion"
+    ],
+    "weapons": {
+      "sanctifier": {
+        "type": "melee",
+        "name": "Sanctifier",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 14
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "blessed",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility",
+      "blackWatersAction",
+      "hexBoltAttack",
+      "sigilOfPowerAction",
+      "mageStatic__31cc019c"
+    ]
+  },
+  "steelbacks": {
+    "name": "Steelbacks",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Kithguard",
+      "Trollkin",
+      "Southern Kriels",
+      "Unit"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/AppPortraits-Steelbacks.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 11,
+      "armour": 18
+    },
+    "advantages": [
+      "dualAttack",
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "flamethrower__d8e348ce": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire"
+        ]
+      },
+      "punchingSpike__17064631": {
+        "type": "melee",
+        "name": "Punching Spike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "carapace"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "southern-kriels",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "throatCutters": {
+    "name": "Throat Cutters",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Trollkin",
+      "Southern Kriels",
+      "Kithguard",
+      "Unit"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/AppPortraits-Throatcutter.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "pathfinder",
+      "tough",
+      "advanceDeployment",
+      "ambush"
+    ],
+    "weapons": {
+      "heavyCarbine": {
+        "type": "ranged",
+        "name": "Heavy Carbine",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "snapFire"
+        ]
+      },
+      "cleaver__459191b4": {
+        "type": "melee",
+        "name": "Cleaver",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "cleave",
+      "sneakAttack",
+      "tunnelAmbush__fd6400a5"
+    ]
+  },
+  "trapdoor": {
+    "name": "Trapdoor",
+    "faction": "southern-kriels",
+    "type": "marker",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "3",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/SK_Hatch.png",
+    "statistics": {},
+    "abilities": [
+      "trapdoor"
+    ]
+  },
+  "tunnelRats": {
+    "name": "Tunnel Rats",
+    "faction": "southern-kriels",
+    "type": "unit",
+    "keywords": [
+      "Southern Kriels",
+      "Kithguard",
+      "Unit",
+      "Pyg"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/WM_Kithguard_CoreExpansion_AppPortraits_TunnelRatsA.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder"
+    ],
+    "weapons": {
+      "tunnelWeapon": {
+        "type": "melee",
+        "name": "Tunnel Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "collapseTunnelAction",
+      "makeAHoleAction",
+      "redirectAction",
+      "smokeBombsAction",
+      "placeCharges",
+      "prowl"
+    ]
+  },
+  "vorogger": {
+    "name": "Vorogger",
+    "faction": "southern-kriels",
+    "type": "warbeast",
+    "keywords": [
+      "Bullcroak",
+      "Southern Kriels",
+      "Heavy Warbeast",
+      "Fire Tongue Cadre"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "2",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20southern%20kriels%20vorogger.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 24,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceCorrosion",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "flameTongue": {
+        "type": "ranged",
+        "name": "Flame Tongue",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalConsume",
+          "drag"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "pistol",
+          "continuousEffectFire"
+        ]
+      },
+      "claw__4d44a699": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "imperviousFlesh",
+      "paralyzingGaze",
+      "vault"
+    ],
+    "spells": [
+      "flamingFists"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "southern-kriels",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "warchiefBagadibawm": {
+    "name": "Warchief Bagadibawm",
+    "faction": "southern-kriels",
+    "type": "warlock",
+    "keywords": [
+      "Southern Kriels",
+      "Bullcroak",
+      "Warlock",
+      "Fire Tongue Cadre"
+    ],
+    "armies": [
+      "kithguard"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20southern%20kriels%20warchief%20bagadibawm.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 16
+    },
+    "advantages": [
+      "amphibious",
+      "pathfinder",
+      "resistanceCorrosion",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "sacredFlame": {
+        "type": "melee",
+        "name": "Sacred Flame",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "doubleStrike",
+          "criticalDispel"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "attunedSpirit",
+      "fieldMarshalFuelForTheFlames",
+      "fuelForTheFlames5",
+      "sideStep"
+    ],
+    "spells": [
+      "brandOfFire",
+      "firestarter",
+      "fireStep",
+      "ironFlesh",
+      "tidesOfWar"
+    ],
+    "feat": [
+      "spiritRealm"
+    ]
+  }
+}

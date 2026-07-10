@@ -1,0 +1,5114 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "cygnar",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "avenger": {
+    "name": "Avenger",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20avenger.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 19,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "seismicCannon": {
+        "type": "ranged",
+        "name": "Seismic Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "location": "L",
+        "abilities": [
+          "quake"
+        ]
+      },
+      "stunBlade": {
+        "type": "melee",
+        "name": "Stun Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "criticalStall"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorStormKnightWarrior"
+    ]
+  },
+  "brickhouse": {
+    "name": "Brickhouse",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Storm Knight",
+      "Heavy Warjack",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20brickhouse.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 19,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "gladiator",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "magnoFist": {
+        "type": "melee",
+        "name": "Magno Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "powerMaul": {
+        "type": "melee",
+        "name": "Power Maul",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "criticalSmite"
+        ]
+      }
+    },
+    "abilities": [
+      "bondMaddox",
+      "carapace",
+      "forceLock"
+    ]
+  },
+  "captainAllisonJakes": {
+    "name": "Captain Allison Jakes",
+    "faction": "cygnar",
+    "type": "warcaster",
+    "keywords": [
+      "Cygnar",
+      "Warcaster",
+      "Scout",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20captain%20allison%20jakes.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 14
+    },
+    "advantages": [
+      "unstopable"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "feedbackBlade": {
+        "type": "melee",
+        "name": "Feedback Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "feedback__d3f2896d"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "electroBlade": {
+        "type": "melee",
+        "name": "Electro Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "electroLeap"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "acrobatics",
+      "fieldMarshalSprint",
+      "sprint"
+    ],
+    "spells": [
+      "escort",
+      "lightningStorm",
+      "positiveCharge",
+      "sidekick"
+    ],
+    "feat": [
+      "powerhouse"
+    ]
+  },
+  "captainArlanStrangewayes": {
+    "name": "Captain Arlan Strangewayes",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20captain%20arlan%20strangewayes.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "jackMarshal",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "voltaicGauntlet": {
+        "type": "ranged",
+        "name": "Voltaic Gauntlet",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "criticalDisruption",
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "fixer": {
+        "type": "melee",
+        "name": "Fixer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "magicAbility__3e82c264",
+      "arcaneReinforcementAction__eabbc0d4",
+      "defensiveMeasuresAction",
+      "empowerAction__e131c030",
+      "repairD33Action__73e6a299"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "centurion": {
+    "name": "Centurion",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "First Army",
+      "Heavy Warjack",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "4",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20centurion.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 19,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shield__4563fe92": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "pistonSpear": {
+        "type": "melee",
+        "name": "Piston Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "criticalSustainedAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "focusChargedPolarityField"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "cygnar",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "cygnar",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "dynamo": {
+    "name": "Dynamo",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20dynamo.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "firestormCannon": {
+        "type": "ranged",
+        "name": "Firestorm Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": "d3 +1",
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "battleSpear__51db4492": {
+        "type": "melee",
+        "name": "Battle Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "bondNemo",
+      "chainReaction"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "cygnar",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "fieldMechaniks": {
+    "name": "Field Mechaniks",
+    "faction": "cygnar",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20field%20mechaniks.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 12,
+      "armour": 11
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "rivetGun__af6b6ab0": {
+        "type": "ranged",
+        "name": "Rivet Gun",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 4,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "wrench__5b1237ee": {
+        "type": "melee",
+        "name": "Wrench",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 6
+        }
+      }
+    },
+    "abilities": [
+      "empowerAction",
+      "ironSentinel",
+      "repairD6Action__c26272a1"
+    ],
+    "models": {
+      "chief": {
+        "name": "Chief",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 4,
+          "rangedAttack": 4,
+          "defense": 12,
+          "armour": 11
+        },
+        "advantages": [
+          "dualAttack"
+        ],
+        "abilities": [
+          "empowerAction",
+          "ironSentinel",
+          "repairD6Action__c26272a1"
+        ],
+        "weapons": {
+          "rivetGun__af6b6ab0": {
+            "type": "ranged",
+            "name": "Rivet Gun",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 4,
+              "rateOfFire": 1,
+              "power": 10
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "wrench__5b1237ee": {
+            "type": "melee",
+            "name": "Wrench",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 6
+            }
+          }
+        }
+      },
+      "gobberGrunt": {
+        "name": "Gobber Grunt",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 4,
+          "defense": 14,
+          "armour": 9
+        },
+        "abilities": [
+          "ironSentinel",
+          "repairD3Action__d257609f"
+        ],
+        "weapons": {
+          "wrench__5b1237ee": {
+            "type": "melee",
+            "name": "Wrench",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 6
+            }
+          }
+        }
+      }
+    }
+  },
+  "firefly": {
+    "name": "Firefly",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20firefly.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "stormBlaster": {
+        "type": "ranged",
+        "name": "Storm Blaster",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "location": "L",
+        "abilities": [
+          "lightningGenerator"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "electroGlaive": {
+        "type": "melee",
+        "name": "Electro Glaive",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "location": "R",
+        "qualities": [
+          "criticalDisruption"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorStormKnightWarrior",
+      "ionization5"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "generalAdeptNemo": {
+    "name": "General Adept Nemo",
+    "faction": "cygnar",
+    "type": "warcaster",
+    "keywords": [
+      "Warcaster",
+      "Cygnar",
+      "Storm Knight",
+      "Scout"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20general%20adept%20nemo.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 14
+    },
+    "advantages": [
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "galvanicBolt__f6de49d2": {
+        "type": "ranged",
+        "name": "Galvanic Bolt",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "tractorField"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "damageTypeMagical"
+        ]
+      },
+      "fulger": {
+        "type": "melee",
+        "name": "Fulger",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "disruption"
+        ]
+      }
+    },
+    "abilities": [
+      "focusMatrix",
+      "resourceful"
+    ],
+    "spells": [
+      "electricalBlast",
+      "electrify",
+      "energizer",
+      "failSafe",
+      "polarityShield"
+    ],
+    "feat": [
+      "highVoltage"
+    ]
+  },
+  "hurricane": {
+    "name": "Hurricane",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Cygnar",
+      "First Army",
+      "Storm Knight",
+      "Colossal"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 28,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20hurricane.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 56,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "2": "A",
+                "3": "A",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "A",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "A",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "2": "A",
+                "3": "A",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "stormEmitter": {
+        "type": "ranged",
+        "name": "Storm Emitter",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "thunderCharge"
+        ],
+        "qualities": [
+          "damageTypeElectricity"
+        ]
+      },
+      "cannon__92a21f56": {
+        "type": "ranged",
+        "name": "Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "13/7"
+        },
+        "quantity": 2
+      },
+      "shockFist": {
+        "type": "melee",
+        "name": "Shock Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 20
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalCortexDamage"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "turbulence"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "lancer": {
+    "name": "Lancer",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "First Army",
+      "Light Warjack",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20lancer.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "A",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "A",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shockShield": {
+        "type": "melee",
+        "name": "Shock Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "location": "L",
+        "abilities": [
+          "criticalCortexDamage",
+          "shockField"
+        ],
+        "qualities": [
+          "shield"
+        ]
+      },
+      "warSpear__9f671800": {
+        "type": "melee",
+        "name": "War Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "setDefense"
+    ]
+  },
+  "lieutenantAllisonJakes": {
+    "name": "Lieutenant Allison Jakes",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20lieutenant%20allison%20jakes.png",
+    "statistics": {
+      "speed": 6,
+      "arcana": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 13,
+      "controlRange": 8,
+      "health": 5
+    },
+    "advantages": [
+      "unstopable"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "mechanikaBlade__d667367e": {
+        "type": "melee",
+        "name": "Mechanika Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "duelingDagger": {
+        "type": "melee",
+        "name": "Dueling Dagger",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 7
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalSprint",
+      "journeymanWarcaster",
+      "sprint"
+    ],
+    "spells": [
+      "energizer",
+      "sidekick"
+    ]
+  },
+  "lieutenantGwenKeller": {
+    "name": "Lieutenant Gwen Keller",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Storm Knight",
+      "Solo",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20lieutenant%20gwen%20keller.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "stormGrenade": {
+        "type": "ranged",
+        "name": "Storm Grenade",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "attackType",
+          "galvanicBlastField__37810d20",
+          "kineticGrip__3d2c6052",
+          "lightningGenerator__40806663",
+          "cumbersome"
+        ]
+      },
+      "glaiveBolt": {
+        "type": "ranged",
+        "name": "Glaive Bolt",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "stormGlaive__ef2da996": {
+        "type": "melee",
+        "name": "Storm Glaive",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "reposition3"
+    ]
+  },
+  "lightningPod": {
+    "name": "Lightning Pod",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Cygnar",
+      "Solo",
+      "First Army",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20lightning%20pod.png",
+    "statistics": {
+      "defense": 5,
+      "armour": 15
+    },
+    "advantages": [
+      "construct",
+      "resistanceElectricity"
+    ],
+    "abilities": [
+      "conductor",
+      "created",
+      "immobile",
+      "inconsequential"
+    ]
+  },
+  "lordGeneralColemanStryker": {
+    "name": "Lord General Coleman Stryker",
+    "faction": "cygnar",
+    "type": "warcaster",
+    "keywords": [
+      "Warcaster",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20lord%20general%20coleman%20stryker.png",
+    "statistics": {
+      "speed": 8,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 18
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "unstopable",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "quicksilverBlast": {
+        "type": "ranged",
+        "name": "Quicksilver Blast",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeElectricity",
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "quicksilverMKIII": {
+        "type": "melee",
+        "name": "Quicksilver MK III",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "disruption"
+        ]
+      }
+    },
+    "abilities": [
+      "plasmaNimbus",
+      "reposition3"
+    ],
+    "spells": [
+      "batteringRam",
+      "battleLust",
+      "bombshell",
+      "deceleration",
+      "ironAggression"
+    ],
+    "feat": [
+      "lightningCharge"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "cygnar",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "cygnar",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "majorBethMaddox": {
+    "name": "Major Beth Maddox",
+    "faction": "cygnar",
+    "type": "warcaster",
+    "keywords": [
+      "Warcaster",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20major%20beth%20maddox.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "stormStrike": {
+        "type": "ranged",
+        "name": "Storm Strike",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "lightningGenerator"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "tempest": {
+        "type": "melee",
+        "name": "Tempest",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "stall"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalShieldGuard"
+    ],
+    "spells": [
+      "dauntlessResolve",
+      "electricalBlast",
+      "onslaught",
+      "snipe",
+      "solidGround"
+    ],
+    "feat": [
+      "thunderingRage"
+    ]
+  },
+  "majorKatherineLaddermore": {
+    "name": "Major Katherine Laddermore",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Cygnar",
+      "Dragoon",
+      "Storm Knight",
+      "Solo"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20major%20katherine%20laddermore.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 8,
+      "rangedAttack": 7,
+      "defense": 13,
+      "armour": 18
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "resistanceElectricity",
+      "unstopable"
+    ],
+    "weapons": {
+      "voltaicAccelerator": {
+        "type": "ranged",
+        "name": "Voltaic Accelerator",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "lightningGenerator"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "voltaicLance__9c4f66fb": {
+        "type": "melee",
+        "name": "Voltaic Lance",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "brutalCharge",
+          "lightningGenerator"
+        ]
+      }
+    },
+    "abilities": [
+      "ionization10",
+      "reposition3"
+    ],
+    "models": {
+      "laddermore1Mounted": {
+        "name": "Laddermore 1 (Mounted)",
+        "statistics": {
+          "speed": 8,
+          "meleeAttack": 8,
+          "rangedAttack": 7,
+          "defense": 13,
+          "armour": 18
+        },
+        "advantages": [
+          "cavalry",
+          "dualAttack",
+          "resistanceElectricity",
+          "unstopable"
+        ],
+        "abilities": [
+          "ionization10",
+          "reposition3"
+        ],
+        "weapons": {
+          "voltaicAccelerator": {
+            "type": "ranged",
+            "name": "Voltaic Accelerator",
+            "statistics": {
+              "rangedAttack": 7,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "lightningGenerator"
+            ],
+            "qualities": [
+              "damageTypeElectricity",
+              "pistol"
+            ]
+          },
+          "voltaicLance__9c4f66fb": {
+            "type": "melee",
+            "name": "Voltaic Lance",
+            "statistics": {
+              "meleeAttack": 8,
+              "range": 2,
+              "power": 13
+            },
+            "abilities": [
+              "brutalCharge",
+              "lightningGenerator"
+            ]
+          }
+        }
+      },
+      "laddermore1Dismounted": {
+        "name": "Laddermore 1 (Dismounted)",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 8,
+          "rangedAttack": 7,
+          "defense": 13,
+          "armour": 16
+        },
+        "advantages": [
+          "dualAttack",
+          "resistanceElectricity"
+        ],
+        "abilities": [
+          "ionization10"
+        ],
+        "weapons": {
+          "voltaicAccelerator": {
+            "type": "ranged",
+            "name": "Voltaic Accelerator",
+            "statistics": {
+              "rangedAttack": 7,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "lightningGenerator"
+            ],
+            "qualities": [
+              "damageTypeElectricity",
+              "pistol"
+            ]
+          },
+          "voltaicLance": {
+            "type": "melee",
+            "name": "Voltaic Lance",
+            "statistics": {
+              "meleeAttack": 8,
+              "range": 2,
+              "power": 13
+            },
+            "abilities": [
+              "lightningGenerator",
+              "brutalCharge"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "olRowdy": {
+    "name": "Ol’ Rowdy",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20ol%20rowdy.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "quakeHammer__7d58341a": {
+        "type": "melee",
+        "name": "Quake Hammer",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalKnockdown__870725a5",
+          "tremorAttack"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "aggressive",
+      "bondStryker",
+      "retaliatoryStrike",
+      "righteousVengeance"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "reliant": {
+    "name": "Reliant",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Storm Knight",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20reliant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "stormbringer": {
+        "type": "ranged",
+        "name": "Stormbringer",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "L",
+        "abilities": [
+          "galvanicBlastField"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "pulseHammer": {
+        "type": "melee",
+        "name": "Pulse Hammer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R",
+        "abilities": [
+          "criticalThunderclap"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorStormKnightWarrior"
+    ]
+  },
+  "savioMonteroAcosta": {
+    "name": "Savio Montero Acosta",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Cygnar",
+      "Storm Knight",
+      "Solo",
+      "Thamarite"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20savio%20montero%20acosta.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 9,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "glaiveBolt__d726fa74": {
+        "type": "ranged",
+        "name": "Glaive Bolt",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "stormGlaive": {
+        "type": "melee",
+        "name": "Storm Glaive",
+        "statistics": {
+          "meleeAttack": 9,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "dodge",
+      "righteousVengeance",
+      "riposte"
+    ]
+  },
+  "silverLineStormguard": {
+    "name": "Silver Line Stormguard",
+    "faction": "cygnar",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20silver%20line%20stormguard.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "combinedMeleeAttack",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "voltaicHalberd__3f5e01eb": {
+        "type": "melee",
+        "name": "Voltaic Halberd",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "electroLeap"
+        ]
+      }
+    },
+    "abilities": [
+      "polarityField",
+      "setDefense"
+    ]
+  },
+  "sirDreyfusTheStormKnight": {
+    "name": "Sir Dreyfus the Storm Knight",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Cygnar",
+      "Solo",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20sir%20dreyfus%20the%20storm%20knight.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "electricalBolt__e415ee61": {
+        "type": "ranged",
+        "name": "Electrical Bolt",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "electroLeap"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "lance__39d3f317": {
+        "type": "melee",
+        "name": "Lance",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "brutalCharge__b5c7c391"
+        ]
+      },
+      "shockShield__51cb5c03": {
+        "type": "melee",
+        "name": "Shock Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "disruption",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "jump"
+    ]
+  },
+  "squire": {
+    "name": "Squire",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "First Army",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "1",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20squire.png",
+    "statistics": {
+      "speed": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "construct"
+    ],
+    "abilities": [
+      "attached",
+      "arcaneRealignment",
+      "arcaneRepeater",
+      "reserveAccumulator",
+      "sigilOfPowerAction__be94e6d6"
+    ]
+  },
+  "stormLances": {
+    "name": "Storm Lances",
+    "faction": "cygnar",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20storm%20lances.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 19
+    },
+    "advantages": [
+      "cavalry",
+      "resistanceElectricity",
+      "unstopable",
+      "assault"
+    ],
+    "weapons": {
+      "electricalBolt": {
+        "type": "ranged",
+        "name": "Electrical Bolt",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "electroLance": {
+        "type": "melee",
+        "name": "Electro Lance",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "brutalCharge",
+          "electroLeap"
+        ]
+      },
+      "shield__02fe0b42": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "unyielding"
+    ]
+  },
+  "stormStrider": {
+    "name": "Storm Strider",
+    "faction": "cygnar",
+    "type": "battleEngine",
+    "keywords": [
+      "Storm Knight",
+      "Stormsmith",
+      "Battle Engine"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20storm%20strider.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": 28
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "pathfinder",
+      "resistanceElectricity",
+      "unstopable"
+    ],
+    "weapons": {
+      "lightingGenerator": {
+        "type": "ranged",
+        "name": "Lighting Generator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "abilities": [
+          "lightningGenerator",
+          "powerLoader1"
+        ],
+        "qualities": [
+          "criticalDisruption",
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "stomp__e694a645": {
+        "type": "melee",
+        "name": "Stomp",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "lightningGenerator"
+        ]
+      }
+    },
+    "abilities": [
+      "buildUpPower",
+      "repulsorField__8b763fde",
+      "superconduction8"
+    ]
+  },
+  "stormbladeCaptain": {
+    "name": "Stormblade Captain",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormblade%20captain.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "jackMarshal",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "nexusBlast": {
+        "type": "ranged",
+        "name": "Nexus Blast",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "nexusBlade": {
+        "type": "melee",
+        "name": "Nexus Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "shield__25cf1cc7": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "deathlyStrike",
+      "desperatePaceSmallBasedStormKnight",
+      "march",
+      "driveReposition3",
+      "tactician"
+    ]
+  },
+  "stormbladeInfantry": {
+    "name": "Stormblade Infantry",
+    "faction": "cygnar",
+    "type": "unit",
+    "keywords": [
+      "Cygnar",
+      "Storm Knight",
+      "Unit"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "3",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormblade%20infantry.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "glaiveBolt": {
+        "type": "ranged",
+        "name": "Glaive Bolt",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "stormGlaive__02f1bceb": {
+        "type": "melee",
+        "name": "Storm Glaive",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "quickWork"
+    ]
+  },
+  "stormbladeInfantryOfficerStandard": {
+    "name": "Stormblade Infantry Officer & Standard",
+    "faction": "cygnar",
+    "type": "commandAttachment",
+    "keywords": [
+      "Cygnar",
+      "Storm Knight",
+      "Command Attachment"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormblade%20infantry%20officer%20%26%20standard.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "glaiveBolt": {
+        "type": "ranged",
+        "name": "Glaive Bolt",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "stormGlaive__02f1bceb": {
+        "type": "melee",
+        "name": "Storm Glaive",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentStormbladeInfantry",
+      "grantedCleave",
+      "quickWork"
+    ],
+    "models": {
+      "officer": {
+        "name": "Officer",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 7,
+          "rangedAttack": 6,
+          "defense": 12,
+          "armour": 16,
+          "health": 5
+        },
+        "advantages": [
+          "resistanceElectricity"
+        ],
+        "abilities": [
+          "grantedCleave",
+          "quickWork"
+        ],
+        "weapons": {
+          "glaiveBolt": {
+            "type": "ranged",
+            "name": "Glaive Bolt",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 6,
+              "rateOfFire": 1,
+              "power": 13
+            },
+            "qualities": [
+              "damageTypeElectricity",
+              "pistol"
+            ]
+          },
+          "stormGlaive__02f1bceb": {
+            "type": "melee",
+            "name": "Storm Glaive",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 13
+            }
+          }
+        }
+      },
+      "standardBearer": {
+        "name": "Standard Bearer",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 6,
+          "rangedAttack": 5,
+          "defense": 12,
+          "armour": 16,
+          "health": 5
+        },
+        "advantages": [
+          "resistanceElectricity"
+        ],
+        "abilities": [
+          "grantedRise",
+          "quickWork",
+          "takeUp"
+        ],
+        "weapons": {
+          "glaiveBolt": {
+            "type": "ranged",
+            "name": "Glaive Bolt",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 6,
+              "rateOfFire": 1,
+              "power": 13
+            },
+            "qualities": [
+              "damageTypeElectricity",
+              "pistol"
+            ]
+          },
+          "stormGlaive__02f1bceb": {
+            "type": "melee",
+            "name": "Storm Glaive",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 13
+            }
+          }
+        }
+      }
+    }
+  },
+  "stormbladeInfantryStormGunner": {
+    "name": "Stormblade Infantry Storm Gunner",
+    "faction": "cygnar",
+    "type": "attachment",
+    "keywords": [
+      "Storm Knight",
+      "Cygnar",
+      "Weapon Attachment"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "9",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormblade%20infantry%20storm%20gunner.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "stormThrower": {
+        "type": "ranged",
+        "name": "Storm Thrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "electricalCurrent"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "electricalBlade": {
+        "type": "melee",
+        "name": "Electrical Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "weaponAttachmentStormbladeInfantry",
+      "takeUp"
+    ]
+  },
+  "stormclad": {
+    "name": "Stormclad",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "4",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormclad.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "generatorBlast": {
+        "type": "ranged",
+        "name": "Generator Blast",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "electroLeap"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "generatorBlade": {
+        "type": "melee",
+        "name": "Generator Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "electroLeap"
+        ]
+      },
+      "openFist__6bd52dd6": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorStormKnightWarrior"
+    ]
+  },
+  "stormguardInfantry": {
+    "name": "Stormguard Infantry",
+    "faction": "cygnar",
+    "type": "unit",
+    "keywords": [
+      "Cygnar",
+      "Unit",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "3",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormguard%20infantry.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "combinedMeleeAttack",
+      "dualAttack",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "nexusBlast__cca249cb": {
+        "type": "ranged",
+        "name": "Nexus Blast",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "qualities": [
+          "damageTypeElectricity"
+        ]
+      },
+      "nexusGenerator": {
+        "type": "melee",
+        "name": "Nexus Generator",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "electroLeap"
+        ]
+      }
+    },
+    "abilities": [
+      "setDefense",
+      "takeUp"
+    ],
+    "models": {
+      "gunner": {
+        "name": "Gunner",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 6,
+          "rangedAttack": 5,
+          "defense": 12,
+          "armour": 16
+        },
+        "advantages": [
+          "combinedMeleeAttack",
+          "dualAttack",
+          "resistanceElectricity"
+        ],
+        "abilities": [
+          "setDefense",
+          "takeUp"
+        ],
+        "weapons": {
+          "nexusBlast__cca249cb": {
+            "type": "ranged",
+            "name": "Nexus Blast",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "14/8"
+            },
+            "qualities": [
+              "damageTypeElectricity"
+            ]
+          },
+          "nexusGenerator": {
+            "type": "melee",
+            "name": "Nexus Generator",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 12
+            },
+            "abilities": [
+              "electroLeap"
+            ]
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 6,
+          "defense": 12,
+          "armour": 16
+        },
+        "advantages": [
+          "combinedMeleeAttack",
+          "resistanceElectricity"
+        ],
+        "abilities": [
+          "setDefense"
+        ],
+        "weapons": {
+          "voltaicHalberd__3f5e01eb": {
+            "type": "melee",
+            "name": "Voltaic Halberd",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 12
+            },
+            "abilities": [
+              "electroLeap"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "stormsmithGrenadiers": {
+    "name": "Stormsmith Grenadiers",
+    "faction": "cygnar",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormsmith%20grenadiers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "resistanceElectricity",
+      "advanceDeployment"
+    ],
+    "weapons": {
+      "stormGrenade__b453c805": {
+        "type": "ranged",
+        "name": "Storm Grenade",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "attackType__519188da",
+          "galvanicBlastField__37810d20",
+          "kineticGrip__3d2c6052",
+          "lightningGenerator__40806663"
+        ],
+        "qualities": [
+          "damageTypeElectricity"
+        ]
+      },
+      "trenchKnife__0d41015a": {
+        "type": "melee",
+        "name": "Trench Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 7
+        }
+      }
+    },
+    "abilities": [
+      "forceBarrier"
+    ]
+  },
+  "stormsmithStormTower": {
+    "name": "Stormsmith Storm Tower",
+    "faction": "cygnar",
+    "type": "unit",
+    "keywords": [
+      "Weapon Crew",
+      "Unit",
+      "Storm Knight",
+      "Cygnar"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormsmith%20storm%20tower.png",
+    "statistics": {
+      "speed": 3,
+      "meleeAttack": 4,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "stormTower": {
+        "type": "ranged",
+        "name": "Storm Tower",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "lightningGenerator"
+        ],
+        "qualities": [
+          "criticalDisruption",
+          "damageTypeElectricity"
+        ]
+      },
+      "sword__0f255042": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 7
+        }
+      }
+    },
+    "abilities": [
+      "forceBarrier",
+      "takeUp"
+    ],
+    "models": {
+      "gunner": {
+        "name": "Gunner",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 4,
+          "rangedAttack": 6,
+          "defense": 13,
+          "armour": 11
+        },
+        "advantages": [
+          "resistanceElectricity"
+        ],
+        "abilities": [
+          "forceBarrier",
+          "takeUp"
+        ],
+        "weapons": {
+          "stormTower": {
+            "type": "ranged",
+            "name": "Storm Tower",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 14,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "abilities": [
+              "lightningGenerator"
+            ],
+            "qualities": [
+              "criticalDisruption",
+              "damageTypeElectricity"
+            ]
+          },
+          "sword__0f255042": {
+            "type": "melee",
+            "name": "Sword",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 7
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 4,
+          "defense": 13,
+          "armour": 11
+        },
+        "advantages": [
+          "resistanceElectricity"
+        ],
+        "abilities": [
+          "forceBarrier"
+        ],
+        "weapons": {
+          "sword__0f255042": {
+            "type": "melee",
+            "name": "Sword",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 7
+            }
+          }
+        }
+      }
+    }
+  },
+  "stormsmithStormcallers": {
+    "name": "Stormsmith Stormcallers",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cygnar",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "3",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormsmith%20stormcaller.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "stormStrike__501adcc1": {
+        "type": "ranged",
+        "name": "Storm Strike",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "stormcall",
+          "triangulation"
+        ],
+        "qualities": [
+          "criticalDisruption",
+          "damageTypeElectricity",
+          "damageTypeMagical"
+        ]
+      },
+      "stormRod": {
+        "type": "melee",
+        "name": "Storm Rod",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 2,
+          "power": 10
+        },
+        "abilities": [
+          "electroLeap"
+        ]
+      }
+    },
+    "abilities": [
+      "forceBarrier"
+    ]
+  },
+  "stormwall": {
+    "name": "Stormwall",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Cygnar",
+      "Colossal",
+      "First Army",
+      "Storm Knight"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20stormwall.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 56,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "2": "S",
+                "3": "S",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "2": "S",
+                "3": "S",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "bigGun__f2c095ef": {
+        "type": "ranged",
+        "name": "Big Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "quantity": 2
+      },
+      "chainCannon": {
+        "type": "ranged",
+        "name": "Chain Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": "d3",
+          "power": 10
+        },
+        "quantity": 2,
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "voltaicFist": {
+        "type": "melee",
+        "name": "Voltaic Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 20
+        },
+        "quantity": 2,
+        "abilities": [
+          "electroLeap"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "activateLightningPod",
+      "bulldoze"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "cygnar",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "thunderhead": {
+    "name": "Thunderhead",
+    "faction": "cygnar",
+    "type": "warjack",
+    "keywords": [
+      "Storm Knight",
+      "Cygnar",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cygnar%20thunderhead.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lightningCoil": {
+        "type": "ranged",
+        "name": "Lightning Coil",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "energyPulseAttack",
+          "reload2",
+          "sustainedAttack"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "shockFist__a4b8dc7d": {
+        "type": "melee",
+        "name": "Shock Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "quantity": 2,
+        "abilities": [
+          "sustainedAttack__f210d4c7"
+        ],
+        "qualities": [
+          "criticalDisruption",
+          "throwPowerAttack"
+        ]
+      }
+    }
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "cygnar",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "storm-knights"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  }
+}

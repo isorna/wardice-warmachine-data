@@ -1,0 +1,4233 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "mercenaries",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "barnabasTheConqueror": {
+    "name": "Barnabas the Conqueror",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20barnabas%200.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 4,
+      "arcana": 4,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 8,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "sawtoothAxe": {
+        "type": "melee",
+        "name": "Sawtooth Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shieldOfTheConqueror": {
+        "type": "melee",
+        "name": "Shield of the Conqueror",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "buckler",
+          "damageTypeMagical"
+        ]
+      },
+      "bite__07195ffb": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "bloodQuenched",
+      "fieldMarshalRelentlessCharge",
+      "lesserWarlock",
+      "relentlessCharge"
+    ],
+    "spells": [
+      "escort",
+      "wellOfHate"
+    ]
+  },
+  "barnabasLordOfBlood": {
+    "name": "Barnabas, Lord of Blood",
+    "faction": "mercenaries",
+    "type": "warlock",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Warlock"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20barnabas%20lord%20of%20blood.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 8,
+      "defense": 13,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 18
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "boneCleaver": {
+        "type": "melee",
+        "name": "Bone Cleaver",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "bite__2b7c4c73": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "grievousWounds"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "bodySnatcherBonePile",
+      "deathPowered",
+      "sacrificialPawnBoneShaker",
+      "steady",
+      "tideOfSkulls"
+    ],
+    "spells": [
+      "blackestNight",
+      "bloodRain",
+      "huntersMark",
+      "onslaught"
+    ],
+    "feat": [
+      "deathRitual"
+    ]
+  },
+  "blackhideWrastler": {
+    "name": "Blackhide Wrastler",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20blackhide%20wrastler.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 29,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "bite__270b8a11": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        }
+      },
+      "claw__2b512e19": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "manEater",
+      "rise",
+      "snacking"
+    ],
+    "spells": [
+      "rage"
+    ]
+  },
+  "blindWalker": {
+    "name": "Blind Walker",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Heavy Warbeast",
+      "Gatorman"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20blind%20walker.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 10,
+      "armour": 20,
+      "fury": 3,
+      "threshold": 10,
+      "health": {
+        "total": 29,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "claw__4b176726": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "channeler",
+      "shieldGuard__819aa308"
+    ],
+    "spells": [
+      "whisperingVeil"
+    ]
+  },
+  "bogTrogAmbushers": {
+    "name": "Bog Trog Ambushers",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Unit"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20bog%20trog%20ambushers.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "amphibious",
+      "combinedMeleeAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "fishHook": {
+        "type": "melee",
+        "name": "Fish Hook",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "drag"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4"
+    ]
+  },
+  "bogTrogMistSpeaker": {
+    "name": "Bog Trog Mist Speaker",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20bog%20trog%20mist%20speaker.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "amphibious"
+    ],
+    "weapons": {
+      "barbedHook": {
+        "type": "melee",
+        "name": "Barbed Hook",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "magicAbility",
+      "guidanceAction",
+      "influenceAttack",
+      "shepherdsCallAction",
+      "prowl"
+    ]
+  },
+  "bogTrogTrawler": {
+    "name": "Bog Trog Trawler",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20bog%20trog%20trawler.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 15,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "amphibious",
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "harpoonGun": {
+        "type": "ranged",
+        "name": "Harpoon Gun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "skewer"
+        ]
+      },
+      "thrust": {
+        "type": "melee",
+        "name": "Thrust",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4"
+    ]
+  },
+  "boneShaker": {
+    "name": "Bone Shaker",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20bone%20shakers.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 14
+    },
+    "advantages": [
+      "amphibious",
+      "undead"
+    ],
+    "weapons": {
+      "boneStrike": {
+        "type": "melee",
+        "name": "Bone Strike",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionBarnabasLordOfBlood",
+      "darkShroud",
+      "steady"
+    ]
+  },
+  "boneShrine": {
+    "name": "Bone Shrine",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20bone%20shrine.png",
+    "statistics": {
+      "defense": 5,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "construct"
+    ],
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "channeler",
+      "distantDeployment9",
+      "immobile",
+      "spiritNexus"
+    ]
+  },
+  "boneswarm": {
+    "name": "Boneswarm",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Light Warbeast",
+      "Gatorman"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20boneswarm.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 20,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "undead"
+    ],
+    "weapons": {
+      "boneStrike__e238fc42": {
+        "type": "melee",
+        "name": "Bone Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "deathFeast",
+      "deathPowered",
+      "steady"
+    ],
+    "spells": [
+      "swarm"
+    ]
+  },
+  "bullSnapper": {
+    "name": "Bull Snapper",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20bull%20snapper.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "fury": 2,
+      "threshold": 7,
+      "health": {
+        "total": 16,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "bite__328af71d": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "sustainedAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "manEater",
+      "torpid"
+    ],
+    "spells": [
+      "spinyGrowth"
+    ]
+  },
+  "calabanTheGraveWalker": {
+    "name": "Calaban, The Grave Walker",
+    "faction": "mercenaries",
+    "type": "warlock",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Scout",
+      "Warlock"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20calaban%20the%20grave%20walker.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 15
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "heartStopper": {
+        "type": "ranged",
+        "name": "Heart Stopper",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "graveDoor"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "bite__11abf685": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      },
+      "carcass": {
+        "type": "melee",
+        "name": "Carcass",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "lifeTrader"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "darkPower",
+      "warWeaver"
+    ],
+    "spells": [
+      "carnivore",
+      "deathRattle",
+      "hexBlast",
+      "occultation",
+      "parasite"
+    ],
+    "feat": [
+      "deathHarvest"
+    ]
+  },
+  "captainCrawtooth": {
+    "name": "Captain Crawtooth",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Privateer",
+      "Gatorman",
+      "Solo",
+      "Talion Charter"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20captain%20crawtooth.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "thrownHook": {
+        "type": "ranged",
+        "name": "Thrown Hook",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "drag"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      },
+      "hookStrike": {
+        "type": "melee",
+        "name": "Hook Strike",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      },
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "noSleepingOnTheJobGatorman",
+      "snacking"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "croakHunter": {
+    "name": "Croak Hunter",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20croak%20hunter.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "amphibious",
+      "dualAttack",
+      "pathfinder",
+      "resistanceCorrosion",
+      "stealth"
+    ],
+    "weapons": {
+      "thrownSpear__a8fadd1e": {
+        "type": "ranged",
+        "name": "Thrown Spear",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "poison"
+        ]
+      },
+      "spear__d378da6c": {
+        "type": "melee",
+        "name": "Spear",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "abilities": [
+          "poison"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "gangFighter",
+      "hunter",
+      "reposition3"
+    ]
+  },
+  "croakRaiders": {
+    "name": "Croak Raiders",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Unit"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20croak%20raiders.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "advanceDeployment",
+      "amphibious",
+      "pathfinder",
+      "resistanceCorrosion"
+    ],
+    "weapons": {
+      "flamingDart": {
+        "type": "ranged",
+        "name": "Flaming Dart",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 11
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire"
+        ]
+      },
+      "oilGourd": {
+        "type": "ranged",
+        "name": "Oil Gourd",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2
+        },
+        "abilities": [
+          "alchemicalAccelerant",
+          "cumbersome"
+        ]
+      },
+      "handWeapon": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "prowl"
+    ]
+  },
+  "croakTrappers": {
+    "name": "Croak Trappers",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Unit"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20croak%20trappers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "advanceDeployment",
+      "amphibious",
+      "combinedRangedAttack",
+      "pathfinder",
+      "resistanceCorrosion",
+      "ambush"
+    ],
+    "weapons": {
+      "net__a5fdf629": {
+        "type": "ranged",
+        "name": "Net",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "areaOfEffect": 2
+        },
+        "abilities": [
+          "quake"
+        ]
+      },
+      "handWeapon": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "prowl",
+      "reposition3"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "mercenaries",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "dracodile": {
+    "name": "Dracodile",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gargantuan"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20dracodile.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 20,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 54,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 9
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 9
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 8
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "acidBreath": {
+        "type": "ranged",
+        "name": "Acid Breath",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "blind__b0b6142f"
+        ],
+        "qualities": [
+          "continuousEffectCorrosion",
+          "damageTypeCorrosion",
+          "pistol"
+        ]
+      },
+      "bite__9c2c0e52": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        }
+      },
+      "claw__149ad133": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "tail__139cad4b": {
+        "type": "melee",
+        "name": "Tail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "abilities": [
+          "criticalSmite"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "snacking",
+      "territorial"
+    ],
+    "spells": [
+      "floodwaters"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "mercenaries",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "flugwugTheFilcher": {
+    "name": "Flugwug the Filcher",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Croak",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20flugwug%20the%20filcher.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "resistanceCorrosion",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "stickyTongue": {
+        "type": "ranged",
+        "name": "Sticky Tongue",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 4,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "drag"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "pistol"
+        ]
+      },
+      "stickyFingers": {
+        "type": "melee",
+        "name": "Sticky Fingers",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "jump",
+      "reposition5"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "gatormanBoilMasterSpiritCauldron": {
+    "name": "Gatorman Boil Master & Spirit Cauldron",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Unit"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20boil%20master%20%26%20spirit%20cauldron.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 4,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "cleaver": {
+        "type": "melee",
+        "name": "Cleaver",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4"
+    ],
+    "models": {
+      "boilMaster": {
+        "name": "Boil Master",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 4,
+          "defense": 12,
+          "armour": 16
+        },
+        "advantages": [
+          "amphibious",
+          "tough"
+        ],
+        "weapons": {
+          "cleaver": {
+            "type": "melee",
+            "name": "Cleaver",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 12
+            }
+          }
+        }
+      },
+      "spiritCauldron": {
+        "name": "Spirit Cauldron",
+        "statistics": {
+          "arcaneAttack": 6,
+          "defense": 5,
+          "armour": 18
+        },
+        "advantages": [
+          "construct"
+        ],
+        "abilities": [
+          "bodySnatcherGraveRobber10",
+          "meatForTheBeast",
+          "magicAbility",
+          "puppetMasterAction",
+          "seasoningTheSauceAction",
+          "spectralLashAttack",
+          "specialDelivery"
+        ]
+      }
+    }
+  },
+  "gatormanBokorBogTrogSwampShamblers": {
+    "name": "Gatorman Bokor & Bog Trog Swamp Shamblers",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Unit"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20gatorman%20bokor%20%26%20bog%20trog%20swamp%20shamblers.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 5,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      },
+      "tailStrike__f767b095": {
+        "type": "melee",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "deathMagic",
+      "magicAbility",
+      "handOfGloryAttack",
+      "grimReturnsAction"
+    ],
+    "models": {
+      "bokor": {
+        "name": "Bokor",
+        "statistics": {
+          "speed": 5,
+          "arcaneAttack": 5,
+          "meleeAttack": 5,
+          "defense": 12,
+          "armour": 16,
+          "health": 8
+        },
+        "advantages": [
+          "amphibious",
+          "tough"
+        ],
+        "abilities": [
+          "deathMagic",
+          "magicAbility",
+          "handOfGloryAttack",
+          "grimReturnsAction"
+        ],
+        "weapons": {
+          "bite__3c226e76": {
+            "type": "melee",
+            "name": "Bite",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 12
+            }
+          },
+          "tailStrike__f767b095": {
+            "type": "melee",
+            "name": "Tail Strike",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 4,
+          "defense": 10,
+          "armour": 13,
+          "health": 8
+        },
+        "advantages": [
+          "amphibious",
+          "combinedMeleeAttack",
+          "undead"
+        ],
+        "weapons": {
+          "claws__720cee8f": {
+            "type": "melee",
+            "name": "Claws",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "gatormanHusk": {
+    "name": "Gatorman Husk",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20gatorman%20husk.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "amphibious",
+      "undead"
+    ],
+    "weapons": {
+      "claws__c6ff91b9": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "carnivorousSwarm",
+      "eruptionOfFlies",
+      "hyperAggressive"
+    ]
+  },
+  "gatormanPosse": {
+    "name": "Gatorman Posse",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Unit"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "3",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20gatorman%20posse.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        }
+      },
+      "gatormanWeapon": {
+        "type": "melee",
+        "name": "Gatorman Weapon",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "bloodthirst",
+      "unyielding"
+    ]
+  },
+  "gatormanSoulSlave": {
+    "name": "Gatorman Soul Slave",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "1",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20gatorman%20soul%20slave.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 4,
+      "meleeAttack": 4,
+      "defense": 10,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "undead"
+    ],
+    "weapons": {
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "arcaneAssist",
+      "magicAbility",
+      "deathRattleAttack",
+      "spellSlaveActionOrAttack",
+      "mentalForce"
+    ]
+  },
+  "gatormanWitchDoctor": {
+    "name": "Gatorman Witch Doctor",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20gatorman%20witch%20doctor.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "bite__e63b5c64": {
+        "type": "melee",
+        "name": "BIte",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      },
+      "sacralBlade": {
+        "type": "melee",
+        "name": "Sacral Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "magicAbility",
+      "deathRideAction",
+      "ghostWalkAction",
+      "sacrificialStrikeAction"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "ironbackSpitter": {
+    "name": "Ironback Spitter",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20ironback%20spitter.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 18,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 29,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "headbuttPowerAttack"
+    ],
+    "weapons": {
+      "spitBlast": {
+        "type": "ranged",
+        "name": "Spit Blast",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "qualities": [
+          "continuousEffectCorrosion",
+          "damageTypeCorrosion"
+        ]
+      },
+      "bite__3ccdd592": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 15
+        }
+      },
+      "claw__301d1f1d": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "carapace",
+      "retaliatoryStrike"
+    ],
+    "spells": [
+      "counterblast"
+    ]
+  },
+  "jagaJagaTheDeathCharmer": {
+    "name": "Jaga-Jaga, the Death Charmer",
+    "faction": "mercenaries",
+    "type": "warlock",
+    "keywords": [
+      "Mercenary",
+      "Gatorman",
+      "Warlock",
+      "Blindwater Congregation"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20jaga%20jaga%20the%20death%20charmer.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 16
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "serpentStrike": {
+        "type": "melee",
+        "name": "Serpent Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "poison"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "fieldMarshalDeathRage"
+    ],
+    "spells": [
+      "deadweight",
+      "escort",
+      "ghostWalk",
+      "graveWind",
+      "signsPortents"
+    ],
+    "feat": [
+      "vengefulSpirits__885c4819"
+    ]
+  },
+  "kwaakSlickspineGub": {
+    "name": "Kwaak Slickspine & Gub",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20kwaak%20slickspine%20%26%20gub%20croak%20sorcerers.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "meleeAttack": 4,
+      "defense": 12,
+      "armour": 15,
+      "health": 5
+    },
+    "advantages": [
+      "amphibious",
+      "resistanceCorrosion"
+    ],
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "magicAbility",
+      "enlivenAction",
+      "healD3Action",
+      "mudFootAttack",
+      "venomAttack",
+      "shareTheLoad"
+    ]
+  },
+  "longchops": {
+    "name": "Longchops",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20longchops.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "amphibious",
+      "dualAttack",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "heavyRifle": {
+        "type": "ranged",
+        "name": "Heavy Rifle",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 14
+        }
+      },
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "headShot",
+      "reposition3"
+    ]
+  },
+  "maelokTheDreadbound": {
+    "name": "Maelok the Dreadbound",
+    "faction": "mercenaries",
+    "type": "warlock",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Warlock"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20maelok%20the%20dreadbound.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "amphibious",
+      "undead"
+    ],
+    "weapons": {
+      "bite__2935467f": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "essenceReaver"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "claws__b4cfd1dc": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "fieldMarshalUndead",
+      "soulTakerSpiritEater"
+    ],
+    "spells": [
+      "deathPact",
+      "mortality",
+      "revive",
+      "soulVoid",
+      "venom"
+    ],
+    "feat": [
+      "spiritWorld"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "sacralVault": {
+    "name": "Sacral Vault",
+    "faction": "mercenaries",
+    "type": "battleEngine",
+    "keywords": [
+      "Blindwater Congregation",
+      "Gatorman",
+      "Battle Engine"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20sacral%20vault.png",
+    "statistics": {
+      "speed": 4,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": 30
+    },
+    "advantages": [
+      "construct",
+      "eyelessSight",
+      "pathfinder"
+    ],
+    "weapons": {
+      "spectralFury": {
+        "type": "ranged",
+        "name": "Spectral Fury",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "deathlyDomination__b0bc277d",
+          "devourSoul",
+          "soulFired2"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "soulstorm",
+      "soulTakerCryptOfSouls",
+      "spectralVortex",
+      "strengthOfDeath__05e22232",
+      "telemetry"
+    ]
+  },
+  "snapjaw": {
+    "name": "Snapjaw",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Gatorman",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20snapjaw.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 27,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "bite__2dfec88c": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 18
+        }
+      },
+      "tail": {
+        "type": "melee",
+        "name": "Tail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      }
+    },
+    "abilities": [
+      "bloodthirst",
+      "bondWrongEye",
+      "companionWrongEye",
+      "manEater"
+    ],
+    "spells": [
+      "submerge"
+    ]
+  },
+  "swampGobberBellowsCrew": {
+    "name": "Swamp Gobber Bellows Crew",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Unit"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "1",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20swamp%20gobber%20bellows%20crew.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 3,
+      "defense": 14,
+      "armour": 11
+    },
+    "weapons": {
+      "handWeapon__d3a1cd72": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 3,
+          "range": 1,
+          "power": 5
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "smokeBombsAction",
+      "takeUp"
+    ],
+    "models": {
+      "bellower": {
+        "name": "Bellower",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 3,
+          "defense": 14,
+          "armour": 11
+        },
+        "abilities": [
+          "smokeBombsAction",
+          "takeUp"
+        ],
+        "weapons": {
+          "handWeapon__d3a1cd72": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 3,
+              "range": 1,
+              "power": 5
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 3,
+          "defense": 14,
+          "armour": 11
+        },
+        "weapons": {
+          "handWeapon__d3a1cd72": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 3,
+              "range": 1,
+              "power": 5
+            }
+          }
+        }
+      }
+    }
+  },
+  "swampGobberChef": {
+    "name": "Swamp Gobber Chef",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20swamp%20gobber%20chef.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 14,
+      "armour": 11
+    },
+    "weapons": {
+      "cleaver__c8659173": {
+        "type": "melee",
+        "name": "Cleaver",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "stewsOn"
+    ]
+  },
+  "swampHorror": {
+    "name": "Swamp Horror",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Heavy Warbeast",
+      "Gatorman"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "4",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20swamp%20horror.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "beak__95a76270": {
+        "type": "melee",
+        "name": "Beak",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "abilities": [
+          "criticalAmputation"
+        ]
+      },
+      "tentacle": {
+        "type": "melee",
+        "name": "Tentacle",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 12
+        },
+        "quantity": 3,
+        "abilities": [
+          "drag"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "imperviousFlesh",
+      "steady"
+    ],
+    "spells": [
+      "elasticity"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "thrullg": {
+    "name": "Thrullg",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20thrullg.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "pathfinder"
+    ],
+    "weapons": {
+      "claw__52cdbe5f": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "arcaneInterference"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "tentacles": {
+        "type": "melee",
+        "name": "Tentacles",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "arcaneInterference"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "arcaneConsumption",
+      "prowl",
+      "spellWard__692ef090"
+    ]
+  },
+  "underchiefMire": {
+    "name": "Underchief Mire",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Croak",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20underchief%20mire.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 4,
+      "arcana": 4,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 14,
+      "controlRange": 8,
+      "health": 5
+    },
+    "advantages": [
+      "amphibious",
+      "pathfinder",
+      "resistanceCorrosion"
+    ],
+    "weapons": {
+      "spear__d378da6c": {
+        "type": "melee",
+        "name": "Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 10
+        },
+        "abilities": [
+          "poison"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "attunedSpirit",
+      "lesserWarlock"
+    ],
+    "spells": [
+      "causticMist",
+      "wealdSecrets"
+    ]
+  },
+  "voidLeech": {
+    "name": "Void Leech",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Bog Trog",
+      "Blindwater Congregation"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "4",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20void%20leech.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 4,
+      "defense": 10,
+      "armour": 13
+    },
+    "advantages": [
+      "amphibious"
+    ],
+    "weapons": {
+      "claws__46eea391": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "mageStatic",
+      "wastingPower"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "wrongEye": {
+    "name": "Wrong Eye",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Gatorman",
+      "Solo"
+    ],
+    "armies": [
+      "blindwater-congregation"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20wrong%20eye.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 4,
+      "arcana": 4,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17,
+      "controlRange": 8,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "tough"
+    ],
+    "weapons": {
+      "bite__292ebcfa": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "lifeDrinker"
+        ]
+      },
+      "swampHook": {
+        "type": "melee",
+        "name": "Swamp Hook",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "lesserWarlock"
+    ],
+    "spells": [
+      "influence",
+      "starCrossed"
+    ]
+  }
+}

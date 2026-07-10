@@ -1,0 +1,4794 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "menoth",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "allegiantOfTheOrderOfTheFist": {
+    "name": "Allegiant of the Order of the Fist",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Protectorate",
+      "Solo",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20allegiant%20of%20the%20order%20of%20the%20fist.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "unstopable",
+      "tough"
+    ],
+    "weapons": {
+      "punchingGauntlet": {
+        "type": "melee",
+        "name": "Punching Gauntlet",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 2,
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "shiftingSandsStance",
+      "sideStep",
+      "steady"
+    ]
+  },
+  "bloodOfMartyrs": {
+    "name": "Blood of Martyrs",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Protectorate",
+      "Heavy Warjack",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20blood%20of%20martyrs.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "blade__1085156f": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "quantity": 2,
+        "abilities": [
+          "grievousWounds__93aabb43"
+        ]
+      }
+    },
+    "abilities": [
+      "bondThyra",
+      "handOfVengeance",
+      "sideStep"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "castigator": {
+    "name": "Castigator",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Temple Guardians",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20castigator.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "gladiator",
+      "headbuttPowerAttack",
+      "resistanceFire",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "flameFist": {
+        "type": "melee",
+        "name": "Flame Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "continuousEffectFire",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil",
+      "combustionAttack"
+    ]
+  },
+  "choirOfMenoth": {
+    "name": "Choir of Menoth",
+    "faction": "menoth",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20choir%20of%20menoth.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 12,
+      "armour": 12
+    },
+    "weapons": {
+      "battleStaff": {
+        "type": "melee",
+        "name": "Battle Staff",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 2,
+          "power": 6
+        }
+      }
+    },
+    "abilities": [
+      "hymn",
+      "battleAction",
+      "passageAction",
+      "shieldingAction"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "menoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "daughtersOfTheFlame": {
+    "name": "Daughters of the Flame",
+    "faction": "menoth",
+    "type": "unit",
+    "keywords": [
+      "Temple Guardians",
+      "Unit"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20daughters%20of%20the%20flame.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "sword__38b9fdf2": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ]
+      }
+    },
+    "abilities": [
+      "acrobatics",
+      "anatomicalPrecision"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "menoth",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "dervish": {
+    "name": "Dervish",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20dervish.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "sword__1b7d716c": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "sideStep__84be4050"
+    ]
+  },
+  "devout": {
+    "name": "Devout",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20devout.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shield__5b287043": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "poleAxe": {
+        "type": "melee",
+        "name": "Pole Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "defensiveStrike",
+      "shieldGuard__fca004fb"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "menoth",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "eyeOfTruth": {
+    "name": "Eye of Truth",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Temple Guardians",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20eye%20of%20truth.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceFire",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "gazeOfJustice": {
+        "type": "ranged",
+        "name": "Gaze of Justice",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "H",
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "shield__4563fe92": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "holyWrath": {
+        "type": "melee",
+        "name": "Holy Wrath",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "qualities": [
+          "criticalFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil",
+      "bondMalekus",
+      "holyLight"
+    ]
+  },
+  "feoraPriestessOfTheFlame": {
+    "name": "Feora, Priestess of the Flame",
+    "faction": "menoth",
+    "type": "warcaster",
+    "keywords": [
+      "Temple Guardians",
+      "Flameguard",
+      "Warcaster"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20feora%20priestess%20of%20the%20flame.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "flamethrower__33772a2e": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "truthConsequence": {
+        "type": "melee",
+        "name": "Truth & Consequence",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "criticalFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "whipTheFlames"
+    ],
+    "spells": [
+      "avengingForce",
+      "convection",
+      "fireStep",
+      "hexHammer",
+      "incite"
+    ],
+    "feat": [
+      "scorchedEarth"
+    ]
+  },
+  "flameBringers": {
+    "name": "Flame Bringers",
+    "faction": "menoth",
+    "type": "unit",
+    "keywords": [
+      "Temple Guardians",
+      "Unit"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20flame%20bringers.png",
+    "statistics": {
+      "speed": 9,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 15
+    },
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "sword__c1c6a6dc": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalGrievousWounds"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "acrobatics",
+      "reposition5",
+      "sideStep"
+    ]
+  },
+  "flameguardCleanserOfficer": {
+    "name": "Flameguard Cleanser Officer",
+    "faction": "menoth",
+    "type": "commandAttachment",
+    "keywords": [
+      "Temple Guardians",
+      "Command Attachment"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20flameguard%20cleanser%20officer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "purifier": {
+        "type": "ranged",
+        "name": "Purifier",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "purifierBlade": {
+        "type": "melee",
+        "name": "Purifier Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentFlameguardCleanser",
+      "ashenVeil",
+      "missionObjective"
+    ]
+  },
+  "flameguardCleansers": {
+    "name": "Flameguard Cleansers",
+    "faction": "menoth",
+    "type": "unit",
+    "keywords": [
+      "Temple Guardians",
+      "Unit"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20flameguard%20cleansers.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 14
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "purifier": {
+        "type": "ranged",
+        "name": "Purifier",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "purifierBlade": {
+        "type": "melee",
+        "name": "Purifier Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "guardian": {
+    "name": "Guardian",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Protectorate",
+      "Heavy Warjack",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20guardian.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "openFist__4e1d2a15": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "pike__1873edfb": {
+        "type": "melee",
+        "name": "Pike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "criticalPitch",
+          "powerfulCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "setDefense"
+    ]
+  },
+  "handOfJudgment": {
+    "name": "Hand of Judgment",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Temple Guardians",
+      "Heavy Warjack",
+      "Protectorate"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20hand%20of%20judgment.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceFire",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "immolatorCannon": {
+        "type": "ranged",
+        "name": "Immolator Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "location": "L",
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "flameOfTruth": {
+        "type": "melee",
+        "name": "Flame of Truth",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "flameBurst"
+        ],
+        "qualities": [
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "blazingWrath",
+      "bondFeora",
+      "fuelForTheFlames5"
+    ]
+  },
+  "highAllegiantAmonAdRaza": {
+    "name": "High Allegiant Amon Ad-Raza",
+    "faction": "menoth",
+    "type": "warcaster",
+    "keywords": [
+      "Protectorate",
+      "Warcaster",
+      "Temple Guardians",
+      "Scout"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20high%20allegiant%20amon%20ad%20raza.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 16,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "pathfinder",
+      "unstopable",
+      "tough"
+    ],
+    "weapons": {
+      "oblivion": {
+        "type": "melee",
+        "name": "Oblivion",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalUnstoppable__d8b969f4",
+      "steady",
+      "resourceful"
+    ],
+    "spells": [
+      "convection",
+      "flashingBlade",
+      "fortify",
+      "mobility",
+      "synergy"
+    ],
+    "feat": [
+      "union"
+    ]
+  },
+  "indictor": {
+    "name": "Indictor",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Protectorate",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20indictor.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shield__2f51169c": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "banisher": {
+        "type": "melee",
+        "name": "Banisher",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R",
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "consecration",
+      "sacredWard"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "judicator": {
+    "name": "Judicator",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Final Interdiction",
+      "Temple Guardians",
+      "Colossal"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20judicator.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 8,
+      "armour": 19,
+      "health": {
+        "total": 60,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "rocketPod": {
+        "type": "ranged",
+        "name": "Rocket Pod",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 13,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "quantity": 2
+      },
+      "flamethrower__bf4a64a8": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP  8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "fist__3f36dddf": {
+        "type": "melee",
+        "name": "Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 21
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "reliquary"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "menoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "menoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "malekusTheBurningTruth": {
+    "name": "Malekus, the Burning Truth",
+    "faction": "menoth",
+    "type": "warcaster",
+    "keywords": [
+      "Temple Guardians",
+      "Flameguard",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20malekus%20the%20burning%20truth.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 18
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "scouringFlames": {
+        "type": "ranged",
+        "name": "Scouring Flames",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "burningBlades": {
+        "type": "melee",
+        "name": "Burning Blades",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil",
+      "fieldMarshalBlazingWrath"
+    ],
+    "spells": [
+      "banishingWard",
+      "ignite",
+      "immolation",
+      "openFire",
+      "scourge"
+    ],
+    "feat": [
+      "ragingInferno"
+    ]
+  },
+  "niciaTearOfVengeance": {
+    "name": "Nicia, Tear of Vengeance",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Temple Guardians",
+      "Solo"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20nicia%20tear%20of%20vengeance.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "dualAttack",
+      "pathfinder",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "swordCannon": {
+        "type": "ranged",
+        "name": "Sword Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "blade__11842a4d": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 10
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "acrobatics",
+      "sprint"
+    ]
+  },
+  "purifier": {
+    "name": "Purifier",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Temple Guardians",
+      "Light Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20purifier.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "resistanceFire",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "immolator": {
+        "type": "melee",
+        "name": "Immolator",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "chainWeapon",
+          "continuousEffectFire"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil",
+      "flameTrail",
+      "overtake"
+    ]
+  },
+  "pyrrhusFlameguardHero": {
+    "name": "Pyrrhus, Flameguard Hero",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Temple Guardians",
+      "Solo"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20pyrrhus%20flameguard%20hero.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "flameSpear__fef04cb8": {
+        "type": "melee",
+        "name": "Flame Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "criticalFire",
+          "weaponMaster"
+        ]
+      },
+      "shield__5591af08": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "abilities": [
+          "beatBack"
+        ],
+        "qualities": [
+          "shield",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan__c0764839",
+      "fightToTheLast",
+      "precisionStrike",
+      "stirTheBlood",
+      "impenetrableShield",
+      "relentlessCharge__bfa913af",
+      "setDefense",
+      "steady"
+    ]
+  },
+  "reckoner": {
+    "name": "Reckoner",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Temple Guardians",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20reckoner.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceFire",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "condemner": {
+        "type": "ranged",
+        "name": "Condemner",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "L",
+        "abilities": [
+          "flare"
+        ],
+        "qualities": [
+          "criticalFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "consecrator": {
+        "type": "melee",
+        "name": "Consecrator",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "R",
+        "qualities": [
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil"
+    ]
+  },
+  "redeemer": {
+    "name": "Redeemer",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20redeemer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 12,
+      "armour": 17,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "skyhammer": {
+        "type": "ranged",
+        "name": "Skyhammer",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/6"
+        },
+        "location": "L",
+        "abilities": [
+          "reload2"
+        ]
+      },
+      "battleMace__b86421f8": {
+        "type": "melee",
+        "name": "Battle Mace",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "R"
+      }
+    }
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "repenter": {
+    "name": "Repenter",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20repenter.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 17,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "flamethrower__cc01362d": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "warFlail": {
+        "type": "melee",
+        "name": "War Flail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "R",
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    }
+  },
+  "revelator": {
+    "name": "Revelator",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Final Interdiction",
+      "Temple Guardians",
+      "Colossal"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 28,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20revelator.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 8,
+      "armour": 19,
+      "health": {
+        "total": 60,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "conflagrator": {
+        "type": "ranged",
+        "name": "Conflagrator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "abilities": [
+          "eruptionOfAsh"
+        ],
+        "qualities": [
+          "criticalFire",
+          "damageTypeFire"
+        ]
+      },
+      "lightBringer": {
+        "type": "ranged",
+        "name": "Light Bringer",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "flare"
+        ],
+        "qualities": [
+          "damageTypeFire"
+        ]
+      },
+      "fist__3f36dddf": {
+        "type": "melee",
+        "name": "Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 21
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "feretory"
+    ]
+  },
+  "revenger": {
+    "name": "Revenger",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20revenger.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "A",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "A",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "arcNode",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "halberd__14ff36bf": {
+        "type": "melee",
+        "name": "Halberd",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "location": "R",
+        "abilities": [
+          "powerfulCharge"
+        ]
+      },
+      "repulsorShield": {
+        "type": "melee",
+        "name": "Repulsor Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "location": "L",
+        "abilities": [
+          "repel"
+        ],
+        "qualities": [
+          "shield"
+        ]
+      }
+    }
+  },
+  "sanctifier": {
+    "name": "Sanctifier",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Temple Guardians",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20sanctifier.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "resistanceFire",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "openFist__4e1d2a15": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "graveMaker": {
+        "type": "melee",
+        "name": "Grave Maker",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "R",
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil",
+      "exorcist",
+      "soulTakerCenotaph"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "templeFlameguard": {
+    "name": "Temple Flameguard",
+    "faction": "menoth",
+    "type": "unit",
+    "keywords": [
+      "Temple Guardians",
+      "Unit"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20temple%20flameguard.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 13
+    },
+    "advantages": [
+      "combinedMeleeAttack"
+    ],
+    "weapons": {
+      "flameSpear": {
+        "type": "melee",
+        "name": "Flame Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "criticalFire"
+        ]
+      },
+      "shield__0259bc32": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "setDefense",
+      "shieldWall"
+    ]
+  },
+  "templeFlameguardOfficerStandard": {
+    "name": "Temple Flameguard Officer & Standard",
+    "faction": "menoth",
+    "type": "commandAttachment",
+    "keywords": [
+      "Temple Guardians",
+      "Protectorate",
+      "Command Attachment"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20temple%20flameguard%20officer%20%26%20standard.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "combinedMeleeAttack"
+    ],
+    "weapons": {
+      "flameSpear": {
+        "type": "melee",
+        "name": "Flame Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "criticalFire"
+        ]
+      },
+      "shield__0259bc32": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentTempleFlameguard",
+      "grantedShieldGuard",
+      "setDefense",
+      "shieldWall"
+    ],
+    "models": {
+      "officer": {
+        "name": "Officer",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 6,
+          "defense": 13,
+          "armour": 13,
+          "health": 5
+        },
+        "advantages": [
+          "combinedMeleeAttack"
+        ],
+        "abilities": [
+          "grantedShieldGuard",
+          "setDefense",
+          "shieldWall"
+        ],
+        "weapons": {
+          "flameSpear": {
+            "type": "melee",
+            "name": "Flame Spear",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 10
+            },
+            "qualities": [
+              "criticalFire"
+            ]
+          },
+          "shield__0259bc32": {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      },
+      "standardBearer": {
+        "name": "Standard Bearer",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 6,
+          "defense": 13,
+          "armour": 13,
+          "health": 5
+        },
+        "abilities": [
+          "grantedRise",
+          "setDefense",
+          "shieldWall",
+          "takeUp"
+        ],
+        "weapons": {
+          "shield__0259bc32": {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "thyraFlameOfSorrow": {
+    "name": "Thyra, Flame of Sorrow",
+    "faction": "menoth",
+    "type": "warcaster",
+    "keywords": [
+      "Temple Guardians",
+      "Flameguard",
+      "Warcaster"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20thyra%20flame%20of%20sorrow.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 8,
+      "defense": 17,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "pathfinder",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "griefLament": {
+        "type": "melee",
+        "name": "Grief & Lament",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "acrobatics",
+      "eliteCadreDaughtersOfTheFlame",
+      "gatesOfDeath",
+      "overtake"
+    ],
+    "spells": [
+      "carnage",
+      "occultation",
+      "silenceOfDeath",
+      "stranglehold"
+    ],
+    "feat": [
+      "shadowsOfUrcaen"
+    ]
+  },
+  "vassalMechanik": {
+    "name": "Vassal Mechanik",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "3",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20vassal%20mechanik.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 4,
+      "defense": 12,
+      "armour": 12
+    },
+    "weapons": {
+      "multiTool__e4a8789f": {
+        "type": "melee",
+        "name": "Multi Tool",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "repairD31Action"
+    ]
+  },
+  "vassalOfMenoth": {
+    "name": "Vassal of Menoth",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20vassal%20of%20menoth.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 4,
+      "defense": 12,
+      "armour": 12
+    },
+    "abilities": [
+      "ironSentinel",
+      "magicAbility__0cffaca0",
+      "arcaneBoltAttack",
+      "empowerAction__e131c030",
+      "enlivenAction"
+    ]
+  },
+  "vesselOfJudgment": {
+    "name": "Vessel of Judgment",
+    "faction": "menoth",
+    "type": "battleEngine",
+    "keywords": [
+      "Temple Guardians",
+      "Battle Engine"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "2",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20vessel%20of%20judgment.png",
+    "statistics": {
+      "speed": 4,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 20,
+      "health": 32
+    },
+    "advantages": [
+      "construct",
+      "gunfighter",
+      "pathfinder",
+      "resistanceFire",
+      "unstopable"
+    ],
+    "weapons": {
+      "divineWrath": {
+        "type": "ranged",
+        "name": "Divine Wrath",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "abilities": [
+          "admonisher"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "destructivePower",
+      "holyReliquary",
+      "bondsOfFaith",
+      "doorsOfJudgment",
+      "eruptionOfFaith",
+      "godsWrath"
+    ]
+  },
+  "vigilant": {
+    "name": "Vigilant",
+    "faction": "menoth",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack",
+      "Protectorate",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20vigilant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "resistanceBlast",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shieldFists": {
+        "type": "melee",
+        "name": "Shield Fists",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "qualities": [
+          "shield",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "girded",
+      "roadblock__67d34acf"
+    ]
+  },
+  "visgothJuviahRhovenHonorGuard": {
+    "name": "Visgoth Juviah Rhoven & Honor Guard",
+    "faction": "menoth",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Protectorate",
+      "Exemplar",
+      "Final Interdiction",
+      "Temple Guardians"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20visgoth%20juviah%20rhoven%20%26%20honor%20guard.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "weapons": {
+      "staffOfSulon": {
+        "type": "melee",
+        "name": "Staff of Sulon",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard__41cb4e8f",
+      "magicAbility__0cffaca0",
+      "cleansingFireAttack",
+      "menothSSightAction",
+      "purifyingPrayerAction"
+    ],
+    "models": {
+      "rhoven1": {
+        "name": "Rhoven 1",
+        "statistics": {
+          "speed": 5,
+          "arcaneAttack": 7,
+          "meleeAttack": 6,
+          "defense": 12,
+          "armour": 16
+        },
+        "abilities": [
+          "battleWizard__41cb4e8f",
+          "magicAbility__0cffaca0",
+          "cleansingFireAttack",
+          "menothSSightAction",
+          "purifyingPrayerAction"
+        ],
+        "weapons": {
+          "staffOfSulon": {
+            "type": "melee",
+            "name": "Staff of Sulon",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 12
+            },
+            "qualities": [
+              "continuousEffectFire",
+              "damageTypeMagical"
+            ]
+          }
+        }
+      },
+      "gius1Cassian1": {
+        "name": "Gius 1 & Cassian 1",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 7,
+          "defense": 12,
+          "armour": 16
+        },
+        "abilities": [
+          "setDefense__3b2bf550",
+          "shieldGuard"
+        ],
+        "weapons": {
+          "consecratedHalberd": {
+            "type": "melee",
+            "name": "Consecrated Halberd",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 11
+            },
+            "qualities": [
+              "weaponMaster",
+              "blessed",
+              "damageTypeMagical"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "menoth",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "wrack": {
+    "name": "Wrack",
+    "faction": "menoth",
+    "type": "solo",
+    "keywords": [
+      "Temple Guardians",
+      "Solo"
+    ],
+    "armies": [
+      "temple-guardians"
+    ],
+    "fieldAllowance": "3",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20protectorate%20wrack.png",
+    "statistics": {
+      "defense": 5,
+      "armour": 10
+    },
+    "abilities": [
+      "distantDeployment9",
+      "fieryBlast",
+      "immobile",
+      "sufferingsPrayer"
+    ]
+  }
+}

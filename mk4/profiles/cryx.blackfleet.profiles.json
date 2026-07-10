@@ -8,7 +8,7 @@
       "Super Heavy Monstrosity"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -169,412 +169,62 @@
       "imperviousFlesh"
     ]
   },
-  "baneKnightOfficer": {
-    "name": "Bane Knight Officer",
-    "faction": "cryx",
-    "type": "commandAttachment",
-    "keywords": [
-      "Command Attachment",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "3",
-    "points": 2,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bane%20knight%20officer.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 16,
-      "health": 5
-    },
-    "advantages": [
-      "undead"
-    ],
-    "weapons": {
-      "baneLance": {
-        "type": "melee",
-        "name": "Bane Lance",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 12
-        },
-        "abilities": [
-          "brutalCharge"
-        ]
-      },
-      "shield": {
-        "type": "melee",
-        "name": "Shield",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 10
-        }
-      }
-    },
-    "abilities": [
-      "commandAttachmentBaneKnight",
-      "ghostly",
-      "grantedSetDefense",
-      "serpentSCoil",
-      "shieldWall"
-    ]
-  },
-  "baneKnights": {
-    "name": "Bane Knights",
-    "faction": "cryx",
-    "type": "unit",
-    "keywords": [
-      "Unit",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "3",
-    "points": 7,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bane%20knights.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 16
-    },
-    "advantages": [
-      "undead"
-    ],
-    "weapons": {
-      "baneLance": {
-        "type": "melee",
-        "name": "Bane Lance",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 12
-        },
-        "abilities": [
-          "brutalCharge"
-        ]
-      },
-      "shield": {
-        "type": "melee",
-        "name": "Shield",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 10
-        }
-      }
-    },
-    "abilities": [
-      "ghostly",
-      "shieldWall"
-    ]
-  },
-  "baneLordTartarus": {
-    "name": "Bane Lord Tartarus",
+  "aiakosScourgeOfTheMeredius": {
+    "name": "Aiakos, Scourge of the Meredius",
     "faction": "cryx",
     "type": "solo",
     "keywords": [
+      "Cryx",
       "Solo",
-      "Cryx",
-      "Dark Host"
+      "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
-    "points": 5,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bane%20lord%20tartarus.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 7,
-      "defense": 12,
-      "armour": 17,
-      "health": 8
-    },
-    "advantages": [
-      "stealth",
-      "undead"
-    ],
-    "weapons": {
-      "rivener": {
-        "type": "melee",
-        "name": "Rivener",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 12
-        },
-        "abilities": [
-          "deathTollSmallBasedBane"
-        ],
-        "qualities": [
-          "weaponMaster"
-        ]
-      }
-    },
-    "abilities": [
-      "curseBane",
-      "darkShroud__348feb07",
-      "ghostly",
-      "rapidStrike"
-    ]
-  },
-  "baneRiders": {
-    "name": "Bane Riders",
-    "faction": "cryx",
-    "type": "unit",
-    "keywords": [
-      "Unit",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "2",
-    "points": 9,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bane%20riders.png",
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 18
-    },
-    "advantages": [
-      "cavalry",
-      "undead",
-      "unstopable"
-    ],
-    "weapons": {
-      "baneBlade": {
-        "type": "melee",
-        "name": "Bane Blade",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 13
-        },
-        "abilities": [
-          "brutalCharge"
-        ]
-      }
-    },
-    "abilities": [
-      "cleave",
-      "ghostly__910100df",
-      "reposition3",
-      "vengeance"
-    ]
-  },
-  "baneWarriorOfficerStandard": {
-    "name": "Bane Warrior Officer & Standard",
-    "faction": "cryx",
-    "type": "commandAttachment",
-    "keywords": [
-      "Command Attachment",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "3",
-    "points": 3,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bane%20warrior%20officer%20%26%20standard.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 15
-    },
-    "advantages": [
-      "undead",
-      "stealth"
-    ],
-    "weapons": {
-      "warAxe__5f22772d": {
-        "type": "melee",
-        "name": "War Axe",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 11
-        },
-        "quantity": 2,
-        "qualities": [
-          "weaponMaster"
-        ]
-      }
-    },
-    "abilities": [
-      "attachmentBaneWarrior",
-      "darkShroud",
-      "ghostly",
-      "grantedTough",
-      "voidBringer"
-    ],
-    "models": {
-      "officer": {
-        "name": "Officer",
-        "statistics": {
-          "speed": 5,
-          "meleeAttack": 6,
-          "defense": 12,
-          "armour": 15
-        },
-        "advantages": [
-          "undead",
-          "stealth"
-        ],
-        "abilities": [
-          "darkShroud",
-          "ghostly",
-          "grantedTough",
-          "voidBringer"
-        ],
-        "weapons": {
-          "warAxe__5f22772d": {
-            "type": "melee",
-            "name": "War Axe",
-            "statistics": {
-              "meleeAttack": 6,
-              "range": 1,
-              "power": 11
-            },
-            "quantity": 2,
-            "qualities": [
-              "weaponMaster"
-            ]
-          }
-        }
-      },
-      "standardBearer": {
-        "name": "Standard Bearer",
-        "statistics": {
-          "speed": 5,
-          "meleeAttack": 6,
-          "defense": 12,
-          "armour": 15
-        },
-        "advantages": [
-          "undead",
-          "stealth"
-        ],
-        "abilities": [
-          "darkShroud",
-          "ghostly",
-          "grantedRise",
-          "takeUp"
-        ],
-        "weapons": {
-          "warAxe": {
-            "type": "melee",
-            "name": "War Axe",
-            "statistics": {
-              "meleeAttack": 6,
-              "range": 1,
-              "power": 11
-            },
-            "qualities": [
-              "weaponMaster"
-            ]
-          }
-        }
-      }
-    }
-  },
-  "baneWarriors": {
-    "name": "Bane Warriors",
-    "faction": "cryx",
-    "type": "unit",
-    "keywords": [
-      "Unit",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "3",
-    "points": 7,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bane%20warriors.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 15
-    },
-    "advantages": [
-      "undead",
-      "stealth"
-    ],
-    "weapons": {
-      "warAxe": {
-        "type": "melee",
-        "name": "War Axe",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 11
-        },
-        "qualities": [
-          "weaponMaster"
-        ]
-      }
-    },
-    "abilities": [
-      "darkShroud__348feb07",
-      "ghostly__910100df"
-    ]
-  },
-  "baneWitchAgathia": {
-    "name": "Bane Witch Agathia",
-    "faction": "cryx",
-    "type": "warcaster",
-    "keywords": [
-      "Cryx",
-      "Dark Host",
-      "Scout",
-      "Warcaster"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bane%20witch%20agathia.png",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20aiakos%20scourge%20of%20the%20meredius.png",
     "statistics": {
       "speed": 6,
-      "arcaneAttack": 7,
-      "arcana": 7,
-      "meleeAttack": 7,
-      "defense": 15,
-      "armour": 15,
-      "controlRange": 12,
-      "health": 16
+      "arcana": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 14,
+      "controlRange": 8,
+      "health": 5
     },
     "advantages": [
-      "undead"
+      "dualAttack",
+      "stealth"
     ],
     "weapons": {
-      "deathKiss": {
-        "type": "melee",
-        "name": "Death Kiss",
+      "harpoon__b95d731f": {
+        "type": "ranged",
+        "name": "Harpoon",
         "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "skewer"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "killingBlade": {
+        "type": "melee",
+        "name": "Killing Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
           "power": 12
         },
         "abilities": [
-          "bloodShadow"
+          "grievousWounds"
         ],
         "qualities": [
           "damageTypeMagical"
@@ -582,20 +232,366 @@
       }
     },
     "abilities": [
-      "apparition",
-      "darkShroud__12de294d",
-      "fieldMarshalBloodShadow",
-      "soulTakerCullSoul"
+      "journeymanWarcaster",
+      "jump"
     ],
     "spells": [
-      "ghostWalk",
-      "hellfire",
-      "hellwrought",
-      "parasite",
-      "vanish__fdc84d11"
+      "deathbringers",
+      "escort"
+    ]
+  },
+  "axiaraWraithblade": {
+    "name": "Axiara Wraithblade",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Blackfleet",
+      "Satyxis",
+      "Solo"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20axiara%20wraithblade.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "anathema": {
+        "type": "melee",
+        "name": "Anathema",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodShadow"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "serpentsGrace",
+      "sneak",
+      "specialOrders",
+      "dodge",
+      "tactician"
+    ]
+  },
+  "blightedTrollkinMarauders": {
+    "name": "Blighted Trollkin Marauders",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20blighted%20trollkin%20marauders.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough",
+      "combinedRangedAttack"
+    ],
+    "weapons": {
+      "fireBrazier": {
+        "type": "ranged",
+        "name": "Fire Brazier",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "burningFlames"
+        ],
+        "qualities": [
+          "continuousEffectFire"
+        ]
+      },
+      "brazierStrike": {
+        "type": "melee",
+        "name": "Brazier Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "chainWeapon",
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "ashenVeil"
+    ]
+  },
+  "bloodgorgers": {
+    "name": "Bloodgorgers",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "Trollkin",
+      "Blighted",
+      "Blackfleet"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20bloodgorgers.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "handWeapons__0a383c6e": {
+        "type": "melee",
+        "name": "Hand Weapons",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "bloodthirst",
+      "overtake",
+      "unyielding"
+    ]
+  },
+  "captainAiakos": {
+    "name": "Captain Aiakos",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Blackfleet",
+      "Warcaster",
+      "Cryx"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20captain%20aiakaos.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "harpoon__a14d2876": {
+        "type": "ranged",
+        "name": "Harpoon",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "skewer"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "reaver": {
+        "type": "melee",
+        "name": "Reaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalReposition3__31cc9896",
+      "jump"
+    ],
+    "spells": [
+      "manifestDestiny",
+      "scythingTouch",
+      "stranglehold",
+      "whiteSquall"
     ],
     "feat": [
-      "shadowfall"
+      "risingTide"
+    ]
+  },
+  "captainRaheraTerrorOfTheWailingSea": {
+    "name": "Captain Rahera, Terror of the Wailing Sea",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Warcaster",
+      "Blackfleet",
+      "Scharde"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20captain%20rahera%20terror%20of%20the%20wailing%20sea.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "pathfinder",
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "bloodAxe": {
+        "type": "melee",
+        "name": "Blood Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "boneCleaver__624746d6": {
+        "type": "melee",
+        "name": "Bone Cleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "acrobatics",
+      "fieldMarshalGangFighter",
+      "gangFighter",
+      "sprint"
+    ],
+    "spells": [
+      "bleed",
+      "carnage",
+      "curseOfShadows",
+      "huntersMark",
+      "roughSeas"
+    ],
+    "feat": [
+      "bloodletting"
     ]
   },
   "carverUltimus": {
@@ -608,7 +604,7 @@
       "Solo"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -693,7 +689,7 @@
       "Warcaster"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -764,7 +760,7 @@
       "Morrowan"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -833,7 +829,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 11,
@@ -945,125 +941,6 @@
       }
     }
   },
-  "darraghWrathe": {
-    "name": "Darragh Wrathe",
-    "faction": "cryx",
-    "type": "solo",
-    "keywords": [
-      "Solo",
-      "Dragoon",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 7,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20darragh%20wrathe.png",
-    "statistics": {
-      "speed": 8,
-      "arcaneAttack": 7,
-      "meleeAttack": 6,
-      "defense": 14,
-      "armour": 17
-    },
-    "advantages": [
-      "cavalry",
-      "unstopable"
-    ],
-    "weapons": {
-      "necroScythe": {
-        "type": "melee",
-        "name": "Necro-Scythe",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 14
-        },
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      }
-    },
-    "abilities": [
-      "battleWizard__41cb4e8f",
-      "magicAbility__0cffaca0",
-      "deathRideAction",
-      "hellfireAttack__adf62268",
-      "invocationOfDarkestNightAction",
-      "reposition3"
-    ],
-    "models": {
-      "wrathe1Mounted": {
-        "name": "Wrathe 1 (Mounted)",
-        "statistics": {
-          "speed": 8,
-          "arcaneAttack": 7,
-          "meleeAttack": 6,
-          "defense": 14,
-          "armour": 17
-        },
-        "advantages": [
-          "cavalry",
-          "unstopable"
-        ],
-        "abilities": [
-          "battleWizard__41cb4e8f",
-          "magicAbility__0cffaca0",
-          "deathRideAction",
-          "hellfireAttack__adf62268",
-          "invocationOfDarkestNightAction",
-          "reposition3"
-        ],
-        "weapons": {
-          "necroScythe": {
-            "type": "melee",
-            "name": "Necro-Scythe",
-            "statistics": {
-              "meleeAttack": 6,
-              "range": 2,
-              "power": 14
-            },
-            "qualities": [
-              "damageTypeMagical"
-            ]
-          }
-        }
-      },
-      "wrathe1Dismounted": {
-        "name": "Wrathe 1 (Dismounted)",
-        "statistics": {
-          "speed": 6,
-          "arcaneAttack": 7,
-          "meleeAttack": 6,
-          "defense": 14,
-          "armour": 15
-        },
-        "abilities": [
-          "battleWizard",
-          "magicAbility",
-          "deathRideAction",
-          "hellfireAttack",
-          "invocationOfDarkestNightAction"
-        ],
-        "weapons": {
-          "necroScythe__fa76f6b6": {
-            "type": "melee",
-            "name": "Necro-Scythe",
-            "statistics": {
-              "meleeAttack": 6,
-              "range": 2,
-              "power": 14
-            },
-            "qualities": [
-              "damageTypeMagical"
-            ]
-          }
-        }
-      }
-    }
-  },
   "deathripper": {
     "name": "Deathripper",
     "faction": "cryx",
@@ -1075,7 +952,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 4,
@@ -1157,43 +1034,13 @@
       }
     }
   },
-  "deathwalker": {
-    "name": "Deathwalker",
-    "faction": "cryx",
-    "type": "solo",
-    "keywords": [
-      "Cryx",
-      "Dark Host",
-      "Solo"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20deathwalker.png",
-    "statistics": {
-      "speed": 6,
-      "defense": 14,
-      "armour": 10
-    },
-    "advantages": [
-      "incorporeal",
-      "undead"
-    ],
-    "abilities": [
-      "breathTaker",
-      "companionGoreshadeTheBastard",
-      "darkRestoration"
-    ]
-  },
   "defenses": {
     "name": "Defenses",
     "faction": "cryx",
     "type": "defense",
     "keywords": [],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "1",
     "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
@@ -1436,7 +1283,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 6,
@@ -1532,204 +1379,6 @@
       }
     }
   },
-  "deneghraTheSoulWeaver": {
-    "name": "Deneghra, the Soul Weaver",
-    "faction": "cryx",
-    "type": "warcaster",
-    "keywords": [
-      "Dark Host",
-      "Battle Engine",
-      "Warcaster"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20deneghra%20the%20soul%20weaver.png",
-    "statistics": {
-      "speed": 9,
-      "arcaneAttack": 7,
-      "arcana": 7,
-      "meleeAttack": 7,
-      "rangedAttack": 6,
-      "defense": 15,
-      "armour": 18,
-      "controlRange": 14,
-      "health": 23
-    },
-    "advantages": [
-      "cavalry",
-      "construct",
-      "dualAttack",
-      "flight",
-      "undead",
-      "unstopable"
-    ],
-    "weapons": {
-      "venomousBreath": {
-        "type": "ranged",
-        "name": "Venomous Breath",
-        "statistics": {
-          "rangedAttack": 6,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "qualities": [
-          "damageTypeCorrosion",
-          "continuousEffectCorrosion",
-          "pistol"
-        ]
-      },
-      "malefactor": {
-        "type": "melee",
-        "name": "Malefactor",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 13
-        },
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      }
-    },
-    "abilities": [
-      "reposition5",
-      "soulMastery",
-      "darkWhispers",
-      "vengefulSpirits",
-      "soulTakerCullSoul",
-      "soulWeaver"
-    ],
-    "spells": [
-      "ghostWalk",
-      "graveWind",
-      "mortality",
-      "scourge"
-    ],
-    "feat": [
-      "hellGate"
-    ]
-  },
-  "desecrator": {
-    "name": "Desecrator",
-    "faction": "cryx",
-    "type": "warjack",
-    "keywords": [
-      "Heavy Warjack",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "4",
-    "points": 12,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20desecrator.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "rangedAttack": 4,
-      "defense": 12,
-      "armour": 18,
-      "health": {
-        "total": 30,
-        "layout": "grid",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 4,
-              "systems": {
-                "4": "L"
-              }
-            },
-            {
-              "boxes": 5,
-              "systems": {
-                "3": "L",
-                "4": "L",
-                "5": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "M",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "C",
-                "6": "C"
-              }
-            },
-            {
-              "boxes": 5,
-              "systems": {
-                "3": "R",
-                "4": "R",
-                "5": "C"
-              }
-            },
-            {
-              "boxes": 4,
-              "systems": {
-                "4": "R"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "amphibious",
-      "construct",
-      "dualAttack",
-      "headbuttPowerAttack",
-      "pathfinder",
-      "slamPowerAttack",
-      "tramplePowerAttack"
-    ],
-    "weapons": {
-      "plagueBringer": {
-        "type": "ranged",
-        "name": "Plague Bringer",
-        "statistics": {
-          "rangedAttack": 4,
-          "range": 12,
-          "rateOfFire": 1,
-          "areaOfEffect": 3,
-          "power": "14/8"
-        },
-        "location": "L",
-        "qualities": [
-          "damageTypeCorrosion"
-        ]
-      },
-      "vivisector": {
-        "type": "melee",
-        "name": "Vivisector",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 17
-        },
-        "location": "R",
-        "abilities": [
-          "grievousWounds",
-          "criticalShred__f16e9717"
-        ]
-      }
-    },
-    "abilities": [
-      "accumulatorBane",
-      "steady__ee8b6350"
-    ]
-  },
   "emperorCarverUltimusBMMDEsqIII": {
     "name": "Emperor Carver Ultimus, BMMD, Esq. III",
     "faction": "cryx",
@@ -1741,7 +1390,7 @@
       "Mercenary"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -1820,108 +1469,6 @@
       "hogHeaven"
     ]
   },
-  "erebus": {
-    "name": "Erebus",
-    "faction": "cryx",
-    "type": "warjack",
-    "keywords": [
-      "Cryx",
-      "Dark Host",
-      "Heavy Warjack"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 14,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20erebus.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 7,
-      "defense": 14,
-      "armour": 18,
-      "health": {
-        "total": 28,
-        "layout": "grid",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 3,
-              "systems": {
-                "3": "L"
-              }
-            },
-            {
-              "boxes": 5,
-              "systems": {
-                "3": "L",
-                "4": "L",
-                "5": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "M",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "C",
-                "6": "C"
-              }
-            },
-            {
-              "boxes": 5,
-              "systems": {
-                "3": "R",
-                "4": "R",
-                "5": "C"
-              }
-            },
-            {
-              "boxes": 3,
-              "systems": {
-                "3": "R"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "construct",
-      "headbuttPowerAttack",
-      "resistanceCold",
-      "slamPowerAttack",
-      "tramplePowerAttack"
-    ],
-    "weapons": {
-      "deathClaw": {
-        "type": "melee",
-        "name": "Death Claw",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 17
-        },
-        "quantity": 2,
-        "abilities": [
-          "freeze"
-        ],
-        "qualities": [
-          "throwPowerAttack"
-        ]
-      }
-    },
-    "abilities": [
-      "bondScaverous",
-      "overtake",
-      "poltergeist"
-    ]
-  },
   "exulonNostilla": {
     "name": "Exulon Nostilla",
     "faction": "cryx",
@@ -1931,7 +1478,7 @@
       "Cephalyx"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -2009,7 +1556,7 @@
       "Super Heavy Warjack"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "statistics": {
@@ -2127,7 +1674,7 @@
       "Heavy Warjack"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 13,
@@ -2233,117 +1780,174 @@
       "sacredWard"
     ]
   },
-  "goreshadeTheBastard": {
-    "name": "Goreshade the Bastard",
-    "faction": "cryx",
-    "type": "warcaster",
-    "keywords": [
-      "Cryx",
-      "Warcaster",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 0,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20goreshade%20the%20bastard.png",
-    "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "arcana": 7,
-      "meleeAttack": 7,
-      "defense": 15,
-      "armour": 16,
-      "controlRange": 14,
-      "health": 17
-    },
-    "advantages": [
-      "undead"
-    ],
-    "weapons": {
-      "bloodcleaver": {
-        "type": "melee",
-        "name": "Bloodcleaver",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 14
-        },
-        "abilities": [
-          "deathwalk"
-        ],
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      }
-    },
-    "spells": [
-      "bleed",
-      "hexBlast",
-      "lamentation",
-      "shadowmancer",
-      "soulGate"
-    ],
-    "feat": [
-      "darkSummons"
-    ]
-  },
-  "hellslingerPhantom": {
-    "name": "Hellslinger Phantom",
+  "generalGerlakSlaughterborn": {
+    "name": "General Gerlak Slaughterborn",
     "faction": "cryx",
     "type": "solo",
     "keywords": [
-      "Solo",
-      "Wraith",
       "Cryx",
-      "Dark Host"
+      "Blighted",
+      "Trollkin",
+      "Solo",
+      "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
-    "points": 5,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20hellslinger%20phantom.png",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20general%20gerlak%20slaughterborn.png",
     "statistics": {
-      "speed": 6,
-      "rangedAttack": 7,
-      "defense": 15,
-      "armour": 13,
-      "health": 5
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 17,
+      "health": 8
     },
     "advantages": [
-      "incorporeal",
-      "undead"
+      "tough"
     ],
     "weapons": {
-      "wraithstormPistol": {
-        "type": "ranged",
-        "name": "Wraithstorm Pistol",
+      "greatAxe__d2091dd8": {
+        "type": "melee",
+        "name": "Great Axe",
         "statistics": {
-          "rangedAttack": 7,
-          "range": 10,
-          "rateOfFire": 1,
-          "power": 12
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
         },
-        "quantity": 2,
         "abilities": [
-          "criticalGrievousWounds",
-          "attackType__519188da",
-          "soulChambered1",
-          "incendiary",
-          "phantomSeeker"
+          "grievousWounds"
         ],
         "qualities": [
-          "damageTypeMagical",
-          "pistol"
+          "weaponMaster"
         ]
       }
     },
     "abilities": [
-      "soulTakerBodyCount__4e0c6a55",
-      "strengthOfDeath",
-      "swiftHunter"
+      "berserk__98095277",
+      "bloodthirst",
+      "eliteCadreBloodgorgers",
+      "overtake",
+      "unyielding"
+    ]
+  },
+  "harrower": {
+    "name": "Harrower",
+    "faction": "cryx",
+    "type": "warjack",
+    "keywords": [
+      "Blackfleet",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20harrower.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "mortifier": {
+        "type": "ranged",
+        "name": "Mortifier",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 11,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "location": "L",
+        "abilities": [
+          "wraithShot"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "perisher": {
+        "type": "melee",
+        "name": "Perisher",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 16
+        },
+        "location": "R",
+        "abilities": [
+          "thresherAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "soulTakerSpiritHarvester",
+      "steady"
     ]
   },
   "inflictor": {
@@ -2357,7 +1961,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 10,
@@ -2466,7 +2070,7 @@
       "Super Heavy Warjack"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -2609,6 +2213,183 @@
       "retaliatoryStrike"
     ]
   },
+  "jussikaBloodtongue": {
+    "name": "Jussika Bloodtongue",
+    "faction": "cryx",
+    "type": "commandAttachment",
+    "keywords": [
+      "Blackfleet",
+      "Blighted",
+      "Trollkin",
+      "Command Attachment"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20jussika%20bloodtongue.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "blunderbuss__ddf06850": {
+        "type": "ranged",
+        "name": "Blunderbuss",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "handWeapon__5fb0fd59": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "commandAttachmentBlightedTrollkin",
+      "bloodthirst",
+      "grantedRelentlessCharge",
+      "noSleepingOnTheJobBlightedTrollkin",
+      "overtake"
+    ]
+  },
+  "kharybdis": {
+    "name": "Kharybdis",
+    "faction": "cryx",
+    "type": "warjack",
+    "keywords": [
+      "Blackfleet",
+      "Heavy Warjack",
+      "Cryx"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "C",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20kharybdis.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceCorrosion",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "blackInk": {
+        "type": "ranged",
+        "name": "Black Ink",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalBlind"
+        ],
+        "qualities": [
+          "damageTypeCorrosion"
+        ]
+      },
+      "tendril": {
+        "type": "melee",
+        "name": "Tendril",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "chainWeapon",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "acidCloud",
+      "bondAiakos",
+      "steady"
+    ]
+  },
   "kraken": {
     "name": "Kraken",
     "faction": "cryx",
@@ -2619,7 +2400,7 @@
       "Colossal"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "2",
     "points": 25,
@@ -2797,107 +2578,122 @@
       "bulldoze"
     ]
   },
-  "lordExhumatorScaverous": {
-    "name": "Lord Exhumator Scaverous",
+  "leviathan": {
+    "name": "Leviathan",
     "faction": "cryx",
-    "type": "warcaster",
+    "type": "warjack",
     "keywords": [
       "Cryx",
-      "Warcaster",
-      "Dark Host"
+      "Heavy Warjack",
+      "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
-    "fieldAllowance": "C",
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20lord%20exhumator%20scaverous.png",
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20leviathan.png",
     "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "arcana": 7,
+      "speed": 5,
       "meleeAttack": 6,
-      "defense": 14,
-      "armour": 17,
-      "controlRange": 14,
-      "health": 16
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
     },
     "advantages": [
-      "undead"
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
     ],
     "weapons": {
-      "avernus": {
-        "type": "melee",
-        "name": "Avernus",
+      "spiker__b93f1a4c": {
+        "type": "ranged",
+        "name": "Spiker",
         "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 14
+          "rangedAttack": 5,
+          "range": 13,
+          "rateOfFire": "d3",
+          "power": 13
         },
+        "location": "L",
         "abilities": [
-          "thresherAttack"
+          "volumeFire"
         ],
         "qualities": [
-          "damageTypeMagical"
+          "pistol"
+        ]
+      },
+      "crushingClaw__88063b5f": {
+        "type": "melee",
+        "name": "Crushing Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R",
+        "qualities": [
+          "throwPowerAttack"
         ]
       }
     },
     "abilities": [
-      "breathTaker",
-      "knowledgeOfTheDamned__f89bbdb5",
-      "soulTakerExhumator"
-    ],
-    "spells": [
-      "deathWard",
-      "excarnate",
-      "feastOfWorms",
-      "telekinesis"
-    ],
-    "feat": [
-      "blackGate"
+      "steady"
     ]
-  },
-  "machineWraith": {
-    "name": "Machine Wraith",
-    "faction": "cryx",
-    "type": "solo",
-    "keywords": [
-      "Solo",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "3",
-    "points": 2,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20machine%20wraith.png",
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 5,
-      "defense": 14,
-      "armour": 12
-    },
-    "advantages": [
-      "incorporeal",
-      "undead"
-    ],
-    "weapons": {
-      "mechanoClaws": {
-        "type": "melee",
-        "name": "Mechano-Claws",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 12
-        },
-        "abilities": [
-          "darkDomination"
-        ],
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      }
-    }
   },
   "magnusTheTraitor": {
     "name": "Magnus the Traitor",
@@ -2908,7 +2704,7 @@
       "Warcaster"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -2997,7 +2793,7 @@
       "Solo"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 20,
@@ -3097,7 +2893,7 @@
       "Warcaster"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -3175,159 +2971,35 @@
       "killBox"
     ]
   },
-  "necrotech": {
-    "name": "Necrotech",
+  "miseryCage": {
+    "name": "Misery Cage",
     "faction": "cryx",
     "type": "solo",
     "keywords": [
-      "Solo",
       "Cryx",
-      "Dark Host"
+      "Blackfleet",
+      "Solo"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
-    "fieldAllowance": "3",
+    "fieldAllowance": "4",
     "points": 1,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20necrotech.png",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20misery%20cage.png",
     "statistics": {
-      "speed": 5,
-      "meleeAttack": 5,
-      "defense": 12,
-      "armour": 13,
+      "defense": 5,
+      "armour": 16,
       "health": 5
     },
     "advantages": [
-      "undead"
+      "construct"
     ],
-    "weapons": {
-      "viseClaw": {
-        "type": "melee",
-        "name": "Vise Claw",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 2,
-          "power": 10
-        }
-      }
-    },
     "abilities": [
-      "createScrapThrallAction",
-      "empowerAction",
-      "repairD6Action__c26272a1",
-      "spareParts",
-      "steady__ee8b6350"
-    ]
-  },
-  "nightmare": {
-    "name": "Nightmare",
-    "faction": "cryx",
-    "type": "warjack",
-    "keywords": [
-      "Cryx",
-      "Dark Host",
-      "Heavy Warjack"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 14,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20nightmare.png",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 7,
-      "defense": 13,
-      "armour": 18,
-      "health": {
-        "total": 28,
-        "layout": "grid",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 3,
-              "systems": {
-                "3": "L"
-              }
-            },
-            {
-              "boxes": 5,
-              "systems": {
-                "3": "L",
-                "4": "L",
-                "5": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "M",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "C",
-                "6": "C"
-              }
-            },
-            {
-              "boxes": 5,
-              "systems": {
-                "3": "R",
-                "4": "R",
-                "5": "C"
-              }
-            },
-            {
-              "boxes": 3,
-              "systems": {
-                "3": "R"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "construct",
-      "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack",
-      "gladiator"
-    ],
-    "weapons": {
-      "wickedClaw": {
-        "type": "melee",
-        "name": "Wicked Claw",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 18
-        },
-        "quantity": 2,
-        "abilities": [
-          "chainAttackGrabSmash"
-        ],
-        "qualities": [
-          "throwPowerAttack"
-        ]
-      },
-      "tusks__41c2c71e": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 12
-        }
-      }
-    },
-    "abilities": [
-      "bondDeneghra",
-      "ghostly",
-      "prey"
+      "bodySnatcherGibbet",
+      "distantDeployment9",
+      "gallowsFruit",
+      "immobile",
+      "revulsion"
     ]
   },
   "nightwretch": {
@@ -3341,7 +3013,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 6,
@@ -3433,108 +3105,87 @@
       }
     }
   },
-  "olGrim": {
-    "name": "Ol' Grim",
+  "pirateQueenSkarre": {
+    "name": "Pirate Queen Skarre",
     "faction": "cryx",
-    "type": "solo",
+    "type": "warcaster",
     "keywords": [
-      "Solo",
-      "Wraith",
-      "Cryx",
-      "Dark Host"
+      "Satyxis",
+      "Blackfleet",
+      "Warcaster"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
-    "points": 5,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20ol%20grim.png",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20pirate%20queen%20skarre.png",
     "statistics": {
-      "speed": 6,
-      "rangedAttack": 7,
-      "defense": 15,
-      "armour": 13,
-      "health": 5
+      "speed": 7,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 16,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 16
     },
-    "advantages": [
-      "incorporeal",
-      "undead"
-    ],
     "weapons": {
-      "vanarOppressor": {
-        "type": "ranged",
-        "name": "Vanar Oppressor",
+      "takkaryx": {
+        "type": "melee",
+        "name": "Takkaryx",
         "statistics": {
-          "rangedAttack": 7,
-          "range": 14,
-          "rateOfFire": 2,
-          "power": 12
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
         },
         "abilities": [
-          "wraithShot"
+          "lifeTrader"
         ],
         "qualities": [
           "damageTypeMagical"
         ]
-      }
-    },
-    "abilities": [
-      "apparition__ce79494c",
-      "marksman",
-      "sniper",
-      "soulTakerBodyCount",
-      "darkBlessing"
-    ]
-  },
-  "pistolWraith": {
-    "name": "Pistol Wraith",
-    "faction": "cryx",
-    "type": "solo",
-    "keywords": [
-      "Solo",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "2",
-    "points": 4,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20pistol%20wraith.png",
-    "statistics": {
-      "speed": 6,
-      "rangedAttack": 6,
-      "defense": 14,
-      "armour": 12,
-      "health": 5
-    },
-    "advantages": [
-      "incorporeal",
-      "undead"
-    ],
-    "weapons": {
-      "wraithlockPistol": {
-        "type": "ranged",
-        "name": "Wraithlock Pistol",
+      },
+      "bloodwyrm": {
+        "type": "melee",
+        "name": "Bloodwyrm",
         "statistics": {
-          "rangedAttack": 6,
-          "range": 10,
-          "rateOfFire": 1,
-          "power": 12
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
         },
-        "quantity": 2,
         "abilities": [
-          "chainAttackDeathChill"
+          "lifeDrinker"
         ],
         "qualities": [
-          "damageTypeMagical",
-          "pistol"
+          "damageTypeMagical"
+        ]
+      },
+      "horns__64090672": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "knockdown"
         ]
       }
     },
     "abilities": [
-      "soulTakerBodyCount__4e0c6a55",
-      "strengthOfDeath"
+      "sacrificialStrikeAction__22edd9b8"
+    ],
+    "spells": [
+      "backlash",
+      "bloodRain",
+      "darkGuidance",
+      "hellfire",
+      "ritualSacrifice"
+    ],
+    "feat": [
+      "bloodMagic"
     ]
   },
   "reaper": {
@@ -3548,7 +3199,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 11,
@@ -3666,7 +3317,7 @@
       "Solo"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 3,
@@ -3698,7 +3349,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 5,
@@ -3781,113 +3432,527 @@
       }
     }
   },
-  "scrapThrall": {
-    "name": "Scrap Thrall",
+  "satyxisBloodHag": {
+    "name": "Satyxis Blood Hag",
+    "faction": "cryx",
+    "type": "commandAttachment",
+    "keywords": [
+      "Blackfleet",
+      "Blood Witch",
+      "Command Attachment"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20satyxis%20blood%20hag.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "ambush",
+      "stealth"
+    ],
+    "weapons": {
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "bloodRazor": {
+        "type": "melee",
+        "name": "Blood Razor",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "attackType",
+          "bloodShadow__57c8d4d8",
+          "deathStrike"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentSatyxisBloodWitches",
+      "darkShroud",
+      "gang",
+      "grantedBlessed",
+      "grantedSideStep"
+    ]
+  },
+  "satyxisBloodPriestess": {
+    "name": "Satyxis Blood Priestess",
     "faction": "cryx",
     "type": "solo",
     "keywords": [
-      "Solo",
-      "Cryx",
-      "Dark Host"
+      "Blackfleet",
+      "Solo"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
-    "fieldAllowance": "9",
-    "points": 1,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20scrap%20thrall.png",
+    "fieldAllowance": "1",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20satyxis%20blood%20priestess.png",
     "statistics": {
-      "speed": 5,
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "stealth"
+    ],
+    "weapons": {
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "sacralBlade__94f1ea5a": {
+        "type": "melee",
+        "name": "Sacral Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "attackType",
+          "dispel__97960018",
+          "distillation",
+          "ritesOfBlood"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "attached",
+      "arcaneAssist",
+      "temptationsOfFate"
+    ]
+  },
+  "satyxisBloodWitches": {
+    "name": "Satyxis Blood Witches",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20satyxis%20blood%20witches.png",
+    "statistics": {
+      "speed": 6,
       "meleeAttack": 5,
-      "defense": 11,
+      "defense": 13,
       "armour": 12
     },
     "advantages": [
-      "undead"
+      "ambush",
+      "stealth"
     ],
     "weapons": {
-      "mechanoClaw": {
+      "horns__0915d92c": {
         "type": "melee",
-        "name": "Mechano-Claw",
+        "name": "Horns",
         "statistics": {
           "meleeAttack": 5,
           "range": 1,
           "power": 8
         },
         "abilities": [
-          "deathBurstAttack"
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "bloodRazor": {
+        "type": "melee",
+        "name": "Blood Razor",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "attackType",
+          "bloodShadow__57c8d4d8",
+          "deathStrike"
+        ],
+        "qualities": [
+          "damageTypeMagical"
         ]
       }
     },
     "abilities": [
-      "thrallBomb"
+      "gang"
     ]
   },
-  "seether": {
-    "name": "Seether",
+  "satyxisGunslingers": {
+    "name": "Satyxis Gunslingers",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20satyxis%20gunslingers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "gunfighter"
+    ],
+    "weapons": {
+      "magelockPistol__50ebe777": {
+        "type": "ranged",
+        "name": "Magelock Pistol",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType__519188da",
+          "feedback",
+          "heartSeeker"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      }
+    },
+    "abilities": [
+      "dodge"
+    ]
+  },
+  "satyxisRaiderCaptain": {
+    "name": "Satyxis Raider Captain",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Blackfleet",
+      "Solo"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20satyxis%20raider%20captain.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "lacerator": {
+        "type": "melee",
+        "name": "Lacerator",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 9
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5",
+          "feedback__d3f2896d"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "noSleepingOnTheJobSatyxis",
+      "relentlessCharge",
+      "sprint"
+    ]
+  },
+  "satyxisRaiderSeaWitch": {
+    "name": "Satyxis Raider Sea Witch",
+    "faction": "cryx",
+    "type": "commandAttachment",
+    "keywords": [
+      "Cryx",
+      "Command Attachment",
+      "Blackfleet"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20satyxis%20raider%20sea%20witch.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "piercer__a745f90d": {
+        "type": "melee",
+        "name": "Piercer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 9
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5",
+          "feedback__d3f2896d"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentSatyxisRaiders",
+      "gang",
+      "witchcraft",
+      "redTide",
+      "trueWind",
+      "whippingWinds"
+    ]
+  },
+  "satyxisRaiders": {
+    "name": "Satyxis Raiders",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20satyxis%20raiders.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 12
+    },
+    "weapons": {
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "lacerator__127663a9": {
+        "type": "melee",
+        "name": "Lacerator",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 9
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5",
+          "feedback__d3f2896d"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "gang"
+    ]
+  },
+  "scavenger": {
+    "name": "Scavenger",
     "faction": "cryx",
     "type": "warjack",
     "keywords": [
-      "Heavy Warjack",
-      "Cryx",
-      "Dark Host"
+      "Blackfleet",
+      "Light Warjack"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
-    "points": 10,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20seether.png",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20scavenger.png",
     "statistics": {
-      "speed": 6,
-      "meleeAttack": 7,
-      "defense": 12,
-      "armour": 18,
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 13,
       "health": {
-        "total": 28,
+        "total": 20,
         "layout": "grid",
         "grid": {
           "columns": [
             {
-              "boxes": 3,
+              "boxes": 2,
               "systems": {
-                "3": "L"
+                "2": "F"
               }
             },
             {
-              "boxes": 5,
+              "boxes": 4,
               "systems": {
-                "3": "L",
-                "4": "L",
-                "5": "M"
+                "3": "C",
+                "4": "F"
               }
             },
             {
-              "boxes": 6,
+              "boxes": 4,
               "systems": {
-                "5": "M",
-                "6": "M"
+                "3": "C",
+                "4": "F"
               }
             },
             {
-              "boxes": 6,
+              "boxes": 4,
               "systems": {
-                "5": "C",
-                "6": "C"
+                "3": "C",
+                "4": "M"
               }
             },
             {
-              "boxes": 5,
+              "boxes": 4,
               "systems": {
-                "3": "R",
-                "4": "R",
-                "5": "C"
+                "3": "C",
+                "4": "M"
               }
             },
             {
-              "boxes": 3,
+              "boxes": 2,
               "systems": {
-                "3": "R"
+                "2": "M"
               }
             }
           ]
@@ -3896,38 +3961,335 @@
     },
     "advantages": [
       "construct",
-      "gladiator",
+      "flight",
       "headbuttPowerAttack",
-      "slamPowerAttack",
-      "tramplePowerAttack"
+      "slamPowerAttack"
     ],
     "weapons": {
-      "talon__33afd879": {
+      "snappingJaws": {
         "type": "melee",
-        "name": "Talon",
+        "name": "Snapping Jaws",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 1,
-          "power": 17
+          "power": 11
         },
-        "quantity": 2,
+        "abilities": [
+          "lifeDrinker"
+        ]
+      }
+    },
+    "abilities": [
+      "finisher",
+      "sprint"
+    ]
+  },
+  "schardeDirgeSeers": {
+    "name": "Scharde Dirge Seers",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20scharde%20dirge%20seers.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 11
+    },
+    "weapons": {
+      "claws__948c635b": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": "*"
+        },
+        "abilities": [
+          "needle"
+        ],
         "qualities": [
-          "throwPowerAttack"
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard",
+      "dodge",
+      "magicAbility",
+      "empowerAction__e131c030",
+      "guidanceAction",
+      "hexBoltAttack"
+    ]
+  },
+  "schardeOgrunBoardingParty": {
+    "name": "Scharde Ogrun Boarding Party",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20black%20ogrun%20boarding%20party.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 15
+    },
+    "advantages": [
+      "combinedRangedAttack",
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "harpoon__a72ea014": {
+        "type": "ranged",
+        "name": "Harpoon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "skewer"
         ]
       },
-      "tusks": {
+      "handWeapon__0a4e84c9": {
         "type": "melee",
-        "name": "Tusks",
+        "name": "Hand Weapon",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        }
+      }
+    }
+  },
+  "schardeOgrunIronmongers": {
+    "name": "Scharde Ogrun Ironmongers",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20black%20ogrun%20ironmongers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 15
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "tool": {
+        "type": "melee",
+        "name": "Tool",
+        "statistics": {
+          "meleeAttack": 5,
           "range": 1,
           "power": 12
         }
       }
     },
     "abilities": [
-      "aggressive",
-      "berserk__98095277"
+      "dismantle",
+      "repairD31Action__88ce80ed"
+    ]
+  },
+  "schardeOgrunSmogBelchers": {
+    "name": "Scharde Ogrun Smog Belchers",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20black%20ogrun%20smog%20belchers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 15
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "smogBelcher": {
+        "type": "ranged",
+        "name": "Smog Belcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "13/8"
+        },
+        "abilities": [
+          "arcingFire",
+          "chokingAsh"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "handWeapon__0a4e84c9": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "smokeCloud"
+    ]
+  },
+  "schardePirateOfficer": {
+    "name": "Scharde Pirate Officer",
+    "faction": "cryx",
+    "type": "commandAttachment",
+    "keywords": [
+      "Blackfleet",
+      "Command Attachment"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "4",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20scharde%20pirate%20officer.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough",
+      "advanceDeployment"
+    ],
+    "weapons": {
+      "deckSweeper": {
+        "type": "ranged",
+        "name": "Deck Sweeper",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "criticalFire",
+          "pistol"
+        ]
+      },
+      "handWeapon__2d1dcdca": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentSchardePirates",
+      "gang",
+      "grantedFeignDeath",
+      "noQuarter"
+    ]
+  },
+  "schardePirates": {
+    "name": "Scharde Pirates",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Blackfleet",
+      "Unit"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20scharde%20pirates.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "advanceDeployment",
+      "tough"
+    ],
+    "weapons": {
+      "deckSweeper": {
+        "type": "ranged",
+        "name": "Deck Sweeper",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "criticalFire",
+          "pistol"
+        ]
+      },
+      "handWeapon__2d1dcdca": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "gang",
+      "quickWork"
     ]
   },
   "sepulcher": {
@@ -3940,7 +4302,7 @@
       "Colossal"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "2",
     "points": 28,
@@ -4122,52 +4484,280 @@
       "bulldoze"
     ]
   },
-  "skarlockThrall": {
-    "name": "Skarlock Thrall",
+  "severaBlacktide": {
+    "name": "Severa Blacktide",
     "faction": "cryx",
     "type": "solo",
     "keywords": [
-      "Solo",
-      "Cryx",
-      "Dark Host"
+      "Blackfleet",
+      "Satyxis",
+      "Solo"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
-    "fieldAllowance": "1",
-    "points": 2,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20skarlock%20thrall.png",
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20severa%20blacktide.png",
     "statistics": {
       "speed": 6,
-      "arcaneAttack": 6,
-      "meleeAttack": 3,
-      "defense": 14,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 15,
       "armour": 12,
       "health": 5
     },
     "advantages": [
-      "undead",
-      "pathfinder"
+      "dualAttack",
+      "gunfighter",
+      "tough"
     ],
     "weapons": {
-      "claws__1906972c": {
-        "type": "melee",
-        "name": "Claws",
+      "magelockPistol__f5f48f0a": {
+        "type": "ranged",
+        "name": "Magelock Pistol",
         "statistics": {
-          "meleeAttack": 3,
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType",
+          "heartSeeker",
+          "phantomSeeker"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "horns__0915d92c": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 5,
           "range": 1,
-          "power": 6
+          "power": 8
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      }
+    },
+    "abilities": [
+      "pistoleer",
+      "reciprocate",
+      "runGun"
+    ]
+  },
+  "shrike": {
+    "name": "Shrike",
+    "faction": "cryx",
+    "type": "warjack",
+    "keywords": [
+      "Blackfleet",
+      "Light Warjack"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20shrike.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 13,
+      "health": {
+        "total": 20,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "F"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "F"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "F"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "flight",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "viciousBeak": {
+        "type": "melee",
+        "name": "Vicious Beak",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      },
+      "wingBlades": {
+        "type": "melee",
+        "name": "Wing Blades",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
         }
       }
     },
     "abilities": [
-      "attached",
-      "magicAbility",
-      "darkFireAttack__edc8cffc",
-      "guidanceAction",
-      "spellSlaveActionOrAttack",
-      "soulTakerSoulCage",
-      "strengthOfDeath"
+      "bladeRush"
+    ]
+  },
+  "skarreAdmiralOfTheBlackfleet": {
+    "name": "Skarre, Admiral of the Blackfleet",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Satyxis",
+      "Blackfleet",
+      "Battle Engine",
+      "Warcaster"
+    ],
+    "armies": [
+      "blackfleet"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20skarre%20admiral%20of%20the%20black%20fleet.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "controlRange": 14,
+      "health": 26
+    },
+    "advantages": [
+      "dualAttack",
+      "flight",
+      "unstopable"
+    ],
+    "weapons": {
+      "cannon__cd411cea": {
+        "type": "ranged",
+        "name": "Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "quantity": 2,
+        "abilities": [
+          "shadowFire"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "handCannon__9745f003": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol",
+          "damageTypeMagical"
+        ]
+      },
+      "ram__83e7ae89": {
+        "type": "melee",
+        "name": "Ram",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "ram"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "cutlass__18b0d9b4": {
+        "type": "melee",
+        "name": "Cutlass",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 3,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "repairable",
+      "reinforcementsLivingFaction"
+    ],
+    "spells": [
+      "darkWaves",
+      "deceleration",
+      "guidedFire",
+      "ignite"
+    ],
+    "feat": [
+      "bloodRites"
     ]
   },
   "slayer": {
@@ -4181,7 +4771,7 @@
       "Blackfleet"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "4",
     "points": 9,
@@ -4277,148 +4867,6 @@
       }
     }
   },
-  "soulTrapper": {
-    "name": "Soul Trapper",
-    "faction": "cryx",
-    "type": "solo",
-    "keywords": [
-      "Solo",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "6",
-    "points": 1,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20soul%20trapper.png",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 4,
-      "defense": 11,
-      "armour": 12
-    },
-    "advantages": [
-      "undead"
-    ],
-    "weapons": {
-      "mechanoClaw__f04e38dd": {
-        "type": "melee",
-        "name": "Mechano-Claw",
-        "statistics": {
-          "meleeAttack": 4,
-          "range": 1,
-          "power": 8
-        }
-      }
-    },
-    "abilities": [
-      "soulTakerCollector",
-      "soulTransferAction__9f781185"
-    ]
-  },
-  "stalker": {
-    "name": "Stalker",
-    "faction": "cryx",
-    "type": "warjack",
-    "keywords": [
-      "Light Warjack",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "4",
-    "points": 7,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20stalker.png",
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 6,
-      "defense": 15,
-      "armour": 13,
-      "health": {
-        "total": 18,
-        "layout": "grid",
-        "grid": {
-          "columns": [
-            {
-              "boxes": 2,
-              "systems": {
-                "2": "L"
-              }
-            },
-            {
-              "boxes": 4,
-              "systems": {
-                "2": "L",
-                "3": "L",
-                "4": "M"
-              }
-            },
-            {
-              "boxes": 3,
-              "systems": {
-                "2": "M",
-                "3": "M"
-              }
-            },
-            {
-              "boxes": 3,
-              "systems": {
-                "2": "C",
-                "3": "C"
-              }
-            },
-            {
-              "boxes": 4,
-              "systems": {
-                "2": "R",
-                "3": "R",
-                "4": "C"
-              }
-            },
-            {
-              "boxes": 2,
-              "systems": {
-                "2": "R"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "advantages": [
-      "advanceDeployment",
-      "construct",
-      "headbuttPowerAttack",
-      "pathfinder",
-      "slamPowerAttack",
-      "stealth"
-    ],
-    "weapons": {
-      "eviscerator": {
-        "type": "melee",
-        "name": "Eviscerator",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 12
-        },
-        "quantity": 2,
-        "abilities": [
-          "grievousWounds"
-        ],
-        "qualities": [
-          "blessed"
-        ]
-      }
-    },
-    "abilities": [
-      "boundingLeap",
-      "extendedControlRange"
-    ]
-  },
   "targ": {
     "name": "Targ",
     "faction": "cryx",
@@ -4429,7 +4877,7 @@
       "Solo"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 2,
@@ -4463,165 +4911,6 @@
       "ancillaryAttackAction__69fabdc4"
     ]
   },
-  "theWithershadowCombine": {
-    "name": "The Withershadow Combine",
-    "faction": "cryx",
-    "type": "unit",
-    "keywords": [
-      "Unit",
-      "Cryx",
-      "Dark Host"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "C",
-    "points": 6,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20the%20withershadow%20combine.png",
-    "statistics": {
-      "speed": 5,
-      "arcaneAttack": 7,
-      "meleeAttack": 6,
-      "defense": 13,
-      "armour": 15
-    },
-    "advantages": [
-      "stealth",
-      "undead"
-    ],
-    "weapons": {
-      "lichClaws": {
-        "type": "melee",
-        "name": "Lich Claws",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 12
-        },
-        "qualities": [
-          "damageTypeMagical"
-        ]
-      }
-    },
-    "abilities": [
-      "attached__737641fc",
-      "magicAbility",
-      "darkFireAttack",
-      "marionetteAttack",
-      "puppetMasterAction",
-      "soulTakerSoulCage",
-      "strengthOfDeath"
-    ],
-    "models": {
-      "tremulus1": {
-        "name": "Tremulus 1",
-        "statistics": {
-          "speed": 5,
-          "arcaneAttack": 7,
-          "meleeAttack": 6,
-          "defense": 13,
-          "armour": 15
-        },
-        "advantages": [
-          "stealth",
-          "undead"
-        ],
-        "abilities": [
-          "magicAbility",
-          "darkFireAttack",
-          "marionetteAttack",
-          "puppetMasterAction",
-          "soulTakerSoulCage",
-          "strengthOfDeath"
-        ],
-        "weapons": {
-          "lichClaws": {
-            "type": "melee",
-            "name": "Lich Claws",
-            "statistics": {
-              "meleeAttack": 6,
-              "range": 1,
-              "power": 12
-            },
-            "qualities": [
-              "damageTypeMagical"
-            ]
-          }
-        }
-      },
-      "maelovus1": {
-        "name": "Maelovus 1",
-        "statistics": {
-          "speed": 5,
-          "arcaneAttack": 7,
-          "meleeAttack": 6,
-          "defense": 13,
-          "armour": 15
-        },
-        "advantages": [
-          "stealth",
-          "undead"
-        ],
-        "abilities": [
-          "magicAbility",
-          "spellSlaveActionOrAttack",
-          "darkFireAttack",
-          "soulTakerSoulCage",
-          "strengthOfDeath"
-        ],
-        "weapons": {
-          "lichClaws": {
-            "type": "melee",
-            "name": "Lich Claws",
-            "statistics": {
-              "meleeAttack": 6,
-              "range": 1,
-              "power": 12
-            },
-            "qualities": [
-              "damageTypeMagical"
-            ]
-          }
-        }
-      },
-      "admonia1": {
-        "name": "Admonia 1",
-        "statistics": {
-          "speed": 5,
-          "arcaneAttack": 7,
-          "meleeAttack": 6,
-          "defense": 13,
-          "armour": 15
-        },
-        "advantages": [
-          "stealth",
-          "undead"
-        ],
-        "abilities": [
-          "blackArts",
-          "magicAbility",
-          "darkFireAttack",
-          "sigilOfPowerAction__eff18fc2",
-          "soulTakerSoulCage",
-          "strengthOfDeath"
-        ],
-        "weapons": {
-          "lichClaws": {
-            "type": "melee",
-            "name": "Lich Claws",
-            "statistics": {
-              "meleeAttack": 6,
-              "range": 1,
-              "power": 12
-            },
-            "qualities": [
-              "damageTypeMagical"
-            ]
-          }
-        }
-      }
-    }
-  },
   "warBoarMMD47": {
     "name": "War Boar MMD47",
     "faction": "cryx",
@@ -4632,7 +4921,7 @@
       "Super Heavy Warbeast"
     ],
     "armies": [
-      "dark-host"
+      "blackfleet"
     ],
     "fieldAllowance": "C",
     "points": 0,
@@ -4721,52 +5010,6 @@
     ],
     "spells": [
       "recoil"
-    ]
-  },
-  "wraithEngine": {
-    "name": "Wraith Engine",
-    "faction": "cryx",
-    "type": "battleEngine",
-    "keywords": [
-      "Dark Host",
-      "Battle Engine"
-    ],
-    "armies": [
-      "dark-host"
-    ],
-    "fieldAllowance": "2",
-    "points": 11,
-    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20wraith%20engine.png",
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 18,
-      "health": 26
-    },
-    "advantages": [
-      "construct",
-      "incorporeal",
-      "undead"
-    ],
-    "weapons": {
-      "scythingBlade__c7cddb7b": {
-        "type": "melee",
-        "name": "Scything Blade",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        },
-        "quantity": 2
-      }
-    },
-    "abilities": [
-      "cleave",
-      "darkShroud",
-      "inscrutable",
-      "soulBondage",
-      "unhallowed"
     ]
   }
 }

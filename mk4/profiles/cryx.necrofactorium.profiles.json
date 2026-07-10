@@ -1,66 +1,590 @@
 {
-  "discerptorEviscerus": {
-    "name": "Discerptor Eviscerus",
+  "aberration": {
+    "name": "Aberration",
     "faction": "cryx",
-    "type": "warcaster",
-    "points": 0,
-    "keywords": [],
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
     "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
+      "speed": 5,
       "meleeAttack": 6,
-      "defense": 14,
-      "armour": 16,
-      "controlRange": 14,
-      "health": 10
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
     },
-    "abilities": [
-      "chopShop",
-      "fieldMarshalRetaliatoryStrike",
-      "repairable",
-      "repairD31Action",
-      "steady"
-    ],
-    "feat": [
-      "boneyard"
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
     ],
     "weapons": {
-      "bonePicker": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
         "type": "melee",
-        "name": "Bone Picker",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
         "statistics": {
           "meleeAttack": 6,
           "range": 1,
-          "power": 12
+          "power": 14
         },
         "quantity": 2,
         "abilities": [
-          "erosion"
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
         ]
       }
     },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "akulonThaemestra": {
+    "name": "Akulon Thaemestra",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Hive Mind Cadre",
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait-cryx-akulonthaemestra.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "prostheticBlades__08d9800c": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "attached",
+      "anatomicalPrecision",
+      "arcaneAssist",
+      "magicAbility",
+      "psychicAssaultAttack",
+      "spellSlaveActionOrAttack",
+      "tuneUpAction__f7429a40",
+      "reposition3"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
     "spells": [
-      "carrionFeast",
-      "deceleration",
-      "ghostWalk",
-      "occultation",
-      "redline"
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "cephalyxMindThief": {
+    "name": "Cephalyx Mind Thief",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 8
+    },
+    "advantages": [
+      "stealth",
+      "pathfinder"
+    ],
+    "weapons": {
+      "prostheticSurgicalTool": {
+        "type": "melee",
+        "name": "Prosthetic Surgical Tool",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryNecrofactoriumSeaRaidersReaperCovenantAndDarkOperations",
+      "anatomicalPrecision",
+      "sucker",
+      "artificeOfDomination",
+      "mentalReservoir",
+      "manifestControl",
+      "expendableAssetAction",
+      "magicAbility",
+      "psychicAssaultAttack",
+      "psychicOverloadAttack",
+      "telekineticShiftAction"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "corpseCrawler": {
+    "name": "Corpse Crawler",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Thrall",
+      "Necrofactorium",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Corpse-Crawler.png",
+    "statistics": {
+      "speed": 3,
+      "defense": 12,
+      "armour": 11
+    },
+    "advantages": [
+      "undead"
+    ],
+    "abilities": [
+      "created",
+      "explosiveDecomposition",
+      "inconsequential",
+      "selfPropelled"
+    ]
+  },
+  "criterions": {
+    "name": "Criterions",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Hive Mind Cadre",
+      "Unit",
+      "Drudge"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait-cryx-criterions.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 17
+    },
+    "advantages": [
+      "eyelessSight",
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "drudgeWeapons__3c0e8d02": {
+        "type": "melee",
+        "name": "Drudge Weapons",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalGrievousWounds__f150fac5"
+        ]
+      }
+    },
+    "abilities": [
+      "battleDriven",
+      "rapidHealing"
     ]
   },
   "deathjackDarkApotheosis": {
     "name": "Deathjack, Dark Apotheosis",
     "faction": "cryx",
     "type": "warjack",
-    "points": 20,
-    "keywords": [],
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Super Heavy Warjack"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Deathjack1.png",
     "statistics": {
       "speed": 6,
       "arcaneAttack": 7,
@@ -69,6 +593,7 @@
       "armour": 20,
       "health": {
         "total": 34,
+        "layout": "grid",
         "grid": {
           "columns": [
             {
@@ -119,21 +644,17 @@
         }
       }
     },
-    "abilities": [
-      "hyperAggressive",
-      "skullsOfHate",
-      "soulTakerCollector",
-      "devourSoul",
-      "necrotheurgy",
-      "soulGenerator"
-    ],
-    "spells": [
-      "annihilation",
-      "ghostWalk",
-      "soulShift"
+    "advantages": [
+      "advanceDeployment",
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "gladiator"
     ],
     "weapons": {
-      "necroclaw": {
+      "necroclaw__6ed9807f": {
         "type": "melee",
         "name": "Necroclaw",
         "statistics": {
@@ -144,9 +665,13 @@
         "quantity": 2,
         "abilities": [
           "criticalDecapitation"
+        ],
+        "qualities": [
+          "throwPowerAttack",
+          "damageTypeMagical"
         ]
       },
-      "horns": {
+      "horns__55dd27d9": {
         "type": "melee",
         "name": "Horns",
         "statistics": {
@@ -154,22 +679,894 @@
           "range": 1,
           "power": 17
         },
+        "location": "H",
         "abilities": [
           "beatBack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
         ]
       }
-    }
+    },
+    "abilities": [
+      "skullsOfHate",
+      "soulTakerCollector",
+      "devourSoul",
+      "necrotheurgy",
+      "soulGenerator",
+      "hyperAggressive"
+    ],
+    "spells": [
+      "annihilation",
+      "ghostWalk",
+      "soulShift"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "cryx",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "discerptorEviscerus": {
+    "name": "Discerptor Eviscerus",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Warcaster",
+      "Cryx",
+      "Necrofactorium",
+      "Scout"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Eviscerus.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "pathfinder",
+      "undead"
+    ],
+    "weapons": {
+      "bonePicker": {
+        "type": "melee",
+        "name": "Bone Picker",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "erosion__b9987730"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "chopShop",
+      "fieldMarshalRetaliatoryStrike__5e463481",
+      "repairable",
+      "repairD31Action__88ce80ed",
+      "steady"
+    ],
+    "spells": [
+      "deceleration",
+      "carrionFeast",
+      "ghostWalk",
+      "redline",
+      "occultation"
+    ],
+    "feat": [
+      "boneyard"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "cryx",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonKhythos": {
+    "name": "Exulon Khythos",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Hive Mind Cadre",
+      "Warcaster",
+      "Cephalyx"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait-cryx-exulonkythos.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 16,
+      "health": 17
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicAperture": {
+        "type": "ranged",
+        "name": "Psychic Aperture",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "reload1",
+          "thunderbolt"
+        ],
+        "qualities": [
+          "pistol",
+          "damageTypeMagical"
+        ]
+      },
+      "scythingBlade": {
+        "type": "melee",
+        "name": "Scything Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "limitedBattlegroupKhythos",
+      "forceBarrier",
+      "longShadows"
+    ],
+    "spells": [
+      "deadweight",
+      "occultWhispers",
+      "psychoSurgery",
+      "revive",
+      "scythingTouch",
+      "psychicAssault"
+    ],
+    "feat": [
+      "massDelusion"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "cryx",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "cryx",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "gormanDiWulfeRevolutionaryAgent": {
+    "name": "Gorman di Wulfe, Revolutionary Agent",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Crucible Guard",
+      "Mercenary",
+      "Llaelese"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "resistanceCorrosion",
+      "resistanceFire",
+      "stealth"
+    ],
+    "weapons": {
+      "experimentalBombLauncher": {
+        "type": "ranged",
+        "name": "Experimental Bomb Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/8"
+        },
+        "abilities": [
+          "attackType",
+          "experimentalWarhead",
+          "spontaneousCombustion__bbf0f24e",
+          "blackHumor"
+        ]
+      },
+      "stiletto__9c1febce": {
+        "type": "melee",
+        "name": "Stiletto",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "alchemicalMask",
+      "smokeBombsAction"
+    ]
   },
   "grendel": {
     "name": "Grendel",
     "faction": "cryx",
     "type": "warjack",
-    "points": 16,
-    "keywords": [],
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Heavy Warjack"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20grendel.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 7,
@@ -177,6 +1574,7 @@
       "armour": 18,
       "health": {
         "total": 28,
+        "layout": "grid",
         "grid": {
           "columns": [
             {
@@ -227,12 +1625,16 @@
         }
       }
     },
-    "abilities": [
-      "aggressive",
-      "digInAction",
-      "dragBelow",
-      "extendedControlRange",
-      "finisher"
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "construct",
+      "unstopable"
     ],
     "weapons": {
       "salvageRipper": {
@@ -245,21 +1647,34 @@
         },
         "quantity": 2,
         "abilities": [
-          "criticalShred"
+          "criticalShred",
+          "viceClamp"
         ]
       }
-    }
+    },
+    "abilities": [
+      "aggressive",
+      "digInAction",
+      "dragBelow",
+      "extendedControlRange",
+      "finisher"
+    ]
   },
   "hades": {
     "name": "Hades",
     "faction": "cryx",
     "type": "warjack",
-    "points": 16,
-    "keywords": [],
+    "keywords": [
+      "Cryx",
+      "Heavy Warjack",
+      "Necrofactorium"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20hades.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 6,
@@ -268,6 +1683,7 @@
       "armour": 18,
       "health": {
         "total": 28,
+        "layout": "grid",
         "grid": {
           "columns": [
             {
@@ -318,14 +1734,28 @@
         }
       }
     },
-    "abilities": [
-      "aggressive",
-      "soulTakerCollector",
-      "shadowGate",
-      "soulGenerator",
-      "soulPhase"
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "dualAttack"
     ],
     "weapons": {
+      "tusks__a153427e": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "H",
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      },
       "soulCannon": {
         "type": "ranged",
         "name": "Soul Cannon",
@@ -336,25 +1766,17 @@
           "areaOfEffect": 2,
           "power": "15/8"
         },
+        "location": "R",
         "abilities": [
-          "devourSoul",
+          "wraithShot",
           "shadowFire",
-          "wraithShot"
+          "devourSoul"
+        ],
+        "qualities": [
+          "damageTypeMagical"
         ]
       },
-      "tusks": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 14
-        },
-        "abilities": [
-          "criticalKnockdown"
-        ]
-      },
-      "deathClaw": {
+      "deathClaw__11405766": {
         "type": "melee",
         "name": "Death Claw",
         "statistics": {
@@ -362,30 +1784,45 @@
           "range": 1,
           "power": 17
         },
-        "abilities": [
-          "viceClamp"
+        "location": "L",
+        "qualities": [
+          "shield",
+          "throwPowerAttack"
         ]
       }
-    }
+    },
+    "abilities": [
+      "aggressive",
+      "soulTakerCollector",
+      "shadowGate",
+      "soulGenerator",
+      "soulPhase__eb1eecb3"
+    ]
   },
   "hellraker": {
     "name": "Hellraker",
     "faction": "cryx",
     "type": "warjack",
-    "points": 25,
-    "keywords": [],
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Colossal"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "2/2",
+    "fieldAllowance": "2",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Hellraker.png",
     "statistics": {
       "speed": 5,
       "meleeAttack": 6,
-      "rangedAttack": 5,
+      "rangedAttack": 4,
       "defense": 9,
       "armour": 19,
       "health": {
         "total": 58,
+        "layout": "grid",
         "grid": {
           "columns": [
             {
@@ -490,27 +1927,16 @@
         }
       }
     },
-    "abilities": [
-      "carapaceGrenades",
-      "tunneler",
-      "debrisField",
-      "voidDisruptor"
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "dualAttack",
+      "pathfinder",
+      "unstopable",
+      "eyelessSight"
     ],
     "weapons": {
-      "heavyVenomBlaster": {
-        "type": "ranged",
-        "name": "Heavy Venom Blaster",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": "Sp 10",
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "abilities": [
-          "reload1"
-        ]
-      },
-      "impaler": {
+      "impaler__43cc4780": {
         "type": "melee",
         "name": "Impaler",
         "statistics": {
@@ -523,18 +1949,809 @@
           "sustainedAttack"
         ]
       }
-    }
+    },
+    "abilities": [
+      "carapaceGrenades",
+      "tunneler",
+      "debrisField"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Death Swarm",
+        "cost": 8,
+        "abilities": [
+          "threshingMaw"
+        ],
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Death Swarm",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": 1,
+              "areaOfEffect": 3,
+              "power": "14/8"
+            },
+            "location": "H",
+            "abilities": [
+              "ebbAndFlow"
+            ],
+            "qualities": [
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Heavy Venom Blaster",
+        "cost": 7,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Heavy Venom Blaster",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": "Sp 10",
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "H",
+            "abilities": [
+              "reload1"
+            ],
+            "qualities": [
+              "continuousEffectCorrosion",
+              "damageTypeCorrosion",
+              "pistol"
+            ]
+          }
+        ],
+        "statAdjustments": {
+          "rangedAttack": 1
+        }
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Void Plate (Right)",
+        "cost": 9,
+        "abilities": [
+          "voidDisruptor"
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Barbed Net (Right)",
+        "cost": 11,
+        "abilities": [
+          "weaponsPlatform"
+        ],
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Barbed Net",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 15
+            },
+            "location": "R",
+            "abilities": [
+              "drag"
+            ],
+            "qualities": [
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Barbed Net (Left)",
+        "cost": 11,
+        "abilities": [
+          "weaponsPlatform"
+        ],
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Barbed Net",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 15
+            },
+            "location": "L",
+            "abilities": [
+              "drag"
+            ],
+            "qualities": [
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Void Plate (Left)",
+        "cost": 9,
+        "abilities": [
+          "voidDisruptor"
+        ]
+      }
+    ]
+  },
+  "hellslingerPhantom": {
+    "name": "Hellslinger Phantom",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 8,
+      "defense": 15,
+      "armour": 12,
+      "health": 8
+    },
+    "advantages": [
+      "undead",
+      "incorporeal",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "magelockPistol__4f1c5a7e": {
+        "type": "ranged",
+        "name": "Magelock Pistol",
+        "statistics": {
+          "rangedAttack": 8,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType",
+          "banish",
+          "phantomSeeker",
+          "spiritDrain"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyssNecrofactoriumAndReaperCovenant",
+      "reciprocate",
+      "quickDraw",
+      "spiritSiphon"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "cryx",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "ironLichCommander": {
+    "name": "Iron Lich Commander",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20iron%20lich%20commander.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 8,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder",
+      "undead"
+    ],
+    "weapons": {
+      "ironClaw": {
+        "type": "melee",
+        "name": "Iron Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility",
+      "hexBlastAttack",
+      "invocationOfBitterestNightAction",
+      "soulTransferAction__9f781185",
+      "soulTakerSpectralScavenger",
+      "strengthOfDeath",
+      "knowledgeOfTheDamned"
+    ]
+  },
+  "lichLordDekathus": {
+    "name": "Lich Lord Dekathus",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Warcaster"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20lich%20lord%20dekathus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 18,
+      "controlRange": 14,
+      "health": 19
+    },
+    "advantages": [
+      "pathfinder",
+      "tough",
+      "undead",
+      "unstopable"
+    ],
+    "weapons": {
+      "mortifier__edc4450d": {
+        "type": "melee",
+        "name": "Mortifier",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "abilities": [
+          "gatesOfHell",
+          "bloodBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "entropicForce__d5706932",
+      "ghostShield",
+      "soulTakerCullSoul",
+      "knowledgeOfTheDamned__f89bbdb5",
+      "lostSouls"
+    ],
+    "spells": [
+      "annihilation",
+      "deathWard",
+      "ghostWalk",
+      "impendingDoom",
+      "shadowmancer"
+    ],
+    "feat": [
+      "doomSDay"
+    ]
+  },
+  "machineWraithDominator": {
+    "name": "Machine Wraith Dominator",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Machine-Wraith-Dominator.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "incorporeal",
+      "construct",
+      "undead"
+    ],
+    "weapons": {
+      "mechanoClaw__3417aa10": {
+        "type": "melee",
+        "name": "Mechano-Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "darkDomination"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "annihilator",
+      "apparition",
+      "poltergeist"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
   },
   "malefactor": {
     "name": "Malefactor",
     "faction": "cryx",
     "type": "warjack",
-    "points": 13,
-    "keywords": [],
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Heavy Warjack"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "4/4",
+    "fieldAllowance": "4",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20malefactor.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 6,
@@ -543,6 +2760,7 @@
       "armour": 18,
       "health": {
         "total": 28,
+        "layout": "grid",
         "grid": {
           "columns": [
             {
@@ -593,58 +2811,958 @@
         }
       }
     },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
     "abilities": [
-      "aggressive",
-      "overtake"
+      "aggressive"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Overtake",
+        "cost": 3,
+        "abilities": [
+          "overtake"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Berserk",
+        "cost": 3,
+        "abilities": [
+          "berserk__98095277"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Accuracy Head",
+        "cost": 2,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ],
+        "statAdjustments": {
+          "rangedAttack": 1
+        }
+      },
+      {
+        "slot": "Head",
+        "name": "Dark Shroud",
+        "cost": 4,
+        "abilities": [
+          "darkShroud"
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Harpoon",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Harpoon",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "skewer"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Harpoon",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 14
+            },
+            "location": "R"
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Spiker",
+        "cost": 7,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Spiker",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 13,
+              "rateOfFire": "d3",
+              "power": 13
+            },
+            "location": "R",
+            "abilities": [
+              "volumeFire"
+            ],
+            "qualities": [
+              "pistol",
+              "criticalCorrosion"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Fell Axe",
+        "cost": 7,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Fell Axe",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 18
+            },
+            "location": "R",
+            "abilities": [
+              "grievousWounds"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Plague Cannon",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Plague Cannon",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 12,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "14/8"
+            },
+            "location": "R",
+            "abilities": [
+              "chokingAsh"
+            ],
+            "qualities": [
+              "continuousEffectCorrosion",
+              "damageTypeCorrosion"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Helldriver",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Helldriver",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 16
+            },
+            "location": "L",
+            "abilities": [
+              "sustainedAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Ripping Claw",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Ripping Claw",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 15
+            },
+            "location": "L",
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Spiked Shield",
+        "cost": 5,
+        "abilities": [
+          "girded"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Spiked Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "location": "L",
+            "qualities": [
+              "shield"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Vexing Cannon",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Vexing Cannon",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "location": "L",
+            "abilities": [
+              "brainDamage__624fe246"
+            ],
+            "qualities": [
+              "damageTypeCorrosion",
+              "pistol"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Pincer",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "location": "L",
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "malfessor": {
+    "name": "Malfessor",
+    "faction": "cryx",
+    "type": "monstrosity",
+    "keywords": [
+      "Cryx",
+      "Monstrosity",
+      "Hive Mind Cadre",
+      "Cephalyx"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait-cryx-malfessor.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
     ],
     "weapons": {
-      "spiker": {
+      "psychicTrembler": {
         "type": "ranged",
-        "name": "Spiker",
+        "name": "Psychic Trembler",
         "statistics": {
-          "rangedAttack": 4,
-          "range": 13,
-          "rateOfFire": "D3",
-          "power": 13
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "criticalParalysis"
+        ],
+        "qualities": [
+          "pistol",
+          "damageTypeMagical"
+        ]
+      },
+      "netLauncher": {
+        "type": "ranged",
+        "name": "Net Launcher",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "drag",
+          "knockdown"
+        ]
+      },
+      "bladedFlail__cc680fb0": {
+        "type": "melee",
+        "name": "Bladed Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack__1868a099",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "cryxianMonstrosity",
+      "hyperAggressive",
+      "mageStatic__31cc019c",
+      "shieldGuard",
+      "telemetry"
+    ]
+  },
+  "masterNecrosurgeonSepsira": {
+    "name": "Master Necrosurgeon Sepsira",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Warcaster"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20sepsira.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "undead"
+    ],
+    "weapons": {
+      "surgicalImplements__3ee21570": {
+        "type": "melee",
+        "name": "Surgical Implements",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 4,
+        "abilities": [
+          "deathTollMechanithrall"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "battlePlan",
+      "precisionStrike",
+      "specialOrders__d1cd3306",
+      "tenacity",
+      "fieldMarshalGangFighter",
+      "necrosurgeryD31Action"
+    ],
+    "spells": [
+      "breathStealer",
+      "deathSDominion",
+      "excarnate",
+      "onslaught",
+      "gravetouched"
+    ],
+    "feat": [
+      "graveyardShift"
+    ]
+  },
+  "masterNecrotechChatterbane": {
+    "name": "Master Necrotech Chatterbane",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20master%20necrotech%20chatterbane.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 17,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "undead"
+    ],
+    "weapons": {
+      "lightSpiker": {
+        "type": "ranged",
+        "name": "Light Spiker",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 11,
+          "rateOfFire": "d3",
+          "power": 11
         },
         "abilities": [
           "volumeFire"
+        ],
+        "qualities": [
+          "pistol",
+          "criticalCorrosion"
         ]
       },
-      "vexingCannon": {
-        "type": "ranged",
-        "name": "Vexing Cannon",
+      "eviscerator__67f246df": {
+        "type": "melee",
+        "name": "Eviscerator",
         "statistics": {
-          "rangedAttack": 4,
-          "range": 10,
-          "rateOfFire": 1,
-          "power": 12
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 13
         },
         "abilities": [
-          "brainDamage"
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "ancillaryAttackAction__69fabdc4",
+      "enlivenAction__8c184128",
+      "exhaustFumes",
+      "repairD33Action__73e6a299"
+    ]
+  },
+  "maulgrethTheCharnelPlague": {
+    "name": "Maulgreth, The Charnel Plague",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20maulgreth%20the%20charnel%20plague.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "undead"
+    ],
+    "weapons": {
+      "reaper": {
+        "type": "melee",
+        "name": "Reaper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "lifeDrinker"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyssNecrofactoriumAndSeaRaiders",
+      "cleave",
+      "defensiveStrike__78f41ebc",
+      "entropicForce__d5706932",
+      "hellMarked",
+      "spellWard__692ef090"
+    ]
+  },
+  "mechanithrallBrutes": {
+    "name": "Mechanithrall Brutes",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Thrall",
+      "Cryx",
+      "Necrofactorium",
+      "Unit"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20mechanithrall%20brute.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17
+    },
+    "advantages": [
+      "tough",
+      "undead"
+    ],
+    "weapons": {
+      "steamFist": {
+        "type": "melee",
+        "name": "Steam Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack",
+          "comboStrikeAttack__7a566465"
+        ]
+      }
+    },
+    "abilities": [
+      "evasive",
+      "unyielding__f1431fc4"
+    ]
+  },
+  "mechanithrallSwarm": {
+    "name": "Mechanithrall Swarm",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Unit",
+      "Thrall"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "6",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Mechanithralls.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "undead",
+      "tough"
+    ],
+    "weapons": {
+      "thrallWeapon": {
+        "type": "melee",
+        "name": "Thrall Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ]
+      }
+    },
+    "abilities": [
+      "vengeance"
+    ]
+  },
+  "mortenebraPerfected": {
+    "name": "Mortenebra Perfected",
+    "faction": "cryx",
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Warcaster",
+      "Necrofactorium"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait_cryx_mortenebra_perfected.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 20
+    },
+    "advantages": [
+      "dualAttack",
+      "undead",
+      "flight",
+      "unstopable"
+    ],
+    "weapons": {
+      "bladeFeathers": {
+        "type": "ranged",
+        "name": "Blade Feathers",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "freeFall"
+        ],
+        "qualities": [
+          "damageTypeMagical"
         ]
       },
-      "gore": {
+      "tailStrike__a3bd92c1": {
         "type": "melee",
-        "name": "Gore",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "criticalSmite"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "flyingHigh",
+      "repairable",
+      "reposition3",
+      "resourceful"
+    ],
+    "spells": [
+      "admonition",
+      "arcantrikBolt",
+      "jumpstart",
+      "hellwrought",
+      "mobility",
+      "synergy"
+    ],
+    "feat": [
+      "reduceReuseRecycle"
+    ]
+  },
+  "necroharvester": {
+    "name": "Necroharvester",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Solo"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Necroharvester.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17,
+      "health": 18
+    },
+    "advantages": [
+      "eyelessSight",
+      "undead",
+      "unstopable",
+      "pathfinder",
+      "resistanceCorrosion"
+    ],
+    "weapons": {
+      "harvestingClaw": {
+        "type": "melee",
+        "name": "Harvesting Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 15
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalGrievousWounds__f150fac5",
+          "drag"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHarvester",
+      "deathFeast",
+      "meatForTheBeast",
+      "thrallCrafting",
+      "deathPowered",
+      "girded",
+      "salvageHarvester",
+      "steady__ee8b6350",
+      "sturdy"
+    ]
+  },
+  "necrosurgeonInitiates": {
+    "name": "Necrosurgeon Initiates",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Unit"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Necrosurgeon-Initiates.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "undead"
+    ],
+    "weapons": {
+      "implementOfDeath": {
+        "type": "melee",
+        "name": "Implement of Death",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "grimReturnsAction__e97a8dff",
+      "magicAbility__3e82c264",
+      "empowerAction__e131c030",
+      "necrosurgeryD31Action"
+    ]
+  },
+  "nightTerrors": {
+    "name": "Night Terrors",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Unit"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "2",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20night%20terrors.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16
+    },
+    "advantages": [
+      "cavalry",
+      "incorporeal",
+      "undead",
+      "unstopable"
+    ],
+    "weapons": {
+      "scythingBlade__bd0de34f": {
+        "type": "melee",
+        "name": "Scything Blade",
         "statistics": {
           "meleeAttack": 6,
           "range": 1,
           "power": 12
-        }
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
       }
-    }
+    },
+    "abilities": [
+      "apparition",
+      "finisher",
+      "reposition3"
+    ]
   },
   "raptor": {
     "name": "Raptor",
     "faction": "cryx",
     "type": "warjack",
-    "points": 7,
-    "keywords": [],
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Light Warjack"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "4/6",
+    "fieldAllowance": "6",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Raptor.png",
     "statistics": {
       "speed": 7,
       "meleeAttack": 5,
@@ -653,6 +3771,7 @@
       "armour": 14,
       "health": {
         "total": 20,
+        "layout": "grid",
         "grid": {
           "columns": [
             {
@@ -701,448 +3820,196 @@
         }
       }
     },
-    "abilities": [
-      "dodge",
-      "acidBlast",
-      "acidicMist"
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "pathfinder"
     ],
-    "weapons": {
-      "venomBlaster": {
-        "type": "ranged",
+    "abilities": [
+      "dodge"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Deathripper",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Deathripper",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H",
+            "abilities": [
+              "sustainedAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Beaked Maw",
+        "cost": 3,
+        "abilities": [
+          "reposition3"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Beaked Maw",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 10
+            },
+            "location": "H",
+            "abilities": [
+              "lifeDrinker"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Doomspitter",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Doomspitter",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 8,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "14/8"
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
         "name": "Venom Blaster",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 12
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Venom Blaster",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": "Sp 8",
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "location": "H",
+            "qualities": [
+              "continuousEffectCorrosion",
+              "damageTypeCorrosion",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Back",
+        "name": "Arc Node",
+        "cost": 2
+      },
+      {
+        "slot": "Back",
+        "name": "Heavy Armor",
+        "cost": 2,
+        "statAdjustments": {
+          "armour": 17
         }
-      }
-    }
-  },
-  "exulonKythos": {
-    "name": "Exulon Kythos",
-    "faction": "cryx",
-    "type": "warcaster",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "meleeAttack": 6,
-      "rangedAttack": 7,
-      "defense": 15,
-      "armour": 16,
-      "controlRange": 16,
-      "health": 10
-    },
-    "abilities": [
-      "limitedBattlegroupKythos",
-      "forceBarrier",
-      "longShadows"
-    ],
-    "spells": [
-      "deadweight",
-      "occultWhispers",
-      "psychicAssault",
-      "psychoSurgery",
-      "revive",
-      "scythingTouch"
-    ],
-    "feat": [
-      "massDelusion"
-    ],
-    "weapons": {
-      "psychicAperture": {
-        "type": "ranged",
-        "name": "Psychic Aperture",
-        "statistics": {
-          "rangedAttack": 7,
-          "range": 10,
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "abilities": [
-          "reload1",
-          "thunderbolt"
+      },
+      {
+        "slot": "Back",
+        "name": "Light Spiker",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Light Spiker",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 11,
+              "rateOfFire": "d3",
+              "power": 11
+            },
+            "abilities": [
+              "volumeFire"
+            ],
+            "qualities": [
+              "pistol",
+              "criticalCorrosion"
+            ]
+          }
         ]
       },
-      "scythingBlade": {
-        "type": "melee",
-        "name": "Scything Blade",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 14
-        },
-        "quantity": 2,
+      {
+        "slot": "Back",
+        "name": "Necrovent",
+        "cost": 3,
         "abilities": [
-          "grievousWounds"
+          "acidicMist",
+          "acidBlast"
         ]
       }
-    }
-  },
-  "malfessor": {
-    "name": "Malfessor",
-    "faction": "cryx",
-    "type": "monstrosity",
-    "points": 15,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 7,
-      "rangedAttack": 5,
-      "defense": 11,
-      "armour": 17,
-      "health": {
-        "total": 36,
-        "grid": {
-          "columns": [
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "L",
-                "6": "L"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "L",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "M",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "B",
-                "6": "B"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "R",
-                "6": "B"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "R",
-                "6": "R"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "abilities": [
-      "cryxianMonstrosity",
-      "hyperAggressive",
-      "mageStatic",
-      "shieldGuard",
-      "telemetry"
-    ],
-    "weapons": {
-      "psychicTrembler": {
-        "type": "ranged",
-        "name": "Psychic Trembler",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": "Sp 10",
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "abilities": [
-          "criticalParalysis"
-        ]
-      },
-      "netLauncher": {
-        "type": "ranged",
-        "name": "Net Launcher",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 8,
-          "rateOfFire": 1
-        },
-        "abilities": [
-          "drag",
-          "knockdown"
-        ]
-      },
-      "bladedFlail": {
-        "type": "melee",
-        "name": "Bladed Flail",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 18
-        },
-        "abilities": [
-          "beatBack",
-          "thresherAttack"
-        ]
-      }
-    }
-  },
-  "lichLordDekathus": {
-    "name": "Lich Lord Dekathus",
-    "faction": "cryx",
-    "type": "warcaster",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 5,
-      "arcaneAttack": 7,
-      "meleeAttack": 7,
-      "defense": 14,
-      "armour": 18,
-      "controlRange": 14,
-      "health": 10
-    },
-    "abilities": [
-      "entropicForce",
-      "ghostShield",
-      "soulTakerCullSoul",
-      "knowledgeOfTheDamned",
-      "lostSouls"
-    ],
-    "spells": [
-      "annihilation",
-      "deathWard",
-      "ghostWalk",
-      "impendingDoom",
-      "shadowmancer"
-    ],
-    "feat": [
-      "doomsDay"
-    ],
-    "weapons": {
-      "mortifier": {
-        "type": "melee",
-        "name": "Mortifier",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 15
-        },
-        "quantity": 2,
-        "abilities": [
-          "bloodBoon",
-          "gatesOfHell"
-        ]
-      }
-    }
-  },
-  "masterNecrosurgeonSepsira": {
-    "name": "Master Necrosurgeon Sepsira",
-    "faction": "cryx",
-    "type": "warcaster",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "meleeAttack": 7,
-      "defense": 15,
-      "armour": 17,
-      "controlRange": 14,
-      "health": 10
-    },
-    "abilities": [
-      "anatomicalPrecision",
-      "battlePlan",
-      "fieldMarshalGangFighter",
-      "necrosurgeryD31Action"
-    ],
-    "weapons": {
-      "surgicalImplements": {
-        "type": "melee",
-        "name": "Surgical Implements",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 11
-        },
-        "quantity": 4,
-        "abilities": [
-          "deathTollMechanithrall"
-        ]
-      }
-    },
-    "feat": [
-      "graveyardShift"
-    ],
-    "spells": [
-      "breathStealer",
-      "deathsDominion",
-      "excarnate",
-      "gravetouched",
-      "onslaught"
     ]
   },
-  "mortenebraPerfected": {
-    "name": "Mortenebra Perfected",
-    "faction": "cryx",
-    "type": "warcaster",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "meleeAttack": 7,
-      "rangedAttack": 6,
-      "defense": 15,
-      "armour": 17,
-      "controlRange": 12,
-      "health": 10
-    },
-    "abilities": [
-      "flyingHigh",
-      "repairable",
-      "reposition3",
-      "resourceful"
-    ],
-    "weapons": {
-      "bladeFeathers": {
-        "type": "ranged",
-        "name": "Blade Feathers",
-        "statistics": {
-          "rangedAttack": 6,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "abilities": [
-          "freeFall"
-        ]
-      },
-      "tailStrike": {
-        "type": "melee",
-        "name": "Tail Strike",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 14
-        },
-        "abilities": [
-          "criticalSmite"
-        ]
-      }
-    },
-    "feat": [
-      "reduceReuseRecycle"
-    ],
-    "spells": [
-      "admonition",
-      "arcantrikBolt",
-      "hellwrought",
-      "jumpstart",
-      "mobility",
-      "synergy"
-    ]
-  },
-  "wraithbinderNekane": {
-    "name": "Wraithbinder Nekane",
-    "faction": "cryx",
-    "type": "warcaster",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 7,
-      "arcaneAttack": 6,
-      "meleeAttack": 6,
-      "rangedAttack": 7,
-      "defense": 16,
-      "armour": 15,
-      "controlRange": 12,
-      "health": 10
-    },
-    "abilities": [
-      "dodge",
-      "grapplingHook",
-      "vitalMagic",
-      "wraithbinder"
-    ],
-    "weapons": {
-      "runeThrower": {
-        "type": "ranged",
-        "name": "Rune Thrower",
-        "statistics": {
-          "rangedAttack": 7,
-          "range": 10,
-          "rateOfFire": "D3+1",
-          "power": 10
-        },
-        "abilities": [
-          "banish"
-        ]
-      },
-      "hellspike": {
-        "type": "melee",
-        "name": "Hellspike",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 12
-        },
-        "abilities": [
-          "bloodShadow"
-        ]
-      }
-    },
-    "feat": [
-      "wrathOfLyliss"
-    ],
-    "spells": [
-      "banishingWard",
-      "crimsonVeil",
-      "cripplingGrasp",
-      "mirage",
-      "venom"
-    ]
-  },
-  "akulonThaemestra": {
-    "name": "Akulon Thaemestra",
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
     "faction": "cryx",
     "type": "solo",
-    "points": 3,
-    "keywords": [],
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "silexusXiphus": {
+    "name": "Silexus Xiphus",
+    "faction": "cryx",
+    "type": "solo",
+    "keywords": [
+      "Cryx",
+      "Hive Mind Cadre",
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait-cryx-silexusxiphus.png",
     "statistics": {
       "speed": 6,
       "arcaneAttack": 7,
@@ -1151,18 +4018,12 @@
       "armour": 13,
       "health": 8
     },
-    "abilities": [
-      "attached",
-      "anatomicalPrecision",
-      "arcaneAssist",
-      "magicAbility",
-      "psychicAssaultAttack",
-      "spellSlaveActionOrAttack",
-      "tuneUpAction",
-      "reposition3"
+    "advantages": [
+      "pathfinder",
+      "stealth"
     ],
     "weapons": {
-      "prostheticBlades": {
+      "prostheticBlades__c3718746": {
         "type": "melee",
         "name": "Prosthetic Blades",
         "statistics": {
@@ -1171,89 +4032,238 @@
           "power": 11
         }
       }
-    }
+    },
+    "abilities": [
+      "anatomicalPrecision",
+      "magicAbility__0cffaca0",
+      "befuddleAttack",
+      "healD31Action__acef6735",
+      "psychicAssaultAttack"
+    ]
   },
-  "carverUltimus": {
-    "name": "Carver Ultimus",
+  "skarlockLieutenant": {
+    "name": "Skarlock Lieutenant",
     "faction": "cryx",
     "type": "solo",
-    "points": 20,
-    "keywords": [],
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Solo",
+      "Thrall"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "4",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_Skarlock-Lieutenant.png",
     "statistics": {
-      "speed": 5,
-      "arcaneAttack": 5,
-      "meleeAttack": 7,
-      "rangedAttack": 6,
-      "defense": 13,
-      "armour": 19,
-      "controlRange": 10,
-      "health": 10
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 14,
+      "health": 5
     },
-    "abilities": [
-      "trueMercenary",
-      "hyperAggressive",
-      "lesserWarlock",
-      "limitedBattlegroupWarBoarMmd47"
-    ],
-    "spells": [
-      "battenDownTheHatches",
-      "quagmire",
-      "torment"
+    "advantages": [
+      "pathfinder",
+      "undead"
     ],
     "weapons": {
-      "doubleBarreledScattergun": {
-        "type": "ranged",
-        "name": "Double-Barreled Scattergun",
+      "greatSword__aeb7a14f": {
+        "type": "melee",
+        "name": "Great Sword",
         "statistics": {
-          "rangedAttack": 6,
-          "range": "Sp 6",
-          "rateOfFire": 2,
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "leadershipMechanithrallSwarm",
+      "magicAbility",
+      "darkFireAttack",
+      "desperateMissionAction",
+      "sigilOfPowerAction",
+      "soulTakerSoulCage",
+      "soulPowered",
+      "strengthOfDeath"
+    ]
+  },
+  "sludgeThralls": {
+    "name": "Sludge Thralls",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Unit"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20sludge%20thrall.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceCorrosion",
+      "tough",
+      "undead"
+    ],
+    "weapons": {
+      "bileCannon__a4281d03": {
+        "type": "ranged",
+        "name": "Bile Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "continuousEffectCorrosion",
+          "damageTypeCorrosion",
+          "pistol"
+        ]
+      },
+      "ripper__67327abe": {
+        "type": "melee",
+        "name": "Ripper",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
           "power": 12
         },
         "abilities": [
-          "bothBarrelsAttack"
-        ]
-      },
-      "handOfGodAlmighty": {
-        "type": "melee",
-        "name": "Hand of God Almighty",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 15
-        },
-        "abilities": [
-          "criticalPitch"
-        ]
-      },
-      "swineRipper": {
-        "type": "melee",
-        "name": "Swine Ripper",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 13
-        },
-        "abilities": [
-          "volumeFire"
+          "criticalShred"
         ]
       }
-    }
+    },
+    "abilities": [
+      "acidBlast",
+      "evasive"
+    ]
   },
-  "warBoarMmd47": {
-    "name": "War Boar MMD47",
+  "targ": {
+    "name": "Targ",
     "faction": "cryx",
-    "type": "warbeast",
-    "points": 0,
-    "keywords": [],
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "theFuries": {
+    "name": "The Furies",
+    "faction": "cryx",
+    "type": "unit",
+    "keywords": [
+      "Cryx",
+      "Wraith",
+      "Necrofactorium",
+      "Unit"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cryx_The-Furies.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 14
+    },
+    "advantages": [
+      "incorporeal",
+      "undead"
+    ],
+    "weapons": {
+      "wraithStrike": {
+        "type": "melee",
+        "name": "Wraith Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility",
+      "marionetteAttack",
+      "powerOfDeathAction",
+      "stygianAbyssAttack",
+      "mortalFear"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "cryx",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "necrofactorium"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
     "statistics": {
       "speed": 4,
       "meleeAttack": 6,
@@ -1263,11 +4273,18 @@
       "fury": 5,
       "threshold": 8,
       "health": {
-        "total": 31,
+        "total": 35,
+        "layout": "spiral",
         "grid": {
           "columns": [
             {
-              "boxes": 4
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
             },
             {
               "boxes": 7
@@ -1276,23 +4293,20 @@
               "boxes": 6
             },
             {
-              "boxes": 5
-            },
-            {
-              "boxes": 5
-            },
-            {
-              "boxes": 4
+              "boxes": 3
             }
           ]
         }
       }
     },
-    "abilities": [
-      "companionCarverUltimus",
-      "bulldoze",
-      "exhaustFumes",
-      "fullBoar"
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
     ],
     "weapons": {
       "volleyCannon": {
@@ -1306,7 +4320,11 @@
         },
         "quantity": 2,
         "abilities": [
+          "volumeFire",
           "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
         ]
       },
       "chainTusks": {
@@ -1322,1220 +4340,97 @@
         ]
       }
     },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
     "spells": [
       "recoil"
     ]
   },
-  "cephalyxMindThief": {
-    "name": "Cephalyx Mind Thief",
+  "wraithbinderNekane": {
+    "name": "Wraithbinder Nekane",
     "faction": "cryx",
-    "type": "solo",
-    "points": 5,
-    "keywords": [],
+    "type": "warcaster",
+    "keywords": [
+      "Cryx",
+      "Necrofactorium",
+      "Warcaster",
+      "Scout"
+    ],
     "armies": [
       "necrofactorium"
     ],
-    "fieldAllowance": "1/C",
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20cryx%20wraithbinder%20nekane.png",
     "statistics": {
-      "speed": 6,
+      "speed": 7,
       "arcaneAttack": 7,
-      "meleeAttack": 5,
-      "defense": 14,
-      "armour": 13,
-      "health": 8
-    },
-    "abilities": [
-      "mercenaryNecrofactoriumSeaRaidersReaperCovenantAndDarkOperations",
-      "anatomicalPrecision",
-      "sucker",
-      "artificeOfDomination",
-      "expendableAssetAction",
-      "magicAbility",
-      "psychicAssaultAttack",
-      "psychicOverloadAttack",
-      "telekineticShiftAction"
-    ],
-    "weapons": {
-      "prostheticSurgicalTool": {
-        "type": "melee",
-        "name": "Prosthetic Surgical Tool",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 11
-        }
-      }
-    }
-  },
-  "exulonNostilla": {
-    "name": "Exulon Nostilla",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 20,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 6,
-      "arcaneAttack": 5,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
+      "arcana": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
       "defense": 16,
-      "armour": 14,
+      "armour": 15,
       "controlRange": 12,
-      "health": 8
+      "health": 16
     },
-    "abilities": [
-      "trueMercenary",
-      "anatomicalPrecision",
-      "combatDrugsAction",
-      "journeymanCephalyxWarcaster",
-      "limitedBattlegroupAberration",
-      "sucker",
-      "vitalizerAction"
-    ],
-    "spells": [
-      "darkSeduction",
-      "revive",
-      "vision"
+    "advantages": [
+      "dualAttack",
+      "pathfinder"
     ],
     "weapons": {
-      "psychicForce": {
+      "runeThrower": {
         "type": "ranged",
-        "name": "Psychic Force",
+        "name": "Rune Thrower",
         "statistics": {
-          "rangedAttack": 5,
-          "range": "Sp 10",
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "abilities": [
-          "brainDamage"
-        ]
-      },
-      "prostheticBlades": {
-        "type": "melee",
-        "name": "Prosthetic Blades",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 2,
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": "d3 +1",
           "power": 10
         },
-        "quantity": 2,
         "abilities": [
-          "inflictPain"
-        ]
-      }
-    }
-  },
-  "aberration": {
-    "name": "Aberration",
-    "faction": "cryx",
-    "type": "monstrosity",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "rangedAttack": 4,
-      "defense": 10,
-      "armour": 17,
-      "health": {
-        "total": 36,
-        "grid": {
-          "columns": [
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "L",
-                "6": "L"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "L",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "4": "A",
-                "5": "M",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "4": "A",
-                "5": "B",
-                "6": "B"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "R",
-                "6": "B"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "5": "R",
-                "6": "R"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "abilities": [
-      "companionExulonNostilla",
-      "hormoneManipulation",
-      "hyperAggressive",
-      "imperviousFlesh"
-    ],
-    "weapons": {
-      "sawCatapult": {
-        "type": "ranged",
-        "name": "Saw Catapult",
-        "statistics": {
-          "rangedAttack": 4,
-          "range": 10,
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "abilities": [
-          "grievousWounds"
+          "banish__939fb49f"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "pistol"
         ]
       },
-      "adhesiveBlaster": {
-        "type": "ranged",
-        "name": "Adhesive Blaster",
-        "statistics": {
-          "rangedAttack": 4,
-          "range": "Sp 8",
-          "rateOfFire": 1
-        },
-        "abilities": [
-          "reload1",
-          "shadowBind"
-        ]
-      },
-      "hydraulicShears": {
+      "hellspike": {
         "type": "melee",
-        "name": "Hydraulic Shears",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 17
-        },
-        "abilities": [
-          "criticalDecapitation"
-        ]
-      },
-      "tenderizer": {
-        "type": "melee",
-        "name": "Tenderizer",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 19
-        },
-        "abilities": [
-          "beatBack"
-        ]
-      },
-      "grapplingClaw": {
-        "type": "melee",
-        "name": "Grappling Claw",
+        "name": "Hellspike",
         "statistics": {
           "meleeAttack": 6,
           "range": 1,
-          "power": 14
-        },
-        "quantity": 2,
-        "abilities": [
-          "manCatcher"
-        ]
-      }
-    }
-  },
-  "gormanDiWulfeRevolutionaryAgent": {
-    "name": "Gorman di Wulfe, Revolutionary Agent",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 3,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "rangedAttack": 6,
-      "defense": 14,
-      "armour": 12,
-      "health": 5
-    },
-    "abilities": [
-      "alchemicalMask",
-      "smokeBombsAction"
-    ],
-    "weapons": {
-      "experimentalBombLauncher": {
-        "type": "ranged",
-        "name": "Experimental Bomb Launcher",
-        "statistics": {
-          "rangedAttack": 6,
-          "range": 12,
-          "rateOfFire": 1,
-          "areaOfEffect": 2,
-          "power": "12/8"
-        },
-        "abilities": [
-          "attackType"
-        ]
-      },
-      "stiletto": {
-        "type": "melee",
-        "name": "Stiletto",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 9
-        }
-      }
-    }
-  },
-  "hellslingerPhantom": {
-    "name": "Hellslinger Phantom",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 4,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 7,
-      "rangedAttack": 8,
-      "defense": 15,
-      "armour": 12,
-      "health": 8
-    },
-    "abilities": [
-      "mercenaryHouseKallyssNecrofactoriumAndReaperCovenant",
-      "reciprocate",
-      "quickDraw",
-      "spiritSiphon"
-    ],
-    "weapons": {
-      "magelockPistol": {
-        "type": "ranged",
-        "name": "Magelock Pistol",
-        "statistics": {
-          "rangedAttack": 8,
-          "range": 12,
-          "rateOfFire": 1,
           "power": 12
         },
-        "quantity": 2,
         "abilities": [
-          "attackType"
+          "bloodShadow"
+        ],
+        "qualities": [
+          "damageTypeMagical"
         ]
       }
-    }
-  },
-  "ironLichCommander": {
-    "name": "Iron Lich Commander",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 4,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/2",
-    "statistics": {
-      "speed": 5,
-      "arcaneAttack": 6,
-      "meleeAttack": 6,
-      "defense": 14,
-      "armour": 16,
-      "controlRange": 8,
-      "health": 8
     },
     "abilities": [
-      "magicAbility",
-      "hexBlastAttack",
-      "invocationOfBitterestNightAction",
-      "soulTransferAction",
-      "soulTakerSpectralScavenger"
-    ],
-    "weapons": {
-      "ironClaw": {
-        "type": "melee",
-        "name": "Iron Claw",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 13
-        },
-        "quantity": 2
-      }
-    }
-  },
-  "machineWraithDominator": {
-    "name": "Machine Wraith Dominator",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 4,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/4",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 6,
-      "defense": 14,
-      "armour": 14,
-      "health": 8
-    },
-    "abilities": [
-      "annihilator",
-      "apparition",
-      "poltergeist"
-    ],
-    "weapons": {
-      "mechanoClaw": {
-        "type": "melee",
-        "name": "Mechano-Claw",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 12
-        },
-        "quantity": 2,
-        "abilities": [
-          "darkDomination"
-        ]
-      }
-    }
-  },
-  "magnusTheUnstoppable": {
-    "name": "Magnus the Unstoppable",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 20,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 5,
-      "arcaneAttack": 5,
-      "meleeAttack": 7,
-      "rangedAttack": 6,
-      "defense": 14,
-      "armour": 17,
-      "controlRange": 12,
-      "health": 10
-    },
-    "abilities": [
-      "trueMercenary",
-      "feignDeath",
-      "journeymanWarcaster",
-      "limitedBattlegroupInvictus"
+      "dodge",
+      "grapplingHook",
+      "vitalMagic",
+      "wraithbinder"
     ],
     "spells": [
-      "conviction",
-      "energizer",
-      "hellwrought"
+      "banishingWard",
+      "crimsonVeil",
+      "cripplingGrasp",
+      "mirage",
+      "venom"
     ],
-    "weapons": {
-      "rocketLauncher": {
-        "type": "ranged",
-        "name": "Rocket Launcher",
-        "statistics": {
-          "rangedAttack": 6,
-          "range": 14,
-          "rateOfFire": 1,
-          "areaOfEffect": 2,
-          "power": "14/8"
-        },
-        "abilities": [
-          "cumbersome"
-        ]
-      },
-      "scattergun": {
-        "type": "ranged",
-        "name": "Scattergun",
-        "statistics": {
-          "rangedAttack": 6,
-          "range": "Sp 6",
-          "rateOfFire": 1,
-          "power": 12
-        }
-      },
-      "foecleaverX": {
-        "type": "melee",
-        "name": "Foecleaver X",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 12
-        },
-        "abilities": [
-          "armorPiercingAttack",
-          "powerfulAttack"
-        ]
-      },
-      "ironFist": {
-        "type": "melee",
-        "name": "Iron Fist",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 12
-        },
-        "abilities": [
-          "beatBack"
-        ]
-      }
-    }
-  },
-  "invictus": {
-    "name": "Invictus",
-    "faction": "cryx",
-    "type": "warjack",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 7,
-      "rangedAttack": 5,
-      "defense": 9,
-      "armour": 20,
-      "health": {
-        "total": 34,
-        "grid": {
-          "columns": [
-            {
-              "boxes": 5,
-              "systems": {
-                "4": "L",
-                "5": "L"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "4": "L",
-                "5": "L",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "4": "A",
-                "5": "M",
-                "6": "M"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "4": "A",
-                "5": "C",
-                "6": "C"
-              }
-            },
-            {
-              "boxes": 6,
-              "systems": {
-                "4": "R",
-                "5": "R",
-                "6": "C"
-              }
-            },
-            {
-              "boxes": 5,
-              "systems": {
-                "4": "R"
-              }
-            }
-          ]
-        }
-      }
-    },
-    "abilities": [
-      "companionMagnusTheUnstoppable",
-      "aggressive",
-      "retaliatoryStrike"
-    ],
-    "weapons": {
-      "obliterator": {
-        "type": "ranged",
-        "name": "Obliterator",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 12,
-          "rateOfFire": 1,
-          "areaOfEffect": 3,
-          "power": "15/8"
-        },
-        "abilities": [
-          "arcingFire",
-          "criticalKnockdown"
-        ]
-      },
-      "flamethrower": {
-        "type": "ranged",
-        "name": "Flamethrower",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 12
-        }
-      },
-      "scrapSaw": {
-        "type": "melee",
-        "name": "Scrap Saw",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 18
-        },
-        "abilities": [
-          "criticalShred",
-          "sustainedAttack"
-        ]
-      },
-      "battleFlail": {
-        "type": "melee",
-        "name": "Battle Flail",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 3,
-          "power": 19
-        },
-        "abilities": [
-          "criticalKnockdown",
-          "thresherAttack"
-        ]
-      }
-    }
-  },
-  "masterNecrotechChatterbane": {
-    "name": "Master Necrotech Chatterbane",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 4,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
-      "defense": 13,
-      "armour": 17,
-      "health": 8
-    },
-    "abilities": [
-      "ancillaryAttackAction",
-      "enlivenAction",
-      "exhaustFumes",
-      "repairD33Action"
-    ],
-    "weapons": {
-      "lightSpiker": {
-        "type": "ranged",
-        "name": "Light Spiker",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 11,
-          "rateOfFire": "D3",
-          "power": 11
-        },
-        "abilities": [
-          "volumeFire"
-        ]
-      },
-      "eviscerator": {
-        "type": "melee",
-        "name": "Eviscerator",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 2,
-          "power": 13
-        },
-        "abilities": [
-          "criticalShred"
-        ]
-      }
-    }
-  },
-  "maulgrethTheCharnelPlague": {
-    "name": "Maulgreth, The Charnel Plague",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 4,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 7,
-      "defense": 12,
-      "armour": 18,
-      "health": 8
-    },
-    "abilities": [
-      "mercenaryHouseKallyssNecrofactoriumAndSeaRaiders",
-      "cleave",
-      "defensiveStrike",
-      "entropicForce",
-      "hellMarked",
-      "spellWard"
-    ],
-    "weapons": {
-      "reaper": {
-        "type": "melee",
-        "name": "Reaper",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 13
-        },
-        "abilities": [
-          "lifeDrinker"
-        ]
-      }
-    }
-  },
-  "necroharvester": {
-    "name": "Necroharvester",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 8,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/2",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 17,
-      "health": 10
-    },
-    "abilities": [
-      "bodySnatcherHarvester",
-      "deathPowered",
-      "girded",
-      "salvageHarvester",
-      "steady",
-      "sturdy"
-    ],
-    "weapons": {
-      "harvestingClaw": {
-        "type": "melee",
-        "name": "Harvesting Claw",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 3,
-          "power": 15
-        },
-        "quantity": 2,
-        "abilities": [
-          "drag",
-          "criticalGrievousWounds"
-        ]
-      }
-    }
-  },
-  "corpseCrawler": {
-    "name": "Corpse Crawler",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 0,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1",
-    "statistics": {
-      "speed": 3,
-      "defense": 12,
-      "armour": 11
-    },
-    "abilities": [
-      "created",
-      "explosiveDecomposition",
-      "inconsequential",
-      "selfPropelled"
+    "feat": [
+      "wrathOfLyliss"
     ]
-  },
-  "silexusXiphus": {
-    "name": "Silexus Xiphus",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 3,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "health": 8,
-      "speed": 6,
-      "arcaneAttack": 7,
-      "meleeAttack": 5,
-      "defense": 14,
-      "armour": 13
-    },
-    "abilities": [
-      "anatomicalPrecision",
-      "magicAbility",
-      "befuddleAttack",
-      "healD31Action",
-      "psychicAssaultAttack"
-    ],
-    "weapons": {
-      "prostheticBlades": {
-        "type": "melee",
-        "name": "Prosthetic Blades",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 11
-        }
-      }
-    }
-  },
-  "skarlockLieutenant": {
-    "name": "Skarlock Lieutenant",
-    "faction": "cryx",
-    "type": "solo",
-    "points": 3,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/4",
-    "statistics": {
-      "health": 6,
-      "speed": 6,
-      "arcaneAttack": 6,
-      "meleeAttack": 6,
-      "defense": 14,
-      "armour": 14
-    },
-    "abilities": [
-      "leadershipMechanithrallSwarm",
-      "magicAbility",
-      "darkFireAttack",
-      "desperateMissionAction",
-      "sigilOfPowerAction",
-      "soulTakerSoulCage",
-      "soulPowered",
-      "strengthOfDeath"
-    ],
-    "weapons": {
-      "greatSword": {
-        "type": "melee",
-        "name": "Great Sword",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 13
-        }
-      }
-    }
-  },
-  "criterions": {
-    "name": "Criterions",
-    "faction": "cryx",
-    "type": "unit",
-    "points": 9,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/2",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 6,
-      "defense": 11,
-      "armour": 17
-    },
-    "abilities": [
-      "battleDriven",
-      "rapidHealing"
-    ],
-    "weapons": {
-      "drudgeWeapons": {
-        "type": "melee",
-        "name": "Drudge Weapons",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 14
-        },
-        "quantity": 2,
-        "abilities": [
-          "criticalGrievousWounds"
-        ]
-      }
-    },
-    "models": {
-      "modela": {
-        "name": "Model A",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "modelb": {
-        "name": "Model B",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "modelc": {
-        "name": "Model C",
-        "statistics": {
-          "health": 7
-        }
-      }
-    }
-  },
-  "mechanithrallBrutes": {
-    "name": "Mechanithrall Brutes",
-    "faction": "cryx",
-    "type": "unit",
-    "points": 7,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/2",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "defense": 12,
-      "armour": 17
-    },
-    "abilities": [
-      "evasive",
-      "unyielding"
-    ],
-    "weapons": {
-      "steamFist": {
-        "type": "melee",
-        "name": "Steam Fist",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 14
-        },
-        "quantity": 2,
-        "abilities": [
-          "beatBack",
-          "comboStrikeAttack"
-        ]
-      }
-    },
-    "models": {
-      "modela": {
-        "name": "Model A",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "modelb": {
-        "name": "Model B",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "modelc": {
-        "name": "Model C",
-        "statistics": {
-          "health": 7
-        }
-      }
-    }
-  },
-  "mechanithrallSwarm": {
-    "name": "Mechanithrall Swarm",
-    "faction": "cryx",
-    "type": "unit",
-    "points": 6,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/6",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "defense": 12,
-      "armour": 13
-    },
-    "abilities": [
-      "vengeance"
-    ],
-    "weapons": {
-      "thrallWeapon": {
-        "type": "melee",
-        "name": "Thrall Weapon",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 12
-        },
-        "quantity": 2,
-        "abilities": [
-          "comboStrikeAttack"
-        ]
-      }
-    }
-  },
-  "necrosurgeonInitiates": {
-    "name": "Necrosurgeon Initiates",
-    "faction": "cryx",
-    "type": "unit",
-    "points": 4,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/4",
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 4,
-      "defense": 14,
-      "armour": 12
-    },
-    "abilities": [
-      "anatomicalPrecision",
-      "grimReturnsAction",
-      "magicAbility",
-      "empowerAction",
-      "necrosurgeryD31Action"
-    ],
-    "weapons": {
-      "implementOfDeath": {
-        "type": "melee",
-        "name": "Implement of Death",
-        "statistics": {
-          "meleeAttack": 4,
-          "range": 1,
-          "power": 11
-        }
-      }
-    }
-  },
-  "nightTerrors": {
-    "name": "Night Terrors",
-    "faction": "cryx",
-    "type": "unit",
-    "points": 10,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/2",
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 6,
-      "defense": 14,
-      "armour": 16
-    },
-    "abilities": [
-      "apparition",
-      "finisher",
-      "reposition3"
-    ],
-    "weapons": {
-      "scythingBlade": {
-        "type": "melee",
-        "name": "Scything Blade",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 12
-        },
-        "quantity": 2
-      }
-    },
-    "models": {
-      "modela": {
-        "name": "Model A",
-        "statistics": {
-          "health": 5
-        }
-      },
-      "modelb": {
-        "name": "Model B",
-        "statistics": {
-          "health": 4
-        }
-      },
-      "modelc": {
-        "name": "Model C",
-        "statistics": {
-          "health": 5
-        }
-      }
-    }
-  },
-  "sludgeThralls": {
-    "name": "Sludge Thralls",
-    "faction": "cryx",
-    "type": "unit",
-    "points": 8,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/2",
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "rangedAttack": 5,
-      "defense": 12,
-      "armour": 17
-    },
-    "abilities": [
-      "acidBlast",
-      "evasive"
-    ],
-    "weapons": {
-      "bileCannon": {
-        "type": "ranged",
-        "name": "Bile Cannon",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 14
-        }
-      },
-      "ripper": {
-        "type": "melee",
-        "name": "Ripper",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 12
-        },
-        "abilities": [
-          "criticalShred"
-        ]
-      }
-    },
-    "models": {
-      "modela": {
-        "name": "Model A",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "modelb": {
-        "name": "Model B",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "modelc": {
-        "name": "Model C",
-        "statistics": {
-          "health": 7
-        }
-      }
-    }
-  },
-  "theFuries": {
-    "name": "The Furies",
-    "faction": "cryx",
-    "type": "unit",
-    "points": 10,
-    "keywords": [],
-    "armies": [
-      "necrofactorium"
-    ],
-    "fieldAllowance": "1/C",
-    "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "meleeAttack": 6,
-      "defense": 14,
-      "armour": 14
-    },
-    "abilities": [
-      "magicAbility",
-      "marionetteAttack",
-      "powerOfDeathAction",
-      "stygianAbyssAttack",
-      "mortalFear"
-    ],
-    "weapons": {
-      "wraithStrike": {
-        "type": "melee",
-        "name": "Wraith Strike",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 12
-        }
-      }
-    },
-    "models": {
-      "anathan": {
-        "name": "Anathan",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "dogreth": {
-        "name": "Dogreth",
-        "statistics": {
-          "health": 7
-        }
-      },
-      "valak": {
-        "name": "Valak",
-        "statistics": {
-          "health": 7
-        }
-      }
-    }
   }
 }

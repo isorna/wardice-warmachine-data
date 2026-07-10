@@ -1,0 +1,4549 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "circle-orboros",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "argusMoonhound": {
+    "name": "Argus Moonhound",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20argus%20moonhound.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 14,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 21,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "bite__bbca4c47": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "markTarget"
+    ],
+    "spells": [
+      "huntingHowls"
+    ]
+  },
+  "bloodweaverNightWitch": {
+    "name": "Bloodweaver Night Witch",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Tharn",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20bloodweaver%20night%20witch.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "implementsOfDeath": {
+        "type": "melee",
+        "name": "Implements of Death",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType",
+          "dispel__97960018",
+          "grievousWounds__cf046ece",
+          "lifeStealer"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "killingSpree",
+      "leadershipBloodweavers"
+    ]
+  },
+  "bradigusThorleTheRunecarver": {
+    "name": "Bradigus Thorle the Runecarver",
+    "faction": "circle-orboros",
+    "type": "warlock",
+    "keywords": [
+      "Secret Dominion",
+      "Scout",
+      "Blackclad",
+      "Warlock"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20bradigus%20thorle%20the%20runecarver.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "stonesThrow": {
+        "type": "ranged",
+        "name": "Stones Throw",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": "d3",
+          "power": 13
+        },
+        "abilities": [
+          "beatBack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "stoneStrike": {
+        "type": "melee",
+        "name": "Stone Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "criticalSmite"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "earthMagic",
+      "repairD33Action",
+      "steady",
+      "stonebinder"
+    ],
+    "spells": [
+      "mysticWards",
+      "rift",
+      "rockWall",
+      "synergy"
+    ],
+    "feat": [
+      "tideOfEarth"
+    ]
+  },
+  "brighidCaul": {
+    "name": "Bríghid & Caul",
+    "faction": "circle-orboros",
+    "type": "unit",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Tharn",
+      "Unit"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20brighid%20%26%20caul.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 12
+    },
+    "advantages": [
+      "advanceDeployment",
+      "dualAttack",
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "longBow": {
+        "type": "ranged",
+        "name": "Long Bow",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "huntingKnife": {
+        "type": "melee",
+        "name": "Hunting Knife",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "grantedPrey"
+    ],
+    "models": {
+      "brighid1": {
+        "name": "Bríghid 1",
+        "statistics": {
+          "speed": 7,
+          "meleeAttack": 6,
+          "rangedAttack": 7,
+          "defense": 15,
+          "armour": 12
+        },
+        "advantages": [
+          "advanceDeployment",
+          "dualAttack",
+          "pathfinder",
+          "stealth"
+        ],
+        "abilities": [
+          "grantedPrey"
+        ],
+        "weapons": {
+          "longBow": {
+            "type": "ranged",
+            "name": "Long Bow",
+            "statistics": {
+              "rangedAttack": 7,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 10
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          },
+          "huntingKnife": {
+            "type": "melee",
+            "name": "Hunting Knife",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 9
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          }
+        }
+      },
+      "caul1": {
+        "name": "Caul 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 17
+        },
+        "advantages": [
+          "advanceDeployment",
+          "pathfinder",
+          "tough"
+        ],
+        "abilities": [
+          "bodySnatcherHeartEater",
+          "bloodRage",
+          "meatForTheBeast",
+          "grantedTreewalker",
+          "rapidHealing",
+          "shieldGuard__fca004fb"
+        ],
+        "weapons": {
+          "tharnAxe": {
+            "type": "melee",
+            "name": "Tharn Axe",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 15
+            },
+            "abilities": [
+              "brutalCharge"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "cassiusTheOathkeeper": {
+    "name": "Cassius the Oathkeeper",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Blackclad",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20cassius%20the%20oathkeeper.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "health": 10
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder"
+    ],
+    "weapons": {
+      "genesis": {
+        "type": "melee",
+        "name": "Genesis",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "fertilizer"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "channelerWurmwoodTreeOfFate",
+      "companionWurmwoodTreeOfFate",
+      "furyBound",
+      "prowl",
+      "steady"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "circle-orboros",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "circle-orboros",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "circle-orboros",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "feralWarpwolf": {
+    "name": "Feral Warpwolf",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20feral%20warpwolf.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "bite__07195ffb": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      },
+      "claw__4b176726": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "controlledWarping",
+      "protectivePlates",
+      "warpSpeed",
+      "warpStrength",
+      "regenerationD3"
+    ],
+    "spells": [
+      "primal"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "circle-orboros",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "circle-orboros",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "gallowsGrove": {
+    "name": "Gallows Grove",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20gallows%20grove.png",
+    "statistics": {
+      "defense": 5,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment"
+    ],
+    "abilities": [
+      "channeler",
+      "entropicForce__d5706932",
+      "immobile",
+      "prowl",
+      "serenity",
+      "strangeGrowth"
+    ]
+  },
+  "ghetorix": {
+    "name": "Ghetorix",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Warpwolf",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20ghetorix.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 17,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "bite__07195ffb": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        }
+      },
+      "greatAxe__fd9ea898": {
+        "type": "melee",
+        "name": "Great Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 17
+        }
+      }
+    },
+    "abilities": [
+      "bondKromac",
+      "controlledWarping",
+      "murderous__ce6e6c0c",
+      "snacking__d55018f2",
+      "warpStrength",
+      "rapidHealing"
+    ],
+    "spells": [
+      "spinyGrowth"
+    ]
+  },
+  "gnarlhornSatyr": {
+    "name": "Gnarlhorn Satyr",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Heavy Warbeast",
+      "Secret Dominion"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20gnarlhorn%20satyr.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 26,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "gladiator",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "horns__f19d499f": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        }
+      },
+      "claw__4b176726": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "followUp",
+      "slammer"
+    ],
+    "spells": [
+      "earthsBlessing"
+    ]
+  },
+  "goraxRager": {
+    "name": "Gorax Rager",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Light Warbeast",
+      "Secret Dominion"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20gorax%20rager.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 6,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "claw__406d9588": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "painResponse"
+    ],
+    "spells": [
+      "primal"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "circle-orboros",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "ionaTheUnseen": {
+    "name": "Iona the Unseen",
+    "faction": "circle-orboros",
+    "type": "warlock",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Tharn",
+      "Warlock"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20iona%20the%20unseen.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "pathfinder",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "wurmtooth": {
+        "type": "melee",
+        "name": "Wurmtooth",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodBoon",
+          "brutalCharge"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "fightingClaw__ee419078": {
+        "type": "melee",
+        "name": "Fighting Claw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "dodge",
+      "leadershipTharn",
+      "overtake"
+    ],
+    "spells": [
+      "abattoir",
+      "huntersMark",
+      "pursuit",
+      "sureFoot"
+    ],
+    "feat": [
+      "timeOfTheBeast"
+    ]
+  },
+  "koganTheExile": {
+    "name": "Kogan the Exile",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Tharn",
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20kogan%20the%20exile.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "tharnAxe__eef85ca4": {
+        "type": "melee",
+        "name": "Tharn Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "brutalCharge",
+          "smiteAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedTrollbloods",
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "meatForTheBeast",
+      "rapidHealing",
+      "treewalker",
+      "unyielding"
+    ]
+  },
+  "kromacChampionOfTheWurm": {
+    "name": "Kromac, Champion of the Wurm",
+    "faction": "circle-orboros",
+    "type": "warlock",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Tharn",
+      "Scout",
+      "Warlock"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20kromac%20champion%20of%20the%20wurm.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 8,
+      "defense": 14,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 19
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "weapons": {
+      "rathrok": {
+        "type": "melee",
+        "name": "Rathrok",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 17
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "deathFeast",
+      "meatForTheBeast",
+      "fieldMarshalHyperAggressive"
+    ],
+    "spells": [
+      "carnage",
+      "inviolableResolve",
+      "sunderSpirit",
+      "vengeful"
+    ],
+    "feat": [
+      "bloodlust"
+    ]
+  },
+  "loki": {
+    "name": "Loki",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Heavy Warbeast",
+      "Devourer's Host"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20loki.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "fury": 4,
+      "threshold": 10,
+      "health": {
+        "total": 28,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "thrownHook__b9376572": {
+        "type": "ranged",
+        "name": "Thrown Hook",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "abilities": [
+          "drag"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      },
+      "battleShield__58d0d336": {
+        "type": "melee",
+        "name": "Battle Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "shield"
+        ]
+      },
+      "bite__3ccdd592": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "bondTanith",
+      "controlledWarping",
+      "hunter__b8f5eb87",
+      "warpSpeed",
+      "warpStrength",
+      "regenerationD3",
+      "shieldGuard"
+    ],
+    "spells": [
+      "elusive"
+    ]
+  },
+  "lordOfTheFeast": {
+    "name": "Lord of the Feast",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20lord%20of%20the%20feast.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder",
+      "stealth",
+      "dualAttack"
+    ],
+    "weapons": {
+      "raven": {
+        "type": "ranged",
+        "name": "Raven",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "shifter"
+        ]
+      },
+      "wurmblade": {
+        "type": "melee",
+        "name": "Wurmblade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodReaper",
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "deathFeast",
+      "meatForTheBeast",
+      "deathPowered"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "circle-orboros",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "circle-orboros",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "nualaTheHuntress": {
+    "name": "Nuala the Huntress",
+    "faction": "circle-orboros",
+    "type": "commandAttachment",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Tharn",
+      "Bloodtracker",
+      "Command Attachment"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20nuala%20the%20huntress.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder",
+      "stealth",
+      "assault"
+    ],
+    "weapons": {
+      "thrownJavelin": {
+        "type": "ranged",
+        "name": "Thrown Javelin",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 7,
+          "rateOfFire": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "fightingClaw__b0be05c7": {
+        "type": "melee",
+        "name": "Fighting Claw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentTharnBloodtracker",
+      "grantedVengeance",
+      "huntersReckoning",
+      "prey"
+    ]
+  },
+  "purebloodWarpwolf": {
+    "name": "Pureblood Warpwolf",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Heavy Warbeast",
+      "Secret Dominion"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20pureblood%20warpwolf.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 17,
+      "fury": 4,
+      "threshold": 10,
+      "health": {
+        "total": 28,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "deathHowler": {
+        "type": "ranged",
+        "name": "Death Howler",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "claw__2b512e19": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "controlledWarping",
+      "ghostly__f3414119",
+      "spellWard",
+      "warpStrength",
+      "regenerationD3"
+    ],
+    "spells": [
+      "wraithbane"
+    ]
+  },
+  "razorwingGriffon": {
+    "name": "Razorwing Griffon",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20razorwing%20griffon.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 14,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "flight",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "clawBlades": {
+        "type": "melee",
+        "name": "Claw Blades",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bladeRush"
+    ],
+    "spells": [
+      "amuck"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "ripHornSatyr": {
+    "name": "Rip Horn Satyr",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Heavy Warbeast",
+      "Secret Dominion"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20rip%20horn%20satyr.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "horns": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        }
+      },
+      "bladedGauntlet": {
+        "type": "melee",
+        "name": "Bladed Gauntlet",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "chainAttackGrabSmash"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "fightOrFlightInstinct"
+    ],
+    "spells": [
+      "ornery"
+    ]
+  },
+  "rotterhornGriffon": {
+    "name": "Rotterhorn Griffon",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20rotterhorn%20griffon.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 14,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "flight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "dualAttack"
+    ],
+    "weapons": {
+      "deathShriek": {
+        "type": "ranged",
+        "name": "Death Shriek",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "claws__5fd43e8c": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "spells": [
+      "counterblast"
+    ]
+  },
+  "scarsfellGriffon": {
+    "name": "Scarsfell Griffon",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20scarsfell%20griffon.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 13,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "flight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "stealth"
+    ],
+    "weapons": {
+      "beak__f491ba4c": {
+        "type": "melee",
+        "name": "Beak",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      },
+      "claw__4dff0b84": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "tracker"
+    ],
+    "spells": [
+      "elusive"
+    ]
+  },
+  "shadowhornSatyr": {
+    "name": "Shadowhorn Satyr",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Heavy Warbeast",
+      "Secret Dominion"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20shadowhorn%20satyr.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 17,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 26,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "horns__6045b26a": {
+        "type": "melee",
+        "name": "Horns",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      },
+      "claw__617de7e6": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "setDefense",
+      "vault"
+    ],
+    "spells": [
+      "elusive"
+    ]
+  },
+  "stormRaptor": {
+    "name": "Storm Raptor",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Gargantuan"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 25,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20storm%20raptor.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 50,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 9
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 9
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "flight",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "lightning__c78cab52": {
+        "type": "ranged",
+        "name": "Lightning",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "abilities": [
+          "energyPulseAttack",
+          "forcedReload2",
+          "sustainedAttack"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "beak__44e15da6": {
+        "type": "melee",
+        "name": "Beak",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "abilities": [
+          "electroLeap"
+        ],
+        "qualities": [
+          "criticalDisruption"
+        ]
+      },
+      "talon__dc93f0cb": {
+        "type": "melee",
+        "name": "Talon",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "quantity": 2,
+        "abilities": [
+          "electroLeap"
+        ],
+        "qualities": [
+          "criticalDisruption",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "flyingHigh",
+      "lightningRod",
+      "plasmaNimbus"
+    ],
+    "spells": [
+      "skyFire"
+    ]
+  },
+  "tanithTheFeralSong": {
+    "name": "Tanith the Feral Song",
+    "faction": "circle-orboros",
+    "type": "warlock",
+    "keywords": [
+      "Circle",
+      "Blackclad",
+      "Warlock",
+      "Devourer's Host"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tanith%20the%20feral%20song.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 15
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "jawsOfTheEarth": {
+        "type": "ranged",
+        "name": "Jaws of the Earth",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "13/7"
+        },
+        "abilities": [
+          "fromBeneath",
+          "criticalConsume"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "staffOfFate": {
+        "type": "melee",
+        "name": "Staff of Fate",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "shadowBind"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "darkPower",
+      "fieldMarshalProwl",
+      "prowl",
+      "vitalMagic"
+    ],
+    "spells": [
+      "admonition",
+      "affliction",
+      "rift",
+      "scythingTouch",
+      "veilOfMists"
+    ],
+    "feat": [
+      "ritesOfTheWurm"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "tharnBloodPack": {
+    "name": "Tharn Blood Pack",
+    "faction": "circle-orboros",
+    "type": "unit",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Unit"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20blood%20pack.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 15
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "tharnBow": {
+        "type": "ranged",
+        "name": "Tharn Bow",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "bowBlade": {
+        "type": "melee",
+        "name": "Bow Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "meatForTheBeast",
+      "hunter",
+      "rapidHealing",
+      "treewalker"
+    ]
+  },
+  "tharnBloodShaman": {
+    "name": "Tharn Blood Shaman",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "1",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20blood%20shaman.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "spear__ea8169d3": {
+        "type": "melee",
+        "name": "Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ritualBlade": {
+        "type": "melee",
+        "name": "Ritual Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "attached",
+      "battleWizard",
+      "magicAbility",
+      "bloodRitualAction",
+      "guidanceAction",
+      "harmoniousExaltationAction",
+      "spellSlaveActionOrAttack",
+      "setDefense"
+    ]
+  },
+  "tharnBloodtrackers": {
+    "name": "Tharn Bloodtrackers",
+    "faction": "circle-orboros",
+    "type": "unit",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Unit"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20bloodtrackers.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 11
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder",
+      "stealth",
+      "assault"
+    ],
+    "weapons": {
+      "thrownJavelin": {
+        "type": "ranged",
+        "name": "Thrown Javelin",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 7,
+          "rateOfFire": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "fightingClaw": {
+        "type": "melee",
+        "name": "Fighting Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "prey"
+    ]
+  },
+  "tharnBloodweaverHaruspex": {
+    "name": "Tharn Bloodweaver Haruspex",
+    "faction": "circle-orboros",
+    "type": "commandAttachment",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Command Attachment"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20bloodweaver%20haruspex.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "sacralBlade__98f99d99": {
+        "type": "melee",
+        "name": "Sacral Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "abilities": [
+          "attackType",
+          "burster",
+          "grievousWounds__cf046ece",
+          "lifeStealer"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentTharnBloodweaver",
+      "gang",
+      "grantedAmbush",
+      "grantedDivineInspiration"
+    ]
+  },
+  "tharnBloodweavers": {
+    "name": "Tharn Bloodweavers",
+    "faction": "circle-orboros",
+    "type": "unit",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Unit"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "3",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20bloodweavers.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 11
+    },
+    "advantages": [
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "sacralBlade__98f99d99": {
+        "type": "melee",
+        "name": "Sacral Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        },
+        "abilities": [
+          "attackType",
+          "burster",
+          "grievousWounds__cf046ece",
+          "lifeStealer"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "gang"
+    ]
+  },
+  "tharnRavagerChieftain": {
+    "name": "Tharn Ravager Chieftain",
+    "faction": "circle-orboros",
+    "type": "commandAttachment",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Command Attachment"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20ravager%20chieftain.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 15,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "tharnAxe": {
+        "type": "melee",
+        "name": "Tharn Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentTharnRavager",
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "meatForTheBeast",
+      "grantedVengeance",
+      "massCarnage",
+      "rapidHealing",
+      "treewalker"
+    ]
+  },
+  "tharnRavagerShaman": {
+    "name": "Tharn Ravager Shaman",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20ravager%20shaman.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 15,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "totemStaff": {
+        "type": "melee",
+        "name": "Totem Staff",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "meatForTheBeast",
+      "magicAbility",
+      "chainLightningAttack",
+      "huntersGraceAction",
+      "skyShakerAction",
+      "rapidHealing",
+      "treewalker"
+    ]
+  },
+  "tharnRavagerWhiteMane": {
+    "name": "Tharn Ravager White Mane",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20ravager%20white%20mane.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 15,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "tharnAxe": {
+        "type": "melee",
+        "name": "Tharn Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "meatForTheBeast",
+      "rapidHealing",
+      "treewalker"
+    ]
+  },
+  "tharnRavagers": {
+    "name": "Tharn Ravagers",
+    "faction": "circle-orboros",
+    "type": "unit",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Unit"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20ravagers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 15
+    },
+    "advantages": [
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "tharnAxe": {
+        "type": "melee",
+        "name": "Tharn Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "meatForTheBeast",
+      "rapidHealing",
+      "treewalker"
+    ]
+  },
+  "tharnWolfRiderChampion": {
+    "name": "Tharn Wolf Rider Champion",
+    "faction": "circle-orboros",
+    "type": "solo",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Solo"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20wolf%20rider%20champion.png",
+    "statistics": {
+      "speed": 9,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "unstopable",
+      "assault"
+    ],
+    "weapons": {
+      "thrownJavelin": {
+        "type": "ranged",
+        "name": "Thrown Javelin",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 7,
+          "rateOfFire": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "bladedShield": {
+        "type": "melee",
+        "name": "Bladed Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "annoyance",
+      "jump",
+      "leadershipWolfRiders",
+      "prowl",
+      "reposition5",
+      "unyielding"
+    ]
+  },
+  "tharnWolfRiders": {
+    "name": "Tharn Wolf Riders",
+    "faction": "circle-orboros",
+    "type": "unit",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Unit"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20tharn%20wolf%20riders.png",
+    "statistics": {
+      "speed": 9,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 14
+    },
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "unstopable",
+      "assault"
+    ],
+    "weapons": {
+      "thrownJavelin": {
+        "type": "ranged",
+        "name": "Thrown Javelin",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 7,
+          "rateOfFire": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "bladedShield": {
+        "type": "melee",
+        "name": "Bladed Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "annoyance",
+      "reposition3",
+      "unpredictableMovement__c6fa3aa2",
+      "unyielding"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "warpwolfStalker": {
+    "name": "Warpwolf Stalker",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20warpwolf%20stalker.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 27,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "claw__b878652c": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "greatSword__1f2f8dc1": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        }
+      }
+    },
+    "abilities": [
+      "controlledWarping",
+      "berserk",
+      "prowl__dd1b3a62",
+      "warpStrength",
+      "regenerationD3"
+    ],
+    "spells": [
+      "lightningStrike"
+    ]
+  },
+  "wellOfOrboros": {
+    "name": "Well of Orboros",
+    "faction": "circle-orboros",
+    "type": "structure",
+    "keywords": [
+      "Devourer's Host",
+      "Secret Dominion",
+      "Structure"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20well%20of%20orboros.png",
+    "statistics": {
+      "rangedAttack": 6,
+      "defense": 5,
+      "armour": 19,
+      "health": 32
+    },
+    "advantages": [
+      "construct",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "sinkHole": {
+        "type": "ranged",
+        "name": "Sink Hole",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/10"
+        },
+        "abilities": [
+          "boneKeeper",
+          "fromBeneath"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "destructivePower",
+      "forwardDeployment",
+      "reinforcementsSmallBased",
+      "wakenTheStones"
+    ]
+  },
+  "wildArgus": {
+    "name": "Wild Argus",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20wild%20argus.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 21,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "bite__557f0942": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ]
+      }
+    },
+    "spells": [
+      "dopplerBark"
+    ]
+  },
+  "winterArgus": {
+    "name": "Winter Argus",
+    "faction": "circle-orboros",
+    "type": "warbeast",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20winter%20argus.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 4,
+      "defense": 14,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 21,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "resistanceCold",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "frostBreath__57f5e1ea": {
+        "type": "ranged",
+        "name": "Frost Breath",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalFreeze"
+        ],
+        "qualities": [
+          "damageTypeCold",
+          "pistol"
+        ]
+      },
+      "bite__a07a5cc9": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "quantity": 2
+      }
+    },
+    "spells": [
+      "winterCoat"
+    ]
+  },
+  "wurmwoodTreeOfFate": {
+    "name": "Wurmwood, Tree of Fate",
+    "faction": "circle-orboros",
+    "type": "warlock",
+    "keywords": [
+      "Circle",
+      "Devourer's Host",
+      "Warlock"
+    ],
+    "armies": [
+      "devourer-s-host"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20circle%20wurmwood%20%26%20cassius.png",
+    "statistics": {
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "defense": 5,
+      "armour": 18,
+      "controlRange": 14,
+      "health": 20
+    },
+    "advantages": [
+      "advanceDeployment",
+      "eyelessSight"
+    ],
+    "abilities": [
+      "ghostShield",
+      "immobile",
+      "prowl",
+      "soulTakerAltarOfSacrifice",
+      "strangeGrowth"
+    ],
+    "spells": [
+      "curseOfShadows",
+      "darkPath",
+      "hellmouth",
+      "rapidGrowth",
+      "stranglehold"
+    ],
+    "feat": [
+      "blackRoots"
+    ]
+  }
+}

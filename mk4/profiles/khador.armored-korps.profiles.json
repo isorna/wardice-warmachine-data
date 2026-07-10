@@ -1,0 +1,5590 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "khador",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "battleMechanikOfficer": {
+    "name": "Battle Mechanik Officer",
+    "faction": "khador",
+    "type": "commandAttachment",
+    "keywords": [
+      "Command Attachment",
+      "Khador",
+      "Armored Korps",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20battle%20mechanik%20officer.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 5,
+      "defense": 10,
+      "armour": 17,
+      "health": 8
+    },
+    "weapons": {
+      "wrench__e81019ec": {
+        "type": "melee",
+        "name": "Wrench",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentBattleMechanik",
+      "empowerAction",
+      "repairD33Action",
+      "repairable"
+    ]
+  },
+  "battleMechaniks": {
+    "name": "Battle Mechaniks",
+    "faction": "khador",
+    "type": "unit",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Unit",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20battle%20mechaniks.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 12,
+      "armour": 12
+    },
+    "weapons": {
+      "monkeyWrench": {
+        "type": "melee",
+        "name": "Monkey Wrench",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "repairD3Action"
+    ]
+  },
+  "beast09": {
+    "name": "Beast 09",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20beast%2009.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "resistanceCold",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "openFist": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 15
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "iceBreaker": {
+        "type": "melee",
+        "name": "Ice Breaker",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalFreeze",
+          "thresherAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bondSorscha",
+      "hyperAggressive",
+      "murderous"
+    ]
+  },
+  "berserker": {
+    "name": "Berserker",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "5th Division",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20berserker.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 5,
+      "defense": 11,
+      "armour": 18,
+      "health": {
+        "total": 27,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "warAxe__86d9041a": {
+        "type": "melee",
+        "name": "War Axe",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "berserk__98095277"
+    ]
+  },
+  "blackIvan": {
+    "name": "Black Ivan",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20black%20ivan.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "bombard__bcd1f37f": {
+        "type": "ranged",
+        "name": "Bombard",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "bearClaw": {
+        "type": "melee",
+        "name": "Bear Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R",
+        "abilities": [
+          "criticalBrutalDamage"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bondHarkevich",
+      "bulldoze",
+      "evasive"
+    ]
+  },
+  "bulkhead": {
+    "name": "Bulkhead",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Man-O-War",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20bulkhead.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "sawedOffShotcannon": {
+        "type": "ranged",
+        "name": "Sawed-off Shotcannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "riotShield": {
+        "type": "melee",
+        "name": "Riot Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "followUp",
+      "markTarget",
+      "repairable",
+      "shieldGuard"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "conquest": {
+    "name": "Conquest",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Colossal",
+      "Khador",
+      "Armored Korps",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 26,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20conquest.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 7,
+      "armour": 20,
+      "health": {
+        "total": 62,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "mainGuns__8fb13ef4": {
+        "type": "ranged",
+        "name": "Main Guns",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 15,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/10"
+        },
+        "abilities": [
+          "criticalDevastation"
+        ]
+      },
+      "secondaryBattery": {
+        "type": "ranged",
+        "name": "Secondary Battery",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 12,
+          "rateOfFire": 2,
+          "areaOfEffect": 2,
+          "power": "10/10"
+        },
+        "quantity": 2
+      },
+      "fist__0974823c": {
+        "type": "melee",
+        "name": "Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 23
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "decimator": {
+    "name": "Decimator",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20decimator.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "dozer": {
+        "type": "ranged",
+        "name": "Dozer",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 2,
+          "power": 15
+        },
+        "location": "L",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "ripSaw": {
+        "type": "melee",
+        "name": "Rip Saw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R",
+        "abilities": [
+          "sustainedAttack__f210d4c7"
+        ]
+      }
+    }
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "khador",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "demolisher": {
+    "name": "Demolisher",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20demolisher.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 18,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "gunfighter",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shoulderCannon": {
+        "type": "ranged",
+        "name": "Shoulder Cannon",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "15/8"
+        },
+        "quantity": 2
+      },
+      "shieldFist": {
+        "type": "melee",
+        "name": "Shield Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "shield",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "girded",
+      "steady__ee8b6350",
+      "sturdy"
+    ]
+  },
+  "destroyer": {
+    "name": "Destroyer",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20destroyer.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "bombard__bcd1f37f": {
+        "type": "ranged",
+        "name": "Bombard",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "executionerAxe": {
+        "type": "melee",
+        "name": "Executioner Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R",
+        "abilities": [
+          "criticalAmputation"
+        ]
+      }
+    }
+  },
+  "devastator": {
+    "name": "Devastator",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20devastator.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 18,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shieldFist": {
+        "type": "melee",
+        "name": "Shield Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "shield",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "rainOfDeathAttack",
+      "steady__ee8b6350",
+      "sturdy"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "khador",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "forwardKommanderSorschaKratikoff": {
+    "name": "Forward Kommander Sorscha Kratikoff",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Khador",
+      "5th Division",
+      "Warcaster",
+      "Scout"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20forward%20kommander%20sorscha.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 16,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "resistanceCold"
+    ],
+    "weapons": {
+      "quadIron": {
+        "type": "ranged",
+        "name": "Quad-Iron",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": "d3+1",
+          "power": 10
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "frostfang__115eb618": {
+        "type": "melee",
+        "name": "Frostfang",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "criticalFreeze",
+          "shatter"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalRelentlessCharge",
+      "freezer",
+      "relentlessCharge"
+    ],
+    "spells": [
+      "cyclone",
+      "escort",
+      "razorWind",
+      "snowShroud",
+      "wintersWrath"
+    ],
+    "feat": [
+      "wintersChill"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "greylordForgeSeer": {
+    "name": "Greylord Forge Seer",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Solo",
+      "Man-O-War",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20greylord%20forge%20seer.png",
+    "statistics": {
+      "speed": 4,
+      "arcaneAttack": 6,
+      "meleeAttack": 5,
+      "defense": 10,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "jackMarshal",
+      "resistanceCold"
+    ],
+    "weapons": {
+      "runeWeapon": {
+        "type": "melee",
+        "name": "Rune Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "criticalFreeze"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard",
+      "magicAbility",
+      "empowerAction__e131c030",
+      "guidanceAction",
+      "hoarfrostAttack",
+      "repairable"
+    ]
+  },
+  "greylordTernion": {
+    "name": "Greylord Ternion",
+    "faction": "khador",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "5th Division",
+      "Khador",
+      "Armored Korps"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20greylord%20ternion.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 13
+    },
+    "advantages": [
+      "resistanceCold"
+    ],
+    "weapons": {
+      "runeAxe__1704b452": {
+        "type": "melee",
+        "name": "Rune Axe",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility",
+      "empowerAction__e131c030",
+      "iceBoltAttack",
+      "iceCageAttack"
+    ]
+  },
+  "grolar": {
+    "name": "Grolar",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20grolar.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "autoCannon__8790973b": {
+        "type": "ranged",
+        "name": "Auto Cannon",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": "d3+1",
+          "power": 12
+        },
+        "location": "L",
+        "abilities": [
+          "volumeFire"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "openFist": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "pistonHammer": {
+        "type": "melee",
+        "name": "Piston Hammer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "ram"
+        ]
+      }
+    },
+    "abilities": [
+      "heavyBoiler"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "juggernaut": {
+    "name": "Juggernaut",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20juggernaut.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "openFist": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "iceAxe": {
+        "type": "melee",
+        "name": "Ice Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalFreeze"
+        ]
+      }
+    }
+  },
+  "karchevTheTerrible": {
+    "name": "Karchev the Terrible",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Khador",
+      "Greylord",
+      "Warcaster",
+      "Armored Korps",
+      "Scout"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20karchev%20the%20terrible.png",
+    "statistics": {
+      "speed": 4,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 19,
+      "controlRange": 12,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "dualAttack"
+    ],
+    "weapons": {
+      "fissure": {
+        "type": "ranged",
+        "name": "Fissure",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalKnockdown"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 15
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "sunder": {
+        "type": "melee",
+        "name": "Sunder",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "arcantrikTurbine",
+      "manInTheMachine",
+      "repairable"
+    ],
+    "spells": [
+      "eruption",
+      "groundZero",
+      "jumpstart",
+      "roadToWar"
+    ],
+    "feat": [
+      "unearthlyRage"
+    ]
+  },
+  "kodiak": {
+    "name": "Kodiak",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20kodiak.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "armoredFist": {
+        "type": "melee",
+        "name": "Armored Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "chainAttackGrabSmash"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "heavyBoiler",
+      "ventSteam"
+    ]
+  },
+  "kommandantAtanasArconovichStandard": {
+    "name": "Kommandant Atanas Arconovich & Standard",
+    "faction": "khador",
+    "type": "unit",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Unit",
+      "Man-O-War"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20kommandant%20atanas%20arconovich%20%26%20standard.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 17
+    },
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "greatSword__5d2c20e2": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "fightToTheLast",
+      "march",
+      "unstoppableFuryManOWar",
+      "repairable",
+      "tactician"
+    ],
+    "models": {
+      "arconovich1": {
+        "name": "Arconovich 1",
+        "statistics": {
+          "speed": 4,
+          "meleeAttack": 7,
+          "rangedAttack": 5,
+          "defense": 10,
+          "armour": 17
+        },
+        "abilities": [
+          "battlePlan",
+          "fightToTheLast",
+          "march",
+          "unstoppableFuryManOWar",
+          "repairable",
+          "tactician"
+        ],
+        "weapons": {
+          "handCannon": {
+            "type": "ranged",
+            "name": "Hand Cannon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "greatSword__5d2c20e2": {
+            "type": "melee",
+            "name": "Great Sword",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 15
+            }
+          }
+        }
+      },
+      "standardBearer": {
+        "name": "Standard Bearer",
+        "statistics": {
+          "speed": 4,
+          "meleeAttack": 6,
+          "defense": 10,
+          "armour": 17
+        },
+        "abilities": [
+          "rallyingPoint",
+          "repairable"
+        ],
+        "weapons": {
+          "gladius": {
+            "type": "melee",
+            "name": "Gladius",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 13
+            }
+          }
+        }
+      }
+    }
+  },
+  "kommandantIrusk": {
+    "name": "Kommandant Irusk",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Warcaster"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20kommandant%20irusk.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "swordCannon__1bc9debd": {
+        "type": "ranged",
+        "name": "Sword Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "onslaught": {
+        "type": "melee",
+        "name": "Onslaught",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "march",
+      "reveille",
+      "specialOrders"
+    ],
+    "spells": [
+      "airburst",
+      "battleLust",
+      "grind",
+      "inhospitableGround",
+      "ironFlesh",
+      "superiority"
+    ],
+    "feat": [
+      "undyingLoyalty"
+    ]
+  },
+  "kommandantSorschaKratikoff": {
+    "name": "Kommandant Sorscha Kratikoff",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Man-O-War",
+      "Warcaster"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20kommandant%20sorscha%20kratikoff.png",
+    "statistics": {
+      "speed": 4,
+      "arcaneAttack": 7,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "resistanceCold",
+      "dualAttack"
+    ],
+    "weapons": {
+      "cannon__8128e225": {
+        "type": "ranged",
+        "name": "Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "13/7"
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "frostfang": {
+        "type": "melee",
+        "name": "Frostfang",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [
+          "criticalSmite",
+          "freeze"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalFlankManOWar",
+      "repairable",
+      "stormsEmbrace"
+    ],
+    "spells": [
+      "ironFlesh",
+      "redline",
+      "windRush",
+      "wintersWrath"
+    ],
+    "feat": [
+      "deadOfWinter"
+    ]
+  },
+  "kommanderHarkevichTheIronWolf": {
+    "name": "Kommander Harkevich, The Iron Wolf",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20kommander%20harkevich%20the%20iron%20wolf.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 18
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "minister": {
+        "type": "melee",
+        "name": "Minister",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [
+          "stagger"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalReposition3"
+    ],
+    "spells": [
+      "bombshell",
+      "escort",
+      "guidedFire",
+      "jumpstart"
+    ],
+    "feat": [
+      "hourOfTheWolf"
+    ]
+  },
+  "kovnikApprenticeKratikoff": {
+    "name": "Kovnik Apprentice Kratikoff",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "5th Division",
+      "Khador"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20kovnik%20apprentice%20kratikoff.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 4,
+      "arcana": 4,
+      "meleeAttack": 5,
+      "rangedAttack": 4,
+      "defense": 15,
+      "armour": 14,
+      "controlRange": 8,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceCold"
+    ],
+    "weapons": {
+      "blunderbuss": {
+        "type": "ranged",
+        "name": "Blunderbuss",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "mechanikaAxe__9475ef72": {
+        "type": "melee",
+        "name": "Mechanika Axe",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "journeymanWarcaster",
+      "noSleepingOnTheJobWinterGuard"
+    ],
+    "spells": [
+      "boundlessCharge",
+      "fogOfWar"
+    ]
+  },
+  "madDog": {
+    "name": "Mad Dog",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Khador",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20mad%20dog.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 5,
+      "defense": 11,
+      "armour": 18,
+      "health": {
+        "total": 27,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "hammerSpike": {
+        "type": "melee",
+        "name": "Hammer Spike",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "fleet",
+      "smasher"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "khador",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "manOWarAssaultChariot": {
+    "name": "Man-O-War Assault Chariot",
+    "faction": "khador",
+    "type": "battleEngine",
+    "keywords": [
+      "Armored Korps",
+      "Battle Engine"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20assault%20chariot.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 19,
+      "health": 28
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "pathfinder",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "barrageGun": {
+        "type": "ranged",
+        "name": "Barrage Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": "d3",
+          "areaOfEffect": 2,
+          "power": "12/10"
+        }
+      },
+      "tramplingHooves__60bc8aa9": {
+        "type": "melee",
+        "name": "Trampling Hooves",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "repairable",
+      "reposition3",
+      "smokeLaunchers"
+    ]
+  },
+  "manOWarBombardierOfficer": {
+    "name": "Man-O-War Bombardier Officer",
+    "faction": "khador",
+    "type": "commandAttachment",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Command Attachment"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20bombardier%20officer.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "combinedRangedAttack"
+    ],
+    "weapons": {
+      "grenadeCannon": {
+        "type": "ranged",
+        "name": "Grenade Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "chainBlade": {
+        "type": "melee",
+        "name": "Chain Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentManOWarBombardier",
+      "grantedPathfinder",
+      "grantedQuickWork",
+      "repairable",
+      "supportFire"
+    ]
+  },
+  "manOWarBombardiers": {
+    "name": "Man-O-War Bombardiers",
+    "faction": "khador",
+    "type": "unit",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Unit"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20bombardiers.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 17
+    },
+    "advantages": [
+      "combinedRangedAttack"
+    ],
+    "weapons": {
+      "grenadeCannon": {
+        "type": "ranged",
+        "name": "Grenade Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "chainBlade": {
+        "type": "melee",
+        "name": "Chain Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "repairable"
+    ]
+  },
+  "manOWarDemolitionKorps": {
+    "name": "Man-O-War Demolition Korps",
+    "faction": "khador",
+    "type": "unit",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Unit"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20demolition%20corps.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 17
+    },
+    "weapons": {
+      "iceMaul": {
+        "type": "melee",
+        "name": "Ice Maul",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [
+          "criticalFreeze",
+          "shatter"
+        ]
+      }
+    },
+    "abilities": [
+      "repairable"
+    ]
+  },
+  "manOWarDrakhun": {
+    "name": "Man-O-War Drakhun",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Dragoon",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20drakhun.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 20
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "shieldCannon": {
+        "type": "ranged",
+        "name": "Shield Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "annihilatorBlade__40ce90b7": {
+        "type": "melee",
+        "name": "Annihilator Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "shield__7431be56": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "repairable",
+      "reposition3",
+      "steady__ee8b6350"
+    ],
+    "models": {
+      "drakhunMounted": {
+        "name": "Drakhun (Mounted)",
+        "statistics": {
+          "speed": 7,
+          "meleeAttack": 7,
+          "rangedAttack": 6,
+          "defense": 10,
+          "armour": 20
+        },
+        "advantages": [
+          "cavalry",
+          "dualAttack",
+          "unstopable"
+        ],
+        "abilities": [
+          "repairable",
+          "reposition3",
+          "steady__ee8b6350"
+        ],
+        "weapons": {
+          "shieldCannon": {
+            "type": "ranged",
+            "name": "Shield Cannon",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 6,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "annihilatorBlade__40ce90b7": {
+            "type": "melee",
+            "name": "Annihilator Blade",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 14
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          },
+          "shield__7431be56": {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 11
+            },
+            "qualities": [
+              "shield"
+            ]
+          }
+        }
+      },
+      "drakhunDismounted": {
+        "name": "Drakhun (Dismounted)",
+        "statistics": {
+          "speed": 4,
+          "meleeAttack": 7,
+          "rangedAttack": 6,
+          "defense": 10,
+          "armour": 18
+        },
+        "advantages": [
+          "dualAttack"
+        ],
+        "abilities": [
+          "repairable"
+        ],
+        "weapons": {
+          "shieldCannon": {
+            "type": "ranged",
+            "name": "Shield Cannon",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 6,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "annihilatorBlade__40ce90b7": {
+            "type": "melee",
+            "name": "Annihilator Blade",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 14
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          },
+          "shield__7431be56": {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 11
+            },
+            "qualities": [
+              "shield"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "manOWarKovnik": {
+    "name": "Man-O-War Kovnik",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20kovnik.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "dualAttack",
+      "jackMarshal",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "axeCannon": {
+        "type": "ranged",
+        "name": "Axe Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "axe__32abf88a": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 15
+        }
+      },
+      "shield__7431be56": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "desperatePaceManOWar",
+      "repairable"
+    ]
+  },
+  "manOWarShocktrooperOfficer": {
+    "name": "Man-O-War Shocktrooper Officer",
+    "faction": "khador",
+    "type": "commandAttachment",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Command Attachment"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20shocktrooper%20officer.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 18,
+      "health": 8
+    },
+    "weapons": {
+      "shieldCannon": {
+        "type": "ranged",
+        "name": "Shield Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "frostAxe": {
+        "type": "melee",
+        "name": "Frost Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalFreeze"
+        ]
+      },
+      "shield__c4af0f43": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentManOWarShocktroopers",
+      "grantedDualAttack",
+      "grantedSturdy",
+      "shieldWall",
+      "repairable"
+    ]
+  },
+  "manOWarShocktroopers": {
+    "name": "Man-O-War Shocktroopers",
+    "faction": "khador",
+    "type": "unit",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Unit"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "3",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20shocktroopers.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 18
+    },
+    "weapons": {
+      "shieldCannon": {
+        "type": "ranged",
+        "name": "Shield Cannon",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "annihilatorBlade": {
+        "type": "melee",
+        "name": "Annihilator Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        }
+      },
+      "shield__57c28aba": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "repairable",
+      "shieldWall"
+    ]
+  },
+  "manOWarSiegeChariot": {
+    "name": "Man-O-War Siege Chariot",
+    "faction": "khador",
+    "type": "battleEngine",
+    "keywords": [
+      "Armored Korps",
+      "Battle Engine"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20siege%20chariot.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 19,
+      "health": 28
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "pathfinder",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "heavyGun__a2e1045c": {
+        "type": "ranged",
+        "name": "Heavy Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 20
+        },
+        "abilities": [
+          "smite"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "tramplingHooves__60bc8aa9": {
+        "type": "melee",
+        "name": "Trampling Hooves",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "repairable",
+      "reposition3",
+      "smokeLaunchers"
+    ]
+  },
+  "manOWarStrikeTanker": {
+    "name": "Man-O-War Strike Tanker",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20strike%20tanker.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "slugGun__5da6f8fe": {
+        "type": "ranged",
+        "name": "Slug Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 8
+        },
+        "abilities": [
+          "armorPiercing",
+          "grievousWounds",
+          "siegeWeapon"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "shields": {
+        "type": "melee",
+        "name": "Shields",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "repairable",
+      "steady",
+      "sturdy"
+    ]
+  },
+  "manOWarSuppressionTanker": {
+    "name": "Man-O-War Suppression Tanker",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20man%20o%20war%20suppression%20tanker.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "volleyGun": {
+        "type": "ranged",
+        "name": "Volley Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": "d3",
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "fullBlastAction",
+          "volleyFire"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "shields": {
+        "type": "melee",
+        "name": "Shields",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "repairable",
+      "steady",
+      "sturdy"
+    ]
+  },
+  "marauder": {
+    "name": "Marauder",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20marauder.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "ramPiston": {
+        "type": "melee",
+        "name": "Ram Piston",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "siegeWeapon",
+          "comboSmiteAttack"
+        ]
+      }
+    }
+  },
+  "rager": {
+    "name": "Rager",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Khador",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20rager.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 5,
+      "rangedAttack": 4,
+      "defense": 11,
+      "armour": 18,
+      "health": {
+        "total": 27,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shieldCannon__66373edb": {
+        "type": "ranged",
+        "name": "Shield Cannon",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 15
+        },
+        "location": "L",
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "shield__2f51169c": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "gladius__e07b0d70": {
+        "type": "melee",
+        "name": "Gladius",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 15
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "shieldGuard__fca004fb"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "ruin": {
+    "name": "Ruin",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Heavy Warjack",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20ruin.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "armoredFist__d438e226": {
+        "type": "melee",
+        "name": "Armored Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 16
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "blackIronMace": {
+        "type": "melee",
+        "name": "Black Iron Mace",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "dispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bondButcher",
+      "sacredWard",
+      "soulTakerSpiritHarvester",
+      "spectralVortex__c0e8b444"
+    ]
+  },
+  "sergeantDragosDragadovich": {
+    "name": "Sergeant Dragos Dragadovich",
+    "faction": "khador",
+    "type": "commandAttachment",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Man-O-War",
+      "Command Attachment"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20sergeant%20dragos%20dragadovich.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "iceMaul__af9b78ce": {
+        "type": "melee",
+        "name": "Ice Maul",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalFreeze",
+          "shatter"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentManOWarDemolitionKorps",
+      "bondOfBrotherhood",
+      "grantedShieldWall",
+      "grantedVengeance",
+      "repairable"
+    ]
+  },
+  "spriggan": {
+    "name": "Spriggan",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "Armored Korps",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "4",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20spriggan.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "grenadeLauncher__74a8edf4": {
+        "type": "ranged",
+        "name": "Grenade Launcher",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "10/5"
+        },
+        "quantity": 2,
+        "abilities": [
+          "arcingFire",
+          "targetingFlare"
+        ]
+      },
+      "shield__1201b6cd": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "warLance": {
+        "type": "melee",
+        "name": "War Lance",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "powerfulCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "shieldGuard",
+      "steady__ee8b6350",
+      "sturdy"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "torch": {
+    "name": "Torch",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "5th Division",
+      "Khador"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20torch.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceCorrosion",
+      "resistanceFire",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "grenadeLauncher__38b70916": {
+        "type": "ranged",
+        "name": "Grenade Launcher",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "10/5"
+        },
+        "quantity": 2,
+        "abilities": [
+          "arcingFire",
+          "targetingFlare"
+        ]
+      },
+      "flamethrower__606f3909": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "spikedFist__8b3308dd": {
+        "type": "melee",
+        "name": "Spiked Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 16
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "ripSaw__d621fc0f": {
+        "type": "melee",
+        "name": "Rip Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "sustainedAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bondStrakhov"
+    ]
+  },
+  "victor": {
+    "name": "Victor",
+    "faction": "khador",
+    "type": "warjack",
+    "keywords": [
+      "Khador",
+      "5th Division",
+      "Armored Korps",
+      "Colossal"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20victor.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 7,
+      "armour": 20,
+      "health": {
+        "total": 62,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "siegeMortar": {
+        "type": "ranged",
+        "name": "Siege Mortar",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 18,
+          "rateOfFire": 1,
+          "areaOfEffect": 4,
+          "power": "15/8"
+        },
+        "abilities": [
+          "arcingFire",
+          "attackType",
+          "crater",
+          "flare__24a85f2a",
+          "incendiary"
+        ]
+      },
+      "autoCannon__9a5db11d": {
+        "type": "ranged",
+        "name": "Auto Cannon",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 12,
+          "rateOfFire": "d3",
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "flakFire"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "fist__0974823c": {
+        "type": "melee",
+        "name": "Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 23
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "khador",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "warDog": {
+    "name": "War Dog",
+    "faction": "khador",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Khador",
+      "5th Division"
+    ],
+    "armies": [
+      "armored-korps"
+    ],
+    "fieldAllowance": "1",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20khador%20war%20dog.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "bite__11abf685": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "attached",
+      "guardDog",
+      "returnLeader",
+      "noisyAction"
+    ]
+  }
+}

@@ -1,5 +1,62 @@
 [
   {
+    "name": "Circle Orboros",
+    "slug": "circle-orboros",
+    "code": "CIRC",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20circle%20color.png",
+    "accent": "faction-accent--circle-orboros",
+    "armies": [
+      {
+        "name": "Devourer's Host",
+        "slug": "devourer-s-host",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20circle%20color.png"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20circle%20color.png"
+      },
+      {
+        "name": "Secret Dominion",
+        "slug": "secret-dominion",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20circle%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Convergence of Cyriss",
+    "slug": "convergence-of-cyriss",
+    "code": "CONV",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20convergence%20color.png",
+    "accent": "faction-accent--convergence-of-cyriss",
+    "armies": [
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20convergence%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Crucible Guard",
+    "slug": "crucible-guard",
+    "code": "CRUC",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20crucible%20color.png",
+    "accent": "faction-accent--crucible-guard",
+    "armies": [
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20crucible%20color.png"
+      }
+    ]
+  },
+  {
     "name": "Cryx",
     "slug": "cryx",
     "code": "CRX",
@@ -10,44 +67,213 @@
     "briefing": "Cryx favors speed, surprise, recursion and necromantic industry. Its forces mix thralls, Satyxis raiders, warwitches and helljacks into an army that punishes unguarded flanks.",
     "armies": [
       {
-        "name": "Dark Host",
-        "slug": "dark-host",
-        "description": "An undead battle line of banes, soul-driven horrors and necromantic command assets.",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx color.png"
+        "name": "Blackfleet",
+        "slug": "blackfleet",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cryx%20color.png"
       },
       {
-        "name": "Scourge of the Broken Coast",
-        "slug": "scourge-of-the-broken-coast",
-        "description": "A raiding force of Satyxis, blackships, revenants and coastal terror tactics.",
+        "name": "Dark Host",
+        "slug": "dark-host",
         "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx color.png"
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx color.png",
+        "description": "An undead battle line of banes, soul-driven horrors and necromantic command assets."
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cryx%20color.png"
       },
       {
         "name": "Necrofactorium",
         "slug": "necrofactorium",
-        "description": "A necrotech-heavy host of warjacks, warcasters and industrialized undead.",
         "format": "prime-mk4",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx necrofactorium color.png"
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction cryx necrofactorium color.png",
+        "description": "A necrotech-heavy host of warjacks, warcasters and industrialized undead."
       }
     ]
   },
   {
-    "name": "Mercenaries",
-    "slug": "mercenaries",
-    "code": "MER",
-    "trait": "Swords for hire",
-    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction mercenaries color.png",
-    "accent": "faction-accent--mercenaries",
-    "description": "Warmachine mercenaries",
-    "briefing": "TODO",
+    "name": "Cygnar",
+    "slug": "cygnar",
+    "code": "CYGN",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cygnar%20color.png",
+    "accent": "faction-accent--cygnar",
     "armies": [
       {
-        "name": "Dark Operations",
-        "slug": "dark-operations",
-        "description": "Cephalix masters",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction mercenaries color.png"
+        "name": "First Army",
+        "slug": "first-army",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cygnar%20color.png"
+      },
+      {
+        "name": "Gravediggers",
+        "slug": "gravediggers",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cygnar%20gravediggers%20color.png"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cygnar%20color.png"
+      },
+      {
+        "name": "Storm Knights",
+        "slug": "storm-knights",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cygnar%20color.png"
+      },
+      {
+        "name": "Storm Legion",
+        "slug": "storm-legion",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20cygnar%20storm%20legion%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Dusk",
+    "slug": "dusk",
+    "code": "DUSK",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20dusk%20house%20kallyss%20color.png",
+    "accent": "faction-accent--dusk",
+    "armies": [
+      {
+        "name": "Fane of Nyrro",
+        "slug": "fane-of-nyrro",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/army%20fane%20of%20nyrro.png"
+      },
+      {
+        "name": "House Kallyss",
+        "slug": "house-kallyss",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20dusk%20house%20kallyss%20color.png"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/army%20fane%20of%20nyrro.png"
+      }
+    ]
+  },
+  {
+    "name": "Grymkin",
+    "slug": "grymkin",
+    "code": "GRYM",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20grymkin%20color.png",
+    "accent": "faction-accent--grymkin",
+    "armies": [
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20grymkin%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Infernals",
+    "slug": "infernals",
+    "code": "INFE",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20infernals%20color.png",
+    "accent": "faction-accent--infernals",
+    "armies": [
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20infernals%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Khador",
+    "slug": "khador",
+    "code": "KHAD",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20khador%20color.png",
+    "accent": "faction-accent--khador",
+    "armies": [
+      {
+        "name": "5th Division",
+        "slug": "5th-division",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20khador%20color.png"
+      },
+      {
+        "name": "Armored Korps",
+        "slug": "armored-korps",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20khador%20color.png"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20khador%20color.png"
+      },
+      {
+        "name": "Old Umbrey",
+        "slug": "old-umbrey",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/Khador-Old-Umbrey-color.png"
+      },
+      {
+        "name": "Winter Korps",
+        "slug": "winter-korps",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20khador%20winter%20korps%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Khymaera",
+    "slug": "khymaera",
+    "code": "KHYM",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20khymaera%20color.png",
+    "accent": "faction-accent--khymaera",
+    "armies": [
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/army%20shadowflame%20shard%20color.png"
+      },
+      {
+        "name": "Shadowflame Shard",
+        "slug": "shadowflame-shard",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/army%20shadowflame%20shard%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Legion of Everblight",
+    "slug": "legion-of-everblight",
+    "code": "LEGI",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20legion%20color.png",
+    "accent": "faction-accent--legion-of-everblight",
+    "armies": [
+      {
+        "name": "Dragon's Host",
+        "slug": "dragon-s-host",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20legion%20color.png"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20legion%20color.png"
+      },
+      {
+        "name": "Ravens of War",
+        "slug": "ravens-of-war",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20legion%20color.png"
       }
     ]
   },
@@ -62,11 +288,77 @@
     "briefing": "TODO",
     "armies": [
       {
-        "name": "The Chosen of Menoth",
-        "slug": "the-chosen-of-menoth",
-        "description": "A host of divine warriors, warjacks and warcasters dedicated to the god Menoth.",
+        "name": "Final Interdiction",
+        "slug": "final-interdiction",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20protectorate%20color.png"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20protectorate%20color.png"
+      },
+      {
+        "name": "Temple Guardians",
+        "slug": "temple-guardians",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20protectorate%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Mercenaries",
+    "slug": "mercenaries",
+    "code": "MER",
+    "trait": "Swords for hire",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction mercenaries color.png",
+    "accent": "faction-accent--mercenaries",
+    "description": "Warmachine mercenaries",
+    "briefing": "TODO",
+    "armies": [
+      {
+        "name": "Blindwater Congregation",
+        "slug": "blindwater-congregation",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20mercenaries%20color.png"
+      },
+      {
+        "name": "Dark Operations",
+        "slug": "dark-operations",
         "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction protectorate color.png"
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction mercenaries color.png",
+        "description": "Cephalix masters"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20mercenaries%20color.png"
+      },
+      {
+        "name": "Rhul Guard",
+        "slug": "rhul-guard",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20mercenaries%20color.png"
+      },
+      {
+        "name": "Soldiers of Fortune",
+        "slug": "soldiers-of-fortune",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20mercenaries%20color.png"
+      },
+      {
+        "name": "Talion Charter",
+        "slug": "talion-charter",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20mercenaries%20color.png"
+      },
+      {
+        "name": "Thornfall Alliance",
+        "slug": "thornfall-alliance",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/Thornfall-Alliance_optimized.png"
       }
     ]
   },
@@ -81,11 +373,22 @@
     "briefing": "TODO",
     "armies": [
       {
-        "name": "Sea Riders",
-        "slug": "sea-riders",
-        "description": "A host of cursed warriors, warjacks and warcasters dedicated to the god Orgoth.",
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/army%20reaper%20covenant.png"
+      },
+      {
+        "name": "Reaper Covenant",
+        "slug": "reaper-covenant",
         "format": "prime-mk4",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction orgoth color.png"
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/army%20reaper%20covenant.png"
+      },
+      {
+        "name": "Sea Raiders",
+        "slug": "sea-raiders",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20orgoth%20color.png"
       }
     ]
   },
@@ -100,11 +403,22 @@
     "briefing": "TODO",
     "armies": [
       {
-        "name": "The Scyrah's Chosen",
-        "slug": "the-scyrahs-chosen",
-        "description": "A host of elven warriors, warjacks and warcasters dedicated to the goddess Scyrah.",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction retribution color.png"
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20retribution%20color.png"
+      },
+      {
+        "name": "Legions of Dawn",
+        "slug": "legions-of-dawn",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20retribution%20color.png"
+      },
+      {
+        "name": "Shadows of the Retribution",
+        "slug": "shadows-of-the-retribution",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20retribution%20color.png"
       }
     ]
   },
@@ -119,25 +433,78 @@
     "briefing": "Skorne commanders rely on brutal discipline, pain-fueled warbeasts and immortalized ancestors preserved in sacral stones. Their armies reward direct pressure, attrition control and precise commitment windows.",
     "armies": [
       {
-        "name": "Exalted",
-        "slug": "exalted",
-        "description": "An ancestral host centered on immortalized champions, statues, extollers and sacral-stone doctrine.",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
-      },
-      {
-        "name": "Masters of War",
-        "slug": "masters-of-war",
-        "description": "A martial formation built around disciplined skorne infantry, tyrants, paingivers and heavy battlefield control.",
-        "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
-      },
-      {
         "name": "Army of the Western Reaches",
         "slug": "army-of-the-western-reaches",
-        "description": "A western-reaches skorne host combining warbeasts, tyrants, venators, praetorians and battlefield control assets.",
         "format": "prime-armies-of-legend",
-        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png"
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png",
+        "description": "A western-reaches skorne host combining warbeasts, tyrants, venators, praetorians and battlefield control assets."
+      },
+      {
+        "name": "Exalted",
+        "slug": "exalted",
+        "format": "prime-armies-of-legend",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction skorne color.png",
+        "description": "An ancestral host centered on immortalized champions, statues, extollers and sacral-stone doctrine."
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20skorne%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Southern Kriels",
+    "slug": "southern-kriels",
+    "code": "SOUT",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/Kithguard_optimized_Icon.png",
+    "accent": "faction-accent--southern-kriels",
+    "armies": [
+      {
+        "name": "Brineblood Marauders",
+        "slug": "brineblood-marauders",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20southern%20kriels%20color.png"
+      },
+      {
+        "name": "Kithguard",
+        "slug": "kithguard",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/Kithguard_optimized_Icon.png"
+      },
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20southern%20kriels%20color.png"
+      }
+    ]
+  },
+  {
+    "name": "Trollbloods",
+    "slug": "trollbloods",
+    "code": "TROL",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20trollbloods%20color.png",
+    "accent": "faction-accent--trollbloods",
+    "armies": [
+      {
+        "name": "Legacy",
+        "slug": "legacy",
+        "format": "legacy",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20trollbloods%20color.png"
+      },
+      {
+        "name": "Storm of the North",
+        "slug": "storm-of-the-north",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20trollbloods%20color.png"
+      },
+      {
+        "name": "United Kriels",
+        "slug": "united-kriels",
+        "format": "prime-mk4",
+        "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/factions/faction%20trollbloods%20color.png"
       }
     ]
   }

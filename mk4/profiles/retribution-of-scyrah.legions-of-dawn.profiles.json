@@ -1,0 +1,4668 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "retribution-of-scyrah",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "aelythVyrBladeOfNyssor": {
+    "name": "Aelyth Vyr, Blade of Nyssor",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Nyss",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20aelyth%20vyr%20blade%20of%20nyssor.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "resistanceCold",
+      "pathfinder"
+    ],
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "focusedStrike",
+      "inhumanResolve",
+      "righteousFury",
+      "steady"
+    ]
+  },
+  "aspis": {
+    "name": "Aspis",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Light Warjack",
+      "Shadows of the Retribution"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20aspis.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "repulsor": {
+        "type": "melee",
+        "name": "Repulsor",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "generator",
+      "shieldGuard__819aa308"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "chimera": {
+    "name": "Chimera",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Light Warjack",
+      "Shadows of the Retribution"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20chimera.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "2": "A",
+                "3": "G",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "2": "A",
+                "3": "G",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "glaive": {
+        "type": "melee",
+        "name": "Glaive",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "apparition",
+      "generator",
+      "phantasmalField"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "retribution-of-scyrah",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "cylenaRaefyllNyssHunters": {
+    "name": "Cylena Raefyll & Nyss Hunters",
+    "faction": "retribution-of-scyrah",
+    "type": "unit",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Nyss",
+      "Unit"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20cylena%20raefyll%20%26%20nyss%20hunters.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 11
+    },
+    "advantages": [
+      "pathfinder",
+      "resistanceCold",
+      "advanceDeployment",
+      "ambush"
+    ],
+    "weapons": {
+      "nyssBow": {
+        "type": "ranged",
+        "name": "Nyss Bow",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "nyssClaymore": {
+        "type": "melee",
+        "name": "Nyss Claymore",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleCryxCygnarKhadorAndTrollbloods",
+      "grantedHunter"
+    ],
+    "models": {
+      "raefyll1": {
+        "name": "Raefyll 1",
+        "statistics": {
+          "speed": 7,
+          "meleeAttack": 7,
+          "rangedAttack": 7,
+          "defense": 14,
+          "armour": 11
+        },
+        "advantages": [
+          "pathfinder",
+          "resistanceCold",
+          "advanceDeployment",
+          "ambush"
+        ],
+        "abilities": [
+          "grantedHunter"
+        ],
+        "weapons": {
+          "nyssBow": {
+            "type": "ranged",
+            "name": "Nyss Bow",
+            "statistics": {
+              "rangedAttack": 7,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 10
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          },
+          "nyssClaymore": {
+            "type": "melee",
+            "name": "Nyss Claymore",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 9
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 7,
+          "meleeAttack": 6,
+          "rangedAttack": 6,
+          "defense": 14,
+          "armour": 11
+        },
+        "advantages": [
+          "pathfinder",
+          "resistanceCold",
+          "advanceDeployment",
+          "ambush"
+        ],
+        "weapons": {
+          "nyssBow__1f335b4f": {
+            "type": "ranged",
+            "name": "Nyss Bow",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 10
+            }
+          },
+          "nyssClaymore": {
+            "type": "melee",
+            "name": "Nyss Claymore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 9
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "dawnguardDestorThane": {
+    "name": "Dawnguard Destor Thane",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20destor%20thane.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "unstopable",
+      "tough"
+    ],
+    "weapons": {
+      "lanceCannon": {
+        "type": "ranged",
+        "name": "Lance Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "lance__6e6323b5": {
+        "type": "melee",
+        "name": "Lance",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "closeVolley"
+        ]
+      },
+      "shield__02fe0b42": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "unyielding",
+      "leadershipDawnguardDestors",
+      "steady"
+    ]
+  },
+  "dawnguardDestors": {
+    "name": "Dawnguard Destors",
+    "faction": "retribution-of-scyrah",
+    "type": "unit",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Unit"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 10,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20destors.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 18
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "lanceCannon": {
+        "type": "ranged",
+        "name": "Lance Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "lance__6e6323b5": {
+        "type": "melee",
+        "name": "Lance",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "closeVolley"
+        ]
+      },
+      "shield__02fe0b42": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "unyielding"
+    ]
+  },
+  "dawnguardInvictorOfficerStandard": {
+    "name": "Dawnguard Invictor Officer & Standard",
+    "faction": "retribution-of-scyrah",
+    "type": "commandAttachment",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Command Attachment"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20invictor%20officer%20%26%20standard.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "combinedRangedAttack",
+      "assault"
+    ],
+    "weapons": {
+      "swordCannon": {
+        "type": "ranged",
+        "name": "Sword Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "blade": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentDawnguardInvictors",
+      "extendedFire",
+      "grantedCombinedArms",
+      "shieldWall"
+    ],
+    "models": {
+      "officer": {
+        "name": "Officer",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 7,
+          "rangedAttack": 6,
+          "defense": 12,
+          "armour": 15
+        },
+        "advantages": [
+          "combinedRangedAttack",
+          "assault"
+        ],
+        "abilities": [
+          "extendedFire",
+          "grantedCombinedArms",
+          "shieldWall"
+        ],
+        "weapons": {
+          "swordCannon": {
+            "type": "ranged",
+            "name": "Sword Cannon",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "blade": {
+            "type": "melee",
+            "name": "Blade",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 11
+            }
+          }
+        }
+      },
+      "standardBearer": {
+        "name": "Standard Bearer",
+        "statistics": {
+          "speed": 5,
+          "defense": 12,
+          "armour": 15
+        },
+        "abilities": [
+          "grantedRise",
+          "shieldWall",
+          "takeUp"
+        ]
+      }
+    }
+  },
+  "dawnguardInvictors": {
+    "name": "Dawnguard Invictors",
+    "faction": "retribution-of-scyrah",
+    "type": "unit",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Unit"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20invictors.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "combinedRangedAttack",
+      "assault"
+    ],
+    "weapons": {
+      "swordCannon": {
+        "type": "ranged",
+        "name": "Sword Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "blade": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "shieldWall"
+    ]
+  },
+  "dawnguardSentinelOfficerStandard": {
+    "name": "Dawnguard Sentinel Officer & Standard",
+    "faction": "retribution-of-scyrah",
+    "type": "commandAttachment",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Command Attachment"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20sentinel%20officer%20%26%20standard.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 15
+    },
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentDawnguardSentinel",
+      "grantedCleave",
+      "grantedRelentlessCharge",
+      "shieldWall",
+      "vengeance"
+    ],
+    "models": {
+      "officer": {
+        "name": "Officer",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 7,
+          "defense": 12,
+          "armour": 15
+        },
+        "abilities": [
+          "grantedCleave",
+          "grantedRelentlessCharge",
+          "shieldWall",
+          "vengeance"
+        ],
+        "weapons": {
+          "greatSword": {
+            "type": "melee",
+            "name": "Great Sword",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 12
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
+          }
+        }
+      },
+      "standardBearer": {
+        "name": "Standard Bearer",
+        "statistics": {
+          "speed": 5,
+          "defense": 12,
+          "armour": 15
+        },
+        "abilities": [
+          "grantedRise",
+          "shieldWall",
+          "takeUp",
+          "vengeance__9d6cee60"
+        ]
+      }
+    }
+  },
+  "dawnguardSentinelScyir": {
+    "name": "Dawnguard Sentinel Scyir",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20sentinel%20scyir.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "health": 5
+    },
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "deathlyStrike",
+      "precisionStrike",
+      "righteousVengeance"
+    ]
+  },
+  "dawnguardSentinels": {
+    "name": "Dawnguard Sentinels",
+    "faction": "retribution-of-scyrah",
+    "type": "unit",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Unit"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20sentinels.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 15
+    },
+    "weapons": {
+      "greatSword": {
+        "type": "melee",
+        "name": "Great Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "shieldWall",
+      "vengeance"
+    ]
+  },
+  "dawnguardTrident": {
+    "name": "Dawnguard Trident",
+    "faction": "retribution-of-scyrah",
+    "type": "battleEngine",
+    "keywords": [
+      "Legions of Dawn",
+      "Battle Engine"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20dawnguard%20trident.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 19,
+      "health": 30
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "flight",
+      "unstopable"
+    ],
+    "weapons": {
+      "heavyThrusterCannon": {
+        "type": "ranged",
+        "name": "Heavy Thruster Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": "d3",
+          "power": 13
+        },
+        "quantity": 3,
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "ramProw": {
+        "type": "melee",
+        "name": "Ram Prow",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "abilities": [
+          "smite"
+        ]
+      }
+    },
+    "abilities": [
+      "buildUpPower",
+      "coordinatedMovement",
+      "psychoMatrix",
+      "forceShield",
+      "telekineticWave"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "retribution-of-scyrah",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "retribution-of-scyrah",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "faneKnightGuardian": {
+    "name": "Fane Knight Guardian",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "1",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20fane%20knight%20guardian.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 16,
+      "health": 5
+    },
+    "weapons": {
+      "shield__7b8466c2": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "shield"
+        ]
+      },
+      "blessedSpear": {
+        "type": "melee",
+        "name": "Blessed Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "attached__b78947eb",
+      "guardDog",
+      "reposition3",
+      "shieldGuard__819aa308",
+      "totalDevotion"
+    ]
+  },
+  "faneKnightSkerythIssyen": {
+    "name": "Fane Knight Skeryth Issyen",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Dragoon",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20fane%20knight%20skeryth%20issyen.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18
+    },
+    "advantages": [
+      "cavalry",
+      "unstopable"
+    ],
+    "weapons": {
+      "needleOfLacyr": {
+        "type": "melee",
+        "name": "Needle of Lacyr",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      },
+      "shield__7b8466c2": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "righteousFury",
+      "shieldGuard__819aa308"
+    ],
+    "models": {
+      "issyen1MOUNTED": {
+        "name": "Issyen 1 (MOUNTED)",
+        "statistics": {
+          "speed": 8,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 18
+        },
+        "advantages": [
+          "cavalry",
+          "unstopable"
+        ],
+        "abilities": [
+          "reposition3",
+          "righteousFury",
+          "shieldGuard__819aa308"
+        ],
+        "weapons": {
+          "needleOfLacyr": {
+            "type": "melee",
+            "name": "Needle of Lacyr",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 13
+            },
+            "qualities": [
+              "blessed",
+              "damageTypeMagical",
+              "weaponMaster"
+            ]
+          },
+          "shield__7b8466c2": {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 10
+            },
+            "qualities": [
+              "shield"
+            ]
+          }
+        }
+      },
+      "issyen1DISMOUNTED": {
+        "name": "Issyen 1 (DISMOUNTED)",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 16
+        },
+        "abilities": [
+          "righteousFury",
+          "shieldGuard__819aa308"
+        ],
+        "weapons": {
+          "needleOfLacyr": {
+            "type": "melee",
+            "name": "Needle of Lacyr",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 13
+            },
+            "qualities": [
+              "blessed",
+              "damageTypeMagical",
+              "weaponMaster"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "gorgon": {
+    "name": "Gorgon",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Light Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20gorgon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "polarityCannon": {
+        "type": "ranged",
+        "name": "Polarity Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "kineticGrip"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "glaive": {
+        "type": "melee",
+        "name": "Glaive",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "forceLock",
+      "generator"
+    ]
+  },
+  "griffon": {
+    "name": "Griffon",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Light Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20griffon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "R",
+                "4": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shield__106cad76": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "halberd__262e24d0": {
+        "type": "melee",
+        "name": "Halberd",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "location": "R",
+        "abilities": [
+          "powerfulCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "fleet",
+      "generator"
+    ]
+  },
+  "helios": {
+    "name": "Helios",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Shadows of the Retribution",
+      "Legions of Dawn",
+      "Colossal"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 29,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20helios.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 54,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "G",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "G",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "tractorBeam": {
+        "type": "ranged",
+        "name": "Tractor Beam",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 3,
+          "power": 12
+        },
+        "abilities": [
+          "forceGrip"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "infernoFist": {
+        "type": "melee",
+        "name": "Inferno Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 21
+        },
+        "quantity": 2,
+        "abilities": [
+          "flameBurst"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "forceBarrier",
+      "forceGate",
+      "broadcastPower",
+      "distortionField",
+      "repulsorField",
+      "girded",
+      "generator"
+    ]
+  },
+  "hemera": {
+    "name": "Hemera",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20hemera.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "A",
+                "4": "A",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "A"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "celestialGate": {
+        "type": "ranged",
+        "name": "Celestial Gate",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "abilities": [
+          "criticalDispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "bladeFist": {
+        "type": "melee",
+        "name": "Blade Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bondIssyria",
+      "empoweredArcNode",
+      "generator",
+      "markTarget",
+      "reposition3"
+    ]
+  },
+  "houseShyeelArcanists": {
+    "name": "House Shyeel Arcanists",
+    "faction": "retribution-of-scyrah",
+    "type": "unit",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Unit"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20house%20shyeel%20arcanists.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "meleeAttack": 4,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "resistanceBlast"
+    ],
+    "weapons": {
+      "multiTool": {
+        "type": "melee",
+        "name": "Multi-Tool",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "magicAbility",
+      "concentratedPowerAction",
+      "empowerAction__e131c030",
+      "forceStrikeAttack",
+      "repairD31Action"
+    ]
+  },
+  "hydra": {
+    "name": "Hydra",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20hydra.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "forceCannon": {
+        "type": "ranged",
+        "name": "Force Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "focusPowered"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "forceFist": {
+        "type": "melee",
+        "name": "Force Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "chainAttackGrabSmash"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "focusBattery",
+      "generator",
+      "kineticCapacitor"
+    ]
+  },
+  "hyperion": {
+    "name": "Hyperion",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Shadows of the Retribution",
+      "Legions of Dawn",
+      "Colossal"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20hyperion.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 54,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "L",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "G",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "G",
+                "4": "G",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "2": "R",
+                "3": "C",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "starburst": {
+        "type": "ranged",
+        "name": "Starburst",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 4,
+          "power": "18/10"
+        },
+        "abilities": [
+          "criticalConsume"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "thresherCannon": {
+        "type": "ranged",
+        "name": "Thresher Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": "d3",
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "bladeFist__548b4a80": {
+        "type": "melee",
+        "name": "Blade Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 21
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "generator"
+    ]
+  },
+  "hypnos": {
+    "name": "Hypnos",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Heavy Warjack",
+      "Legions of Dawn"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20hypnos.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "dualAttack"
+    ],
+    "weapons": {
+      "phaseCannon": {
+        "type": "ranged",
+        "name": "Phase Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/7"
+        },
+        "location": "R",
+        "abilities": [
+          "ghostShot"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "heavyArcanoPulseFist": {
+        "type": "melee",
+        "name": "Heavy Arcano-Pulse Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "lightArcanoPulseFist": {
+        "type": "melee",
+        "name": "Light Arcano-Pulse Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bondOssyan",
+      "sacredWard"
+    ]
+  },
+  "imperatus": {
+    "name": "Imperatus",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 17,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20imperatus.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "halationCannon": {
+        "type": "ranged",
+        "name": "Halation Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "flameBurst"
+        ],
+        "qualities": [
+          "damageTypeFire",
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "thermalBlade": {
+        "type": "melee",
+        "name": "Thermal Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 17
+        },
+        "quantity": 2,
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bondVyros",
+      "generator",
+      "phoenixProtocol",
+      "sideStep"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "issyriaSibylOfDawn": {
+    "name": "Issyria, Sibyl of Dawn",
+    "faction": "retribution-of-scyrah",
+    "type": "warcaster",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Dawnguard",
+      "Warcaster"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20issyria%20sibyl%20of%20dawn.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 8,
+      "arcana": 8,
+      "defense": 16,
+      "armour": 13,
+      "controlRange": 16,
+      "health": 15
+    },
+    "advantages": [
+      "flight"
+    ],
+    "abilities": [
+      "ancillaryAttackAction__69fabdc4",
+      "arcaneVortex",
+      "trueSight"
+    ],
+    "spells": [
+      "admonition",
+      "blindingLight",
+      "crusaderSCall",
+      "inviolableResolve__be5f2cf4",
+      "velocity"
+    ],
+    "feat": [
+      "dawnsLight"
+    ]
+  },
+  "lanyssaRyssylNyssSorceress": {
+    "name": "Lanyssa Ryssyl, Nyss Sorceress",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lanyssa%20ryssyl%20nyss%20sorceress.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 15,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder",
+      "resistanceCold"
+    ],
+    "weapons": {
+      "sorrow": {
+        "type": "melee",
+        "name": "Sorrow",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "criticalFreeze"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard",
+      "magicAbility",
+      "huntersMarkAttack",
+      "iceBoltAttack",
+      "winterStormAction",
+      "prowl",
+      "vendettaLegionOrBlighted"
+    ]
+  },
+  "lordArcanistOssyan": {
+    "name": "Lord Arcanist Ossyan",
+    "faction": "retribution-of-scyrah",
+    "type": "warcaster",
+    "keywords": [
+      "Retribution",
+      "Warcaster",
+      "Scout",
+      "Legions of Dawn"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20lord%20arcanist%20ossyan.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "chronophageCannon": {
+        "type": "ranged",
+        "name": "Chronophage Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "temporalDisruption"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "locus": {
+        "type": "melee",
+        "name": "Locus",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "dispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalFutureSight",
+      "futureSight"
+    ],
+    "spells": [
+      "admonition",
+      "arcantrikBolt",
+      "eliminator",
+      "foresight",
+      "quicken"
+    ],
+    "feat": [
+      "gravityWell"
+    ]
+  },
+  "magisterHelynna": {
+    "name": "Magister Helynna",
+    "faction": "retribution-of-scyrah",
+    "type": "warcaster",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20magister%20helynna.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "redirectionBolt": {
+        "type": "ranged",
+        "name": "Redirection Bolt",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 11
+        },
+        "abilities": [
+          "forceGrip"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "redirection": {
+        "type": "melee",
+        "name": "Redirection",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "forceGrip"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalTelemetry",
+      "repairD33Action",
+      "tuneUpAction__4b864b5a"
+    ],
+    "spells": [
+      "deflection",
+      "forceStrike",
+      "handOfDestruction",
+      "obliteration",
+      "rhythmOfWar"
+    ],
+    "feat": [
+      "arcantrikAptitude"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "retribution-of-scyrah",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "retribution-of-scyrah",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "manticore": {
+    "name": "Manticore",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20manticore.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "G",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "cycloneCannon": {
+        "type": "ranged",
+        "name": "Cyclone Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": "d3+1",
+          "power": 12
+        },
+        "abilities": [
+          "volumeFire"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "saberFist": {
+        "type": "melee",
+        "name": "Saber Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "generator"
+    ]
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "faction": "retribution-of-scyrah",
+    "type": "warjack",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20phoenix.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "A",
+                "4": "G",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "A",
+                "4": "G",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "haloCannon": {
+        "type": "ranged",
+        "name": "Halo Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "qualities": [
+          "criticalFire",
+          "damageTypeFire",
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "openFist__8ee5faac": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "thermalBlade__f2970899": {
+        "type": "melee",
+        "name": "Thermal Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "R",
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "combustionAttack",
+      "generator"
+    ]
+  },
+  "priestOfNyssor": {
+    "name": "Priest of Nyssor",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Nyss",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20priest%20of%20nyssor.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder",
+      "resistanceCold"
+    ],
+    "weapons": {
+      "winterBlade": {
+        "type": "melee",
+        "name": "Winter Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalFreeze"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard",
+      "magicAbility",
+      "blizzardAction",
+      "frostbiteAttack",
+      "guidanceAction",
+      "winterStormAction",
+      "prowl"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "ryssovassDefenders": {
+    "name": "Ryssovass Defenders",
+    "faction": "retribution-of-scyrah",
+    "type": "unit",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Nyss",
+      "Unit"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20ryssovass%20defenders.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "resistanceCold",
+      "tough",
+      "pathfinder"
+    ],
+    "weapons": {
+      "ryssovassBlade": {
+        "type": "melee",
+        "name": "Ryssovass Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 10
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "defensiveLine",
+      "focusedStrike",
+      "shieldWall"
+    ]
+  },
+  "stormfallArchers": {
+    "name": "Stormfall Archers",
+    "faction": "retribution-of-scyrah",
+    "type": "unit",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Unit"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20stormfall%20archers.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 4,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 13
+    },
+    "weapons": {
+      "greatBow": {
+        "type": "ranged",
+        "name": "Great Bow",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/7"
+        },
+        "abilities": [
+          "attackType",
+          "brutalDamage",
+          "incendiary",
+          "snipe"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "sword__0f255042": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 7
+        }
+      }
+    }
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "retribution-of-scyrah",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "vyrosIncissarOfTheDawnguard": {
+    "name": "Vyros, Incissar of the Dawnguard",
+    "faction": "retribution-of-scyrah",
+    "type": "warcaster",
+    "keywords": [
+      "Retribution",
+      "Legions of Dawn",
+      "Warcaster"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20retribution%20vyros%20incissar%20of%20the%20dawnguard.png",
+    "statistics": {
+      "speed": 8,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 8,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 18,
+      "controlRange": 14,
+      "health": 18
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "extremusCannon": {
+        "type": "ranged",
+        "name": "Extremus Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "reload1"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "extremus": {
+        "type": "melee",
+        "name": "Extremus",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "birdsEye",
+      "reposition3"
+    ],
+    "spells": [
+      "deceleration",
+      "easyRider",
+      "lockTheTarget",
+      "synergy",
+      "twister"
+    ],
+    "feat": [
+      "tidesOfBattle"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "retribution-of-scyrah",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "legions-of-dawn"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  }
+}

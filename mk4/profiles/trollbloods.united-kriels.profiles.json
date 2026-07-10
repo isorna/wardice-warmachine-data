@@ -1,0 +1,4923 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "trollbloods",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "braylenWanderheartTrollkinOutlaw": {
+    "name": "Braylen Wanderheart, Trollkin Outlaw",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "United Kriels",
+      "Solo",
+      "Trollblood",
+      "Trollkin"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20braylen%20wanderheart%20trollkin%20outlaw.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 15,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "tough",
+      "pathfinder"
+    ],
+    "weapons": {
+      "heavyPistol__34ea806c": {
+        "type": "ranged",
+        "name": "Heavy Pistol",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "bothBarrelsAttack",
+          "luck"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "dodge",
+      "leadershipTrollkinHighwaymen",
+      "prowl",
+      "runGun"
+    ]
+  },
+  "captainGunnbjorn": {
+    "name": "Captain Gunnbjorn",
+    "faction": "trollbloods",
+    "type": "warlock",
+    "keywords": [
+      "Warlock",
+      "United Kriels",
+      "Trollblood",
+      "Scout",
+      "Trollkin"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20captain%20gunnbjorn.png",
+    "statistics": {
+      "speed": 6,
+      "arcana": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "bazooka__a0fe661c": {
+        "type": "ranged",
+        "name": "Bazooka",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "criticalDevastation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "axe__5b626da4": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "fieldMarshalRunGun__b921d134",
+      "resourceful"
+    ],
+    "spells": [
+      "guidedFire",
+      "rockWall",
+      "sentry",
+      "snipe"
+    ],
+    "feat": [
+      "fortification"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "trollbloods",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "trollbloods",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "direTrollBlitzer": {
+    "name": "Dire Troll Blitzer",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Heavy Warbeast",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20dire%20troll%20blitzer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "gunfighter"
+    ],
+    "weapons": {
+      "slugger": {
+        "type": "ranged",
+        "name": "Slugger",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": "d3",
+          "power": 13
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "claw__37cffada": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "regenerationD3",
+      "snacking"
+    ],
+    "spells": [
+      "irresistibleForce"
+    ]
+  },
+  "direTrollBomber": {
+    "name": "Dire Troll Bomber",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Heavy Warbeast",
+      "Trollblood",
+      "Storm of the North",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 17,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20dire%20troll%20bomber.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "powderBomb": {
+        "type": "ranged",
+        "name": "Powder Bomb",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "16/8"
+        },
+        "abilities": [
+          "forcedReload1"
+        ]
+      },
+      "claw__4b176726": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3",
+      "snacking"
+    ],
+    "spells": [
+      "farStrike"
+    ]
+  },
+  "direTrollMauler": {
+    "name": "Dire Troll Mauler",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Heavy Warbeast",
+      "Trollblood",
+      "Storm of the North",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20dire%20troll%20mauler.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "bigMeatyFist": {
+        "type": "melee",
+        "name": "Big Meaty Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "chainAttackGrabSmash"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3",
+      "snacking"
+    ],
+    "spells": [
+      "rage"
+    ]
+  },
+  "dozerSmigg": {
+    "name": "Dozer & Smigg",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "United Kriels",
+      "Trollblood",
+      "Dire Troll",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20dozer%20%26%20smig.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 10,
+      "health": {
+        "total": 30,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "gunfighter"
+    ],
+    "weapons": {
+      "bombard__509cccc6": {
+        "type": "ranged",
+        "name": "Bombard",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "claw__4b176726": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bondGunnbjorn",
+      "bulldoze",
+      "regenerationD3",
+      "snacking"
+    ],
+    "spells": [
+      "luckyShot"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "trollbloods",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "fennbladeKithkar": {
+    "name": "Fennblade Kithkar",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Trollblood",
+      "Trollkin",
+      "Solo",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20fennblade%20kithkar.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 13,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "battleWeapons": {
+        "type": "melee",
+        "name": "Battle Weapons",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "leadershipFennblade",
+      "righteousVengeance",
+      "sideStep"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "trollbloods",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "trollbloods",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "generalThunderstoneBrug": {
+    "name": "General \"Thunderstone\" Brug",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Pyg",
+      "United Kriels",
+      "Trollblood",
+      "Solo"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20general%20thunderstone%20brug.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "grenade__07b7d3cb": {
+        "type": "ranged",
+        "name": "Grenade",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 6,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/8"
+        }
+      },
+      "heavyPistol": {
+        "type": "ranged",
+        "name": "Heavy Pistol",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "march",
+      "reveille",
+      "sneak",
+      "veteranLeaderPyg"
+    ]
+  },
+  "grisselBloodsongFellCaller": {
+    "name": "Grissel Bloodsong, Fell Caller",
+    "faction": "trollbloods",
+    "type": "warlock",
+    "keywords": [
+      "Trollblood",
+      "Trollkin",
+      "Warlock",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20grissel%20bloodsong%20fell%20caller.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "sonicBlast__4cb8e509": {
+        "type": "ranged",
+        "name": "Sonic Blast",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "reload1",
+          "stun"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "resounder": {
+        "type": "melee",
+        "name": "Resounder",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "cacophony",
+      "desperatePaceTrollkin",
+      "moneyShot",
+      "reveille",
+      "tenacity"
+    ],
+    "spells": [
+      "deflection",
+      "hallowedAvenger",
+      "onslaught",
+      "rift"
+    ],
+    "feat": [
+      "fellChorus"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "trollbloods",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "jarlSkuldDevilOfTheThornwood": {
+    "name": "Jarl Skuld, Devil of the Thornwood",
+    "faction": "trollbloods",
+    "type": "warlock",
+    "keywords": [
+      "Trollblood",
+      "Trollkin",
+      "Warlock",
+      "United Kriels",
+      "Scout"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20jarl%20skuld%20devil%20of%20the%20thornwood.png",
+    "statistics": {
+      "speed": 6,
+      "arcana": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "gunfighter",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "runePistol": {
+        "type": "ranged",
+        "name": "Rune Pistol",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "attackType",
+          "blackPenny__c75111c7",
+          "heartSeeker",
+          "ricochet__87354f0d"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "axe": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "dodge",
+      "fieldMarshalSwiftHunter",
+      "swiftHunter"
+    ],
+    "spells": [
+      "quicken",
+      "tacticalSupremacy",
+      "vanish",
+      "wealdSecrets"
+    ],
+    "feat": [
+      "rollingFog"
+    ]
+  },
+  "krielstoneBearerStoneScribes__4da53c02": {
+    "name": "Krielstone Bearer & Stone Scribes",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "United Kriels",
+      "Trollblood",
+      "Trollkin"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "1",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20krielstone%20bearer%20%26%20stone%20scribes.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "tough"
+    ],
+    "abilities": [
+      "protectiveAura",
+      "serenity",
+      "takeUp"
+    ],
+    "models": {
+      "stoneBearer": {
+        "name": "Stone Bearer",
+        "statistics": {
+          "speed": 5,
+          "defense": 12,
+          "armour": 13
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "protectiveAura",
+          "serenity",
+          "takeUp"
+        ]
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 5,
+          "defense": 12,
+          "armour": 13
+        },
+        "advantages": [
+          "tough"
+        ],
+        "weapons": {
+          "handWeapon__0c7bf0f8": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "krielstoneBearerStoneScribes__d9cc2264": {
+    "name": "Krielstone Bearer & Stone Scribes",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Trollblood",
+      "Trollkin",
+      "Unit",
+      "Storm of the North"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "1",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20krielstone%20bearer%20%26%20stone%20scribes.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "tough"
+    ],
+    "abilities": [
+      "protectiveAura",
+      "serenity",
+      "takeUp"
+    ],
+    "models": {
+      "stoneBearer": {
+        "name": "Stone Bearer",
+        "statistics": {
+          "speed": 5,
+          "defense": 12,
+          "armour": 13
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "protectiveAura",
+          "serenity",
+          "takeUp"
+        ]
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 5,
+          "defense": 12,
+          "armour": 13
+        },
+        "advantages": [
+          "tough"
+        ],
+        "weapons": {
+          "handWeapon__0c7bf0f8": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "ledfootTredz": {
+    "name": "Ledfoot & Tredz",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Pyg",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20ledfoot%20%26%20tredz.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "health": 12
+    },
+    "advantages": [
+      "cavalry",
+      "construct",
+      "dualAttack",
+      "pathfinder",
+      "unstopable",
+      "resistanceBlast"
+    ],
+    "weapons": {
+      "cannon__242e0d25": {
+        "type": "ranged",
+        "name": "Cannon",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "arcingFire"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "tankTreads": {
+        "type": "melee",
+        "name": "Tank Treads",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "evasive",
+      "exhaustFumes",
+      "leadershipPygTank",
+      "reposition3",
+      "steady"
+    ]
+  },
+  "madrakGreatChieftain": {
+    "name": "Madrak, Great Chieftain",
+    "faction": "trollbloods",
+    "type": "warlock",
+    "keywords": [
+      "Warlock",
+      "Trollkin",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20madrak%20great%20chieftain.png",
+    "statistics": {
+      "speed": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 7,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 18
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "thrownSpear__3e7ee99b": {
+        "type": "ranged",
+        "name": "Thrown Spear",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "reload1"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "spear__ea426acf": {
+        "type": "melee",
+        "name": "Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shieldOfVolarr": {
+        "type": "melee",
+        "name": "Shield of Volarr",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "attunedSpirit",
+      "protectiveAura",
+      "righteousVengeance",
+      "shieldGuard",
+      "tactician"
+    ],
+    "spells": [
+      "positiveCharge",
+      "soothingSong",
+      "spellpiercer"
+    ],
+    "feat": [
+      "rallyingCry"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "trollbloods",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "trollbloods",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "mountainKing": {
+    "name": "Mountain King",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Gargantuan",
+      "Trollblood",
+      "Storm of the North",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20mountain%20king.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 6,
+      "health": {
+        "total": 54,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 12
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 8
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "deathlyRoar": {
+        "type": "ranged",
+        "name": "Deathly Roar",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": 1,
+          "power": 16
+        },
+        "abilities": [
+          "criticalParalysis"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "bigMeatyFist__913031ac": {
+        "type": "melee",
+        "name": "Big Meaty Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "snacking",
+      "whelpShedding"
+    ],
+    "spells": [
+      "rage"
+    ]
+  },
+  "nightTroll": {
+    "name": "Night Troll",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20night%20troll.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "stealth"
+    ],
+    "weapons": {
+      "wickedClaw__e49115de": {
+        "type": "melee",
+        "name": "Wicked Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalParalysis"
+        ]
+      },
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "regenerationD3"
+    ],
+    "spells": [
+      "attractor"
+    ]
+  },
+  "northkinElder": {
+    "name": "Northkin Elder",
+    "faction": "trollbloods",
+    "type": "commandAttachment",
+    "keywords": [
+      "Command Attachment",
+      "Trollblood",
+      "Trollkin",
+      "Storm of the North"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "1",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20northkin%20elder.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "resistanceCold",
+      "tough"
+    ],
+    "abilities": [
+      "commandAttachmentKrielstoneBearerStoneScribes",
+      "northkinUnit",
+      "stoneWarp",
+      "stoneCold",
+      "wildWinds",
+      "winterMagic"
+    ]
+  },
+  "pummelerCrew": {
+    "name": "Pummeler Crew",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "United Kriels",
+      "Trollkin",
+      "Trollblood",
+      "Weapon Crew"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20pummeler%20crew.png",
+    "statistics": {
+      "speed": 3,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 14
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "pummeler": {
+        "type": "ranged",
+        "name": "Pummeler",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 16,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/10"
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      },
+      "axe": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "takeUp"
+    ],
+    "models": {
+      "gunner": {
+        "name": "Gunner",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 4,
+          "rangedAttack": 5,
+          "defense": 12,
+          "armour": 14
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "takeUp"
+        ],
+        "weapons": {
+          "pummeler": {
+            "type": "ranged",
+            "name": "Pummeler",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 16,
+              "rateOfFire": 1,
+              "areaOfEffect": 3,
+              "power": "14/10"
+            },
+            "abilities": [
+              "arcingFire"
+            ]
+          },
+          "axe": {
+            "type": "melee",
+            "name": "Axe",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 4,
+          "defense": 12,
+          "armour": 14
+        },
+        "advantages": [
+          "tough"
+        ],
+        "weapons": {
+          "axe": {
+            "type": "melee",
+            "name": "Axe",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "pygBushwhackerOfficerMortar": {
+    "name": "Pyg Bushwhacker Officer & Mortar",
+    "faction": "trollbloods",
+    "type": "commandAttachment",
+    "keywords": [
+      "United Kriels",
+      "Command Attachment",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20pyg%20bushwhacker%20officer%20%26%20mortar.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "combinedRangedAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "rifle": {
+        "type": "ranged",
+        "name": "Rifle",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 10
+        }
+      },
+      "handWeapon": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentPygBushwacker",
+      "grantedCombinedArms"
+    ],
+    "models": {
+      "officer": {
+        "name": "Officer",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 5,
+          "rangedAttack": 6,
+          "defense": 13,
+          "armour": 12,
+          "health": 5
+        },
+        "advantages": [
+          "advanceDeployment",
+          "ambush",
+          "combinedRangedAttack",
+          "pathfinder"
+        ],
+        "abilities": [
+          "grantedCombinedArms"
+        ],
+        "weapons": {
+          "rifle": {
+            "type": "ranged",
+            "name": "Rifle",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": 14,
+              "rateOfFire": 1,
+              "power": 10
+            }
+          },
+          "handWeapon": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      },
+      "mortar": {
+        "name": "Mortar",
+        "statistics": {
+          "speed": 5,
+          "meleeAttack": 4,
+          "rangedAttack": 5,
+          "defense": 13,
+          "armour": 12,
+          "health": 5
+        },
+        "advantages": [
+          "advanceDeployment",
+          "ambush",
+          "pathfinder"
+        ],
+        "abilities": [
+          "takeUp"
+        ],
+        "weapons": {
+          "lightMortar__7e629403": {
+            "type": "ranged",
+            "name": "Light Mortar",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "12/10"
+            },
+            "abilities": [
+              "arcingFire"
+            ]
+          },
+          "handWeapon": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "pygBushwhackers": {
+    "name": "Pyg Bushwhackers",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20pyg%20bushwhackers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 12
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "combinedRangedAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "rifle": {
+        "type": "ranged",
+        "name": "Rifle",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 10
+        }
+      },
+      "handWeapon": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    }
+  },
+  "pygTank": {
+    "name": "Pyg Tank",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20pyg%20tank.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": 12
+    },
+    "advantages": [
+      "cavalry",
+      "construct",
+      "dualAttack",
+      "pathfinder",
+      "unstopable",
+      "resistanceBlast"
+    ],
+    "weapons": {
+      "cannon__242e0d25": {
+        "type": "ranged",
+        "name": "Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "arcingFire"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "tankTreads": {
+        "type": "melee",
+        "name": "Tank Treads",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "exhaustFumes",
+      "reposition3",
+      "steady"
+    ]
+  },
+  "pyreTroll": {
+    "name": "Pyre Troll",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20pyre%20troll.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceFire",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "spewFire": {
+        "type": "ranged",
+        "name": "Spew Fire",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/6"
+        },
+        "qualities": [
+          "criticalFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "claw__406d9588": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "itBurns",
+      "regenerationD3"
+    ],
+    "spells": [
+      "flamingFists"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "scattergunnerOfficerStandard": {
+    "name": "Scattergunner Officer & Standard",
+    "faction": "trollbloods",
+    "type": "commandAttachment",
+    "keywords": [
+      "Command Attachment",
+      "United Kriels",
+      "Trollblood",
+      "Trollkin"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "3",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20scattergunner%20officer%20%26%20standard.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "gunBlade__48ba02f5": {
+        "type": "melee",
+        "name": "Gun Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentScattergunner",
+      "grantedClear"
+    ],
+    "models": {
+      "officer": {
+        "name": "Officer",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 6,
+          "rangedAttack": 6,
+          "defense": 12,
+          "armour": 14,
+          "health": 5
+        },
+        "advantages": [
+          "dualAttack",
+          "tough"
+        ],
+        "abilities": [
+          "grantedClear"
+        ],
+        "weapons": {
+          "scattergun": {
+            "type": "ranged",
+            "name": "Scattergun",
+            "statistics": {
+              "rangedAttack": 6,
+              "range": "SP 8",
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "gunBlade__48ba02f5": {
+            "type": "melee",
+            "name": "Gun Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 9
+            }
+          }
+        }
+      },
+      "standardBearer": {
+        "name": "Standard Bearer",
+        "statistics": {
+          "speed": 6,
+          "defense": 12,
+          "armour": 14,
+          "health": 5
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "grantedRise",
+          "takeUp"
+        ]
+      }
+    }
+  },
+  "scattergunners": {
+    "name": "Scattergunners",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "United Kriels",
+      "Trollkin",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "3",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20scattergunners.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 14
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "gunBlade__48ba02f5": {
+        "type": "melee",
+        "name": "Gun Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    }
+  },
+  "seaKing": {
+    "name": "Sea King",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Gargantuan",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 28,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20sea%20king.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 6,
+      "health": {
+        "total": 54,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 12
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 8
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "pathfinder"
+    ],
+    "weapons": {
+      "vomitSwarm": {
+        "type": "ranged",
+        "name": "Vomit Swarm",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "13/7"
+        },
+        "abilities": [
+          "poison"
+        ],
+        "qualities": [
+          "continuousEffectCorrosion",
+          "pistol"
+        ]
+      },
+      "bigMeatyFist__17713363": {
+        "type": "melee",
+        "name": "Big Meaty Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "anchor__9570f541": {
+        "type": "melee",
+        "name": "Anchor",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 21
+        },
+        "abilities": [
+          "criticalKnockdown"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "snacking"
+    ],
+    "spells": [
+      "vortexOfTheDeep"
+    ]
+  },
+  "slagTroll": {
+    "name": "Slag Troll",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20slag%20troll.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 17,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceCorrosion",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "spewAcid": {
+        "type": "ranged",
+        "name": "Spew Acid",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "erosion__b9987730"
+        ],
+        "qualities": [
+          "continuousEffectCorrosion",
+          "damageTypeCorrosion",
+          "pistol"
+        ]
+      },
+      "claw__dfb74e07": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "erosion__b9987730"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3"
+    ],
+    "spells": [
+      "acidicTouch"
+    ]
+  },
+  "stoneScribeElder": {
+    "name": "Stone Scribe Elder",
+    "faction": "trollbloods",
+    "type": "commandAttachment",
+    "keywords": [
+      "Command Attachment",
+      "Trollblood",
+      "Trollkin",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "1",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20stone%20scribe%20elder.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "handWeapon__0c7bf0f8": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentKrielstoneBearerStoneScribes",
+      "stoneWarp",
+      "combatWarding",
+      "spiritChaser",
+      "stoneStrength"
+    ]
+  },
+  "stormTroll": {
+    "name": "Storm Troll",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20storm%20troll.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "lightning": {
+        "type": "ranged",
+        "name": "Lightning",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "lightningGenerator"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "claw__3c30ffa1": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "criticalDisruption",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3",
+      "repulsorField__8b763fde"
+    ],
+    "spells": [
+      "lightningFists"
+    ]
+  },
+  "swampTroll": {
+    "name": "Swamp Troll",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20swamp%20troll.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "tongueLash__85167701": {
+        "type": "ranged",
+        "name": "Tongue Lash",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "criticalConsume",
+          "drag"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "claw__406d9588": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3",
+      "snacking"
+    ],
+    "spells": [
+      "swarm"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "thumperCrew": {
+    "name": "Thumper Crew",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Weapon Crew",
+      "Unit",
+      "United Kriels",
+      "Trollblood",
+      "Trollkin"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20thumper%20crew.png",
+    "statistics": {
+      "speed": 3,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 14
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "thumper": {
+        "type": "ranged",
+        "name": "Thumper",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 16
+        },
+        "abilities": [
+          "momentum",
+          "siegeWeapon"
+        ]
+      },
+      "axe": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "takeUp"
+    ],
+    "models": {
+      "gunner": {
+        "name": "Gunner",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 4,
+          "rangedAttack": 5,
+          "defense": 12,
+          "armour": 14
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "takeUp"
+        ],
+        "weapons": {
+          "thumper": {
+            "type": "ranged",
+            "name": "Thumper",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 16
+            },
+            "abilities": [
+              "momentum",
+              "siegeWeapon"
+            ]
+          },
+          "axe": {
+            "type": "melee",
+            "name": "Axe",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 4,
+          "defense": 12,
+          "armour": 14
+        },
+        "advantages": [
+          "tough"
+        ],
+        "weapons": {
+          "axe": {
+            "type": "melee",
+            "name": "Axe",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 10
+            }
+          }
+        }
+      }
+    }
+  },
+  "trollAxer": {
+    "name": "Troll Axer",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20troll%20axer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "greatAxe__0e99516f": {
+        "type": "melee",
+        "name": "Great Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "thresherAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3"
+    ],
+    "spells": [
+      "rush"
+    ]
+  },
+  "trollBouncer": {
+    "name": "Troll Bouncer",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "Trollblood",
+      "Storm of the North",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20troll%20bouncer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shield__7431be56": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "qualities": [
+          "shield"
+        ]
+      },
+      "ballChain": {
+        "type": "melee",
+        "name": "Ball & Chain",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3",
+      "shieldGuard__819aa308"
+    ],
+    "spells": [
+      "earthsBlessing"
+    ]
+  },
+  "trollImpaler": {
+    "name": "Troll Impaler",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Light Warbeast",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20troll%20impaler.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 17,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "thrownSpear__64ff733f": {
+        "type": "ranged",
+        "name": "Thrown Spear",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalSmite"
+        ]
+      },
+      "battleSpear": {
+        "type": "melee",
+        "name": "Battle Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "regenerationD3",
+      "setDefense"
+    ],
+    "spells": [
+      "farStrike"
+    ]
+  },
+  "trollWhelps": {
+    "name": "Troll Whelps",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Storm of the North",
+      "Trollblood",
+      "Solo",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "7",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20troll%20whelps.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 11
+    },
+    "abilities": [
+      "alternateFoodSource",
+      "annoyance",
+      "comfortFood",
+      "spawnWhelps"
+    ]
+  },
+  "trollkinBarrageTeam": {
+    "name": "Trollkin Barrage Team",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Trollblood",
+      "Unit",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20barrage%20team.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__85374c6c": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        }
+      },
+      "axe": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    }
+  },
+  "trollkinFennbladeOfficerDrummer": {
+    "name": "Trollkin Fennblade Officer & Drummer",
+    "faction": "trollbloods",
+    "type": "commandAttachment",
+    "keywords": [
+      "United Kriels",
+      "Command Attachment",
+      "Trollkin"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20fennblade%20officer%20%26%20drummer.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "hookedGreatSword": {
+        "type": "melee",
+        "name": "Hooked Great Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentTrollkinFennblades",
+      "grantedCleave",
+      "grantedGang",
+      "vengeance"
+    ],
+    "models": {
+      "officer": {
+        "name": "Officer",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 6,
+          "defense": 13,
+          "armour": 14,
+          "health": 8
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "grantedCleave",
+          "grantedGang",
+          "vengeance"
+        ],
+        "weapons": {
+          "hookedGreatSword": {
+            "type": "melee",
+            "name": "Hooked Great Sword",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 12
+            }
+          }
+        }
+      },
+      "drummer": {
+        "name": "Drummer",
+        "statistics": {
+          "speed": 6,
+          "defense": 13,
+          "armour": 14,
+          "health": 8
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "grantedPathfinder"
+        ]
+      }
+    }
+  },
+  "trollkinFennblades": {
+    "name": "Trollkin Fennblades",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20fennblades.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "hookedGreatSword": {
+        "type": "melee",
+        "name": "Hooked Great Sword",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "vengeance"
+    ]
+  },
+  "trollkinGunnerySergeant": {
+    "name": "Trollkin Gunnery Sergeant",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Trollblood",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20gunnery%20sergeant.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "axe": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "ancillaryAttackAction__69fabdc4",
+      "artilleristAction",
+      "desperatePaceWeaponCrewAction__9cefee4f",
+      "spyglassAction__9ac35610"
+    ]
+  },
+  "trollkinHighwaymen": {
+    "name": "Trollkin Highwaymen",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "United Kriels",
+      "Trollblood",
+      "Unit"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20highwaymen.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 14
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "pistol__dae01c94": {
+        "type": "ranged",
+        "name": "Pistol",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "prowl",
+      "swiftHunter"
+    ]
+  },
+  "trollkinRunebearer": {
+    "name": "Trollkin Runebearer",
+    "faction": "trollbloods",
+    "type": "solo",
+    "keywords": [
+      "Trollblood",
+      "Storm of the North",
+      "Solo",
+      "United Kriels"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "1",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20runebearer.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "defense": 12,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "abilities": [
+      "attached",
+      "arcaneRepeater",
+      "magicAbility",
+      "guidanceAction",
+      "harmoniousExaltationAction",
+      "spellSlaveActionOrAttack"
+    ]
+  },
+  "trollkinScouts": {
+    "name": "Trollkin Scouts",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20scouts.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 13
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder",
+      "tough",
+      "assault"
+    ],
+    "weapons": {
+      "thrownAxe__862e34ed": {
+        "type": "ranged",
+        "name": "Thrown Axe",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 10
+        }
+      },
+      "axe": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "gang",
+      "markTarget",
+      "prowl"
+    ]
+  },
+  "trollkinSluggers": {
+    "name": "Trollkin Sluggers",
+    "faction": "trollbloods",
+    "type": "unit",
+    "keywords": [
+      "Unit",
+      "United Kriels",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20trollkin%20sluggers.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 4,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 15
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "slugger": {
+        "type": "ranged",
+        "name": "Slugger",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": "d3",
+          "power": 13
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "axe": {
+        "type": "melee",
+        "name": "Axe",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    }
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "trollbloods",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "warWagon": {
+    "name": "War Wagon",
+    "faction": "trollbloods",
+    "type": "battleEngine",
+    "keywords": [
+      "United Kriels",
+      "Battle Engine",
+      "Trollblood"
+    ],
+    "armies": [
+      "united-kriels"
+    ],
+    "fieldAllowance": "2",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20trollblood%20war%20wagon.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 19,
+      "health": 38
+    },
+    "advantages": [
+      "cavalry",
+      "construct",
+      "dualAttack",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "pounder": {
+        "type": "ranged",
+        "name": "Pounder",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 4,
+          "power": "17/10"
+        },
+        "abilities": [
+          "arcingFire",
+          "quake"
+        ]
+      },
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "tramplingHooves__5396e59a": {
+        "type": "melee",
+        "name": "Trampling Hooves",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "momentum"
+        ]
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "shootingGallery"
+    ]
+  }
+}

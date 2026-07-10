@@ -1,0 +1,5440 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "orgoth",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "anathiaTheImperishableDesolation": {
+    "name": "Anathia, The Imperishable Desolation",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Sea Raider",
+      "Orgoth",
+      "Deathless Cadre"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Anathia.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 4,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 12
+    },
+    "advantages": [
+      "undead",
+      "unstopable"
+    ],
+    "weapons": {
+      "bloodTongue": {
+        "type": "melee",
+        "name": "Blood Tongue",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 13
+        },
+        "abilities": [
+          "inflictPain",
+          "manCatcher"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "giftsOfAnnihilation",
+      "darkRituals",
+      "fateBinder",
+      "nightReaper",
+      "hellMarked",
+      "lesserWarlock",
+      "limitedBattlegroupBarrowGhoulAndCharnelHound"
+    ],
+    "spells": [
+      "disintegration",
+      "hellwrought"
+    ]
+  },
+  "assaultReavers": {
+    "name": "Assault Reavers",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20assault%20reavers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "advanceDeployment",
+      "combinedRangedAttack",
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "harpoon__ac6e5699": {
+        "type": "ranged",
+        "name": "Harpoon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "skewer__bc0563e5"
+        ]
+      },
+      "spear": {
+        "type": "melee",
+        "name": "Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "lastWord"
+    ]
+  },
+  "azdharakHeraldOfImmolation": {
+    "name": "Azdharak, Herald of Immolation",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 21,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Azhdarak.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 19,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "flight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "flameBlaster": {
+        "type": "ranged",
+        "name": "Flame Blaster",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 16
+        },
+        "location": "H",
+        "abilities": [
+          "eruptionOfAsh"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire"
+        ]
+      },
+      "gore__557b0d5c": {
+        "type": "melee",
+        "name": "Gore",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "H",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "tailStrike__6d6d1b43": {
+        "type": "melee",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 17
+        },
+        "abilities": [
+          "criticalShred"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "bladeGlide",
+      "flameTrail",
+      "fuelForTheFlames5",
+      "springBlades",
+      "threshingBlades",
+      "reposition5"
+    ]
+  },
+  "barrowGhoul": {
+    "name": "Barrow Ghoul",
+    "faction": "orgoth",
+    "type": "warbeast",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Heavy Warbeast",
+      "Deathless Cadre"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Barrow-Ghoul.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 4,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "undead",
+      "construct"
+    ],
+    "weapons": {
+      "boneMace": {
+        "type": "melee",
+        "name": "Bone Mace",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "abilities": [
+          "beatBack",
+          "criticalDispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironGrip": {
+        "type": "melee",
+        "name": "Iron Grip",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionAnathiaTheImperishableDesolation",
+      "ashenVeil",
+      "cursed",
+      "tasteOfDeath"
+    ],
+    "spells": [
+      "wellOfSecrets"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "cephalyxMindThief": {
+    "name": "Cephalyx Mind Thief",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 13,
+      "health": 8
+    },
+    "advantages": [
+      "stealth",
+      "pathfinder"
+    ],
+    "weapons": {
+      "prostheticSurgicalTool": {
+        "type": "melee",
+        "name": "Prosthetic Surgical Tool",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryNecrofactoriumSeaRaidersReaperCovenantAndDarkOperations",
+      "anatomicalPrecision",
+      "sucker",
+      "artificeOfDomination",
+      "mentalReservoir",
+      "manifestControl",
+      "expendableAssetAction",
+      "magicAbility",
+      "psychicAssaultAttack",
+      "psychicOverloadAttack",
+      "telekineticShiftAction"
+    ]
+  },
+  "charnelHound": {
+    "name": "Charnel Hound",
+    "faction": "orgoth",
+    "type": "warbeast",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Light Warbeast",
+      "Deathless Cadre"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Charnel-Hound.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 21,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "undead"
+    ],
+    "weapons": {
+      "bite__7a9d7ed4": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionAnathiaTheImperishableDesolation",
+      "mageStatic"
+    ],
+    "spells": [
+      "lightningStrike"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "orgoth",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "eilishGarrityTheDarkSeeker": {
+    "name": "Eilish Garrity, the Dark Seeker",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Infernals",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "magicAbility",
+      "hexBlastAttack",
+      "marionetteAttack",
+      "puppetMasterAction",
+      "markedSoul"
+    ]
+  },
+  "eilishGarrityTheDarkTraitor": {
+    "name": "Eilish Garrity, the Dark Traitor",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20dark%20traitor.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryGravediggersKithguardSeaRaidersAndStormLegion",
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "hellMarked",
+      "magicAbility",
+      "deathRattleAttack",
+      "marionetteAttack",
+      "puppetMasterAction"
+    ]
+  },
+  "eilishGarrityTheOccultist": {
+    "name": "Eilish Garrity, the Occultist",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20occultist.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "arcaneVoid",
+      "gateWalker",
+      "magicAbility__0cffaca0",
+      "bleedAttack",
+      "puppetMasterAction",
+      "unbindingAction",
+      "markedSoul",
+      "mentalForce"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "orgoth",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "gharlghast": {
+    "name": "Gharlghast",
+    "faction": "orgoth",
+    "type": "monstrosity",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Colossal",
+      "Monstrosity"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20garlghast.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 8,
+      "armour": 18,
+      "health": {
+        "total": 72,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "H",
+                "4": "L",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "2": "H",
+                "3": "S",
+                "4": "S",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "2": "H",
+                "3": "S",
+                "4": "B",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "2": "H",
+                "3": "S",
+                "4": "B",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "2": "H",
+                "3": "S",
+                "4": "S",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "H",
+                "4": "R",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "B",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "rocketPod__3b7c146f": {
+        "type": "ranged",
+        "name": "Rocket Pod",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 14,
+          "rateOfFire": 2,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "abilities": [
+          "arcingFire"
+        ]
+      }
+    },
+    "abilities": [
+      "orgothMonstrosity",
+      "bulldoze",
+      "painMaddened",
+      "repairable"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Frother",
+        "cost": 6,
+        "abilities": [
+          "snacking",
+          "aggressive"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Crushing Jaws",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 23
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Spider",
+        "cost": 7,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Web Spinner",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 9,
+              "rateOfFire": "d3"
+            },
+            "location": "H",
+            "abilities": [
+              "shadowBind",
+              "drag"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Skull Splitter",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 18
+            },
+            "location": "H"
+          }
+        ],
+        "statAdjustments": {
+          "rangedAttack": 1
+        }
+      },
+      {
+        "slot": "Right Forearm",
+        "name": "Infernus Cannon (Right)",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Infernus Cannon",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "12/7"
+            },
+            "location": "R",
+            "abilities": [
+              "chokingAsh"
+            ],
+            "qualities": [
+              "damageTypeFire",
+              "pistol",
+              "criticalFire"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Forearm",
+        "name": "Bile Jet (Right)",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Bile Jet",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": "SP 8",
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "R",
+            "qualities": [
+              "continuousEffectCorrosion",
+              "damageTypeCorrosion",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Fist",
+        "name": "Rending Claws (Right)",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Rending Claws",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 19
+            },
+            "location": "R",
+            "abilities": [
+              "criticalGrievousWounds__f150fac5"
+            ],
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Fist",
+        "name": "Demolisher Fist (Right)",
+        "cost": 8,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Demolisher Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 20
+            },
+            "location": "R",
+            "abilities": [
+              "criticalKnockdown__870725a5",
+              "siegeWeapon"
+            ],
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Forearm",
+        "name": "Bile Jet (Left)",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Bile Jet",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": "SP 8",
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "L",
+            "qualities": [
+              "continuousEffectCorrosion",
+              "damageTypeCorrosion",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Forearm",
+        "name": "Infernus Cannon (Left)",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Infernus Cannon",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 10,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "12/7"
+            },
+            "location": "L",
+            "abilities": [
+              "chokingAsh"
+            ],
+            "qualities": [
+              "damageTypeFire",
+              "pistol",
+              "criticalFire"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Fist",
+        "name": "Demolisher Fist (Left)",
+        "cost": 8,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Demolisher Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 20
+            },
+            "location": "L",
+            "abilities": [
+              "criticalKnockdown__870725a5",
+              "siegeWeapon"
+            ],
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Fist",
+        "name": "Rending Claws (Left)",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Rending Claws",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 19
+            },
+            "location": "L",
+            "abilities": [
+              "criticalGrievousWounds__f150fac5"
+            ],
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gnashers": {
+    "name": "Gnashers",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Curse Bound",
+      "Ulkor",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20gnashers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 17
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "tough"
+    ],
+    "weapons": {
+      "fellWeapons": {
+        "type": "melee",
+        "name": "Fell Weapons",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "berserk__98095277",
+      "bloodDrinker",
+      "spellWard__692ef090"
+    ]
+  },
+  "grhottenChampion": {
+    "name": "Grhotten Champion",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Curse Bound",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20grhotten%20champion.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 17,
+      "health": 14
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "fellBlade": {
+        "type": "melee",
+        "name": "Fell Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [
+          "thresherAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "berserk__98095277",
+      "bladeShield",
+      "bloodDrinker",
+      "spellWard__692ef090"
+    ]
+  },
+  "grhottenKeeper": {
+    "name": "Grhotten Keeper",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Curse Bound",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20grhotten%20keeper.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "health": 14
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "fellAxe": {
+        "type": "melee",
+        "name": "Fell Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalDecapitation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "fellShield__4788fe19": {
+        "type": "melee",
+        "name": "Fell Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "primalRage",
+      "shieldGuard__819aa308",
+      "spellWard__692ef090"
+    ]
+  },
+  "halexusTheWarlord": {
+    "name": "Halexus the Warlord",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Curse Bound",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20halexus%20the%20warlord.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "deathgorger": {
+        "type": "melee",
+        "name": "Deathgorger",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "blessed",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "berserk__98095277",
+      "ghostShield",
+      "soulTakerBodyCount",
+      "soulTransferAction__9f781185",
+      "spectralVortex",
+      "spiritDriven",
+      "strengthOfDeath"
+    ]
+  },
+  "horruskhTheThousandWraths": {
+    "name": "Horruskh, The Thousand Wraths",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20horruskh%20the%20thousand%20wraths.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 8,
+      "defense": 14,
+      "armour": 18,
+      "controlRange": 14,
+      "health": 19
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "abyssalBlade": {
+        "type": "melee",
+        "name": "Abyssal Blade",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 17
+        },
+        "abilities": [
+          "bloodBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "hellMarked__d23853ba"
+    ],
+    "spells": [
+      "abattoir",
+      "carnage",
+      "thunderStrike",
+      "windstorm",
+      "vanish"
+    ],
+    "feat": [
+      "illimitableDominion"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "jackal": {
+    "name": "Jackal",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Light Warjack"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20jackal.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 17,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "H",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "H",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "abilities": [
+      "aggressive"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Advance Deployment",
+        "cost": 1
+      },
+      {
+        "slot": "Head",
+        "name": "Bloodthirst",
+        "cost": 2,
+        "abilities": [
+          "bloodthirst"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Berserk",
+        "cost": 2,
+        "abilities": [
+          "berserk__98095277"
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Arc Node",
+        "cost": 2
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Hunter Rifle",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Hunter Rifle",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 14,
+              "rateOfFire": 1,
+              "power": 13
+            },
+            "location": "R",
+            "abilities": [
+              "criticalBrutalDamage"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Pole Arm",
+        "cost": 4,
+        "abilities": [
+          "setDefense"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Pole Arm",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 13
+            },
+            "location": "R",
+            "abilities": [
+              "brutalCharge__b5c7c391"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Flamethrower",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Flamethrower",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": "SP 8",
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "location": "R",
+            "qualities": [
+              "continuousEffectFire",
+              "damageTypeFire",
+              "pistol"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Mace",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Mace",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "beatBack__1868a099",
+              "criticalDispel"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Assault Shield",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Assault Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "L",
+            "qualities": [
+              "shield"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Clawed Fist",
+        "cost": 1,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Clawed Fist",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 10
+            },
+            "location": "L",
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Pneumatic Spike",
+        "cost": 2,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Pneumatic Spike",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 12
+            },
+            "location": "L",
+            "abilities": [
+              "sustainedAttack__f210d4c7"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Heavy Bolt Thrower",
+        "cost": 4,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Heavy Bolt Thrower",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 13
+            },
+            "location": "L",
+            "abilities": [
+              "reload1"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "kishtaarTheHowlingSilence": {
+    "name": "Kishtaar, The Howling Silence",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20kishtaar%20the%20howling%20silence.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "gunfighter",
+      "pathfinder"
+    ],
+    "weapons": {
+      "deathWhisperer": {
+        "type": "ranged",
+        "name": "Death Whisperer",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "ricochet"
+        ],
+        "qualities": [
+          "criticalFire",
+          "damageTypeMagical"
+        ]
+      },
+      "bladeStrike": {
+        "type": "melee",
+        "name": "Blade Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "criticalFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "hellHunter",
+      "hellMarked",
+      "prowl",
+      "swiftHunter__4a67cf58",
+      "resourceful"
+    ],
+    "spells": [
+      "secondSight",
+      "silenceOfDeath",
+      "sureFoot",
+      "banishingWard"
+    ],
+    "feat": [
+      "pandemonium"
+    ]
+  },
+  "koldunLordDamienKorovnik": {
+    "name": "Koldun Lord Damien Korovnik",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20koldun%20lord%20damien%20korovnik.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "resistanceCold"
+    ],
+    "weapons": {
+      "blazeAxe": {
+        "type": "melee",
+        "name": "Blaze Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "dispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenarySeaRaidersAndWinterKorps",
+      "mercenaryAttachment",
+      "battleWizard",
+      "magicAbility__3e82c264",
+      "blizzardAction",
+      "razorWindAttack",
+      "spellSlaveActionOrAttack"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "maulgrethTheCharnelPlague": {
+    "name": "Maulgreth, The Charnel Plague",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20maulgreth%20the%20charnel%20plague.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "undead"
+    ],
+    "weapons": {
+      "reaper": {
+        "type": "melee",
+        "name": "Reaper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "lifeDrinker"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryHouseKallyssNecrofactoriumAndSeaRaiders",
+      "cleave",
+      "defensiveStrike__78f41ebc",
+      "entropicForce__d5706932",
+      "hellMarked",
+      "spellWard__692ef090"
+    ]
+  },
+  "molok": {
+    "name": "Molok",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Sea Raider",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 17,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20molok.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "abilities": [
+      "hyperAggressive",
+      "ghostShield",
+      "soulTakerCollector",
+      "darkBlessing",
+      "soulGenerator",
+      "soulTap"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Molok",
+        "cost": 0,
+        "abilities": [
+          "poltergeist"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 12
+            }
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Hand of Ruin",
+        "cost": 0,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Hand of Ruin",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 17
+            },
+            "location": "L",
+            "abilities": [
+              "possession"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Abyssal Mace",
+        "name": "Abyssal Mace",
+        "cost": 0,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Abyssal Mace",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 19
+            },
+            "location": "R",
+            "abilities": [
+              "gatesOfHell"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "molokCampaign": {
+    "name": "Molok (Campaign)",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Heavy Warjack",
+      "Resurrection League",
+      "Campaign"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20molok.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "abilities": [
+      "hyperAggressive"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Relentless Charge",
+        "cost": 1,
+        "abilities": [
+          "relentlessCharge"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Molok (League)",
+        "cost": 2,
+        "abilities": [
+          "soulTakerCollector",
+          "darkBlessing",
+          "soulGenerator",
+          "ghostShield",
+          "poltergeist"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ],
+        "statAdjustments": {
+          "meleeAttack": 1
+        }
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Claw",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Claw",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 15
+            },
+            "location": "L",
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Hand of Ruin (League)",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Hand of Ruin",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 17
+            },
+            "location": "L",
+            "abilities": [
+              "possession"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Harpoon",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Harpoon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "skewer__bc0563e5"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Harpoon",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 14
+            },
+            "location": "R"
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Abyssal Mace (League)",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Abyssal Mace",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 19
+            },
+            "location": "R",
+            "abilities": [
+              "gatesOfHell"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        ],
+        "statAdjustments": {
+          "rangedAttack": 0
+        }
+      },
+      {
+        "slot": "Bond",
+        "name": "No Bond",
+        "cost": 0
+      },
+      {
+        "slot": "Bond",
+        "name": "Bond (Prowl)",
+        "cost": 0,
+        "abilities": [
+          "bondProwl"
+        ]
+      },
+      {
+        "slot": "Bond",
+        "name": "Bond (Channeler)",
+        "cost": 0,
+        "abilities": [
+          "bondChanneler"
+        ]
+      },
+      {
+        "slot": "Bond",
+        "name": "Bond (Soul Bank)",
+        "cost": 0,
+        "abilities": [
+          "soulBank"
+        ]
+      }
+    ]
+  },
+  "oriaxTheSoulSlaver": {
+    "name": "Oriax, The Soul Slaver",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Orgoth",
+      "Curse Bound",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20oriax%20the%20soul%20slaver.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "eyelessSight",
+      "soulless",
+      "resistanceCold"
+    ],
+    "weapons": {
+      "soulFlayer": {
+        "type": "melee",
+        "name": "Soul Flayer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "darkBanishment"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fateBlessed",
+      "soulMastery",
+      "gateOfWorlds",
+      "soulPhase__eb1eecb3",
+      "vengefulSpirits",
+      "soulTakerExhumator"
+    ],
+    "spells": [
+      "censure",
+      "curseOfShadows",
+      "darkFire",
+      "icyGrip",
+      "onslaught",
+      "starCrossed"
+    ],
+    "feat": [
+      "howlOfTheAbyss"
+    ]
+  },
+  "orsusTheBetrayed": {
+    "name": "Orsus the Betrayed",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Orsus-the-Betrayed.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 6,
+      "meleeAttack": 9,
+      "defense": 13,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 20
+    },
+    "advantages": [
+      "tough",
+      "cavalry",
+      "unstopable"
+    ],
+    "weapons": {
+      "fellAxe__6be7e9bd": {
+        "type": "melee",
+        "name": "Fell Axe",
+        "statistics": {
+          "meleeAttack": 9,
+          "range": 2,
+          "power": 16
+        },
+        "abilities": [
+          "bloodBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "gore__9f666a6a": {
+        "type": "melee",
+        "name": "Gore",
+        "statistics": {
+          "meleeAttack": 9,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "berserk__98095277",
+      "bloodQuenched",
+      "fieldMarshalHomicidalManiac",
+      "homicidalManiac",
+      "relentlessCharge",
+      "reposition2",
+      "spellWard__692ef090"
+    ],
+    "spells": [
+      "eruption",
+      "handOfDestruction",
+      "huntersMark",
+      "redline",
+      "revive"
+    ],
+    "feat": [
+      "hornOfWoe"
+    ]
+  },
+  "ravener": {
+    "name": "Ravener",
+    "faction": "orgoth",
+    "type": "monstrosity",
+    "keywords": [
+      "Orgoth",
+      "Curse Bound",
+      "Monstrosity"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20ravener.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "B"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "fellCleaver": {
+        "type": "melee",
+        "name": "Fell Cleaver",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "location": "L",
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster",
+          "throwPowerAttack"
+        ]
+      },
+      "mechanoClaw__f5341b3e": {
+        "type": "melee",
+        "name": "Mechano-Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R",
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "gore__69fae30a": {
+        "type": "melee",
+        "name": "Gore",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "berserk__98095277",
+      "orgothMonstrosity",
+      "snacking",
+      "spellWard__692ef090"
+    ]
+  },
+  "reaverCommander": {
+    "name": "Reaver Commander",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20reaver%20commander.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 15,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "weapons": {
+      "boltThrower": {
+        "type": "ranged",
+        "name": "Bolt Thrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "infernusHandWeapon__d1f3e815": {
+        "type": "melee",
+        "name": "Infernus Hand Weapon",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "criticalFire",
+          "weaponMaster"
+        ]
+      },
+      "battleShield__64ec53c3": {
+        "type": "melee",
+        "name": "Battle Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "combatCoordination",
+      "precisionStrike",
+      "standYourGround",
+      "hellMarked",
+      "lastWord",
+      "overtake"
+    ]
+  },
+  "reaverSkirmishers": {
+    "name": "Reaver Skirmishers",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20reaver%20skirmisher.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder"
+    ],
+    "weapons": {
+      "infernusHandWeapons": {
+        "type": "melee",
+        "name": "Infernus Hand Weapons",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "criticalFire",
+          "blessed"
+        ]
+      }
+    },
+    "abilities": [
+      "lastWord",
+      "overtake",
+      "prowl"
+    ]
+  },
+  "reaverStandard": {
+    "name": "Reaver Standard",
+    "faction": "orgoth",
+    "type": "commandAttachment",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Command Attachment"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "8",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20reaver%20standard.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14
+    },
+    "weapons": {
+      "infernusHandWeapon": {
+        "type": "melee",
+        "name": "Infernus Hand Weapon",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "criticalFire"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentReaver",
+      "cursed",
+      "grantedRise",
+      "lastWord",
+      "takeUp__bdc4f9fe"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "revenantChampion": {
+    "name": "Revenant Champion",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Graveborn",
+      "Solo",
+      "Deathless Cadre"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "1",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Revenant-Champion.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "undead",
+      "unstopable"
+    ],
+    "weapons": {
+      "warAxe__5ab086e8": {
+        "type": "melee",
+        "name": "War Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shatteredBlade": {
+        "type": "melee",
+        "name": "Shattered Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalDispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "guardDog",
+      "imperviousFlesh",
+      "inhumanResolve",
+      "shieldGuard"
+    ]
+  },
+  "rhokHarriers": {
+    "name": "Rhok Harriers",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20rhok%20harriers.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16
+    },
+    "advantages": [
+      "cavalry",
+      "flight",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "maw__d7b18a31": {
+        "type": "melee",
+        "name": "Maw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      },
+      "claws__144cb5f1": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        }
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "sittingVulture"
+    ]
+  },
+  "sabbrethTheEternalAnnihilation": {
+    "name": "Sabbreth, The Eternal Annihilation",
+    "faction": "orgoth",
+    "type": "warcaster",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Warcaster"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20sabbreth%20the%20enternal%20annihilation.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "runeBlade": {
+        "type": "melee",
+        "name": "Rune Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "witchMark"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalOvertake__5004f018",
+      "hellMarked",
+      "overtake",
+      "prowl"
+    ],
+    "spells": [
+      "cripplingGrasp",
+      "deathMarch",
+      "fogOfWar",
+      "ghostWalk",
+      "hexBlast",
+      "perdition"
+    ],
+    "feat": [
+      "invocationsOfFire"
+    ]
+  },
+  "siegeTarask": {
+    "name": "Siege Tarask",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20siege%20tarask.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 18,
+      "health": 24
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "heavyHarpoon": {
+        "type": "ranged",
+        "name": "Heavy Harpoon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "skewer__bc0563e5"
+        ]
+      },
+      "bladedTusks": {
+        "type": "melee",
+        "name": "Bladed Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 16
+        }
+      },
+      "fist": {
+        "type": "melee",
+        "name": "Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 16
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "boundlessRage",
+      "painmonger",
+      "rageHowler",
+      "hyperAggressive",
+      "overtake"
+    ]
+  },
+  "skyBomber": {
+    "name": "Sky Bomber",
+    "faction": "orgoth",
+    "type": "battleEngine",
+    "keywords": [
+      "Battle Engine",
+      "Mercenary"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20sky%20bomber.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 18,
+      "health": 28
+    },
+    "advantages": [
+      "construct",
+      "flight",
+      "gunfighter",
+      "unstopable",
+      "dualAttack"
+    ],
+    "weapons": {
+      "heavyFireBreather": {
+        "type": "ranged",
+        "name": "Heavy Fire Breather",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 10",
+          "rateOfFire": 2,
+          "power": 14
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "highExplosive": {
+        "type": "ranged",
+        "name": "High Explosive",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 4,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "abilities": [
+          "crater__76b94cc1",
+          "criticalDevastation",
+          "skyDropped",
+          "siegeWeapon"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "rammingSpeed": {
+        "type": "melee",
+        "name": "Ramming Speed",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "mercenarySeaRaiders",
+      "autoRepair",
+      "flyingHigh",
+      "propelled",
+      "reposition5",
+      "shootingGallery",
+      "strafingRun"
+    ]
+  },
+  "skyRaider": {
+    "name": "Sky Raider",
+    "faction": "orgoth",
+    "type": "battleEngine",
+    "keywords": [
+      "Mercenary",
+      "Battle Engine"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20sky%20raider.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 18,
+      "health": 28
+    },
+    "advantages": [
+      "construct",
+      "flight",
+      "gunfighter",
+      "unstopable",
+      "dualAttack"
+    ],
+    "weapons": {
+      "heavyGun": {
+        "type": "ranged",
+        "name": "Heavy Gun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "15/8"
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "gravityBomb__08d2454e": {
+        "type": "ranged",
+        "name": "Gravity Bomb",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 4,
+          "rateOfFire": 3,
+          "areaOfEffect": 2,
+          "power": "12/6"
+        },
+        "abilities": [
+          "brutalDamage__7a6f89ac",
+          "skyDropped"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "rammingSpeed": {
+        "type": "melee",
+        "name": "Ramming Speed",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "mercenarySeaRaiders",
+      "autoRepair",
+      "flyingHigh",
+      "propelled",
+      "shootingGallery",
+      "reposition5",
+      "strafingRun"
+    ]
+  },
+  "strikeReavers": {
+    "name": "Strike Reavers",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20strike%20reavers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 16
+    },
+    "advantages": [
+      "combinedRangedAttack",
+      "assault"
+    ],
+    "weapons": {
+      "boltThrower": {
+        "type": "ranged",
+        "name": "Bolt Thrower",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "battleShield": {
+        "type": "melee",
+        "name": "Battle Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        }
+      },
+      "bayonet__b30d2015": {
+        "type": "melee",
+        "name": "Bayonet",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "brutalCharge__b5c7c391"
+        ]
+      }
+    },
+    "abilities": [
+      "lastWord",
+      "shieldWall__4297683a"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "theExecrators": {
+    "name": "The Execrators",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Graveborn",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Orgoth_Execrators3.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough",
+      "undead"
+    ],
+    "weapons": {
+      "accursedSpear": {
+        "type": "ranged",
+        "name": "Accursed Spear",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "snapFire",
+          "thunderbolt"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "ironBlade": {
+        "type": "melee",
+        "name": "Iron Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalGrievousWounds__f150fac5"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "blessed"
+        ]
+      },
+      "greatShield": {
+        "type": "melee",
+        "name": "Great Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "blessed"
+        ]
+      }
+    },
+    "abilities": [
+      "accursedArmor",
+      "shieldWall",
+      "vengeance"
+    ]
+  },
+  "therionVhanek": {
+    "name": "Therion Vhanek",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20therion%20vhanek.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 15,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder",
+      "stealth",
+      "unstopable"
+    ],
+    "weapons": {
+      "helltooth": {
+        "type": "melee",
+        "name": "Helltooth",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "grievousWounds__93aabb43"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "fellShield": {
+        "type": "melee",
+        "name": "Fell Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard",
+      "hellMarked__d23853ba",
+      "magicAbility__3e82c264",
+      "grimReturnsAction",
+      "hexBlastAttack",
+      "sigilOfPowerAction",
+      "veteranLeaderWarwitchCoven"
+    ]
+  },
+  "tyrant": {
+    "name": "Tyrant",
+    "faction": "orgoth",
+    "type": "warjack",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20tyrant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "H",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "abilities": [
+      "hyperAggressive"
+    ],
+    "options": [
+      {
+        "slot": "Head",
+        "name": "Overtake",
+        "cost": 2,
+        "abilities": [
+          "overtake"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Hunter",
+        "cost": 3,
+        "abilities": [
+          "hunter"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Relentless Charge",
+        "cost": 1,
+        "abilities": [
+          "relentlessCharge"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Head",
+        "name": "Arcane Vortex",
+        "cost": 3,
+        "abilities": [
+          "arcaneVortex"
+        ],
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Gore",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 12
+            },
+            "location": "H"
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Belcher",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Belcher",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "areaOfEffect": 3,
+              "power": "14/10"
+            },
+            "location": "R",
+            "qualities": [
+              "criticalFire",
+              "damageTypeFire"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Harpoon",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Harpoon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 14
+            },
+            "location": "R",
+            "abilities": [
+              "skewer__bc0563e5"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Harpoon",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 14
+            },
+            "location": "R"
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Shredder",
+        "cost": 8,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Shredder",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 14,
+              "rateOfFire": 1,
+              "power": 16
+            },
+            "location": "R",
+            "abilities": [
+              "powerfulAttack__a5dfa029"
+            ],
+            "qualities": [
+              "blessed",
+              "damageTypeMagical"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 16
+            },
+            "qualities": [
+              "blessed",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Right Arm",
+        "name": "Scything Flail",
+        "cost": 7,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Scything Flail",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 2,
+              "power": 18
+            },
+            "location": "R",
+            "abilities": [
+              "thresherAttack__b1e9e740"
+            ],
+            "qualities": [
+              "chainWeapon",
+              "damageTypeMagical"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Cannon Shield",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Cannon",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "location": "L",
+            "qualities": [
+              "pistol"
+            ]
+          },
+          {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 13
+            },
+            "location": "L",
+            "qualities": [
+              "shield"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Claw",
+        "cost": 3,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Claw",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 15
+            },
+            "location": "L",
+            "qualities": [
+              "throwPowerAttack"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Quad Bolt Thrower",
+        "cost": 6,
+        "weapons": [
+          {
+            "type": "ranged",
+            "name": "Quad Bolt Thrower",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 10,
+              "rateOfFire": "d3+1",
+              "power": 12
+            },
+            "location": "L",
+            "abilities": [
+              "volumeFire"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Left Arm",
+        "name": "Ripper",
+        "cost": 5,
+        "weapons": [
+          {
+            "type": "melee",
+            "name": "Ripper",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 17
+            },
+            "location": "L",
+            "abilities": [
+              "criticalShred"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ulkorAxers": {
+    "name": "Ulkor Axers",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20ulkor%20axer.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "axes": {
+        "type": "melee",
+        "name": "Axes",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "snacking",
+      "unyielding__f1431fc4"
+    ]
+  },
+  "ulkorBarragers": {
+    "name": "Ulkor Barragers",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20ulkor%20barragers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "barrageCannon": {
+        "type": "ranged",
+        "name": "Barrage Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        }
+      },
+      "bash__8bb8f600": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "reposition3"
+    ]
+  },
+  "vulcarForgeMaster": {
+    "name": "Vulcar Forge Master",
+    "faction": "orgoth",
+    "type": "solo",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Solo"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20vulcar%20forge%20master.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "weapons": {
+      "torch__3a9c2cd9": {
+        "type": "ranged",
+        "name": "Torch",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 4,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire"
+        ]
+      },
+      "grappler": {
+        "type": "melee",
+        "name": "Grappler",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 2,
+          "power": 7
+        },
+        "abilities": [
+          "armorPiercing"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility__3e82c264",
+      "defensiveMeasuresAction",
+      "guidanceAction",
+      "tuneUpAction",
+      "repairD6Action"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "orgoth",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "warwitchCoven": {
+    "name": "Warwitch Coven",
+    "faction": "orgoth",
+    "type": "unit",
+    "keywords": [
+      "Orgoth",
+      "Sea Raider",
+      "Unit"
+    ],
+    "armies": [
+      "sea-raiders"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20orgoth%20warwitch%20coven.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "meleeAttack": 5,
+      "defense": 14,
+      "armour": 14
+    },
+    "advantages": [
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "witchBlade": {
+        "type": "melee",
+        "name": "Witch Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility__3e82c264",
+      "deathlyPowerAction",
+      "empowerAction__d8c59268",
+      "fleshEaterAttack"
+    ]
+  }
+}

@@ -1,0 +1,5346 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "mercenaries",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "blackBellaDuchessOfDread": {
+    "name": "Black Bella, Duchess of Dread",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Thamarite",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20black%20bella%20duchess%20of%20dread.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "sword__3e645bab": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "brutalCharge"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "dagger__b0f18a02": {
+        "type": "melee",
+        "name": "Dagger",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 8
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "duelist",
+      "killingSpree",
+      "riposte",
+      "sacrificialPawnPrivateerWarrior"
+    ]
+  },
+  "blockader": {
+    "name": "Blockader",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Talion Charter",
+      "Colossal"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "2",
+    "points": 28,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20blockader.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 58,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "heavyFireBreathers": {
+        "type": "ranged",
+        "name": "Heavy Fire Breathers",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 10",
+          "rateOfFire": "d3",
+          "power": 14
+        },
+        "quantity": 2,
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "rocketFist": {
+        "type": "melee",
+        "name": "Rocket Fist",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 22
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalSmite"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "shootingGallery"
+    ]
+  },
+  "bloodyBradigan": {
+    "name": "Bloody Bradigan",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20bloody%20bradigan.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "wrappedFist": {
+        "type": "melee",
+        "name": "Wrapped Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "berserk__98095277",
+      "flankPrivateer",
+      "righteousVengeance",
+      "stumblingDrunk"
+    ]
+  },
+  "bosunGrogspar": {
+    "name": "Bosun Grogspar",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20bosun%20grogspar.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 15,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "harpoonGun__36e57e70": {
+        "type": "ranged",
+        "name": "Harpoon Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/6"
+        },
+        "abilities": [
+          "criticalDevastation"
+        ]
+      },
+      "giantHook": {
+        "type": "melee",
+        "name": "Giant Hook",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "noSleepingOnTheJobLivingPrivateer"
+    ]
+  },
+  "buccaneer": {
+    "name": "Buccaneer",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Privateer",
+      "Light Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20buccaneer.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "net": {
+        "type": "ranged",
+        "name": "Net",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "knockdown"
+        ]
+      },
+      "gaff": {
+        "type": "melee",
+        "name": "Gaff",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 12
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "setDefense"
+    ]
+  },
+  "captainBartoloMontador": {
+    "name": "Captain Bartolo Montador",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Privateer",
+      "Talion Charter",
+      "Ordic",
+      "Warcaster",
+      "Mercenary",
+      "Scout"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20captain%20bartolo%20montador.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "ace": {
+        "type": "ranged",
+        "name": "Ace",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "redTide": {
+        "type": "melee",
+        "name": "Red Tide",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "bloodQuenched",
+      "fieldMarshalOvertake__5004f018",
+      "overtake"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "broadside",
+      "deadweight",
+      "hotShot",
+      "powderKeg"
+    ],
+    "feat": [
+      "typhoon"
+    ]
+  },
+  "captainCrawtooth": {
+    "name": "Captain Crawtooth",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Blindwater Congregation",
+      "Privateer",
+      "Gatorman",
+      "Solo",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20captain%20crawtooth.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 8
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "thrownHook": {
+        "type": "ranged",
+        "name": "Thrown Hook",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "drag"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      },
+      "hookStrike": {
+        "type": "melee",
+        "name": "Hook Strike",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      },
+      "bite": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__a753efc4",
+      "noSleepingOnTheJobGatorman",
+      "snacking"
+    ]
+  },
+  "captainPhinneusShae": {
+    "name": "Captain Phinneus Shae",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Privateer",
+      "Talion Charter",
+      "Warcaster"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20captain%20phinneus%20shae.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 17,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "amphibious",
+      "dualAttack"
+    ],
+    "weapons": {
+      "handCannon": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "squall": {
+        "type": "melee",
+        "name": "Squall",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "beatBack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "limitedEmployment",
+      "steady",
+      "tactician"
+    ],
+    "spells": [
+      "blowTheManDown",
+      "coupDeMain",
+      "flashingBlade",
+      "veilOfDarkness",
+      "stormRager",
+      "veilOfMists"
+    ],
+    "feat": [
+      "godspeed"
+    ]
+  },
+  "captainRaheraTerrorOfTheWailingSea": {
+    "name": "Captain Rahera, Terror of the Wailing Sea",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster",
+      "Talion Charter",
+      "Scharde",
+      "Privateer"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20captain%20rahera%20terror%20of%20the%20wailing%20sea.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "pathfinder",
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "handCannon__13c941ef": {
+        "type": "ranged",
+        "name": "Hand Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "bloodAxe": {
+        "type": "melee",
+        "name": "Blood Axe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "boneCleaver__624746d6": {
+        "type": "melee",
+        "name": "Bone Cleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "bloodBoon"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "acrobatics",
+      "fieldMarshalGangFighter",
+      "gangFighter",
+      "sprint"
+    ],
+    "spells": [
+      "bleed",
+      "carnage",
+      "curseOfShadows",
+      "huntersMark",
+      "roughSeas"
+    ],
+    "feat": [
+      "bloodletting"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "mercenaries",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "dirtyMeg": {
+    "name": "Dirty Meg",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Privateer",
+      "Talion Charter",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20dirty%20meg.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "jackMarshal",
+      "tough"
+    ],
+    "weapons": {
+      "junker": {
+        "type": "ranged",
+        "name": "Junker",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "stall"
+        ]
+      },
+      "greatWrench": {
+        "type": "melee",
+        "name": "Great Wrench",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCygnarKhadorAndProtectorate",
+      "driveReposition3",
+      "ironSentinel",
+      "repairD6Action"
+    ]
+  },
+  "docKillingsworth": {
+    "name": "Doc Killingsworth",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20doc%20killingsworth.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 4,
+      "defense": 12,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "dirtyThrowingKnives": {
+        "type": "ranged",
+        "name": "Dirty Throwing Knives",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 9
+        },
+        "abilities": [
+          "poison"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "meatCleaver": {
+        "type": "melee",
+        "name": "Meat Cleaver",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 11
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "anatomicalPrecision",
+      "healD6Action",
+      "noImFine"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "mercenaries",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "fionaTheBlack": {
+    "name": "Fiona the Black",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Privateer",
+      "Thamarite",
+      "Talion Charter",
+      "Warcaster"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20fiona%20the%20black.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "defense": 16,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 15
+    },
+    "weapons": {
+      "viper": {
+        "type": "melee",
+        "name": "Viper",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxCygnarAndKhador",
+      "cultists",
+      "darkRituals__c58cd6b0",
+      "whiplash"
+    ],
+    "spells": [
+      "befuddle",
+      "chasten",
+      "curseOfShadows",
+      "occultation",
+      "rothsMercy",
+      "soulfire"
+    ],
+    "feat": [
+      "darkOmen"
+    ]
+  },
+  "firstMateHawk": {
+    "name": "First Mate Hawk",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20first%20mate%20hawk.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "tough",
+      "unstopable"
+    ],
+    "weapons": {
+      "cutlass__d6e56a76": {
+        "type": "melee",
+        "name": "Cutlass",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 2,
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "objectOfDesire",
+      "relentlessCharge",
+      "sacrificialPawnPrivateerWarrior",
+      "sprint"
+    ]
+  },
+  "freebooter": {
+    "name": "Freebooter",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Privateer",
+      "Heavy Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20freebooter.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "clamp__89946a1b": {
+        "type": "melee",
+        "name": "Clamp",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "abilities": [
+          "chainAttackGrabSmash",
+          "trash"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "juryRigged",
+      "lash"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "galleon": {
+    "name": "Galleon",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Colossal",
+      "Soldiers of Fortune",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "2",
+    "points": 30,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20galleon.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 58,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "L",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "C",
+                "5": "C",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "C",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "3": "R",
+                "4": "R"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "gunPort": {
+        "type": "ranged",
+        "name": "Gun Port",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": "d3",
+          "areaOfEffect": 2,
+          "power": "13/7"
+        },
+        "quantity": 2
+      },
+      "harpoonCannon": {
+        "type": "ranged",
+        "name": "Harpoon Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "skewer"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "tridentStrike": {
+        "type": "melee",
+        "name": "Trident Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R"
+      },
+      "cargoClaw": {
+        "type": "melee",
+        "name": "Cargo Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 21
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "crane"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "ladyAiyanaMasterHolt": {
+    "name": "Lady Aiyana & Master Holt",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Unit"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20lady%20aiyana%20%26%20master%20holt.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "defense": 14,
+      "armour": 11
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnarKhadorProtectorateAndRetribution",
+      "grantedForceBarrier",
+      "magicAbility",
+      "ayislasVeilAction",
+      "guidanceAction",
+      "kissOfLylissAttack"
+    ],
+    "models": {
+      "aiyana1": {
+        "name": "Aiyana 1",
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 7,
+          "defense": 14,
+          "armour": 11
+        },
+        "abilities": [
+          "grantedForceBarrier",
+          "magicAbility",
+          "ayislasVeilAction",
+          "guidanceAction",
+          "kissOfLylissAttack"
+        ]
+      },
+      "holt1": {
+        "name": "Holt 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 5,
+          "rangedAttack": 7,
+          "defense": 14,
+          "armour": 11
+        },
+        "advantages": [
+          "dualAttack"
+        ],
+        "weapons": {
+          "handCannon__7c485ecd": {
+            "type": "ranged",
+            "name": "Hand Cannon",
+            "statistics": {
+              "rangedAttack": 7,
+              "range": 12,
+              "rateOfFire": 1,
+              "power": 12
+            },
+            "quantity": 2,
+            "qualities": [
+              "pistol",
+              "damageTypeMagical"
+            ]
+          },
+          "gunBlades": {
+            "type": "melee",
+            "name": "Gun Blades",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 8
+            },
+            "quantity": 2,
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "lordRockbottom": {
+    "name": "Lord Rockbottom",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20lord%20rockbottom.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "fireBreather": {
+        "type": "ranged",
+        "name": "Fire Breather",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "cutlass__e2449432": {
+        "type": "melee",
+        "name": "Cutlass",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "battlePlan",
+      "moneyShot",
+      "payday",
+      "walkItOff"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "mercenaries",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "mangler": {
+    "name": "Mangler",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Heavy Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20mangler.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 19,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "punchingSpike__6b01e542": {
+        "type": "melee",
+        "name": "Punching Spike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "location": "L",
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "wrecker": {
+        "type": "melee",
+        "name": "Wrecker",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "aggressive",
+      "heavyBoiler"
+    ]
+  },
+  "mariner": {
+    "name": "Mariner",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Privateer",
+      "Heavy Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20mariner.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shipGun": {
+        "type": "ranged",
+        "name": "Ship Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 15,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "location": "L"
+      },
+      "anchor": {
+        "type": "melee",
+        "name": "Anchor",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "R",
+        "abilities": [
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "lash"
+    ]
+  },
+  "masterGunnerDougalMacNaile": {
+    "name": "Master Gunner Dougal MacNaile",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20master%20gunner%20dougal%20macnaile.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "grenade__3faa4170": {
+        "type": "ranged",
+        "name": "Grenade",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 6,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "12/6"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "quadIron": {
+        "type": "ranged",
+        "name": "Quad-Iron",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": "d3+1",
+          "power": 10
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "cutlass__d9f18d73": {
+        "type": "melee",
+        "name": "Cutlass",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "artilleristAction",
+      "doublePowderRation",
+      "hitTheDeck",
+      "spyglassAction__9ac35610",
+      "rise"
+    ]
+  },
+  "mrWallsTheQuartermaster": {
+    "name": "Mr. Walls, the Quartermaster",
+    "faction": "mercenaries",
+    "type": "commandAttachment",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Command Attachment"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20mr%20walls%20the%20quartermaster.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "heavyPistols": {
+        "type": "ranged",
+        "name": "Heavy Pistols",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "pistolWhip": {
+        "type": "melee",
+        "name": "Pistol Whip",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 6
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentSeaDogPirates",
+      "grantedAdvanceDeployment",
+      "monkeyBite",
+      "noQuarter"
+    ]
+  },
+  "mule": {
+    "name": "Mule",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Heavy Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20mule.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "steamLobber": {
+        "type": "ranged",
+        "name": "Steam Lobber",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalDevastation",
+          "steamPressure"
+        ]
+      },
+      "battleMace": {
+        "type": "melee",
+        "name": "Battle Mace",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 16
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "triedTrue"
+    ]
+  },
+  "nomad": {
+    "name": "Nomad",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Heavy Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20nomad.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "openFirst": {
+        "type": "melee",
+        "name": "Open First",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      },
+      "battleBlade__ada1248f": {
+        "type": "melee",
+        "name": "Battle Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R",
+        "abilities": [
+          "powerfulCharge__9c7582f6"
+        ]
+      }
+    },
+    "abilities": [
+      "triedTrue"
+    ]
+  },
+  "powderMonkey": {
+    "name": "Powder Monkey",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20powder%20monkey.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 10
+    },
+    "weapons": {
+      "pistol": {
+        "type": "ranged",
+        "name": "Pistol",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "bite__17051df2": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 6
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxCygnarAndKhador",
+      "ancillaryAttackAction__69fabdc4",
+      "catastrophicExplosion",
+      "empowerAction",
+      "monkeyBite"
+    ]
+  },
+  "pressGangers": {
+    "name": "Press Gangers",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Unit"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20press%20gangers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "tough"
+    ],
+    "weapons": {
+      "club__c3fb73bb": {
+        "type": "melee",
+        "name": "Club",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 9
+        },
+        "abilities": [
+          "deathTollNonCharacterPrivateer"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "gang"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "renegade": {
+    "name": "Renegade",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Light Warjack"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "2",
+    "points": 11,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20renegade.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 17,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "A",
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "A",
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "obliterator": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "buckler"
+        ]
+      },
+      "shredder": {
+        "type": "melee",
+        "name": "Shredder",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "R",
+        "abilities": [
+          "criticalShred",
+          "sustainedAttack"
+        ]
+      }
+    }
+  },
+  "rover": {
+    "name": "Rover",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Heavy Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20rover.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shieldCannon__714bd12d": {
+        "type": "ranged",
+        "name": "Shield Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "shield__b8aff8fa": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "battleAxe": {
+        "type": "melee",
+        "name": "Battle Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "shieldGuard__819aa308",
+      "triedTrue"
+    ]
+  },
+  "scallywag": {
+    "name": "Scallywag",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Light Warjack"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20scallywag.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "axeCannon__5760277b": {
+        "type": "ranged",
+        "name": "Axe-Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "battleAxe__e0b10de1": {
+        "type": "melee",
+        "name": "Battle Axe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "R"
+      },
+      "axeBlade": {
+        "type": "melee",
+        "name": "Axe Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "location": "L"
+      }
+    },
+    "abilities": [
+      "bondShae",
+      "boundingLeap",
+      "gangFighter",
+      "overtake"
+    ]
+  },
+  "seaDogDeckGun": {
+    "name": "Sea Dog Deck Gun",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Talion Charter",
+      "Weapon Crew",
+      "Privateer",
+      "Unit"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20sea%20dog%20deck%20gun.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "advanceDeployment",
+      "tough"
+    ],
+    "weapons": {
+      "deckGun": {
+        "type": "ranged",
+        "name": "Deck Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "13/7"
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handWeapon": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "gang",
+      "reposition3",
+      "takeUp"
+    ],
+    "models": {
+      "gunner": {
+        "name": "Gunner",
+        "statistics": {
+          "speed": 4,
+          "meleeAttack": 4,
+          "rangedAttack": 5,
+          "defense": 13,
+          "armour": 11
+        },
+        "advantages": [
+          "advanceDeployment",
+          "tough"
+        ],
+        "abilities": [
+          "gang",
+          "reposition3",
+          "takeUp"
+        ],
+        "weapons": {
+          "deckGun": {
+            "type": "ranged",
+            "name": "Deck Gun",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 12,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "13/7"
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "handWeapon": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 4,
+          "meleeAttack": 4,
+          "defense": 13,
+          "armour": 11
+        },
+        "advantages": [
+          "advanceDeployment",
+          "tough"
+        ],
+        "abilities": [
+          "reposition3"
+        ],
+        "weapons": {
+          "handWeapon": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "seaDogPirates": {
+    "name": "Sea Dog Pirates",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Unit"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20sea%20dog%20pirates.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "pistol": {
+        "type": "ranged",
+        "name": "Pistol",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handWeapon": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate",
+      "gang"
+    ]
+  },
+  "seaDogRiflemen": {
+    "name": "Sea Dog Riflemen",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Unit"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20sea%20dog%20pirate%20rifleman.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "combinedRangedAttack",
+      "tough"
+    ],
+    "weapons": {
+      "longRifle": {
+        "type": "ranged",
+        "name": "Long Rifle",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 10
+        }
+      },
+      "handWeapon": {
+        "type": "melee",
+        "name": "Hand Weapon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarKhadorAndProtectorate"
+    ]
+  },
+  "swabber": {
+    "name": "Swabber",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Privateer",
+      "Heavy Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20swabber.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shieldCannon__714bd12d": {
+        "type": "ranged",
+        "name": "Shield Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "harpoon__69831ce6": {
+        "type": "ranged",
+        "name": "Harpoon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "skewer"
+        ]
+      },
+      "shield__ab6a0fca": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "harpoon__acee5260": {
+        "type": "melee",
+        "name": "Harpoon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "girded",
+      "lash",
+      "shieldGuard__819aa308"
+    ]
+  },
+  "swampGobberRiverRaider": {
+    "name": "Swamp Gobber River Raider",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "9",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20swamp%20gobber%20river%20raider.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 11
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "dualAttack"
+    ],
+    "weapons": {
+      "harpoonPistol": {
+        "type": "ranged",
+        "name": "Harpoon Pistol",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "reelIn__808fc8fb"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "poisonedHandWeapon": {
+        "type": "melee",
+        "name": "Poisoned Hand Weapon",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 6
+        },
+        "abilities": [
+          "weaken__dc53543c"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleCryxAndSkorne",
+      "prowl"
+    ]
+  },
+  "swashbuckler": {
+    "name": "Swashbuckler",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Privateer",
+      "Light Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20swashbuckler.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "amphibious",
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "clampCannon": {
+        "type": "ranged",
+        "name": "Clamp Cannon",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 6,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "clamp": {
+        "type": "melee",
+        "name": "Clamp",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "location": "L",
+        "abilities": [
+          "viceClamp"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      },
+      "cutlass": {
+        "type": "melee",
+        "name": "Cutlass",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "defensiveStrike",
+      "dodge",
+      "duelist"
+    ]
+  },
+  "talon": {
+    "name": "Talon",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Light Warjack",
+      "Talion Charter"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20talon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shield__ab6a0fca": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "stunLance": {
+        "type": "melee",
+        "name": "Stun Lance",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "location": "R",
+        "abilities": [
+          "powerfulCharge",
+          "stall"
+        ]
+      }
+    },
+    "abilities": [
+      "shieldGuard",
+      "triedTrue"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "mercenaries",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "theCommodoreCannonCrew": {
+    "name": "The Commodore Cannon & Crew",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Sea Dog",
+      "Weapon Crew",
+      "Unit"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20the%20commodore%20cannon%20%26%20crew.png",
+    "statistics": {
+      "defense": 5,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "construct"
+    ],
+    "weapons": {
+      "cannon__235c6423": {
+        "type": "ranged",
+        "name": "Cannon",
+        "statistics": {
+          "range": "*",
+          "rateOfFire": "*",
+          "power": 16
+        },
+        "abilities": [
+          "attackType",
+          "canisterShot",
+          "cannonball",
+          "incendiaryShot"
+        ]
+      }
+    },
+    "abilities": [
+      "limitedEmployment",
+      "focalPoint",
+      "heavyArtillery"
+    ],
+    "models": {
+      "commodore1": {
+        "name": "Commodore 1",
+        "statistics": {
+          "defense": 5,
+          "armour": 18,
+          "health": 10
+        },
+        "advantages": [
+          "construct"
+        ],
+        "abilities": [
+          "focalPoint",
+          "heavyArtillery"
+        ],
+        "weapons": {
+          "cannon__235c6423": {
+            "type": "ranged",
+            "name": "Cannon",
+            "statistics": {
+              "range": "*",
+              "rateOfFire": "*",
+              "power": 16
+            },
+            "abilities": [
+              "attackType",
+              "canisterShot",
+              "cannonball",
+              "incendiaryShot"
+            ]
+          }
+        }
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 3,
+          "meleeAttack": 4,
+          "rangedAttack": 4,
+          "defense": 13,
+          "armour": 11,
+          "health": 10
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "fireAttack",
+          "gunneryAction"
+        ],
+        "weapons": {
+          "pistol": {
+            "type": "ranged",
+            "name": "Pistol",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 10
+            },
+            "qualities": [
+              "pistol"
+            ]
+          },
+          "handWeapon": {
+            "type": "melee",
+            "name": "Hand Weapon",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "theDevilsShadowMutineers": {
+    "name": "The Devil’s Shadow Mutineers",
+    "faction": "mercenaries",
+    "type": "unit",
+    "keywords": [
+      "Talion Charter",
+      "Privateer",
+      "Unit"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20the%20devils%20shadow%20mutineers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 11
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "saber__e484d6a8": {
+        "type": "melee",
+        "name": "Saber",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryx",
+      "berserk__98095277",
+      "bloodBound"
+    ],
+    "models": {
+      "mar1": {
+        "name": "Mar 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 7,
+          "defense": 14,
+          "armour": 11
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "berserk__98095277",
+          "bloodBound"
+        ],
+        "weapons": {
+          "saber__e484d6a8": {
+            "type": "melee",
+            "name": "Saber",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 9
+            },
+            "qualities": [
+              "damageTypeMagical",
+              "weaponMaster"
+            ]
+          }
+        }
+      },
+      "morland1": {
+        "name": "Morland 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 7,
+          "rangedAttack": 4,
+          "defense": 14,
+          "armour": 11
+        },
+        "advantages": [
+          "tough"
+        ],
+        "abilities": [
+          "bloodBound"
+        ],
+        "weapons": {
+          "pistol__92a72bb0": {
+            "type": "ranged",
+            "name": "Pistol",
+            "statistics": {
+              "rangedAttack": 4,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 10
+            },
+            "qualities": [
+              "damageTypeMagical",
+              "pistol"
+            ]
+          },
+          "cutlass__3ae4eb75": {
+            "type": "melee",
+            "name": "Cutlass",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 11
+            },
+            "quantity": 2,
+            "abilities": [
+              "comboStrikeAttack__7a566465"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        }
+      },
+      "zira1": {
+        "name": "Zira 1",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 4,
+          "rangedAttack": 7,
+          "defense": 14,
+          "armour": 11
+        },
+        "advantages": [
+          "eyelessSight",
+          "gunfighter",
+          "tough",
+          "dualAttack"
+        ],
+        "abilities": [
+          "bloodBound"
+        ],
+        "weapons": {
+          "cursedPistol": {
+            "type": "ranged",
+            "name": "Cursed Pistol",
+            "statistics": {
+              "rangedAttack": 7,
+              "range": 8,
+              "rateOfFire": 1,
+              "power": 10
+            },
+            "quantity": 2,
+            "qualities": [
+              "damageTypeMagical",
+              "pistol",
+              "weaponMaster"
+            ]
+          },
+          "pistolWhip": {
+            "type": "melee",
+            "name": "Pistol Whip",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 6
+            }
+          }
+        }
+      }
+    }
+  },
+  "toro": {
+    "name": "Toro",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Crucible Guard",
+      "Heavy Warjack",
+      "Mercenary"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "resistanceCorrosion",
+      "resistanceFire",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "shield__2f51169c": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "sword__3bd5d3b8": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "aggressive"
+    ]
+  },
+  "vanguard": {
+    "name": "Vanguard",
+    "faction": "mercenaries",
+    "type": "warjack",
+    "keywords": [
+      "Crucible Guard",
+      "Light Warjack",
+      "Mercenary",
+      "Llaelese"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20vanguard.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 17,
+      "health": {
+        "total": 26,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "M",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "C",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "construct",
+      "resistanceCorrosion",
+      "resistanceFire",
+      "dualAttack"
+    ],
+    "weapons": {
+      "shieldGun": {
+        "type": "ranged",
+        "name": "Shield Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "location": "L",
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "shield__106cad76": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "location": "L",
+        "qualities": [
+          "shield"
+        ]
+      },
+      "guisarme": {
+        "type": "melee",
+        "name": "Guisarme",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "location": "R"
+      }
+    },
+    "abilities": [
+      "anchor",
+      "setDefense",
+      "shieldGuard__fca004fb"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "mercenaries",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "talion-charter"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  }
+}

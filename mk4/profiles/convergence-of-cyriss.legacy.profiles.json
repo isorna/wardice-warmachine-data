@@ -1,0 +1,5917 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "convergence-of-cyriss",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "accretionServitors": {
+    "name": "Accretion Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20accretion%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "abilities": [
+      "repair1Action__d359963b",
+      "steady",
+      "stripAction"
+    ]
+  },
+  "algorithmicDispersionOptifex": {
+    "name": "Algorithmic Dispersion Optifex",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20algorithmic%20dispersion%20optifex.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 13,
+      "armour": 12,
+      "health": 5
+    },
+    "abilities": [
+      "channeler",
+      "ionization5",
+      "ironSentinel"
+    ]
+  },
+  "annihilationServitors": {
+    "name": "Annihilation Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20annihilation%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "construct",
+      "flight"
+    ],
+    "weapons": {
+      "blades": {
+        "type": "melee",
+        "name": "Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1
+        },
+        "abilities": [
+          "puncture"
+        ]
+      }
+    },
+    "abilities": [
+      "darkShroud",
+      "murderous",
+      "soulMatrixAsphyxious",
+      "steady"
+    ]
+  },
+  "arcaneMechaniks": {
+    "name": "Arcane Mechaniks",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20arcane%20mechaniks.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 11
+    },
+    "advantages": [
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "stunGlaive": {
+        "type": "melee",
+        "name": "Stun Glaive",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalKnockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "companionArtificerPrimeNemo",
+      "empowerAction",
+      "repairD31Action__88ce80ed",
+      "superTuneAction"
+    ]
+  },
+  "archnumenAurora": {
+    "name": "Archnumen Aurora",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Warcaster",
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20archnumen%20aurora.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 18
+    },
+    "advantages": [
+      "dualAttack",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "inertialDestabilizer": {
+        "type": "ranged",
+        "name": "Inertial Destabilizer",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 11,
+          "rateOfFire": 2,
+          "power": 13
+        },
+        "abilities": [
+          "freeFall",
+          "thunderbolt"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "thermionicLance": {
+        "type": "melee",
+        "name": "Thermionic Lance",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "freeFall"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "ascensionCommand",
+      "phantomProtocol",
+      "repairable"
+    ],
+    "spells": [
+      "arcanePropulsion",
+      "bladedGale",
+      "handOfDestruction",
+      "spiritDoor",
+      "admonition"
+    ],
+    "feat": [
+      "starstrikeCalibration"
+    ]
+  },
+  "artificerPrimeNemo": {
+    "name": "Artificer Prime Nemo",
+    "faction": "convergence-of-cyriss",
+    "type": "battleEngine",
+    "keywords": [
+      "Battle Engine"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20artificer%20prime%20nemo.png",
+    "statistics": {
+      "speed": 4,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 11,
+      "armour": 18,
+      "controlRange": 10,
+      "health": 26
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "electricalStrikes": {
+        "type": "ranged",
+        "name": "Electrical Strikes",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "reload1",
+          "thunderbolt"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "bash__086ba707": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "journeymanWarcaster",
+      "portal",
+      "foldSpace",
+      "spatialVortex"
+    ],
+    "spells": [
+      "electrify",
+      "locomotion",
+      "watcher"
+    ]
+  },
+  "asphyxiousTheSanctified": {
+    "name": "Asphyxious the Sanctified",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20asphyxious%20the%20sanctified.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 3,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 10,
+      "health": 18
+    },
+    "advantages": [
+      "construct",
+      "flight"
+    ],
+    "weapons": {
+      "annulifier": {
+        "type": "melee",
+        "name": "Annulifier",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryx",
+      "fieldMarshalDarkShroud",
+      "journeymanWarcaster",
+      "soulTakerCullSoul"
+    ],
+    "spells": [
+      "causticMist",
+      "hellfire"
+    ]
+  },
+  "assimilator": {
+    "name": "Assimilator",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Convergence",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "disseveringMicroswarm": {
+        "type": "ranged",
+        "name": "Dissevering Microswarm",
+        "statistics": {
+          "range": 11,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "location": "L",
+        "abilities": [
+          "groundPounderAttack"
+        ]
+      },
+      "renderingClaw": {
+        "type": "melee",
+        "name": "Rendering Claw",
+        "statistics": {
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "throwPowerAttack",
+          "weaponMaster"
+        ]
+      }
+    }
+  },
+  "attunementServitors__5dac863d": {
+    "name": "Attunement Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "6",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20attunement%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "pathfinder",
+      "construct"
+    ],
+    "weapons": {
+      "modularArmature": {
+        "type": "ranged",
+        "name": "Modular Armature",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 9,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "attackType",
+          "flare__24a85f2a",
+          "puncture__d90d0572"
+        ]
+      },
+      "probabilityMine": {
+        "type": "melee",
+        "name": "Probability Mine",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "abilities": [
+          "detonation"
+        ]
+      }
+    },
+    "abilities": [
+      "inconsequential"
+    ]
+  },
+  "attunementServitors__3efcdfcf": {
+    "name": "Attunement Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20attunement%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "weapons": {
+      "lumichemAmpule": {
+        "type": "ranged",
+        "name": "Lumichem Ampule",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 9,
+          "rateOfFire": 1,
+          "areaOfEffect": 2
+        },
+        "abilities": [
+          "flare__2db1d81c"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "steady",
+      "trueSight"
+    ]
+  },
+  "auroraTheNumenOfAerogenesis": {
+    "name": "Aurora, The Numen of Aerogenesis",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Archnumen%20Aurora.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 16,
+      "armour": 15,
+      "controlRange": 14,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "flight"
+    ],
+    "weapons": {
+      "polynomialBeam": {
+        "type": "ranged",
+        "name": "Polynomial Beam",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "polynomialStaff": {
+        "type": "melee",
+        "name": "Polynomial Staff",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "mechanikalSeizure"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "apparition",
+      "flankAngel",
+      "fieldMarshalApparition"
+    ],
+    "spells": [
+      "admonition",
+      "aerogenesis",
+      "arcaneMight",
+      "bladedGale",
+      "flashingBlade"
+    ],
+    "feat": [
+      "eleventhHour"
+    ]
+  },
+  "aurumLucanumAthanorLocke": {
+    "name": "Aurum Lucanum Athanor Locke",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Ordic",
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20aurum%20lucanum%20athanor%20locke.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 18
+    },
+    "advantages": [
+      "dualAttack",
+      "resistanceFire",
+      "resistanceCorrosion"
+    ],
+    "weapons": {
+      "flameJet": {
+        "type": "ranged",
+        "name": "Flame Jet",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "enhancedFist__aedaa31d": {
+        "type": "melee",
+        "name": "Enhanced Fist",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "chemicalWarfare",
+      "fieldMarshalTrueStrike",
+      "repairD33Action",
+      "resourceful"
+    ],
+    "spells": [
+      "bombshell",
+      "engineOfDestruction",
+      "jackhammer",
+      "redline",
+      "roadToWar",
+      "sentry"
+    ],
+    "feat": [
+      "arcanodynamicCatalysis"
+    ]
+  },
+  "axisTheHarmonicEnforcer": {
+    "name": "Axis, The Harmonic Enforcer",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Warcaster",
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 4,
+      "defense": 14,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 18
+    },
+    "advantages": [
+      "unstopable"
+    ],
+    "weapons": {
+      "actionReaction": {
+        "type": "melee",
+        "name": "Action & Reaction",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack",
+          "doubleStrike"
+        ]
+      }
+    },
+    "abilities": [
+      "unyielding",
+      "fieldMarshalUnyielding"
+    ],
+    "spells": [
+      "batteringRam",
+      "ironAggression",
+      "onslaught",
+      "razorWall",
+      "unstoppableForce"
+    ],
+    "feat": [
+      "circumpotence"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "cipher": {
+    "name": "Cipher",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "statistics": {
+      "speed": 4,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "dualAttack",
+      "gunfighter"
+    ],
+    "weapons": {
+      "servipodMortar": {
+        "type": "ranged",
+        "name": "Servipod Mortar",
+        "statistics": {
+          "range": 11,
+          "rateOfFire": 2,
+          "areaOfEffect": 3
+        },
+        "abilities": [
+          "attackType",
+          "arcingFire",
+          "targetingFlare__0a7fe29b",
+          "blastedEarth",
+          "bombardment"
+        ]
+      },
+      "pistonSpike": {
+        "type": "melee",
+        "name": "Piston Spike",
+        "statistics": {
+          "range": 1,
+          "power": 18
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "steady"
+    ]
+  },
+  "clockworkAngels": {
+    "name": "Clockwork Angels",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 5,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "unstopable",
+      "flight",
+      "dualAttack",
+      "construct",
+      "advanceDeployment"
+    ],
+    "weapons": {
+      "binomialBeam": {
+        "type": "ranged",
+        "name": "Binomial Beam",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "thunderbolt"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "binomialBlade__13882ef9": {
+        "type": "melee",
+        "name": "Binomial Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "powerfulCharge"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bladeShield",
+      "reposition3",
+      "soulVessel"
+    ]
+  },
+  "conservator": {
+    "name": "Conservator",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Convergence",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "ablatorBlade": {
+        "type": "melee",
+        "name": "Ablator Blade",
+        "statistics": {
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2,
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "handOfVengeance",
+      "shieldGuard__fca004fb"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "corollary": {
+    "name": "Corollary",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "1",
+    "points": 5,
+    "statistics": {
+      "speed": 6,
+      "defense": 13,
+      "armour": 15,
+      "health": {
+        "total": 18,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 1,
+              "systems": {
+                "1": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "I",
+                "5": "I"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "4": "I",
+                "5": "I"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 1,
+              "systems": {
+                "1": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "bash__cec7441b": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "attached",
+      "accumulatorWarcaster",
+      "arcaneRepeater",
+      "focusBattery",
+      "powerTransferAction",
+      "inductionRepeater"
+    ]
+  },
+  "deathArchon": {
+    "name": "Death Archon",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20death%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "health": 15
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "ironReaper": {
+        "type": "melee",
+        "name": "Iron Reaper",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        },
+        "quantity": 2,
+        "abilities": [
+          "bloodReaper",
+          "chainAttackDeathChill"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "animosityOtherArchons",
+      "bodySnatcherGraveRobber10",
+      "deathHowler",
+      "meatForTheBeast",
+      "shadowGate",
+      "divineManifestation"
+    ]
+  },
+  "defenses__a85fc551": {
+    "name": "Defenses",
+    "faction": "convergence-of-cyriss",
+    "type": "defense",
+    "keywords": [
+      "Terrain Feature"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20fire%20pit.png",
+    "statistics": {},
+    "abilities": [
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Fire Pit",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "defenses__c9f383d5": {
+    "name": "Defenses",
+    "faction": "convergence-of-cyriss",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "destructotron3000": {
+    "name": "Destructotron 3000",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20destructotron%203000.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "construct",
+      "unstopable"
+    ],
+    "weapons": {
+      "electroPummeler": {
+        "type": "ranged",
+        "name": "Electro Pummeler",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalThunderclap"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "reposition3",
+      "steady",
+      "soulVessel",
+      "superconduction8"
+    ]
+  },
+  "diffuser": {
+    "name": "Diffuser",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20diffuser.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "F",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "F",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "homingRipspike": {
+        "type": "ranged",
+        "name": "Homing Ripspike",
+        "statistics": {
+          "range": 11,
+          "rateOfFire": 1,
+          "power": 11
+        },
+        "abilities": [
+          "beacon"
+        ]
+      },
+      "bash": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "range": 1,
+          "power": 7
+        }
+      }
+    }
+  },
+  "eilishGarrityTheDarkSeeker": {
+    "name": "Eilish Garrity, the Dark Seeker",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Infernals",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "magicAbility",
+      "hexBlastAttack",
+      "marionetteAttack",
+      "puppetMasterAction",
+      "markedSoul"
+    ]
+  },
+  "eilishGarrityTheDarkTraitor": {
+    "name": "Eilish Garrity, the Dark Traitor",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20dark%20traitor.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryGravediggersKithguardSeaRaidersAndStormLegion",
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "hellMarked",
+      "magicAbility",
+      "deathRattleAttack",
+      "marionetteAttack",
+      "puppetMasterAction"
+    ]
+  },
+  "eilishGarrityTheOccultist": {
+    "name": "Eilish Garrity, the Occultist",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20occultist.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "arcaneVoid",
+      "gateWalker",
+      "magicAbility__0cffaca0",
+      "bleedAttack",
+      "puppetMasterAction",
+      "unbindingAction",
+      "markedSoul",
+      "mentalForce"
+    ]
+  },
+  "eliminationServitors": {
+    "name": "Elimination Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20elimination%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "weapons": {
+      "spikeEjector": {
+        "type": "ranged",
+        "name": "Spike Ejector",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 9,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "puncture"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "steady"
+    ]
+  },
+  "eminentConfiguratorOrion": {
+    "name": "Eminent Configurator Orion",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 17
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "tensorLattice": {
+        "type": "ranged",
+        "name": "Tensor Lattice",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 13,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "polarize"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "pendulum": {
+        "type": "melee",
+        "name": "Pendulum",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "configuration",
+      "fieldMarshalReposition3__31cc9896",
+      "soulVessel"
+    ],
+    "spells": [
+      "avengingForce",
+      "forcedInduction__0c8be4b9",
+      "magicBullet",
+      "secondSight",
+      "spellpiercer"
+    ],
+    "feat": [
+      "oblivionConfiguration"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "convergence-of-cyriss",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "enigmaFoundry": {
+    "name": "Enigma Foundry",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "statistics": {
+      "speed": 5,
+      "defense": 10,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "abilities": [
+      "empowerAction",
+      "repairD31Action",
+      "soulVessel",
+      "reinforcementsSmallOrMediumBasedConstructs"
+    ]
+  },
+  "eradicators": {
+    "name": "Eradicators",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "construct"
+    ],
+    "weapons": {
+      "proteanBuckler": {
+        "type": "melee",
+        "name": "Protean Buckler",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "sideStep",
+      "soulVessel",
+      "variable",
+      "accuracy",
+      "shieldsUp__44e89ed1"
+    ]
+  },
+  "exponentServitors": {
+    "name": "Exponent Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20exponent%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "weapons": {
+      "apertureBeam": {
+        "type": "ranged",
+        "name": "Aperture Beam",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 9,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "imperil"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "companionIronMotherDirectrix",
+      "steady",
+      "inconsequential"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "fatherLucantTheDivinityArchitect": {
+    "name": "Father Lucant, The Divinity Architect",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 14,
+      "armour": 19,
+      "controlRange": 14,
+      "health": 21
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "weapons": {
+      "apogee": {
+        "type": "melee",
+        "name": "Apogee",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "abilities": [
+          "stall",
+          "criticalKnockdown"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshalShieldGuard",
+      "soulVessel",
+      "steady",
+      "sturdy"
+    ],
+    "spells": [
+      "deceleration",
+      "discontinuity",
+      "dissolutionBolt",
+      "positiveCharge",
+      "watcher"
+    ],
+    "feat": [
+      "clockworkReinforcement"
+    ]
+  },
+  "forgeMasterSyntherion": {
+    "name": "Forge Master Syntherion",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 18,
+      "controlRange": 12,
+      "health": 20
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "staticBolt": {
+        "type": "ranged",
+        "name": "Static Bolt",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 11,
+          "rateOfFire": 1,
+          "power": 11
+        },
+        "abilities": [
+          "magneticHold"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "workshopArray": {
+        "type": "melee",
+        "name": "Workshop Array",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "resourceful",
+      "soulVessel",
+      "fieldMarshalReconstruct"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hotShot",
+      "magneticHold",
+      "synergy"
+    ],
+    "feat": [
+      "technologicalSuperiority"
+    ]
+  },
+  "frustumLocus": {
+    "name": "Frustum Locus",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20frustum%20locus.png",
+    "statistics": {
+      "speed": 5,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "weapons": {
+      "phaseSingularity": {
+        "type": "ranged",
+        "name": "Phase Singularity",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "dispel"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "arcanePatternArray",
+      "soulVessel",
+      "channeler"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "galvanizer": {
+    "name": "Galvanizer",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20galvanizer.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "F",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "F",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "metalSaw": {
+        "type": "melee",
+        "name": "Metal Saw",
+        "statistics": {
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalGrievousWounds__f150fac5"
+        ]
+      }
+    },
+    "abilities": [
+      "repairD33Action__73e6a299"
+    ]
+  },
+  "hermitOfHengeHold": {
+    "name": "Hermit of Henge Hold",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Infernals",
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 5,
+      "defense": 11,
+      "armour": 11,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "ancientShroud",
+      "darkProphecy",
+      "magicAbility",
+      "gripOfShadowsAction",
+      "whispersAtTheGateAction",
+      "wordOfRuinAction",
+      "markedSoul"
+    ]
+  },
+  "inverter": {
+    "name": "Inverter",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "statistics": {
+      "speed": 4,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "construct"
+    ],
+    "weapons": {
+      "meteorHammer": {
+        "type": "melee",
+        "name": "Meteor Hammer",
+        "statistics": {
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "qualities": [
+          "chainWeapon"
+        ]
+      },
+      "macropummeler": {
+        "type": "melee",
+        "name": "Macropummeler",
+        "statistics": {
+          "range": 2,
+          "power": 21
+        },
+        "location": "R",
+        "abilities": [
+          "singleShot",
+          "earthShaker"
+        ]
+      }
+    },
+    "abilities": [
+      "steady__ee8b6350"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "ionizationServitors": {
+    "name": "Ionization Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20ionization%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "construct",
+      "pathfinder",
+      "resistanceElectricity"
+    ],
+    "abilities": [
+      "created",
+      "inconsequential",
+      "ionization5",
+      "steady"
+    ]
+  },
+  "ironMotherDirectrix": {
+    "name": "Iron Mother Directrix",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 8,
+      "arcana": 8,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 16,
+      "health": 18
+    },
+    "advantages": [
+      "construct",
+      "dualAttack"
+    ],
+    "weapons": {
+      "apertureBlast": {
+        "type": "ranged",
+        "name": "Aperture Blast",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 11,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        }
+      },
+      "cloakOfBlades": {
+        "type": "melee",
+        "name": "Cloak of Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "thresherAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "activateExponentServitor",
+      "fieldMarshalArcNode",
+      "soulVessel"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "feedbackLoop",
+      "fireGroup",
+      "shrapnelSwarm",
+      "tacticalSupremacy",
+      "telekinesis"
+    ],
+    "feat": [
+      "mathematicalPerfection"
+    ]
+  },
+  "jAIMS": {
+    "name": "J.A.I.M.s",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20jaims.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "construct",
+      "unstopable"
+    ],
+    "weapons": {
+      "rippingClaw": {
+        "type": "melee",
+        "name": "Ripping Claw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCryxCygnarInfernalsKhadorProtectorateAndRetribution",
+      "acrobatics",
+      "bladeShield",
+      "prey",
+      "sideStep",
+      "soulVessel",
+      "springBlades"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "convergence-of-cyriss",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "meniteArchon": {
+    "name": "Menite Archon",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary",
+      "Protectorate"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20menite%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 19,
+      "health": 15
+    },
+    "advantages": [
+      "flight",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "blazingSword__1fa20e01": {
+        "type": "melee",
+        "name": "Blazing Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "dispel"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "flail__1972002c": {
+        "type": "melee",
+        "name": "Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "grievousWounds",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedKhador",
+      "ashenVeil",
+      "divineInspiration",
+      "divineManifestation",
+      "righteousFury",
+      "soulWard",
+      "righteousVengeance"
+    ]
+  },
+  "mitigator": {
+    "name": "Mitigator",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Light Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20mitigator.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "F",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "F",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "F",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "razorBola": {
+        "type": "ranged",
+        "name": "Razor Bola",
+        "statistics": {
+          "range": 7,
+          "rateOfFire": 1,
+          "areaOfEffect": 2
+        },
+        "abilities": [
+          "quake",
+          "puncture"
+        ]
+      },
+      "bash": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "range": 1,
+          "power": 7
+        }
+      }
+    }
+  },
+  "modulator": {
+    "name": "Modulator",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Heavy Warjack",
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 10,
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "3": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "dualAttack",
+      "construct",
+      "resistanceElectricity",
+      "pathfinder",
+      "gunfighter"
+    ],
+    "weapons": {
+      "emitterSurge": {
+        "type": "ranged",
+        "name": "Emitter Surge",
+        "statistics": {
+          "range": 11,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "directCurrent__3abff261"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "emitterCore": {
+        "type": "melee",
+        "name": "Emitter Core",
+        "statistics": {
+          "range": 1,
+          "power": 15
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "plasmaNimbus"
+    ]
+  },
+  "monitor": {
+    "name": "Monitor",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Convergence",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "statistics": {
+      "speed": 4,
+      "defense": 10,
+      "armour": 19,
+      "health": {
+        "total": 32,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "construct",
+      "dualAttack"
+    ],
+    "weapons": {
+      "ellipsawFlinger": {
+        "type": "ranged",
+        "name": "Ellipsaw Flinger",
+        "statistics": {
+          "range": 13,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "location": "R",
+        "abilities": [
+          "ricochet",
+          "beacon"
+        ]
+      },
+      "springSpikeFist": {
+        "type": "melee",
+        "name": "Spring-Spike Fist",
+        "statistics": {
+          "range": 1,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "sustainedAttack"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "steady__ee8b6350",
+      "trueSight"
+    ]
+  },
+  "morrowanArchon": {
+    "name": "Morrowan Archon",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Cygnar",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20morrowan%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 13,
+      "armour": 18,
+      "health": 12
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "holySpear": {
+        "type": "melee",
+        "name": "Holy Spear",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalBlind"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "shield__47b8a5ab": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalBlind"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardAndKhador",
+      "animosityMenite",
+      "blindingRadiance",
+      "divineInspiration",
+      "divineManifestation",
+      "shieldGuard",
+      "soulWard",
+      "veteranLeaderMorrowan"
+    ]
+  },
+  "negationAngels": {
+    "name": "Negation Angels",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 6,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 4,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "unstopable",
+      "flight",
+      "dualAttack",
+      "construct",
+      "advanceDeployment"
+    ],
+    "weapons": {
+      "electroshocker": {
+        "type": "ranged",
+        "name": "Electroshocker",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "criticalParalysis"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "binomialBlade": {
+        "type": "melee",
+        "name": "Binomial Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "paralysis"
+        ]
+      }
+    },
+    "abilities": [
+      "bladeShield",
+      "gang",
+      "prowl",
+      "soulVessel"
+    ]
+  },
+  "negator": {
+    "name": "Negator",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Convergence",
+      "Light Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "statistics": {
+      "speed": 7,
+      "defense": 13,
+      "armour": 15,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "flight",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "avulsor": {
+        "type": "melee",
+        "name": "Avulsor",
+        "statistics": {
+          "range": 1,
+          "power": 10
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "flankAngel__9c5cac62",
+      "reposition3"
+    ]
+  },
+  "obstructors": {
+    "name": "Obstructors",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 6,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16
+    },
+    "advantages": [
+      "combinedMeleeAttack",
+      "construct"
+    ],
+    "weapons": {
+      "teleflail": {
+        "type": "melee",
+        "name": "Teleflail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "chainWeapon"
+        ]
+      },
+      "shield__02fe0b42": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "shieldWall",
+      "soulVessel"
+    ]
+  },
+  "optifexDirective": {
+    "name": "Optifex Directive",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 3,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 12
+    },
+    "weapons": {
+      "tuningKit": {
+        "type": "melee",
+        "name": "Tuning Kit",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "allTerrainAction",
+      "arcaneReinforcementAction",
+      "empowerAction",
+      "repairD31Action"
+    ]
+  },
+  "perforators": {
+    "name": "Perforators",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "construct",
+      "dualAttack"
+    ],
+    "weapons": {
+      "proteanJavelin": {
+        "type": "ranged",
+        "name": "Protean Javelin",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 7,
+          "rateOfFire": 1,
+          "power": 7
+        },
+        "abilities": [
+          "armorPiercing"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "gearBlade": {
+        "type": "melee",
+        "name": "Gear Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "soulVessel",
+      "variable",
+      "empoweredAttack",
+      "extendedRange"
+    ]
+  },
+  "permutationServitors": {
+    "name": "Permutation Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20permutation%20servitor.png",
+    "statistics": {
+      "speed": 6,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "construct",
+      "pathfinder"
+    ],
+    "abilities": [
+      "orbit",
+      "steady",
+      "inconsequential"
+    ]
+  },
+  "prefectHypatia": {
+    "name": "Prefect Hypatia",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "construct",
+      "dualAttack",
+      "flight",
+      "unstopable"
+    ],
+    "weapons": {
+      "primorialBeam": {
+        "type": "ranged",
+        "name": "Primorial Beam",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "power": 12
+        },
+        "abilities": [
+          "thunderbolt"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "primorialBlade": {
+        "type": "melee",
+        "name": "Primorial Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 11
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "apparition",
+      "bladeShield",
+      "leadershipAngels",
+      "soulVessel"
+    ]
+  },
+  "primeAxiom": {
+    "name": "Prime Axiom",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Convergence",
+      "Colossal"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 29,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20prime%20axiom.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 7,
+      "armour": 20,
+      "health": {
+        "total": 58,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "1": "L",
+                "2": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "I",
+                "5": "I",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "I",
+                "5": "I",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "1": "R",
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "construct",
+      "dualAttack",
+      "pathfinder",
+      "unstopable",
+      "gunfighter"
+    ],
+    "weapons": {
+      "accelespiker": {
+        "type": "ranged",
+        "name": "Accelespiker",
+        "statistics": {
+          "range": 13,
+          "rateOfFire": 5,
+          "power": 11
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "towCable": {
+        "type": "ranged",
+        "name": "Tow Cable",
+        "statistics": {
+          "range": 11,
+          "rateOfFire": 1
+        },
+        "quantity": 2,
+        "abilities": [
+          "puncture",
+          "skewer"
+        ]
+      },
+      "drillVise": {
+        "type": "melee",
+        "name": "Drill Vise",
+        "statistics": {
+          "range": 2,
+          "power": 21
+        },
+        "quantity": 2,
+        "abilities": [
+          "sustainedAttack"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "launchServitor"
+    ]
+  },
+  "primeConflux": {
+    "name": "Prime Conflux",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Colossal",
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 26,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20prime%20conflux.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 7,
+      "armour": 20,
+      "health": {
+        "total": 58,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "1": "L",
+                "2": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "I",
+                "5": "I",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "I",
+                "5": "I",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "3": "S",
+                "4": "S",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "I",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "1": "R",
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "construct",
+      "pathfinder",
+      "dualAttack",
+      "unstopable",
+      "resistanceElectricity"
+    ],
+    "weapons": {
+      "arcFlashGenerator": {
+        "type": "ranged",
+        "name": "Arc Flash Generator",
+        "statistics": {
+          "range": 15,
+          "rateOfFire": 2,
+          "power": 13
+        },
+        "abilities": [
+          "directCurrent"
+        ],
+        "qualities": [
+          "damageTypeElectricity",
+          "pistol"
+        ]
+      },
+      "homingRipspike__a3e1600c": {
+        "type": "ranged",
+        "name": "Homing Ripspike",
+        "statistics": {
+          "range": 13,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "beacon"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "coronaCoil": {
+        "type": "melee",
+        "name": "Corona Coil",
+        "statistics": {
+          "range": 2,
+          "power": 21
+        },
+        "quantity": 2,
+        "abilities": [
+          "electroLeap"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "plasmaNimbus",
+      "powerGrid"
+    ]
+  },
+  "reciprocators": {
+    "name": "Reciprocators",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 17
+    },
+    "advantages": [
+      "combinedMeleeAttack",
+      "construct"
+    ],
+    "weapons": {
+      "proteanPolearm": {
+        "type": "melee",
+        "name": "Protean Polearm",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        }
+      },
+      "shield": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "shieldWall",
+      "soulVessel",
+      "variable",
+      "empoweredAttack",
+      "setDefense__fe6de8d2"
+    ]
+  },
+  "reductors": {
+    "name": "Reductors",
+    "faction": "convergence-of-cyriss",
+    "type": "unit",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 6,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 15
+    },
+    "advantages": [
+      "construct"
+    ],
+    "weapons": {
+      "swarmProjector": {
+        "type": "ranged",
+        "name": "Swarm Projector",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "retractableBlade": {
+        "type": "melee",
+        "name": "Retractable Blade",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "clear",
+      "soulVessel"
+    ]
+  },
+  "reflexServitors": {
+    "name": "Reflex Servitors",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20reflex%20servitors.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 13
+    },
+    "advantages": [
+      "advanceDeployment",
+      "construct",
+      "pathfinder"
+    ],
+    "weapons": {
+      "probabilityMine": {
+        "type": "melee",
+        "name": "Probability Mine",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "areaOfEffect": 3,
+          "power": "14/8"
+        },
+        "abilities": [
+          "detonation"
+        ]
+      }
+    },
+    "abilities": [
+      "digInAction",
+      "steady"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "steelsoulProtector": {
+    "name": "Steelsoul Protector",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 3,
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "health": 10
+    },
+    "advantages": [
+      "construct"
+    ],
+    "weapons": {
+      "ironGlaive": {
+        "type": "melee",
+        "name": "Iron Glaive",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "defensiveStrike",
+      "shieldGuard",
+      "soulVessel"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "tesselator": {
+    "name": "Tesselator",
+    "faction": "convergence-of-cyriss",
+    "type": "warjack",
+    "keywords": [
+      "Convergence",
+      "Light Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20tesselator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 13,
+      "armour": 15,
+      "health": {
+        "total": 22,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "L",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "I"
+              }
+            },
+            {
+              "boxes": 3,
+              "systems": {
+                "2": "R",
+                "3": "M"
+              }
+            },
+            {
+              "boxes": 2,
+              "systems": {
+                "2": "M"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "flight",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "trajectile": {
+        "type": "ranged",
+        "name": "Trajectile",
+        "statistics": {
+          "range": 9,
+          "rateOfFire": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "abilities": [
+          "reload1",
+          "volumeFire"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "bash__dc211a1b": {
+        "type": "melee",
+        "name": "Bash",
+        "statistics": {
+          "range": 1,
+          "power": 7
+        }
+      }
+    },
+    "abilities": [
+      "reposition3"
+    ]
+  },
+  "thamariteArchon": {
+    "name": "Thamarite Archon",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20thamarite%20archon.png",
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 7,
+      "defense": 16,
+      "armour": 17,
+      "health": 10
+    },
+    "advantages": [
+      "flight",
+      "unstopable"
+    ],
+    "weapons": {
+      "murmer": {
+        "type": "ranged",
+        "name": "Murmer",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 2,
+          "power": 14
+        },
+        "abilities": [
+          "attackType",
+          "deathlyDomination",
+          "eruptionOfAsh__58ae190f",
+          "thamarsTeeth"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCygnarAndKhador",
+      "animosityMenite",
+      "belovedOfThamar",
+      "divineManifestation",
+      "dodge",
+      "trueSight"
+    ]
+  },
+  "transfiniteEmergenceProjector": {
+    "name": "Transfinite Emergence Projector",
+    "faction": "convergence-of-cyriss",
+    "type": "battleEngine",
+    "keywords": [
+      "Convergence",
+      "Battle Engine"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20convergence%20transfinite%20emergence%20projector.png",
+    "statistics": {
+      "speed": 5,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": 31
+    },
+    "advantages": [
+      "construct",
+      "pathfinder",
+      "gunfighter"
+    ],
+    "weapons": {
+      "aperturePulse": {
+        "type": "ranged",
+        "name": "Aperture Pulse",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 2,
+          "power": 11
+        },
+        "abilities": [
+          "firingFormulae"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "sacrificialPawnPermutationServitor",
+      "servitorSatellites"
+    ]
+  },
+  "transverseEnumerator": {
+    "name": "Transverse Enumerator",
+    "faction": "convergence-of-cyriss",
+    "type": "commandAttachment",
+    "keywords": [
+      "Convergence"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 1,
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "blowtorch": {
+        "type": "ranged",
+        "name": "Blowtorch",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "tuningStaff": {
+        "type": "melee",
+        "name": "Tuning Staff",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentConvergenceNonCharacterUnit",
+      "realignment",
+      "repairD31Action__88ce80ed"
+    ]
+  },
+  "voidArchon": {
+    "name": "Void Archon",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20void%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "flight"
+    ],
+    "weapons": {
+      "voidHowler": {
+        "type": "ranged",
+        "name": "Void Howler",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "10 SP",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "voidTouch": {
+        "type": "melee",
+        "name": "Void Touch",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedConvergenceCryxRetributionAndSkorne",
+      "darkShroud",
+      "divineManifestation",
+      "entropicForce__d5706932",
+      "soulTakerSpectralScavenger",
+      "soulPhase__eb1eecb3",
+      "strengthOfDeath",
+      "soulWard",
+      "voidWalk"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "convergence-of-cyriss",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "widgetMathleteArcheologist": {
+    "name": "Widget, Mathlete Archeologist",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20widget%20mathlete%20archeologist.png",
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "servitorLauncher": {
+        "type": "ranged",
+        "name": "Servitor Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "servitorLaunch"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedConvergenceCrucibleGuardCygnarKhadorAndProtectorate",
+      "jackHunter",
+      "reposition3"
+    ]
+  },
+  "widgetTinkerExtraordinaire": {
+    "name": "Widget, Tinker Extraordinaire",
+    "faction": "convergence-of-cyriss",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20widget%20tinker%20extraordinaire.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "forceWrench": {
+        "type": "melee",
+        "name": "Force Wrench",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "criticalKnockdown__870725a5"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedConvergenceCrucibleGuardCygnarKhadorAndProtectorate",
+      "flyingHigh",
+      "jackHunter",
+      "mechanikallyAdept",
+      "repairD32Action",
+      "reposition3"
+    ]
+  }
+}

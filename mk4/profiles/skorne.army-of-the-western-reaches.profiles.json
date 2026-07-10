@@ -1,1237 +1,202 @@
 {
-  "lordTyrantZaadesh": {
-    "name": "Lord Tyrant Zaadesh",
-    "type": "warlock",
+  "aberration": {
+    "name": "Aberration",
+    "faction": "skorne",
+    "type": "monstrosity",
     "keywords": [
-      "Skorne",
-      "Warlock"
+      "Mercenary",
+      "Super Heavy Monstrosity"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
-    "fieldAllowance": "c",
-    "baseSize": 30,
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
     "statistics": {
-      "speed": 6,
-      "arcana": 6,
-      "meleeAttack": 7,
-      "defense": 15,
-      "armour": 16,
-      "controlRange": 12,
-      "health": 16
-    },
-    "abilities": [
-      "bladeShield",
-      "focusedStrike",
-      "sacrificialPawnWarbeast"
-    ],
-    "weapons": {
-      "deathsong": {
-        "type": "melee",
-        "name": "Deathsong",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 12
-        },
-        "qualities": []
-      }
-    },
-    "feat": [
-      "lordTyrantZaadeshFeat"
-    ],
-    "spells": [
-      "burningAsh"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "archidon": {
-    "name": "Archidon",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Heavy",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 9,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 7,
+      "speed": 5,
       "meleeAttack": 6,
-      "defense": 14,
-      "armour": 16,
-      "fury": 3,
-      "threshold": 9
-    },
-    "abilities": [
-      "extendedControlRange"
-    ],
-    "weapons": {
-      "bite": {
-        "type": "melee",
-        "name": "Bite",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 15
-        },
-        "abilities": [
-          "criticalPitch"
-        ],
-        "qualities": []
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
       }
     },
-    "animus": [
-      "lightningStrike"
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
     ],
-    "advantages": [],
-    "options": []
-  },
-  "basiliskKrea": {
-    "name": "Basilisk Krea",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Light",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 6,
-    "baseSize": 40,
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 4,
-      "rangedAttack": 4,
-      "defense": 12,
-      "armour": 14,
-      "fury": 3,
-      "threshold": 8
-    },
     "weapons": {
-      "spiritualParalysis": {
+      "sawCatapult": {
         "type": "ranged",
-        "name": "Spiritual Paralysis",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
         "statistics": {
           "rangedAttack": 4,
           "range": "Sp 8",
           "rateOfFire": 1
         },
+        "location": "L",
         "abilities": [
-          "paralysis"
+          "shadowBind",
+          "reload1"
         ],
-        "qualities": []
+        "qualities": [
+          "pistol"
+        ]
       },
-      "bite": {
+      "hydraulicShears": {
         "type": "melee",
-        "name": "Bite",
+        "name": "Hydraulic Shears",
         "statistics": {
-          "meleeAttack": 4,
-          "range": 1,
-          "power": 12
-        },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "forceAura"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "bronzebackTitan": {
-    "name": "Bronzeback Titan",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Heavy",
-      "Warbeast",
-      "Titan"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 16,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 7,
-      "defense": 11,
-      "armour": 19,
-      "fury": 5,
-      "threshold": 7
-    },
-    "abilities": [
-      "hyperAggressive",
-      "leadershipTitans"
-    ],
-    "weapons": {
-      "tusks": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 2,
-          "power": 16
-        },
-        "qualities": []
-      },
-      "warGauntlet": {
-        "type": "melee",
-        "name": "War Gauntlet",
-        "quantity": 2,
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
           "power": 17
         },
+        "location": "L",
         "abilities": [
-          "beatBack",
-          "chainAttackGrabSmash"
-        ],
-        "qualities": []
-      }
-    },
-    "animus": [
-      "indomitable"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "cyclopsBrute": {
-    "name": "Cyclops Brute",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Light",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 7,
-    "baseSize": 40,
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 6,
-      "defense": 13,
-      "armour": 16,
-      "fury": 3,
-      "threshold": 9
-    },
-    "abilities": [
-      "setDefense",
-      "shieldGuard"
-    ],
-    "weapons": {
-      "shield": {
-        "type": "melee",
-        "name": "Shield",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 10
-        },
-        "qualities": []
+          "criticalDecapitation"
+        ]
       },
-      "halberd": {
+      "tenderizer": {
         "type": "melee",
-        "name": "Halberd",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 12
-        },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "safeguard"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "cyclopsRaider": {
-    "name": "Cyclops Raider",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Light",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 9,
-    "baseSize": 40,
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "rangedAttack": 5,
-      "defense": 13,
-      "armour": 16,
-      "fury": 3,
-      "threshold": 8
-    },
-    "abilities": [
-      "arcanePrecision"
-    ],
-    "weapons": {
-      "heavyReiver": {
-        "type": "ranged",
-        "name": "Heavy Reiver",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 10,
-          "rateOfFire": 1,
-          "power": 12
-        },
-        "abilities": [
-          "volumeFire"
-        ],
-        "qualities": []
-      },
-      "punchingSpike": {
-        "type": "melee",
-        "name": "Punching Spike",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 11
-        },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "farStrike"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "cyclopsSavage": {
-    "name": "Cyclops Savage",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Light",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 7,
-    "baseSize": 40,
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 7,
-      "defense": 13,
-      "armour": 16,
-      "fury": 3,
-      "threshold": 8
-    },
-    "abilities": [
-      "futureSight"
-    ],
-    "weapons": {
-      "falchion": {
-        "type": "melee",
-        "name": "Falchion",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 13
-        },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "prescience"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "desertHydra": {
-    "name": "Desert Hydra",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Gargantuan",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "2",
-    "points": 28,
-    "baseSize": 120,
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "rangedAttack": 6,
-      "defense": 10,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 8
-    },
-    "abilities": [
-      "bulldoze",
-      "multipleHeads5",
-      "regenerationD33",
-      "snacking"
-    ],
-    "weapons": {
-      "acidSpray": {
-        "type": "ranged",
-        "name": "Acid Spray",
-        "statistics": {
-          "rangedAttack": 6,
-          "range": "Sp 8",
-          "rateOfFire": 1,
-          "power": 14
-        },
-        "qualities": []
-      },
-      "bite": {
-        "type": "melee",
-        "name": "Bite",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 3,
-          "power": 18
-        },
-        "abilities": [
-          "criticalGrievousWounds"
-        ],
-        "qualities": []
-      }
-    },
-    "animus": [
-      "sandStorm"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "mammoth": {
-    "name": "Mammoth",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Gargantuan",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "2",
-    "points": 27,
-    "baseSize": 120,
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 6,
-      "rangedAttack": 5,
-      "defense": 8,
-      "armour": 20,
-      "fury": 5,
-      "threshold": 9
-    },
-    "abilities": [
-      "bulldoze",
-      "painMaddened"
-    ],
-    "weapons": {
-      "siegeBattery": {
-        "type": "ranged",
-        "name": "Siege Battery",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 14,
-          "rateOfFire": "D3+1",
-          "areaOfEffect": 2,
-          "power": "15/8"
-        },
-        "abilities": [
-          "fullBatteryFireAttack"
-        ],
-        "qualities": []
-      },
-      "tusks": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 3,
-          "power": 20
-        },
-        "abilities": [
-          "criticalPitch"
-        ],
-        "qualities": []
-      },
-      "warGauntlet": {
-        "type": "melee",
-        "name": "War Gauntlet",
-        "quantity": 2,
+        "name": "Tenderizer",
         "statistics": {
           "meleeAttack": 6,
           "range": 2,
           "power": 19
         },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "counterblast"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "molikKarn": {
-    "name": "Molik Karn",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Cyclops",
-      "Heavy",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "c",
-    "points": 16,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 7,
-      "defense": 13,
-      "armour": 18,
-      "fury": 4,
-      "threshold": 10
-    },
-    "abilities": [
-      "bondMakeda",
-      "futureSight",
-      "intuition"
-    ],
-    "weapons": {
-      "falchion": {
-        "type": "melee",
-        "name": "Falchion",
-        "quantity": 2,
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 14
-        },
+        "location": "R",
         "abilities": [
-          "comboStrikeAttack"
-        ],
-        "qualities": []
-      }
-    },
-    "animus": [
-      "fateWalker"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "razorWorm": {
-    "name": "Razor Worm",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Light",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 7,
-    "baseSize": 40,
-    "statistics": {
-      "speed": 6,
-      "meleeAttack": 6,
-      "defense": 13,
-      "armour": 15,
-      "fury": 3,
-      "threshold": 8
-    },
-    "abilities": [
-      "digInAction",
-      "dragBelow",
-      "extendedControlRange",
-      "steady"
-    ],
-    "weapons": {
-      "bite": {
-        "type": "melee",
-        "name": "Bite",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 12
-        },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "spinyGrowth"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "rhinodon": {
-    "name": "Rhinodon",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Heavy",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 12,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 6,
-      "defense": 11,
-      "armour": 18,
-      "fury": 3,
-      "threshold": 9
-    },
-    "weapons": {
-      "tail": {
-        "type": "melee",
-        "name": "Tail",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        },
-        "abilities": [
-          "criticalKnockdown",
-          "thresherAttack"
-        ],
-        "qualities": []
+          "beatBack"
+        ]
       },
-      "claw": {
+      "grapplingClaw": {
         "type": "melee",
-        "name": "Claw",
-        "quantity": 2,
+        "name": "Grappling Claw",
         "statistics": {
           "meleeAttack": 6,
           "range": 1,
           "power": 14
         },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "spinyGrowth"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "tiberion": {
-    "name": "Tiberion",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Titan",
-      "Heavy",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "c",
-    "points": 17,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 7,
-      "defense": 10,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 10
-    },
-    "abilities": [
-      "bondXerxis",
-      "immovableObject",
-      "shieldGuard"
-    ],
-    "weapons": {
-      "tusks": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 15
-        },
-        "qualities": []
-      },
-      "shield": {
-        "type": "melee",
-        "name": "Shield",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 14
-        },
-        "qualities": []
-      },
-      "tetsubo": {
-        "type": "melee",
-        "name": "Tetsubo",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 18
-        },
-        "abilities": [
-          "criticalSmite"
-        ],
-        "qualities": []
-      }
-    },
-    "animus": [
-      "irresistibleForce"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "titanCannoneer": {
-    "name": "Titan Cannoneer",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Heavy",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 15,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 6,
-      "rangedAttack": 5,
-      "defense": 11,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 9
-    },
-    "abilities": [
-      "bullheaded"
-    ],
-    "weapons": {
-      "siegeGun": {
-        "type": "ranged",
-        "name": "Siege Gun",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 12,
-          "rateOfFire": 1,
-          "areaOfEffect": 3,
-          "power": "15/8"
-        },
-        "qualities": []
-      },
-      "tusks": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        },
-        "qualities": []
-      },
-      "warMace": {
-        "type": "melee",
-        "name": "War Mace",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 15
-        },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "farStrike"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "titanGladiator": {
-    "name": "Titan Gladiator",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Heavy",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 14,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 7,
-      "defense": 11,
-      "armour": 19,
-      "fury": 4,
-      "threshold": 9
-    },
-    "abilities": [
-      "bullheaded",
-      "followUp",
-      "slammer"
-    ],
-    "weapons": {
-      "tusks": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 2,
-          "power": 15
-        },
-        "qualities": []
-      },
-      "warGauntlet": {
-        "type": "melee",
-        "name": "War Gauntlet",
         "quantity": 2,
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 16
-        },
-        "qualities": []
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
       }
-    },
-    "animus": [
-      "rush"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "titanSentry": {
-    "name": "Titan Sentry",
-    "type": "warbeast",
-    "keywords": [
-      "Skorne",
-      "Exalted",
-      "Heavy",
-      "Warbeast"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 14,
-    "baseSize": 50,
-    "statistics": {
-      "speed": 4,
-      "meleeAttack": 6,
-      "defense": 10,
-      "armour": 19,
-      "fury": 3,
-      "threshold": 9
     },
     "abilities": [
-      "immovableObject",
-      "shieldGuard"
-    ],
-    "weapons": {
-      "tusks": {
-        "type": "melee",
-        "name": "Tusks",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 15
-        },
-        "qualities": []
-      },
-      "shield": {
-        "type": "melee",
-        "name": "Shield",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 1,
-          "power": 14
-        },
-        "qualities": []
-      },
-      "halberd": {
-        "type": "melee",
-        "name": "Halberd",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 16
-        },
-        "qualities": []
-      }
-    },
-    "animus": [
-      "ornery"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "primusJalaam": {
-    "name": "Primus Jalaam",
-    "type": "warlock",
-    "keywords": [
-      "Skorne",
-      "Scout",
-      "Warlock"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "c",
-    "baseSize": 30,
-    "statistics": {
-      "speed": 6,
-      "arcana": 6,
-      "meleeAttack": 7,
-      "rangedAttack": 7,
-      "defense": 15,
-      "armour": 15,
-      "controlRange": 12,
-      "health": 16
-    },
-    "abilities": [
-      "hunter",
-      "prey",
-      "resourceful"
-    ],
-    "weapons": {
-      "reiver": {
-        "type": "ranged",
-        "name": "Reiver",
-        "statistics": {
-          "rangedAttack": 7,
-          "range": 12,
-          "rateOfFire": 1,
-          "power": 10
-        },
-        "abilities": [
-          "grievousWounds",
-          "volumeFire",
-          "reload1"
-        ],
-        "qualities": []
-      },
-      "blade": {
-        "type": "melee",
-        "name": "Blade",
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 12
-        },
-        "abilities": [
-          "grievousWounds"
-        ],
-        "qualities": []
-      }
-    },
-    "feat": [
-      "primusJalaamFeat"
-    ],
-    "spells": [
-      "artificeOfDeviation",
-      "deadeye",
-      "scavengersBlessing",
-      "vanish",
-      "warpath"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "supremeArchdominaMakeda": {
-    "name": "Supreme Archdomina Makeda",
-    "type": "warlock",
-    "keywords": [
-      "Skorne",
-      "Warlock"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "c",
-    "baseSize": 30,
-    "statistics": {
-      "speed": 6,
-      "arcana": 6,
-      "meleeAttack": 7,
-      "defense": 15,
-      "armour": 16,
-      "controlRange": 14,
-      "health": 16
-    },
-    "abilities": [
-      "eliteCadreSmallBasedPraetorian",
-      "stayDeath"
-    ],
-    "weapons": {
-      "swordOfBalaash": {
-        "type": "melee",
-        "name": "Sword of Balaash",
-        "quantity": 2,
-        "statistics": {
-          "meleeAttack": 7,
-          "range": 1,
-          "power": 12
-        },
-        "abilities": [
-          "comboStrikeAttack"
-        ],
-        "qualities": []
-      }
-    },
-    "feat": [
-      "supremeArchdominaMakedaFeat"
-    ],
-    "spells": [
-      "dash",
-      "deflection",
-      "forceStrike",
-      "stormRager"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "xerxisFuryOfHalaak": {
-    "name": "Xerxis, Fury of Halaak",
-    "type": "warlock",
-    "keywords": [
-      "Skorne",
-      "Battle Engine",
-      "Warlock"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "c",
-    "baseSize": 120,
-    "statistics": {
-      "speed": 7,
-      "arcana": 6,
-      "meleeAttack": 8,
-      "defense": 13,
-      "armour": 19,
-      "controlRange": 12,
-      "health": 22
-    },
-    "abilities": [
-      "fieldMarshal2SPD",
-      "sprint"
-    ],
-    "weapons": {
-      "lamentor": {
-        "type": "melee",
-        "name": "Lamentor",
-        "statistics": {
-          "meleeAttack": 8,
-          "range": 2,
-          "power": 15
-        },
-        "abilities": [
-          "brutalCharge"
-        ],
-        "qualities": []
-      },
-      "warStandard": {
-        "type": "melee",
-        "name": "War Standard",
-        "statistics": {
-          "meleeAttack": 8,
-          "range": 2,
-          "power": 12
-        },
-        "qualities": []
-      },
-      "mount": {
-        "type": "melee",
-        "name": "Mount",
-        "statistics": {
-          "meleeAttack": 8,
-          "range": 1,
-          "power": 14
-        },
-        "abilities": [
-          "knockdown",
-          "pitchAttack"
-        ],
-        "qualities": []
-      }
-    },
-    "feat": [
-      "xerxisFuryOfHalaakFeat"
-    ],
-    "spells": [
-      "ignite",
-      "rapport",
-      "stranglehold"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "siegeAnimantarax": {
-    "name": "Siege Animantarax",
-    "type": "battleEngine",
-    "keywords": [
-      "Skorne",
-      "Battle Engine"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "2",
-    "points": 13,
-    "baseSize": 120,
-    "statistics": {
-      "speed": 7,
-      "meleeAttack": 6,
-      "rangedAttack": 5,
-      "defense": 10,
-      "armour": 19,
-      "health": 24
-    },
-    "abilities": [
-      "boundlessRage",
-      "reposition3",
-      "shieldGuard"
-    ],
-    "weapons": {
-      "doubleReiver": {
-        "type": "ranged",
-        "name": "Double Reiver",
-        "statistics": {
-          "rangedAttack": 5,
-          "range": 12,
-          "rateOfFire": "D3+1",
-          "power": 13
-        },
-        "abilities": [
-          "volumeFire"
-        ],
-        "qualities": []
-      },
-      "spear": {
-        "type": "melee",
-        "name": "Spear",
-        "quantity": 2,
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 11
-        },
-        "qualities": []
-      },
-      "clubTail": {
-        "type": "melee",
-        "name": "Club Tail",
-        "statistics": {
-          "meleeAttack": 6,
-          "range": 2,
-          "power": 18
-        },
-        "abilities": [
-          "knockdown"
-        ],
-        "qualities": []
-      }
-    },
-    "advantages": [],
-    "options": []
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
   },
   "aptimusMarketh": {
     "name": "Aptimus Marketh",
+    "faction": "skorne",
     "type": "solo",
     "keywords": [
-      "Skorne",
-      "Exalted",
+      "Army of the Western Reaches",
       "Extoller",
-      "Solo"
+      "Skorne",
+      "Solo",
+      "Exalted"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
-    "fieldAllowance": "c",
+    "fieldAllowance": "C",
     "points": 4,
-    "baseSize": 30,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20aptimus%20marketh.png",
     "statistics": {
       "speed": 6,
       "arcaneAttack": 7,
-      "meleeAttack": 6,
+      "meleeAttack": 5,
       "rangedAttack": 5,
       "defense": 13,
       "armour": 13,
       "health": 5
     },
-    "abilities": [
-      "attached",
-      "ghostShield",
-      "magicAbility",
-      "soulTakerRequiem",
-      "soulTap"
+    "advantages": [
+      "dualAttack"
     ],
     "weapons": {
       "spiritEye": {
@@ -1246,271 +211,405 @@
         "abilities": [
           "ghostShot"
         ],
-        "qualities": []
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
       },
       "gravitas": {
         "type": "melee",
         "name": "Gravitas",
         "statistics": {
-          "meleeAttack": 6,
+          "meleeAttack": 5,
           "range": 2,
           "power": 11
         },
-        "qualities": []
-      }
-    },
-    "advantages": [],
-    "options": []
-  },
-  "mortitheurgeWillbreaker": {
-    "name": "Mortitheurge Willbreaker",
-    "type": "solo",
-    "keywords": [
-      "Skorne",
-      "Solo"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "2",
-    "points": 2,
-    "baseSize": 30,
-    "statistics": {
-      "speed": 6,
-      "arcaneAttack": 7,
-      "defense": 13,
-      "armour": 13,
-      "health": 5
-    },
-    "abilities": [
-      "beastMaster",
-      "magicAbility"
-    ],
-    "advantages": [],
-    "options": []
-  },
-  "tyrantRhadeim": {
-    "name": "Tyrant Rhadeim",
-    "type": "solo",
-    "keywords": [
-      "Skorne",
-      "Dragoon",
-      "Praetorian",
-      "Solo"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "c",
-    "points": 8,
-    "baseSize": 50,
-    "statistics": {
-      "mounted": {
-        "speed": 8,
-        "meleeAttack": 8,
-        "defense": 13,
-        "armour": 17
-      },
-      "dismounted": {
-        "speed": 6,
-        "meleeAttack": 8,
-        "defense": 13,
-        "armour": 15
+        "qualities": [
+          "damageTypeMagical"
+        ]
       }
     },
     "abilities": [
-      "dodge",
-      "jump",
-      "leadershipPraetorianFerox",
-      "reposition3",
-      "steady",
-      "unyielding"
-    ],
-    "weapons": {
-      "mounted": {
-        "lanceOfBashek": {
-          "type": "melee",
-          "name": "Lance of Bashek",
-          "statistics": {
-            "meleeAttack": 8,
-            "range": 2,
-            "power": 13
-          },
-          "abilities": [
-            "armorPiercingAttack"
-          ]
-        },
-        "bite": {
-          "type": "melee",
-          "name": "Bite",
-          "statistics": {
-            "meleeAttack": 8,
-            "range": 1,
-            "power": 13
-          },
-          "abilities": [
-            "pounce"
-          ]
-        },
-        "qualities": []
-      },
-      "dismounted": {
-        "lanceOfBashek": {
-          "type": "melee",
-          "name": "Lance of Bashek",
-          "statistics": {
-            "meleeAttack": 8,
-            "range": 2,
-            "power": 13
-          },
-          "abilities": [
-            "armorPiercingAttack"
-          ]
-        },
-        "shield": {
-          "type": "melee",
-          "name": "Shield",
-          "statistics": {
-            "meleeAttack": 8,
-            "range": 1,
-            "power": 9
-          }
-        },
-        "qualities": []
-      }
-    },
-    "advantages": [],
-    "options": []
+      "attached",
+      "ghostShield",
+      "magicAbility",
+      "guidanceAction",
+      "harmoniousExaltationAction",
+      "spellSlaveActionOrAttack",
+      "soulTakerRequiem",
+      "strengthOfDeath",
+      "soulTap"
+    ]
   },
-  "tyrantZaadesh": {
-    "name": "Tyrant Zaadesh",
-    "type": "solo",
+  "archidon": {
+    "name": "Archidon",
+    "faction": "skorne",
+    "type": "warbeast",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
-      "Praetorian",
-      "Solo"
+      "Heavy Warbeast",
+      "Exalted"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
-    "fieldAllowance": "c",
-    "points": 4,
-    "baseSize": 30,
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20archidon.png",
     "statistics": {
-      "speed": 6,
-      "arcana": 4,
+      "speed": 7,
       "meleeAttack": 6,
-      "defense": 13,
-      "armour": 15,
-      "controlRange": 8,
-      "health": 8
+      "defense": 14,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 25,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
     },
-    "abilities": [
-      "lesserWarlock",
-      "sacrificialPawnWarbeast"
+    "advantages": [
+      "flight",
+      "headbuttPowerAttack",
+      "resistanceElectricity",
+      "slamPowerAttack"
     ],
     "weapons": {
-      "deathsong": {
+      "bite__b906c375": {
         "type": "melee",
-        "name": "Deathsong",
+        "name": "Bite",
         "statistics": {
           "meleeAttack": 6,
-          "range": 2,
-          "power": 12
+          "range": 1,
+          "power": 15
         },
-        "qualities": []
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "extendedControlRange"
+    ],
+    "spells": [
+      "lightningStrike"
+    ]
+  },
+  "basiliskKrea": {
+    "name": "Basilisk Krea",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Light Warbeast",
+      "Exalted"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20basilisk%20krea.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 12,
+      "armour": 14,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "spiritualParalysis": {
+        "type": "ranged",
+        "name": "Spiritual Paralysis",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "paralysis"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 12
+        }
       }
     },
     "spells": [
-      "firstBlood",
-      "synergy"
-    ],
-    "advantages": [],
-    "options": []
+      "forceAura"
+    ]
   },
-  "venatorDakar": {
-    "name": "Venator Dakar",
-    "type": "solo",
+  "bronzebackTitan": {
+    "name": "Bronzeback Titan",
+    "faction": "skorne",
+    "type": "warbeast",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
-      "Solo"
+      "Heavy Warbeast",
+      "Exalted"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
-    "fieldAllowance": "2",
-    "points": 4,
-    "baseSize": 30,
+    "fieldAllowance": "4",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20bronzeback%20titan.png",
     "statistics": {
-      "speed": 6,
-      "meleeAttack": 5,
-      "rangedAttack": 7,
-      "defense": 13,
-      "armour": 13,
-      "health": 5
-    },
-    "abilities": [
-      "battlePlanVenator",
-      "veteranLeaderVenator"
-    ],
-    "weapons": {
-      "reiver": {
-        "type": "ranged",
-        "name": "Reiver",
-        "statistics": {
-          "rangedAttack": 7,
-          "range": 12,
-          "rateOfFire": 1,
-          "power": 10
-        },
-        "abilities": [
-          "volumeFire"
-        ],
-        "qualities": []
-      },
-      "sword": {
-        "type": "melee",
-        "name": "Sword",
-        "statistics": {
-          "meleeAttack": 5,
-          "range": 1,
-          "power": 9
-        },
-        "qualities": []
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 7,
+      "health": {
+        "total": 34,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
       }
     },
-    "advantages": [],
-    "options": []
+    "advantages": [
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "tusks__a5e067f0": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 16
+        }
+      },
+      "warGauntlet": {
+        "type": "melee",
+        "name": "War Gauntlet",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 17
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack",
+          "chainAttackGrabSmash"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "hyperAggressive",
+      "leadershipTitans"
+    ],
+    "spells": [
+      "indomitable"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
   },
   "cataphractArcuarii": {
     "name": "Cataphract Arcuarii",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
-      "Skorne",
-      "Unit"
+      "Army of the Western Reaches",
+      "Unit",
+      "Skorne"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
     "points": 9,
-    "baseSize": 40,
-    "grunts": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20cataphract%20arcuarii.png",
     "statistics": {
       "speed": 5,
-      "meleeAttack": 7,
+      "meleeAttack": 6,
       "rangedAttack": 6,
       "defense": 11,
-      "armour": 16,
-      "health": 8
+      "armour": 16
     },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
     "weapons": {
-      "harpoon": {
+      "harpoon__8b650b44": {
         "type": "ranged",
         "name": "Harpoon",
         "statistics": {
@@ -1522,151 +621,102 @@
         "abilities": [
           "skewer"
         ],
-        "qualities": []
+        "qualities": [
+          "weaponMaster"
+        ]
       },
       "arcus": {
         "type": "melee",
         "name": "Arcus",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 2,
           "power": 10
         },
-        "qualities": []
+        "qualities": [
+          "weaponMaster"
+        ]
       }
-    },
-    "advantages": [],
-    "options": []
-  },
-  "tyrantVorkesh": {
-    "name": "Tyrant Vorkesh",
-    "type": "commandAttachment",
-    "keywords": [
-      "Skorne",
-      "Cataphract",
-      "Command Attachment"
-    ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "c",
-    "points": 4,
-    "baseSize": 40,
-    "statistics": {
-      "speed": 5,
-      "meleeAttack": 8,
-      "defense": 11,
-      "armour": 17,
-      "health": 8
-    },
-    "abilities": [
-      "commandAttachmentCataphract",
-      "cleave",
-      "grantedBulldoze",
-      "grantedSacredWard",
-      "setDefense",
-      "shieldWall"
-    ],
-    "weapons": {
-      "armOfRahaal": {
-        "type": "melee",
-        "name": "Arm of Rahaal",
-        "statistics": {
-          "meleeAttack": 8,
-          "range": 2,
-          "power": 13
-        },
-        "qualities": []
-      },
-      "shield": {
-        "type": "melee",
-        "name": "Shield",
-        "statistics": {
-          "meleeAttack": 8,
-          "range": 1,
-          "power": 11
-        },
-        "qualities": []
-      }
-    },
-    "advantages": [],
-    "options": []
+    }
   },
   "cataphractCetrati": {
     "name": "Cataphract Cetrati",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
       "Skorne",
+      "Army of the Western Reaches",
       "Unit"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
     "points": 8,
-    "baseSize": 40,
-    "grunts": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20cataphract%20cetrati.png",
     "statistics": {
       "speed": 5,
-      "meleeAttack": 7,
+      "meleeAttack": 6,
       "defense": 11,
-      "armour": 17,
-      "health": 8
+      "armour": 17
     },
-    "abilities": [
-      "setDefense",
-      "shieldWall"
+    "advantages": [
+      "tough"
     ],
     "weapons": {
-      "warSpear": {
+      "warSpear__57905e5b": {
         "type": "melee",
         "name": "War Spear",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 2,
           "power": 12
         },
-        "qualities": []
+        "qualities": [
+          "weaponMaster"
+        ]
       },
       "shield": {
         "type": "melee",
         "name": "Shield",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 1,
           "power": 10
-        },
-        "qualities": []
+        }
       }
     },
-    "advantages": [],
-    "options": []
+    "abilities": [
+      "setDefense",
+      "shieldWall"
+    ]
   },
   "cataphractIncindiarii": {
     "name": "Cataphract Incindiarii",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
       "Unit"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
     "points": 9,
-    "baseSize": 40,
-    "grunts": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20cataphract%20incindiarii.png",
     "statistics": {
       "speed": 5,
-      "meleeAttack": 7,
+      "meleeAttack": 6,
       "rangedAttack": 6,
       "defense": 11,
-      "armour": 16,
-      "health": 8
+      "armour": 16
     },
+    "advantages": [
+      "tough",
+      "combinedRangedAttack"
+    ],
     "weapons": {
       "incindus": {
         "type": "ranged",
@@ -1678,46 +728,1348 @@
           "areaOfEffect": 2,
           "power": "13/7"
         },
-        "qualities": []
+        "qualities": [
+          "criticalFire",
+          "damageTypeFire"
+        ]
       },
       "incindusBlade": {
         "type": "melee",
         "name": "Incindus Blade",
         "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        }
+      }
+    }
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "skorne",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
           "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "cyclopsBrute": {
+    "name": "Cyclops Brute",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20cyclops%20brute.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "shield__7b8466c2": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "shield"
+        ]
+      },
+      "halberd": {
+        "type": "melee",
+        "name": "Halberd",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "setDefense",
+      "shieldGuard__819aa308"
+    ],
+    "spells": [
+      "safeguard"
+    ]
+  },
+  "cyclopsRaider": {
+    "name": "Cyclops Raider",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Light Warbeast"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20cyclops%20raider.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "heavyReiver": {
+        "type": "ranged",
+        "name": "Heavy Reiver",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "volumeFire"
+        ]
+      },
+      "punchingSpike": {
+        "type": "melee",
+        "name": "Punching Spike",
+        "statistics": {
+          "meleeAttack": 5,
           "range": 1,
           "power": 11
         },
-        "qualities": []
+        "qualities": [
+          "throwPowerAttack"
+        ]
       }
     },
-    "advantages": [],
-    "options": []
+    "abilities": [
+      "arcanePrecision"
+    ],
+    "spells": [
+      "farStrike"
+    ]
+  },
+  "cyclopsSavage": {
+    "name": "Cyclops Savage",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Light Warbeast",
+      "Skorne"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20cyclops%20savage.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "falchion": {
+        "type": "melee",
+        "name": "Falchion",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        }
+      }
+    },
+    "abilities": [
+      "futureSight"
+    ],
+    "spells": [
+      "prescience"
+    ]
+  },
+  "defenses": {
+    "name": "Defenses",
+    "faction": "skorne",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "desertHydra": {
+    "name": "Desert Hydra",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Gargantuan",
+      "Army of the Western Reaches",
+      "Exalted"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "2",
+    "points": 27,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20desert%20hydra.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 55,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 12
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 8
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "acidSpray__c63feabd": {
+        "type": "ranged",
+        "name": "Acid Spray",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "continuousEffectCorrosion",
+          "damageTypeCorrosion",
+          "pistol"
+        ]
+      },
+      "bite__092501f0": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 18
+        },
+        "abilities": [
+          "criticalGrievousWounds__f150fac5"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "multipleHeads5",
+      "regenerationD33",
+      "snacking"
+    ],
+    "spells": [
+      "sandStorm"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "skorne",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "skorne",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "skorne",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "skorne",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
   },
   "legendsOfHalaak": {
     "name": "Legends of Halaak",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
-      "Praetorian",
-      "Unit"
+      "Unit",
+      "Praetorian"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
-    "fieldAllowance": "c",
+    "fieldAllowance": "C",
     "points": 7,
-    "baseSize": 30,
-    "grunts": {
-      "valgesh": {
-        "name": "Valgesh",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20legends%20of%20halaak.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 15
+    },
+    "weapons": {
+      "sword__f3d3a2fe": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "defensiveLine",
+      "relentlessCharge",
+      "shieldWall",
+      "sideStep"
+    ],
+    "models": {
+      "valgesh1": {
+        "name": "Valgesh 1",
         "statistics": {
           "speed": 7,
-          "meleeAttack": 8,
-          "defense": 14,
-          "armour": 15,
-          "health": 5
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 15
         },
         "abilities": [
           "defensiveLine",
@@ -1726,29 +2078,31 @@
           "sideStep"
         ],
         "weapons": {
-          "sword": {
+          "sword__f3d3a2fe": {
             "type": "melee",
             "name": "Sword",
-            "quantity": 2,
             "statistics": {
-              "meleeAttack": 8,
+              "meleeAttack": 7,
               "range": 1,
               "power": 9
             },
+            "quantity": 2,
             "abilities": [
-              "comboStrikeAttack"
+              "comboStrikeAttack__7a566465"
+            ],
+            "qualities": [
+              "weaponMaster"
             ]
           }
         }
       },
-      "cidaar": {
-        "name": "Cidaar",
+      "cidaar1": {
+        "name": "CIdaar 1",
         "statistics": {
           "speed": 7,
-          "meleeAttack": 8,
-          "defense": 14,
-          "armour": 15,
-          "health": 5
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 15
         },
         "abilities": [
           "defensiveLine",
@@ -1761,21 +2115,23 @@
             "type": "melee",
             "name": "Naginata",
             "statistics": {
-              "meleeAttack": 8,
+              "meleeAttack": 7,
               "range": 2,
               "power": 11
-            }
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
           }
         }
       },
-      "jdeth": {
-        "name": "J'Deth",
+      "jdeth1": {
+        "name": "J’Deth 1",
         "statistics": {
           "speed": 7,
-          "meleeAttack": 8,
-          "defense": 14,
-          "armour": 15,
-          "health": 5
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 15
         },
         "abilities": [
           "defensiveLine",
@@ -1784,163 +2140,715 @@
           "sideStep"
         ],
         "weapons": {
-          "mace": {
+          "mace__c20e56d3": {
             "type": "melee",
             "name": "Mace",
-            "quantity": 2,
             "statistics": {
-              "meleeAttack": 8,
+              "meleeAttack": 7,
               "range": 1,
               "power": 10
             },
+            "quantity": 2,
             "abilities": [
               "comboSmiteAttack"
+            ],
+            "qualities": [
+              "weaponMaster"
             ]
           }
         }
       }
+    }
+  },
+  "lordTyrantZaadesh": {
+    "name": "Lord Tyrant Zaadesh",
+    "faction": "skorne",
+    "type": "warlock",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Warlock"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20lord%20tyrant%20zaadesh.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 16
     },
-    "advantages": [],
-    "options": []
+    "advantages": [
+      "unstopable"
+    ],
+    "weapons": {
+      "deathsong": {
+        "type": "melee",
+        "name": "Deathsong",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "bladeShield",
+      "focusedStrike",
+      "sacrificialPawnWarbeastInThisModelsBattlegroup"
+    ],
+    "spells": [
+      "burningAsh",
+      "flashingBlade",
+      "inviolableResolve",
+      "killingGround"
+    ],
+    "feat": [
+      "scorpionsSting"
+    ]
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "skorne",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "skorne",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "mammoth": {
+    "name": "Mammoth",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Gargantuan",
+      "Army of the Western Reaches",
+      "Exalted"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "2",
+    "points": 28,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20mammoth.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 8,
+      "armour": 20,
+      "fury": 5,
+      "threshold": 9,
+      "health": {
+        "total": 56,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 13
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 8
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "pathfinder",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "siegeBattery": {
+        "type": "ranged",
+        "name": "Siege Battery",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 14,
+          "rateOfFire": "d3 +1",
+          "areaOfEffect": 2,
+          "power": "15/8"
+        },
+        "abilities": [
+          "fullBatteryFireAttack"
+        ]
+      },
+      "tusks__bc51a974": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 20
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      },
+      "warGauntlet__84a49c80": {
+        "type": "melee",
+        "name": "War Gauntlet",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "painMaddened"
+    ],
+    "spells": [
+      "counterblast"
+    ]
+  },
+  "molikKarn": {
+    "name": "Molik Karn",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Heavy Warbeast",
+      "Cyclops"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 16,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20molik%20karn.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "fury": 4,
+      "threshold": 10,
+      "health": {
+        "total": 28,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "falchion__40847df3": {
+        "type": "melee",
+        "name": "Falchion",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "bondMakeda",
+      "futureSight",
+      "intuition"
+    ],
+    "spells": [
+      "fateWalker"
+    ]
+  },
+  "mortitheurgeWillbreaker": {
+    "name": "Mortitheurge Willbreaker",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Skorne",
+      "Solo",
+      "Army of the Western Reaches"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20mortitheurge%20willbreaker.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
+    },
+    "abilities": [
+      "beastMaster",
+      "magicAbility",
+      "fleshHardeningAction",
+      "influenceAttack",
+      "marionetteAttack"
+    ]
   },
   "paingiverBeastHandlers": {
     "name": "Paingiver Beast Handlers",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
+      "Army of the Western Reaches",
+      "Unit",
       "Skorne",
-      "Exalted",
-      "Unit"
+      "Exalted"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "3",
     "points": 3,
-    "baseSize": 30,
-    "grunts": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20paingiver%20beast%20handlers.png",
     "statistics": {
       "speed": 6,
-      "meleeAttack": 5,
+      "meleeAttack": 4,
       "defense": 13,
-      "armour": 11,
-      "health": 1
+      "armour": 11
     },
-    "abilities": [
-      "anatomicalPrecision",
-      "conditionAction",
-      "enrageAction",
-      "medicateD3Action"
-    ],
     "weapons": {
       "barbedWhip": {
         "type": "melee",
         "name": "Barbed Whip",
         "statistics": {
-          "meleeAttack": 5,
+          "meleeAttack": 4,
           "range": 2,
           "power": 8
         },
         "abilities": [
           "inflictPain"
         ],
-        "qualities": []
+        "qualities": [
+          "chainWeapon"
+        ]
       }
     },
-    "advantages": [],
-    "options": []
+    "abilities": [
+      "anatomicalPrecision",
+      "conditionAction",
+      "enrageAction",
+      "medicateD3Action"
+    ]
   },
   "praetorianFerox": {
     "name": "Praetorian Ferox",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
-      "Skorne",
-      "Unit"
+      "Army of the Western Reaches",
+      "Unit",
+      "Skorne"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
     "points": 10,
-    "baseSize": 50,
-    "grunts": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20praetorian%20ferox.png",
     "statistics": {
       "speed": 8,
-      "meleeAttack": 7,
+      "meleeAttack": 6,
       "defense": 13,
-      "armour": 17,
-      "health": 5
+      "armour": 17
     },
-    "abilities": [
-      "reposition3",
-      "steady",
-      "unpredictableMovement",
-      "unyielding"
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "unstopable"
     ],
     "weapons": {
       "cavalrySpear": {
         "type": "melee",
         "name": "Cavalry Spear",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 2,
           "power": 13
         },
         "abilities": [
           "brutalCharge"
-        ],
-        "qualities": []
+        ]
       },
-      "shield": {
+      "shield__02fe0b42": {
         "type": "melee",
         "name": "Shield",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 1,
           "power": 9
-        },
-        "qualities": []
+        }
       },
       "bite": {
         "type": "melee",
         "name": "Bite",
         "statistics": {
-          "meleeAttack": 7,
+          "meleeAttack": 6,
           "range": 1,
           "power": 13
-        },
-        "qualities": []
+        }
       }
     },
-    "advantages": [],
-    "options": []
+    "abilities": [
+      "reposition3",
+      "steady",
+      "unpredictableMovement",
+      "unyielding"
+    ]
   },
   "praetorianKarax": {
     "name": "Praetorian Karax",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
       "Unit"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "4",
-    "points": 6,
-    "baseSize": 30,
-    "grunts": 5,
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20praetorian%20karax.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 5,
       "defense": 13,
       "armour": 15
     },
-    "abilities": [
-      "girded",
-      "setDefense",
-      "shieldWall"
+    "advantages": [
+      "combinedMeleeAttack"
     ],
     "weapons": {
       "pike": {
@@ -1950,48 +2858,90 @@
           "meleeAttack": 5,
           "range": 2,
           "power": 10
-        },
-        "qualities": []
+        }
       },
-      "shield": {
+      "shield__0259bc32": {
         "type": "melee",
         "name": "Shield",
         "statistics": {
           "meleeAttack": 5,
           "range": 1,
           "power": 8
-        },
-        "qualities": []
+        }
       }
     },
-    "advantages": [],
-    "options": []
+    "abilities": [
+      "girded",
+      "setDefense",
+      "shieldWall__4297683a"
+    ]
   },
   "praetorianKaraxOfficerStandard": {
     "name": "Praetorian Karax Officer & Standard",
+    "faction": "skorne",
     "type": "commandAttachment",
     "keywords": [
       "Skorne",
+      "Army of the Western Reaches",
       "Command Attachment"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "4",
-    "points": 3,
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20praetorian%20karax%20officer%20%26%20standard.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 15,
+      "health": 5
+    },
+    "advantages": [
+      "combinedMeleeAttack"
+    ],
+    "weapons": {
+      "pike": {
+        "type": "melee",
+        "name": "Pike",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        }
+      },
+      "shield__0259bc32": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentPraetorianKarax",
+      "girded",
+      "grantedUnyielding",
+      "setDefense",
+      "shieldWall"
+    ],
     "models": {
       "officer": {
         "name": "Officer",
-        "baseSize": 30,
         "statistics": {
           "speed": 6,
-          "meleeAttack": 6,
+          "meleeAttack": 5,
           "defense": 13,
-          "armour": 15
+          "armour": 15,
+          "health": 5
         },
+        "advantages": [
+          "combinedMeleeAttack"
+        ],
         "abilities": [
-          "commandAttachmentPraetorianKarax",
           "girded",
           "grantedUnyielding",
           "setDefense",
@@ -2002,16 +2952,16 @@
             "type": "melee",
             "name": "Pike",
             "statistics": {
-              "meleeAttack": 6,
+              "meleeAttack": 5,
               "range": 2,
               "power": 10
             }
           },
-          "shield": {
+          "shield__0259bc32": {
             "type": "melee",
             "name": "Shield",
             "statistics": {
-              "meleeAttack": 6,
+              "meleeAttack": 5,
               "range": 1,
               "power": 8
             }
@@ -2020,46 +2970,57 @@
       },
       "standardBearer": {
         "name": "Standard Bearer",
-        "baseSize": 30,
         "statistics": {
           "speed": 6,
           "meleeAttack": 5,
           "defense": 13,
-          "armour": 15
+          "armour": 15,
+          "health": 5
         },
         "abilities": [
           "girded",
-          "grantedInspiration"
-        ]
+          "setDefense",
+          "shieldWall",
+          "takeUp"
+        ],
+        "weapons": {
+          "shield__0259bc32": {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 5,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
       }
-    },
-    "advantages": [],
-    "options": []
+    }
   },
   "praetorianKeltarii": {
     "name": "Praetorian Keltarii",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
       "Unit"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "4",
     "points": 6,
-    "baseSize": 30,
-    "grunts": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20praetorian%20keltarii.png",
     "statistics": {
       "speed": 7,
       "meleeAttack": 6,
       "defense": 13,
       "armour": 14
     },
-    "abilities": [
-      "bladeShield",
-      "cleave"
+    "advantages": [
+      "combinedMeleeAttack",
+      "unstopable"
     ],
     "weapons": {
       "doubleBladedGlaive": {
@@ -2069,169 +3030,1062 @@
           "meleeAttack": 6,
           "range": 2,
           "power": 10
-        },
-        "qualities": []
+        }
       }
     },
-    "advantages": [],
-    "options": []
+    "abilities": [
+      "bladeShield",
+      "cleave"
+    ]
   },
-  "praetorianSwordsmen": {
-    "name": "Praetorian Swordsmen",
-    "type": "unit",
+  "praetorianSwordsmanOfficerStandard": {
+    "name": "Praetorian Swordsman Officer & Standard",
+    "faction": "skorne",
+    "type": "commandAttachment",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
       "Unit"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "4",
-    "points": 6,
-    "baseSize": 30,
-    "grunts": 5,
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20praetorian%20swordsman%20officer%20%26%20standard.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 7,
       "defense": 13,
       "armour": 14
     },
-    "abilities": [
-      "penetratingStrike"
-    ],
     "weapons": {
-      "sword": {
+      "sword__38b9fdf2": {
         "type": "melee",
         "name": "Sword",
-        "quantity": 2,
         "statistics": {
           "meleeAttack": 7,
           "range": 1,
           "power": 9
         },
+        "quantity": 2,
         "abilities": [
-          "comboStrikeAttack"
-        ],
-        "qualities": []
+          "comboStrikeAttack__7a566465"
+        ]
       }
     },
-    "advantages": [],
-    "options": []
-  },
-  "praetorianSwordsmanOfficerStandard": {
-    "name": "Praetorian Swordsman Officer & Standard",
-    "type": "commandAttachment",
-    "keywords": [
-      "Skorne",
-      "Unit",
-      "Command Attachment"
+    "abilities": [
+      "commandAttachmentPraetorianSwordsmen",
+      "grantedRelentlessCharge",
+      "grantedSideStep",
+      "penetratingStrike"
     ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 3,
     "models": {
       "officer": {
         "name": "Officer",
-        "baseSize": 30,
         "statistics": {
           "speed": 6,
-          "meleeAttack": 8,
+          "meleeAttack": 7,
           "defense": 13,
           "armour": 14
         },
         "abilities": [
-          "commandAttachmentPraetorianSwordsmen",
           "grantedRelentlessCharge",
           "grantedSideStep",
           "penetratingStrike"
         ],
         "weapons": {
-          "sword": {
+          "sword__38b9fdf2": {
             "type": "melee",
             "name": "Sword",
-            "quantity": 2,
             "statistics": {
-              "meleeAttack": 8,
+              "meleeAttack": 7,
               "range": 1,
               "power": 9
             },
+            "quantity": 2,
             "abilities": [
-              "comboStrikeAttack"
+              "comboStrikeAttack__7a566465"
             ]
           }
         }
       },
       "standardBearer": {
         "name": "Standard Bearer",
-        "baseSize": 30,
         "statistics": {
           "speed": 6,
           "defense": 13,
           "armour": 14
         },
         "abilities": [
-          "grantedInspiration"
+          "takeUp"
         ]
       }
-    },
-    "advantages": [],
-    "options": []
+    }
   },
-  "tyrantCommanderStandardBearer": {
-    "name": "Tyrant Commander & Standard Bearer",
+  "praetorianSwordsmen": {
+    "name": "Praetorian Swordsmen",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
       "Unit"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20praetorian%20swordsmen.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14
+    },
+    "weapons": {
+      "sword__38b9fdf2": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ]
+      }
+    },
+    "abilities": [
+      "penetratingStrike"
+    ]
+  },
+  "primusJalaam": {
+    "name": "Primus Jalaam",
+    "faction": "skorne",
+    "type": "warlock",
+    "keywords": [
+      "Skorne",
+      "Warlock",
+      "Army of the Western Reaches",
+      "Scout"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20primus%20jalaam.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "blade__dc67e3d5": {
+        "type": "melee",
+        "name": "Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "reiver__2f0b68a6": {
+        "type": "ranged",
+        "name": "Reiver",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "grievousWounds",
+          "volumeFire",
+          "reload1"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "hunter",
+      "prey",
+      "resourceful"
+    ],
+    "spells": [
+      "artificeOfDeviation",
+      "deadeye",
+      "scavengersBlessing",
+      "vanish",
+      "warpath"
+    ],
+    "feat": [
+      "hideInSight"
+    ]
+  },
+  "razorWorm": {
+    "name": "Razor Worm",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Army of the Western Reaches",
+      "Light Warbeast",
+      "Exalted"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20razor%20worm.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 15,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 21,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "advanceDeployment",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "pathfinder"
+    ],
+    "weapons": {
+      "bite__3c226e76": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        }
+      }
+    },
+    "abilities": [
+      "digInAction",
+      "dragBelow",
+      "extendedControlRange",
+      "steady"
+    ],
+    "spells": [
+      "spinyGrowth"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "rhinodon": {
+    "name": "Rhinodon",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Heavy Warbeast",
+      "Exalted"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20rhinodon.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 18,
+      "fury": 3,
+      "threshold": 9,
+      "health": {
+        "total": 28,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "tail__bf2ba606": {
+        "type": "melee",
+        "name": "Tail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ]
+      },
+      "claw__2b512e19": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "spells": [
+      "spinyGrowth"
+    ]
+  },
+  "siegeAnimantarax": {
+    "name": "Siege Animantarax",
+    "faction": "skorne",
+    "type": "battleEngine",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Battle Engine"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
-    "points": 5,
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20siege%20animantarax.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 10,
+      "armour": 19,
+      "health": 35
+    },
+    "advantages": [
+      "cavalry",
+      "dualAttack",
+      "pathfinder",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "doubleReiver": {
+        "type": "ranged",
+        "name": "Double Reiver",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": "d3+1",
+          "power": 13
+        },
+        "abilities": [
+          "volumeFire"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "spear__3c7c6376": {
+        "type": "melee",
+        "name": "Spear",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 11
+        },
+        "quantity": 2
+      },
+      "clubTail": {
+        "type": "melee",
+        "name": "Club Tail",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 18
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "boundlessRage",
+      "painmonger",
+      "cleave",
+      "reposition3",
+      "shieldGuard"
+    ]
+  },
+  "supremeArchdominaMakeda": {
+    "name": "Supreme Archdomina Makeda",
+    "faction": "skorne",
+    "type": "warlock",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Warlock"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20supreme%20archdomina%20makeda.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 16,
+      "controlRange": 14,
+      "health": 16
+    },
+    "weapons": {
+      "swordOfBalaash": {
+        "type": "melee",
+        "name": "Sword of Balaash",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "comboStrikeAttack__7a566465"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "eliteCadreSmallBasedPraetorian",
+      "stayDeath"
+    ],
+    "spells": [
+      "dash",
+      "deflection",
+      "forceStrike",
+      "stormRager"
+    ],
+    "feat": [
+      "instrumentsOfWar"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "tiberion": {
+    "name": "Tiberion",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Titan",
+      "Skorne",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 17,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20tiberion.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 10,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "tusks__65ba1363": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        }
+      },
+      "shield__51eae935": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "shield"
+        ]
+      },
+      "tetsubo": {
+        "type": "melee",
+        "name": "Tetsubo",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "abilities": [
+          "criticalSmite"
+        ]
+      }
+    },
+    "abilities": [
+      "bondXerxis",
+      "immovableObject",
+      "shieldGuard__819aa308"
+    ],
+    "spells": [
+      "irresistibleForce"
+    ]
+  },
+  "titanCannoneer": {
+    "name": "Titan Cannoneer",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Heavy Warbeast"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 15,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20titan%20cannoneer.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 11,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "dualAttack"
+    ],
+    "weapons": {
+      "siegeGun": {
+        "type": "ranged",
+        "name": "Siege Gun",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        }
+      },
+      "tusks__65ba1363": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 15
+        }
+      },
+      "warMace": {
+        "type": "melee",
+        "name": "War Mace",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "bullheaded"
+    ],
+    "spells": [
+      "farStrike"
+    ]
+  },
+  "titanGladiator": {
+    "name": "Titan Gladiator",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Heavy Warbeast",
+      "Exalted"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20titan%20gladiator.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "tusks__65ba1363": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        }
+      },
+      "warGauntlet__9cdd4c91": {
+        "type": "melee",
+        "name": "War Gauntlet",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bullheaded",
+      "followUp",
+      "slammer"
+    ],
+    "spells": [
+      "rush"
+    ]
+  },
+  "titanSentry": {
+    "name": "Titan Sentry",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Skorne",
+      "Army of the Western Reaches",
+      "Heavy Warbeast",
+      "Exalted"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 14,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20titan%20sentry.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 4,
+      "threshold": 9,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "tusks__65ba1363": {
+        "type": "melee",
+        "name": "Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        }
+      },
+      "shield__51eae935": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "shield"
+        ]
+      },
+      "halberd__a3817cd9": {
+        "type": "melee",
+        "name": "Halberd",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 16
+        }
+      }
+    },
+    "abilities": [
+      "immovableObject",
+      "shieldGuard__819aa308"
+    ],
+    "spells": [
+      "ornery"
+    ]
+  },
+  "tyrantCommanderStandardBearer": {
+    "name": "Tyrant Commander & Standard Bearer",
+    "faction": "skorne",
+    "type": "unit",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Unit",
+      "Skorne"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20tyrant%20commander%20%26%20standard%20bearer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 12,
+      "armour": 16
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "halberd__127e6061": {
+        "type": "melee",
+        "name": "Halberd",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "battlePlan__c0764839",
+      "march",
+      "precisionStrike",
+      "reveille",
+      "setDefense"
+    ],
     "models": {
       "tyrant": {
         "name": "Tyrant",
-        "baseSize": 40,
         "statistics": {
           "speed": 5,
-          "meleeAttack": 8,
+          "meleeAttack": 7,
           "defense": 12,
-          "armour": 16,
-          "health": 8
+          "armour": 16
         },
+        "advantages": [
+          "tough"
+        ],
         "abilities": [
-          "battlePlanGeneral",
+          "battlePlan__c0764839",
+          "march",
+          "precisionStrike",
+          "reveille",
           "setDefense"
         ],
         "weapons": {
-          "halberd": {
+          "halberd__127e6061": {
             "type": "melee",
             "name": "Halberd",
             "statistics": {
-              "meleeAttack": 8,
+              "meleeAttack": 7,
               "range": 2,
               "power": 12
-            }
+            },
+            "qualities": [
+              "weaponMaster"
+            ]
           }
         }
       },
       "standardBearer": {
         "name": "Standard Bearer",
-        "baseSize": 30,
         "statistics": {
           "speed": 5,
-          "meleeAttack": 6,
+          "meleeAttack": 5,
           "defense": 13,
           "armour": 14
         },
         "abilities": [
-          "grantedInspiration",
           "grantedRise"
         ],
         "weapons": {
@@ -2239,38 +4093,354 @@
             "type": "melee",
             "name": "Sword",
             "statistics": {
-              "meleeAttack": 6,
+              "meleeAttack": 5,
               "range": 1,
               "power": 9
             }
           }
         }
       }
+    }
+  },
+  "tyrantRhadeim": {
+    "name": "Tyrant Rhadeim",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Dragoon",
+      "Solo",
+      "Skorne",
+      "Praetorian"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20tyrant%20rhadeim.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 17
     },
-    "advantages": [],
-    "options": []
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "lanceOfBashek": {
+        "type": "melee",
+        "name": "Lance of Bashek",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__02fe0b42": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        }
+      },
+      "bite__68d5566e": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "pounce"
+        ]
+      }
+    },
+    "abilities": [
+      "dodge",
+      "jump",
+      "leadershipPraetorianFerox",
+      "reposition3",
+      "steady",
+      "unyielding"
+    ],
+    "models": {
+      "rhadeim1Mounted": {
+        "name": "Rhadeim 1 (Mounted)",
+        "statistics": {
+          "speed": 8,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 17
+        },
+        "advantages": [
+          "cavalry",
+          "pathfinder",
+          "unstopable"
+        ],
+        "abilities": [
+          "dodge",
+          "jump",
+          "leadershipPraetorianFerox",
+          "reposition3",
+          "steady",
+          "unyielding"
+        ],
+        "weapons": {
+          "lanceOfBashek": {
+            "type": "melee",
+            "name": "Lance of Bashek",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 13
+            },
+            "abilities": [
+              "armorPiercingAttack"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          },
+          "shield__02fe0b42": {
+            "type": "melee",
+            "name": "Shield",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 9
+            }
+          },
+          "bite__68d5566e": {
+            "type": "melee",
+            "name": "Bite",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 13
+            },
+            "abilities": [
+              "pounce"
+            ]
+          }
+        }
+      },
+      "rhadeim1Dismounted": {
+        "name": "Rhadeim 1 (Dismounted)",
+        "statistics": {
+          "speed": 6,
+          "meleeAttack": 7,
+          "defense": 13,
+          "armour": 15
+        },
+        "abilities": [
+          "dodge",
+          "leadershipPraetorianFerox"
+        ],
+        "weapons": {
+          "lanceOfBashek": {
+            "type": "melee",
+            "name": "Lance of Bashek",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 2,
+              "power": 13
+            },
+            "abilities": [
+              "armorPiercingAttack"
+            ],
+            "qualities": [
+              "damageTypeMagical"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "tyrantVorkesh": {
+    "name": "Tyrant Vorkesh",
+    "faction": "skorne",
+    "type": "commandAttachment",
+    "keywords": [
+      "Cataphract",
+      "Command Attachment",
+      "Army of the Western Reaches",
+      "Skorne"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20tyrant%20vorkesh.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "armOfRahaal": {
+        "type": "melee",
+        "name": "Arm of Rahaal",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      },
+      "shield__80b98338": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentCataphract",
+      "cleave",
+      "grantedBulldoze",
+      "grantedSacredWard",
+      "setDefense",
+      "shieldWall"
+    ]
+  },
+  "tyrantZaadesh": {
+    "name": "Tyrant Zaadesh",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Praetorian",
+      "Skorne",
+      "Solo"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20tyrant%20zaadesh.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 4,
+      "arcana": 4,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 15,
+      "controlRange": 8,
+      "health": 5
+    },
+    "weapons": {
+      "deathsong__3e847b14": {
+        "type": "melee",
+        "name": "Deathsong",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "lesserWarlock",
+      "sacrificialPawnWarbeastInThisModelsBattlegroup"
+    ],
+    "spells": [
+      "firstBlood",
+      "synergy"
+    ]
   },
   "venatorCatapultCrew": {
     "name": "Venator Catapult Crew",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
-      "Skorne",
+      "Army of the Western Reaches",
+      "Unit",
       "Weapon Crew",
-      "Unit"
+      "Skorne"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
-    "points": 5,
-    "baseSize": 50,
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20venator%20catapult%20crew.png",
+    "statistics": {
+      "speed": 3,
+      "meleeAttack": 4,
+      "rangedAttack": 3,
+      "defense": 13,
+      "armour": 13
+    },
+    "weapons": {
+      "catapult": {
+        "type": "ranged",
+        "name": "Catapult",
+        "statistics": {
+          "rangedAttack": 3,
+          "range": 16,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "16/9"
+        },
+        "abilities": [
+          "arcingFire",
+          "volumeFire"
+        ]
+      },
+      "sword": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "takeUp"
+    ],
     "models": {
       "gunner": {
         "name": "Gunner",
         "statistics": {
           "speed": 3,
-          "meleeAttack": 5,
+          "meleeAttack": 4,
           "rangedAttack": 3,
           "defense": 13,
           "armour": 13
@@ -2298,7 +4468,7 @@
             "type": "melee",
             "name": "Sword",
             "statistics": {
-              "meleeAttack": 5,
+              "meleeAttack": 4,
               "range": 1,
               "power": 9
             }
@@ -2307,10 +4477,9 @@
       },
       "grunt": {
         "name": "Grunt",
-        "baseSize": 30,
         "statistics": {
           "speed": 3,
-          "meleeAttack": 5,
+          "meleeAttack": 4,
           "defense": 13,
           "armour": 13
         },
@@ -2319,39 +4488,132 @@
             "type": "melee",
             "name": "Sword",
             "statistics": {
-              "meleeAttack": 5,
+              "meleeAttack": 4,
               "range": 1,
               "power": 9
             }
           }
         }
       }
+    }
+  },
+  "venatorDakar": {
+    "name": "Venator Dakar",
+    "faction": "skorne",
+    "type": "solo",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Skorne",
+      "Solo"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20venator%20dakar.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 13,
+      "health": 5
     },
-    "advantages": [],
-    "options": []
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "reiver__f9c0bf1f": {
+        "type": "ranged",
+        "name": "Reiver",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "volumeFire"
+        ],
+        "qualities": [
+          "weaponMaster"
+        ]
+      },
+      "sword": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "battlePlan",
+      "combatCoordinationVenator",
+      "desperatePaceFactionWeaponCrew"
+    ]
   },
   "venatorFlayerCannonCrew": {
     "name": "Venator Flayer Cannon Crew",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
-      "Skorne",
+      "Army of the Western Reaches",
       "Weapon Crew",
-      "Unit"
+      "Unit",
+      "Skorne"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
-    "points": 5,
-    "baseSize": 50,
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20venator%20flayer%20cannon%20crew.png",
+    "statistics": {
+      "speed": 3,
+      "meleeAttack": 4,
+      "rangedAttack": 4,
+      "defense": 13,
+      "armour": 13
+    },
+    "weapons": {
+      "flayerCannon": {
+        "type": "ranged",
+        "name": "Flayer Cannon",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 12,
+          "rateOfFire": "d3",
+          "power": 13
+        },
+        "abilities": [
+          "fastReload",
+          "volumeFire"
+        ]
+      },
+      "sword": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "takeUp"
+    ],
     "models": {
       "gunner": {
         "name": "Gunner",
         "statistics": {
           "speed": 3,
-          "meleeAttack": 5,
-          "rangedAttack": 5,
+          "meleeAttack": 4,
+          "rangedAttack": 4,
           "defense": 13,
           "armour": 13
         },
@@ -2363,9 +4625,9 @@
             "type": "ranged",
             "name": "Flayer Cannon",
             "statistics": {
-              "rangedAttack": 5,
+              "rangedAttack": 4,
               "range": 12,
-              "rateOfFire": "D3",
+              "rateOfFire": "d3",
               "power": 13
             },
             "abilities": [
@@ -2377,7 +4639,7 @@
             "type": "melee",
             "name": "Sword",
             "statistics": {
-              "meleeAttack": 5,
+              "meleeAttack": 4,
               "range": 1,
               "power": 9
             }
@@ -2386,10 +4648,9 @@
       },
       "grunt": {
         "name": "Grunt",
-        "baseSize": 30,
         "statistics": {
           "speed": 3,
-          "meleeAttack": 5,
+          "meleeAttack": 4,
           "defense": 13,
           "armour": 13
         },
@@ -2398,39 +4659,41 @@
             "type": "melee",
             "name": "Sword",
             "statistics": {
-              "meleeAttack": 5,
+              "meleeAttack": 4,
               "range": 1,
               "power": 9
             }
           }
         }
       }
-    },
-    "advantages": [],
-    "options": []
+    }
   },
-  "venatorReivers": {
-    "name": "Venator Reivers",
-    "type": "unit",
+  "venatorReiverOfficerStandard": {
+    "name": "Venator Reiver Officer & Standard",
+    "faction": "skorne",
+    "type": "commandAttachment",
     "keywords": [
       "Skorne",
-      "Unit"
+      "Army of the Western Reaches",
+      "Command Attachment"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "4",
-    "points": 8,
-    "baseSize": 30,
-    "grunts": 5,
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20venator%20reiver%20officer%20%26%20standard.png",
     "statistics": {
       "speed": 6,
       "meleeAttack": 5,
       "rangedAttack": 5,
       "defense": 13,
-      "armour": 13
+      "armour": 13,
+      "health": 5
     },
+    "advantages": [
+      "combinedRangedAttack"
+    ],
     "weapons": {
       "reiver": {
         "type": "ranged",
@@ -2443,8 +4706,7 @@
         },
         "abilities": [
           "volumeFire"
-        ],
-        "qualities": []
+        ]
       },
       "sword": {
         "type": "melee",
@@ -2453,39 +4715,29 @@
           "meleeAttack": 5,
           "range": 1,
           "power": 9
-        },
-        "qualities": []
+        }
       }
     },
-    "advantages": [],
-    "options": []
-  },
-  "venatorReiverOfficerStandard": {
-    "name": "Venator Reiver Officer & Standard",
-    "type": "commandAttachment",
-    "keywords": [
-      "Skorne",
-      "Command Attachment"
+    "abilities": [
+      "commandAttachmentVenatorReivers",
+      "extendedFire",
+      "grantedCombinedArms"
     ],
-    "faction": "Skorne",
-    "armies": [
-      "Army of the Western Reaches"
-    ],
-    "fieldAllowance": "4",
-    "points": 3,
     "models": {
       "officer": {
         "name": "Officer",
-        "baseSize": 30,
         "statistics": {
           "speed": 6,
-          "meleeAttack": 6,
-          "rangedAttack": 6,
+          "meleeAttack": 5,
+          "rangedAttack": 5,
           "defense": 13,
-          "armour": 13
+          "armour": 13,
+          "health": 5
         },
+        "advantages": [
+          "combinedRangedAttack"
+        ],
         "abilities": [
-          "commandAttachmentVenatorReivers",
           "extendedFire",
           "grantedCombinedArms"
         ],
@@ -2494,7 +4746,7 @@
             "type": "ranged",
             "name": "Reiver",
             "statistics": {
-              "rangedAttack": 6,
+              "rangedAttack": 5,
               "range": 12,
               "rateOfFire": 1,
               "power": 10
@@ -2507,7 +4759,7 @@
             "type": "melee",
             "name": "Sword",
             "statistics": {
-              "meleeAttack": 6,
+              "meleeAttack": 5,
               "range": 1,
               "power": 9
             }
@@ -2516,15 +4768,15 @@
       },
       "standardBearer": {
         "name": "Standard Bearer",
-        "baseSize": 30,
         "statistics": {
           "speed": 6,
           "meleeAttack": 5,
           "defense": 13,
-          "armour": 13
+          "armour": 13,
+          "health": 5
         },
         "abilities": [
-          "grantedInspiration"
+          "takeUp"
         ],
         "weapons": {
           "sword": {
@@ -2538,32 +4790,84 @@
           }
         }
       }
-    },
-    "advantages": [],
-    "options": []
+    }
   },
-  "venatorSlingers": {
-    "name": "Venator Slingers",
+  "venatorReivers": {
+    "name": "Venator Reivers",
+    "faction": "skorne",
     "type": "unit",
     "keywords": [
+      "Army of the Western Reaches",
       "Skorne",
       "Unit"
     ],
-    "faction": "Skorne",
     "armies": [
-      "Army of the Western Reaches"
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20venator%20reivers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 13
+    },
+    "advantages": [
+      "combinedRangedAttack"
+    ],
+    "weapons": {
+      "reiver": {
+        "type": "ranged",
+        "name": "Reiver",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "abilities": [
+          "volumeFire"
+        ]
+      },
+      "sword": {
+        "type": "melee",
+        "name": "Sword",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 9
+        }
+      }
+    }
+  },
+  "venatorSlingers": {
+    "name": "Venator Slingers",
+    "faction": "skorne",
+    "type": "unit",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Unit",
+      "Skorne"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
     ],
     "fieldAllowance": "2",
     "points": 7,
-    "baseSize": 30,
-    "grunts": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20venator%20slingers.png",
     "statistics": {
       "speed": 6,
-      "meleeAttack": 5,
+      "meleeAttack": 4,
       "rangedAttack": 5,
       "defense": 13,
       "armour": 12
     },
+    "advantages": [
+      "advanceDeployment",
+      "combinedRangedAttack"
+    ],
     "weapons": {
       "sling": {
         "type": "ranged",
@@ -2575,22 +4879,209 @@
           "power": 10
         },
         "abilities": [
-          "attackType"
+          "attackType",
+          "acidBath",
+          "erosion",
+          "flare__24a85f2a"
         ],
-        "qualities": []
+        "qualities": [
+          "damageTypeCorrosion"
+        ]
       },
       "sword": {
         "type": "melee",
         "name": "Sword",
         "statistics": {
-          "meleeAttack": 5,
+          "meleeAttack": 4,
           "range": 1,
           "power": 9
-        },
-        "qualities": []
+        }
+      }
+    }
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "skorne",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
       }
     },
-    "advantages": [],
-    "options": []
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "xerxisFuryOfHalaak": {
+    "name": "Xerxis, Fury of Halaak",
+    "faction": "skorne",
+    "type": "warlock",
+    "keywords": [
+      "Army of the Western Reaches",
+      "Battle Engine",
+      "Warlock"
+    ],
+    "armies": [
+      "army-of-the-western-reaches"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20skorne%20xerxis%20fury%20of%20halaak.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 8,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 12,
+      "health": 24
+    },
+    "advantages": [
+      "cavalry",
+      "pathfinder",
+      "tough",
+      "tramplePowerAttack",
+      "unstopable"
+    ],
+    "weapons": {
+      "lamentor": {
+        "type": "melee",
+        "name": "Lamentor",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "brutalCharge"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "warStandard": {
+        "type": "melee",
+        "name": "War Standard",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 12
+        }
+      },
+      "mount": {
+        "type": "melee",
+        "name": "Mount",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 14
+        },
+        "abilities": [
+          "knockdown",
+          "pitchAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "fieldMarshal2SPD",
+      "sprint"
+    ],
+    "spells": [
+      "ignite",
+      "rapport",
+      "stranglehold"
+    ],
+    "feat": [
+      "handOfTheAncients"
+    ]
   }
 }

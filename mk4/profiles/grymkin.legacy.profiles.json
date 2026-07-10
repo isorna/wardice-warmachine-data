@@ -1,0 +1,5057 @@
+{
+  "aberration": {
+    "name": "Aberration",
+    "faction": "grymkin",
+    "type": "monstrosity",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Monstrosity"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Abberation.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 4,
+      "defense": 10,
+      "armour": 17,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "B",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "B"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "eyelessSight",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "arcNode"
+    ],
+    "weapons": {
+      "sawCatapult": {
+        "type": "ranged",
+        "name": "Saw Catapult",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "location": "R",
+        "abilities": [
+          "grievousWounds"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "adhesiveBlaster": {
+        "type": "ranged",
+        "name": "Adhesive Blaster",
+        "statistics": {
+          "rangedAttack": 4,
+          "range": "Sp 8",
+          "rateOfFire": 1
+        },
+        "location": "L",
+        "abilities": [
+          "shadowBind",
+          "reload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "hydraulicShears": {
+        "type": "melee",
+        "name": "Hydraulic Shears",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 17
+        },
+        "location": "L",
+        "abilities": [
+          "criticalDecapitation"
+        ]
+      },
+      "tenderizer": {
+        "type": "melee",
+        "name": "Tenderizer",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "beatBack"
+        ]
+      },
+      "grapplingClaw": {
+        "type": "melee",
+        "name": "Grappling Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "manCatcher"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "companionExulonNostilla",
+      "hormoneManipulation",
+      "adrenalSurge",
+      "dopamineBoost",
+      "endorphinDump",
+      "hyperAggressive",
+      "imperviousFlesh"
+    ]
+  },
+  "baronTonguelickLordOfWarts": {
+    "name": "Baron Tonguelick, Lord of Warts",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Baron%20Tonguelick%2C%20Lord%20of%20Warts.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "meleeAttack": 4,
+      "defense": 14,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "amphibious"
+    ],
+    "weapons": {
+      "tongueLash": {
+        "type": "melee",
+        "name": "Tongue Lash",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 3,
+          "power": 10
+        },
+        "abilities": [
+          "consume",
+          "drag"
+        ]
+      }
+    },
+    "abilities": [
+      "attached",
+      "arcaneAssist",
+      "jump",
+      "magicAbility",
+      "parlayAction",
+      "spellSlaveActionOrAttack",
+      "swampGasAction"
+    ]
+  },
+  "cageRager": {
+    "name": "Cage Rager",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Cage%20Rager.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 10,
+      "armour": 16,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 32,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "gibbet": {
+        "type": "melee",
+        "name": "Gibbet",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 17
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "darkUnraveling",
+      "graveSecrets",
+      "imperviousFlesh",
+      "rattleBones"
+    ],
+    "spells": [
+      "wraithbane"
+    ]
+  },
+  "carverUltimus": {
+    "name": "Carver Ultimus",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20carver%20ultimus.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 19,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "doubleBarreledScattergun": {
+        "type": "ranged",
+        "name": "Double-Barreled Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty__f77244b2": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "hyperAggressive",
+      "lesserWarlock",
+      "limitedBattlegroupWarBoarMMD47"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "quagmire",
+      "torment"
+    ]
+  },
+  "caskImp": {
+    "name": "Cask Imp",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "3",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20cask%20imp.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 11
+    },
+    "advantages": [
+      "advanceDeployment"
+    ],
+    "abilities": [
+      "alcoholFueled",
+      "temperamental",
+      "inconsequential"
+    ]
+  },
+  "clockatrice": {
+    "name": "Clockatrice",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Clockatrice.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 18,
+      "fury": 3,
+      "health": {
+        "total": 27,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "dualAttack",
+      "eyelessSight",
+      "flight"
+    ],
+    "weapons": {
+      "deathGaze": {
+        "type": "ranged",
+        "name": "Death Gaze",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "abilities": [
+          "slow"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "tailStrike__8563f5c0": {
+        "type": "melee",
+        "name": "Tail Strike",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 14
+        },
+        "qualities": [
+          "chainWeapon"
+        ]
+      },
+      "claw__4d44a699": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "autoRepair",
+      "timeStutter"
+    ],
+    "spells": [
+      "timeLock"
+    ]
+  },
+  "constanceBlaizeKnightOfTheProphet": {
+    "name": "Constance Blaize, Knight of the Prophet",
+    "faction": "grymkin",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20constance%20blaize%20knight%20of%20the%20prophet.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 16
+    },
+    "weapons": {
+      "sunSpear": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "blessedShield": {
+        "type": "melee",
+        "name": "Blessed Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCygnar",
+      "blessingOfMorrow",
+      "flankMorrowan",
+      "soulTakerReclaim"
+    ],
+    "spells": [
+      "crusaderSCall",
+      "flashingBlade",
+      "fortune",
+      "repudiate",
+      "sunburst"
+    ],
+    "feat": [
+      "divineIntervention"
+    ]
+  },
+  "constanceBlaizeRadianceOfMorrow": {
+    "name": "Constance Blaize, Radiance Of Morrow",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo",
+      "Morrowan"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "controlRange": 12,
+      "health": 10
+    },
+    "weapons": {
+      "sunSpear__90507e4d": {
+        "type": "melee",
+        "name": "Sun Spear",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__4ee2c3ee": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "journeymanWarcaster",
+      "knightOfTheProphet",
+      "limitedBattlegroupGallant",
+      "requiemForTheFallen",
+      "absolution",
+      "divineIllumination",
+      "invocation",
+      "sacrosanctLight"
+    ],
+    "spells": [
+      "flashingBlade",
+      "aegis",
+      "morrowsBlessing"
+    ]
+  },
+  "crabbit": {
+    "name": "Crabbit",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Lesser Warbeast",
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "8",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Crabbit.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "defense": 13,
+      "armour": 12,
+      "fury": 2,
+      "threshold": 6,
+      "health": {
+        "total": 13,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 1
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 1
+            }
+          ]
+        }
+      }
+    },
+    "weapons": {
+      "bite__91f0233d": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 8
+        }
+      }
+    },
+    "abilities": [
+      "shieldGuard",
+      "vault"
+    ],
+    "spells": [
+      "elusive"
+    ]
+  },
+  "deathArchon": {
+    "name": "Death Archon",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20death%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "health": 15
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "ironReaper": {
+        "type": "melee",
+        "name": "Iron Reaper",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        },
+        "quantity": 2,
+        "abilities": [
+          "bloodReaper",
+          "chainAttackDeathChill"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "animosityOtherArchons",
+      "bodySnatcherGraveRobber10",
+      "deathHowler",
+      "meatForTheBeast",
+      "shadowGate",
+      "divineManifestation"
+    ]
+  },
+  "deathKnell": {
+    "name": "Death Knell",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Death%20Knell.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 12,
+      "armour": 18,
+      "health": 18
+    },
+    "advantages": [
+      "cavalry",
+      "construct",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "deathKnell": {
+        "type": "melee",
+        "name": "Death Knell",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherGraveRobber10",
+      "deathFeast",
+      "entropicForce__d5706932",
+      "neverEndingPile",
+      "specialDelivery",
+      "warmthOfTheGrave"
+    ]
+  },
+  "defenses__c9f383d5": {
+    "name": "Defenses",
+    "faction": "grymkin",
+    "type": "defense",
+    "keywords": [],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "1",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20wall%20barrier.png",
+    "statistics": {},
+    "abilities": [
+      "deployingDefenses",
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense Option 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "No option",
+        "cost": 0
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 2",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense Option 3",
+        "name": "No option",
+        "cost": 0
+      }
+    ]
+  },
+  "defenses__a85fc551": {
+    "name": "Defenses",
+    "faction": "grymkin",
+    "type": "defense",
+    "keywords": [
+      "Terrain Feature"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/option%20general%20fire%20pit.png",
+    "statistics": {},
+    "abilities": [
+      "destroyableDefenses"
+    ],
+    "options": [
+      {
+        "slot": "Defense 1",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 1",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 1",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 1",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Fire Pit",
+        "cost": 0,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defense 2",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Fire Pit",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Fire Pit",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "fireHazard",
+              "illumination"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Powder Keg",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Powder Keg",
+            "statistics": {
+              "defense": 5
+            },
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "exploding",
+              "targetable__e88cb9ef",
+              "throwable",
+              "demolition"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Spike Trap",
+        "cost": 1,
+        "models": [
+          {
+            "name": "Spike Trap",
+            "statistics": {},
+            "abilities": [
+              "roughTerrain",
+              "spikeHazard",
+              "spikeTrap"
+            ]
+          }
+        ]
+      },
+      {
+        "slot": "Defence 3",
+        "name": "Barrier",
+        "cost": 2,
+        "models": [
+          {
+            "name": "Barrier",
+            "statistics": {},
+            "abilities": [
+              "obstacle",
+              "barrier",
+              "cover",
+              "barrier__f81e6c5b"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "defiledArchon": {
+    "name": "Defiled Archon",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20defiled%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 18,
+      "controlRange": 10,
+      "health": 13
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "lawbreaker": {
+        "type": "melee",
+        "name": "Lawbreaker",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "dispel"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "battleWizard",
+      "darkPower",
+      "divineManifestation",
+      "gateWalker",
+      "magicAbility",
+      "burningAshAction",
+      "hellfireAttack",
+      "influenceAttack"
+    ]
+  },
+  "dreadRots": {
+    "name": "Dread Rots",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Dread%20Rots.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "farmingImplement": {
+        "type": "melee",
+        "name": "Farming Implement",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 10
+        },
+        "qualities": [
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherBagMan",
+      "victualsYouCanNeitherRaiseNorBuy"
+    ]
+  },
+  "eilishGarrityTheDarkSeeker": {
+    "name": "Eilish Garrity, the Dark Seeker",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Infernals",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "magicAbility",
+      "hexBlastAttack",
+      "marionetteAttack",
+      "puppetMasterAction",
+      "markedSoul"
+    ]
+  },
+  "eilishGarrityTheDarkTraitor": {
+    "name": "Eilish Garrity, the Dark Traitor",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20dark%20traitor.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryGravediggersKithguardSeaRaidersAndStormLegion",
+      "arcanePulse",
+      "darkPower",
+      "gateWalker",
+      "hellMarked",
+      "magicAbility",
+      "deathRattleAttack",
+      "marionetteAttack",
+      "puppetMasterAction"
+    ]
+  },
+  "eilishGarrityTheOccultist": {
+    "name": "Eilish Garrity, the Occultist",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20eilish%20garrity%20the%20occultist.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "arcaneVoid",
+      "gateWalker",
+      "magicAbility__0cffaca0",
+      "bleedAttack",
+      "puppetMasterAction",
+      "unbindingAction",
+      "markedSoul",
+      "mentalForce"
+    ]
+  },
+  "emperorCarverUltimusBMMDEsqIII": {
+    "name": "Emperor Carver Ultimus, BMMD, Esq. III",
+    "faction": "grymkin",
+    "type": "warlock",
+    "keywords": [
+      "Farrow",
+      "Warlock",
+      "Thornfall Alliance",
+      "Mercenary"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20lord%20carver%20bmmd%20esq%20iii.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 15,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "tough",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sawedOffScattergun": {
+        "type": "ranged",
+        "name": "Sawed-Off Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 6",
+          "rateOfFire": 2,
+          "power": 12
+        },
+        "abilities": [
+          "bothBarrelsAttack"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "handOfGodAlmighty": {
+        "type": "melee",
+        "name": "Hand of God Almighty",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "continuousEffectFire"
+        ]
+      },
+      "swineRipper": {
+        "type": "melee",
+        "name": "Swine Ripper",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "criticalPitch"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "greatPower",
+      "fieldMarshalHyperAggressive",
+      "veteranLeaderFarrowWarrior"
+    ],
+    "spells": [
+      "battenDownTheHatches",
+      "bombshell",
+      "mobility",
+      "quagmire"
+    ],
+    "feat": [
+      "hogHeaven"
+    ]
+  },
+  "exulonNostilla": {
+    "name": "Exulon Nostilla",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Cephalyx"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Merc_Exulon-Nostilla.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 5,
+      "arcana": 5,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 16,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "pathfinder",
+      "dualAttack",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "psychicForce": {
+        "type": "ranged",
+        "name": "Psychic Force",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "SP 10",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "abilities": [
+          "brainDamage__624fe246"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "prostheticBlades": {
+        "type": "melee",
+        "name": "Prosthetic Blades",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "inflictPain"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "anatomicalPrecision",
+      "combatDrugsAction",
+      "journeymanCephalyxWarcaster",
+      "limitedBattlegroupAberration",
+      "sucker",
+      "vitalizerAction__df1da9e6"
+    ],
+    "spells": [
+      "darkSeduction",
+      "revive",
+      "vision"
+    ]
+  },
+  "frightmare": {
+    "name": "Frightmare",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Frightmare.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "dualAttack",
+      "resistanceCorrosion",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "acidBlast": {
+        "type": "ranged",
+        "name": "Acid Blast",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "13/7"
+        },
+        "qualities": [
+          "damageTypeCorrosion",
+          "continuousEffectCorrosion"
+        ]
+      },
+      "claw__cab265fc": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 12
+        },
+        "quantity": 2,
+        "abilities": [
+          "brutalCharge"
+        ],
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "regenerationD3"
+    ],
+    "spells": [
+      "seeInTheDark__715f0ffc"
+    ]
+  },
+  "gallant__5164dcc0": {
+    "name": "Gallant",
+    "faction": "grymkin",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 10,
+      "armour": 20,
+      "health": {
+        "total": 36,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "R",
+                "6": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "tramplePowerAttack",
+      "slamPowerAttack",
+      "headbuttPowerAttack",
+      "cavalry",
+      "construct",
+      "unstopable",
+      "flight"
+    ],
+    "weapons": {
+      "lastingLight__ffd89bda": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "atonement"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "shield__a892b8b9": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "L",
+        "qualities": [
+          "shield",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "companionConstanceBlaizeRadianceOfMorrow",
+      "deployCountermeasuresAction",
+      "divineBulwark",
+      "inviolableBastion",
+      "reposition3"
+    ]
+  },
+  "gallant__f61abbf3": {
+    "name": "Gallant",
+    "faction": "grymkin",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Morrowan",
+      "Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 13,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20gallant.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 18,
+      "health": {
+        "total": 30,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "L"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "L",
+                "4": "L",
+                "5": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "3": "R",
+                "4": "R",
+                "5": "C"
+              }
+            },
+            {
+              "boxes": 4,
+              "systems": {
+                "4": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "lastingLight": {
+        "type": "melee",
+        "name": "Lasting Light",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "purgation"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "openFist__7a02325e": {
+        "type": "melee",
+        "name": "Open Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 14
+        },
+        "location": "R",
+        "qualities": [
+          "buckler",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "accumulatorMorrowan",
+      "bondBlaize",
+      "shieldGuard",
+      "sacredWard"
+    ]
+  },
+  "glimmerImp": {
+    "name": "Glimmer Imp",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20glimmer%20imp.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 14,
+      "armour": 10,
+      "health": 5
+    },
+    "advantages": [
+      "eyelessSight",
+      "stealth"
+    ],
+    "weapons": {
+      "spoon": {
+        "type": "melee",
+        "name": "Spoon",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 0
+        },
+        "abilities": [
+          "eyeThief",
+          "scoop"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "paralyzingGaze"
+    ]
+  },
+  "gorehound": {
+    "name": "Gorehound",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Gorehound.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 13,
+      "fury": 3,
+      "threshold": 8,
+      "health": {
+        "total": 20,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 2
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "bite__4213582d": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 12
+        },
+        "abilities": [
+          "boneKeeper"
+        ]
+      }
+    },
+    "abilities": [
+      "extendedControlRange",
+      "ghostly",
+      "prowl"
+    ],
+    "spells": [
+      "lightningStrike"
+    ]
+  },
+  "graveGhoul": {
+    "name": "Grave Ghoul",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Grave%20Ghoul.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 5,
+      "defense": 12,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "weapons": {
+      "shovel": {
+        "type": "melee",
+        "name": "Shovel",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 12
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherGraveRobber5",
+      "boneWorking",
+      "graveDiggerAction",
+      "iFoundOneAction",
+      "undertaker"
+    ]
+  },
+  "gremlinSwarm": {
+    "name": "Gremlin Swarm",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Gremlin%20Swarm.png",
+    "statistics": {
+      "speed": 6,
+      "defense": 13,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "incorporeal",
+      "stealth"
+    ],
+    "abilities": [
+      "annoyance",
+      "apparition",
+      "mischief",
+      "serenity"
+    ]
+  },
+  "hermitOfHengeHold": {
+    "name": "Hermit of Henge Hold",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Infernals",
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "statistics": {
+      "speed": 5,
+      "defense": 11,
+      "armour": 11,
+      "health": 5
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleConvergenceCrucibleGuardCryxCygnarGrymkinKhadorLegionProtectorateRetributionSkorneAndTrollbloods",
+      "ancientShroud",
+      "darkProphecy",
+      "magicAbility",
+      "gripOfShadowsAction",
+      "whispersAtTheGateAction",
+      "wordOfRuinAction",
+      "markedSoul"
+    ]
+  },
+  "hollowHolden": {
+    "name": "Hollow Holden",
+    "faction": "grymkin",
+    "type": "commandAttachment",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 1,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Hollow%20Holden.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "assault",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "huntingRifle__b7060cb1": {
+        "type": "ranged",
+        "name": "Hunting Rifle",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "trenchKnife": {
+        "type": "melee",
+        "name": "Trench Knife",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentHollowmen",
+      "annoyance",
+      "ghostly",
+      "grantedSnapFire",
+      "prowl",
+      "sniper",
+      "bloodBound"
+    ]
+  },
+  "hollowmen": {
+    "name": "Hollowmen",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Hollowmen.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 5,
+      "defense": 13,
+      "armour": 12
+    },
+    "advantages": [
+      "combinedRangedAttack",
+      "eyelessSight",
+      "assault"
+    ],
+    "weapons": {
+      "militaryRifle__a8ada75b": {
+        "type": "ranged",
+        "name": "Military Rifle",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 12
+        }
+      },
+      "bayonet__3cacfe68": {
+        "type": "melee",
+        "name": "Bayonet",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 9
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      }
+    },
+    "abilities": [
+      "ghostly",
+      "bloodBound"
+    ]
+  },
+  "invictus": {
+    "name": "Invictus",
+    "faction": "grymkin",
+    "type": "warjack",
+    "keywords": [
+      "Mercenary",
+      "Super Heavy Warjack"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20invictus.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 5,
+      "defense": 9,
+      "armour": 20,
+      "health": {
+        "total": 34,
+        "layout": "grid",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "L"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "L",
+                "5": "L",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "M",
+                "6": "M"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "A",
+                "5": "C",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 6,
+              "systems": {
+                "4": "R",
+                "5": "R",
+                "6": "C"
+              }
+            },
+            {
+              "boxes": 5,
+              "systems": {
+                "5": "R"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "arcNode",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "construct"
+    ],
+    "weapons": {
+      "obliterator__06d4174d": {
+        "type": "ranged",
+        "name": "Obliterator",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "areaOfEffect": 3,
+          "power": "15/8"
+        },
+        "location": "L",
+        "abilities": [
+          "arcingFire",
+          "criticalKnockdown__870725a5"
+        ]
+      },
+      "flamethrower__f8d762ab": {
+        "type": "ranged",
+        "name": "Flamethrower",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeFire",
+          "pistol"
+        ]
+      },
+      "scrapSaw__d5178870": {
+        "type": "melee",
+        "name": "Scrap Saw",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 18
+        },
+        "location": "L",
+        "abilities": [
+          "criticalShred__8545b96b",
+          "sustainedAttack"
+        ]
+      },
+      "battleFlail": {
+        "type": "melee",
+        "name": "Battle Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 3,
+          "power": 19
+        },
+        "location": "R",
+        "abilities": [
+          "criticalKnockdown",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon"
+        ]
+      }
+    },
+    "abilities": [
+      "companionMagnusTheUnstoppable",
+      "aggressive",
+      "retaliatoryStrike"
+    ]
+  },
+  "isaiahDreadHarvester": {
+    "name": "Isaiah, Dread Harvester",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin",
+      "Dread Rot"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Isaiah%2C%20Dread%20Harvester.png",
+    "statistics": {
+      "speed": 8,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "health": 14
+    },
+    "advantages": [
+      "dualAttack",
+      "cavalry",
+      "unstopable"
+    ],
+    "weapons": {
+      "thrownWeapon": {
+        "type": "ranged",
+        "name": "Thrown Weapon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "deathTollDreadRot"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "wickedScythe": {
+        "type": "melee",
+        "name": "Wicked Scythe",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "thresherAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "bloodRage",
+      "meatForTheBeast",
+      "leadershipDreadRot__ea80651c",
+      "ghostly",
+      "reposition3"
+    ]
+  },
+  "ladyKariannaRose": {
+    "name": "Lady Karianna Rose",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Lady%20Karianna%20Rose.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 12,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "weapons": {
+      "dagger__43faa3ae": {
+        "type": "melee",
+        "name": "Dagger",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 7
+        }
+      }
+    },
+    "abilities": [
+      "magicAbility",
+      "ancillaryAttackAction",
+      "enrageAction__25ae956a",
+      "shepherdsCallAction",
+      "sorrowfulRampage"
+    ]
+  },
+  "lanternMen": {
+    "name": "Lantern Men",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/LanternMan.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "defense": 12,
+      "armour": 12
+    },
+    "advantages": [
+      "eyelessSight"
+    ],
+    "abilities": [
+      "ghostly",
+      "magicAbility",
+      "conditionAction__f10c61cd",
+      "ghostLightAttack",
+      "obscuringMistAction"
+    ]
+  },
+  "lordLongfellow": {
+    "name": "Lord Longfellow",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Lord%20Longfellow.png",
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 13,
+      "health": 8
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "weapons": {
+      "duelingPistol": {
+        "type": "ranged",
+        "name": "Dueling Pistol",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 10
+        },
+        "quantity": 2,
+        "abilities": [
+          "snapFire"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "finisher",
+      "fortuneHunter",
+      "reciprocate",
+      "swiftHunter"
+    ]
+  },
+  "madCaps": {
+    "name": "Mad Caps",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Weapon Crew",
+      "Unit"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20mad%20caps.png",
+    "statistics": {
+      "speed": 4,
+      "defense": 13,
+      "armour": 15,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment"
+    ],
+    "abilities": [
+      "caskTapperAction",
+      "catastrophicExplosion",
+      "ventFumes"
+    ],
+    "models": {
+      "boss": {
+        "name": "Boss",
+        "statistics": {
+          "speed": 4,
+          "defense": 13,
+          "armour": 15,
+          "health": 5
+        },
+        "advantages": [
+          "advanceDeployment"
+        ],
+        "abilities": [
+          "caskTapperAction",
+          "catastrophicExplosion",
+          "ventFumes"
+        ]
+      },
+      "grunt": {
+        "name": "Grunt",
+        "statistics": {
+          "speed": 4,
+          "rangedAttack": 5,
+          "defense": 13,
+          "armour": 11,
+          "health": 5
+        },
+        "advantages": [
+          "advanceDeployment"
+        ],
+        "weapons": {
+          "fierySpirits": {
+            "type": "ranged",
+            "name": "Fiery Spirits",
+            "statistics": {
+              "rangedAttack": 5,
+              "range": 6,
+              "rateOfFire": 1,
+              "areaOfEffect": 2,
+              "power": "12/6"
+            },
+            "qualities": [
+              "criticalFire",
+              "damageTypeFire"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "magnusTheTraitor": {
+    "name": "Magnus the Traitor",
+    "faction": "grymkin",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20traitor.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "scattergun__333deff4": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver__5f339ad1": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "abilities": [
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "feignDeath",
+      "repairD31Action__f08d8031",
+      "resourceful"
+    ],
+    "spells": [
+      "arcantrikBolt",
+      "blur",
+      "deathWard",
+      "ironAggression",
+      "scourge",
+      "snipe"
+    ],
+    "feat": [
+      "hitRun"
+    ]
+  },
+  "magnusTheUnstoppable": {
+    "name": "Magnus the Unstoppable",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 20,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20unstoppable.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 5,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 10
+    },
+    "advantages": [
+      "dualAttack",
+      "tough"
+    ],
+    "weapons": {
+      "rocketLauncher__cc2b5bfb": {
+        "type": "ranged",
+        "name": "Rocket Launcher",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 14,
+          "rateOfFire": 1,
+          "areaOfEffect": 2,
+          "power": "14/8"
+        },
+        "abilities": [
+          "cumbersome"
+        ]
+      },
+      "scattergun__ecf6ff08": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "Sp 6",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaverX": {
+        "type": "melee",
+        "name": "Foecleaver X",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "powerfulAttack",
+          "armorPiercingAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "ironFist": {
+        "type": "melee",
+        "name": "Iron Fist",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "beatBack"
+        ]
+      }
+    },
+    "abilities": [
+      "trueMercenary",
+      "feignDeath",
+      "journeymanWarcaster",
+      "limitedBattlegroupInvictus"
+    ],
+    "spells": [
+      "convection",
+      "energizer",
+      "hellwrought"
+    ]
+  },
+  "magnusTheWarlord": {
+    "name": "Magnus the Warlord",
+    "faction": "grymkin",
+    "type": "warcaster",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Scout",
+      "Warcaster"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20magnus%20the%20warlord.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 12,
+      "health": 17
+    },
+    "advantages": [
+      "dualAttack"
+    ],
+    "weapons": {
+      "scattergun": {
+        "type": "ranged",
+        "name": "Scattergun",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "SP 8",
+          "rateOfFire": 1,
+          "power": 12
+        },
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "foecleaver": {
+        "type": "melee",
+        "name": "Foecleaver",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "armorPiercingAttack",
+          "powerfulAttack"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "mechanikalArm": {
+        "type": "melee",
+        "name": "Mechanikal Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "knockdown"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCryxKhadorAndProtectorate",
+      "fieldMarshalUnyielding",
+      "unyielding"
+    ],
+    "spells": [
+      "bulletDodger",
+      "calamity",
+      "convection",
+      "escort",
+      "obliteration"
+    ],
+    "feat": [
+      "killBox"
+    ]
+  },
+  "maladyMan": {
+    "name": "Malady Man",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Malady%20Man.png",
+    "statistics": {
+      "speed": 5,
+      "defense": 12,
+      "armour": 14,
+      "health": 5
+    },
+    "abilities": [
+      "magicAbility",
+      "cradleSongAction",
+      "somethingWickedAction",
+      "reveille",
+      "reinforced"
+    ],
+    "models": {
+      "maladyMan": {
+        "name": "Malady Man",
+        "statistics": {
+          "speed": 5,
+          "defense": 12,
+          "armour": 14,
+          "health": 5
+        },
+        "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Malady%20Man.png",
+        "abilities": [
+          "magicAbility",
+          "cradleSongAction",
+          "somethingWickedAction",
+          "reveille",
+          "reinforced"
+        ]
+      },
+      "monkey": {
+        "name": "Monkey",
+        "statistics": {
+          "speed": 7,
+          "meleeAttack": 4,
+          "defense": 14,
+          "armour": 12,
+          "health": 5
+        },
+        "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20malady%20man.png",
+        "advantages": [
+          "pathfinder"
+        ],
+        "abilities": [
+          "acrobatics",
+          "monkeyBite"
+        ],
+        "weapons": {
+          "bite__91f0233d": {
+            "type": "melee",
+            "name": "Bite",
+            "statistics": {
+              "meleeAttack": 4,
+              "range": 1,
+              "power": 8
+            }
+          }
+        }
+      }
+    }
+  },
+  "meniteArchon": {
+    "name": "Menite Archon",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary",
+      "Protectorate"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20menite%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 19,
+      "health": 15
+    },
+    "advantages": [
+      "flight",
+      "resistanceFire"
+    ],
+    "weapons": {
+      "blazingSword__1fa20e01": {
+        "type": "melee",
+        "name": "Blazing Sword",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "dispel"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      },
+      "flail__1972002c": {
+        "type": "melee",
+        "name": "Flail",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "grievousWounds",
+          "thresherAttack"
+        ],
+        "qualities": [
+          "chainWeapon",
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedKhador",
+      "ashenVeil",
+      "divineInspiration",
+      "divineManifestation",
+      "righteousFury",
+      "soulWard",
+      "righteousVengeance"
+    ]
+  },
+  "morrowanArchon": {
+    "name": "Morrowan Archon",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Cygnar",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20morrowan%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 13,
+      "armour": 18,
+      "health": 12
+    },
+    "advantages": [
+      "flight"
+    ],
+    "weapons": {
+      "holySpear": {
+        "type": "melee",
+        "name": "Holy Spear",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 2,
+          "power": 15
+        },
+        "abilities": [
+          "criticalBlind"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical"
+        ]
+      },
+      "shield__47b8a5ab": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalBlind"
+        ],
+        "qualities": [
+          "blessed",
+          "damageTypeMagical",
+          "shield"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardAndKhador",
+      "animosityMenite",
+      "blindingRadiance",
+      "divineInspiration",
+      "divineManifestation",
+      "shieldGuard",
+      "soulWard",
+      "veteranLeaderMorrowan"
+    ]
+  },
+  "murderCrows": {
+    "name": "Murder Crows",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Unit"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20murder%20crows.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 12
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "pathfinder",
+      "stealth"
+    ],
+    "weapons": {
+      "claws__9e06631e": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "gang"
+    ]
+  },
+  "neighSlayerWarHorse": {
+    "name": "Neigh Slayer War Horse",
+    "faction": "grymkin",
+    "type": "commandAttachment",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Neigh%20Slayers%20War%20Horse.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "defense": 13,
+      "armour": 16,
+      "health": 5
+    },
+    "advantages": [
+      "cavalry",
+      "unstopable"
+    ],
+    "weapons": {
+      "lance": {
+        "type": "melee",
+        "name": "Lance",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 9
+        },
+        "abilities": [
+          "armorPiercing"
+        ]
+      }
+    },
+    "abilities": [
+      "commandAttachmentNeighSlayers",
+      "grantedRise",
+      "playingDead__c94e17bf",
+      "relentlessCharge",
+      "reposition3"
+    ]
+  },
+  "neighSlayers": {
+    "name": "Neigh Slayers",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Neigh%20Slayers.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14
+    },
+    "advantages": [
+      "cavalry"
+    ],
+    "weapons": {
+      "lance__8eb16c55": {
+        "type": "melee",
+        "name": "Lance",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 7
+        },
+        "abilities": [
+          "armorPiercing"
+        ]
+      }
+    },
+    "abilities": [
+      "relentlessCharge",
+      "reposition3"
+    ]
+  },
+  "phantasm": {
+    "name": "Phantasm",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20phantasm.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "soulless"
+    ],
+    "abilities": [
+      "annoyance",
+      "created",
+      "markTarget",
+      "inconsequential"
+    ],
+    "models": {
+      "smallPhantasm": {
+        "name": "Small Phantasm’",
+        "statistics": {
+          "speed": 7,
+          "defense": 14,
+          "armour": 12
+        },
+        "advantages": [
+          "soulless"
+        ],
+        "abilities": [
+          "annoyance",
+          "created",
+          "markTarget",
+          "inconsequential"
+        ]
+      },
+      "mediumPhantasm": {
+        "name": "Medium Phantasm’",
+        "statistics": {
+          "speed": 6,
+          "defense": 12,
+          "armour": 16
+        },
+        "advantages": [
+          "soulless"
+        ],
+        "abilities": [
+          "annoyance",
+          "channeler",
+          "created",
+          "inconsequential"
+        ]
+      },
+      "largePhantasm": {
+        "name": "Large Phantasm’",
+        "statistics": {
+          "speed": 4,
+          "defense": 10,
+          "armour": 18
+        },
+        "advantages": [
+          "soulless"
+        ],
+        "abilities": [
+          "annoyance",
+          "bulldoze",
+          "created",
+          "deathVoid",
+          "inconsequential"
+        ]
+      }
+    }
+  },
+  "piggybackOfficer": {
+    "name": "Piggyback Officer",
+    "faction": "grymkin",
+    "type": "commandAttachment",
+    "keywords": [
+      "Command Attachment"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20piggyback%20officer.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 7,
+      "defense": 11,
+      "armour": 14,
+      "health": 8
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "poleArm__ea06d930": {
+        "type": "melee",
+        "name": "Pole Arm",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      },
+      "shield__02fe0b42": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "commandAttachmentPiggyback",
+      "grantedBulldoze",
+      "grantedRetaliatoryStrike",
+      "imperviousFlesh",
+      "shieldWall",
+      "snacking"
+    ]
+  },
+  "piggybacks": {
+    "name": "Piggybacks",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Unit"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20piggybacks.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 11,
+      "armour": 14
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "poleArm__ea06d930": {
+        "type": "melee",
+        "name": "Pole Arm",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "brutalCharge"
+        ]
+      },
+      "shield__02fe0b42": {
+        "type": "melee",
+        "name": "Shield",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 9
+        }
+      }
+    },
+    "abilities": [
+      "imperviousFlesh",
+      "shieldWall",
+      "snacking"
+    ]
+  },
+  "primalArchon": {
+    "name": "Primal Archon",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Circle",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20primal%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 8,
+      "defense": 12,
+      "armour": 19,
+      "health": 18
+    },
+    "advantages": [
+      "pathfinder",
+      "tough"
+    ],
+    "weapons": {
+      "horn": {
+        "type": "melee",
+        "name": "Horn",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 15
+        },
+        "abilities": [
+          "earthShaker"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "claw__23a97736": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 14
+        },
+        "quantity": 2,
+        "abilities": [
+          "beatBack",
+          "earthShaker"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedGrymkinLegionAndTrollbloods",
+      "divineManifestation",
+      "hyperRegeneration",
+      "realityAnchor",
+      "roilingEarth",
+      "sturdy"
+    ]
+  },
+  "rattler": {
+    "name": "Rattler",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Rattler.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "fury": 3,
+      "threshold": 7,
+      "health": {
+        "total": 22,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 2
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack"
+    ],
+    "weapons": {
+      "claw__301d1f1d": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "berserk__98095277",
+      "overtake"
+    ],
+    "spells": [
+      "slaughterhouse"
+    ]
+  },
+  "reinholdtGobberSpeculator": {
+    "name": "Reinholdt, Gobber Speculator",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Mercenary",
+      "Soldiers of Fortune",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20reinholdt%20gobber%20speculator.png",
+    "statistics": {
+      "speed": 7,
+      "defense": 15,
+      "armour": 10,
+      "health": 5
+    },
+    "abilities": [
+      "attached",
+      "mercenaryUnlimitedCygnarAndKhador",
+      "dodge",
+      "warcasterBenefits",
+      "luckyCharmAction",
+      "reloaderAction",
+      "spyglassAction"
+    ]
+  },
+  "skinMoans": {
+    "name": "Skin & Moans",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "4",
+    "points": 12,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Skin%20And%20Moans.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 16,
+      "fury": 4,
+      "threshold": 8,
+      "health": {
+        "total": 28,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 5
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 4
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack"
+    ],
+    "weapons": {
+      "butcherSBlade": {
+        "type": "melee",
+        "name": "Butcher's Blade",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 16
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "bodySnatcherHeartEater",
+      "deathFeast",
+      "deathPowered"
+    ],
+    "spells": [
+      "lurker"
+    ]
+  },
+  "slaughterhouse": {
+    "name": "Slaughterhouse",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Grymkin",
+      "Gargantuan"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 26,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Slaughterhouse.png",
+    "statistics": {
+      "speed": 5,
+      "meleeAttack": 6,
+      "rangedAttack": 5,
+      "defense": 7,
+      "armour": 20,
+      "fury": 4,
+      "health": {
+        "total": 58,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 8
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 11
+            },
+            {
+              "boxes": 9
+            },
+            {
+              "boxes": 13
+            },
+            {
+              "boxes": 11
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "construct",
+      "dualAttack",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "porchLight": {
+        "type": "ranged",
+        "name": "Porch Light",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 12,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "abilities": [
+          "intoTheLight"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "frontDoor": {
+        "type": "melee",
+        "name": "Front Door",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 21
+        },
+        "abilities": [
+          "consume"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "treeLimb": {
+        "type": "melee",
+        "name": "Tree Limb",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 3,
+          "power": 19
+        },
+        "quantity": 2,
+        "abilities": [
+          "intoTheLight"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "throwPowerAttack"
+        ]
+      }
+    },
+    "abilities": [
+      "bulldoze",
+      "escapees__607b238d",
+      "otherworldlyEntity",
+      "snacking"
+    ],
+    "spells": [
+      "undergrowth"
+    ]
+  },
+  "targ": {
+    "name": "Targ",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Farrow",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 2,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/TA_Targ.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 4,
+      "defense": 13,
+      "armour": 14,
+      "health": 5
+    },
+    "advantages": [
+      "tough"
+    ],
+    "weapons": {
+      "butchersKnife": {
+        "type": "melee",
+        "name": "Butchers Knife",
+        "statistics": {
+          "meleeAttack": 4,
+          "range": 1,
+          "power": 10
+        }
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleLegionSkorneAndTrollbloods__68286c96",
+      "attached__737641fc",
+      "arcaneAssist",
+      "repairD6Action__c26272a1",
+      "ancillaryAttackAction__69fabdc4"
+    ]
+  },
+  "thamariteArchon": {
+    "name": "Thamarite Archon",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 7,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20thamarite%20archon.png",
+    "statistics": {
+      "speed": 7,
+      "rangedAttack": 7,
+      "defense": 16,
+      "armour": 17,
+      "health": 10
+    },
+    "advantages": [
+      "flight",
+      "unstopable"
+    ],
+    "weapons": {
+      "murmer": {
+        "type": "ranged",
+        "name": "Murmer",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 12,
+          "rateOfFire": 2,
+          "power": 14
+        },
+        "abilities": [
+          "attackType",
+          "deathlyDomination",
+          "eruptionOfAsh__58ae190f",
+          "thamarsTeeth"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCygnarAndKhador",
+      "animosityMenite",
+      "belovedOfThamar",
+      "divineManifestation",
+      "dodge",
+      "trueSight"
+    ]
+  },
+  "theBloodyParliament": {
+    "name": "The Bloody Parliament",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 9,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Character%20Murder%20Crow%20Unit.png",
+    "statistics": {
+      "speed": 7,
+      "arcaneAttack": 6,
+      "meleeAttack": 6,
+      "defense": 15,
+      "armour": 12
+    },
+    "advantages": [
+      "advanceDeployment",
+      "ambush",
+      "stealth",
+      "pathfinder"
+    ],
+    "weapons": {
+      "perrifyingClaws": {
+        "type": "melee",
+        "name": "Perrifying Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "petrified"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "agonizingClaws": {
+        "type": "melee",
+        "name": "Agonizing Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "abilities": [
+          "greedBound"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "prey",
+      "magicAbility",
+      "darkSeductionAttack",
+      "aFateWorseThanDeathAction",
+      "shadowWalk",
+      "wagesOfDeath",
+      "noEscape"
+    ]
+  },
+  "theChild": {
+    "name": "The Child",
+    "faction": "grymkin",
+    "type": "warlock",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/The%20Child.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 8,
+      "defense": 13,
+      "armour": 17,
+      "controlRange": 14,
+      "health": 18
+    },
+    "weapons": {
+      "claw__70c6c706": {
+        "type": "melee",
+        "name": "Claw",
+        "statistics": {
+          "meleeAttack": 8,
+          "range": 1,
+          "power": 16
+        },
+        "quantity": 2,
+        "abilities": [
+          "criticalPitch"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "arcanaInfused",
+      "bulldoze",
+      "fieldMarshalPainResponse",
+      "outrage",
+      "retaliatoryStrike"
+    ],
+    "spells": [
+      "abuse",
+      "awakenedSpirit",
+      "discordance",
+      "forceHammer",
+      "tantrum"
+    ]
+  },
+  "theDreamer": {
+    "name": "The Dreamer",
+    "faction": "grymkin",
+    "type": "warlock",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/The%20Dreamer.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 14,
+      "controlRange": 14,
+      "health": 15
+    },
+    "weapons": {
+      "callToSleep": {
+        "type": "ranged",
+        "name": "Call to Sleep",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": 10,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "reload1",
+          "sleepwalker"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      }
+    },
+    "abilities": [
+      "arcanaInfused",
+      "dreamState",
+      "futureSight",
+      "hatTrick"
+    ],
+    "spells": [
+      "abyssalGate",
+      "artificeOfDeviation",
+      "enfeeble",
+      "manifestDestiny",
+      "mirage"
+    ]
+  },
+  "theFourHorseymans": {
+    "name": "The Four Horseymans",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/4%20horses.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 6,
+      "defense": 13,
+      "armour": 14,
+      "health": 4
+    },
+    "advantages": [
+      "cavalry",
+      "unstopable"
+    ],
+    "weapons": {
+      "lance": {
+        "type": "melee",
+        "name": "Lance",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 9
+        },
+        "abilities": [
+          "armorPiercing"
+        ]
+      }
+    },
+    "abilities": [
+      "ancientShroud",
+      "relentlessCharge",
+      "reposition3",
+      "theEndOfAllThings",
+      "entropicForce",
+      "famine",
+      "pestilence",
+      "warpStrength"
+    ]
+  },
+  "theHeretic": {
+    "name": "The Heretic",
+    "faction": "grymkin",
+    "type": "warlock",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/The%20Heretic.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 7,
+      "defense": 15,
+      "armour": 15,
+      "controlRange": 16,
+      "health": 17
+    },
+    "weapons": {
+      "execrator": {
+        "type": "melee",
+        "name": "Execrator",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 2,
+          "power": 13
+        },
+        "abilities": [
+          "dispel",
+          "guided"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "arcanaInfused",
+      "divinity",
+      "godlikePower",
+      "sacredWard"
+    ],
+    "spells": [
+      "enfeeble",
+      "gallows",
+      "hexBlast",
+      "ignite",
+      "wallOfFire"
+    ]
+  },
+  "theKingOfNothing": {
+    "name": "The King of Nothing",
+    "faction": "grymkin",
+    "type": "warlock",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/The%20King%20of%20Nothing.png",
+    "statistics": {
+      "speed": 5,
+      "arcaneAttack": 8,
+      "arcana": 8,
+      "defense": 14,
+      "armour": 14,
+      "controlRange": 16,
+      "health": 14
+    },
+    "abilities": [
+      "arcanaInfused",
+      "darkRituals__c58cd6b0",
+      "kingdomOfSilence",
+      "masterOfRuinAction"
+    ],
+    "spells": [
+      "ashesToAshes",
+      "burningAsh",
+      "deathToDust",
+      "ghostWalk",
+      "sandsOfFate",
+      "scythingTouch",
+      "breathStealer"
+    ]
+  },
+  "theWanderer": {
+    "name": "The Wanderer",
+    "faction": "grymkin",
+    "type": "warlock",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/The%20Wanderer.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "arcana": 6,
+      "meleeAttack": 5,
+      "rangedAttack": 7,
+      "defense": 15,
+      "armour": 14,
+      "controlRange": 12,
+      "health": 16
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "weapons": {
+      "lanternsLight": {
+        "type": "ranged",
+        "name": "Lantern’s Light",
+        "statistics": {
+          "rangedAttack": 7,
+          "range": "SP 8",
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "beacon",
+          "flare"
+        ]
+      },
+      "lantern": {
+        "type": "melee",
+        "name": "Lantern",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 11
+        },
+        "abilities": [
+          "flare"
+        ],
+        "qualities": [
+          "continuousEffectFire",
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "arcanaInfused",
+      "attunedSpirit",
+      "crossroads",
+      "hiddenPaths"
+    ],
+    "spells": [
+      "fogOfWar",
+      "repudiate",
+      "starCrossed",
+      "veilOfMists"
+    ]
+  },
+  "theWastelander": {
+    "name": "The Wastelander",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Thornfall Alliance",
+      "Efaarit",
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20minions%20the%20wastelander.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 13,
+      "health": 5
+    },
+    "advantages": [
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "mekitana": {
+        "type": "melee",
+        "name": "Mekitana",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "decapitation"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCircleGrymkinLegionSkorneAndTrollbloods",
+      "bladeShield",
+      "deflect",
+      "sprint",
+      "takeABullet"
+    ]
+  },
+  "trapperkin": {
+    "name": "Trapperkin",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20trapperkin.png",
+    "statistics": {
+      "speed": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 11,
+      "health": 5
+    },
+    "advantages": [
+      "advanceDeployment",
+      "pathfinder"
+    ],
+    "weapons": {
+      "claws__1f038033": {
+        "type": "melee",
+        "name": "Claws",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 11
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "dodge",
+      "sprint",
+      "trapDoorAction"
+    ]
+  },
+  "twilightSisters": {
+    "name": "Twilight Sisters",
+    "faction": "grymkin",
+    "type": "unit",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 6,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20grymkin%20twilight%20sisters.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 6,
+      "meleeAttack": 7,
+      "defense": 14,
+      "armour": 12
+    },
+    "advantages": [
+      "pathfinder"
+    ],
+    "weapons": {
+      "witchSBlade": {
+        "type": "melee",
+        "name": "Witch's Blade",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 10
+        },
+        "abilities": [
+          "brutalCharge",
+          "grievousWounds"
+        ],
+        "qualities": [
+          "damageTypeMagical",
+          "weaponMaster"
+        ]
+      }
+    },
+    "abilities": [
+      "magicAbility",
+      "deathRattleAttack",
+      "grimReturnsAction",
+      "healD31Action__acef6735",
+      "prowl",
+      "forceBarrier"
+    ],
+    "models": {
+      "heidrun1": {
+        "name": "Heidrun 1",
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 6,
+          "meleeAttack": 7,
+          "defense": 14,
+          "armour": 12
+        },
+        "advantages": [
+          "pathfinder"
+        ],
+        "abilities": [
+          "magicAbility",
+          "deathRattleAttack",
+          "grimReturnsAction",
+          "healD31Action__acef6735",
+          "prowl",
+          "forceBarrier"
+        ],
+        "weapons": {
+          "witchSBlade": {
+            "type": "melee",
+            "name": "Witch's Blade",
+            "statistics": {
+              "meleeAttack": 7,
+              "range": 1,
+              "power": 10
+            },
+            "abilities": [
+              "brutalCharge",
+              "grievousWounds"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "weaponMaster"
+            ]
+          }
+        }
+      },
+      "agrona1": {
+        "name": "Agrona 1",
+        "statistics": {
+          "speed": 6,
+          "arcaneAttack": 7,
+          "meleeAttack": 6,
+          "defense": 14,
+          "armour": 12
+        },
+        "advantages": [
+          "pathfinder"
+        ],
+        "abilities": [
+          "magicAbility",
+          "deathRattleAttack",
+          "grimReturnsAction",
+          "healD31Action__acef6735",
+          "prowl",
+          "forceBarrier"
+        ],
+        "weapons": {
+          "witchSBlade": {
+            "type": "melee",
+            "name": "Witch's Blade",
+            "statistics": {
+              "meleeAttack": 6,
+              "range": 1,
+              "power": 10
+            },
+            "abilities": [
+              "brutalCharge",
+              "grievousWounds"
+            ],
+            "qualities": [
+              "damageTypeMagical",
+              "weaponMaster"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "voidArchon": {
+    "name": "Void Archon",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 8,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20void%20archon.png",
+    "statistics": {
+      "speed": 6,
+      "meleeAttack": 7,
+      "rangedAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "controlRange": 10,
+      "health": 12
+    },
+    "advantages": [
+      "dualAttack",
+      "flight"
+    ],
+    "weapons": {
+      "voidHowler": {
+        "type": "ranged",
+        "name": "Void Howler",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": "10 SP",
+          "rateOfFire": 1,
+          "power": 14
+        },
+        "qualities": [
+          "damageTypeMagical",
+          "pistol"
+        ]
+      },
+      "voidTouch": {
+        "type": "melee",
+        "name": "Void Touch",
+        "statistics": {
+          "meleeAttack": 7,
+          "range": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedConvergenceCryxRetributionAndSkorne",
+      "darkShroud",
+      "divineManifestation",
+      "entropicForce__d5706932",
+      "soulTakerSpectralScavenger",
+      "soulPhase__eb1eecb3",
+      "strengthOfDeath",
+      "soulWard",
+      "voidWalk"
+    ]
+  },
+  "warBoarMMD47": {
+    "name": "War Boar MMD47",
+    "faction": "grymkin",
+    "type": "warbeast",
+    "keywords": [
+      "Mercenary",
+      "Farrow",
+      "Super Heavy Warbeast"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20war%20boar%20mmd47.png",
+    "statistics": {
+      "speed": 4,
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 10,
+      "armour": 19,
+      "fury": 5,
+      "threshold": 8,
+      "health": {
+        "total": 35,
+        "layout": "spiral",
+        "grid": {
+          "columns": [
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            },
+            {
+              "boxes": 10
+            },
+            {
+              "boxes": 7
+            },
+            {
+              "boxes": 6
+            },
+            {
+              "boxes": 3
+            }
+          ]
+        }
+      }
+    },
+    "advantages": [
+      "dualAttack",
+      "gladiator",
+      "headbuttPowerAttack",
+      "slamPowerAttack",
+      "tramplePowerAttack",
+      "unstopable",
+      "eyelessSight"
+    ],
+    "weapons": {
+      "volleyCannon": {
+        "type": "ranged",
+        "name": "Volley Cannon",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 10,
+          "rateOfFire": 1,
+          "power": 13
+        },
+        "quantity": 2,
+        "abilities": [
+          "volumeFire",
+          "forcedReload1"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "chainTusks": {
+        "type": "melee",
+        "name": "Chain Tusks",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 18
+        },
+        "abilities": [
+          "criticalShred"
+        ]
+      }
+    },
+    "abilities": [
+      "companionCarverUltimus",
+      "bulldoze",
+      "exhaustFumes",
+      "fullBoar"
+    ],
+    "spells": [
+      "recoil"
+    ]
+  },
+  "weirdWendellGremlinWrangler": {
+    "name": "Weird Wendell, Gremlin Wrangler",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 4,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20weird%20wendell%20gremlin%20wrangler.png",
+    "statistics": {
+      "speed": 6,
+      "rangedAttack": 5,
+      "defense": 14,
+      "armour": 11,
+      "health": 5
+    },
+    "weapons": {
+      "slingshot": {
+        "type": "ranged",
+        "name": "Slingshot",
+        "statistics": {
+          "rangedAttack": 5,
+          "range": 8,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "dispel",
+          "grievousWounds",
+          "luck"
+        ],
+        "qualities": [
+          "disruption"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryUnlimitedCrucibleGuardCygnarAndKhador__51d290cb",
+      "dodge",
+      "escapees",
+      "practicedShot"
+    ]
+  },
+  "witchwood": {
+    "name": "Witchwood",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "2",
+    "points": 3,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Witchwood.png",
+    "statistics": {
+      "meleeAttack": 6,
+      "rangedAttack": 6,
+      "defense": 5,
+      "armour": 18,
+      "health": 8
+    },
+    "advantages": [
+      "advanceDeployment",
+      "dualAttack"
+    ],
+    "weapons": {
+      "sirensCall": {
+        "type": "ranged",
+        "name": "Siren’s Call",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 8,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "drag"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "swipe": {
+        "type": "melee",
+        "name": "Swipe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 15
+        },
+        "quantity": 2
+      }
+    },
+    "abilities": [
+      "hunter",
+      "immovable",
+      "prowl",
+      "strangeGrowth"
+    ]
+  },
+  "zacchaeusTheWintersChill": {
+    "name": "Zacchaeus, The Winter’s Chill",
+    "faction": "grymkin",
+    "type": "solo",
+    "keywords": [
+      "Solo",
+      "Mercenary",
+      "Grymkin"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 5,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/portrait%20mercenary%20zaccheus.png",
+    "statistics": {
+      "speed": 9,
+      "arcaneAttack": 7,
+      "meleeAttack": 6,
+      "defense": 14,
+      "armour": 17,
+      "health": 8
+    },
+    "advantages": [
+      "unstopable",
+      "pathfinder",
+      "resistanceCold",
+      "cavalry"
+    ],
+    "weapons": {
+      "bite__449586a9": {
+        "type": "melee",
+        "name": "Bite",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 1,
+          "power": 12
+        },
+        "abilities": [
+          "criticalFreeze"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      },
+      "frostScythe": {
+        "type": "melee",
+        "name": "Frost Scythe",
+        "statistics": {
+          "meleeAttack": 6,
+          "range": 2,
+          "power": 14
+        },
+        "abilities": [
+          "criticalFreeze"
+        ],
+        "qualities": [
+          "damageTypeMagical"
+        ]
+      }
+    },
+    "abilities": [
+      "mercenaryOldUmbreyWinterKorpsAndShadowflameShard",
+      "battleWizard",
+      "cleave",
+      "magicAbility__0cffaca0",
+      "breathTakerAction",
+      "hoarfrostAttack",
+      "winterStormAction",
+      "reposition3"
+    ]
+  },
+  "zevannaAghaTheFateKeeper": {
+    "name": "Zevanna Agha, The Fate Keeper",
+    "faction": "grymkin",
+    "type": "warlock",
+    "keywords": [
+      "Grymkin",
+      "Battle Engine"
+    ],
+    "armies": [
+      "legacy"
+    ],
+    "fieldAllowance": "C",
+    "points": 0,
+    "portrait": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/portraits/Zevanna%20Agha.png",
+    "statistics": {
+      "speed": 6,
+      "arcaneAttack": 7,
+      "arcana": 7,
+      "meleeAttack": 5,
+      "rangedAttack": 6,
+      "defense": 12,
+      "armour": 19,
+      "controlRange": 14,
+      "health": 20
+    },
+    "advantages": [
+      "dualAttack",
+      "pathfinder",
+      "unstopable"
+    ],
+    "weapons": {
+      "carrionCrows": {
+        "type": "ranged",
+        "name": "Carrion Crows",
+        "statistics": {
+          "rangedAttack": 6,
+          "range": 12,
+          "rateOfFire": 1
+        },
+        "abilities": [
+          "blackWings"
+        ],
+        "qualities": [
+          "pistol"
+        ]
+      },
+      "stomp": {
+        "type": "melee",
+        "name": "Stomp",
+        "statistics": {
+          "meleeAttack": 5,
+          "range": 2,
+          "power": 15
+        }
+      }
+    },
+    "abilities": [
+      "arcanaInfused",
+      "arcaneMachinery",
+      "divinator",
+      "hellhole",
+      "repairable"
+    ],
+    "spells": [
+      "boundlessCharge",
+      "curseOfShadows",
+      "reconstruct",
+      "scourge",
+      "windstorm"
+    ]
+  }
+}

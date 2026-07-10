@@ -1,92 +1,92 @@
 {
-  "blessed": {
-    "name": "Blessed",
-    "rules": "Attacks with this weapon ignore bonuses from spells, including animi, that add to a model's ARM or DEF.",
-    "icon": ""
-  },
-  "buckler": {
-    "name": "Buckler",
-    "rules": "This weapon has an integral buckler that gives the model +1 ARM bonus. For example, a model with two of them gains a bonus of +2 arm. A model does not gain this bonus while the weapon system with the buckler is crippled.",
-    "icon": ""
-  },
-  "chainWeapon": {
-    "name": "Chain Weapon",
-    "rules": "Attacks with this weapon ignore the {buckler} and {shield} weapon qualities and {shieldWall} ARM bonus.",
-    "icon": ""
-  },
-  "continuousEffectCorrosion": {
-    "name": "Continuous Effect: Corrosion",
-    "rules": "A model hit by this attack suffers the Corrosion continuous effect.",
-    "icon": ""
-  },
-  "continuousEffectFire": {
-    "name": "Continuous Effect: Fire",
-    "rules": "A model hit by this attack suffers the Fire continuous effect.",
-    "icon": ""
-  },
-  "criticalCorrosion": {
-    "name": "Critical Corrosion",
-    "rules": "On a {criticalHit}, the model hit by this attack suffers the Corrosion continuous effect.",
-    "icon": ""
-  },
-  "criticalDisruption": {
-    "name": "Critical Disruption",
-    "rules": "On a {criticalHit} on a warjack, the warjack suffers {disruption}.",
-    "icon": ""
-  },
-  "criticalFire": {
-    "name": "Critical Fire",
-    "rules": "On a {criticalHit}, the model hit by this attack suffers the Fire continuous effect.",
-    "icon": ""
-  },
-  "damageTypeCold": {
-    "name": "Damage Type: Cold",
-    "rules": "This weapon causes cold damage.",
-    "icon": ""
-  },
-  "damageTypeCorrosion": {
-    "name": "Damage Type: Corrosion",
-    "rules": "This weapon causes corrosion damage.",
-    "icon": ""
-  },
-  "damageTypeElectricity": {
-    "name": "Damage Type: Electricity",
-    "rules": "This weapon causes electrical damage.",
-    "icon": ""
-  },
-  "damageTypeFire": {
-    "name": "Damage Type: Fire",
-    "rules": "This weapon causes fire damage.",
-    "icon": ""
+  "pistol": {
+    "name": "Pistol",
+    "rules": "A model making an attack with this weapon targeting a model it is in melee with ignores the Target in Melee bonus when resolving this attack.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20pistol%20weapon.png"
   },
   "damageTypeMagical": {
     "name": "Damage Type: Magical",
     "rules": "This weapon causes magical damage.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20dam%20type%20magical.png"
   },
-  "disruption": {
-    "name": "Disruption",
-    "rules": "A warjack suffering Disruption loses its focus points and cannot channel spells or gain focus by any means, including by being allocated focus, for one round.",
-    "icon": ""
+  "continuousEffectFire": {
+    "name": "Continuous Effect: Fire",
+    "rules": "A model hit by this attack suffers the Fire continuous effect.\n\nA model hit by this attack suffers the Fire continuous effect , which sets it on fire. A model on fire suffers a POW 12 fire damage roll each turn during its controller’s Maintenance Phase until the continuous effect expires. Models with Resistance: Fire never suffer this continuous effect.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20cont%20eff%20fire.png"
   },
-  "pistol": {
-    "name": "Pistol",
-    "rules": "A model making an attack with this weapon targeting model it is in melee with ignores the {targetInMelee} bonus when resolving this attack.",
-    "icon": ""
+  "damageTypeFire": {
+    "name": "Damage Type: Fire",
+    "rules": "This weapon causes fire damage.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20dam%20type%20fire.png"
   },
-  "shield": {
-    "name": "Shield",
-    "rules": "This weapon is a shield that gives the model a cumulative +2 ARM bonus. For example, a model with two Shield weapons gains a bonus of +4 ARM. A model does not gain this bonus while the weapon system with the shield is crippled.",
-    "icon": ""
+  "chainWeapon": {
+    "name": "Chain Weapon",
+    "rules": "Attacks with this weapon ignore the Buckler and Shield weapon qualities and Shield Wall ARM bonus.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20chain%20weapon.png"
   },
   "throwPowerAttack": {
     "name": "Throw Power Attack",
     "rules": "This weapon can be used to make throw power attacks.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20open%20fist.png"
+  },
+  "shield": {
+    "name": "Shield",
+    "rules": "This weapon is a shield that gives the model a cumulative +2 ARM bonus; for example, a model with two of them gains a bonus of +4 ARM. A model does not gain this bonus while the weapon system with the shield is crippled.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20shield.png"
+  },
+  "blessed": {
+    "name": "Blessed",
+    "rules": "Attacks with this weapon ignore bonuses from spells, including animi, that add to a model’s ARM or DEF.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20blessed.png"
+  },
+  "buckler": {
+    "name": "Buckler",
+    "rules": "This weapon has an integral buckler that gives the model a cumulative +1 ARM bonus; for example, a model with two of them gains a bonus of +2 ARM. A model does not gain this bonus while the weapon system with the buckler is crippled.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20buckler.png"
   },
   "weaponMaster": {
     "name": "Weapon Master",
     "rules": "When resolving an attack with this weapon, add an additional die to damage rolls.",
-    "icon": ""
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20weapon%20master.png"
+  },
+  "criticalFire": {
+    "name": "Critical Fire",
+    "rules": "On a critical hit, the model hit suffers the Fire continuous effect.\n\nOn a critical hit, the model hit by this attack suffers the Fire continuous effect.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20crit%20fire.png"
+  },
+  "continuousEffectCorrosion": {
+    "name": "Continuous Effect: Corrosion",
+    "rules": "A model hit by this attack suffers the Corrosion continuous effect.\n\nA model hit by this attack suffers the Corrosion continuous effect, which slowly erodes its target. Corrosion does 1 point of corrosion damage each turn to the affected model during its controller’s Maintenance Phase until it expires. Models with Resistance: Corrosion never suffer this continuous effect.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20cont%20eff%20corrosion.png"
+  },
+  "damageTypeCorrosion": {
+    "name": "Damage Type: Corrosion",
+    "rules": "This weapon causes corrosion damage.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20dam%20type%20corrosion.png"
+  },
+  "damageTypeElectricity": {
+    "name": "Damage Type: Electricity",
+    "rules": "This weapon causes electrical damage.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20dam%20type%20electricity.png"
+  },
+  "criticalDisruption": {
+    "name": "Critical Disruption",
+    "rules": "On a critical hit on a warjack, the warjack suffers Disruption. A warjack suffering Disruption loses its focus points and cannot channel spells or gain focus by any means, including by being allocated focus, for one round.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20crit%20disruption.png"
+  },
+  "disruption": {
+    "name": "Disruption",
+    "rules": "A warjack hit by this attack loses its focus points and cannot channel spells or gain focus by any means, including by being allocated focus, for one round.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20disruption.png"
+  },
+  "damageTypeCold": {
+    "name": "Damage Type: Cold",
+    "rules": "This weapon causes cold damage.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20dam%20type%20cold.png"
+  },
+  "criticalCorrosion": {
+    "name": "Critical Corrosion",
+    "rules": "On a critical hit, the model hit by this attack suffers the Corrosion continuous effect.\n\nOn a critical hit, the model hit suffers the Corrosion continuous effect.",
+    "icon": "https://raw.githubusercontent.com/isorna/wardice-warmachine-data/refs/heads/main/mk4/media/icons/weapon%20qual%20crit%20corrosion.png"
   }
 }

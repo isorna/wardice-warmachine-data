@@ -118,3 +118,27 @@ When changing faction codes, icons, or accent classes, verify both apps:
 
 - `wardice-hud`
 - `wardice-hud-admin`
+
+## Warmachine App publications extractor
+
+The standalone extractor rebuilds the Warmachine App library as JSON suitable for a web client. It merges the extracted `data core.json` catalog with every available `data library*.json` bundle, resolves publication → chapter → article → segment references, preserves localized arrays and rich text, and copies cached publication media.
+
+```powershell
+node scripts/extract-warmachine-publications.mjs
+```
+
+Defaults:
+
+- input bundles: `output/warmachine-app/bundles`
+- app media: `%USERPROFILE%/AppData/LocalLow/Privateer Press/Warmachine App/public-20/Media/Publications`
+- output: `output/warmachine-app/publications`
+
+Output:
+
+- `catalog.json`: lightweight categories and publication summaries
+- `publications/*.json`: resolved publication trees
+- `media/`: locally cached publication images
+- `media-manifest.json`: size and SHA-256 for copied assets
+- `extraction-report.json`: counts and unresolved references
+
+Use `--input`, `--input-dir`, `--media-root`, `--output`, `--no-copy-media`, or `--quiet` to override the defaults. A non-zero unresolved-reference count means the corresponding `data library*.bundle` has not yet been downloaded and extracted; the catalog remains usable and marks missing nodes explicitly. `requiresSubscription` is preserved for every publication.
